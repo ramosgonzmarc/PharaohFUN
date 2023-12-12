@@ -337,7 +337,7 @@ ui <- dashboardPage(
                   fluidRow(
                     column(5, textInput("geneInt1", label = "", 
                                         width = "100%", placeholder = "AT2G46830")),
-                    #column(1, div( style = "margin-top: 20px;", actionButton("run", "Run", icon = icon("magnifying-glass")))))
+                   
                     column(1, div( style = "margin-top: 20px;", 
                                    shinyWidgets::actionBttn("run_button1", "Run", size = "sm", icon = icon("magnifying-glass"),
                                                             style = "float", color = "primary"))),
@@ -373,19 +373,23 @@ ui <- dashboardPage(
                                                        tags$div(id = "download_tree_seqs1"))
                                            ),
                                   tabPanel("Expansion/Contraction",
-                                           fluidRow(br()),
-                                           fluidRow(
-                                             fluidRow(uiOutput(outputId = "pre_cafe_start1"))
-                                             #actionButton(inputId = "cafe_start1",
-                                              #            label = "Show Orthogroup Evolution", icon("send"))
+                                            fluidRow(tags$br()),
+                                            shinyWidgets::actionBttn("cafe_start1", "Show Evolutionary History",
+                                                                    size = "sm", icon = icon("magnifying-glass"),
+                                                                    style = "float", color = "primary"),
+                                           fluidRow(tags$br()),
+                                          
+                                           shinyjs::hidden(div(id='loading.cafe1', h3('Please be patient, reconstructing expansion/contraction events ...'))),
+                                           #uiOutput(outputId = "error_cafe1"),
+                                           tags$div(id = "error_cafe1"),
+                                           tags$div(id = "box_cafe1"),
+                                           tags$br(),
+                                           tags$div(id = "box_mrca1"),
+                                           fluidRow(tags$br()),
+                                           # # splitLayout(cellWidths = c("50%", "50%"),
+                                           # #             tags$div(id = "pfam_down_button1"),
+                                           # #             tags$div(id = "download_ui_for_pfam_table1"))
                                            ),
-                                           conditionalPanel(condition = "input.cafe_start1",
-                                           fluidRow(br()),
-                                           uiOutput(outputId = "error_cafe1"),
-                                           fluidRow(uiOutput(outputId = "box_mrca1")),
-                                           fluidRow(br()),
-                                           fluidRow(uiOutput(outputId = "box_cafe1"))
-                                           )),
                                   tabPanel("PFAM Domains", 
                                            fluidRow(tags$br()),
                                            shinyWidgets::actionBttn("pfam_start1", "Show Gene Selection for Pfam",
@@ -587,21 +591,6 @@ ui <- dashboardPage(
                                shinyWidgets::materialSwitch(inputId = "switch2", label = "Global", 
                                                             value = T, status = "success", inline = TRUE),
                                span("Viridiplantae")))
-                  # column(3, 
-                  #        fluidRow(
-                  #          br(),
-                  #          br(),
-                  #          br(),
-                  #          div(style = "margin-top: 43px; margin-left:30px;",
-                  #              shinyWidgets::materialSwitch(inputId = "switch2", label = "Global", 
-                  #                                           value = T, status = "success", inline = TRUE),
-                  #              span("Viridiplantae")),
-                  #          
-                  #          div( style = "margin-top: 40px; margin-left:30px;", 
-                  #               shinyWidgets::actionBttn("run_button2", "Run", size = "sm", icon = icon("magnifying-glass"),
-                  #                                        style = "float", color = "success"))
-                  #          
-                  #        ))
                   )
                 ),
               
@@ -1153,6 +1142,8 @@ server <- function(input, output) {
   # Set global variables for tracking changes in output
   UI_exist_pfam1 <<- F
   UI_exist_tree1 <<- F
+  UI_exist_cafe1 <<- F
+  UI_exist_error_cafe1 <<- F
   
   # Activate a global wrapper for reactivity when the action button of the
   # gene search panel is activated. Every result of this panel will be 
@@ -3477,18 +3468,15 @@ server <- function(input, output) {
          contentType="image/png", width=1000,height=500)
   }, deleteFile = T)
 
-  # Create tree output #########################################################MIRAR QUE ESTÁ FUERA DEL RESTO, CAMBIAR
-
- image_height <- function(){300 + 11*length(tree_reduced1()$tip.label)}
- image_width <- function(){200 + 400*max(tree_reduced1()$edge.length)}
-
  # Download results
   output$downloadTree1 <- downloadHandler(
     filename= function() {
       paste("tree", ".png", sep="")
     },
     content= function(file) {
-      png(file, height = image_height(), width = image_width())
+      image_height <- 300 + 11*length(tree_reduced1()$tip.label)
+      image_width <- 200 + 400*max(tree_reduced1()$edge.length)
+      png(file, height = image_height, width = image_width)
       plot(tree_plot1())
       dev.off()
     })
@@ -3835,6 +3823,338 @@ server <- function(input, output) {
                   file=file,row.names=FALSE,col.names=TRUE)
     })
   
+  
+####################### CAFE #################################
+  
+  # Remove previous outputs when updated by a new search
+  observeEvent(input$run_button1, {
+    if (UI_exist_cafe1)
+    {
+      removeUI(
+        selector = "div:has(>> #cafe_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+
+      removeUI(
+        selector = "div:has(>> #cafe_mrca1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+
+      UI_exist_cafe1 <<- F
+    }
+    
+    if (UI_exist_error_cafe1)
+    {
+      removeUI(
+        selector = "div:has(>> #cafe_error_message1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      UI_exist_error_cafe1 <<- F
+    }
+  })
+
+  ### CAFE parser and tree generator
+  evo_plot1 <- reactive({
+
+    shinyjs::showElement(id = 'loading.cafe1')
+
+    library(ape)
+
+    # Import OG name
+    og.cafe <- og.name1()
+
+    # Define path to CAFE trees file
+    cafe_comp_tree_file <- ifelse(model.selected1(), "pharaoh_folder/global_cafe.tre",
+                                  "pharaoh_folder/green_cafe.tre")
+
+    # Extract CAFE tree for current OG
+    cafe.tree.set <- ape::read.nexus(cafe_comp_tree_file)
+    cafe.tree <- cafe.tree.set[[og.cafe]]
+    
+    if (length(cafe.tree) < 1)
+    {
+      shinyjs::hideElement(id = 'loading.cafe1')
+      if (UI_exist_cafe1)
+      {
+        removeUI(
+          selector = "div:has(>> #cafe_plot1)",
+          multiple = TRUE,
+          immediate = TRUE
+        )
+        
+        removeUI(
+          selector = "div:has(>> #cafe_mrca1)",
+          multiple = TRUE,
+          immediate = TRUE
+        )
+      }
+      
+      UI_exist_cafe1 <<- F
+      
+      if(UI_exist_error_cafe1)
+      {
+        removeUI(
+          selector = "div:has(>> #cafe_error_message1)",
+          multiple = TRUE,
+          immediate = TRUE
+        )
+        
+      }
+        insertUI("#error_cafe1", "afterEnd", ui = {
+          box(width = 12,
+              title = "Image", status = "info", solidHeader = TRUE,
+              collapsible = TRUE,
+              textOutput("cafe_error_message1"))
+        })
+        
+        output$cafe_error_message1 <- renderText({print("No expansions/contraction detected for this orthogroup,
+                                                        or infeasible computation due to large size and variance across
+                                                        species.")})
+        UI_exist_error_cafe1 <<- T
+      
+      validate(need(length(cafe.tree) > 0 , ""))
+    }
+    
+    
+
+    # Show an error if the orthogroup is not significantly expanded/collapsed in any branch
+
+    model.node.number <- ifelse(model.selected1(), 46, 36)
+    total.model.node.number <- ifelse(model.selected1(), 91, 71)
+
+    node.count <- sapply(strsplit(cafe.tree$node.label, split = ">"), function(x) x[[2]])
+    node.count.clean <- gsub("[_]", "", node.count)
+
+    tip.count <- sapply(strsplit(cafe.tree$tip.label, split = ">"), function(x) x[[2]])
+    tip.count.clean <- gsub("[_]", "", tip.count)
+
+    # Identify parental node for significant changes to determine if a change
+    # corresponds to an expansion or to a contraction only if significant changes
+    # are detected
+
+    # Nodes with significant changes are labelled with a *
+    tip.sig <- grep("[*]", tip.count.clean)
+    node.sig <- grep("[*]", node.count.clean)
+
+    #Create a table with edges to identify parental nodes
+    edge_table <- as.data.frame(cafe.tree$edge)
+    rownames(edge_table) <- paste("edge", 1:nrow(edge_table), sep = "")
+    colnames(edge_table) <- c("parent", "child")
+
+    {
+      if (length(tip.sig) + length(node.sig) == 0)
+      {
+        change_vector <- rep("No significant changes", length(node.count.clean) + length(tip.count.clean))
+      }
+
+      else
+      {
+        # For tips
+        exp_cont_tip <- sapply(tip.sig, function(x)
+          if(as.numeric(gsub("[*]", "", node.count.clean[edge_table$parent[match(x, edge_table$child)]-model.node.number])) >
+             as.numeric(gsub("[*]", "", tip.count.clean[x]))) "Significant Contraction"
+          else "Significant Expansion"
+        )
+
+        # For nodes
+        exp_cont_nodes <- sapply(node.sig, function(x)
+          if(as.numeric(gsub("[*]", "", node.count.clean[edge_table$parent[match(x+model.node.number, edge_table$child)]-model.node.number])) >
+             as.numeric(gsub("[*]", "", node.count.clean[x]))) "Significant Contraction"
+          else "Significant Expansion"
+        )
+
+        # Create a sorted vector with change categories
+        change_vector <- rep("No significant changes", length(node.count.clean) + length(tip.count.clean))
+        change_vector[tip.sig] <- exp_cont_tip
+        change_vector[node.sig + model.node.number] <- exp_cont_nodes
+
+      }
+    }
+
+    # Merge tips and nodes reconstruction
+    cafe.count <- c(tip.count.clean, node.count.clean)
+
+    # Create phylogenomic tree with internal nodes names
+
+    mrca.tree <- read.tree(ifelse(model.selected1(), "pharaoh_folder/species_tree_global.txt",
+                                  "pharaoh_folder/species_tree_green.txt"))
+
+    node.names <- read.csv(ifelse(model.selected1(), "pharaoh_folder/tax_labels_global.tsv",
+                                  "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+
+    mrca.tree$node.label <- node.names$V2
+
+    # Create a timeline for a given OG
+
+    tree.name <- ifelse(model.selected1(),
+                        paste("Global_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"),
+                        paste("Green_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"))
+    tree.ancestor <- read.tree(tree.name)
+    tips.orgs1 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[1]])
+    tips.orgs2 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[2]])
+    tips.orgs <- paste(tips.orgs1, tips.orgs2, sep = "_")
+
+    mrca.id <- getMRCA(mrca.tree,unique(tips.orgs))
+    evo.paths <- c()
+    for (i in 1:length(unique(tips.orgs)))
+    {
+      evo.paths <- c(evo.paths, nodepath(mrca.tree, mrca.id, which(unique(tips.orgs)[i] == mrca.tree$tip.label)))
+    }
+
+    evo.paths <- unique(evo.paths)
+    evo.paths.id <- sapply(evo.paths, function(x) if (x <= model.node.number) mrca.tree$tip.label[x] else mrca.tree$node.label[x-model.node.number])
+
+
+    # Associate gray and 0 to reconstruction for nodes not in allowed paths
+    change_vector[setdiff(1:total.model.node.number, evo.paths)] <- "OG not present"
+    cafe.count[setdiff(1:total.model.node.number, evo.paths)] <- 0
+
+
+    color_cafe <- sapply(change_vector, function(x) if (x == "No significant changes") "black"
+                         else if (x == "Significant Expansion") "red" else if (x == "Significant Contraction") "blue"
+                         else "gray", USE.NAMES = F)
+
+    # Create tree representation
+    cafe.table.tips <- data.frame(node = 1:length(mrca.tree$tip.label), label = mrca.tree$tip.label,
+                                  col = color_cafe[1:length(mrca.tree$tip.label)], reconst = change_vector[1:length(mrca.tree$tip.label)],
+                                  dup_number = cafe.count[1:length(mrca.tree$tip.label)])
+
+    cafe.table.nodes <- data.frame(node = (model.node.number+1):(model.node.number+length(mrca.tree$node.label)), label = mrca.tree$node.label,
+                                   col = color_cafe[(model.node.number+1):(model.node.number+length(mrca.tree$node.label))],
+                                   reconst = change_vector[(model.node.number+1):(model.node.number+length(mrca.tree$node.label))],
+                                   dup_number = cafe.count[(model.node.number+1):(model.node.number+length(mrca.tree$node.label))])
+
+    cafe.table.node.comp <- rbind(cafe.table.tips, cafe.table.nodes)
+
+    d <- dplyr::mutate(cafe.table.node.comp)
+
+    library(ggtree)
+    library(ggplot2)
+
+    evo_plot <- ggtree(mrca.tree, layout = "ellipse") %<+% d + aes(colour = I(d$col)) +
+      geom_tiplab(aes(label=gsub("_", " ", tools::toTitleCase(d$label))), offset = 30) +
+      theme(legend.position = "none") +
+      xlim(0, max(mrca.tree$edge.length)*1.5) +
+      geom_nodepoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                     alpha = .75) +
+      scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
+      geom_tippoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                    alpha = .75)
+
+    return(evo_plot)
+
+  }) %>% bindEvent(input$cafe_start1)
+
+  evo.paths.id1 <- reactive({
+
+    # Create phylogenomic tree with internal nodes names
+    og.cafe <- og.name1()
+    model.node.number <- ifelse(model.selected1(), 46, 36)
+
+    mrca.tree <- read.tree(ifelse(model.selected1(), "pharaoh_folder/species_tree_global.txt",
+                                  "pharaoh_folder/species_tree_green.txt"))
+
+    node.names <- read.csv(ifelse(model.selected1(), "pharaoh_folder/tax_labels_global.tsv",
+                                  "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+
+    mrca.tree$node.label <- node.names$V2
+
+    # Create timeline
+    tree.name <- ifelse(model.selected1(),
+                        paste("Global_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"),
+                        paste("Green_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"))
+
+    tree.ancestor <- read.tree(tree.name)
+    tips.orgs1 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[1]])
+    tips.orgs2 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[2]])
+    tips.orgs <- paste(tips.orgs1, tips.orgs2, sep = "_")
+
+    mrca.id <- getMRCA(mrca.tree,unique(tips.orgs))
+    evo.paths <- c()
+    for (i in 1:length(unique(tips.orgs)))
+    {
+      evo.paths <- c(evo.paths, nodepath(mrca.tree, mrca.id, which(unique(tips.orgs)[i] == mrca.tree$tip.label)))
+    }
+
+    evo.paths <- unique(evo.paths)
+    evo.paths.id <- sapply(evo.paths, function(x) if (x <= model.node.number) mrca.tree$tip.label[x] else mrca.tree$node.label[x-model.node.number])
+    return(evo.paths.id)
+
+  }) %>% bindEvent(input$cafe_start1)
+
+  # Outputs
+
+  # Remove previous boxes if they exist and create new ones
+  observeEvent(isTruthy(evo_plot1()), {
+
+    if (UI_exist_cafe1)
+    {
+      removeUI(
+        selector = "div:has(>> #cafe_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+
+      removeUI(
+        selector = "div:has(>> #cafe_mrca1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+
+    }
+    
+    if (UI_exist_error_cafe1)
+    {
+      removeUI(
+        selector = "div:has(>> #cafe_error_message1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+    }
+    
+    
+
+    insertUI("#box_cafe1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          imageOutput("cafe_plot1", height = 500, width = 1000))
+    })
+
+    insertUI("#box_mrca1", "afterEnd", ui = {
+      box(width = 8,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          textOutput("cafe_mrca1")
+      )
+    })
+
+    UI_exist_cafe1 <<- TRUE
+    shinyjs::hideElement(id = 'loading.cafe1')
+  })
+
+ # Fill outputs
+
+  output$cafe_plot1 <- renderImage({
+        png("evo_plot1.png", height = 500, width = 1000)
+        plot(evo_plot1())
+        dev.off()
+
+        list(src = "evo_plot1.png",
+             contentType="image/png", width=1000,height=500)
+      }, deleteFile = T)
+
+  output$cafe_mrca1 <- renderText({
+        print(paste0("Most recent common ancestor for this orthogroup is the
+                   ancestor of the clade: ", evo.paths.id1()[1]))
+      })
+  
+  # Download tab's results
   
 
 # End of Gene ID-based search results
