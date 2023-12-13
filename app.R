@@ -380,15 +380,14 @@ ui <- dashboardPage(
                                            fluidRow(tags$br()),
                                           
                                            shinyjs::hidden(div(id='loading.cafe1', h3('Please be patient, reconstructing expansion/contraction events ...'))),
-                                           #uiOutput(outputId = "error_cafe1"),
                                            tags$div(id = "error_cafe1"),
-                                           tags$div(id = "box_cafe1"),
-                                           tags$br(),
                                            tags$div(id = "box_mrca1"),
+                                           tags$br(),
+                                           tags$div(id = "box_cafe1"),
                                            fluidRow(tags$br()),
-                                           # # splitLayout(cellWidths = c("50%", "50%"),
-                                           # #             tags$div(id = "pfam_down_button1"),
-                                           # #             tags$div(id = "download_ui_for_pfam_table1"))
+                                           splitLayout(cellWidths = c("50%", "50%"),
+                                           tags$div(id = "cafe_down_button1"),
+                                           tags$div(id = "download_ui_for_cafe_plot1"))
                                            ),
                                   tabPanel("PFAM Domains", 
                                            fluidRow(tags$br()),
@@ -3841,6 +3840,18 @@ server <- function(input, output) {
         multiple = TRUE,
         immediate = TRUE
       )
+      
+      removeUI(
+        selector = "div:has(>> #cafe_download1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadCAFEPlot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
 
       UI_exist_cafe1 <<- F
     }
@@ -3858,7 +3869,7 @@ server <- function(input, output) {
   })
 
   ### CAFE parser and tree generator
-  evo_plot1 <- reactive({
+  cafe_tree1 <- reactive({
 
     shinyjs::showElement(id = 'loading.cafe1')
 
@@ -3891,6 +3902,18 @@ server <- function(input, output) {
           multiple = TRUE,
           immediate = TRUE
         )
+        
+        removeUI(
+          selector = "div:has(>> #cafe_download1)",
+          multiple = TRUE,
+          immediate = TRUE
+        )
+        
+        removeUI(
+          selector = "div:has(>> #downloadCAFEPlot1)",
+          multiple = TRUE,
+          immediate = TRUE
+        )
       }
       
       UI_exist_cafe1 <<- F
@@ -3919,8 +3942,14 @@ server <- function(input, output) {
       validate(need(length(cafe.tree) > 0 , ""))
     }
     
-    
+    return(cafe.tree)
+  }) %>% bindEvent(input$cafe_start1)
 
+  evo_plot1 <- reactive({
+    
+    og.cafe <- og.name1()
+    cafe.tree <- cafe_tree1()
+    
     # Show an error if the orthogroup is not significantly expanded/collapsed in any branch
 
     model.node.number <- ifelse(model.selected1(), 46, 36)
@@ -4104,6 +4133,18 @@ server <- function(input, output) {
         multiple = TRUE,
         immediate = TRUE
       )
+      
+      removeUI(
+        selector = "div:has(>> #cafe_download1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadCAFEPlot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
 
     }
     
@@ -4117,8 +4158,6 @@ server <- function(input, output) {
       
     }
     
-    
-
     insertUI("#box_cafe1", "afterEnd", ui = {
       box(width = 12,
           title = "Image", status = "info", solidHeader = TRUE,
@@ -4132,6 +4171,16 @@ server <- function(input, output) {
           collapsible = TRUE,
           textOutput("cafe_mrca1")
       )
+    })
+    
+    insertUI("#cafe_down_button1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "cafe_download1", "Download NEWICK tree",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    insertUI("#download_ui_for_cafe_plot1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadCAFEPlot1", "Download Ancestral State Plot",
+                                                                         size = "sm", color = "primary"))
     })
 
     UI_exist_cafe1 <<- TRUE
@@ -4155,6 +4204,31 @@ server <- function(input, output) {
       })
   
   # Download tab's results
+  
+  output$cafe_download1 <- downloadHandler(
+    filename= function() {
+      paste("ancestral_newick", ".txt", sep="")
+    },
+    content= function(file) {
+      cafe_tree <- cafe_tree1()
+      
+      write.tree(cafe_tree, file)
+    })
+  
+  output$downloadCAFEPlot1<- downloadHandler(
+    filename= function() {
+      paste("ancestral_plot", ".png", sep="")
+    },
+    content= function(file) {
+      evo_plot <- evo_plot1()
+      
+      png(file)
+      plot(evo_plot)
+      dev.off()
+    })
+  
+  ####################### MSA #################################
+  
   
 
 # End of Gene ID-based search results
