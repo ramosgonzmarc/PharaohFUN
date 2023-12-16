@@ -9,7 +9,7 @@ library(gridlayout)
 library(DT)
 library(ape)
 #library(seqinr)
-
+library(msaR)
 # Functions
 
 
@@ -410,7 +410,24 @@ ui <- dashboardPage(
                                                       tags$div(id = "download_ui_for_pfam_table1")
                                                       )
                                            ),
-                                  tabPanel("Multiple Sequence Alignment", "Tab content 2"),
+                                  tabPanel("Multiple Sequence Alignment",
+                                           fluidRow(tags$br()),
+                                           shinyWidgets::actionBttn("msa_start1", "Show Gene Selection for Pfam",
+                                                                    size = "sm", icon = icon("magnifying-glass"),
+                                                                    style = "float", color = "primary"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "selected_msa1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "msa_selectionI1"),
+                                           fluidRow(tags$br()),
+                                           shinyjs::hidden(div(id='loading.msa1',h3('Please be patient, aligning sequences ...'))),
+                                           uiOutput(outputId = "error_msa1"),
+                                           tags$div(id = "box_msa1"),
+                                           fluidRow(tags$br()),
+                                           # splitLayout(cellWidths = c("50%", "50%"), 
+                                           #             tags$div(id = "pfam_down_button1"),
+                                           #             tags$div(id = "download_ui_for_pfam_table1"))
+                                           ),
                                   tabPanel("GO Terms", "First tab content"),
                                   tabPanel("KEGG Orthology", "Tab content 2"),
                                   tabPanel("STRING Interactions", "First tab content"),
@@ -1143,6 +1160,7 @@ server <- function(input, output) {
   UI_exist_tree1 <<- F
   UI_exist_cafe1 <<- F
   UI_exist_error_cafe1 <<- F
+  UI_exist_msa1 <<- F
   
   # Activate a global wrapper for reactivity when the action button of the
   # gene search panel is activated. Every result of this panel will be 
@@ -1681,7 +1699,7 @@ server <- function(input, output) {
   
     # Load orthogroup sequences file
     ortho.seq.name <- ifelse(model.selected1(),
-                        paste("Orthogroup_Sequences",paste(file.name, "fa", sep = "."), sep="/"),
+                        paste("Global_Orthogroup_Sequences",paste(file.name, "fa", sep = "."), sep="/"),
                         paste("Green_Orthogroup_Sequences",paste(file.name, "fa", sep = "."), sep="/"))
     
     ortho_seq <- seqinr::read.fasta(ortho.seq.name, seqtype = "AA")
@@ -4229,6 +4247,122 @@ server <- function(input, output) {
   
   ####################### MSA #################################
   
+  observeEvent(input$run_button1, {
+      removeUI(
+        selector = "div:has(>> #selected_msaI1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+    
+    removeUI("#msa_selection1")
+    
+    if (UI_exist_msa1)
+    {
+      removeUI(
+        selector = "div:has(>> #msa_print1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      UI_exist_msa1 <<- F
+    }
+    
+  })
+  
+  observeEvent(input$msa_start1, {
+    insertUI("#selected_msa1", "afterEnd", ui = {
+      
+      shinyWidgets::pickerInput("selected_msaI1","Select the desired genes from the tree to align",
+                                choices=isolate({tree_reduced1()$tip.label}), options = list(`actions-box` = TRUE),
+                                multiple = T, selected = isolate({input$geneInt1}))
+    })
+    
+    insertUI("#msa_selectionI1", "afterEnd", ui = {
+      
+      shinyWidgets::actionBttn("msa_selection1", "Align Sequences", size = "sm",
+                               style = "float", color = "primary")
+    })
+    
+  })
+  
+  alignseqs1 <- reactive({
+    
+    library(msa)
+    shinyjs::showElement(id = 'loading.msa1')
+    
+    selected_genes <- as.vector(input$selected_msaI1)
+    file.name <- og.name1()
+    
+    if (length(selected_genes) < 2)
+    {
+      shinyjs::hideElement(id = 'loading.msa1')
+      removeUI(
+        selector = "div:has(>> #msa_print1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      UI_exist_msa1 <<- F
+      output$error_msa1 <- renderUI({renderText({print("Please select at least two genes.")})})
+      validate(need(length(selected_genes) > 1, "Please select at least two genes."))
+    }
+    
+    output$error_msa1 <- NULL
+    
+    # Define path to orthogroup sequences file
+    ortho.seq.name <- ifelse(model.selected1(),
+                        paste("Global_Orthogroup_Sequences", paste(file.name, "fa", sep = "."), sep="/"),
+                        paste("Green_Orthogroup_Sequences", paste(file.name, "fa", sep = "."), sep="/"))
+    
+    
+    # Read orthogroup sequences file and select the genes for alignment
+    mySequences1 <- Biostrings::readAAStringSet(ortho.seq.name)
+    mysubseqs <- mySequences1[selected_genes]
+    
+    alignseqs <- msa(mysubseqs, verbose = F, method = "ClustalOmega")
+    
+    
+    detach("package:msa", unload=TRUE)
+    
+    return(alignseqs)
+    
+    }) %>% bindEvent(input$msa_selection1)
+  
+  # Create boxes for outputs
+  observeEvent(isTruthy(alignseqs1()), {
+    
+    if (UI_exist_msa1)
+    {
+      removeUI(
+        selector = "div:has(>> #msa_print1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+    }
+    
+    insertUI("#box_msa1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          #verbatimTextOutput("msa_print1")
+          msaROutput("msa_print1", width = "60%")
+      )
+    })
+    
+    UI_exist_msa1 <<- TRUE
+    shinyjs::hideElement(id = 'loading.msa1')
+  })
+  
+
+  # Outputs
+  output$msa_print1 <- renderMsaR({
+    alignseqs <- alignseqs1()
+    # class(alignseqs) <- "MsaAAMultipleAlignment"
+    # cat(msa::print(alignseqs, showConsensus=T, show="complete", 
+    #           halfNrow=ceiling(length(as.vector(input$selected_msaI1))/2)))
+    hola3 <- msa::msaConvert(alignseqs, "ape::AAbin")
+    msaR(hola3, menu=T, overviewbox = F,  colorscheme = "clustal")
+  })
   
 
 # End of Gene ID-based search results
