@@ -10,8 +10,9 @@ library(DT)
 library(ape)
 #library(seqinr)
 library(msaR)
-# Functions
 
+
+# Functions
 
 ## PFAM link
 ## https://www.ebi.ac.uk/interpro/entry/pfam/PF02728
@@ -27,6 +28,18 @@ pfam.link <- function(pfam.term)
   return(complete.link)
 }
 
+# Remove gaps from MAFFT Alignment
+remove_gaps <- function(multseq)
+{
+  matrix1 <- do.call(rbind, multseq)
+  bool <- apply(matrix1, MARGIN = 2, function(x) sum(x == "-") == nrow(matrix1))
+  indexes <- which(bool)
+  if(length(indexes) != 0)
+  {
+    multseq <- lapply(multseq, function(x) x[-indexes])
+  }
+  return(multseq)
+}
 
 # Create data frame
 
@@ -412,11 +425,13 @@ ui <- dashboardPage(
                                            ),
                                   tabPanel("Multiple Sequence Alignment",
                                            fluidRow(tags$br()),
-                                           shinyWidgets::actionBttn("msa_start1", "Show Gene Selection for Pfam",
+                                           shinyWidgets::actionBttn("msa_start1", "Show Gene Selection for MSA",
                                                                     size = "sm", icon = icon("magnifying-glass"),
                                                                     style = "float", color = "primary"),
                                            fluidRow(tags$br()),
                                            tags$div(id = "selected_msa1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "msa_method1"),
                                            fluidRow(tags$br()),
                                            tags$div(id = "msa_selectionI1"),
                                            fluidRow(tags$br()),
@@ -424,9 +439,9 @@ ui <- dashboardPage(
                                            uiOutput(outputId = "error_msa1"),
                                            tags$div(id = "box_msa1"),
                                            fluidRow(tags$br()),
-                                           # splitLayout(cellWidths = c("50%", "50%"), 
-                                           #             tags$div(id = "pfam_down_button1"),
-                                           #             tags$div(id = "download_ui_for_pfam_table1"))
+                                           splitLayout(cellWidths = c("50%", "50%"),
+                                                       tags$div(id = "msa_down_fasta1"),
+                                                       tags$div(id = "msa_down_plot1"))
                                            ),
                                   tabPanel("GO Terms", "First tab content"),
                                   tabPanel("KEGG Orthology", "Tab content 2"),
@@ -4254,12 +4269,30 @@ server <- function(input, output) {
         immediate = TRUE
       )
     
+    removeUI(
+      selector = "div:has(>> #msa_methodI1)",
+      multiple = TRUE,
+      immediate = TRUE
+    )
+    
     removeUI("#msa_selection1")
     
     if (UI_exist_msa1)
     {
       removeUI(
         selector = "div:has(>> #msa_print1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #msa_download_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #msa_download_fa1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -4275,6 +4308,13 @@ server <- function(input, output) {
       shinyWidgets::pickerInput("selected_msaI1","Select the desired genes from the tree to align",
                                 choices=isolate({tree_reduced1()$tip.label}), options = list(`actions-box` = TRUE),
                                 multiple = T, selected = isolate({input$geneInt1}))
+      
+    })
+    
+    insertUI("#msa_method1", "afterEnd", ui = {
+      shinyWidgets::pickerInput(inputId = "msa_methodI1", label = "Choose alignment method", 
+                                choices = c("ClustalOmega", "MAFFT"), selected = "ClustalOmega")
+      
     })
     
     insertUI("#msa_selectionI1", "afterEnd", ui = {
@@ -4291,6 +4331,7 @@ server <- function(input, output) {
     shinyjs::showElement(id = 'loading.msa1')
     
     selected_genes <- as.vector(input$selected_msaI1)
+    selected_method <- as.character(input$msa_methodI1)
     file.name <- og.name1()
     
     if (length(selected_genes) < 2)
@@ -4301,6 +4342,19 @@ server <- function(input, output) {
         multiple = TRUE,
         immediate = TRUE
       )
+      
+      removeUI(
+        selector = "div:has(>> #msa_download_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #msa_download_fa1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
       UI_exist_msa1 <<- F
       output$error_msa1 <- renderUI({renderText({print("Please select at least two genes.")})})
       validate(need(length(selected_genes) > 1, "Please select at least two genes."))
@@ -4308,6 +4362,10 @@ server <- function(input, output) {
     
     output$error_msa1 <- NULL
     
+    # If de novo alignment is selected
+    {
+    if(selected_method == "ClustalOmega")
+    {
     # Define path to orthogroup sequences file
     ortho.seq.name <- ifelse(model.selected1(),
                         paste("Global_Orthogroup_Sequences", paste(file.name, "fa", sep = "."), sep="/"),
@@ -4319,7 +4377,39 @@ server <- function(input, output) {
     mysubseqs <- mySequences1[selected_genes]
     
     alignseqs <- msa(mysubseqs, verbose = F, method = "ClustalOmega")
+    }
     
+    # If MAFFT alignment is selected
+    else
+    {
+      ortho.seq.name <- ifelse(model.selected1(),
+                               paste("Global_MultipleSequenceAlignments", paste(file.name, "fa", sep = "."), sep="/"),
+                               paste("Green_MultipleSequenceAlignments", paste(file.name, "fa", sep = "."), sep="/"))
+      mySequences1 <- seqinr::read.fasta(ortho.seq.name, seqtype = "AA")
+      mysubseqs <- mySequences1[selected_genes]
+      mysubnames <- seqinr::getName(mySequences1)
+      
+      # Identify indexes associated with reduced names
+      indexes_msa <- sapply(selected_genes, function(x) grep(mysubnames, pattern = x))
+      
+      # Retrieve those sequences from alignment keeping gaps
+      mysubseqs <- mySequences1[indexes_msa]
+      names(mysubseqs) <- names(indexes_msa)
+      
+      # Remove columns with gaps andremove empty spaces in last positions
+      seqs_mysubseqs <- seqinr::getSequence(mysubseqs)
+      last <- seqs_mysubseqs[[length(seqs_mysubseqs)]]
+      last <- last[which(last != " ")]
+      seqs_mysubseqs[[length(seqs_mysubseqs)]] <- last
+      seqs_mysubseqs <- remove_gaps(seqs_mysubseqs)
+      names(seqs_mysubseqs) <- names(mysubseqs)
+      
+      mysubseqs2 <- unlist(lapply(seqs_mysubseqs, function(x) paste(x, collapse="")))
+      
+      alignseqs <- Biostrings::AAMultipleAlignment(mysubseqs2, use.names = T)
+      
+    }
+    }
     
     detach("package:msa", unload=TRUE)
     
@@ -4338,33 +4428,92 @@ server <- function(input, output) {
         immediate = TRUE
       )
       
+      removeUI(
+        selector = "div:has(>> #msa_download_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #msa_download_fa1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
     }
     
     insertUI("#box_msa1", "afterEnd", ui = {
       box(width = 12,
           title = "Image", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
-          #verbatimTextOutput("msa_print1")
           msaROutput("msa_print1", width = "60%")
       )
     })
     
+    insertUI("#msa_down_plot1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "msa_download_plot1", "Download Colored MSA",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    insertUI("#msa_down_fasta1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "msa_download_fa1", "Download MSA FASTA",
+                                                                         size = "sm", color = "primary"))
+    })
+    
     UI_exist_msa1 <<- TRUE
-    shinyjs::hideElement(id = 'loading.msa1')
+    #shinyjs::hideElement(id = 'loading.msa1')
   })
   
 
-  # Outputs
+  # Fill Output
   output$msa_print1 <- renderMsaR({
     alignseqs <- alignseqs1()
-    # class(alignseqs) <- "MsaAAMultipleAlignment"
-    # cat(msa::print(alignseqs, showConsensus=T, show="complete", 
-    #           halfNrow=ceiling(length(as.vector(input$selected_msaI1))/2)))
     hola3 <- msa::msaConvert(alignseqs, "ape::AAbin")
     msaR(hola3, menu=T, overviewbox = F,  colorscheme = "clustal")
   })
   
-
+  # Prepare variables for pdf construction
+  observeEvent(isTruthy(alignseqs1()), {
+  alignseqs <- alignseqs1()
+  
+  library(ggmsa)
+  class(alignseqs) <- "AAMultipleAlignment"
+  
+  for(i in 1:(ncol(alignseqs)%/%100 +1)){
+    assign(paste("msap", i, sep = ""), ggmsa(alignseqs, 1+(100*(i-1)), i*100, seq_name = TRUE, char_width = 0.5) +
+             geom_seqlogo(color = "Chemistry_AA"), envir = as.environment(1), pos=1)
+  }
+  shinyjs::hideElement(id = 'loading.msa1')
+  })
+  
+  # Download tab's results
+  # Download colored MSA in pdf
+  output$msa_download_plot1 <- downloadHandler(
+    filename= function() {
+      paste("msa", ".pdf", sep="")
+    },
+    content= function(file) {
+      selected_msa <<- input$selected_msaI1
+      alignseqs <<- alignseqs1()
+      pdf(file, height = 2+length(selected_msa)*0.25, width = 16)
+      {
+        for(i in 1:(ncol(alignseqs)%/%100 +1)){
+          print(mget(paste0("msap", i), envir = as.environment(1)))
+        }
+        dev.off()
+      }
+    })
+  
+  # Download MSA in FASTA format
+  output$msa_download_fa1<- downloadHandler(
+    filename= function() {
+      paste("msa", ".fa", sep="")
+    },
+    content= function(file) {
+      alignseqs <- alignseqs1()
+      writeXStringSet(as(unmasked(alignseqs), "XStringSet"), file)
+    })
+  
 # End of Gene ID-based search results
    
   
