@@ -28,7 +28,7 @@ pfam.link <- function(pfam.term)
   return(complete.link)
 }
 
-# Remove gaps from MAFFT Alignment
+## Remove gaps from MAFFT Alignment
 remove_gaps <- function(multseq)
 {
   matrix1 <- do.call(rbind, multseq)
@@ -40,6 +40,22 @@ remove_gaps <- function(multseq)
   }
   return(multseq)
 }
+
+## Gene Ontology term link
+# http://amigo.geneontology.org/amigo/term/GO:0015979
+go.link <- function(go.term)
+{
+  link <- paste0("http://amigo.geneontology.org/amigo/term/", go.term)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           go.term, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
+
+
+
 
 # Create data frame
 
@@ -443,7 +459,33 @@ ui <- dashboardPage(
                                                        tags$div(id = "msa_down_fasta1"),
                                                        tags$div(id = "msa_down_plot1"))
                                            ),
-                                  tabPanel("GO Terms", "First tab content"),
+                                  tabPanel("GO Terms", 
+                                           fluidRow(tags$br()),
+                                           shinyWidgets::actionBttn("go_start1", "Show Gene Selection for GO Annotation",
+                                                                    size = "sm", icon = icon("magnifying-glass"),
+                                                                    style = "float", color = "primary"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "selected_gos1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "selected_gos_mode1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "gos_selection1"),
+                                           fluidRow(tags$br()),
+                                           shinyjs::hidden(div(id='loading.go1',h3('Please be patient, preparing results ...'))),
+                                           uiOutput(outputId = "error_gos1"),
+                                           tags$div(id = "box_gos_table1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "box_gos_plot1"), 
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "box_gos_treeplot1"),
+                                           fluidRow(tags$br()),
+                                           splitLayout(cellWidths = c("33%", "33%", "33%"), 
+                                                       tags$div(id = "download_ui_for_gos_table1"),
+                                                       tags$div(id = "gos_down_button1"),
+                                                       tags$div(id = "tree_gos_down_button1"))
+                                           
+                                           
+                                           ),
                                   tabPanel("KEGG Orthology", "Tab content 2"),
                                   tabPanel("STRING Interactions", "First tab content"),
                                   tabPanel("Literature Annotation", "Tab content 2")
@@ -1176,6 +1218,8 @@ server <- function(input, output) {
   UI_exist_cafe1 <<- F
   UI_exist_error_cafe1 <<- F
   UI_exist_msa1 <<- F
+  UI_exist_go1 <<- F
+  
   
   # Activate a global wrapper for reactivity when the action button of the
   # gene search panel is activated. Every result of this panel will be 
@@ -4513,6 +4557,396 @@ server <- function(input, output) {
       alignseqs <- alignseqs1()
       writeXStringSet(as(unmasked(alignseqs), "XStringSet"), file)
     })
+  
+  
+  ####################### GO #################################
+  
+  observeEvent(input$run_button1, {
+    removeUI(
+      selector = "div:has(>> #selected_gosI1)",
+      multiple = TRUE,
+      immediate = TRUE
+    )
+    
+    removeUI(
+      selector = "div:has(>> #selected_gos_modeI1)",
+      multiple = TRUE,
+      immediate = TRUE
+    )
+    
+    removeUI("#gos_selectionI1")
+    
+    if (UI_exist_go1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_gos_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #gos_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #gos_treeplot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadGOSTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #gos_download1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #tree_gos_download1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+    }
+    
+  })
+  
+  observeEvent(input$go_start1, {
+    insertUI("#selected_gos1", "afterEnd", ui = {
+      
+      shinyWidgets::pickerInput("selected_gosI1","Select the desired genes from the tree",
+                                choices=isolate({tree_reduced1()$tip.label}), options = list(`actions-box` = TRUE),
+                                multiple = T, selected = isolate({input$geneInt1}))
+      
+    })
+    
+    insertUI("#selected_gos_mode1", "afterEnd", ui = {
+      
+      selectInput(inputId = "selected_gos_modeI1",
+                  choices=c("Biological Processes" = "bp",
+                            "Molecular Functions" = "mf",
+                            "Cellular Components" = "cc"),
+                  label = "Select the gene ontology to use",
+                  multiple = F, selected = c("bp"))
+      
+    })
+    
+    insertUI("#gos_selection1", "afterEnd", ui = {
+      
+      shinyWidgets::actionBttn("gos_selectionI1", "Show GO terms", size = "sm",
+                               style = "float", color = "primary")
+    })
+    
+  })
+  
+  total_table_gos1 <- reactive({
+    
+    shinyjs::showElement(id = 'loading.go1')
+    gos_anot <- read.csv("pharaoh_folder/final_anot_table.tsv", sep="\t", header = T)
+    sel.genes.go <- as.vector(input$selected_gosI1)
+    selected_gos_mode <- as.character(isolate({input$selected_gos_modeI1}))
+    
+    total_table_gos <- subset(gos_anot, gos_anot$name %in% sel.genes.go)
+    
+    # Show an error if no terms are identified in the input
+      if (nrow(total_table_gos) == 0) 
+      {
+        shinyjs::hideElement(id = 'loading.go1')
+        output$error_gos1 <- renderUI({
+          renderPrint({cat("0 GO terms identified.")})
+        })
+        
+        validate(need(nrow(total_table_gos) != 0, " "))
+      }
+    
+    
+    gos_sel <- paste("gos", selected_gos_mode, sep="_")
+    terms_sel <- paste("terms", selected_gos_mode, sep="_")
+    total_table_gos <- total_table_gos[,c("organism", "id", "name", gos_sel, terms_sel)]
+    
+    # Once removed the two GO categories not selected, remove rows with blank cells
+    total_table_gos_clean <- subset(total_table_gos, gos_sel != "")
+    
+    # Show an error if no terms are identified after the previous operation
+    if (nrow(total_table_gos_clean) == 0) 
+    {
+      shinyjs::hideElement(id = 'loading.go1')
+      
+      output$error_gos1 <- renderUI({
+        renderPrint({cat("0 GO terms identified.")})
+      })
+      
+      validate(need(nrow(total_table_gos_clean) != 0, " "))
+    }
+    
+    output$error_gos1 <- NULL
+    
+    return(total_table_gos_clean)
+    
+  }) %>% bindEvent(input$gos_selectionI1)
+  
+  enr_table1 <- reactive({
+    
+    total_table_gos <- total_table_gos1()
+    selected_gos_mode <- as.character(isolate({input$selected_gos_modeI1}))
+    
+    # Create the plot
+    
+    # Create a list of GO terms vector of each gene
+    gos_sel <- paste("gos", selected_gos_mode, sep="_")
+    gos_list <- apply(total_table_gos,MARGIN=1,FUN = function(x) trimws(strsplit(as.character(x[gos_sel]), split = "[|]")[[1]]))
+    names(gos_list) <- total_table_gos$name
+    
+    # Count GOs for each gene and create a matrix of gene-GO pairs
+    count_gos_in_genes <- sapply(gos_list, FUN = function(x) length(x))
+    comp_data <- data.frame(gene = rep(names(count_gos_in_genes), count_gos_in_genes), gos = as.character(unlist(gos_list)))
+    
+    # Collapse genes that share a same GO
+    gene.v <- c()
+    for (i in 1:length(unique(comp_data$gos)))
+    {
+      new.table <- subset(comp_data, gos == unique(comp_data$gos)[i])
+      new.cha <- as.character(new.table$gene)
+      gene.v <- c(gene.v, paste(new.cha, collapse = "/"))
+    }
+    
+    names(gene.v) <- unique(comp_data$gos)
+    
+    # Load libraries and create gene chains, count and GO IDs fields (same order)
+    library(GO.db)
+    library("multienrichjam")
+    library(clusterProfiler)
+    library(enrichplot)
+    library(ggplot2)
+    
+    count_go <- table(comp_data$gos)
+    geneids <- gene.v[names(count_go)]
+    count_terms <- mapply(function(x) {Term(x)}, names(count_go), USE.NAMES = F)
+    
+    # Create pseudo-enrichment table
+    enr_table <- data.frame(ID=names(count_go), Description=count_terms, GeneRatio="90/100", BgRatio="90/10000", 
+                            pvalue=0.000005, p.adjust=0.000005, qvalue=0.000005, geneID=geneids, Count = as.vector(count_go))
+    
+    return(enr_table)
+    
+  }) %>% bindEvent(input$gos_selectionI1)
+  
+  ema_gos_plot1 <- reactive({
+    
+    enr_table <- enr_table1()
+    
+    # Transform to enrichResult object
+    enr <- enrichDF2enrichResult(enrichDF = enr_table, keyColname = "ID",
+                                 geneColname = "geneID", pvalueColname = "p.adjust",
+                                 descriptionColname = "Description", pvalueCutoff = 0.05)
+    
+    # Create plot
+    ema_gos_plot <- emapplot(pairwise_termsim(enr), showCategory = 15) + theme(legend.position='none')
+    return(ema_gos_plot)
+  })
+  
+  tree_gos_plot1 <- reactive({
+    
+    enr_table <- enr_table1()
+    
+    # Transform to enrichResult object
+    enr <- enrichDF2enrichResult(enrichDF = enr_table, keyColname = "ID",
+                                 geneColname = "geneID", pvalueColname = "p.adjust",
+                                 descriptionColname = "Description", pvalueCutoff = 0.05)
+    {
+      if (nrow(enr_table) > 4)
+      {
+        tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15) + theme(legend.position='none')
+      }
+      else if (nrow(enr_table) > 2)
+      {
+        tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2)) + 
+          theme(legend.position='none')
+      }
+      else
+      {
+        text <- paste("\n  Unable to create treeplot with less than 3 GO terms \n")
+        tree_gos_plot <- ggplot() + 
+          annotate("text", x = 4, y = 25, size=8, label = text) + 
+          theme_void()
+      }
+    }
+    
+    shinyjs::hideElement(id = 'loading.go1')
+    return(tree_gos_plot)
+  })
+  
+  # Create boxes for outputs
+  observeEvent(isTruthy(tree_gos_plot1()), {
+    
+    if (UI_exist_go1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_gos_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #gos_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #gos_treeplot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadGOSTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #gos_download1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #tree_gos_download1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+    }
+    
+    insertUI("#box_gos_table1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          dataTableOutput("output_gos_table1")
+      )
+    })
+    
+    insertUI("#box_gos_plot1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          imageOutput("gos_plot1")
+      )
+    })
+    
+    insertUI("#box_gos_treeplot1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          imageOutput("gos_treeplot1")
+      )
+    })
+    
+    insertUI("#download_ui_for_gos_table1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadGOSTable1", "Download GO Table",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    insertUI("#gos_down_button1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "gos_download1", "Download GO Plot",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    insertUI("#tree_gos_down_button1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "tree_gos_download1", "Download GO Treeplot",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    UI_exist_go1 <<- TRUE
+  })
+  
+  # Fill outputs
+  # Table
+  output$output_gos_table1 <- renderDataTable({
+    total_table_gos <- total_table_gos1()
+    selected_gos_mode <- as.character(isolate({input$selected_gos_modeI1}))
+    gos_sel <- paste("gos", selected_gos_mode, sep="_")
+    gos_list <- apply(total_table_gos,MARGIN=1,
+                      FUN = function(x) trimws(strsplit(as.character(x[gos_sel]), split = "[|]")[[1]]))
+    gos_links <- lapply(gos_list, function(x) sapply(x, go.link))
+    gos_formatted <- unlist(lapply(gos_links, function(x) paste0(x, collapse = " | ")))
+    total_table_gos[,gos_sel] <- gos_formatted
+    total_table_gos
+  },escape=FALSE, rownames=F, options =list(pageLength = 5))
+  
+  # First plot
+  output$gos_plot1 <- renderImage({
+    ema_gos_plot <- ema_gos_plot1()
+    
+    png("pharaoh_folder/gosplot.png")
+    plot(ema_gos_plot)
+    dev.off()
+    list(src = "pharaoh_folder/gosplot.png",
+         contentType="image/png")
+    
+  }, deleteFile=T
+  )
+  
+  # Second plot
+  output$gos_treeplot1 <- renderImage({
+    tree_gos_plot <- tree_gos_plot1()
+    
+    png("pharaoh_folder/treeplot.png")
+    plot(tree_gos_plot)
+    dev.off()
+    list(src = "pharaoh_folder/treeplot.png",
+         contentType="image/png")
+    
+  }, deleteFile=T
+  )
+  
+  # Download tab's results
+  # Download GO table
+  output$downloadGOSTable1 <- downloadHandler(
+    filename= function() {
+      paste("GOS_table", ".tsv", sep="")
+    },
+    content= function(file) {
+      total_table_gos <- total_table_gos1()
+      
+      write.table(x = total_table_gos,quote = F,sep = "\t",
+                  file=file,row.names=FALSE,col.names=TRUE)
+    })
+  
+  # Download emaplot
+  output$gos_download1 <- downloadHandler(
+    filename= function() {
+      paste("gos_plot", ".png", sep="")
+    },
+    content= function(file) {
+      ema_gos_plot <- ema_gos_plot1()
+      
+      png(file, height = 600, width = 800)
+      plot(ema_gos_plot)
+      dev.off()
+    })
+  
+  # Download treeplot
+  output$tree_gos_download1 <- downloadHandler(
+    filename= function() {
+      paste("gos_treeplot", ".png", sep="")
+    },
+    content= function(file) {
+      tree_gos_plot <- tree_gos_plot1()
+      
+      png(file, height = 800, width = 1000)
+      plot(tree_gos_plot)
+      dev.off()
+    })
+  
   
 # End of Gene ID-based search results
    
