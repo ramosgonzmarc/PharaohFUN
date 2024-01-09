@@ -1,4 +1,4 @@
-#.libPaths("/home/marcos/R/x86_64-pc-linux-gnu-library/4.1")
+# Author: Marcos Ramos Gonzalez
 
 ## app.R ##
 library(shinydashboard)
@@ -54,7 +54,31 @@ go.link <- function(go.term)
   return(complete.link)
 }
 
+## KO term link
+# https://www.genome.jp/dbget-bin/www_bget?ko:K12133
+ko.link <- function(ko.term)
+{
+  link <- paste0("https://www.genome.jp/dbget-bin/www_bget?ko:", ko.term)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           ko.term, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
 
+## KEGG term link
+# https://www.genome.jp/dbget-bin/www_bget?ko04712
+kegg.link <- function(kegg.term)
+{
+  link <- paste0("https://www.genome.jp/dbget-bin/www_bget?", kegg.term)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           kegg.term, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
 
 
 # Create data frame
@@ -486,7 +510,35 @@ ui <- dashboardPage(
                                            
                                            
                                            ),
-                                  tabPanel("KEGG Orthology", "Tab content 2"),
+                                  tabPanel("KEGG Orthology",
+                                           fluidRow(tags$br()),
+                                           shinyWidgets::actionBttn("kegg_start1", "Show Gene Selection for KEGG Annotation",
+                                                                    size = "sm", icon = icon("magnifying-glass"),
+                                                                    style = "float", color = "primary"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "selected_kos1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "kos_selection1"),
+                                           fluidRow(tags$br()),
+                                           shinyjs::hidden(div(id='loading.ko1',h3('Please be patient, exploring pathways ...'))),
+                                           uiOutput(outputId = "error_kos1"),
+                                           tags$div(id = "box_kos_table1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "box_kegg_table1"),
+                                           fluidRow(tags$br()),
+                                           splitLayout(cellWidths = c("50%", "50%"), 
+                                                       tags$div(id = "download_ui_for_kos_table1"),
+                                                       tags$div(id = "download_ui_for_kegg_table1")),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "selected_paths1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "paths_button1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "box_path_image1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "path_download_ui1")
+                                           
+                                           ),
                                   tabPanel("STRING Interactions", "First tab content"),
                                   tabPanel("Literature Annotation", "Tab content 2")
                       ))
@@ -1219,7 +1271,8 @@ server <- function(input, output) {
   UI_exist_error_cafe1 <<- F
   UI_exist_msa1 <<- F
   UI_exist_go1 <<- F
-  
+  UI_exist_kegg1 <<- F
+  UI_exist_pathview1 <<- F
   
   # Activate a global wrapper for reactivity when the action button of the
   # gene search panel is activated. Every result of this panel will be 
@@ -4574,7 +4627,7 @@ server <- function(input, output) {
       immediate = TRUE
     )
     
-    removeUI("#gos_selectionI1")
+    removeUI("#gos_selectionI1") ####### No sería sin I
     
     if (UI_exist_go1)
     {
@@ -4614,6 +4667,7 @@ server <- function(input, output) {
         immediate = TRUE
       )
       
+      UI_exist_go1 <<- F
     }
     
   })
@@ -4945,6 +4999,447 @@ server <- function(input, output) {
       png(file, height = 800, width = 1000)
       plot(tree_gos_plot)
       dev.off()
+    })
+  
+
+###################### KEGG ###########################
+  
+  observeEvent(input$run_button1, {
+    removeUI(
+      selector = "div:has(>> #selected_kosI1)",
+      multiple = TRUE,
+      immediate = TRUE
+    )
+    
+    removeUI("#kos_selectionI1") # MIRAR SI EN GO ESTA CON O SIN I
+    
+    if (UI_exist_kegg1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_kos_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #output_kegg_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKOSTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKEGGTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #selected_pathsI1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI("#paths_buttonI1")
+      
+      UI_exist_kegg1 <<- F
+    }
+    
+    if (UI_exist_pathview1)
+    {
+      removeUI(
+        selector = "div:has(>> #path_image1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKEGGpathway1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      UI_exist_pathview1 <<- F
+    }
+    
+    
+  })
+  
+  observeEvent(input$kegg_start1, {
+    insertUI("#selected_kos1", "afterEnd", ui = {
+      
+      shinyWidgets::pickerInput("selected_kosI1","Select the desired genes from the tree",
+                                choices=isolate({tree_reduced1()$tip.label}), options = list(`actions-box` = TRUE),
+                                multiple = T, selected = isolate({input$geneInt1}))
+      
+      
+    })
+    
+    
+    insertUI("#kos_selection1", "afterEnd", ui = {
+      
+      shinyWidgets::actionBttn("kos_selectionI1", "Show KEGG pathways", size = "sm",
+                               style = "float", color = "primary")
+    })
+    
+  })
+  
+  tab_kegg1 <- reactive({
+    
+    shinyjs::showElement(id = 'loading.ko1')
+    # Create KOs set
+    kos_anot <- read.csv("pharaoh_folder/ko_table_funtree.tsv", sep="\t", header = T)
+    sel.genes.ko <- as.vector(isolate({input$selected_kosI1}))
+    
+    tab_kegg <<- subset(kos_anot, gene %in% sel.genes.ko)
+    set_kegg <<- tab_kegg$ko[tab_kegg$ko != ""]
+    
+    # Show an error if no terms are identified in the input
+    {
+      if (length(set_kegg) == 0) 
+      {
+        shinyjs::hideElement(id = 'loading.ko1')
+        output$error_kos1 <- renderUI({
+          renderPrint({cat("0 KO terms identified. Please select more genes. If this 
+        message persists, it should be interpreted as a lack of KO annotation for this orthogroup")})
+        })
+        
+        if (UI_exist_kegg1)
+        {
+          removeUI(
+            selector = "div:has(>> #output_kos_table1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #output_kegg_table1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #downloadKOSTable1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #downloadKEGGTable1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #selected_pathsI1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI("#paths_buttonI1")
+          
+          UI_exist_kegg1 <<- F
+        }
+        
+        if (UI_exist_pathview1)
+        {
+          removeUI(
+            selector = "div:has(>> #path_image1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #downloadKEGGpathway1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          UI_exist_pathview1 <<- F
+        }
+        
+        validate("No KO terms detected")
+      }
+    }
+    
+    output$error_kos1 <- NULL
+    
+    return(tab_kegg)
+    
+  }) %>% bindEvent(input$kos_selectionI1)
+  
+  total_table_kegg1 <- reactive({
+    
+    tab_kegg <- tab_kegg1()
+    set_kegg <- tab_kegg$ko[tab_kegg$ko != ""]
+    
+    # Load libraries
+    library(clusterProfiler)
+    library(enrichplot)
+    
+    # Enrich with pvalue cutoff = 1 to show all paths
+    kos_enrich <- enrichKEGG(gene         = set_kegg,
+                             organism     = 'ko',
+                             pvalueCutoff = 1)
+    
+    total_table_kegg <- as.data.frame(kos_enrich)
+    
+    return(total_table_kegg)
+    
+  }) %>% bindEvent(input$kos_selectionI1)
+  
+  total_table_kos1 <- reactive({
+    
+    tab_kegg <- tab_kegg1()
+    
+    library(KEGGREST)
+    
+    # Collapse genes that share KOs
+    
+    tab_kegg_for_ko <- subset(tab_kegg, ko != "")
+    gene.v.ko <- c()
+    for (i in 1:length(unique(tab_kegg_for_ko$ko)))
+    {
+      new.table <- subset(tab_kegg_for_ko, ko == unique(tab_kegg_for_ko$ko)[i])
+      new.cha <- as.character(new.table$gene)
+      gene.v.ko <- c(gene.v.ko, paste(new.cha, collapse = "/"))
+    }
+    
+    names(gene.v.ko) <- unique(tab_kegg_for_ko$ko)
+    
+    # Create gene chains, count and KO IDs fields (same order)
+    count_ko <- table(tab_kegg_for_ko$ko)
+    geneids.ko <- gene.v.ko[names(count_ko)]
+    count_terms.ko <- mapply(function(x) {keggFind("ko", x)}, names(count_ko), USE.NAMES = F)
+    total_table_kos <- data.frame(ko=names(count_ko), name=count_terms.ko, count=as.numeric(count_ko),
+                                  genes=geneids.ko)
+    
+    return(total_table_kos)
+    
+  }) %>% bindEvent(input$kos_selectionI1)
+  
+  # Create boxes for outputs
+  observeEvent(isTruthy(total_table_kos1()), {
+    
+    if (UI_exist_kegg1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_kos_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #output_kegg_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKOSTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKEGGTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #selected_pathsI1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI("#paths_buttonI1")
+      
+    }
+    
+    insertUI("#box_kos_table1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          dataTableOutput("output_kos_table1")
+      )
+    })
+    
+    
+    insertUI("#box_kegg_table1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          dataTableOutput("output_kegg_table1")
+      )
+    })
+    
+    insertUI("#download_ui_for_kos_table1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable1", "Download KO Table",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    insertUI("#download_ui_for_kegg_table1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKEGGTable1", "Download Pathways Table",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    UI_exist_kegg1 <<- TRUE
+    
+    # Remove previous results for pathview
+    if (UI_exist_pathview1)
+    {
+      removeUI(
+        selector = "div:has(>> #path_image1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKEGGpathway1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      UI_exist_pathview1 <<- F
+    }
+  })
+  
+  # Fill outputs
+  # Render KO table
+  output$output_kos_table1 <- renderDataTable({
+    total_table_kos <- total_table_kos1()
+    total_table_kos$ko <- sapply(total_table_kos$ko, ko.link)
+    total_table_kos
+  },escape=FALSE,options =list(pageLength = 5))
+  
+  # Render KEGG table
+  output$output_kegg_table1 <- renderDataTable({
+    total_table_kegg <- total_table_kegg1()
+    total_table_kegg$ID <- sapply(total_table_kegg$ID, kegg.link)
+    total_table_kegg[,c("ID", "Description", "geneID")]
+  },escape=FALSE,options =list(pageLength = 5))
+  
+  # Download tab's outputs
+  # Download KO table
+  output$downloadKOSTable1 <- downloadHandler(
+    filename= function() {
+      paste("KO_table", ".tsv", sep="")
+    },
+    content= function(file) {
+      total_table_kos <- total_table_kos1()
+      write.table(x = total_table_kos,quote = F,sep = "\t",
+                  file=file,row.names=FALSE,col.names=TRUE)
+    })
+  
+  # Download KEGG table
+  output$downloadKEGGTable1 <- downloadHandler(
+    filename= function() {
+      paste("KEGG_table", ".tsv", sep="")
+    },
+    content= function(file) {
+      total_table_kegg <- total_table_kegg1()
+      write.table(x = total_table_kegg[,c("ID", "Description", "geneID")],quote = F,sep = "\t",
+                  file=file,row.names=FALSE,col.names=TRUE)
+    })
+  
+  # Create pathway selector and button
+  observeEvent(input$kos_selectionI1,{
+    
+    total_table_kos <- total_table_kos1()
+    total_table_kegg <- total_table_kegg1()
+    
+    if(nrow(total_table_kegg) != 0)
+    {
+      paths.options <- sapply(strsplit(total_table_kegg$ID, split = "map"), function(x) x[[2]])
+      
+      
+      insertUI("#selected_paths1", "afterEnd", ui = {
+        shinyWidgets::pickerInput(inputId = "selected_pathsI1", label = "Select the pathway to plot", 
+                                  choices = paths.options, selected = paths.options[1], multiple = F)
+        
+      })
+        
+      
+      insertUI("#paths_button1", "afterEnd", ui = {
+        
+        shinyWidgets::actionBttn("paths_buttonI1", "Plot Pathway", size = "sm",
+                                 style = "float", color = "primary")
+      })
+      
+      shinyjs::hideElement(id = 'loading.ko1')
+    }
+  })
+  
+  observeEvent(input$paths_buttonI1,{
+    
+    if (UI_exist_pathview1)
+    {
+      removeUI(
+        selector = "div:has(>> #path_image1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKEGGpathway1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+    }
+    
+    insertUI("#box_path_image1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          imageOutput("path_image1")
+      )
+    })
+    
+    insertUI("#path_download_ui1", "afterEnd", ui = {
+      tags$div(shinyWidgets::downloadBttn(outputId= "downloadKEGGpathway1", "Download KEGG Pathways Plot",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    UI_exist_pathview1 <<- T
+    
+  })
+  
+  output$path_image1 <- renderImage({
+    
+    pathway.current.id <- input$selected_pathsI1
+    total_table_kos <- total_table_kos1()
+    
+    kos_unique <- unique(total_table_kos$ko)
+    gene.pathway <- rep(0, length(kos_unique))
+    names(gene.pathway) <-  kos_unique
+    gene.pathway[kos_unique] <-1
+    
+    library(pathview)
+    pathview(gene.data = sort(gene.pathway,decreasing = TRUE),kegg.dir = "pharaoh_folder",
+             pathway.id = pathway.current.id,
+             species = "ko",
+             limit = list(gene=max(abs(gene.pathway)), cpd=1),
+             gene.idtype ="kegg")
+    
+    
+    list(src = paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."),
+         contentType="image/png",width=900,height=900)
+  },deleteFile = F)
+  
+  output$downloadKEGGpathway1 <- downloadHandler(
+    filename= function() {
+      paste("path_plot", ".png", sep="")
+    },
+    content= function(file) {
+      pathway.current.id <- input$selected_pathsI1
+      file.copy(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."), file)
+      file.remove(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."))
     })
   
   
