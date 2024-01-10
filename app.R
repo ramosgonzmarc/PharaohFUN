@@ -540,7 +540,26 @@ ui <- dashboardPage(
                                            
                                            ),
                                   tabPanel("STRING Interactions", "First tab content"),
-                                  tabPanel("Literature Annotation", "Tab content 2")
+                                  tabPanel("Literature Annotation", 
+                                           fluidRow(tags$br()),
+                                           shinyWidgets::actionBttn("lit_start1", "Show Search Box for Literature Annotation",
+                                                                    size = "sm", icon = icon("magnifying-glass"),
+                                                                    style = "float", color = "primary"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "query_lit1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "selected_lit1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "lit_selection1"),
+                                           fluidRow(tags$br()),
+                                           shinyjs::hidden(div(id='loading.lit1',h3('Please be patient, browsing literature ...'))),
+                                           uiOutput(outputId = "error_lit1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "box_lit_table1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "download_ui_for_lit_table1")
+                                           
+                                           )
                       ))
                 )
         ),
@@ -1273,6 +1292,7 @@ server <- function(input, output) {
   UI_exist_go1 <<- F
   UI_exist_kegg1 <<- F
   UI_exist_pathview1 <<- F
+  UI_exist_lit1 <<-  F
   
   # Activate a global wrapper for reactivity when the action button of the
   # gene search panel is activated. Every result of this panel will be 
@@ -5442,6 +5462,191 @@ server <- function(input, output) {
       file.remove(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."))
     })
   
+############################# LITERATURE ANNOTATION ##########################################
+  
+  observeEvent(input$run_button1, {
+    removeUI(
+      selector = "div:has(>> #selected_litI1)",
+      multiple = TRUE,
+      immediate = TRUE
+    )
+    
+    removeUI(
+      selector = "div:has(> #query_litI1)",
+      multiple = TRUE,
+      immediate = TRUE
+    )
+    
+    removeUI("#lit_selectionI1")
+    
+    
+    if (UI_exist_lit1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_lit_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadLITTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      UI_exist_lit1 <<- F
+    }
+    
+  })
+  
+  observeEvent(input$lit_start1, {
+    
+    insertUI("#query_lit1", "afterEnd", ui = {
+      
+    textInput(inputId = "query_litI1",value = "", label = "Enter search term", placeholder = "CCA1")
+      
+    })
+    
+    
+    insertUI("#selected_lit1", "afterEnd", ui = {
+      
+      shinyWidgets::pickerInput("selected_litI1","Select the search mode",
+                                choices=c("Normal","Exact", "Substring", "Alias"), 
+                                #options = list(`actions-box` = TRUE),
+                                multiple = F, selected = "Normal")
+      
+      
+    })
+    
+    
+    insertUI("#lit_selection1", "afterEnd", ui = {
+      
+      shinyWidgets::actionBttn("lit_selectionI1", "Get biological information and papers", size = "sm",
+                               style = "float", color = "primary")
+    })
+    
+  })
+  
+  pc_result1 <- reactive({
+    
+    shinyjs::showElement(id = 'loading.lit1')
+    pc_search <- as.character(input$query_litI1)
+    pc_search <- gsub(" ", "%20", pc_search) # To make spaces interpretable
+    pc_modality <- tolower(as.character(input$selected_litI1))
+    
+    # Get PlantConnectome URL for query
+    pc_url <- paste(c("https://connectome.plant.tools", pc_modality, pc_search), collapse = "/")
+    
+    # Descargar el HTML
+    library(RCurl)
+    
+    pc_res <- getURL(pc_url)
+    
+    if (!length(grep("No hits", pc_res)) == 0)
+    {
+       shinyjs::hideElement(id = 'loading.lit1')
+        
+      output$error_lit1 <- renderUI({
+        renderPrint({cat("No results found for this query")})
+        })
+      
+      validate(" ")
+      
+    }
+    
+    output$error_lit1 <- NULL
+        
+    # Isolate data frame from complete HTML file
+    pc_split <- strsplit(as.character(pc_res), split = "<tbody")[[1]][2]
+    pc_split <- strsplit(as.character(pc_split), split = "</tbody>")[[1]][1]
+        
+    pc_clean <- gsub("</tr>", "", pc_split)
+    pc_clean <- gsub("[\r\n\t]", "", pc_clean)
+        
+    pc_vector <- strsplit(pc_clean, split = "<tr>")[[1]][-1]
+    pc_vector2 <- sapply(pc_vector, FUN=function(x) strsplit(x, split = "<td> | </td>"))
+    pc_table <- sapply(pc_vector2, FUN=function(x) as.character(unlist(x)))
+        
+    colnames(pc_table) <- NULL
+    pc_result <- data.frame(t(pc_table[c(2,4,6,8),]))
+    colnames(pc_result) <- c("Source", "Interaction Type", "Target", "Pubmed ID")
+
+    return(pc_result)
+    
+  }) %>% bindEvent(input$lit_selectionI1)
+  
+  pc_result_show1 <- reactive({
+    
+    pc_result <- pc_result1()
+    
+    # Add links to papers
+    urls_connect <- sapply(pc_result$`Pubmed ID`, FUN = function(x) paste0(c("<a href=\"",
+                                                                             "https://pubmed.ncbi.nlm.nih.gov/",x,"/",
+                                                                             "\" target=\"_blank\">", x,
+                                                                             "</a>"),
+                                                                           collapse=""))
+    pc_result_show <- pc_result
+    pc_result_show$`Pubmed ID` <- urls_connect
+    
+    shinyjs::hideElement(id = 'loading.lit1')
+    
+    return(pc_result_show)
+    
+  })
+  
+  # Create boxes for outputs
+  observeEvent(isTruthy(pc_result_show1()), {
+    
+    if (UI_exist_lit1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_lit_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadLITTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+    }
+    
+    insertUI("#box_lit_table1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Literature Table", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          dataTableOutput("output_lit_table1")
+      )
+    })
+    
+    insertUI("#download_ui_for_lit_table1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 400px;", shinyWidgets::downloadBttn(outputId= "downloadLITTable1", "Download Literature Table",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    
+    UI_exist_lit1 <<- TRUE
+    
+  })
+  
+  # Fill outputs
+  # Render table
+  output$output_lit_table1 <- renderDataTable({
+    pc_result_show1()
+  },escape=FALSE,options =list(pageLength = 10))
+  
+  # Download results
+  output$downloadLITTable1 <- downloadHandler(
+    filename= function() {
+      paste("literature_table", ".tsv", sep="")
+    },
+    content= function(file) {
+      pc_result <- pc_result1()
+      write.table(x = pc_result,quote = F,sep = "\t",
+                  file=file,row.names=FALSE,col.names=TRUE)
+    })
   
 # End of Gene ID-based search results
    
