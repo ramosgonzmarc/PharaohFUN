@@ -80,6 +80,26 @@ kegg.link <- function(kegg.term)
   return(complete.link)
 }
 
+# Coloring STRING Table
+color_string <- function(int_type)
+{
+  color <- ifelse(int_type == "Interolog", "#CA931B",  "#196F3D")
+  comp_chain <- paste0("<i style='color:{", color, "}'> {", int_type, "} </i>")
+  return(comp_chain)
+
+}
+
+# JS Functions
+# STRING network retrieval
+# jsCode <- "
+#     shinyjs.loadStringData = function(gene, orgid) {
+#         getSTRING('https://string-db.org', {
+#             'ncbiTaxonId': orgid,
+#             'identifiers': gene,
+#             'add_color_nodes':15,
+#             'network_flavor':'confidence',
+#             'network_type': physical})
+#     }"
 
 # Create data frame
 
@@ -539,7 +559,34 @@ ui <- dashboardPage(
                                            tags$div(id = "path_download_ui1")
                                            
                                            ),
-                                  tabPanel("STRING Interactions", "First tab content"),
+                                  tabPanel("STRING Interactions",
+                                           fluidRow(tags$br()),
+                                           shinyWidgets::actionBttn("string_start1", "Show Gene Selection for STRING annotation",
+                                                                    size = "sm", icon = icon("magnifying-glass"),
+                                                                    style = "float", color = "primary"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "selected_string1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "string_selection1"),
+                                           fluidRow(tags$br()),
+                                           shinyjs::hidden(div(id='loading.string1',h3('Please be patient, retrieving interactions ...'))),
+                                           uiOutput(outputId = "error_string1"),
+                                           tags$div(id = "box_st_table1"),
+                                           fluidRow(tags$br()),
+                                           splitLayout(cellWidths = c("50%", "50%"),
+                                                       tags$div(id = "box_count_table1"), tags$div(id = "box_count_plot1")),
+                                           fluidRow(tags$br()),
+                                           splitLayout(cellWidths = c("33%", "33%", "33%"), 
+                                                       tags$div(id = "download_ui_for_st_table1"),
+                                                       tags$div(id = "download_ui_for_count_table1"),
+                                                       tags$div(id = "count_down_button1")),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "selected_network1"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "network_button1"),
+                                           fluidRow(tags$br())
+                                           
+                                           ),
                                   tabPanel("Literature Annotation", 
                                            fluidRow(tags$br()),
                                            shinyWidgets::actionBttn("lit_start1", "Show Search Box for Literature Annotation",
@@ -1293,6 +1340,8 @@ server <- function(input, output) {
   UI_exist_kegg1 <<- F
   UI_exist_pathview1 <<- F
   UI_exist_lit1 <<-  F
+  UI_exist_string1 <<-  F
+  UI_exist_network1 <<-  F
   
   # Activate a global wrapper for reactivity when the action button of the
   # gene search panel is activated. Every result of this panel will be 
@@ -3597,7 +3646,9 @@ server <- function(input, output) {
       theme_void() +
       theme(legend.position="none") +
       geom_text(aes(y = ypos, label = group), color = "white", size=6) +
-      scale_fill_brewer(palette="Set1")}
+      #scale_fill_brewer(palette="Set1")
+      scale_fill_manual(values = rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"), 
+                                   floor(nrow(data)/9)+1))}
 
     png("organims_reduced1.png", height = 450, width = 450)
     plot(a)
@@ -5336,14 +5387,14 @@ server <- function(input, output) {
     total_table_kos <- total_table_kos1()
     total_table_kos$ko <- sapply(total_table_kos$ko, ko.link)
     total_table_kos
-  },escape=FALSE,options =list(pageLength = 5))
+  },escape=FALSE, rownames= F, options =list(pageLength = 5))
   
   # Render KEGG table
   output$output_kegg_table1 <- renderDataTable({
     total_table_kegg <- total_table_kegg1()
     total_table_kegg$ID <- sapply(total_table_kegg$ID, kegg.link)
     total_table_kegg[,c("ID", "Description", "geneID")]
-  },escape=FALSE,options =list(pageLength = 5))
+  },escape=FALSE, rownames= F, options =list(pageLength = 5))
   
   # Download tab's outputs
   # Download KO table
@@ -5430,6 +5481,7 @@ server <- function(input, output) {
     
   })
   
+  # Fill path image output
   output$path_image1 <- renderImage({
     
     pathway.current.id <- input$selected_pathsI1
@@ -5452,6 +5504,7 @@ server <- function(input, output) {
          contentType="image/png",width=900,height=900)
   },deleteFile = F)
   
+  # Download and remove path image output
   output$downloadKEGGpathway1 <- downloadHandler(
     filename= function() {
       paste("path_plot", ".png", sep="")
@@ -5635,7 +5688,7 @@ server <- function(input, output) {
   # Render table
   output$output_lit_table1 <- renderDataTable({
     pc_result_show1()
-  },escape=FALSE,options =list(pageLength = 10))
+  },escape=FALSE, rownames= F, options =list(pageLength = 10))
   
   # Download results
   output$downloadLITTable1 <- downloadHandler(
@@ -5648,6 +5701,669 @@ server <- function(input, output) {
                   file=file,row.names=FALSE,col.names=TRUE)
     })
   
+######################## STRING ###########################
+  
+  observeEvent(input$run_button1, {
+    removeUI(
+      selector = "div:has(>> #selected_stringI1)",
+      multiple = TRUE,
+      immediate = TRUE
+    )
+
+    removeUI("#string_selectionI1")
+
+
+    if (UI_exist_string1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_string_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+
+      removeUI(
+        selector = "div:has(>> #downloadSTRINGTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+
+      UI_exist_string1 <<- F
+    }
+
+  })
+
+  # First, create a table that links reduced gene names to its species
+  string_sel_table1 <- reactive({
+
+    # Define previous variables
+    tree_reduced <- tree_reduced1()
+    tree <- tree_adj1()
+
+    tips_to_keep.mp <- tips_to_keep.mp1()
+    tips_to_keep.ot <- tips_to_keep.ot1()
+    tips_to_keep.at <- tips_to_keep.at1()
+    tips_to_keep.cp <- tips_to_keep.cp1()
+    tips_to_keep.cr <- tips_to_keep.cr1()
+    tips_to_keep.cz <- tips_to_keep.cz1()
+    tips_to_keep.kn <- tips_to_keep.kn1()
+    tips_to_keep.me <- tips_to_keep.me1()
+    tips_to_keep.mi <- tips_to_keep.mi1()
+    tips_to_keep.pp <- tips_to_keep.pp1()
+    tips_to_keep.sl <- tips_to_keep.sl1()
+    tips_to_keep.sm <- tips_to_keep.sm1()
+    tips_to_keep.sp <- tips_to_keep.sp1()
+    tips_to_keep.ta <- tips_to_keep.ta1()
+    tips_to_keep.vc <- tips_to_keep.vc1()
+    tips_to_keep.bp <- tips_to_keep.bp1()
+    tips_to_keep.cri <- tips_to_keep.cri1()
+    tips_to_keep.ds <- tips_to_keep.ds1()
+    tips_to_keep.os <- tips_to_keep.os1()
+    tips_to_keep.smag <- tips_to_keep.smag1()
+    tips_to_keep.tp <- tips_to_keep.tp1()
+    tips_to_keep.aa <- tips_to_keep.aa1()
+    tips_to_keep.um <- tips_to_keep.um1()
+    tips_to_keep.rs <- tips_to_keep.rs1()
+    tips_to_keep.cyc <- tips_to_keep.cyc1()
+    tips_to_keep.pu <- tips_to_keep.pu1()
+    tips_to_keep.pt <- tips_to_keep.pt1()
+    tips_to_keep.ng <- tips_to_keep.ng1()
+    tips_to_keep.cyano <- tips_to_keep.cyano1()
+    tips_to_keep.ca <- tips_to_keep.ca1()
+    tips_to_keep.mv <- tips_to_keep.mv1()
+    tips_to_keep.af <- tips_to_keep.af1()
+    tips_to_keep.sc <- tips_to_keep.sc1()
+    tips_to_keep.aegi <- tips_to_keep.aegi1()
+    tips_to_keep.sb <- tips_to_keep.sb1()
+    tips_to_keep.chara <- tips_to_keep.chara1()
+    tips_to_keep.guilla <- tips_to_keep.guilla1()
+    tips_to_keep.crypto <- tips_to_keep.crypto1()
+    tips_to_keep.cymero <- tips_to_keep.cymero1()
+    tips_to_keep.galsul <- tips_to_keep.galsul1()
+    tips_to_keep.gracichor <- tips_to_keep.gracichor1()
+    tips_to_keep.sceobli <- tips_to_keep.sceobli1()
+    tips_to_keep.cocco <- tips_to_keep.cocco1()
+    tips_to_keep.saccha <- tips_to_keep.saccha1()
+    tips_to_keep.haema <- tips_to_keep.haema1()
+    tips_to_keep.zm <- tips_to_keep.zm1()
+
+   # Table construction
+    org.factor <- c()
+
+      for (i in 1:length(tree_reduced$tip.label))
+      {
+
+        if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.mp])
+        {
+          org.factor <- c(org.factor,"Marchantia")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ot])
+        {
+          org.factor <- c(org.factor,"Ostreococcus")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.at])
+        {
+          org.factor <- c(org.factor,"Arabidopsis")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cp])
+        {
+          org.factor <- c(org.factor,"Ceratodon")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cr])
+        {
+          org.factor <- c(org.factor,"Chlamydomonas")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cz])
+        {
+          org.factor <- c(org.factor,"Chromochloris")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.kn])
+        {
+          org.factor <- c(org.factor,"Klebsormidium")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.me])
+        {
+          org.factor <- c(org.factor,"Mesotaenium")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.mi])
+        {
+          org.factor <- c(org.factor,"Micromonas")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.pp])
+        {
+          org.factor <- c(org.factor,"Physcomitrium")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sl])
+        {
+          org.factor <- c(org.factor,"Solanum")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sm])
+        {
+          org.factor <- c(org.factor,"Selaginella")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sp])
+        {
+          org.factor <- c(org.factor,"Spirogloea")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ta])
+        {
+          org.factor <- c(org.factor,"Triticum")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.vc])
+        {
+          org.factor <- c(org.factor,"Volvox")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.bp])
+        {
+          org.factor <- c(org.factor,"Bathycoccus")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cri])
+        {
+          org.factor <- c(org.factor,"Ceratopteris")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ds])
+        {
+          org.factor <- c(org.factor,"Dunaliella")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.os])
+        {
+          org.factor <- c(org.factor,"Oryza")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.smag])
+        {
+          org.factor <- c(org.factor,"Sphagnum")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.tp])
+        {
+          org.factor <- c(org.factor,"Thuja")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.aa])
+        {
+          org.factor <- c(org.factor,"Anthoceros")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.um])
+        {
+          org.factor <- c(org.factor,"Ulva")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.rs])
+        {
+          org.factor <- c(org.factor,"Raphidocelis")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cyc])
+        {
+          org.factor <- c(org.factor,"Cycas")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.pu])
+        {
+          org.factor <- c(org.factor,"Porphyra")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.pt])
+        {
+          org.factor <- c(org.factor,"Phaeodactylum")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ng])
+        {
+          org.factor <- c(org.factor,"Nannochloropsis")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cyano])
+        {
+          org.factor <- c(org.factor,"Cyanophora")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ca])
+        {
+          org.factor <- c(org.factor,"Chlorokybus")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.mv])
+        {
+          org.factor <- c(org.factor,"Mesostigma")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.af])
+        {
+          org.factor <- c(org.factor,"Azolla")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sc])
+        {
+          org.factor <- c(org.factor,"Salvinia")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.aegi])
+        {
+          org.factor <- c(org.factor,"Aegilops")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sb])
+        {
+          org.factor <- c(org.factor,"Sorghum")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.chara])
+        {
+          org.factor <- c(org.factor,"Chara")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.guilla])
+        {
+          org.factor <- c(org.factor,"Guillardia")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.crypto])
+        {
+          org.factor <- c(org.factor,"Cryptophyceae")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cymero])
+        {
+          org.factor <- c(org.factor,"Cyanidioschyzon")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.galsul])
+        {
+          org.factor <- c(org.factor,"Galdieria")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.gracichor])
+        {
+          org.factor <- c(org.factor,"Gracilariopsis")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sceobli])
+        {
+          org.factor <- c(org.factor,"Scenedesmus")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cocco])
+        {
+          org.factor <- c(org.factor,"Coccomyxa")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.saccha])
+        {
+          org.factor <- c(org.factor,"Saccharina")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.haema])
+        {
+          org.factor <- c(org.factor,"Haematococcus")
+        }
+        else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.zm])
+        {
+          org.factor <- c(org.factor,"Zea")
+        }
+
+      }
+
+
+      #Matrix with labels and colors and transform to dplyr format
+      string.sel.table <- data.frame(node = 1:length(tree_reduced$tip.label), label = tree_reduced$tip.label,
+                              org = org.factor)
+
+      return(string.sel.table)
+
+    }) %>% bindEvent(input$string_start1)
+
+  # Now, selection is allowed for genes of species with STRING support
+  observeEvent(input$string_start1, {
+
+    string_sel_table <- string_sel_table1()
+    allow_string_species <- c("Aegilops", "Arabidopsis", "Bathycoccus", "Chara", "Chlamydomonas",
+                              "Coccomyxa", "Cyanidioschyzon", "Galdieria", "Gracilariopsis",
+                              "Guillardia", "Klebsormidium", "Micromonas","Oryza",
+                              "Ostreococcus", "Phaeodactylum","Physcomitrium", "Raphidocelis",
+                              "Scenedesmus", "Selaginella", "Solanum", "Sorghum", "Triticum",
+                              "Volvox")
+
+    st_genes <- subset(string_sel_table, string_sel_table$org %in% allow_string_species)$label
+
+    if (length(st_genes) == 0)
+    {
+      output$error_string1 <- renderUI({renderText({print("No results for this
+      analysis due to lack of genes of STRING-supported species in the selection.")})})
+      validate(" ")
+    }
+
+    insertUI("#selected_string1", "afterEnd", ui = {
+
+      shinyWidgets::pickerInput("selected_stringI1","Select the desired genes from the tree",
+                                choices=st_genes, options = list(`actions-box` = TRUE),
+                                multiple = T)
+
+    })
+
+
+    insertUI("#string_selection1", "afterEnd", ui = {
+
+      shinyWidgets::actionBttn("string_selectionI1", "Show STRING Interactions", size = "sm",
+                               style = "float", color = "primary")
+    })
+
+  })
+
+  phys_table1 <- reactive({
+
+    shinyjs::showElement(id = 'loading.string1')
+    query_genes <- input$selected_stringI1
+
+    # Load complete STRING annotation table
+    library(data.table)
+ 
+    # Load iteratively from split files
+    data_phys <- as.data.frame(fread("pharaoh_folder/string_physical/string_physical_1.tsv"))
+    
+    for (i in 2:(length(list.files("pharaoh_folder/string_physical/"))))
+    {
+      data_phys <- rbind(data_phys, 
+                         as.data.frame(fread(paste0("pharaoh_folder/string_physical/string_physical_", 
+                                                    i, ".tsv"))))
+    }
+    
+    # Subset by query genes
+    string_res <- subset(data_phys, data_phys$prot_query %in% query_genes)
+
+    # Assign OG ID to each target
+    ortho_data_file <- ifelse(model.selected1(), "Global_Gene_Trees/Orthogroups.tsv",
+                         "Green_Gene_Trees/Orthogroups.tsv")
+    ortho_data <- as.data.frame(fread(ortho_data_file))
+    
+    ortho_char <- apply(ortho_data, MARGIN = 1, function(x) paste(x, collapse = ","))
+    ortho.numbers <- sapply(string_res$prot_interaction, function(x) grep(x, ortho_char), USE.NAMES = F)
+
+    # If a pattern is found in several names, i.e., is a subpattern of several genes,
+    # search for the exact match
+    if(class(ortho.numbers) == "list")
+    {
+      index.wrong <- which(sapply(ortho.numbers, function(x) length(x) > 1))
+      for (i in index.wrong)
+      {
+        for (j in ortho.numbers[[i]])
+        {
+          ortho_char_split <- strsplit(ortho_char[j],split = ",")
+          ortho_char_split_clean <- sapply(ortho_char_split, function(x) gsub(" ", "", x))
+          if (string_res$prot_interaction[i] %in% ortho_char_split_clean)
+          {
+            ortho.numbers[i] <- j
+            ortho.numbers <- unlist(ortho.numbers, use.names = F)
+          }
+        }
+      }
+    }
+    
+    # Create the final table
+    ortho.string.names <- ortho_data$Orthogroup[ortho.numbers]
+    phys_table <- data.frame(string_res, orthogroup = ortho.string.names)
+
+    return(phys_table)
+  }) %>% bindEvent(input$string_selectionI1)
+  
+  # Create count table to identify enriched OGs in STRING result
+  string_counts1 <- reactive({
+    
+    phys_table <- phys_table1()
+    string_counts <- sort(table(phys_table$orthogroup), decreasing = T)
+    
+    return(string_counts)
+    
+  }) %>% bindEvent(input$string_selectionI1)
+  
+  string_count_plot1 <- reactive({
+    
+    library(ggplot2)
+    library(dplyr)
+    
+    data_count <- as.data.frame(string_counts1())
+    colnames(data_count) <- c("orthogroup", "value")
+   
+    # Compute the position of labels
+    data_count <- data_count %>%
+      arrange(desc(orthogroup)) %>%
+      mutate(prop = value / sum(data_count$value) *100) %>%
+      mutate(ypos = cumsum(prop)- 0.5*prop )
+    
+    # Create plot
+    count_plot <- ggplot(data_count, aes(x="", y=prop, fill=orthogroup)) +
+      geom_bar(stat="identity", width=1, color="white") +
+      coord_polar("y", start=0) +
+      theme_void() +
+      theme(legend.position="none") +
+      #geom_text(aes(y = ypos, label = orthogroup), color = "white", size=6) +
+    scale_fill_manual(values = rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"), 
+                                   floor(nrow(data_count)/9)+1))
+    
+    return(count_plot)
+    
+  }) %>% bindEvent(input$string_selectionI1)
+  
+  # Create boxes for outputs
+  observeEvent(isTruthy(string_count_plot1()), {
+    
+    if (UI_exist_string1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_st_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #output_count_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #count_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadSTRINGTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadCOUNTTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #count_plot_download1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #selected_networkI1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI("#network_buttonI1")
+      
+    }
+    
+    insertUI("#box_st_table1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          dataTableOutput("output_st_table1")
+      )
+    })
+    
+    insertUI("#box_count_table1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          dataTableOutput("output_count_table1")
+      )
+    })
+    
+    insertUI("#box_count_plot1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          fluidRow(column(1), imageOutput("count_plot1"))
+      )
+    })
+    
+    
+    insertUI("#download_ui_for_st_table1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadSTRINGTable1", "Download STRING Table",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    insertUI("#download_ui_for_count_table1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadCOUNTTable1", "Download OG Count Table",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    insertUI("#count_down_button1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "count_download1", "Download OG Count Plot",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    UI_exist_string1 <<- TRUE
+    
+    # Remove previous results for STRING network
+    if (UI_exist_network1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_network1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      UI_exist_network1 <<- F
+    }
+  })
+  
+  # Fill outputs
+  # Render STRING table
+  # output$output_st_table1 <- renderDataTable({
+  #   phys_table <- phys_table1()
+  #   #phys_table$type <- sapply(phys_table$type, color_string)
+  #   datatable(phys_table) %>%
+  #     formatStyle(
+  #       'type',
+  #       color = styleEqual(
+  #         c("Direct interaction", "Interolog"), c('green', '#CA931B')
+  #       )
+  #       )
+  # },escape=FALSE, rownames= F, options =list(pageLength = 10)) 
+  
+  
+  output$output_st_table1 <- renderDataTable({
+    phys_table <- phys_table1()
+    #phys_table$type <- sapply(phys_table$type, color_string)
+    datatable(phys_table, escape=FALSE, rownames= F, options =list(pageLength = 10)) %>%
+      formatStyle(
+        'type',
+        color = styleEqual(
+          c("Direct interaction", "Interolog"), c('green', '#CA931B')
+        )
+      )
+  }) 
+  
+  
+  # Render OG count table
+  output$output_count_table1 <- renderDataTable({
+    string_counts <- as.data.frame(string_counts1())
+    colnames(string_counts) <- c("orthogroup", "count")
+    string_counts
+  },escape=FALSE, rownames= F, options =list(pageLength = 7))
+  
+  # Render OG count pie chart
+  output$count_plot1 <- renderImage({
+    
+    string_count_plot <- string_count_plot1()
+    
+    png("string_count_plot1.png", height = 450, width = 450)
+    plot(string_count_plot)
+    dev.off()
+    
+    list(src = "string_count_plot1.png",
+         contentType="image/png", width=400,height=400)
+  }, deleteFile = T)
+  
+  
+  # Download tab's outputs
+  # Download STRING table
+  output$downloadSTRINGTable1 <- downloadHandler(
+    filename= function() {
+      paste("string_table", ".tsv", sep="")
+    },
+    content= function(file) {
+      phys_table <- phys_table1()
+      write.table(x = phys_table,quote = F,sep = "\t",
+                  file=file,row.names=FALSE,col.names=TRUE)
+    })
+  
+  # Download count table
+  output$downloadCOUNTTable1 <- downloadHandler(
+    filename= function() {
+      paste("string_count_table", ".tsv", sep="")
+    },
+    content= function(file) {
+      string_counts <- string_counts1()
+      write.table(x = string_counts,quote = F,sep = "\t",
+                  file=file,row.names=FALSE,col.names=TRUE)
+    })
+  
+  # Download count plot
+  output$count_download1 <- downloadHandler(
+    filename= function() {
+      paste("string_count", ".png", sep="")
+    },
+    content= function(file) {
+      string_count_plot <- string_count_plot1()
+      
+      png(file, height = 450, width = 450)
+      plot(string_count_plot)
+      dev.off()
+    })
+  
+  # Create gene selector and button for STRING network representation
+  observeEvent(input$string_selectionI1,{
+    
+    phys_table <- phys_table1()
+    network_genes <- unique(phys_table$prot_query)
+    
+    # Error message if no genes are allowed for selection should have  been reported
+    # earlier
+    
+    insertUI("#selected_network1", "afterEnd", ui = {
+      
+        shinyWidgets::pickerInput(inputId = "selected_networkI1", label = "Select the gene whose network you want to plot", 
+                                  choices = network_genes, selected = network_genes[1], multiple = F)
+        
+      })
+      
+      
+      insertUI("#network_button1", "afterEnd", ui = {
+        
+        shinyWidgets::actionBttn("network_buttonI1", "Plot STRING Network", size = "sm",
+                                 style = "float", color = "primary")
+      })
+      
+      shinyjs::hideElement(id = 'loading.string1')
+    
+  })
+  
+  # observeEvent(input$network_buttonI1,{
+  #   
+  #   if (UI_exist_network1)
+  #   {
+  #     removeUI(
+  #       selector = "div:has(>> #output_network1)",
+  #       multiple = TRUE,
+  #       immediate = TRUE
+  #     )
+  #   
+  #   }
+  #   
+  #   insertUI("#box_network1", "afterEnd", ui = {
+  #     box(width = 12,
+  #         title = "Image", status = "info", solidHeader = TRUE,
+  #         collapsible = TRUE,
+  #         uiOutput("output_network1")
+  #     )
+  #   })
+  #   
+  #   UI_exist_network1 <<- T
+  #   
+  # })
+  
+  
+  
+
 # End of Gene ID-based search results
    
   
