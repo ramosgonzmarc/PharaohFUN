@@ -10,7 +10,7 @@ library(DT)
 library(ape)
 #library(seqinr)
 library(msaR)
-
+library(shinyjs)
 
 # Functions
 
@@ -91,15 +91,14 @@ color_string <- function(int_type)
 
 # JS Functions
 # STRING network retrieval
-# jsCode <- "
-#     shinyjs.loadStringData = function(gene, orgid) {
-#         getSTRING('https://string-db.org', {
-#             'ncbiTaxonId': orgid,
-#             'identifiers': gene,
-#             'add_color_nodes':15,
-#             'network_flavor':'confidence',
-#             'network_type': physical})
-#     }"
+jsCode <- "
+    shinyjs.loadStringData = function(gene) {
+        getSTRING('https://string-db.org', {
+            'identifiers': gene,
+            'species' : '3702',
+            'add_color_nodes':25,
+            'network_flavor':'confidence'})
+    }"
 
 # Create data frame
 
@@ -142,7 +141,7 @@ df <- data.frame(replicate(length(column_names),sample(0:1,1000,rep=TRUE)))
 colnames(df) = column_names
 
 ui <- dashboardPage(
-
+  
   dashboardHeader( #disable = TRUE
     title = "PharaohFUN",
                   dropdownMenu(badgeStatus = "warning", icon = icon("question"), headerText = "", type = "notifications",
@@ -177,8 +176,8 @@ ui <- dashboardPage(
   dashboardBody(
     ## Body content
     
-    
       tabItems(
+        
         # First tab content
         tabItem(tabName = "home",
                 #tags$head(tags$style(HTML("a {color: white}"))),
@@ -584,7 +583,15 @@ ui <- dashboardPage(
                                            tags$div(id = "selected_network1"),
                                            fluidRow(tags$br()),
                                            tags$div(id = "network_button1"),
-                                           fluidRow(tags$br())
+                                           fluidRow(tags$br()),
+                                           shinyjs::extendShinyjs(text = jsCode, functions = "loadStringData"),
+                                           tags$script(src = "http://string-db.org/javascript/combined_embedded_network_v2.0.2.js"),
+                                           uiOutput(outputId = "error_network1"),
+                                           shinyjs::hidden(
+                                             tags$div(id = "parent_network1",
+                                                      
+                                                    tags$div(id = "stringEmbedded")
+                                           ) )
                                            
                                            ),
                                   tabPanel("Literature Annotation", 
@@ -1342,6 +1349,7 @@ server <- function(input, output) {
   UI_exist_lit1 <<-  F
   UI_exist_string1 <<-  F
   UI_exist_network1 <<-  F
+  allow_net <<- F
   
   # Activate a global wrapper for reactivity when the action button of the
   # gene search panel is activated. Every result of this panel will be 
@@ -5716,19 +5724,53 @@ server <- function(input, output) {
     if (UI_exist_string1)
     {
       removeUI(
-        selector = "div:has(>> #output_string_table1)",
+        selector = "div:has(>> #output_st_table1)",
         multiple = TRUE,
         immediate = TRUE
       )
-
+      
+      removeUI(
+        selector = "div:has(>> #output_count_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>>> #count_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
       removeUI(
         selector = "div:has(>> #downloadSTRINGTable1)",
         multiple = TRUE,
         immediate = TRUE
       )
-
+      
+      removeUI(
+        selector = "div:has(>> #downloadCOUNTTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #count_download1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #selected_networkI1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI("#network_buttonI1")
+      
       UI_exist_string1 <<- F
     }
+    
+    shinyjs::hideElement(id = "parent_network1")
 
   })
 
@@ -6007,6 +6049,8 @@ server <- function(input, output) {
       analysis due to lack of genes of STRING-supported species in the selection.")})})
       validate(" ")
     }
+    
+    output$error_string1 <- NULL
 
     insertUI("#selected_string1", "afterEnd", ui = {
 
@@ -6033,18 +6077,19 @@ server <- function(input, output) {
     # Load complete STRING annotation table
     library(data.table)
  
-    # Load iteratively from split files
-    data_phys <- as.data.frame(fread("pharaoh_folder/string_physical/string_physical_1.tsv"))
+    # Load iteratively from split files using data.table format
+    data_phys <- fread("pharaoh_folder/string_physical/string_physical_1.tsv")
     
-    for (i in 2:(length(list.files("pharaoh_folder/string_physical/"))))
+    for (x in list.files("pharaoh_folder/string_physical/")[-1])
     {
       data_phys <- rbind(data_phys, 
-                         as.data.frame(fread(paste0("pharaoh_folder/string_physical/string_physical_", 
-                                                    i, ".tsv"))))
+                         fread(paste0("pharaoh_folder/string_physical/", x)))
     }
     
-    # Subset by query genes
-    string_res <- subset(data_phys, data_phys$prot_query %in% query_genes)
+    # Subset by query genes using data.table for speed
+    #string_res <- subset(data_phys, data_phys$prot_query %in% query_genes)
+    string_res <- data_phys[prot_query %in% query_genes,]
+    string_res <- as.data.frame(string_res)
 
     # Assign OG ID to each target
     ortho_data_file <- ifelse(model.selected1(), "Global_Gene_Trees/Orthogroups.tsv",
@@ -6137,7 +6182,7 @@ server <- function(input, output) {
       )
       
       removeUI(
-        selector = "div:has(>> #count_plot1)",
+        selector = "div:has(>>> #count_plot1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -6155,7 +6200,7 @@ server <- function(input, output) {
       )
       
       removeUI(
-        selector = "div:has(>> #count_plot_download1)",
+        selector = "div:has(>> #count_download1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -6213,16 +6258,8 @@ server <- function(input, output) {
     UI_exist_string1 <<- TRUE
     
     # Remove previous results for STRING network
-    if (UI_exist_network1)
-    {
-      removeUI(
-        selector = "div:has(>> #output_network1)",
-        multiple = TRUE,
-        immediate = TRUE
-      )
-      
-      UI_exist_network1 <<- F
-    }
+    shinyjs::hideElement(id = "parent_network1")
+    
   })
   
   # Fill outputs
@@ -6338,7 +6375,7 @@ server <- function(input, output) {
   })
   
   # observeEvent(input$network_buttonI1,{
-  #   
+  # 
   #   if (UI_exist_network1)
   #   {
   #     removeUI(
@@ -6346,22 +6383,70 @@ server <- function(input, output) {
   #       multiple = TRUE,
   #       immediate = TRUE
   #     )
-  #   
+  # 
   #   }
-  #   
-  #   insertUI("#box_network1", "afterEnd", ui = {
-  #     box(width = 12,
-  #         title = "Image", status = "info", solidHeader = TRUE,
-  #         collapsible = TRUE,
-  #         uiOutput("output_network1")
-  #     )
-  #   })
-  #   
-  #   UI_exist_network1 <<- T
-  #   
-  # })
+#
+    # insertUI("#box_output_network1", "afterEnd", ui = {
+    #   box(width = 12,
+    #       title = "Image", status = "info", solidHeader = TRUE,
+    #       collapsible = TRUE,
+    #       tags$script(src = "http://string-db.org/javascript/combined_embedded_network_v2.0.2.js"),
+    #       tags$div(id = "stringEmbedded")
+    #   )
+     # 
+    #
+    #UI_exist_network1 <<- T
+    #
+    # js$loadStringData(as.character(isolate({input$selected_networkI1})))
+    # 
+    # shinyjs::showElement(id = "stringEmbedded")
+    # shinyjs::toggle(id = "parent_network1")
+
+  #})
   
+  mapped_string1 <- reactive({
+    
+    # Load genes (PharaohFUN IDs) and convert to STRING IDs
+    library(data.table)
+    
+    network_genes <- input$selected_networkI1
+    map_table <- fread("pharaoh_folder/string_map.tsv")
+    
+    # Fast subset using data.table
+    map_network <- map_table[pharaohfun_id %in% network_genes,]
+    
+    # Error if no genes from selection have an associated high fidelity STRING ID
+    if (nrow(map_network) == 0)
+    {
+      
+      shinyjs::hideElement(id = "parent_network1")
+      
+      output$error_network1 <- renderUI({renderText({print("It's not possible to map any
+                               genes from selection to STRING IDs, please select different ones.")})})
+      validate( " ")
+      
+    }
+    
+    output$error_network1 <- NULL
+    
+    # Get only STRING IDS and paste in a format interpretable by JS function
+    string_ids <- as.data.frame(map_network)$string_id
+    
+    
+    mapped_string <- paste0(string_ids, collapse = "%0d")
+    return(mapped_string)
+    
+  }) %>% bindEvent(input$network_buttonI1)
   
+  observeEvent(isTruthy(mapped_string1()),{
+    
+    mapped_string <- mapped_string1()
+    js$loadStringData(mapped_string)
+    
+    shinyjs::showElement(id = "stringEmbedded")
+    shinyjs::showElement(id = "parent_network1")
+    
+  })
   
 
 # End of Gene ID-based search results
