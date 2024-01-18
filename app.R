@@ -11,6 +11,7 @@ library(ape)
 #library(seqinr)
 library(msaR)
 library(shinyjs)
+library(phylowidget)
 
 # Functions
 
@@ -95,7 +96,6 @@ jsCode <- "
     shinyjs.loadStringData = function(gene) {
         getSTRING('https://string-db.org', {
             'identifiers': gene,
-            'species' : '3702',
             'add_color_nodes':25,
             'network_flavor':'confidence'})
     }"
@@ -461,6 +461,15 @@ ui <- dashboardPage(
                                            tags$div(id = "cafe_down_button1"),
                                            tags$div(id = "download_ui_for_cafe_plot1"))
                                            ),
+                                  tabPanel("Collapsable tree",
+                                           fluidRow(tags$br()),
+                                           shinyWidgets::actionBttn("phylo_start1", "Show Collapsable Tree",
+                                                                    size = "sm", icon = icon("magnifying-glass"),
+                                                                    style = "float", color = "primary"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "box_phylo1"),
+                                           fluidRow(tags$br())
+                                           ),
                                   tabPanel("PFAM Domains", 
                                            fluidRow(tags$br()),
                                            shinyWidgets::actionBttn("pfam_start1", "Show Gene Selection for Pfam",
@@ -518,9 +527,8 @@ ui <- dashboardPage(
                                            uiOutput(outputId = "error_gos1"),
                                            tags$div(id = "box_gos_table1"),
                                            fluidRow(tags$br()),
-                                           tags$div(id = "box_gos_plot1"), 
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "box_gos_treeplot1"),
+                                           splitLayout(cellWidths = c("50%", "50%"),
+                                                       tags$div(id = "box_gos_plot1"), tags$div(id = "box_gos_treeplot1")),
                                            fluidRow(tags$br()),
                                            splitLayout(cellWidths = c("33%", "33%", "33%"), 
                                                        tags$div(id = "download_ui_for_gos_table1"),
@@ -1340,6 +1348,7 @@ server <- function(input, output) {
   # Set global variables for tracking changes in output
   UI_exist_pfam1 <<- F
   UI_exist_tree1 <<- F
+  UI_exist_phylo1 <<- F
   UI_exist_cafe1 <<- F
   UI_exist_error_cafe1 <<- F
   UI_exist_msa1 <<- F
@@ -3709,8 +3718,70 @@ server <- function(input, output) {
     })
   
   
+  ####################### PHYLOWIDGET ############################
+  # Remove previous outputs when updated by a new search
+  observeEvent(input$run_button1, {
+    if (UI_exist_phylo1)
+    {
+      removeUI(
+        selector = "div:has(>> #phylo_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      UI_exist_phylo1 <<- F
+    }
+    
+  })
   
-  ###########################PFAM##################################
+  ### CAFE parser and tree generator
+  phylo_tree1 <- reactive({
+    
+    library(ape)
+    tree_phylo <- tree_reduced1()
+    
+    # Normalize tree depth
+    root_id <- length(tree_phylo$tip.label)+1
+    norm_factor <- max(dist.nodes(tree_phylo)[root_id,])
+    tree_phylo$edge.length <- tree_phylo$edge.length/norm_factor
+    
+    return(tree_phylo)
+    
+  }) %>% bindEvent(input$phylo_start1)
+  
+  observeEvent(isTruthy(phylo_tree1()),{
+    
+    if(UI_exist_phylo1)
+    {
+      removeUI(
+        selector = "div:has(>> #phylo_plot1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      UI_exist_phylo1 <<- F
+    }
+    
+    
+    insertUI("#box_phylo1", "afterEnd", ui = {
+      box(width = 12,
+          title = "Image", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          phylowidgetOutput("phylo_plot1", height = "800px", width = "98%")
+      )
+      })
+    
+    UI_exist_phylo1 <<- T
+    
+  })
+  
+  output$phylo_plot1 <- renderPhylowidget({
+    
+    phylo_tree <- phylo_tree1()
+    phylowidget(phylo_tree)
+  })
+  
+  #########################  PFAM  ###############################
   
   observeEvent(input$run_button1, {
     removeUI(
@@ -5719,6 +5790,8 @@ server <- function(input, output) {
     )
 
     removeUI("#string_selectionI1")
+    
+    shinyjs::hideElement("error_string1")
 
 
     if (UI_exist_string1)
@@ -6045,6 +6118,7 @@ server <- function(input, output) {
 
     if (length(st_genes) == 0)
     {
+      shinyjs::showElement("error_string1")
       output$error_string1 <- renderUI({renderText({print("No results for this
       analysis due to lack of genes of STRING-supported species in the selection.")})})
       validate(" ")
@@ -6072,8 +6146,8 @@ server <- function(input, output) {
   phys_table1 <- reactive({
 
     shinyjs::showElement(id = 'loading.string1')
-    query_genes <- input$selected_stringI1
-
+    query_genes <<- input$selected_stringI1
+    
     # Load complete STRING annotation table
     library(data.table)
  
@@ -6086,14 +6160,17 @@ server <- function(input, output) {
                          fread(paste0("pharaoh_folder/string_physical/", x)))
     }
     
+    
+    
     # Subset by query genes using data.table for speed
     #string_res <- subset(data_phys, data_phys$prot_query %in% query_genes)
     string_res <- data_phys[prot_query %in% query_genes,]
     string_res <- as.data.frame(string_res)
-
+    
     # Assign OG ID to each target
     ortho_data_file <- ifelse(model.selected1(), "Global_Gene_Trees/Orthogroups.tsv",
                          "Green_Gene_Trees/Orthogroups.tsv")
+    
     ortho_data <- as.data.frame(fread(ortho_data_file))
     
     ortho_char <- apply(ortho_data, MARGIN = 1, function(x) paste(x, collapse = ","))
@@ -6103,7 +6180,25 @@ server <- function(input, output) {
     # search for the exact match
     if(class(ortho.numbers) == "list")
     {
+      # If a gene isn't associated to an OG
+      index.none <- which(sapply(ortho.numbers, function(x) length(x) == 0))
+      
+      if (length(index.none) != 0)
+      {
+      # We create another row for OG table to associate those genes
+      ortho_data <- rbind(ortho_data, "No OG")
+      ortho.numbers[index.none] <- nrow(ortho_data)
+      }
+      
+      # If a gene has more than one match due to subpatterns
       index.wrong <- which(sapply(ortho.numbers, function(x) length(x) > 1))
+      {
+      if (length(index.wrong) == 0)
+      {
+        ortho.numbers <- unlist(ortho.numbers, use.names = F)
+      }
+      else
+      {
       for (i in index.wrong)
       {
         for (j in ortho.numbers[[i]])
@@ -6117,7 +6212,11 @@ server <- function(input, output) {
           }
         }
       }
+      }
     }
+    }
+    
+    
     
     # Create the final table
     ortho.string.names <- ortho_data$Orthogroup[ortho.numbers]
@@ -6359,7 +6458,8 @@ server <- function(input, output) {
     insertUI("#selected_network1", "afterEnd", ui = {
       
         shinyWidgets::pickerInput(inputId = "selected_networkI1", label = "Select the gene whose network you want to plot", 
-                                  choices = network_genes, selected = network_genes[1], multiple = F)
+                                  choices = network_genes, selected = network_genes[1],
+                                  options = list(`actions-box` = TRUE), multiple = T)
         
       })
       
