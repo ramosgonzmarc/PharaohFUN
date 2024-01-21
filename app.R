@@ -436,14 +436,23 @@ ui <- dashboardPage(
                                            shinyjs::hidden(div(id='loading.tree1',h3('Please be patient, building tree ...'))),
                                            uiOutput(outputId = "error_tree1"),
                                            splitLayout(cellWidths = c("50%", "50%"),
-                                                       tags$div(id = "boxouttext1"), tags$div(id = "boxouttext2")),
+                                                       tags$div(id = "box_tree_text1"), tags$div(id = "box_tree_pie1")),
                                            fluidRow(tags$br()),
-                                           fluidRow(tags$div(id = "boxout1")),
+                                           fluidRow(tags$div(id = "box_tree_plot1")),
                                            splitLayout(cellWidths = c("33%", "33%", "33%"), 
                                                        tags$div(id = "download_tree1"),
                                                        tags$div(id = "download_newick1"),
                                                        tags$div(id = "download_tree_seqs1"))
                                            ),
+                                  tabPanel("Collapsable tree",
+                                           fluidRow(tags$br()),
+                                           shinyWidgets::actionBttn("phylo_start1", "Show Collapsable Tree",
+                                                                    size = "sm", icon = icon("magnifying-glass"),
+                                                                    style = "float", color = "primary"),
+                                           fluidRow(tags$br()),
+                                           tags$div(id = "box_phylo1"),
+                                           fluidRow(tags$br())
+                                  ),
                                   tabPanel("Expansion/Contraction",
                                             fluidRow(tags$br()),
                                             shinyWidgets::actionBttn("cafe_start1", "Show Evolutionary History",
@@ -460,15 +469,6 @@ ui <- dashboardPage(
                                            splitLayout(cellWidths = c("50%", "50%"),
                                            tags$div(id = "cafe_down_button1"),
                                            tags$div(id = "download_ui_for_cafe_plot1"))
-                                           ),
-                                  tabPanel("Collapsable tree",
-                                           fluidRow(tags$br()),
-                                           shinyWidgets::actionBttn("phylo_start1", "Show Collapsable Tree",
-                                                                    size = "sm", icon = icon("magnifying-glass"),
-                                                                    style = "float", color = "primary"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "box_phylo1"),
-                                           fluidRow(tags$br())
                                            ),
                                   tabPanel("PFAM Domains", 
                                            fluidRow(tags$br()),
@@ -3590,25 +3590,25 @@ server <- function(input, output) {
     }
     
     
-    insertUI("#boxouttext1", "afterEnd", ui = {
+    insertUI("#box_tree_text1", "afterEnd", ui = {
       box(
-        title = "Organisms", status = "info", solidHeader = TRUE, width = 12,
+        title = "Genes in Orthogroup", status = "info", solidHeader = TRUE, width = 12,
         collapsible = TRUE,
         verbatimTextOutput("treeTips1")
       )
     }) 
     
-    insertUI("#boxouttext2", "afterEnd", ui = {
+    insertUI("#box_tree_pie1", "afterEnd", ui = {
       box(
-        title = "Tree method", status = "info", solidHeader = TRUE,
+        title = "Present Organisms", status = "info", solidHeader = TRUE,
         collapsible = TRUE, width = 12,
         fluidRow(column(1), imageOutput("presentorg1"))
       )
     }) 
     
-    insertUI("#boxout1", "afterEnd", ui = {
+    insertUI("#box_tree_plot1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "Gene Tree", status = "info", solidHeader = TRUE,
           collapsible = TRUE, 
           plotOutput("tree_image1", height = 500)
       )
@@ -3765,7 +3765,7 @@ server <- function(input, output) {
     
     insertUI("#box_phylo1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "Interactive Tree", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           phylowidgetOutput("phylo_plot1", height = "800px", width = "98%")
       )
@@ -4033,13 +4033,13 @@ server <- function(input, output) {
         total_table_pfam <- total_table_pfam1()
         box_pfplot_height <- 150 + 700*length(total_table_pfam$order[nrow(total_table_pfam)])
         box(
-          title = "PFAM Table", status = "info", solidHeader = TRUE, width = 12, #height = box_pfplot_height,
+          title = "Domains Localization", status = "info", solidHeader = TRUE, width = 12, #height = box_pfplot_height,
           collapsible = TRUE,
           imageOutput("pfam_plot1"))
       }) 
       
       insertUI("#pfam_down_button1", "afterEnd", ui = {
-        tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "pfam_download1", "Download PFAM figures",
+        tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "pfam_download1", "Download PFAM figure",
                                               size = "sm", color = "primary"))
         })
       
@@ -4209,7 +4209,7 @@ server <- function(input, output) {
       }
         insertUI("#error_cafe1", "afterEnd", ui = {
           box(width = 12,
-              title = "Image", status = "info", solidHeader = TRUE,
+              title = "Ancestral State Reconstruction", status = "info", solidHeader = TRUE,
               collapsible = TRUE,
               textOutput("cafe_error_message1"))
         })
@@ -4440,14 +4440,14 @@ server <- function(input, output) {
     
     insertUI("#box_cafe1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "Ancestral State Reconstruction", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           imageOutput("cafe_plot1", height = 500, width = 1000))
     })
 
     insertUI("#box_mrca1", "afterEnd", ui = {
       box(width = 8,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "Most Recent Common Ancestor", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           textOutput("cafe_mrca1")
       )
@@ -4691,7 +4691,7 @@ server <- function(input, output) {
     
     insertUI("#box_msa1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "MSA Explorer", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           msaROutput("msa_print1", width = "60%")
       )
@@ -5032,7 +5032,7 @@ server <- function(input, output) {
     
     insertUI("#box_gos_table1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "GO Terms Table", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           dataTableOutput("output_gos_table1")
       )
@@ -5040,7 +5040,7 @@ server <- function(input, output) {
     
     insertUI("#box_gos_plot1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "GO Terms Plot", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           imageOutput("gos_plot1")
       )
@@ -5048,7 +5048,7 @@ server <- function(input, output) {
     
     insertUI("#box_gos_treeplot1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "GO Terms Treeplot", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           imageOutput("gos_treeplot1")
       )
@@ -5414,7 +5414,7 @@ server <- function(input, output) {
     
     insertUI("#box_kos_table1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "KO Terms Table", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           dataTableOutput("output_kos_table1")
       )
@@ -5423,7 +5423,7 @@ server <- function(input, output) {
     
     insertUI("#box_kegg_table1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "KEGG Pathways Table", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           dataTableOutput("output_kegg_table1")
       )
@@ -5543,26 +5543,12 @@ server <- function(input, output) {
       )
     }
     
-    insertUI("#box_path_image1", "afterEnd", ui = {
-      box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
-          collapsible = TRUE,
-          imageOutput("path_image1")
-      )
-    })
-    
-    insertUI("#path_download_ui1", "afterEnd", ui = {
-      tags$div(shinyWidgets::downloadBttn(outputId= "downloadKEGGpathway1", "Download KEGG Pathways Plot",
-                                                                         size = "sm", color = "primary"))
-    })
-    
-    UI_exist_pathview1 <<- T
+    UI_exist_pathview1 <<- F
     
   })
   
-  # Fill path image output
-  output$path_image1 <- renderImage({
-    
+  # Create Image to Render and save path name
+  pathway.current.id1 <- reactive({
     pathway.current.id <- input$selected_pathsI1
     total_table_kos <- total_table_kos1()
     
@@ -5578,9 +5564,36 @@ server <- function(input, output) {
              limit = list(gene=max(abs(gene.pathway)), cpd=1),
              gene.idtype ="kegg")
     
+    return(pathway.current.id)
     
+  }) %>% bindEvent(input$paths_buttonI1)
+  
+  # Create output box and download button
+  observeEvent(isTruthy(pathway.current.id1()),{
+    
+    insertUI("#box_path_image1", "afterEnd", ui = {
+      box(width = 12,
+          title = "KEGG Pathway Plot", status = "info", solidHeader = TRUE,
+          collapsible = TRUE,
+          fluidRow(column(1), imageOutput("path_image1", width = "100%", height = "700px"))
+      )
+    })
+    
+    insertUI("#path_download_ui1", "afterEnd", ui = {
+      tags$div(shinyWidgets::downloadBttn(outputId= "downloadKEGGpathway1", "Download KEGG Pathway Plot",
+                                          size = "sm", color = "primary"))
+    })
+    
+    UI_exist_pathview1 <<- T
+    
+  })
+  
+  # Fill path image output
+  output$path_image1 <- renderImage({
+    
+    pathway.current.id <- pathway.current.id1()
     list(src = paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."),
-         contentType="image/png",width=900,height=900)
+         contentType="image/png",width=900,height=700)
   },deleteFile = F)
   
   # Download and remove path image output
@@ -5589,7 +5602,7 @@ server <- function(input, output) {
       paste("path_plot", ".png", sep="")
     },
     content= function(file) {
-      pathway.current.id <- input$selected_pathsI1
+      pathway.current.id <- pathway.current.id1()
       file.copy(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."), file)
       file.remove(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."))
     })
@@ -6316,7 +6329,7 @@ server <- function(input, output) {
     
     insertUI("#box_st_table1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "STRING Interactions Table", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           dataTableOutput("output_st_table1")
       )
@@ -6324,7 +6337,7 @@ server <- function(input, output) {
     
     insertUI("#box_count_table1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "Interacting Orthogroups Table", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           dataTableOutput("output_count_table1")
       )
@@ -6332,7 +6345,7 @@ server <- function(input, output) {
     
     insertUI("#box_count_plot1", "afterEnd", ui = {
       box(width = 12,
-          title = "Image", status = "info", solidHeader = TRUE,
+          title = "Interacting Orthogroups Plot", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
           fluidRow(column(1), imageOutput("count_plot1"))
       )
