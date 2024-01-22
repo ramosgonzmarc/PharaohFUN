@@ -132,13 +132,14 @@ organisms_values <- c("pt","ng", "saccha", "guilla", "crypto", "cymero",
 names(organisms_values) <- c(column1, column2, column3, column4, column5, column6,
                              column7, column8, column9)
 
-column_names_upper <- c(toupper(letters[1:26]))
-column_names_lower <- c(tolower(letters[1:26]))
-column_names = c(column_names_upper, column_names_lower)
-df <- data.frame(replicate(length(column_names),sample(0:1,1000,rep=TRUE)))
-
-# assign column names
-colnames(df) = column_names
+# BORRAR ESTO ????
+# column_names_upper <- c(toupper(letters[1:26]))
+# column_names_lower <- c(tolower(letters[1:26]))
+# column_names = c(column_names_upper, column_names_lower)
+# df <- data.frame(replicate(length(column_names),sample(0:1,1000,rep=TRUE)))
+# 
+# # assign column names
+# colnames(df) = column_names
 
 ui <- dashboardPage(
   
@@ -382,9 +383,6 @@ ui <- dashboardPage(
                     gene trees with the species tree shown in the Home tab. For the other three methods,
                     no reconciliation is performed but support for each branch is shown as bootstrap 
                     values."),
-                  
-                  
-                  
                   
                   shinyWidgets::awesomeRadio(
                     inputId = "build_trees_1",
@@ -771,6 +769,29 @@ ui <- dashboardPage(
                 ),
                 
                 fluidRow(br()),
+                fluidRow(br()),
+                
+                span(tags$b("Tree building method"), style = "color:#25d04a; font-size: 20px; "),
+                div(br()),
+                
+                div("The first step in any study using PharaohFUN is the construction of the 
+                    gene tree corresponding to the selected orthogroup. For this, four standard methods 
+                    are offered, select one before continuing. Default is performed with FastTree using Orthofinder 2
+                    pipeline, which renders trees by aproximate maximum-likelihood and then reconciliate
+                    gene trees with the species tree shown in the Home tab. For the other three methods,
+                    no reconciliation is performed but support for each branch is shown as bootstrap 
+                    values."),
+                
+                shinyWidgets::awesomeRadio(
+                  inputId = "build_trees_2",
+                  label = "", 
+                  choices = c("FastTree", "Neighbour Joining", "UPGMA", "Parsimony"),
+                  selected = "FastTree",
+                  inline = TRUE, 
+                  status = "success"
+                ),
+                
+                fluidRow(br()),
                 
                 span(tags$b("Insert a protein chain"), style = "color:#25d04a; font-size: 20px; "),
                 br(),
@@ -781,6 +802,7 @@ ui <- dashboardPage(
                              and Cryptophytes, Rhodophytes and Glaucophytes do not belong to Viridiplantae, so they
                              will be ignored in case this is the selected model."),
                 fluidRow(
+                
                   column(8, 
                   textAreaInput(inputId = "geneInt2", 
                                 #label= span(tags$b("Insert a protein chain"), style = "color:#25d04a; font-size: 20px; "),
@@ -789,25 +811,108 @@ ui <- dashboardPage(
                                 value= "", resize = "vertical",
                                 placeholder = 
                                 "METNSSGEDLVIKTRKPYTITKQRERWTEEEHNRFIEALRLYGRAWQKIEEHVATKTAVQ...")),
+                  column(4,
+                         
+                         fluidRow(
+                           
+                           column(9,
+                           div(style = "margin-top: 25px;",
+                               # selectInput("organism_input_2", label = "Choose organism", 
+                               #             choices = organisms_values, 
+                               #             selected = organisms_values[1], multiple = FALSE,
+                               #             selectize = TRUE, width = NULL, size = NULL)
+                               shinyWidgets::pickerInput("organism_input_2","Choose organism",
+                                                         choices=names(organisms_values),
+                                                         multiple = F, selected=names(organisms_values)[11])
+                           )
+                           
+                           
+                         )),
                   
-                  column(1, div( style = "margin-top: 188px;", 
-                                 shinyWidgets::actionBttn("run_button2", "Run", size = "sm", icon = icon("magnifying-glass"),
-                                                          style = "float", color = "success"))),
-                  column(3,div(style = "margin-top: 192px;",
-                               shinyWidgets::materialSwitch(inputId = "switch2", label = "Global", 
-                                                            value = T, status = "success", inline = TRUE),
-                               span("Viridiplantae")))
+                        fluidRow(
+                          column(3, div( style = "margin-top: 85px;", 
+                                        shinyWidgets::actionBttn("run_button2", "Run", size = "sm", icon = icon("magnifying-glass"),
+                                        style = "float", color = "success"))),
+                    
+                          column(9,div(style = "margin-top: 89px;",
+                                       shinyWidgets::materialSwitch(inputId = "switch2", label = "Global", 
+                                                                    value = T, status = "success", inline = TRUE),
+                                       span("Viridiplantae"))
+                    
+                        )),
+                  
                   )
-                ),
+                
+                )),
               
               br(),
               fluidRow(
                 box(status = "success", width = 12, 
                     title = span(tags$b("Results"), style = "color:#25d04a; font-size: 20px; "),
                     tabsetPanel(type = "tabs",
-                                tabPanel("Genes Tree", "First tab content"),
-                                tabPanel("Expansion/Contraction", "Tab content 2"),
-                                tabPanel("PFAM Domains", "First tab content"),
+                                tabPanel("Genes Tree", 
+                                         fluidRow(br()),
+                                         shinyjs::useShinyjs(),
+                                         shinyjs::hidden(div(id='loading.tree2',h3('Please be patient, building tree ...'))),
+                                         uiOutput(outputId = "error_tree2"),
+                                         fluidRow(tags$div(id = "box_tree_seq_table2")),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "box_tree_text2"), tags$div(id = "box_tree_pie2")),
+                                         fluidRow(tags$br()),
+                                         fluidRow(tags$div(id = "box_tree_plot2")),
+                                         splitLayout(cellWidths = c("33%", "33%", "33%"), 
+                                                     tags$div(id = "download_tree2"),
+                                                     tags$div(id = "download_newick2"),
+                                                     tags$div(id = "download_tree_seqs2"))
+                                         ),
+                                tabPanel("Collapsable tree",
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("phylo_start2", "Show Collapsable Tree",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "success"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_phylo2"),
+                                         fluidRow(tags$br())
+                                ),
+                                tabPanel("Expansion/Contraction",
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("cafe_start2", "Show Evolutionary History",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "success"),
+                                         fluidRow(tags$br()),
+                                         
+                                         shinyjs::hidden(div(id='loading.cafe2', h3('Please be patient, reconstructing expansion/contraction events ...'))),
+                                         tags$div(id = "error_cafe2"),
+                                         tags$div(id = "box_mrca2"),
+                                         tags$br(),
+                                         tags$div(id = "box_cafe2"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "cafe_down_button2"),
+                                                     tags$div(id = "download_ui_for_cafe_plot2"))
+                                ),
+                                tabPanel("PFAM Domains", 
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("pfam_start2", "Show Gene Selection for Pfam",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "success"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_pfams2"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "pfam_selectionI2"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.pfam.pf2',h3('Please be patient, identifying domains ...'))),
+                                         uiOutput(outputId = "error_pfam2"),
+                                         tags$div(id = "box_pfam2"),
+                                         tags$br(),
+                                         tags$div(id = "box_pfplot2"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"), 
+                                                     tags$div(id = "pfam_down_button2"),
+                                                     tags$div(id = "download_ui_for_pfam_table2")
+                                         )
+                                ),
                                 tabPanel("Multiple Sequence Alignment", "Tab content 2"),
                                 tabPanel("GO Terms", "First tab content"),
                                 tabPanel("KEGG Orthology", "Tab content 2"),
@@ -1345,6 +1450,8 @@ ui <- dashboardPage(
 
 server <- function(input, output) {
   
+  ############## GENE ID-BASED SEARCH ##############
+  
   # Set global variables for tracking changes in output
   UI_exist_pfam1 <<- F
   UI_exist_tree1 <<- F
@@ -1358,11 +1465,6 @@ server <- function(input, output) {
   UI_exist_lit1 <<-  F
   UI_exist_string1 <<-  F
   UI_exist_network1 <<-  F
-  allow_net <<- F
-  
-  # Activate a global wrapper for reactivity when the action button of the
-  # gene search panel is activated. Every result of this panel will be 
-  # calculated inside this environment 
     
   # Clear previous error outputs
     
@@ -6563,8 +6665,2924 @@ server <- function(input, output) {
   
 
 # End of Gene ID-based search results
-   
   
+  
+  
+  ############### SEQUENCE-BASED SEARCH ####################
+  
+  UI_exist_pfam2 <<- F
+  UI_exist_tree2 <<- F
+  UI_exist_phylo2 <<- F
+  UI_exist_cafe2 <<- F
+  UI_exist_error_cafe2 <<- F
+  UI_exist_msa2 <<- F
+  UI_exist_go2 <<- F
+  UI_exist_kegg2 <<- F
+  UI_exist_pathview2 <<- F
+  UI_exist_lit2 <<-  F
+  UI_exist_string2 <<-  F
+  UI_exist_network2 <<-  F
+  
+  # Define variables for input values, update only when Run button is clicked
+  model.selected2 <- reactive({
+    model.selected <- !input$switch2
+    return(model.selected)
+  })%>% bindEvent(input$run_button2)
+  
+  build_trees2 <- reactive({
+    build_trees <- as.character(input$build_trees_2)
+    return(build_trees)
+  }) %>% bindEvent(input$run_button2)
+  
+  selected_organisms2 <- reactive({
+    selected_organisms <- c(input$mami_check_2,input$chloro_check_2, input$strepto_check_2,
+                            input$bryo_check_2, input$lyco_check_2, input$sperma_check_2)
+    if(model.selected2()){selected_organisms <- c(input$tsar_check_2, input$rhodo_check_2, 
+                                                  input$glauco_check_2,selected_organisms)}
+    return(selected_organisms)
+    
+  }) %>% bindEvent(input$run_button2)
+  
+  selected_values_org2 <- reactive(organisms_values[selected_organisms2()]) %>% bindEvent(input$run_button2)
+
+  
+   seq_org2 <- reactive({
+     
+     seq_org <- input$organism_input_2
+     
+     return(seq_org)
+     
+   }) %>% bindEvent(input$run_button2)
+    
+   # Start results computation
+   # First, search for the most similar protein in the proteome of the species
+   # chosen by the user to identify the corresponding ID. After this, workflow is
+   # the same as on the Gene ID-based search
+   
+   diamond_table2 <- reactive({
+     
+     shinyjs::showElement(id = 'loading.tree2')
+     
+     seq_org <- seq_org2()
+     model.selected <- model.selected2()
+     
+     # Check if selected model contains selected proteome
+     if (!model.selected && seq_org %in% c(column1, column2, column3))
+     {
+       shinyjs::hideElement(id = 'loading.tree2')
+       
+       if (UI_exist_tree2)
+       {
+         removeUI(
+           selector = "div:has(>> #tree_seq_table2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #treeTips2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>>> #presentorg2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #tree_image2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTree2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadNewick2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTreeSeqs2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+       }
+       
+       UI_exist_tree2 <<- F
+       output$error_tree2 <- renderUI({renderText({print("Global Model must be selected for the analysis
+                                      of the chosen proteome.")})})
+       validate(need(" "))
+     }
+     
+     
+     # Clean chain input
+     library(seqinr)
+     library(stringr)
+     
+     seq_comp <- as.character(input$geneInt2)
+     seq_comp_clean <- toupper(gsub("[\r\n\t]", "", seq_comp))
+     seq_comp_clean2 <- str_replace_all(seq_comp_clean, fixed(" "), "")
+     vec_comp <- stringr::str_split_1(seq_comp_clean2, pattern = "")
+     
+     # Create fasta por comparison
+     random_name <- "new_diamond"
+     write.fasta(vec_comp, names = "query_prot", paste0("pharaoh_folder/", random_name, ".fa"))
+     
+     # Access species proteome
+     org_search <- gsub(" ", "_", tolower(as.character(seq_org)))
+     org_fasta <- paste("pharaohfun_proteomes", paste0(org_search, ".fa", sep=""), sep = "/")
+     
+     library(rdiamond)
+     
+     # Run diamond
+     diamond_res <- rdiamond::diamond_protein_to_protein(
+       query   = paste0("pharaoh_folder/", random_name, ".fa"),
+       subject = org_fasta,
+       sensitivity_mode = "sensitive",
+       output_path = tempdir(),
+       #db_import  = FALSE,
+       diamond_exec_path = "/usr/bin", 
+       max_target_seqs = 5)
+     
+     # Convert to data.frame
+     diamond_table <- data.frame(ID=diamond_res$subject_id, Identity_perc=diamond_res$perc_identity,
+                                 Num_identical_matches=diamond_res$num_ident_matches, 
+                                 Length = diamond_res$alig_length, Mismatches = diamond_res$mismatches,
+                                 Num_gaps=diamond_res$n_gaps, E_value=diamond_res$evalue)
+     
+     return(diamond_table)
+     
+     
+   }) %>% bindEvent(input$run_button2)
+  
+   
+   og.name2 <- reactive({
+     
+     diamond_table <- diamond_table2()
+     gene.name.tree <- as.character(diamond_table$ID[1])
+       
+       
+     # Load table with orthogroups information depending on selected model
+     ortho.table.search <- ifelse(model.selected2(), "Global_Gene_Trees/Orthogroups.tsv",
+                                  "Green_Gene_Trees/Orthogroups.tsv")
+     ortho.table <- read.csv(ortho.table.search,
+                             header = T, sep = "\t", as.is = T,
+                             fill = T, blank.lines.skip = F)
+     
+     
+     # Find orthogroup of target gene
+     found <- F
+     file.name <- NULL
+     i <- 1
+     while (!(found) && (i <= nrow(ortho.table)))
+     {
+       object <- as.character(ortho.table[i,])
+       gene.number <- grep(pattern = gene.name.tree, object)
+       if (length(gene.number) != 0)
+       {
+         found <- T
+         file.name <- ortho.table[i,1]
+       }
+       else
+       {
+         i <- i+1
+       }
+     }
+     
+     # Error message if gene ID does not belong to any OG
+     if (is.null(file.name))
+     {
+       shinyjs::hideElement(id = 'loading.tree2')
+       
+       if (UI_exist_tree2)
+       {
+         removeUI(
+           selector = "div:has(>> #tree_seq_table2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #treeTips2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>>> #presentorg2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #tree_image2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTree2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadNewick2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTreeSeqs2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+       }
+       
+       UI_exist_tree2 <<- F
+       output$error_tree2 <- renderUI({renderText({print("No results for this 
+      query due to not supported gene name or lack of orthologs in the selected organisms.")})})
+       validate(need(!is.null(file.name), " "))
+     }
+     
+     return(file.name)
+     
+   }) %>% bindEvent(input$run_button2)
+   
+   
+   tree2 <- reactive({
+     file.name <- og.name2()
+     # Load gene tree file depending on the input
+     
+     tree.name <- ifelse(model.selected2(),
+                         paste("Global_Gene_Trees",paste(file.name, "tree.txt", sep = "_"), sep="/"),
+                         paste("Green_Gene_Trees",paste(file.name, "tree.txt", sep = "_"), sep="/"))
+     
+     # Error if tree file not found
+     if (!(file.exists(tree.name)))
+     {
+       shinyjs::hideElement(id = 'loading.tree2')
+       
+       if (UI_exist_tree2)
+       {
+         removeUI(
+           selector = "div:has(>> #tree_seq_table2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #treeTips2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>>> #presentorg2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #tree_image2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTree2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadNewick2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTreeSeqs2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+       }
+       
+       UI_exist_tree2 <<- F
+       output$error_tree2 <- renderUI({renderText({print("Unable to construct tree associated to
+                                                        to an orthogroup with less than 4 genes.")})})
+       validate(need(file.exists(tree.name), " "))
+     }
+     
+     # Generate tree depending on the tree building method selected
+     {
+       if (build_trees2() == "FastTree")
+       {
+         tree <- read.tree(tree.name)
+         return(tree)
+       }
+       
+       else
+       {
+         library(phangorn)
+         
+         # Read MSA
+         multiple_file <- ifelse(model.selected2(),
+                                 paste("Global_MultipleSequenceAlignments", paste0(file.name, ".fa"), sep="/"),
+                                 paste("Green_MultipleSequenceAlignments", paste0(file.name, ".fa"), sep="/"))
+         
+         
+         mytree <- read.phyDat(file = multiple_file,
+                               format="fasta", type = "AA")
+         
+         # To keep the same workflow, the reduced tree will be calculated, then the applied subsetting
+         # will only reduce them if the selected method has been fasttree
+         
+         
+         # Selection of genes from the selected organism
+         
+         # Create empty vectors
+         
+         tips_to_keep.mp2 = tips_to_keep.at2 = tips_to_keep.ot2 = tips_to_keep.cp2 <- c()
+         tips_to_keep.cr2 = tips_to_keep.cz2 = tips_to_keep.kn2 = tips_to_keep.me2 <- c()
+         tips_to_keep.mi2 = tips_to_keep.pp2 = tips_to_keep.sl2 = tips_to_keep.sm2 <- c()
+         tips_to_keep.sp2 = tips_to_keep.ta2 = tips_to_keep.vc2 = tips_to_keep.bp2 <- c()
+         tips_to_keep.cri2 = tips_to_keep.ds2 = tips_to_keep.os2 = tips_to_keep.smag2 <- c()
+         tips_to_keep.tp2 = tips_to_keep.aa2 = tips_to_keep.um2 = tips_to_keep.rs2 <- c()
+         tips_to_keep.cyc2 = tips_to_keep.pu2 = tips_to_keep.pt2 = tips_to_keep.ng2 <- c()
+         tips_to_keep.cyano2 = tips_to_keep.ca2 = tips_to_keep.mv2 = tips_to_keep.af2 <- c()
+         tips_to_keep.sc2 = tips_to_keep.aegi2 = tips_to_keep.sb2 = tips_to_keep.chara2 <- c()
+         tips_to_keep.guilla2 = tips_to_keep.crypto2 = tips_to_keep.cymero2 = tips_to_keep.galsul2 <- c()
+         tips_to_keep.gracichor2 = tips_to_keep.sceobli2 = tips_to_keep.cocco2 = tips_to_keep.saccha2 <- c()
+         tips_to_keep.haema2 = tips_to_keep.zm2 <- c()
+         
+         
+         organisms.list <- c(selected_values_org2())
+         
+         
+         # Fill vectors if organisms are in list and change names
+         {
+           if ("mp" %in% organisms.list)
+           {
+             tips_to_keep.mp2 <- grep(pattern = "marchantia", names(mytree)) 
+           }
+           
+           if ("ot" %in% organisms.list)
+           {
+             tips_to_keep.ot2 <- grep(pattern = "ostreoco",names(mytree)) 
+           }
+           
+           if ("at" %in% organisms.list)
+           {
+             tips_to_keep.at2 <- grep(pattern = "arabidopsis",names(mytree)) 
+           }
+           
+           if ("cp" %in% organisms.list)
+           {
+             tips_to_keep.cp2 <- grep(pattern = "ceratodon",names(mytree)) 
+           }
+           
+           if ("cr" %in% organisms.list)
+           {
+             tips_to_keep.cr2 <- grep(pattern = "chlamy",names(mytree))
+           }
+           
+           if ("cz" %in% organisms.list)
+           {
+             tips_to_keep.cz2 <- grep(pattern = "chromochloris",names(mytree)) 
+           }
+           
+           if ("kn" %in% organisms.list)
+           {
+             tips_to_keep.kn2 <- grep(pattern = "klebsormidium",names(mytree)) 
+           }
+           
+           if ("me" %in% organisms.list)
+           {
+             tips_to_keep.me2 <- grep(pattern = "mesotaenium",names(mytree)) 
+           }
+           
+           if ("mi" %in% organisms.list)
+           {
+             tips_to_keep.mi2 <- grep(pattern = "micromonas",names(mytree)) 
+           }
+           
+           if ("pp" %in% organisms.list)
+           {
+             tips_to_keep.pp2 <- grep(pattern = "physcomitrium",names(mytree)) 
+           }
+           
+           if ("sl" %in% organisms.list)
+           {
+             tips_to_keep.sl2 <- grep(pattern = "solanum",names(mytree)) 
+           }
+           
+           if ("sm" %in% organisms.list)
+           {
+             tips_to_keep.sm2 <- grep(pattern = "selaginella",names(mytree))
+           }
+           
+           if ("sp" %in% organisms.list)
+           {
+             tips_to_keep.sp2 <- grep(pattern = "spirogloea",names(mytree)) 
+           }
+           
+           if ("ta" %in% organisms.list)
+           {
+             tips_to_keep.ta2 <- grep(pattern = "triticum",names(mytree)) 
+           }
+           
+           if ("vc" %in% organisms.list)
+           {
+             tips_to_keep.vc2 <- grep(pattern = "volvox",names(mytree))
+           }
+           
+           if ("bp" %in% organisms.list)
+           {
+             tips_to_keep.bp2 <- grep(pattern = "bathycoccus",names(mytree))
+           }
+           
+           if ("cri" %in% organisms.list)
+           {
+             tips_to_keep.cri2 <- grep(pattern = "ceratopteris",names(mytree))
+           }
+           
+           if ("ds" %in% organisms.list)
+           {
+             tips_to_keep.ds2 <- grep(pattern = "dunaliella",names(mytree))
+           }
+           
+           if ("os" %in% organisms.list)
+           {
+             tips_to_keep.os2 <- grep(pattern = "oryza",names(mytree))
+           }
+           
+           if ("smag" %in% organisms.list)
+           {
+             tips_to_keep.smag2 <- grep(pattern = "sphagnum",names(mytree))
+           }
+           
+           if ("tp" %in% organisms.list)
+           {
+             tips_to_keep.tp2 <- grep(pattern = "thuja",names(mytree))
+           }
+           
+           if ("aa" %in% organisms.list)
+           {
+             tips_to_keep.aa2 <- grep(pattern = "anthoceros",names(mytree))
+           }
+           
+           if ("um" %in% organisms.list)
+           {
+             tips_to_keep.um2 <- grep(pattern = "ulva",names(mytree))
+           }
+           
+           if ("rs" %in% organisms.list)
+           {
+             tips_to_keep.rs2 <- grep(pattern = "raphidocelis",names(mytree))
+           }
+           
+           if ("cyc" %in% organisms.list)
+           {
+             tips_to_keep.cyc2 <- grep(pattern = "cycas",names(mytree))
+           }
+           
+           if ("pu" %in% organisms.list)
+           {
+             tips_to_keep.pu2 <- grep(pattern = "porphyra",names(mytree))
+           }
+           
+           if ("pt" %in% organisms.list)
+           {
+             tips_to_keep.pt2 <- grep(pattern = "phaeodactylum",names(mytree))
+           }
+           
+           if ("ng" %in% organisms.list)
+           {
+             tips_to_keep.ng2 <- grep(pattern = "gaditana",names(mytree))
+           }
+           
+           if ("cyano" %in% organisms.list)
+           {
+             tips_to_keep.cyano2 <- grep(pattern = "cyanophora",names(mytree))
+           }
+           
+           if ("ca" %in% organisms.list)
+           {
+             tips_to_keep.ca2 <- grep(pattern = "chlorokybus",names(mytree))
+           }
+           
+           if ("mv" %in% organisms.list)
+           {
+             tips_to_keep.mv2 <- grep(pattern = "mesostigma",names(mytree))
+           }
+           
+           if ("af" %in% organisms.list)
+           {
+             tips_to_keep.af2 <- grep(pattern = "azolla",names(mytree))
+           }
+           
+           if ("sc" %in% organisms.list)
+           {
+             tips_to_keep.sc2 <- grep(pattern = "salvinia",names(mytree))
+           }
+           
+           if ("aegi" %in% organisms.list)
+           {
+             tips_to_keep.aegi2 <- grep(pattern = "aegilops",names(mytree))
+           }
+           
+           if ("sb" %in% organisms.list)
+           {
+             tips_to_keep.sb2 <- grep(pattern = "sorghum",names(mytree))
+           }
+           
+           if ("chara" %in% organisms.list)
+           {
+             tips_to_keep.chara2 <- grep(pattern = "chara",names(mytree))
+           }
+           
+           if ("guilla" %in% organisms.list)
+           {
+             tips_to_keep.guilla2 <- grep(pattern = "guillardia",names(mytree))
+           }
+           
+           if ("crypto" %in% organisms.list)
+           {
+             tips_to_keep.crypto2 <- grep(pattern = "cryptophyceae",names(mytree))
+           }
+           
+           if ("cymero" %in% organisms.list)
+           {
+             tips_to_keep.cymero2 <- grep(pattern = "cyanidioschyzon",names(mytree))
+           }
+           
+           if ("galsul" %in% organisms.list)
+           {
+             tips_to_keep.galsul2 <- grep(pattern = "galdieria",names(mytree))
+           }
+           
+           if ("gracichor" %in% organisms.list)
+           {
+             tips_to_keep.gracichor2 <- grep(pattern = "gracilariopsis",names(mytree))
+           }
+           
+           if ("sceobli" %in% organisms.list)
+           {
+             tips_to_keep.sceobli2 <- grep(pattern = "scenedesmus",names(mytree))
+           }
+           
+           if ("cocco" %in% organisms.list)
+           {
+             tips_to_keep.cocco2 <- grep(pattern = "coccomyxa",names(mytree))
+           }
+           
+           if ("saccha" %in% organisms.list)
+           {
+             tips_to_keep.saccha2 <- grep(pattern = "saccharina",names(mytree))
+           }
+           
+           if ("haema" %in% organisms.list)
+           {
+             tips_to_keep.haema2 <- grep(pattern = "haematococcus",names(mytree))
+           }
+           
+           if ("zm" %in% organisms.list)
+           {
+             tips_to_keep.zm2 <- grep(pattern = "mays",names(mytree))
+           }
+         }
+         
+         
+         # Concatenate indexes to keep and subset MSA
+         tips_to_keep.global <- c(tips_to_keep.mp2, tips_to_keep.ot2, tips_to_keep.at2, tips_to_keep.cp2,
+                                  tips_to_keep.cr2, tips_to_keep.cz2, tips_to_keep.kn2, tips_to_keep.me2,
+                                  tips_to_keep.mi2, tips_to_keep.pp2, tips_to_keep.sl2, tips_to_keep.sm2,
+                                  tips_to_keep.sp2, tips_to_keep.ta2, tips_to_keep.vc2, tips_to_keep.bp2,
+                                  tips_to_keep.cri2, tips_to_keep.ds2, tips_to_keep.os2, tips_to_keep.smag2,
+                                  tips_to_keep.tp2, tips_to_keep.aa2, tips_to_keep.um2, tips_to_keep.rs2,
+                                  tips_to_keep.cyc2, tips_to_keep.pu2, tips_to_keep.pt2, tips_to_keep.ng2,
+                                  tips_to_keep.cyano2, tips_to_keep.ca2, tips_to_keep.mv2, tips_to_keep.af2,
+                                  tips_to_keep.sc2, tips_to_keep.aegi2, tips_to_keep.sb2, tips_to_keep.chara2,
+                                  tips_to_keep.guilla2, tips_to_keep.crypto2, tips_to_keep.cymero2, tips_to_keep.galsul2,
+                                  tips_to_keep.gracichor2, tips_to_keep.sceobli2, tips_to_keep.cocco2, tips_to_keep.saccha2,
+                                  tips_to_keep.haema2,tips_to_keep.zm2)
+         
+         
+         my_subset_tree <- subset(mytree, tips_to_keep.global)
+         
+         {
+           if (build_trees2() == "Neighbour Joining")
+           {
+             # Create dist matrix for NJ and build tree
+             dm <- dist.ml(my_subset_tree)
+             treeNJ  <- NJ(dm)
+             
+             # Bootstrap for NJ
+             fun_nj <- function(x) NJ(dist.ml(x))
+             bs_nj <- bootstrap.phyDat(my_subset_tree, fun_nj, bs=100)
+             
+             # Save bootstrap values to the tree
+             tree <- plotBS(treeNJ, bs_nj, type = "n")
+             # Rooting tree
+             tree <- midpoint(tree)
+             return(tree)
+           }
+           
+           else if (build_trees2() == "UPGMA")
+           {
+             dm <- dist.ml(my_subset_tree)
+             treeUPGMA  <- upgma(dm)
+             
+             # Bootstrap for UPGMA
+             fun_upgma <- function(x) upgma(dist.ml(x))
+             bs_upgma <- bootstrap.phyDat(my_subset_tree, fun_upgma, bs=100)
+             
+             # Save bootstrap values to the tree
+             tree <- addConfidences(treeUPGMA, bs_upgma)
+             return(tree)
+           }
+           
+           else if (build_trees2() == "Parsimony")
+           {
+             # Use ratchet for stimating tree (BS incorporated)
+             tree  <- pratchet(my_subset_tree, trace = 0, minit=100)
+             
+             # Include branch lengths
+             tree  <- acctran(tree, my_subset_tree)
+             
+             # Prune away internal edges of length tol (default = 1e-08) so our trees may contain multifurcations
+             tree  <- di2multi(tree)
+             
+             # Some trees may difer in edges of lengths 0
+             if(inherits(tree, "multiPhylo")){
+               tree <- unique(tree)
+             }
+             return(tree)
+           }
+         }
+         
+       }
+     }
+   }) %>% bindEvent(input$run_button2)
+   
+   ortho_seq2 <- reactive({
+     file.name <- og.name2()
+     
+     # Load orthogroup sequences file
+     ortho.seq.name <- ifelse(model.selected2(),
+                              paste("Global_Orthogroup_Sequences",paste(file.name, "fa", sep = "."), sep="/"),
+                              paste("Green_Orthogroup_Sequences",paste(file.name, "fa", sep = "."), sep="/"))
+     
+     ortho_seq <- seqinr::read.fasta(ortho.seq.name, seqtype = "AA")
+     return(ortho_seq)
+   })
+   
+   
+   # Tips to keep of each species with proper notation
+   tips_to_keep.mp2 <- reactive({
+     
+     tree <- tree2()
+     # Selection of organisms
+     organisms.list <- c(selected_values_org2())
+     
+     # Selection of genes from the selected organism
+     tips_to_keep.mp <- c()
+     if ("mp" %in% organisms.list)
+     {
+       tips_to_keep.mp <- grep(pattern = "marchantia",tree$tip.label)
+     }
+     return(tips_to_keep.mp)
+   })
+   
+   tips_to_keep.ot2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.ot <- c()
+     if ("ot" %in% organisms.list)
+     {
+       tips_to_keep.ot <- grep(pattern = "ostreoco",tree$tip.label)
+     }
+     return(tips_to_keep.ot)
+   })
+   
+   tips_to_keep.at2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.at <- c()
+     if ("at" %in% organisms.list)
+     {
+       tips_to_keep.at <- grep(pattern = "arabidopsis",tree$tip.label)
+     }
+     return(tips_to_keep.at)
+   })
+   
+   tips_to_keep.cp2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.cp <- c()
+     if ("cp" %in% organisms.list)
+     {
+       tips_to_keep.cp <- grep(pattern = "ceratodon",tree$tip.label)
+     }
+     
+     return(tips_to_keep.cp)
+   })
+   
+   tips_to_keep.cr2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.cr <- c()
+     if ("cr" %in% organisms.list)
+     {
+       tips_to_keep.cr <- grep(pattern = "chlamy",tree$tip.label)
+     }
+     return(tips_to_keep.cr)
+   })
+   
+   tips_to_keep.cz2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.cz <- c()
+     if ("cz" %in% organisms.list)
+     {
+       tips_to_keep.cz <- grep(pattern = "chromochloris",tree$tip.label)
+     }
+     return(tips_to_keep.cz)
+   })
+   
+   tips_to_keep.kn2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.kn <- c()
+     if ("kn" %in% organisms.list)
+     {
+       tips_to_keep.kn <- grep(pattern = "klebsormidium",tree$tip.label)
+     }
+     return(tips_to_keep.kn)
+   })
+   
+   tips_to_keep.me2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.me <- c()
+     if ("me" %in% organisms.list)
+     {
+       tips_to_keep.me <- grep(pattern = "mesotaenium",tree$tip.label)
+     }
+     return(tips_to_keep.me)
+   })
+   
+   tips_to_keep.mi2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.mi <- c()
+     if ("mi" %in% organisms.list)
+     {
+       tips_to_keep.mi <- grep(pattern = "micromonas",tree$tip.label)
+     }
+     return(tips_to_keep.mi)
+   })
+   
+   tips_to_keep.pp2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.pp <- c()
+     if ("pp" %in% organisms.list)
+     {
+       tips_to_keep.pp <- grep(pattern = "physcomitrium",tree$tip.label)
+     }
+     return(tips_to_keep.pp)
+   })
+   
+   tips_to_keep.sl2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.sl <- c()
+     if ("sl" %in% organisms.list)
+     {
+       tips_to_keep.sl <- grep(pattern = "solanum",tree$tip.label)
+     }
+     return(tips_to_keep.sl)
+   })
+   
+   tips_to_keep.sm2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.sm <- c()
+     if ("sm" %in% organisms.list)
+     {
+       tips_to_keep.sm <- grep(pattern = "selaginella",tree$tip.label)
+     }
+     return(tips_to_keep.sm)
+   })
+   
+   tips_to_keep.sp2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.sp <- c()
+     if ("sp" %in% organisms.list)
+     {
+       tips_to_keep.sp <- grep(pattern = "spirogloea",tree$tip.label)
+     }
+     return(tips_to_keep.sp)
+   })
+   
+   tips_to_keep.ta2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.ta <- c()
+     if ("ta" %in% organisms.list)
+     {
+       tips_to_keep.ta <- grep(pattern = "triticum",tree$tip.label)
+     }
+     return(tips_to_keep.ta)
+   })
+   
+   tips_to_keep.vc2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.vc <- c()
+     if ("vc" %in% organisms.list)
+     {
+       tips_to_keep.vc <- grep(pattern = "volvox",tree$tip.label)
+     }
+     return(tips_to_keep.vc)
+   })
+   
+   tips_to_keep.bp2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.bp <- c()
+     if ("bp" %in% organisms.list)
+     {
+       tips_to_keep.bp <- grep(pattern = "bathycoccus",tree$tip.label)
+     }
+     return(tips_to_keep.bp)
+   })
+   
+   tips_to_keep.cri2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.cri <- c()
+     if ("cri" %in% organisms.list)
+     {
+       tips_to_keep.cri <- grep(pattern = "ceratopteris",tree$tip.label)
+     }
+     return(tips_to_keep.cri)
+   })
+   
+   tips_to_keep.ds2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.ds <- c()
+     if ("ds" %in% organisms.list)
+     {
+       tips_to_keep.ds <- grep(pattern = "dunaliella",tree$tip.label)
+     }
+     return(tips_to_keep.ds)
+   })
+   
+   tips_to_keep.os2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.os <- c()
+     if ("os" %in% organisms.list)
+     {
+       tips_to_keep.os <- grep(pattern = "oryza",tree$tip.label)
+     }
+     return(tips_to_keep.os)
+   })
+   
+   tips_to_keep.smag2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.smag <- c()
+     if ("smag" %in% organisms.list)
+     {
+       tips_to_keep.smag <- grep(pattern = "sphagnum",tree$tip.label)
+     }
+     return(tips_to_keep.smag)
+   })
+   
+   tips_to_keep.tp2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.tp <- c()
+     if ("tp" %in% organisms.list)
+     {
+       tips_to_keep.tp <- grep(pattern = "thuja",tree$tip.label)
+     }
+     return(tips_to_keep.tp)
+   })
+   
+   tips_to_keep.aa2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.aa <- c()
+     if ("aa" %in% organisms.list)
+     {
+       tips_to_keep.aa <- grep(pattern = "anthoceros",tree$tip.label)
+     }
+     return(tips_to_keep.aa)
+   })
+   
+   tips_to_keep.um2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.um <- c()
+     if ("um" %in% organisms.list)
+     {
+       tips_to_keep.um <- grep(pattern = "ulva",tree$tip.label)
+     }
+     return(tips_to_keep.um)
+   })
+   
+   tips_to_keep.rs2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.rs <- c()
+     if ("rs" %in% organisms.list)
+     {
+       tips_to_keep.rs <- grep(pattern = "raphidocelis",tree$tip.label)
+     }
+     return(tips_to_keep.rs)
+   })
+   
+   tips_to_keep.cyc2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.cyc <- c()
+     if ("cyc" %in% organisms.list)
+     {
+       tips_to_keep.cyc <- grep(pattern = "cycas",tree$tip.label)
+     }
+     return(tips_to_keep.cyc)
+   })
+   
+   tips_to_keep.pu2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.pu <- c()
+     if ("pu" %in% organisms.list)
+     {
+       tips_to_keep.pu <- grep(pattern = "porphyra",tree$tip.label)
+     }
+     return(tips_to_keep.pu)
+   })
+   
+   tips_to_keep.pt2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.pt <- c()
+     if ("pt" %in% organisms.list)
+     {
+       tips_to_keep.pt <- grep(pattern = "phaeodactylum",tree$tip.label)
+     }
+     return(tips_to_keep.pt)
+   })
+   
+   tips_to_keep.ng2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.ng <- c()
+     if ("ng" %in% organisms.list)
+     {
+       tips_to_keep.ng <- grep(pattern = "gaditana",tree$tip.label)
+     }
+     return(tips_to_keep.ng)
+   })
+   
+   tips_to_keep.cyano2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.cyano <- c()
+     if ("cyano" %in% organisms.list)
+     {
+       tips_to_keep.cyano <- grep(pattern = "cyanophora",tree$tip.label)
+     }
+     return(tips_to_keep.cyano)
+   })
+   
+   tips_to_keep.ca2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.ca <- c()
+     if ("ca" %in% organisms.list)
+     {
+       tips_to_keep.ca <- grep(pattern = "chlorokybus",tree$tip.label)
+     }
+     return(tips_to_keep.ca)
+   })
+   
+   tips_to_keep.mv2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.mv <- c()
+     if ("mv" %in% organisms.list)
+     {
+       tips_to_keep.mv <- grep(pattern = "mesostigma",tree$tip.label)
+     }
+     return(tips_to_keep.mv)
+   })
+   
+   tips_to_keep.af2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.af <- c()
+     if ("af" %in% organisms.list)
+     {
+       tips_to_keep.af <- grep(pattern = "azolla",tree$tip.label)
+     }
+     return(tips_to_keep.af)
+   })
+   
+   tips_to_keep.sc2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.sc <- c()
+     if ("sc" %in% organisms.list)
+     {
+       tips_to_keep.sc <- grep(pattern = "salvinia",tree$tip.label)
+     }
+     return(tips_to_keep.sc)
+   })
+   
+   tips_to_keep.aegi2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.aegi <- c()
+     if ("aegi" %in% organisms.list)
+     {
+       tips_to_keep.aegi <- grep(pattern = "aegilops",tree$tip.label)
+     }
+     return(tips_to_keep.aegi)
+   })
+   
+   tips_to_keep.sb2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.sb <- c()
+     if ("sb" %in% organisms.list)
+     {
+       tips_to_keep.sb <- grep(pattern = "sorghum",tree$tip.label)
+     }
+     return(tips_to_keep.sb)
+   })
+   
+   tips_to_keep.chara2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.chara <- c()
+     if ("chara" %in% organisms.list)
+     {
+       tips_to_keep.chara <- grep(pattern = "chara",tree$tip.label)
+     }
+     return(tips_to_keep.chara)
+   })
+   
+   tips_to_keep.guilla2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.guilla <- c()
+     if ("guilla" %in% organisms.list)
+     {
+       tips_to_keep.guilla <- grep(pattern = "guillardia",tree$tip.label)
+     }
+     return(tips_to_keep.guilla)
+   })
+   
+   tips_to_keep.crypto2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.crypto <- c()
+     if ("crypto" %in% organisms.list)
+     {
+       tips_to_keep.crypto <- grep(pattern = "cryptophyceae",tree$tip.label)
+     }
+     return(tips_to_keep.crypto)
+   })
+   
+   tips_to_keep.cymero2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.cymero <- c()
+     if ("cymero" %in% organisms.list)
+     {
+       tips_to_keep.cymero <- grep(pattern = "cyanidioschyzon",tree$tip.label)
+     }
+     return(tips_to_keep.cymero)
+   })
+   
+   tips_to_keep.galsul2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.galsul <- c()
+     if ("galsul" %in% organisms.list)
+     {
+       tips_to_keep.galsul <- grep(pattern = "galdieria",tree$tip.label)
+     }
+     return(tips_to_keep.galsul)
+   })
+   
+   tips_to_keep.gracichor2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.gracichor <- c()
+     if ("gracichor" %in% organisms.list)
+     {
+       tips_to_keep.gracichor <- grep(pattern = "gracilariopsis",tree$tip.label)
+     }
+     return(tips_to_keep.gracichor)
+   })
+   
+   tips_to_keep.sceobli2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.sceobli <- c()
+     if ("sceobli" %in% organisms.list)
+     {
+       tips_to_keep.sceobli <- grep(pattern = "scenedesmus",tree$tip.label)
+     }
+     return(tips_to_keep.sceobli)
+   })
+   
+   tips_to_keep.cocco2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.cocco <- c()
+     if ("cocco" %in% organisms.list)
+     {
+       tips_to_keep.cocco <- grep(pattern = "coccomyxa",tree$tip.label)
+     }
+     return(tips_to_keep.cocco)
+   })
+   
+   tips_to_keep.saccha2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.saccha <- c()
+     if ("saccha" %in% organisms.list)
+     {
+       tips_to_keep.saccha <- grep(pattern = "saccharina",tree$tip.label)
+     }
+     return(tips_to_keep.saccha)
+   })
+   
+   tips_to_keep.haema2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.haema <- c()
+     if ("haema" %in% organisms.list)
+     {
+       tips_to_keep.haema <- grep(pattern = "haematococcus",tree$tip.label)
+     }
+     return(tips_to_keep.haema)
+   })
+   
+   tips_to_keep.zm2 <- reactive({
+     
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     tips_to_keep.zm <- c()
+     if ("zm" %in% organisms.list)
+     {
+       tips_to_keep.zm <- grep(pattern = "mays",tree$tip.label)
+     }
+     return(tips_to_keep.zm)
+   }) %>% bindEvent(input$run_button2)
+   
+   
+   # Create complete gene tree with the proper name for each gene
+   # For this, we split the species name apart from the gene name
+   tree_adj2 <- reactive({
+     tree <- tree2()
+     organisms.list <- c(selected_values_org2())
+     
+     if ("mp" %in% organisms.list)
+     {
+       tips_to_keep.mp <- grep(pattern = "marchantia",tree$tip.label) 
+       if (length(tips_to_keep.mp) != 0)
+       {
+         mp.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mp]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.mp] <- mp.v
+       }
+     }
+     
+     if ("ot" %in% organisms.list)
+     {
+       tips_to_keep.ot <- grep(pattern = "ostreoco",tree$tip.label) 
+       if (length(tips_to_keep.ot) != 0)
+       {
+         ost.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ot]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.ot] <- ost.v
+       }
+     }
+     
+     if ("at" %in% organisms.list)
+     {
+       tips_to_keep.at <- grep(pattern = "arabidopsis",tree$tip.label) 
+       if (length(tips_to_keep.at) != 0)
+       {
+         arabi.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.at]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.at] <- arabi.v
+       }
+     }
+     
+     if ("cp" %in% organisms.list)
+     {
+       tips_to_keep.cp <- grep(pattern = "ceratodon",tree$tip.label) 
+       if (length(tips_to_keep.cp) != 0)
+       {
+         cer.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cp]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.cp] <- cer.v
+       }
+     }
+     
+     if ("cr" %in% organisms.list)
+     {
+       tips_to_keep.cr <- grep(pattern = "chlamy",tree$tip.label)
+       if (length(tips_to_keep.cr) != 0)
+       {
+         chlamy.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cr]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.cr] <- chlamy.v
+       }
+     }
+     
+     if ("cz" %in% organisms.list)
+     {
+       tips_to_keep.cz <- grep(pattern = "chromochloris",tree$tip.label) 
+       if (length(tips_to_keep.cz) != 0)
+       {
+         chromo.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cz]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.cz] <- chromo.v
+       }
+     }
+     
+     if ("kn" %in% organisms.list)
+     {
+       tips_to_keep.kn <- grep(pattern = "klebsormidium",tree$tip.label) 
+       if (length(tips_to_keep.kn) != 0)
+       {
+         klebs.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.kn]), "_"), function(x) x[[3]])
+         klebs.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.kn]), "_"), function(x) x[[4]])
+         klebs.v <- paste(klebs.v1, klebs.v2, sep = "_")
+         tree$tip.label[tips_to_keep.kn] <- klebs.v
+       }
+     }
+     
+     if ("me" %in% organisms.list)
+     {
+       tips_to_keep.me <- grep(pattern = "mesotaenium",tree$tip.label) 
+       if (length(tips_to_keep.me) != 0)
+       {
+         meso.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.me]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.me] <- meso.v
+       }
+     }
+     
+     if ("mi" %in% organisms.list)
+     {
+       tips_to_keep.mi <- grep(pattern = "micromonas",tree$tip.label) 
+       if (length(tips_to_keep.mi) != 0)
+       {
+         micro.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mi]), "_"), function(x) x[[3]])
+         micro.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mi]), "_"), function(x) x[[4]])
+         micro.v <- paste(micro.v1, micro.v2, sep = "_")
+         tree$tip.label[tips_to_keep.mi] <- micro.v
+       }
+     }
+     
+     if ("pp" %in% organisms.list)
+     {
+       tips_to_keep.pp <- grep(pattern = "physcomitrium",tree$tip.label) 
+       if (length(tips_to_keep.pp) != 0)
+       {
+         phys.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pp]), "_"), function(x) x[[3]])
+         phys.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pp]), "_"), function(x) x[[4]])
+         phys.v <- paste(phys.v1, phys.v2, sep = "_")
+         tree$tip.label[tips_to_keep.pp] <- phys.v
+       }
+     }
+     
+     if ("sl" %in% organisms.list)
+     {
+       tips_to_keep.sl <- grep(pattern = "solanum",tree$tip.label) 
+       if (length(tips_to_keep.sl) != 0)
+       {
+         sola.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sl]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.sl] <- sola.v
+       }
+     }
+     
+     if ("sm" %in% organisms.list)
+     {
+       tips_to_keep.sm <- grep(pattern = "selaginella",tree$tip.label) 
+       if (length(tips_to_keep.sm) != 0)
+       {
+         sel.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sm]), "_"), function(x) x[[3]])
+         sel.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sm]), "_"), function(x) x[[4]])
+         sel.v <- paste(sel.v1, sel.v2, sep = "_")
+         tree$tip.label[tips_to_keep.sm] <- sel.v
+       }
+     }
+     
+     if ("sp" %in% organisms.list)
+     {
+       tips_to_keep.sp <- grep(pattern = "spirogloea",tree$tip.label) 
+       if (length(tips_to_keep.sp) != 0)
+       {
+         spiro.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sp]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.sp] <- spiro.v
+       }
+     }
+     
+     if ("ta" %in% organisms.list)
+     {
+       tips_to_keep.ta <- grep(pattern = "triticum",tree$tip.label) 
+       if (length(tips_to_keep.ta) != 0)
+       {
+         tri.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ta]), "_"), function(x) x[[3]])
+         tri.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ta]), "_"), function(x) x[[4]])
+         tri.v3 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ta]), "_"), function(x) x[[5]])
+         tri.v <- paste(tri.v1, tri.v2, tri.v3, sep = "_")
+         tree$tip.label[tips_to_keep.ta] <- tri.v
+       }
+     }
+     
+     if ("vc" %in% organisms.list)
+     {
+       tips_to_keep.vc <- grep(pattern = "volvox",tree$tip.label)
+       if (length(tips_to_keep.vc) != 0)
+       {
+         vc.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.vc]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.vc] <- vc.v
+       }
+     }
+     
+     if ("bp" %in% organisms.list)
+     {
+       tips_to_keep.bp <- grep(pattern = "bathycoccus",tree$tip.label)
+       if (length(tips_to_keep.bp) != 0)
+       {
+         bp.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.bp]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.bp] <- bp.v
+       }
+     }
+     
+     if ("cri" %in% organisms.list)
+     {
+       tips_to_keep.cri <- grep(pattern = "ceratopteris",tree$tip.label)
+       if (length(tips_to_keep.cri) != 0)
+       {
+         cri.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cri]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.cri] <- cri.v
+       }
+     }
+     
+     if ("ds" %in% organisms.list)
+     {
+       tips_to_keep.ds <- grep(pattern = "dunaliella",tree$tip.label)
+       if (length(tips_to_keep.ds) != 0)
+       {
+         ds.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ds]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.ds] <- ds.v
+       }
+     }
+     
+     if ("os" %in% organisms.list)
+     {
+       tips_to_keep.os <- grep(pattern = "oryza",tree$tip.label)
+       if (length(tips_to_keep.os) != 0)
+       {
+         os.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.os]), "va_"), function(x) x[[2]])
+         tree$tip.label[tips_to_keep.os] <- os.v
+       }
+     }
+     
+     if ("smag" %in% organisms.list)
+     {
+       tips_to_keep.smag <- grep(pattern = "sphagnum",tree$tip.label)
+       if (length(tips_to_keep.smag) != 0)
+       {
+         smag.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.smag]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.smag] <- smag.v
+       }
+     }
+     
+     if ("tp" %in% organisms.list)
+     {
+       tips_to_keep.tp <- grep(pattern = "thuja",tree$tip.label)
+       if (length(tips_to_keep.tp) != 0)
+       {
+         tp.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.tp]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.tp] <- tp.v
+       }
+     }
+     
+     if ("aa" %in% organisms.list)
+     {
+       tips_to_keep.aa <- grep(pattern = "anthoceros",tree$tip.label)
+       if (length(tips_to_keep.aa) != 0)
+       {
+         aa.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aa]), "_"), function(x) x[[3]])
+         aa.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aa]), "_"), function(x) x[[4]])
+         aa.v <- paste(aa.v1, aa.v2, sep="_")
+         tree$tip.label[tips_to_keep.aa] <- aa.v
+       }
+     }
+     
+     if ("um" %in% organisms.list)
+     {
+       tips_to_keep.um <- grep(pattern = "ulva",tree$tip.label)
+       if (length(tips_to_keep.um) != 0)
+       {
+         um.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[3]])
+         um.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[4]])
+         um.v <- paste(um.vec1, um.vec2, sep = "_")
+         tree$tip.label[tips_to_keep.um] <- um.v
+       }
+     }
+     
+     if ("rs" %in% organisms.list)
+     {
+       tips_to_keep.rs <- grep(pattern = "raphidocelis",tree$tip.label)
+       if (length(tips_to_keep.rs) != 0)
+       {
+         rs.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[3]])
+         rs.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[4]])
+         rs.v <- paste(rs.vec1, rs.vec2, sep = "_")
+         tree$tip.label[tips_to_keep.rs] <- rs.v
+       }
+     }
+     
+     if ("cyc" %in% organisms.list)
+     {
+       tips_to_keep.cyc <- grep(pattern = "cycas",tree$tip.label)
+       if (length(tips_to_keep.cyc) != 0)
+       {
+         cyc.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[3]])
+         cyc.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[4]])
+         cyc.v <- paste(cyc.vec1, cyc.vec2, sep = "_")
+         tree$tip.label[tips_to_keep.cyc] <- cyc.v
+       }
+     }
+     
+     if ("pu" %in% organisms.list)
+     {
+       tips_to_keep.pu <- grep(pattern = "porphyra",tree$tip.label)
+       if (length(tips_to_keep.pu) != 0)
+       {
+         pu.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pu]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.pu] <- pu.vec1
+       }
+     }
+     
+     if ("pt" %in% organisms.list)
+     {
+       tips_to_keep.pt <- grep(pattern = "phaeodactylum",tree$tip.label)
+       if (length(tips_to_keep.pt) != 0)
+       {
+         pt.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pt]), "_"), function(x) x[[3]])
+         pt.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pt]), "_"), function(x) x[[4]])
+         pt.v <- paste(pt.vec1, pt.vec2, sep = "_")
+         tree$tip.label[tips_to_keep.pt] <- pt.v
+       }
+     }
+     
+     if ("ng" %in% organisms.list)
+     {
+       tips_to_keep.ng <- grep(pattern = "gaditana",tree$tip.label)
+       if (length(tips_to_keep.ng) != 0)
+       {
+         ng.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ng]), "_"), function(x) x[[3]])
+         ng.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ng]), "_"), function(x) x[[4]])
+         ng.v <- paste(ng.vec1, ng.vec2, sep = "_")
+         tree$tip.label[tips_to_keep.ng] <- ng.v
+       }
+     }
+     
+     if ("cyano" %in% organisms.list)
+     {
+       tips_to_keep.cyano <- grep(pattern = "cyanophora",tree$tip.label)
+       if (length(tips_to_keep.cyano) != 0)
+       {
+         cyano.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyano]), "_"), function(x) x[[3]])
+         cyano.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyano]), "_"), function(x) x[[4]])
+         cyano.v <- paste(cyano.vec1, cyano.vec2, sep = "_")
+         tree$tip.label[tips_to_keep.cyano] <- cyano.v
+       }
+     }
+     
+     if ("ca" %in% organisms.list)
+     {
+       tips_to_keep.ca <- grep(pattern = "chlorokybus",tree$tip.label)
+       if (length(tips_to_keep.ca) != 0)
+       {
+         ca.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ca]), "_"), function(x) x[[3]])
+         ca.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ca]), "_"), function(x) x[[4]])
+         ca.v <- paste(ca.vec1, ca.vec2, sep = "_")
+         tree$tip.label[tips_to_keep.ca] <- ca.v
+       }
+     }
+     
+     if ("mv" %in% organisms.list)
+     {
+       tips_to_keep.mv <- grep(pattern = "mesostigma",tree$tip.label)
+       if (length(tips_to_keep.mv) != 0)
+       {
+         mv.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mv]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.mv] <- mv.vec1
+       }
+     }
+     
+     if ("af" %in% organisms.list)
+     {
+       tips_to_keep.af <- grep(pattern = "azolla",tree$tip.label)
+       if (length(tips_to_keep.af) != 0)
+       {
+         af.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.af]), "_"), function(x) x[[3]])
+         af.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.af]), "_"), function(x) x[[4]])
+         af.v <- paste(af.vec1, af.vec2, sep = "_")
+         tree$tip.label[tips_to_keep.af] <- af.v
+       }
+     }
+     
+     if ("sc" %in% organisms.list)
+     {
+       tips_to_keep.sc <- grep(pattern = "salvinia",tree$tip.label)
+       if (length(tips_to_keep.sc) != 0)
+       {
+         sc.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sc]), "_"), function(x) x[[3]])
+         sc.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sc]), "_"), function(x) x[[4]])
+         sc.vec3 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sc]), "_"), function(x) x[[5]])
+         sc.v <- paste(sc.vec1, sc.vec2, sc.vec3, sep = "_")
+         tree$tip.label[tips_to_keep.sc] <- sc.v
+       }
+     }
+     
+     if ("aegi" %in% organisms.list)
+     {
+       tips_to_keep.aegi <- grep(pattern = "aegilops",tree$tip.label)
+       if (length(tips_to_keep.aegi) != 0)
+       {
+         aegi.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aegi]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.aegi] <- aegi.v
+       }
+     }
+     
+     if ("sb" %in% organisms.list)
+     {
+       tips_to_keep.sb <- grep(pattern = "sorghum",tree$tip.label)
+       if (length(tips_to_keep.sb) != 0)
+       {
+         sb.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sb]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.sb] <- sb.vec1
+       }
+     }
+     
+     if ("chara" %in% organisms.list)
+     {
+       tips_to_keep.chara <- grep(pattern = "chara",tree$tip.label)
+       if (length(tips_to_keep.chara) != 0)
+       {
+         chara.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.chara]), "_"), function(x) x[[3]])
+         chara.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.chara]), "_"), function(x) x[[4]])
+         chara.v <- paste(chara.v1, chara.v2, sep = "_")
+         tree$tip.label[tips_to_keep.chara] <- chara.v
+       }
+     }
+     
+     if ("guilla" %in% organisms.list)
+     {
+       tips_to_keep.guilla <- grep(pattern = "guillardia",tree$tip.label)
+       if (length(tips_to_keep.guilla) != 0)
+       {
+         guilla.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.guilla]), "_"), function(x) x[[3]])
+         guilla.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.guilla]), "_"), function(x) x[[4]])
+         guilla.v <- paste(guilla.v1, guilla.v2, sep = "_")
+         tree$tip.label[tips_to_keep.guilla] <- guilla.v
+       }
+     }
+     
+     if ("crypto" %in% organisms.list)
+     {
+       tips_to_keep.crypto <- grep(pattern = "cryptophyceae",tree$tip.label)
+       if (length(tips_to_keep.crypto) != 0)
+       {
+         crypto.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.crypto]), "_"), function(x) x[[3]])
+         crypto.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.crypto]), "_"), function(x) x[[4]])
+         crypto.v3 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.crypto]), "_"), function(x) x[[5]])
+         crypto.v <- paste(crypto.v1, crypto.v2, crypto.v3, sep = "_")
+         tree$tip.label[tips_to_keep.crypto] <- crypto.v
+       }
+     }
+     
+     if ("cymero" %in% organisms.list)
+     {
+       tips_to_keep.cymero <- grep(pattern = "cyanidioschyzon",tree$tip.label)
+       if (length(tips_to_keep.cymero) != 0)
+       {
+         cymero.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cymero]), "_"), function(x) x[[3]])
+         cymero.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cymero]), "_"), function(x) x[[4]])
+         cymero.v <- paste(cymero.v1, cymero.v2, sep = "_")
+         tree$tip.label[tips_to_keep.cymero] <- cymero.v
+       }
+     }
+     
+     if ("galsul" %in% organisms.list)
+     {
+       tips_to_keep.galsul <- grep(pattern = "galdieria",tree$tip.label)
+       if (length(tips_to_keep.galsul) != 0)
+       {
+         galsul.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.galsul]), "_"), function(x) x[[3]])
+         galsul.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.galsul]), "_"), function(x) x[[4]])
+         galsul.v <- paste(galsul.v1, galsul.v2, sep = "_")
+         tree$tip.label[tips_to_keep.galsul] <- galsul.v
+       }
+     }
+     
+     if ("gracichor" %in% organisms.list)
+     {
+       tips_to_keep.gracichor <- grep(pattern = "gracilariopsis",tree$tip.label)
+       if (length(tips_to_keep.gracichor) != 0)
+       {
+         gracichor.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.gracichor]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.gracichor] <- gracichor.vec1
+       }
+     }
+     
+     if ("sceobli" %in% organisms.list)
+     {
+       tips_to_keep.sceobli <- grep(pattern = "scenedesmus",tree$tip.label)
+       if (length(tips_to_keep.sceobli) != 0)
+       {
+         sceobli.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sceobli]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.sceobli] <- sceobli.vec1
+       }
+     }
+     
+     if ("cocco" %in% organisms.list)
+     {
+       tips_to_keep.cocco <- grep(pattern = "coccomyxa",tree$tip.label)
+       if (length(tips_to_keep.cocco) != 0)
+       {
+         cocco.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cocco]), "_"), function(x) x[[3]])
+         cocco.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cocco]), "_"), function(x) x[[4]])
+         cocco.v <- paste(cocco.v1, cocco.v2, sep = "_")
+         tree$tip.label[tips_to_keep.cocco] <- cocco.v
+       }
+     }
+     
+     if ("saccha" %in% organisms.list)
+     {
+       tips_to_keep.saccha <- grep(pattern = "saccharina",tree$tip.label)
+       if (length(tips_to_keep.saccha) != 0)
+       {
+         saccha.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.saccha]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.saccha] <- saccha.vec1
+       }
+     }
+     
+     if ("haema" %in% organisms.list)
+     {
+       tips_to_keep.haema <- grep(pattern = "haematococcus",tree$tip.label)
+       if (length(tips_to_keep.haema) != 0)
+       {
+         haema.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.haema]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.haema] <- haema.vec1
+       }
+     }
+     
+     if ("zm" %in% organisms.list)
+     {
+       tips_to_keep.zm <- grep(pattern = "mays",tree$tip.label)
+       if (length(tips_to_keep.zm) != 0)
+       {
+         zm.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.zm]), "_"), function(x) x[[3]])
+         tree$tip.label[tips_to_keep.zm] <- zm.vec1
+       }
+     }
+     
+     return(tree)
+   }) %>% bindEvent(input$run_button2)
+   
+   # Generate reduced tree when the corresponding button is activated
+   tree_reduced2 <- reactive({
+     
+     tree <- tree_adj2()
+     # Define tips to keep (selected organisms) and generate the reduced tree
+     tips_to_keep.global <- c(tips_to_keep.mp2(), tips_to_keep.ot2(), tips_to_keep.at2(), tips_to_keep.cp2(),
+                              tips_to_keep.cr2(), tips_to_keep.cz2(), tips_to_keep.kn2(), tips_to_keep.me2(),
+                              tips_to_keep.mi2(), tips_to_keep.pp2(), tips_to_keep.sl2(), tips_to_keep.sm2(),
+                              tips_to_keep.sp2(), tips_to_keep.ta2(), tips_to_keep.vc2(), tips_to_keep.bp2(),
+                              tips_to_keep.cri2(), tips_to_keep.ds2(), tips_to_keep.os2(), tips_to_keep.smag2(),
+                              tips_to_keep.tp2(), tips_to_keep.aa2(), tips_to_keep.um2(), tips_to_keep.rs2(),
+                              tips_to_keep.cyc2(), tips_to_keep.pu2(), tips_to_keep.pt2(), tips_to_keep.ng2(),
+                              tips_to_keep.cyano2(), tips_to_keep.ca2(), tips_to_keep.mv2(), tips_to_keep.af2(),
+                              tips_to_keep.sc2(), tips_to_keep.aegi2(), tips_to_keep.sb2(), tips_to_keep.chara2(),
+                              tips_to_keep.guilla2(), tips_to_keep.crypto2(), tips_to_keep.cymero2(), tips_to_keep.galsul2(),
+                              tips_to_keep.gracichor2(), tips_to_keep.sceobli2(), tips_to_keep.cocco2(), tips_to_keep.saccha2(),
+                              tips_to_keep.haema2(),tips_to_keep.zm2())
+     
+     # Error message if trying to build tree with less than two tips
+     if (length(tips_to_keep.global) < 2)
+     {
+       shinyjs::hideElement(id = 'loading.tree2')
+       
+       if (UI_exist_tree2)
+       {
+         removeUI(
+           selector = "div:has(>> #tree_seq_table2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #treeTips2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>>> #presentorg2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #tree_image2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTree2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadNewick2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTreeSeqs2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+       }
+       
+       UI_exist_tree2 <<- F
+       output$error_tree2 <- renderUI({renderText({print("Unable to construct 
+      tree with a single tip, please select more organisms.")})})
+       validate(need(length(tips_to_keep.global) > 1, " "))
+     }
+     
+     
+     # Error message if query gene does not belong to selected organisms due to
+     # not having selected chosen proteome in organisms list
+     diamond_table <- diamond_table2()
+     
+     if (!(as.character(diamond_table$ID[1]) %in% tree$tip.label))
+     {
+       shinyjs::hideElement(id = 'loading.tree2')
+       
+       if (UI_exist_tree2)
+       {
+         removeUI(
+           selector = "div:has(>> #tree_seq_table2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #treeTips2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>>> #presentorg2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #tree_image2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTree2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadNewick2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTreeSeqs2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+       }
+       
+       UI_exist_tree2 <<- F
+       output$error_tree2 <- renderUI({renderText({print("Please select the species corresponding
+      to the query gene. Read the instructions for clarification.")})})
+       validate(need(as.character(diamond_table$ID[1]) %in% tree$tip.label, " "))
+     }
+     
+     
+     tips_to_drop <- setdiff(1:length(tree$tip.label), tips_to_keep.global)
+     tree_reduced <- drop.tip(tree, tips_to_drop)
+     
+     return(tree_reduced)
+   }) %>% bindEvent(input$run_button2)
+   
+   ### Select orthogroup sequences based on the reduced tree
+   ortho_reduced2 <- reactive({
+     
+     tree_reduced <- tree_reduced2()
+     ortho_seq <- ortho_seq2()
+     ortho_reduced <- ortho_seq[tree_reduced$tip.label]
+     return(ortho_reduced)
+   }) %>% bindEvent(input$run_button2)
+   
+   ### Select orthogroup sequences based on the reduced tree
+   organims_reduced2 <- reactive({
+     
+     tree_reduced <- tree_reduced2()
+     
+     len.mp <- length(tips_to_keep.mp2())
+     len.ot <- length(tips_to_keep.ot2())
+     len.at <- length(tips_to_keep.at2())
+     len.cp <- length(tips_to_keep.cp2())
+     len.cr <- length(tips_to_keep.cr2())
+     len.cz <- length(tips_to_keep.cz2())
+     len.kn <- length(tips_to_keep.kn2())
+     len.me <- length(tips_to_keep.me2())
+     len.mi <- length(tips_to_keep.mi2())
+     len.pp <- length(tips_to_keep.pp2())
+     len.sl <- length(tips_to_keep.sl2())
+     len.sm <- length(tips_to_keep.sm2())
+     len.sp <- length(tips_to_keep.sp2())
+     len.ta <- length(tips_to_keep.ta2())
+     len.vc <- length(tips_to_keep.vc2())
+     len.bp <- length(tips_to_keep.bp2())
+     len.cri <- length(tips_to_keep.cri2())
+     len.ds <- length(tips_to_keep.ds2())
+     len.os <- length(tips_to_keep.os2())
+     len.smag <- length(tips_to_keep.smag2())
+     len.tp <- length(tips_to_keep.tp2())
+     len.aa <- length(tips_to_keep.aa2())
+     len.um <- length(tips_to_keep.um2())
+     len.rs <- length(tips_to_keep.rs2())
+     len.cyc <- length(tips_to_keep.cyc2())
+     len.pu <- length(tips_to_keep.pu2())
+     len.pt <- length(tips_to_keep.pt2())
+     len.ng <- length(tips_to_keep.ng2())
+     len.cyano <- length(tips_to_keep.cyano2())
+     len.ca <- length(tips_to_keep.ca2())
+     len.mv <- length(tips_to_keep.mv2())
+     len.af <- length(tips_to_keep.af2())
+     len.sc <- length(tips_to_keep.sc2())
+     len.aegi <- length(tips_to_keep.aegi2())
+     len.sb <- length(tips_to_keep.sb2())
+     len.chara <- length(tips_to_keep.chara2())
+     len.guilla <- length(tips_to_keep.guilla2())
+     len.crypto <- length(tips_to_keep.crypto2())
+     len.cymero <- length(tips_to_keep.cymero2())
+     len.galsul <- length(tips_to_keep.galsul2())
+     len.gracichor <- length(tips_to_keep.gracichor2())
+     len.sceobli <- length(tips_to_keep.sceobli2())
+     len.cocco <- length(tips_to_keep.cocco2())
+     len.saccha <- length(tips_to_keep.saccha2())
+     len.haema <- length(tips_to_keep.haema2())
+     len.zea <- length(tips_to_keep.zm2())
+     
+     organims_reduced <- c(rep("Marchantia", len.mp), rep("Ostreococcus", len.ot),
+                           rep("Arabidopsis", len.at), rep("Ceratodon", len.cp),
+                           rep("Chlamydomonas", len.cr), rep("Chromochloris", len.cz),
+                           rep("Klebsormidium", len.kn), rep("Mesotaenium", len.me),
+                           rep("Micromonas", len.mi), rep("Physcomitrium", len.pp),
+                           rep("Solanum", len.sl), rep("Selaginella", len.sm),
+                           rep("Spirogloea", len.sp), rep("Triticum", len.ta),
+                           rep("Volvox", len.vc), rep("Bathycoccus", len.bp),
+                           rep("Ceratopteris", len.cri), rep("Dunaliella", len.ds),
+                           rep("Oryza", len.os), rep("Sphagnum", len.smag),
+                           rep("Thuja", len.tp), rep("Anthoceros", len.aa),
+                           rep("Ulva", len.um), rep("Raphidocelis", len.rs),
+                           rep("Cycas", len.cyc), rep("Porphyra", len.pu),
+                           rep("Phaeodactylum", len.pt), rep("Nannochloropsis", len.ng),
+                           rep("Cyanophora", len.cyano), rep("Chlorokybus", len.ca),
+                           rep("Mesostigma", len.mv), rep("Azolla", len.af),
+                           rep("Salvinia", len.sc), rep("Aegilops", len.aegi),
+                           rep("Sorghum", len.sb), rep("Chara", len.chara),
+                           rep("Guillardia", len.guilla), rep("Cryptophyceae", len.crypto),
+                           rep("Cyanidioschyzon", len.cymero), rep("Galdieria", len.galsul),
+                           rep("Gracilariopsis", len.gracichor), rep("Scenedesmus", len.sceobli),
+                           rep("Coccomyxa", len.cocco), rep("Saccharina", len.saccha),
+                           rep("Haematococcus", len.haema), rep("Zea", len.zea))
+     
+     return(organims_reduced)
+   }) %>% bindEvent(input$run_button2)
+
+   # Create plot of subset tree
+   tree_plot2 <- reactive({
+     
+     # Define previous variables
+     tree_reduced <- tree_reduced2()
+     diamond_table <- diamond_table2()
+     gene.name.tree <- as.character(diamond_table$ID[1])
+     tree <- tree_adj2()
+     
+     tips_to_keep.mp <- tips_to_keep.mp2()
+     tips_to_keep.ot <- tips_to_keep.ot2()
+     tips_to_keep.at <- tips_to_keep.at2()
+     tips_to_keep.cp <- tips_to_keep.cp2()
+     tips_to_keep.cr <- tips_to_keep.cr2()
+     tips_to_keep.cz <- tips_to_keep.cz2()
+     tips_to_keep.kn <- tips_to_keep.kn2()
+     tips_to_keep.me <- tips_to_keep.me2()
+     tips_to_keep.mi <- tips_to_keep.mi2()
+     tips_to_keep.pp <- tips_to_keep.pp2()
+     tips_to_keep.sl <- tips_to_keep.sl2()
+     tips_to_keep.sm <- tips_to_keep.sm2()
+     tips_to_keep.sp <- tips_to_keep.sp2()
+     tips_to_keep.ta <- tips_to_keep.ta2()
+     tips_to_keep.vc <- tips_to_keep.vc2()
+     tips_to_keep.bp <- tips_to_keep.bp2()
+     tips_to_keep.cri <- tips_to_keep.cri2()
+     tips_to_keep.ds <- tips_to_keep.ds2()
+     tips_to_keep.os <- tips_to_keep.os2()
+     tips_to_keep.smag <- tips_to_keep.smag2()
+     tips_to_keep.tp <- tips_to_keep.tp2()
+     tips_to_keep.aa <- tips_to_keep.aa2()
+     tips_to_keep.um <- tips_to_keep.um2()
+     tips_to_keep.rs <- tips_to_keep.rs2()
+     tips_to_keep.cyc <- tips_to_keep.cyc2()
+     tips_to_keep.pu <- tips_to_keep.pu2()
+     tips_to_keep.pt <- tips_to_keep.pt2()
+     tips_to_keep.ng <- tips_to_keep.ng2()
+     tips_to_keep.cyano <- tips_to_keep.cyano2()
+     tips_to_keep.ca <- tips_to_keep.ca2()
+     tips_to_keep.mv <- tips_to_keep.mv2()
+     tips_to_keep.af <- tips_to_keep.af2()
+     tips_to_keep.sc <- tips_to_keep.sc2()
+     tips_to_keep.aegi <- tips_to_keep.aegi2()
+     tips_to_keep.sb <- tips_to_keep.sb2()
+     tips_to_keep.chara <- tips_to_keep.chara2()
+     tips_to_keep.guilla <- tips_to_keep.guilla2()
+     tips_to_keep.crypto <- tips_to_keep.crypto2()
+     tips_to_keep.cymero <- tips_to_keep.cymero2()
+     tips_to_keep.galsul <- tips_to_keep.galsul2()
+     tips_to_keep.gracichor <- tips_to_keep.gracichor2()
+     tips_to_keep.sceobli <- tips_to_keep.sceobli2()
+     tips_to_keep.cocco <- tips_to_keep.cocco2()
+     tips_to_keep.saccha <- tips_to_keep.saccha2()
+     tips_to_keep.haema <- tips_to_keep.haema2()
+     tips_to_keep.zm <- tips_to_keep.zm2()
+     
+     if (length(tree_reduced$tip.label) < 2)
+     {
+       cat("")
+     }
+     else 
+     {
+       # Highlight the target gene
+       high.gene2 <<- tree_reduced$tip.label[grep(pattern = gene.name.tree, tree_reduced$tip.label)]
+       
+       
+       # Color asignment per species
+       col.factor <- c()
+       org.factor <- c()
+       
+       library(glue)
+       library(ggtree)
+       library(ggplot2)
+       
+       for (i in 1:length(tree_reduced$tip.label))
+       {
+         if (tree_reduced$tip.label[i] %in% high.gene2)
+         {
+           col.factor <- c(col.factor,"#CD0000")
+           org.factor <- c(org.factor,"Gen of interest")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.mp])
+         {
+           col.factor <- c(col.factor,"#006400")
+           org.factor <- c(org.factor,"Marchantia")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ot])
+         {
+           col.factor <- c(col.factor,"#00008B")
+           org.factor <- c(org.factor,"Ostreococcus")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.at])
+         {
+           col.factor <- c(col.factor,"#CD661D")
+           org.factor <- c(org.factor,"Arabidopsis")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cp])
+         {
+           col.factor <- c(col.factor,"#458B74")
+           org.factor <- c(org.factor,"Ceratodon")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cr])
+         {
+           col.factor <- c(col.factor,"#8B7355")
+           org.factor <- c(org.factor,"Chlamydomonas")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cz])
+         {
+           col.factor <- c(col.factor,"#458B00")
+           org.factor <- c(org.factor,"Chromochloris")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.kn])
+         {
+           col.factor <- c(col.factor,"#CD1076")
+           org.factor <- c(org.factor,"Klebsormidium")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.me])
+         {
+           col.factor <- c(col.factor,"#8B8878")
+           org.factor <- c(org.factor,"Mesotaenium")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.mi])
+         {
+           col.factor <- c(col.factor,"#666666")
+           org.factor <- c(org.factor,"Micromonas")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.pp])
+         {
+           col.factor <- c(col.factor,"#B8860B")
+           org.factor <- c(org.factor,"Physcomitrium")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sl])
+         {
+           col.factor <- c(col.factor,"#8B008B")
+           org.factor <- c(org.factor,"Solanum")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sm])
+         {
+           col.factor <- c(col.factor,"#6E8B3D")
+           org.factor <- c(org.factor,"Selaginella")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sp])
+         {
+           col.factor <- c(col.factor,"#79CDCD")
+           org.factor <- c(org.factor,"Spirogloea")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ta])
+         {
+           col.factor <- c(col.factor,"#CDCD00")
+           org.factor <- c(org.factor,"Triticum")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.vc])
+         {
+           col.factor <- c(col.factor,"#16317d")
+           org.factor <- c(org.factor,"Volvox")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.bp])
+         {
+           col.factor <- c(col.factor,"#007e2f")
+           org.factor <- c(org.factor,"Bathycoccus")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cri])
+         {
+           col.factor <- c(col.factor,"#ffcd12")
+           org.factor <- c(org.factor,"Ceratopteris")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ds])
+         {
+           col.factor <- c(col.factor,"#b86092")
+           org.factor <- c(org.factor,"Dunaliella")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.os])
+         {
+           col.factor <- c(col.factor,"#721b3e")
+           org.factor <- c(org.factor,"Oryza")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.smag])
+         {
+           col.factor <- c(col.factor,"#00b7a7")
+           org.factor <- c(org.factor,"Sphagnum")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.tp])
+         {
+           col.factor <- c(col.factor,"#67000d")
+           org.factor <- c(org.factor,"Thuja")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.aa])
+         {
+           col.factor <- c(col.factor,"#5b2c6f")
+           org.factor <- c(org.factor,"Anthoceros")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.um])
+         {
+           col.factor <- c(col.factor,"#15e71b")
+           org.factor <- c(org.factor,"Ulva")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.rs])
+         {
+           col.factor <- c(col.factor,"#e67e22")
+           org.factor <- c(org.factor,"Raphidocelis")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cyc])
+         {
+           col.factor <- c(col.factor,"#873600")
+           org.factor <- c(org.factor,"Cycas")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.pu])
+         {
+           col.factor <- c(col.factor,"#dc1c0f")
+           org.factor <- c(org.factor,"Porphyra")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.pt])
+         {
+           col.factor <- c(col.factor,"#a04000")
+           org.factor <- c(org.factor,"Phaeodactylum")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ng])
+         {
+           col.factor <- c(col.factor,"#935116")
+           org.factor <- c(org.factor,"Nannochloropsis")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cyano])
+         {
+           col.factor <- c(col.factor,"#2874a6")
+           org.factor <- c(org.factor,"Cyanophora")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ca])
+         {
+           col.factor <- c(col.factor,"#0b5345")
+           org.factor <- c(org.factor,"Chlorokybus")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.mv])
+         {
+           col.factor <- c(col.factor,"#283747")
+           org.factor <- c(org.factor,"Mesostigma")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.af])
+         {
+           col.factor <- c(col.factor,"#145a32")
+           org.factor <- c(org.factor,"Azolla")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sc])
+         {
+           col.factor <- c(col.factor,"#3339e6")
+           org.factor <- c(org.factor,"Salvinia")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.aegi])
+         {
+           col.factor <- c(col.factor,"#e6338f")
+           org.factor <- c(org.factor,"Aegilops")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sb])
+         {
+           col.factor <- c(col.factor,"#cd016a")
+           org.factor <- c(org.factor,"Sorghum")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.chara])
+         {
+           col.factor <- c(col.factor,"#117a65")
+           org.factor <- c(org.factor,"Chara")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.guilla])
+         {
+           col.factor <- c(col.factor,"#424949")
+           org.factor <- c(org.factor,"Guillardia")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.crypto])
+         {
+           col.factor <- c(col.factor,"#515a5a")
+           org.factor <- c(org.factor,"Cryptophyceae")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cymero])
+         {
+           col.factor <- c(col.factor,"#641e16")
+           org.factor <- c(org.factor,"Cyanidioschyzon")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.galsul])
+         {
+           col.factor <- c(col.factor,"#633974")
+           org.factor <- c(org.factor,"Galdieria")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.gracichor])
+         {
+           col.factor <- c(col.factor,"#a93226")
+           org.factor <- c(org.factor,"Gracilariopsis")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sceobli])
+         {
+           col.factor <- c(col.factor,"#148f77")
+           org.factor <- c(org.factor,"Scenedesmus")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cocco])
+         {
+           col.factor <- c(col.factor,"#9c640c")
+           org.factor <- c(org.factor,"Coccomyxa")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.saccha])
+         {
+           col.factor <- c(col.factor,"#6e2c00")
+           org.factor <- c(org.factor,"Saccharina")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.haema])
+         {
+           col.factor <- c(col.factor,"#196f3d")
+           org.factor <- c(org.factor,"Haematococcus")
+         }
+         else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.zm])
+         {
+           col.factor <- c(col.factor,"#666909")
+           org.factor <- c(org.factor,"Zea")
+         }
+         
+       }
+       
+       
+       
+       #Matrix with labels and colors and transform to dplyr format
+       data.tree <- data.frame(node = 1:length(tree_reduced$tip.label), label = tree_reduced$tip.label,
+                               col = col.factor, org = org.factor)
+       
+       d2 <- dplyr::mutate(data.tree, lab = data.tree$label,
+                           color = data.tree$col,
+                           organism = data.tree$org,
+                           name = glue("<i style='color:{color}'> {lab} </i>"))
+       { 
+         if (build_trees2() == "FastTree")
+         {
+           tree_plot <- ggtree(tree_reduced) %<+% d2 + geom_tiplab() + theme(legend.position =) +
+             xlim(0, max(tree_reduced$edge.length)*3) + geom_tiplab(aes(label = label, color = organism)) +
+             scale_color_manual(values = unique(d2$col), breaks = unique(d2$org)) +
+             geom_highlight(mapping=aes(subset = label %in% high.gene2,
+                                        node = node,
+                                        fill = as.factor(node)), extend = 0.8) + 
+             labs(fill = "Node of interest")
+           
+         }
+         else
+         {
+           tree_plot <- ggtree(tree_reduced) %<+% d2 + geom_tiplab() + theme(legend.position =) +
+             xlim(0, max(tree_reduced$edge.length)*3) + geom_tiplab(aes(label = label, color = organism)) +
+             geom_nodelab() +
+             scale_color_manual(values = unique(d2$col), breaks = unique(d2$org)) +
+             geom_highlight(mapping=aes(subset = label %in% high.gene2,
+                                        node = node,
+                                        fill = as.factor(node)), extend = 0.8) + 
+             labs(fill = "Node of interest")
+         }
+       }
+       shinyjs::hideElement(id = 'loading.tree2')
+       return(tree_plot)
+     }}) %>% bindEvent(input$run_button2)
+   
+   
+   # Outputs
+   observeEvent(isTruthy(tree_plot2()), {
+     output$error_tree2 <- NULL
+   })
+   
+   # Create boxes
+   observeEvent(isTruthy(tree_plot2()), {
+     
+     if (UI_exist_tree2)
+     {
+       removeUI(
+         selector = "div:has(>> #tree_seq_table2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #treeTips2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>>> #presentorg2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #tree_image2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadTree2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadNewick2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadTreeSeqs2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+     }
+     
+     insertUI("#box_tree_seq_table2", "afterEnd", ui = {
+       box(
+         title = "Sequence Hits", status = "success", solidHeader = TRUE, width = 12,
+         collapsible = TRUE,
+         dataTableOutput(outputId = "tree_seq_table2")
+         )
+     }) 
+     
+     insertUI("#box_tree_text2", "afterEnd", ui = {
+       box(
+         title = "Genes in Orthogroup", status = "success", solidHeader = TRUE, width = 12,
+         collapsible = TRUE,
+         verbatimTextOutput("treeTips2")
+       )
+     }) 
+     
+     insertUI("#box_tree_pie2", "afterEnd", ui = {
+       box(
+         title = "Present Organisms", status = "success", solidHeader = TRUE,
+         collapsible = TRUE, width = 12,
+         fluidRow(column(1), imageOutput("presentorg2"))
+       )
+     }) 
+     
+     insertUI("#box_tree_plot2", "afterEnd", ui = {
+       box(width = 12,
+           title = "Gene Tree", status = "success", solidHeader = TRUE,
+           collapsible = TRUE, 
+           plotOutput("tree_image2", height = 500)
+       )
+     })
+     
+     insertUI("#download_tree2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadTree2", 
+                                                                          "Download Tree Plot",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     insertUI("#download_newick2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadNewick2", 
+                                                                          "Download NEWICK Tree",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     insertUI("#download_tree_seqs2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadTreeSeqs2", 
+                                                                          "Download Protein Sequences",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     UI_exist_tree2 <<- TRUE
+     shinyjs::hideElement(id = 'loading.tree2')
+   })
+   
+   # Fill boxes with output
+   # DIAMOND Table
+   output$tree_seq_table2 <- renderDataTable({
+     diamond_table <- diamond_table2()
+     return(diamond_table)
+   }, escape=FALSE, rownames= F, options = list(pageLength = 5))
+   
+   # Gene IDS
+   output$treeTips2 <- renderPrint({
+     print(tree_reduced2()$tip.label)
+   }, width = 400) # %>% bindEvent(input$run_button2)
+   
+   # Render pie chart
+   output$presentorg2 <- renderImage({
+     
+     {library(ggplot2)
+       library(dplyr)
+       
+       data <- data.frame(table(organims_reduced2()))
+       colnames(data) <- c("group", "value")
+       
+       # Compute the position of labels
+       data <- data %>%
+         arrange(desc(group)) %>%
+         mutate(prop = value / sum(data$value) *100) %>%
+         mutate(ypos = cumsum(prop)- 0.5*prop )
+       
+       # Create plot
+       a <- ggplot(data, aes(x="", y=prop, fill=group)) +
+         geom_bar(stat="identity", width=1, color="white") +
+         coord_polar("y", start=0) +
+         theme_void() +
+         theme(legend.position="none") +
+         geom_text(aes(y = ypos, label = group), color = "white", size=6) +
+         #scale_fill_brewer(palette="Set1")
+         scale_fill_manual(values = rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"), 
+                                        floor(nrow(data)/9)+1))}
+     
+     png("organims_reduced2.png", height = 450, width = 450)
+     plot(a)
+     dev.off()
+     
+     list(src = "organims_reduced2.png",
+          contentType="image/png", width=400,height=400)
+   }, deleteFile = T)
+   
+   # Render tree image
+   output$tree_image2 <- renderImage({
+     png("tree2.png", height = 500, width = 1000)
+     plot(tree_plot2())
+     dev.off()
+     
+     list(src = "tree2.png",
+          contentType="image/png", width=1000,height=500)
+   }, deleteFile = T)
+   
+   # Download results
+   output$downloadTree2 <- downloadHandler(
+     filename= function() {
+       paste("tree", ".png", sep="")
+     },
+     content= function(file) {
+       image_height <- 300 + 11*length(tree_reduced2()$tip.label)
+       image_width <- 200 + 400*max(tree_reduced2()$edge.length)
+       png(file, height = image_height, width = image_width)
+       plot(tree_plot2())
+       dev.off()
+     })
+   
+   # Create and download tree in newick format
+   output$downloadNewick2 <- downloadHandler(
+     filename= function() {
+       paste("tree_newick", ".txt", sep="")
+     },
+     content= function(file) {
+       write.tree(tree_reduced2(), file)
+     })
+   
+   #  # Create and download sequences for genes in tree
+   output$downloadTreeSeqs2 <- downloadHandler(
+     filename= function() {
+       paste("tree_seqs", ".fa", sep="")
+     },
+     content= function(file) {
+       seqinr::write.fasta(sequences = seqinr::getSequence(ortho_reduced2()),
+                           names = seqinr::getName(ortho_reduced2()), file.out = file)
+     })
+
+   
+   ####################### PHYLOWIDGET ############################
+   # Remove previous outputs when updated by a new search
+   observeEvent(input$run_button2, {
+     if (UI_exist_phylo2)
+     {
+       removeUI(
+         selector = "div:has(>> #phylo_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_phylo2 <<- F
+     }
+     
+   })
+   
+   ### CAFE parser and tree generator
+   phylo_tree2 <- reactive({
+     
+     library(ape)
+     tree_phylo <- tree_reduced2()
+     
+     # Normalize tree depth
+     root_id <- length(tree_phylo$tip.label)+1
+     norm_factor <- max(dist.nodes(tree_phylo)[root_id,])
+     tree_phylo$edge.length <- tree_phylo$edge.length/norm_factor
+     
+     return(tree_phylo)
+     
+   }) %>% bindEvent(input$phylo_start2)
+   
+   observeEvent(isTruthy(phylo_tree2()),{
+     
+     if(UI_exist_phylo2)
+     {
+       removeUI(
+         selector = "div:has(>> #phylo_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_phylo2 <<- F
+     }
+     
+     
+     insertUI("#box_phylo2", "afterEnd", ui = {
+       box(width = 12,
+           title = "Interactive Tree", status = "success", solidHeader = TRUE,
+           collapsible = TRUE,
+           phylowidgetOutput("phylo_plot2", height = "800px", width = "98%")
+       )
+     })
+     
+     UI_exist_phylo2 <<- T
+     
+   })
+   
+   output$phylo_plot2 <- renderPhylowidget({
+     
+     phylo_tree <- phylo_tree2()
+     phylowidget(phylo_tree)
+   })
+   
+   #########################  PFAM  ###############################
+   
+   observeEvent(input$run_button2, {
+     removeUI(
+       selector = "div:has(>> #selected_pfamsI2)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+   })
+   
+   observeEvent(input$pfam_start2, {
+     insertUI("#selected_pfams2", "afterEnd", ui = {
+       
+       shinyWidgets::pickerInput("selected_pfamsI2","Select the desired genes from the tree",
+                                 choices=isolate({tree_reduced2()$tip.label}), options = list(`actions-box` = TRUE),
+                                 multiple = T, selected = isolate({diamond_table2()$ID[1]}))
+     })
+   })
+   
+   observeEvent(input$run_button2, {
+     removeUI("#pfam_selection2")
+   })
+   
+   observeEvent(input$pfam_start2, {
+     insertUI("#pfam_selectionI2", "afterEnd", ui = {
+       
+       shinyWidgets::actionBttn("pfam_selection2", "Show Pfam Domains", size = "sm",
+                                style = "float", color = "success")
+     })
+   })
+   
+   
+   observeEvent(input$run_button2, {
+     if (UI_exist_pfam2)
+     {
+       removeUI(
+         selector = "div:has(>> #output_pfam_table2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_download2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadPFAMTable2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_pfam2 <<- F
+     }
+   })
+   
+   
+   total_table_pfam2 <- reactive({
+     shinyjs::showElement(id = 'loading.pfam.pf2')
+     ortho_reduced <- ortho_reduced2()
+     sel_genes <- as.vector(input$selected_pfamsI2)
+     
+     if (length(sel_genes) < 1)
+     {
+       shinyjs::hideElement(id = 'loading.pfam.pf2')
+       removeUI(
+         selector = "div:has(>> #output_pfam_table2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_download2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadPFAMTable2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       UI_exist_pfam2 <<- F
+       output$error_pfam2 <- renderUI({renderText({print("Please select at least one gene.")})})
+       validate(need(length(sel_genes) > 0, "Please select at least one gene."))
+     }
+     
+     output$error_pfam2 <- NULL
+     #library(bio3d)
+     library(RCurl)
+     library(drawProteins)
+     library(ggplot2)
+     
+     # Get the sequences as a vector of strings
+     
+     
+     # Create data frame with proper columns
+     total_table_pfam <- data.frame(type=NA,
+                                    description=NA,
+                                    begin=NA, end=NA,
+                                    length=NA,
+                                    accession=NA, entryName=NA,
+                                    taxid=NA, order=NA)
+     
+     
+     # Fill data frame with the information about domains obtained with hmmer
+     for (i in 1:length(sel_genes))
+     {
+       ortho_comp <- ortho_reduced[[sel_genes[i]]]
+       ortho_str <- seqinr::getSequence(ortho_comp, as.string = T)
+       ortho_cha <- unlist(ortho_str)
+       
+       
+       
+       url <- paste("https://www.ebi.ac.uk/Tools/hmmer/search/", "hmmscan", sep = "")
+       curl.opts <- list(httpheader = "Expect:", httpheader = "Accept:text/xml", verbose = T, followlocation = TRUE)
+       curl_env <- getCurlHandle()
+       
+       
+       RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
+       
+       curl_info <- getCurlInfo(curl_env, which = getCurlInfoConstants())
+       
+       
+       
+       if (curl_info$response.code == 200)
+       {
+         url_vec <- strsplit(curl_info$effective.url, split = "/")
+         url_vec[[1]][1] <- "https:"
+         url_vec[[1]][6] <- "download"
+         url_vec[[1]][8] <- "score?format=tsv"
+         url_tsv <- paste0(url_vec[[1]], collapse = "/")
+         tsv_res <- getURL(url_tsv)
+         nap.time <- 0
+         while (strsplit(tsv_res, "\t")[[1]][1] != "Family id")
+         {
+           nap.time <- nap.time + 5
+           tsv_res <- getURL(url_tsv)
+           Sys.sleep(nap.time)
+           if (nap.time > 25){
+             shinyjs::hideElement(id = 'loading.pfam.pf2')
+             break
+           }
+         }
+         
+         validate(need(nap.time < 25,"Connection time too high."))
+         res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
+         pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
+                                  description=c("Protein chain",res_pfam$Family.Accession),
+                                  begin=c(1, res_pfam$Env..Star), end=c(nchar(ortho_cha),res_pfam$Env..End),
+                                  length=c(nchar(ortho_cha)-1, res_pfam$Env..End-res_pfam$Env..Start),
+                                  accession=sel_genes[i], entryName=sel_genes[i],
+                                  taxid=c("Chain", res_pfam$Description), order=i)
+         
+         total_table_pfam <- rbind(total_table_pfam, pfam_table)
+         
+       }
+       else
+       {
+         pfam_table <- data.frame(type="CHAIN",
+                                  description="Protein chain",
+                                  begin=1, end=nchar(ortho_cha),
+                                  length=nchar(ortho_cha)-1,
+                                  accession=sel_genes[i], entryName=sel_genes[i],
+                                  taxid="Chain", order=i)
+         total_table_pfam <- rbind(total_table_pfam, pfam_table)
+       }
+     }
+     
+     total_table_pfam <- total_table_pfam[-1,]
+     
+     
+     return(total_table_pfam)
+     
+   }) %>% bindEvent(input$pfam_selection2)
+   
+   pfplot2 <- reactive({
+     
+     total_table_pfam <- total_table_pfam2()
+     # Now we can plot domains information as chains
+     pfplot <- draw_canvas(total_table_pfam)
+     pfplot <- draw_chains(pfplot, total_table_pfam)
+     pfplot <- draw_domains(pfplot, total_table_pfam, label_domains = F)
+     pfplot <- pfplot + theme_bw(base_size = 20) + # white background
+       theme(panel.grid.minor=element_blank(),
+             panel.grid.major=element_blank()) +
+       theme(axis.ticks = element_blank(),
+             axis.text.y = element_blank()) +
+       theme(panel.border = element_blank())
+     #pfplot <- pfplot + labs(title = "Pfam domains")
+     pfplot <- pfplot + theme(legend.position="top") + labs(fill="")
+     
+   }) %>% bindEvent(input$pfam_selection2)
+   
+   
+   # Outputs
+   
+   observeEvent(isTruthy(pfplot2()), {
+     
+     if (UI_exist_pfam2)
+     {
+       removeUI(
+         selector = "div:has(>> #output_pfam_table2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_download2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadPFAMTable2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     insertUI("#box_pfam2", "afterEnd", ui = {
+       
+       box(
+         title = "PFAM Table", status = "success", solidHeader = TRUE, width = 12,
+         collapsible = TRUE,
+         dataTableOutput(outputId = "output_pfam_table2"))
+     }) 
+     
+     insertUI("#box_pfplot2", "afterEnd", ui = {
+       total_table_pfam <- total_table_pfam2()
+       box_pfplot_height <- 150 + 700*length(total_table_pfam$order[nrow(total_table_pfam)])
+       box(
+         title = "Domains Localization", status = "success", solidHeader = TRUE, width = 12, #height = box_pfplot_height,
+         collapsible = TRUE,
+         imageOutput("pfam_plot2"))
+     }) 
+     
+     insertUI("#pfam_down_button2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "pfam_download2", "Download PFAM figure",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     insertUI("#download_ui_for_pfam_table2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadPFAMTable2", "Download PFAM Table",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     UI_exist_pfam2 <<- TRUE
+     shinyjs::hideElement(id = 'loading.pfam.pf2')
+   })
+   
+   output$output_pfam_table2 <- renderDataTable({
+     total_table_pfam <- total_table_pfam2()
+     out_pf_table <- subset(total_table_pfam[,c(1:6,8)], total_table_pfam$type != "CHAIN")
+     out_pf_table$description <- sapply(out_pf_table$description, function(x) pfam.link(x))
+     colnames(out_pf_table) <- c(colnames(total_table_pfam)[1:6],"biological description")
+     return(out_pf_table)
+   }, escape=FALSE, options = list(pageLength = 5))
+   
+   output$pfam_plot2 <- renderImage({
+     total_table_pfam <- total_table_pfam2()
+     pfam_height <- 50 + 700*length(total_table_pfam$order[nrow(total_table_pfam)])
+     pfam_width <- 1000
+     pfplot <- pfplot2()
+     png("pharaoh_folder/pfam.png",  width = pfam_width, height = pfam_height)
+     plot(pfplot)
+     dev.off()
+     list(src = "pharaoh_folder/pfam.png",
+          contentType="image/png")
+   }, deleteFile = T
+   )
+   
+   # Download results
+   
+   output$pfam_download2 <- downloadHandler(
+     filename= function() {
+       paste("pfam", ".png", sep="")
+     },
+     content= function(file) {
+       total_table_pfam <- total_table_pfam2()
+       pfam_height <- 50 + 700*length(total_table_pfam$order[nrow(total_table_pfam)])
+       pfam_width <- 1150
+       pfplot <- pfplot2()
+       
+       png(file, height = pfam_height, width = pfam_width)
+       plot(pfplot)
+       dev.off()
+     })
+   
+   output$downloadPFAMTable2<- downloadHandler(
+     filename= function() {
+       paste("pfam_table", ".tsv", sep="")
+     },
+     content= function(file) {
+       total_table_pfam <- total_table_pfam2()
+       out_pf_table <- subset(total_table_pfam[,c(1:6,8)], total_table_pfam$type != "CHAIN")
+       colnames(out_pf_table) <- c(colnames(total_table_pfam)[1:6],"biological description")
+       write.table(x = out_pf_table, quote = F,sep = "\t",
+                   file=file,row.names=FALSE,col.names=TRUE)
+     })
+   
+# End of Sequence-based search results 
+   
   
 # End of the whole server function
      }
