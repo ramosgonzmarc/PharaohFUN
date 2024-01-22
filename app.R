@@ -913,7 +913,26 @@ ui <- dashboardPage(
                                                      tags$div(id = "download_ui_for_pfam_table2")
                                          )
                                 ),
-                                tabPanel("Multiple Sequence Alignment", "Tab content 2"),
+                                tabPanel("Multiple Sequence Alignment",
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("msa_start2", "Show Gene Selection for MSA",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "success"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_msa2"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "msa_method2"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "msa_selectionI2"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.msa2',h3('Please be patient, aligning sequences ...'))),
+                                         uiOutput(outputId = "error_msa2"),
+                                         tags$div(id = "box_msa2"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "msa_down_fasta2"),
+                                                     tags$div(id = "msa_down_plot2"))
+                                ),
                                 tabPanel("GO Terms", "First tab content"),
                                 tabPanel("KEGG Orthology", "Tab content 2"),
                                 tabPanel("STRING Interactions", "First tab content"),
@@ -3836,7 +3855,7 @@ server <- function(input, output) {
     
   })
   
-  ### CAFE parser and tree generator
+  
   phylo_tree1 <- reactive({
     
     library(ape)
@@ -4686,6 +4705,8 @@ server <- function(input, output) {
     if (length(selected_genes) < 2)
     {
       shinyjs::hideElement(id = 'loading.msa1')
+      if (UI_exist_msa1)
+      {
       removeUI(
         selector = "div:has(>> #msa_print1)",
         multiple = TRUE,
@@ -4703,7 +4724,7 @@ server <- function(input, output) {
         multiple = TRUE,
         immediate = TRUE
       )
-      
+      }
       UI_exist_msa1 <<- F
       output$error_msa1 <- renderUI({renderText({print("Please select at least two genes.")})})
       validate(need(length(selected_genes) > 1, "Please select at least two genes."))
@@ -4817,8 +4838,8 @@ server <- function(input, output) {
   # Fill Output
   output$msa_print1 <- renderMsaR({
     alignseqs <- alignseqs1()
-    hola3 <- msa::msaConvert(alignseqs, "ape::AAbin")
-    msaR(hola3, menu=T, overviewbox = F,  colorscheme = "clustal")
+    msaout <- msa::msaConvert(alignseqs, "ape::AAbin")
+    msaR(msaout, menu=T, overviewbox = F,  colorscheme = "clustal")
   })
   
   # Prepare variables for pdf construction
@@ -4842,8 +4863,8 @@ server <- function(input, output) {
       paste("msa", ".pdf", sep="")
     },
     content= function(file) {
-      selected_msa <<- input$selected_msaI1
-      alignseqs <<- alignseqs1()
+      selected_msa <- input$selected_msaI1
+      alignseqs <- alignseqs1()
       pdf(file, height = 2+length(selected_msa)*0.25, width = 16)
       {
         for(i in 1:(ncol(alignseqs)%/%100 +1)){
@@ -6779,7 +6800,7 @@ server <- function(input, output) {
        UI_exist_tree2 <<- F
        output$error_tree2 <- renderUI({renderText({print("Global Model must be selected for the analysis
                                       of the chosen proteome.")})})
-       validate(need(" "))
+       validate(" ")
      }
      
      
@@ -9580,6 +9601,669 @@ server <- function(input, output) {
        write.table(x = out_pf_table, quote = F,sep = "\t",
                    file=file,row.names=FALSE,col.names=TRUE)
      })
+  
+   ####################### CAFE #################################
+   
+   # Remove previous outputs when updated by a new search
+   observeEvent(input$run_button2, {
+     if (UI_exist_cafe2)
+     {
+       removeUI(
+         selector = "div:has(>> #cafe_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #cafe_mrca2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #cafe_download2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadCAFEPlot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_cafe2 <<- F
+     }
+     
+     if (UI_exist_error_cafe2)
+     {
+       removeUI(
+         selector = "div:has(>> #cafe_error_message2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_error_cafe2 <<- F
+     }
+   })
+   
+   ### CAFE parser and tree generator
+   cafe_tree2 <- reactive({
+     
+     shinyjs::showElement(id = 'loading.cafe2')
+     
+     library(ape)
+     
+     # Import OG name
+     og.cafe <- og.name2()
+     
+     # Define path to CAFE trees file
+     cafe_comp_tree_file <- ifelse(model.selected2(), "pharaoh_folder/global_cafe.tre",
+                                   "pharaoh_folder/green_cafe.tre")
+     
+     # Extract CAFE tree for current OG
+     cafe.tree.set <- ape::read.nexus(cafe_comp_tree_file)
+     cafe.tree <- cafe.tree.set[[og.cafe]]
+     
+     if (length(cafe.tree) < 1)
+     {
+       shinyjs::hideElement(id = 'loading.cafe2')
+       if (UI_exist_cafe2)
+       {
+         removeUI(
+           selector = "div:has(>> #cafe_plot2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #cafe_mrca2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #cafe_download2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadCAFEPlot2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+       }
+       
+       UI_exist_cafe2 <<- F
+       
+       if(UI_exist_error_cafe2)
+       {
+         removeUI(
+           selector = "div:has(>> #cafe_error_message2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+       }
+       insertUI("#error_cafe2", "afterEnd", ui = {
+         box(width = 12,
+             title = "Ancestral State Reconstruction", status = "info", solidHeader = TRUE,
+             collapsible = TRUE,
+             textOutput("cafe_error_message2"))
+       })
+       
+       output$cafe_error_message2 <- renderText({print("No expansions/contraction detected for this orthogroup,
+                                                        or infeasible computation due to large size and variance across
+                                                        species.")})
+       UI_exist_error_cafe2 <<- T
+       
+       validate(need(length(cafe.tree) > 0 , ""))
+     }
+     
+     return(cafe.tree)
+   }) %>% bindEvent(input$cafe_start2)
+   
+   evo_plot2 <- reactive({
+     
+     og.cafe <- og.name2()
+     cafe.tree <- cafe_tree2()
+     
+     # Show an error if the orthogroup is not significantly expanded/collapsed in any branch
+     
+     model.node.number <- ifelse(model.selected2(), 46, 36)
+     total.model.node.number <- ifelse(model.selected2(), 91, 71)
+     
+     node.count <- sapply(strsplit(cafe.tree$node.label, split = ">"), function(x) x[[2]])
+     node.count.clean <- gsub("[_]", "", node.count)
+     
+     tip.count <- sapply(strsplit(cafe.tree$tip.label, split = ">"), function(x) x[[2]])
+     tip.count.clean <- gsub("[_]", "", tip.count)
+     
+     # Identify parental node for significant changes to determine if a change
+     # corresponds to an expansion or to a contraction only if significant changes
+     # are detected
+     
+     # Nodes with significant changes are labelled with a *
+     tip.sig <- grep("[*]", tip.count.clean)
+     node.sig <- grep("[*]", node.count.clean)
+     
+     #Create a table with edges to identify parental nodes
+     edge_table <- as.data.frame(cafe.tree$edge)
+     rownames(edge_table) <- paste("edge", 1:nrow(edge_table), sep = "")
+     colnames(edge_table) <- c("parent", "child")
+     
+     {
+       if (length(tip.sig) + length(node.sig) == 0)
+       {
+         change_vector <- rep("No significant changes", length(node.count.clean) + length(tip.count.clean))
+       }
+       
+       else
+       {
+         # For tips
+         exp_cont_tip <- sapply(tip.sig, function(x)
+           if(as.numeric(gsub("[*]", "", node.count.clean[edge_table$parent[match(x, edge_table$child)]-model.node.number])) >
+              as.numeric(gsub("[*]", "", tip.count.clean[x]))) "Significant Contraction"
+           else "Significant Expansion"
+         )
+         
+         # For nodes
+         exp_cont_nodes <- sapply(node.sig, function(x)
+           if(as.numeric(gsub("[*]", "", node.count.clean[edge_table$parent[match(x+model.node.number, edge_table$child)]-model.node.number])) >
+              as.numeric(gsub("[*]", "", node.count.clean[x]))) "Significant Contraction"
+           else "Significant Expansion"
+         )
+         
+         # Create a sorted vector with change categories
+         change_vector <- rep("No significant changes", length(node.count.clean) + length(tip.count.clean))
+         change_vector[tip.sig] <- exp_cont_tip
+         change_vector[node.sig + model.node.number] <- exp_cont_nodes
+         
+       }
+     }
+     
+     # Merge tips and nodes reconstruction
+     cafe.count <- c(tip.count.clean, node.count.clean)
+     
+     # Create phylogenomic tree with internal nodes names
+     
+     mrca.tree <- read.tree(ifelse(model.selected2(), "pharaoh_folder/species_tree_global.txt",
+                                   "pharaoh_folder/species_tree_green.txt"))
+     
+     node.names <- read.csv(ifelse(model.selected2(), "pharaoh_folder/tax_labels_global.tsv",
+                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+     
+     mrca.tree$node.label <- node.names$V2
+     
+     # Create a timeline for a given OG
+     
+     tree.name <- ifelse(model.selected2(),
+                         paste("Global_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"),
+                         paste("Green_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"))
+     tree.ancestor <- read.tree(tree.name)
+     tips.orgs1 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[1]])
+     tips.orgs2 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[2]])
+     tips.orgs <- paste(tips.orgs1, tips.orgs2, sep = "_")
+     
+     mrca.id <- getMRCA(mrca.tree,unique(tips.orgs))
+     evo.paths <- c()
+     for (i in 1:length(unique(tips.orgs)))
+     {
+       evo.paths <- c(evo.paths, nodepath(mrca.tree, mrca.id, which(unique(tips.orgs)[i] == mrca.tree$tip.label)))
+     }
+     
+     evo.paths <- unique(evo.paths)
+     evo.paths.id <- sapply(evo.paths, function(x) if (x <= model.node.number) mrca.tree$tip.label[x] else mrca.tree$node.label[x-model.node.number])
+     
+     
+     # Associate gray and 0 to reconstruction for nodes not in allowed paths
+     change_vector[setdiff(1:total.model.node.number, evo.paths)] <- "OG not present"
+     cafe.count[setdiff(1:total.model.node.number, evo.paths)] <- 0
+     
+     
+     color_cafe <- sapply(change_vector, function(x) if (x == "No significant changes") "black"
+                          else if (x == "Significant Expansion") "red" else if (x == "Significant Contraction") "blue"
+                          else "gray", USE.NAMES = F)
+     
+     # Create tree representation
+     cafe.table.tips <- data.frame(node = 1:length(mrca.tree$tip.label), label = mrca.tree$tip.label,
+                                   col = color_cafe[1:length(mrca.tree$tip.label)], reconst = change_vector[1:length(mrca.tree$tip.label)],
+                                   dup_number = cafe.count[1:length(mrca.tree$tip.label)])
+     
+     cafe.table.nodes <- data.frame(node = (model.node.number+1):(model.node.number+length(mrca.tree$node.label)), label = mrca.tree$node.label,
+                                    col = color_cafe[(model.node.number+1):(model.node.number+length(mrca.tree$node.label))],
+                                    reconst = change_vector[(model.node.number+1):(model.node.number+length(mrca.tree$node.label))],
+                                    dup_number = cafe.count[(model.node.number+1):(model.node.number+length(mrca.tree$node.label))])
+     
+     cafe.table.node.comp <- rbind(cafe.table.tips, cafe.table.nodes)
+     
+     d <- dplyr::mutate(cafe.table.node.comp)
+     
+     library(ggtree)
+     library(ggplot2)
+     
+     evo_plot <- ggtree(mrca.tree, layout = "ellipse") %<+% d + aes(colour = I(d$col)) +
+       geom_tiplab(aes(label=gsub("_", " ", tools::toTitleCase(d$label))), offset = 30) +
+       theme(legend.position = "none") +
+       xlim(0, max(mrca.tree$edge.length)*1.5) +
+       geom_nodepoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                      alpha = .75) +
+       scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
+       geom_tippoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                     alpha = .75)
+     
+     return(evo_plot)
+     
+   }) %>% bindEvent(input$cafe_start2)
+   
+   evo.paths.id2 <- reactive({
+     
+     # Create phylogenomic tree with internal nodes names
+     og.cafe <- og.name2()
+     model.node.number <- ifelse(model.selected2(), 46, 36)
+     
+     mrca.tree <- read.tree(ifelse(model.selected2(), "pharaoh_folder/species_tree_global.txt",
+                                   "pharaoh_folder/species_tree_green.txt"))
+     
+     node.names <- read.csv(ifelse(model.selected2(), "pharaoh_folder/tax_labels_global.tsv",
+                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+     
+     mrca.tree$node.label <- node.names$V2
+     
+     # Create timeline
+     tree.name <- ifelse(model.selected2(),
+                         paste("Global_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"),
+                         paste("Green_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"))
+     
+     tree.ancestor <- read.tree(tree.name)
+     tips.orgs1 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[1]])
+     tips.orgs2 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[2]])
+     tips.orgs <- paste(tips.orgs1, tips.orgs2, sep = "_")
+     
+     mrca.id <- getMRCA(mrca.tree,unique(tips.orgs))
+     evo.paths <- c()
+     for (i in 1:length(unique(tips.orgs)))
+     {
+       evo.paths <- c(evo.paths, nodepath(mrca.tree, mrca.id, which(unique(tips.orgs)[i] == mrca.tree$tip.label)))
+     }
+     
+     evo.paths <- unique(evo.paths)
+     evo.paths.id <- sapply(evo.paths, function(x) if (x <= model.node.number) mrca.tree$tip.label[x] else mrca.tree$node.label[x-model.node.number])
+     return(evo.paths.id)
+     
+   }) %>% bindEvent(input$cafe_start2)
+   
+   # Outputs
+   
+   # Remove previous boxes if they exist and create new ones
+   observeEvent(isTruthy(evo_plot2()), {
+     
+     if (UI_exist_cafe2)
+     {
+       removeUI(
+         selector = "div:has(>> #cafe_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #cafe_mrca2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #cafe_download2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadCAFEPlot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     if (UI_exist_error_cafe2)
+     {
+       removeUI(
+         selector = "div:has(>> #cafe_error_message2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     insertUI("#box_cafe2", "afterEnd", ui = {
+       box(width = 12,
+           title = "Ancestral State Reconstruction", status = "success", solidHeader = TRUE,
+           collapsible = TRUE,
+           imageOutput("cafe_plot2", height = 500, width = 1000))
+     })
+     
+     insertUI("#box_mrca2", "afterEnd", ui = {
+       box(width = 8,
+           title = "Most Recent Common Ancestor", status = "success", solidHeader = TRUE,
+           collapsible = TRUE,
+           textOutput("cafe_mrca2")
+       )
+     })
+     
+     insertUI("#cafe_down_button2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "cafe_download2", "Download NEWICK tree",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     insertUI("#download_ui_for_cafe_plot2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadCAFEPlot2", "Download Ancestral State Plot",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     UI_exist_cafe2 <<- TRUE
+     shinyjs::hideElement(id = 'loading.cafe2')
+   })
+   
+   # Fill outputs
+   
+   output$cafe_plot2 <- renderImage({
+     png("evo_plot2.png", height = 500, width = 1000)
+     plot(evo_plot2())
+     dev.off()
+     
+     list(src = "evo_plot2.png",
+          contentType="image/png", width=1000,height=500)
+   }, deleteFile = T)
+   
+   output$cafe_mrca2 <- renderText({
+     print(paste0("Most recent common ancestor for this orthogroup is the
+                   ancestor of the clade: ", evo.paths.id2()[1]))
+   })
+   
+   # Download tab's results
+   
+   output$cafe_download2 <- downloadHandler(
+     filename= function() {
+       paste("ancestral_newick", ".txt", sep="")
+     },
+     content= function(file) {
+       cafe_tree <- cafe_tree2()
+       
+       write.tree(cafe_tree, file)
+     })
+   
+   output$downloadCAFEPlot2<- downloadHandler(
+     filename= function() {
+       paste("ancestral_plot", ".png", sep="")
+     },
+     content= function(file) {
+       evo_plot <- evo_plot2()
+       
+       png(file)
+       plot(evo_plot)
+       dev.off()
+     }) 
+   
+
+   ####################### MSA #################################
+   
+   observeEvent(input$run_button2, {
+     removeUI(
+       selector = "div:has(>> #selected_msaI2)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI(
+       selector = "div:has(>> #msa_methodI2)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI("#msa_selection2")
+     
+     if (UI_exist_msa2)
+     {
+       removeUI(
+         selector = "div:has(>> #msa_print2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_fa2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_msa2 <<- F
+     }
+     
+   })
+   
+   observeEvent(input$msa_start2, {
+     insertUI("#selected_msa2", "afterEnd", ui = {
+       
+       shinyWidgets::pickerInput("selected_msaI2","Select the desired genes from the tree to align",
+                                 choices=isolate({tree_reduced2()$tip.label}), options = list(`actions-box` = TRUE),
+                                 multiple = T, selected = isolate({diamond_table2()$ID[1]}))
+       
+     })
+     
+     insertUI("#msa_method2", "afterEnd", ui = {
+       shinyWidgets::pickerInput(inputId = "msa_methodI2", label = "Choose alignment method", 
+                                 choices = c("ClustalOmega", "MAFFT"), selected = "ClustalOmega")
+       
+     })
+     
+     insertUI("#msa_selectionI2", "afterEnd", ui = {
+       
+       shinyWidgets::actionBttn("msa_selection2", "Align Sequences", size = "sm",
+                                style = "float", color = "success")
+     })
+     
+   })
+   
+   alignseqs2 <- reactive({
+     
+     library(msa)
+     shinyjs::showElement(id = 'loading.msa2')
+     
+     selected_genes <- as.vector(input$selected_msaI2)
+     selected_method <- as.character(input$msa_methodI2)
+     file.name <- og.name2()
+     
+     if (length(selected_genes) < 2)
+     {
+       shinyjs::hideElement(id = 'loading.msa2')
+       
+       if (UI_exist_msa2)
+       {
+       removeUI(
+         selector = "div:has(>> #msa_print2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_fa2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       }
+       UI_exist_msa2 <<- F
+       output$error_msa2 <- renderUI({renderText({print("Please select at least two genes.")})})
+       validate(need(length(selected_genes) > 1, "Please select at least two genes."))
+     }
+     
+     output$error_msa2 <- NULL
+     
+     # If de novo alignment is selected
+     {
+       if(selected_method == "ClustalOmega")
+       {
+         # Define path to orthogroup sequences file
+         ortho.seq.name <- ifelse(model.selected2(),
+                                  paste("Global_Orthogroup_Sequences", paste(file.name, "fa", sep = "."), sep="/"),
+                                  paste("Green_Orthogroup_Sequences", paste(file.name, "fa", sep = "."), sep="/"))
+         
+         
+         # Read orthogroup sequences file and select the genes for alignment
+         mySequences1 <- Biostrings::readAAStringSet(ortho.seq.name)
+         mysubseqs <- mySequences1[selected_genes]
+         
+         alignseqs <- msa(mysubseqs, verbose = F, method = "ClustalOmega")
+       }
+       
+       # If MAFFT alignment is selected
+       else
+       {
+         ortho.seq.name <- ifelse(model.selected2(),
+                                  paste("Global_MultipleSequenceAlignments", paste(file.name, "fa", sep = "."), sep="/"),
+                                  paste("Green_MultipleSequenceAlignments", paste(file.name, "fa", sep = "."), sep="/"))
+         mySequences1 <- seqinr::read.fasta(ortho.seq.name, seqtype = "AA")
+         mysubseqs <- mySequences1[selected_genes]
+         mysubnames <- seqinr::getName(mySequences1)
+         
+         # Identify indexes associated with reduced names
+         indexes_msa <- sapply(selected_genes, function(x) grep(mysubnames, pattern = x))
+         
+         # Retrieve those sequences from alignment keeping gaps
+         mysubseqs <- mySequences1[indexes_msa]
+         names(mysubseqs) <- names(indexes_msa)
+         
+         # Remove columns with gaps and remove empty spaces in last positions
+         seqs_mysubseqs <- seqinr::getSequence(mysubseqs)
+         last <- seqs_mysubseqs[[length(seqs_mysubseqs)]]
+         last <- last[which(last != " ")]
+         seqs_mysubseqs[[length(seqs_mysubseqs)]] <- last
+         seqs_mysubseqs <- remove_gaps(seqs_mysubseqs)
+         names(seqs_mysubseqs) <- names(mysubseqs)
+         
+         mysubseqs2 <- unlist(lapply(seqs_mysubseqs, function(x) paste(x, collapse="")))
+         
+         alignseqs <- Biostrings::AAMultipleAlignment(mysubseqs2, use.names = T)
+         
+       }
+     }
+     
+     detach("package:msa", unload=TRUE)
+     
+     return(alignseqs)
+     
+   }) %>% bindEvent(input$msa_selection2)
+   
+   # Create boxes for outputs
+   observeEvent(isTruthy(alignseqs2()), {
+     
+     if (UI_exist_msa2)
+     {
+       removeUI(
+         selector = "div:has(>> #msa_print2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_plot2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_fa2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     insertUI("#box_msa2", "afterEnd", ui = {
+       box(width = 12,
+           title = "MSA Explorer", status = "success", solidHeader = TRUE,
+           collapsible = TRUE,
+           msaROutput("msa_print2", width = "60%")
+       )
+     })
+     
+     insertUI("#msa_down_plot2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "msa_download_plot2", "Download Colored MSA",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     insertUI("#msa_down_fasta2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "msa_download_fa2", "Download MSA FASTA",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     UI_exist_msa2 <<- TRUE
+   })
+   
+   
+   # Fill Output
+   output$msa_print2 <- renderMsaR({
+     alignseqs <- alignseqs2()
+     msaout <- msa::msaConvert(alignseqs, "ape::AAbin")
+     msaR(msaout, menu=T, overviewbox = F,  colorscheme = "clustal")
+   })
+   
+   # Prepare variables for pdf construction
+   observeEvent(isTruthy(alignseqs2()), {
+     alignseqs <- alignseqs2()
+     
+     library(ggmsa)
+     class(alignseqs) <- "AAMultipleAlignment"
+     
+     for(i in 1:(ncol(alignseqs)%/%100 +1)){
+       assign(paste("msapseq", i, sep = ""), ggmsa(alignseqs, 1+(100*(i-1)), i*100, seq_name = TRUE, char_width = 0.5) +
+                geom_seqlogo(color = "Chemistry_AA"), envir = as.environment(1), pos=1)
+     }
+     shinyjs::hideElement(id = 'loading.msa2')
+   })
+   
+   # Download tab's results
+   # Download colored MSA in pdf
+   output$msa_download_plot2 <- downloadHandler(
+     filename= function() {
+       paste("msa", ".pdf", sep="")
+     },
+     content= function(file) {
+       selected_msa <- input$selected_msaI2
+       alignseqs <- alignseqs2()
+       pdf(file, height = 2+length(selected_msa)*0.25, width = 16)
+       {
+         for(i in 1:(ncol(alignseqs)%/%100 +1)){
+           print(mget(paste0("msapseq", i), envir = as.environment(1)))
+         }
+         dev.off()
+       }
+     })
+   
+   # Download MSA in FASTA format
+   output$msa_download_fa2<- downloadHandler(
+     filename= function() {
+       paste("msa", ".fa", sep="")
+     },
+     content= function(file) {
+       alignseqs <- alignseqs2()
+       writeXStringSet(as(unmasked(alignseqs), "XStringSet"), file)
+     })
+   
+   
    
 # End of Sequence-based search results 
    
