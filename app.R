@@ -999,16 +999,9 @@ ui <- dashboardPage(
                                          fluidRow(tags$br()),
                                          tags$div(id = "network_button2"),
                                          fluidRow(tags$br()),
-                                         #shinyjs::extendShinyjs(text = jsCode, functions = "loadStringData"),
-                                         #tags$script(src = "http://string-db.org/javascript/combined_embedded_network_v2.0.2.js"),
-                                         #tags$script(src="embed2.js"),
                                          uiOutput(outputId = "error_network2"),
-                                         shinyjs::hidden(
-                                           tags$div(id = "parent_network2",
-                                                    #tags$script(src="embed2.js"),
-                                                    
-                                                    tags$div(id = "stringEmbedded2")
-                                           ) )
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_output_network2")
                                          
                                 ),
                                 tabPanel("Literature Annotation", 
@@ -1386,16 +1379,9 @@ ui <- dashboardPage(
                                          fluidRow(tags$br()),
                                          tags$div(id = "network_button3"),
                                          fluidRow(tags$br()),
-                                         #shinyjs::extendShinyjs(text = jsCode, functions = "loadStringData"),
-                                         #tags$script(src = "http://string-db.org/javascript/combined_embedded_network_v2.0.2.js"),
-                                         #tags$script(src="embed2.js"),
                                          uiOutput(outputId = "error_network3"),
-                                         shinyjs::hidden(
-                                           tags$div(id = "parent_network3",
-                                                   
-                                                    
-                                                    tags$div(id = "stringEmbedded3")
-                                           ) )
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_output_network3")
                                          
                                 ),
                                 tabPanel("Literature Annotation", 
@@ -7034,6 +7020,17 @@ server <- function(input, output) {
     if (nrow(map_network) == 0)
     {
       
+      if (UI_exist_network1)
+      {
+        removeUI(
+          selector = "div:has(>>>> #network_image1)",
+          multiple = TRUE,
+          immediate = TRUE
+        )
+        
+        UI_exist_network1 <<- F
+      }
+      
       output$error_network1 <- renderUI({renderText({print("It's not possible to map any
                                genes from selection to STRING IDs, please select different ones.")})})
       validate( " ")
@@ -7054,6 +7051,8 @@ server <- function(input, output) {
   # Create boxes
   observeEvent(isTruthy(mapped_string1()),{
     
+    mapped_string <- mapped_string1()
+    
     if (UI_exist_network1)
     {
       removeUI(
@@ -7064,6 +7063,10 @@ server <- function(input, output) {
       
     }
     
+    url_interactive <- paste0("https://string-db.org/cgi/network?identifiers=", 
+                              mapped_string, 
+                              "&add_color_nodes=25&network_flavor=confidence&show_query_node_labels=1")
+    
     insertUI("#box_output_network1", "afterEnd", ui = {
       box(width = 12,
           title = "Image", status = "info", solidHeader = TRUE,
@@ -7073,7 +7076,7 @@ server <- function(input, output) {
                    column(3, div( style = "margin-top: 300px;", 
                             shinyWidgets::actionBttn("network_link1", "Interactive Network", size = "md", 
                                                      icon = icon("circle-nodes"), style = "float", color = "primary", 
-                                                        onclick=paste0("window.open('https://en.wikipedia.org/wiki/','_blank')")))
+                                                        onclick=paste0("window.open('", url_interactive,"','_blank')")))
                           
                           ))
           
@@ -11866,7 +11869,16 @@ server <- function(input, output) {
        UI_exist_string2 <<- F
      }
      
-     shinyjs::hideElement(id = "parent_network2")
+     if (UI_exist_network2)
+     {
+       removeUI(
+         selector = "div:has(>>>> #network_image2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_network2 <<- F
+     }
      
    })
    
@@ -12379,7 +12391,16 @@ server <- function(input, output) {
      UI_exist_string2 <<- TRUE
      
      # Remove previous results for STRING network
-     shinyjs::hideElement(id = "parent_network2")
+     if (UI_exist_network2)
+     {
+       removeUI(
+         selector = "div:has(>>>> #network_image2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_network2 <<- F
+     }
      
    })
    
@@ -12511,7 +12532,16 @@ server <- function(input, output) {
      if (nrow(map_network) == 0)
      {
        
-       shinyjs::hideElement(id = "parent_network2")
+       if (UI_exist_network2)
+       {
+         removeUI(
+           selector = "div:has(>>>> #network_image2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         UI_exist_network2 <<- F
+       }
        
        output$error_network2 <- renderUI({renderText({print("It's not possible to map any
                                genes from selection to STRING IDs, please select different ones.")})})
@@ -12530,15 +12560,55 @@ server <- function(input, output) {
      
    }) %>% bindEvent(input$network_buttonI2)
    
+   # Create boxes
    observeEvent(isTruthy(mapped_string2()),{
      
      mapped_string <- mapped_string2()
-     js$loadStringData(mapped_string)
      
-     shinyjs::showElement(id = "stringEmbedded2")
-     shinyjs::showElement(id = "parent_network2")
+     if (UI_exist_network2)
+     {
+       removeUI(
+         selector = "div:has(>>>> #network_image2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
      
-   })  
+     url_interactive <- paste0("https://string-db.org/cgi/network?identifiers=", 
+                               mapped_string, 
+                               "&add_color_nodes=25&network_flavor=confidence&show_query_node_labels=1")
+     
+     insertUI("#box_output_network2", "afterEnd", ui = {
+       box(width = 12,
+           title = "Image", status = "success", solidHeader = TRUE,
+           collapsible = TRUE,
+           fluidRow(column(1), 
+                    column(8, htmlOutput("network_image2")), 
+                    column(3, div( style = "margin-top: 300px;", 
+                                   shinyWidgets::actionBttn("network_link2", "Interactive Network", size = "md", 
+                                                            icon = icon("circle-nodes"), style = "float", color = "success", 
+                                                            onclick=paste0("window.open('", url_interactive,"','_blank')")))
+                           
+                    ))
+           
+       )
+     })
+     
+     UI_exist_network2 <<- T
+     
+   })
+   
+   # Fill network box
+   
+   output$network_image2 <- renderText({
+     
+     mapped_string <- mapped_string2()
+     src_map <- paste0("https://string-db.org/api/image/network?identifiers=", mapped_string, 
+                       "&add_color_nodes=25&network_flavor=confidence")
+     
+     c('<img src="',src_map,'"width="675" height="625">')
+   })
    
    
 # End of Sequence-based search results 
@@ -17056,7 +17126,16 @@ server <- function(input, output) {
        UI_exist_string3 <<- F
      }
      
-     shinyjs::hideElement(id = "parent_network3")
+     if (UI_exist_network3)
+     {
+       removeUI(
+         selector = "div:has(>>>> #network_image3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_network3 <<- F
+     }
      
    })
    
@@ -17569,7 +17648,16 @@ server <- function(input, output) {
      UI_exist_string3 <<- TRUE
      
      # Remove previous results for STRING network
-     shinyjs::hideElement(id = "parent_network3")
+     if (UI_exist_network3)
+     {
+       removeUI(
+         selector = "div:has(>>>> #network_image3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_network3 <<- F
+     }
      
    })
    
@@ -17688,7 +17776,16 @@ server <- function(input, output) {
      if (nrow(map_network) == 0)
      {
        
-       shinyjs::hideElement(id = "parent_network3")
+       if (UI_exist_network3)
+       {
+         removeUI(
+           selector = "div:has(>>>> #network_image3)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         UI_exist_network3 <<- F
+       }
        
        output$error_network3 <- renderUI({renderText({print("It's not possible to map any
                                genes from selection to STRING IDs, please select different ones.")})})
@@ -17707,15 +17804,55 @@ server <- function(input, output) {
      
    }) %>% bindEvent(input$network_buttonI3)
    
+   # Create boxes
    observeEvent(isTruthy(mapped_string3()),{
      
      mapped_string <- mapped_string3()
-     js$loadStringData(mapped_string)
      
-     shinyjs::showElement(id = "stringEmbedded3")
-     shinyjs::showElement(id = "parent_network3")
+     if (UI_exist_network3)
+     {
+       removeUI(
+         selector = "div:has(>>>> #network_image3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
      
-   })  
+     url_interactive <- paste0("https://string-db.org/cgi/network?identifiers=", 
+                               mapped_string, 
+                               "&add_color_nodes=25&network_flavor=confidence&show_query_node_labels=1")
+     
+     insertUI("#box_output_network3", "afterEnd", ui = {
+       box(width = 12,
+           title = "Image", status = "success", solidHeader = TRUE,
+           collapsible = TRUE,
+           fluidRow(column(1), 
+                    column(8, htmlOutput("network_image3")), 
+                    column(3, div( style = "margin-top: 300px;", 
+                                   shinyWidgets::actionBttn("network_link3", "Interactive Network", size = "md", 
+                                                            icon = icon("circle-nodes"), style = "float", color = "danger", 
+                                                            onclick=paste0("window.open('", url_interactive,"','_blank')")))
+                           
+                    ))
+           
+       )
+     })
+     
+     UI_exist_network3 <<- T
+     
+   })
+   
+   # Fill network box
+   
+   output$network_image3 <- renderText({
+     
+     mapped_string <- mapped_string3()
+     src_map <- paste0("https://string-db.org/api/image/network?identifiers=", mapped_string, 
+                       "&add_color_nodes=25&network_flavor=confidence")
+     
+     c('<img src="',src_map,'"width="675" height="625">')
+   })
    
 # End of OG-based search results
    
