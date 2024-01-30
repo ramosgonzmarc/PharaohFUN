@@ -1553,24 +1553,45 @@ ui <- dashboardPage(
                 
                 
                 fluidRow(
-                  column(5, fileInput(inputId = "geneInt4",label = h4("Choose Sequence File to Upload")),),
-                  #column(1, div( style = "margin-top: 20px;", actionButton("run", "Run", icon = icon("magnifying-glass")))))
+                  column(4, fileInput(inputId = "geneInt4",label = h4("Choose Sequence File to Upload"))),
                   column(1, div( style = "margin-top: 45px;", 
                                  shinyWidgets::actionBttn("run_button4", "Run", size = "sm", icon = icon("magnifying-glass"),
                                                           style = "float", color = "warning"))),
-                  column(3,div(style = "margin-top: 49px;",
+                  column(3, div(style = "margin-top: 25px;",
+                             
+                             shinyWidgets::pickerInput("organism_input_4","Choose organism",
+                                                       choices=names(organisms_values),
+                                                       multiple = F, selected=names(organisms_values)[11]))
+                         
+                         
+                  ),
+                  column(2,div(style = "margin-top: 49px;",
                                shinyWidgets::materialSwitch(inputId = "switch4", label = "Global", 
                                                             value = T, status = "warning", inline = TRUE),
-                               span("Viridiplantae")))
+                               span("Viridiplantae"))),
+                  
+                  column(2,div(style = "margin-top: 49px;",
+                               shinyWidgets::materialSwitch(inputId = "search_mode4", label = "IDs", 
+                                                            value = T, status = "warning", inline = TRUE),
+                               span("Sequences")))
                   
                   
                   
                 )),
               
               br(),
+              
               fluidRow(
                 box(status = "warning", width = 12, 
-                    title = span(tags$b("Results"), style = "color:#e37326; font-size: 20px; ")
+                    title = span(tags$b("Results"), style = "color:#e37326; font-size: 20px; "),
+                    fluidRow(br()),
+                    shinyjs::useShinyjs(),
+                    shinyjs::hidden(div(id='loading.batch4',h3('Please be patient, preparing your folders ...'))),
+                    uiOutput(outputId = "error_batch4"),
+                    tags$div(id = "download_batch4"),
+                    fluidRow(tags$br()),
+                    tags$div(id = "box_heatmap4")
+                    
                     ))
               
       ),
@@ -6283,7 +6304,7 @@ server <- function(input, output) {
                                                                          size = "sm", color = "primary"))
     })
     
-    
+    shinyjs::hideElement(id = 'loading.lit1')
     UI_exist_lit1 <<- TRUE
     
   })
@@ -11745,8 +11766,6 @@ server <- function(input, output) {
      pc_result_show <- pc_result
      pc_result_show$`Pubmed ID` <- urls_connect
      
-     #shinyjs::hideElement(id = 'loading.lit2')
-     
      return(pc_result_show)
      
    })
@@ -11783,6 +11802,7 @@ server <- function(input, output) {
                                                                           size = "sm", color = "success"))
      })
      
+     shinyjs::hideElement(id = 'loading.lit2')
      
      UI_exist_lit2 <<- TRUE
      
@@ -17040,7 +17060,7 @@ server <- function(input, output) {
                                                                           size = "sm", color = "danger"))
      })
      
-     
+     shinyjs::hideElement(id = 'loading.lit3')
      UI_exist_lit3 <<- TRUE
      
    })
@@ -17855,6 +17875,401 @@ server <- function(input, output) {
    })
    
 # End of OG-based search results
+   
+##################### BATCH SEARCH ##########################
+   
+   # Set global variables for tracking changes in output
+   UI_exist_batch4 <<- F
+   
+   # To avoid autoupdating some inputs, define variables with its values
+   model.selected4 <- reactive({
+     model.selected <- !input$switch4
+     return(model.selected)
+   })%>% bindEvent(input$run_button4)
+   
+   search_mode4 <- reactive({
+     search_mode <- input$search_mode4
+     return(search_mode)
+   }) %>% bindEvent(input$run_button4)
+   
+   seq_org4 <- reactive({
+     seq_org <- input$organism_input_4
+     return(seq_org)
+     
+   }) %>% bindEvent(input$run_button4)
+   
+   # Load organisms selection based on the model selected
+   selected_organisms4 <- reactive({
+     selected_organisms <- c(input$mami_check_4,input$chloro_check_4, input$strepto_check_4,
+                             input$bryo_check_4, input$lyco_check_4, input$sperma_check_4)
+     if(model.selected4()){selected_organisms <- c(input$tsar_check_4, input$rhodo_check_4, 
+                                                   input$glauco_check_4,selected_organisms)}
+     return(selected_organisms)
+     
+   }) %>% bindEvent(input$run_button4)
+   
+   selected_values_org4 <- reactive(organisms_values[selected_organisms4()]) %>% bindEvent(input$run_button4)
+   
+   # Generate random name
+   random.file4 <- reactive({
+     
+     random.file <- paste0(c("batch_", sample(LETTERS, 7, replace = T), sample.int(9, size=5, replace = T)), collapse = "")
+     return(random.file)
+   }) %>% bindEvent(input$run_button4)
+   
+   
+   # Reactive for creating results folder when Run button is clicked and storing a value
+   table_heat4 <- reactive({
+     
+     shinyjs::showElement(id = 'loading.batch4')
+     library(data.table)
+     library(stringr)
+     
+     random.file <- random.file4()
+     search_mode4 <- search_mode4()
+     # Access species proteome
+     
+     org_batch <- as.character(seq_org4())
+     org_search <- gsub(" ", "_", tolower(as.character(org_batch)))
+     org_fasta <- paste("pharaohfun_proteomes", paste0(org_search, ".fa", sep=""), sep = "/")
+     
+     # Load data based on input mode
+     # If input is entered as sequences
+     {
+       if (search_mode4)
+       {
+         # Load and clean fasta
+         seqs_val <- seqinr::read.fasta(file = input$geneInt4$datapath, seqtype = "AA", forceDNAtolower = F, as.string = T) 
+         names_seqs_val <- seqinr::getName(seqs_val)
+         seqs_seqs_val <- seqinr::getSequence(seqs_val, as.string = T)
+         seqs_seqs_val_clean <- lapply(seqs_seqs_val, function(x) as.character(toupper(gsub("[\r\n\t]", "", x))))
+         seqs_seqs_val_clean2 <- lapply(seqs_seqs_val_clean, function(x) str_replace_all(x, fixed(" "), ""))
+         vec_seq_val <- lapply(seqs_seqs_val_clean2, function(x) str_split_1(x, pattern = ""))
+         
+         # Create clean fasta file for comparison with random name to allow several users at once
+         seqinr::write.fasta(vec_seq_val, names = names_seqs_val, paste0(random.file, "_new_diamond.fa"))
+         
+         # Run diamond
+         library(rdiamond)
+         
+         diamond_res <- rdiamond::diamond_protein_to_protein(
+           query   = paste0(random.file, "_new_diamond.fa"),
+           subject = org_fasta,
+           sensitivity_mode = "sensitive",
+           output_path = tempdir(),
+           #db_import  = FALSE,
+           diamond_exec_path = "/usr/bin", 
+           max_target_seqs = 1)
+         
+         diamond_table <- data.frame(diamond_res)
+         
+       }
+       
+       # If ID search mode is selected
+       else
+       {
+         ids_vals <- fread(file = input$geneInt4$datapath, header = F)
+         diamond_table <- data.frame(query_id = ids_vals$V1, subject_id = ids_vals$V1)
+       }
+     }
+     
+     # Error if an ID does not correspond to the selected proteome, it only
+     # happens in ID search mode, but this chunk is placed here to preserve
+     # a common framework for both search modes
+     
+     # Access species proteome
+     prot_comp_fasta <- seqinr::read.fasta(file = org_fasta, seqtype = "AA", forceDNAtolower = F, as.string = T) 
+     prot_ids <- seqinr::getName(prot_comp_fasta)
+     
+     if (!all(diamond_table$subject_id %in% prot_ids))
+     {
+       # Error message and remove output
+       if (UI_exist_batch4)
+       {
+         
+         removeUI(
+           selector = "div:has(>> #heat_image4)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadBatch4)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         UI_exist_batch4 <<- F
+         
+       }
+       shinyjs::hideElement(id = 'loading.batch4')
+       validate(" ")
+     }
+   
+     # Once table is created and IDs checked, create a new results folder 
+     # (remove previous one if it exists with the same random name)
+     
+     if (dir.exists(random.file))
+     {
+       unlink(paste0(random.file, ".zip"), recursive = TRUE)
+     }
+     
+     dir.create(random.file)
+     
+     # For each subject id in table, find OG name
+     ortho.file <- ifelse(model.selected4(), "Global_Gene_Trees/Orthogroups.tsv",
+                                             "Green_Gene_Trees/Orthogroups.tsv")
+     
+     ortho.line <- fread(ortho.file, select = c("Orthogroup",org_search))
+     
+     gene.numbers <- sapply(diamond_table$subject_id, function(x) grep(x, ortho.line[[org_search]]), USE.NAMES = F)
+     
+     # If a pattern is found in several names, i.e., is a subpattern of several genes,
+     # search for the exact match
+     if(class(gene.numbers) == "list")
+     {
+       # Check if there are genes with more than one match due to subpatterns
+       index.wrong <- which(sapply(gene.numbers, function(x) length(x) > 1))
+       {
+         if (length(index.wrong != 0))
+         {
+           for (i in index.wrong)
+           {
+             for (j in gene.numbers[[i]])
+             {
+               ortho_char_split <- strsplit(ortho.line[[org_search]][j],split = ",")
+               ortho_char_split_clean <- sapply(ortho_char_split, function(x) gsub(" ", "", x))
+               if (diamond_table$subject_id[i] %in% ortho_char_split_clean)
+               {
+                 gene.numbers[i] <- j
+               }
+             }
+           }
+         }
+       }
+     }
+     
+     # Write corresponding OG to results table, and indicate it if it is not clustered in any OG
+     ogs.batch <- sapply(gene.numbers, function(x) ortho.line$Orthogroup[x], USE.NAMES = F)
+     ogs.names <- sapply(ogs.batch, function(x) if (length(x) == 0) "Gene is not clustered in an OG" else x)
+     
+     diamond_table <- cbind(diamond_table, "OG" = ogs.names)
+     fwrite(diamond_table, file = paste0(random.file, "/results.tsv"),
+            sep = "\t")
+     
+     # Create subfolders for each of the input proteins
+     apply(diamond_table, MARGIN = 1,
+           FUN = function(x) if (x["OG"] != "Gene is not clustered in an OG") 
+             dir.create(paste0(random.file, "/",
+                               x["query_id"])))
+     
+     # Copy results to its folders
+     folder_prefix <- ifelse(model.selected4(), "Global_", "Green_")
+     
+     apply(diamond_table, MARGIN = 1,
+           FUN = function(x) if (x["OG"] != "Gene is not clustered in an OG") 
+           {
+             # Copy trees to its folders
+             
+             file.copy(from=paste0(folder_prefix, "Gene_Trees/", 
+                                   x["OG"], "_tree.txt"), 
+                       to=paste0(random.file, "/", x["query_id"], "/", x["query_id"], "_tree.txt"), 
+                       overwrite = TRUE, recursive = FALSE, 
+                       copy.mode = TRUE)
+             
+             # Copy MSAs to its folders
+             file.copy(from=paste0(folder_prefix, "MultipleSequenceAlignments/",
+                                   x["OG"], ".fa"), 
+                       to=paste0(random.file, "/", x["query_id"], "/", x["query_id"], "_MSA.fa"), 
+                       overwrite = TRUE, recursive = FALSE, 
+                       copy.mode = TRUE)
+             
+           }
+     )
+     
+     # Functional annotation
+     
+     # Retrieve genes for each OG
+     ortho_for_go <- apply(diamond_table, MARGIN = 1,
+                           FUN = function(x) if (x["OG"] != "Gene is not clustered in an OG") 
+                             as.character(subset(ortho.line, (ortho.line$Orthogroup == x["OG"]))))
+     
+     
+     ortho_for_go2 <- lapply(ortho_for_go, function(x) paste0(x[-1][x[-1] != ""], collapse = ","))
+     ortho_for_go_clean <- sapply(ortho_for_go2, function(x) strsplit(str_replace_all(x, fixed(" "), ""), split = ","))
+     ortho_for_go_def <- ortho_for_go_clean[lapply(ortho_for_go_clean,length)>0]
+     
+     # Associate each vector of genes with its corresponding query id
+     names(ortho_for_go_def) <- diamond_table$query_id[apply(diamond_table, MARGIN = 1,
+                                                             FUN = function(x) (x["OG"] != "Gene is not clustered in an OG"))]
+     
+     
+     # Subset the GO annotation and write TSVs
+     annotation.go <- fread("pharaoh_folder/final_anot_table.tsv")
+     
+     mapply(function(x,y)
+     {fwrite(annotation.go[annotation.go$id %in% x, ], 
+             file = paste0(random.file, "/", y, "/", y, "_GO.tsv"), sep = "\t")}, 
+     x=ortho_for_go_def, y=names(ortho_for_go_def))
+     
+     # Subset the KO annotation and write TSVs (using same set as in GO)
+     annotation.ko <- fread("pharaoh_folder/ko_table_funtree.tsv")
+     
+     mapply(function(x,y)
+     {fwrite(annotation.ko[annotation.ko$gene %in% x, ], 
+             file = paste0(random.file, "/", y, "/", y, "_KO.tsv"), sep = "\t")}, 
+     x=ortho_for_go_def, y=names(ortho_for_go_def))
+     
+     # CAFE files
+     library(ape)
+     
+     # Read an extract CAFE trees
+     cafe_file <- ifelse(model.selected4(), "pharaoh_folder/global_cafe.tre",
+                         "pharaoh_folder/green_cafe.tre")
+     
+     cafe_comp <- read.nexus(cafe_file)
+     
+     # Keep the ones corresponding to present OGs
+     cafe_correspondence <- subset(diamond_table, diamond_table$OG %in% names(cafe_comp))[,c("query_id", "OG")]
+     
+     apply(cafe_correspondence, MARGIN = 1,
+           FUN = function(x)
+           {
+             # Write trees to its folders
+             write.tree(cafe_comp[[x["OG"]]], file = paste0(random.file, "/", x["query_id"], "/", x["query_id"], "_ancestral.txt"))
+           }
+     )
+     
+     # Compress folder and remove uncompressed one
+     zip(zipfile = paste0(random.file, ".zip"), files = random.file)
+     unlink(random.file, recursive = TRUE)
+     
+     # Return table with query_id and Orthogroups for heatmap
+     table_heat <- subset(diamond_table, OG != "Gene is not clustered in an OG")
+     table_heat <- table_heat[, c("query_id", "OG")]
+     return(table_heat)
+     
+   }) %>% bindEvent(input$run_button4)
+   
+   # Create heatmap for OGs in each species
+   heat_plot4 <- reactive({
+     
+     library(ggplot2)
+     library(dplyr)
+     library(data.table)
+     
+     random.file <- random.file4()
+     table_heat <- table_heat4()
+     selected_organisms <- selected_organisms4()
+     orgs_to_keep <- as.character(sapply(selected_organisms, function(x) gsub(" ", "_", tolower(x))))
+     
+     # Load gene count for each OG and filter out species that are not selected by the user
+     genecount_file <- ifelse(model.selected4(), "pharaoh_folder/global_genecount.tsv",
+                              "pharaoh_folder/green_genecount.tsv")
+     genecount_data <- fread(genecount_file, select = c("Orthogroup", orgs_to_keep))
+     
+     # Create index to retain order and dups in the subset
+     genecount_index <- sapply(table_heat$OG, function(x) which(x == genecount_data$Orthogroup))
+     genecount_filt <- genecount_data[genecount_index,]
+     
+     genecount_filt$Orthogroup <- table_heat$query_id
+     colnames(genecount_filt) <- c("query", colnames(genecount_filt)[-1])
+     
+     # Convert from wide to long format for plotting
+     data_plot <- melt(genecount_filt,
+                       id.vars = c("query"),
+                       measure.vars = patterns("*_"),
+                       variable.name = "species",
+                       value.name = "value")
+     
+     # Create heatmap
+     heat_plot <- ggplot(data_plot, aes(species, query, fill= value)) + 
+       geom_tile(color = "white",
+                 linewidth = 1.5,
+                 linetype = 1) +
+       scale_fill_gradientn(
+         values = c(0, quantile(data_plot$value, 0.1), quantile(data_plot$value, 0.2),
+                    quantile(data_plot$value, 0.3), quantile(data_plot$value, 0.4),
+                    quantile(data_plot$value, 0.7)),
+         guide = "colourbar",
+         aesthetics = "fill",
+         colors = c("white", "#fcd57a", "#fcc139", "#f48131", "#ed1411", "#ab0808")
+       )
+     
+     return(heat_plot)
+     
+   }) 
+   
+   # Create boxes
+   
+   observeEvent(isTruthy(heat_plot4()), {
+     
+     if (UI_exist_batch4)
+     {
+      
+       removeUI(
+         selector = "div:has(>> #heat_image4)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadBatch4)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     table_heat <- table_heat4()
+     
+     insertUI("#box_heatmap4", "afterEnd", ui = {
+       box(width = 12, height = nrow(table_heat)*30,
+           title = "Orthogroups Heatmap", status = "warning", solidHeader = TRUE,
+           collapsible = TRUE, 
+           plotOutput("heat_image4", height = nrow(table_heat)*30-20)
+       )
+     })
+     
+     insertUI("#download_batch4", "afterEnd", ui = {
+       tags$div(style = "margin-left: 300px;", shinyWidgets::downloadBttn(outputId= "downloadBatch4", 
+                                                                          "Download Results Folder",
+                                                                          size = "sm", color = "warning"))
+     })
+     
+     UI_exist_batch4 <<- TRUE
+     shinyjs::hideElement(id = 'loading.batch4')
+   })
+   
+   # Fill boxes with output
+   
+   # Render heatmap
+   output$heat_image4 <- renderImage({
+     
+     table_heat <- table_heat4()
+     heat_plot <- heat_plot4()
+     
+     png("heatmap.png", height = nrow(table_heat)*30-20, width = 1000)
+     plot(heat_plot)
+     dev.off()
+     
+     list(src = "heatmap.png",
+          contentType="image/png", width=1000,height=nrow(table_heat)*30-20)
+   }, deleteFile = T)
+   
+   # Download results
+   output$downloadBatch4 <- downloadHandler(
+     filename= function() {
+       paste0("batch_results", ".zip")
+     },
+     content= function(file) {
+       random.file <- random.file4()
+       file.copy(paste0(random.file, ".zip"), file)
+       file.remove(paste0(random.file, ".zip"))
+     })
+   
+
+# End of Batch Mode Search
    
    
 # End of the whole server function
