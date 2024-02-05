@@ -1793,8 +1793,53 @@ ui <- dashboardPage(
                                                      tags$div(id = "download_newick5"),
                                                      tags$div(id = "download_tree_seqs5"))
                                 ),
-                                tabPanel("Expansion/Contraction", "Tab content 2"),
-                                tabPanel("PFAM Domains", "First tab content"),
+                                tabPanel("Collapsable tree",
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("phylo_start5", "Show Collapsable Tree",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "royal"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_phylo5"),
+                                         fluidRow(tags$br())
+                                ),
+                                tabPanel("Expansion/Contraction",
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("cafe_start5", "Show Evolutionary History",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "royal"),
+                                         fluidRow(tags$br()),
+                                         
+                                         shinyjs::hidden(div(id='loading.cafe5', h3('Please be patient, reconstructing expansion/contraction events ...'))),
+                                         tags$div(id = "error_cafe5"),
+                                         tags$div(id = "box_mrca5"),
+                                         tags$br(),
+                                         tags$div(id = "box_cafe5"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "cafe_down_button5"),
+                                                     tags$div(id = "download_ui_for_cafe_plot5"))
+                                ),
+                                tabPanel("PFAM Domains", 
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("pfam_start5", "Show Gene Selection for Pfam",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "royal"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_pfams5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "pfam_selectionI5"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.pfam.pf5',h3('Please be patient, identifying domains ...'))),
+                                         uiOutput(outputId = "error_pfam5"),
+                                         tags$div(id = "box_pfam5"),
+                                         tags$br(),
+                                         tags$div(id = "box_pfplot5"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"), 
+                                                     tags$div(id = "pfam_down_button5"),
+                                                     tags$div(id = "download_ui_for_pfam_table5")
+                                         )
+                                ),
                                 tabPanel("Multiple Sequence Alignment", "Tab content 2"),
                                 tabPanel("GO Terms", "First tab content"),
                                 tabPanel("KEGG Orthology", "Tab content 2"),
@@ -18375,11 +18420,14 @@ server <- function(input, output) {
      
      # Create a FASTA file with the query seq (using a random file name to
      # avoid conflicts between simultaneous users) for comparison
-     write.fasta(vec_comp, names = "query_prot", paste0("pharaoh_folder/", random_name, ".fa"))
+     write.fasta(vec_comp, names = "query_prot", paste0("pharaoh_folder/", random_name, "_input.fa"))
 
      # Then, execute DIAMOND in server to create .sh.ogs.txt.gz file
 
      # Execute SHOOT in server
+     
+     # Remove input fasta file once SHOOT results have been generated
+     file.remove(paste0("pharaoh_folder/", random_name, "_input.fa"))
 
      # Load gene tree file depending on the input
      shoot_tree <- ape::read.tree("pharaoh_folder/pruebashoot.txt")
@@ -19991,7 +20039,7 @@ server <- function(input, output) {
      ortho_seq_seqs <- c(list(shoot_sequence), getSequence(ortho_seq))
      write.fasta(ortho_seq_seqs, names =  ortho_seq_names, file.out = paste0(random_name, "_tmp.fa"))
      ortho_seq_ext <- read.fasta(paste0(random_name, "_tmp.fa"), seqtype = "AA")
-     #file.remove(paste0(random_name, "_tmp.fa"))
+     file.remove(paste0(random_name, "_tmp.fa"))
      
      return(ortho_seq_ext)
    })
@@ -20102,7 +20150,7 @@ server <- function(input, output) {
    # Fill boxes with output
    output$treeTips5 <- renderPrint({
      print(tree_reduced5()$tip.label)
-   }, width = 400) # %>% bindEvent(input$run_button1)
+   }, width = 400) # %>% bindEvent(input$run_button5)
    
    # Render pie chart
    output$presentorg5 <- renderImage({
@@ -20179,6 +20227,798 @@ server <- function(input, output) {
        seqinr::write.fasta(sequences = seqinr::getSequence(ortho_reduced5()),
                            names = seqinr::getName(ortho_reduced5()), file.out = file)
      })
+   
+   ####################### PHYLOWIDGET ############################
+   # Remove previous outputs when updated by a new search
+   observeEvent(input$run_button5, {
+     if (UI_exist_phylo5)
+     {
+       removeUI(
+         selector = "div:has(>> #phylo_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_phylo5 <<- F
+     }
+     
+   })
+   
+   
+   phylo_tree5 <- reactive({
+     
+     library(ape)
+     tree_phylo <- tree_reduced5()
+     
+     # Normalize tree depth
+     root_id <- length(tree_phylo$tip.label)+1
+     norm_factor <- max(dist.nodes(tree_phylo)[root_id,])
+     tree_phylo$edge.length <- tree_phylo$edge.length/norm_factor
+     
+     return(tree_phylo)
+     
+   }) %>% bindEvent(input$phylo_start5)
+   
+   observeEvent(isTruthy(phylo_tree5()),{
+     
+     if(UI_exist_phylo5)
+     {
+       removeUI(
+         selector = "div:has(>> #phylo_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_phylo5 <<- F
+     }
+     
+     
+     insertUI("#box_phylo5", "afterEnd", ui = {
+       box(width = 12,
+           title = "Interactive Tree", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           phylowidgetOutput("phylo_plot5", height = "800px", width = "98%")
+       )
+     })
+     
+     UI_exist_phylo5 <<- T
+     
+   })
+   
+   output$phylo_plot5 <- renderPhylowidget({
+     
+     phylo_tree <- phylo_tree5()
+     phylowidget(phylo_tree)
+   })
+   
+   
+   
+   #########################  PFAM  ###############################
+   
+   observeEvent(input$run_button5, {
+     removeUI(
+       selector = "div:has(>> #selected_pfamsI5)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+   })
+   
+   observeEvent(input$pfam_start5, {
+     insertUI("#selected_pfams5", "afterEnd", ui = {
+       
+       shinyWidgets::pickerInput("selected_pfamsI5","Select the desired genes from the tree",
+                                 choices=isolate({tree_reduced5()$tip.label}), options = list(`actions-box` = TRUE),
+                                 multiple = T, selected = isolate({"query_prot"}))
+     })
+   })
+   
+   observeEvent(input$run_button5, {
+     removeUI("#pfam_selection5")
+   })
+   
+   observeEvent(input$pfam_start5, {
+     insertUI("#pfam_selectionI5", "afterEnd", ui = {
+       
+       shinyWidgets::actionBttn("pfam_selection5", "Show Pfam Domains", size = "sm",
+                                style = "float", color = "royal")
+     })
+   })
+   
+   
+   observeEvent(input$run_button5, {
+     if (UI_exist_pfam5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_pfam_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadPFAMTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_pfam5 <<- F
+     }
+   })
+   
+   
+   total_table_pfam5 <- reactive({
+     shinyjs::showElement(id = 'loading.pfam.pf5')
+     ortho_reduced <- ortho_reduced5()
+     sel_genes <- as.vector(input$selected_pfamsI5)
+     
+     if (length(sel_genes) < 1)
+     {
+       shinyjs::hideElement(id = 'loading.pfam.pf5')
+       removeUI(
+         selector = "div:has(>> #output_pfam_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadPFAMTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       UI_exist_pfam5 <<- F
+       output$error_pfam5 <- renderUI({renderText({print("Please select at least one gene.")})})
+       validate(need(length(sel_genes) > 0, "Please select at least one gene."))
+     }
+     
+     output$error_pfam5 <- NULL
+     #library(bio3d)
+     library(RCurl)
+     library(drawProteins)
+     library(ggplot2)
+     
+     # Get the sequences as a vector of strings
+     
+     
+     # Create data frame with proper columns
+     total_table_pfam <- data.frame(type=NA,
+                                    description=NA,
+                                    begin=NA, end=NA,
+                                    length=NA,
+                                    accession=NA, entryName=NA,
+                                    taxid=NA, order=NA)
+     
+     
+     # Fill data frame with the information about domains obtained with hmmer
+     for (i in 1:length(sel_genes))
+     {
+       ortho_comp <- ortho_reduced[[sel_genes[i]]]
+       ortho_str <- seqinr::getSequence(ortho_comp, as.string = T)
+       ortho_cha <- unlist(ortho_str)
+       
+       
+       
+       url <- paste("https://www.ebi.ac.uk/Tools/hmmer/search/", "hmmscan", sep = "")
+       curl.opts <- list(httpheader = "Expect:", httpheader = "Accept:text/xml", verbose = T, followlocation = TRUE)
+       curl_env <- getCurlHandle()
+       
+       
+       RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
+       
+       curl_info <- getCurlInfo(curl_env, which = getCurlInfoConstants())
+       
+       
+       
+       if (curl_info$response.code == 200)
+       {
+         url_vec <- strsplit(curl_info$effective.url, split = "/")
+         url_vec[[1]][1] <- "https:"
+         url_vec[[1]][6] <- "download"
+         url_vec[[1]][8] <- "score?format=tsv"
+         url_tsv <<- paste0(url_vec[[1]], collapse = "/")
+         tsv_res <- getURL(url_tsv)
+         nap.time <- 0
+         while (strsplit(tsv_res, "\t")[[1]][1] != "Family id")
+         {
+           nap.time <- nap.time + 5
+           tsv_res <- getURL(url_tsv)
+           Sys.sleep(nap.time)
+           if (nap.time > 11){
+             shinyjs::hideElement(id = 'loading.pfam.pf5')
+             break
+           }
+         }
+         
+         validate(need(nap.time < 25,"Connection time too high."))
+         res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
+         pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
+                                  description=c("Protein chain",res_pfam$Family.Accession),
+                                  begin=c(1, res_pfam$Env..Star), end=c(nchar(ortho_cha),res_pfam$Env..End),
+                                  length=c(nchar(ortho_cha)-1, res_pfam$Env..End-res_pfam$Env..Start),
+                                  accession=sel_genes[i], entryName=sel_genes[i],
+                                  taxid=c("Chain", res_pfam$Description), order=i)
+         
+         total_table_pfam <- rbind(total_table_pfam, pfam_table)
+         
+       }
+       else
+       {
+         pfam_table <- data.frame(type="CHAIN",
+                                  description="Protein chain",
+                                  begin=1, end=nchar(ortho_cha),
+                                  length=nchar(ortho_cha)-1,
+                                  accession=sel_genes[i], entryName=sel_genes[i],
+                                  taxid="Chain", order=i)
+         total_table_pfam <- rbind(total_table_pfam, pfam_table)
+       }
+     }
+     
+     total_table_pfam <- total_table_pfam[-1,]
+     
+     
+     return(total_table_pfam)
+     
+   }) %>% bindEvent(input$pfam_selection5)
+   
+   pfplot5 <- reactive({
+     
+     total_table_pfam <- total_table_pfam5()
+     # Now we can plot domains information as chains
+     pfplot <- draw_canvas(total_table_pfam)
+     pfplot <- draw_chains(pfplot, total_table_pfam)
+     pfplot <- draw_domains(pfplot, total_table_pfam, label_domains = F)
+     pfplot <- pfplot + theme_bw(base_size = 20) + # white background
+       theme(panel.grid.minor=element_blank(),
+             panel.grid.major=element_blank()) +
+       theme(axis.ticks = element_blank(),
+             axis.text.y = element_blank()) +
+       theme(panel.border = element_blank())
+     #pfplot <- pfplot + labs(title = "Pfam domains")
+     pfplot <- pfplot + theme(legend.position="top") + labs(fill="")
+     
+   }) %>% bindEvent(input$pfam_selection5)
+   
+   
+   # Outputs
+   
+   observeEvent(isTruthy(pfplot5()), {
+     
+     if (UI_exist_pfam5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_pfam_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #pfam_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadPFAMTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     insertUI("#box_pfam5", "afterEnd", ui = {
+       
+       box(
+         title = "PFAM Table", status = "primary", solidHeader = TRUE, width = 12,
+         collapsible = TRUE,
+         dataTableOutput(outputId = "output_pfam_table5"))
+     }) 
+     
+     insertUI("#box_pfplot5", "afterEnd", ui = {
+       total_table_pfam <- total_table_pfam5()
+       box_pfplot_height <- 150 + 700*length(total_table_pfam$order[nrow(total_table_pfam)])
+       box(
+         title = "Domains Localization", status = "primary", solidHeader = TRUE, width = 12, #height = box_pfplot_height,
+         collapsible = TRUE,
+         imageOutput("pfam_plot5"))
+     }) 
+     
+     insertUI("#pfam_down_button5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "pfam_download5", "Download PFAM figure",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     insertUI("#download_ui_for_pfam_table5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadPFAMTable5", "Download PFAM Table",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     UI_exist_pfam5 <<- TRUE
+     shinyjs::hideElement(id = 'loading.pfam.pf5')
+   })
+   
+   output$output_pfam_table5 <- renderDataTable({
+     total_table_pfam <- total_table_pfam5()
+     out_pf_table <- subset(total_table_pfam[,c(1:6,8)], total_table_pfam$type != "CHAIN")
+     out_pf_table$description <- sapply(out_pf_table$description, function(x) pfam.link(x))
+     colnames(out_pf_table) <- c(colnames(total_table_pfam)[1:6],"biological description")
+     return(out_pf_table)
+   }, escape=FALSE, options = list(pageLength = 5))
+   
+   output$pfam_plot5 <- renderImage({
+     total_table_pfam <- total_table_pfam5()
+     pfam_height <- 50 + 700*length(total_table_pfam$order[nrow(total_table_pfam)])
+     pfam_width <- 1000
+     pfplot <- pfplot5()
+     png("pharaoh_folder/pfam.png",  width = pfam_width, height = pfam_height)
+     plot(pfplot)
+     dev.off()
+     list(src = "pharaoh_folder/pfam.png",
+          contentType="image/png")
+   }, deleteFile = T
+   )
+   
+   # Download results
+   
+   output$pfam_download5 <- downloadHandler(
+     filename= function() {
+       paste("pfam", ".png", sep="")
+     },
+     content= function(file) {
+       total_table_pfam <- total_table_pfam5()
+       pfam_height <- 50 + 700*length(total_table_pfam$order[nrow(total_table_pfam)])
+       pfam_width <- 1150
+       pfplot <- pfplot5()
+       
+       png(file, height = pfam_height, width = pfam_width)
+       plot(pfplot)
+       dev.off()
+     })
+   
+   output$downloadPFAMTable5<- downloadHandler(
+     filename= function() {
+       paste("pfam_table", ".tsv", sep="")
+     },
+     content= function(file) {
+       total_table_pfam <- total_table_pfam5()
+       out_pf_table <- subset(total_table_pfam[,c(1:6,8)], total_table_pfam$type != "CHAIN")
+       colnames(out_pf_table) <- c(colnames(total_table_pfam)[1:6],"biological description")
+       write.table(x = out_pf_table, quote = F,sep = "\t",
+                   file=file,row.names=FALSE,col.names=TRUE)
+     })
+   
+   ####################### CAFE #################################
+   
+   # Remove previous outputs when updated by a new search
+   observeEvent(input$run_button5, {
+     if (UI_exist_cafe5)
+     {
+       removeUI(
+         selector = "div:has(>> #cafe_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #cafe_mrca5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #cafe_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadCAFEPlot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_cafe5 <<- F
+     }
+     
+     if (UI_exist_error_cafe5)
+     {
+       removeUI(
+         selector = "div:has(>> #cafe_error_message5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_error_cafe5 <<- F
+     }
+   })
+   
+   ### CAFE parser and tree generator
+   cafe_tree5 <- reactive({
+     
+     shinyjs::showElement(id = 'loading.cafe5')
+     
+     library(ape)
+     
+     # Import OG name
+     og.cafe <- og.name5()
+     
+     # Define path to CAFE trees file
+     cafe_comp_tree_file <- ifelse(model.selected5(), "pharaoh_folder/global_cafe.tre",
+                                   "pharaoh_folder/green_cafe.tre")
+     
+     # Extract CAFE tree for current OG
+     cafe.tree.set <- ape::read.nexus(cafe_comp_tree_file)
+     cafe.tree <- cafe.tree.set[[og.cafe]]
+     
+     if (length(cafe.tree) < 1)
+     {
+       shinyjs::hideElement(id = 'loading.cafe5')
+       if (UI_exist_cafe5)
+       {
+         removeUI(
+           selector = "div:has(>> #cafe_plot5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #cafe_mrca5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #cafe_download5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadCAFEPlot5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+       }
+       
+       UI_exist_cafe5 <<- F
+       
+       if(UI_exist_error_cafe5)
+       {
+         removeUI(
+           selector = "div:has(>> #cafe_error_message5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+       }
+       insertUI("#error_cafe5", "afterEnd", ui = {
+         box(width = 12,
+             title = "Ancestral State Reconstruction", status = "primary", solidHeader = TRUE,
+             collapsible = TRUE,
+             textOutput("cafe_error_message5"))
+       })
+       
+       output$cafe_error_message5 <- renderText({print("No expansions/contraction detected for this orthogroup,
+                                                        or infeasible computation due to large size and variance across
+                                                        species.")})
+       UI_exist_error_cafe5 <<- T
+       
+       validate(need(length(cafe.tree) > 0 , ""))
+     }
+     
+     return(cafe.tree)
+   }) %>% bindEvent(input$cafe_start5)
+   
+   evo_plot5 <- reactive({
+     
+     og.cafe <- og.name5()
+     cafe.tree <- cafe_tree5()
+     
+     # Show an error if the orthogroup is not significantly expanded/collapsed in any branch
+     
+     model.node.number <- ifelse(model.selected5(), 46, 36)
+     total.model.node.number <- ifelse(model.selected5(), 91, 71)
+     
+     node.count <- sapply(strsplit(cafe.tree$node.label, split = ">"), function(x) x[[2]])
+     node.count.clean <- gsub("[_]", "", node.count)
+     
+     tip.count <- sapply(strsplit(cafe.tree$tip.label, split = ">"), function(x) x[[2]])
+     tip.count.clean <- gsub("[_]", "", tip.count)
+     
+     # Identify parental node for significant changes to determine if a change
+     # corresponds to an expansion or to a contraction only if significant changes
+     # are detected
+     
+     # Nodes with significant changes are labelled with a *
+     tip.sig <- grep("[*]", tip.count.clean)
+     node.sig <- grep("[*]", node.count.clean)
+     
+     #Create a table with edges to identify parental nodes
+     edge_table <- as.data.frame(cafe.tree$edge)
+     rownames(edge_table) <- paste("edge", 1:nrow(edge_table), sep = "")
+     colnames(edge_table) <- c("parent", "child")
+     
+     {
+       if (length(tip.sig) + length(node.sig) == 0)
+       {
+         change_vector <- rep("No significant changes", length(node.count.clean) + length(tip.count.clean))
+       }
+       
+       else
+       {
+         # For tips
+         exp_cont_tip <- sapply(tip.sig, function(x)
+           if(as.numeric(gsub("[*]", "", node.count.clean[edge_table$parent[match(x, edge_table$child)]-model.node.number])) >
+              as.numeric(gsub("[*]", "", tip.count.clean[x]))) "Significant Contraction"
+           else "Significant Expansion"
+         )
+         
+         # For nodes
+         exp_cont_nodes <- sapply(node.sig, function(x)
+           if(as.numeric(gsub("[*]", "", node.count.clean[edge_table$parent[match(x+model.node.number, edge_table$child)]-model.node.number])) >
+              as.numeric(gsub("[*]", "", node.count.clean[x]))) "Significant Contraction"
+           else "Significant Expansion"
+         )
+         
+         # Create a sorted vector with change categories
+         change_vector <- rep("No significant changes", length(node.count.clean) + length(tip.count.clean))
+         change_vector[tip.sig] <- exp_cont_tip
+         change_vector[node.sig + model.node.number] <- exp_cont_nodes
+         
+       }
+     }
+     
+     # Merge tips and nodes reconstruction
+     cafe.count <- c(tip.count.clean, node.count.clean)
+     
+     # Create phylogenomic tree with internal nodes names
+     
+     mrca.tree <- read.tree(ifelse(model.selected5(), "pharaoh_folder/species_tree_global.txt",
+                                   "pharaoh_folder/species_tree_green.txt"))
+     
+     node.names <- read.csv(ifelse(model.selected5(), "pharaoh_folder/tax_labels_global.tsv",
+                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+     
+     mrca.tree$node.label <- node.names$V2
+     
+     # Create a timeline for a given OG
+     
+     tree.name <- ifelse(model.selected5(),
+                         paste("Global_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"),
+                         paste("Green_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"))
+     tree.ancestor <- read.tree(tree.name)
+     tips.orgs1 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[1]])
+     tips.orgs2 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[2]])
+     tips.orgs <- paste(tips.orgs1, tips.orgs2, sep = "_")
+     
+     mrca.id <- getMRCA(mrca.tree,unique(tips.orgs))
+     evo.paths <- c()
+     for (i in 1:length(unique(tips.orgs)))
+     {
+       evo.paths <- c(evo.paths, nodepath(mrca.tree, mrca.id, which(unique(tips.orgs)[i] == mrca.tree$tip.label)))
+     }
+     
+     evo.paths <- unique(evo.paths)
+     evo.paths.id <- sapply(evo.paths, function(x) if (x <= model.node.number) mrca.tree$tip.label[x] else mrca.tree$node.label[x-model.node.number])
+     
+     
+     # Associate gray and 0 to reconstruction for nodes not in allowed paths
+     change_vector[setdiff(1:total.model.node.number, evo.paths)] <- "OG not present"
+     cafe.count[setdiff(1:total.model.node.number, evo.paths)] <- 0
+     
+     
+     color_cafe <- sapply(change_vector, function(x) if (x == "No significant changes") "black"
+                          else if (x == "Significant Expansion") "red" else if (x == "Significant Contraction") "blue"
+                          else "gray", USE.NAMES = F)
+     
+     # Create tree representation
+     cafe.table.tips <- data.frame(node = 1:length(mrca.tree$tip.label), label = mrca.tree$tip.label,
+                                   col = color_cafe[1:length(mrca.tree$tip.label)], reconst = change_vector[1:length(mrca.tree$tip.label)],
+                                   dup_number = cafe.count[1:length(mrca.tree$tip.label)])
+     
+     cafe.table.nodes <- data.frame(node = (model.node.number+1):(model.node.number+length(mrca.tree$node.label)), label = mrca.tree$node.label,
+                                    col = color_cafe[(model.node.number+1):(model.node.number+length(mrca.tree$node.label))],
+                                    reconst = change_vector[(model.node.number+1):(model.node.number+length(mrca.tree$node.label))],
+                                    dup_number = cafe.count[(model.node.number+1):(model.node.number+length(mrca.tree$node.label))])
+     
+     cafe.table.node.comp <- rbind(cafe.table.tips, cafe.table.nodes)
+     
+     d <- dplyr::mutate(cafe.table.node.comp)
+     
+     library(ggtree)
+     library(ggplot2)
+     
+     evo_plot <- ggtree(mrca.tree, layout = "ellipse") %<+% d + aes(colour = I(d$col)) +
+       geom_tiplab(aes(label=gsub("_", " ", tools::toTitleCase(d$label))), offset = 30) +
+       theme(legend.position = "none") +
+       xlim(0, max(mrca.tree$edge.length)*1.5) +
+       geom_nodepoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                      alpha = .75) +
+       scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
+       geom_tippoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                     alpha = .75)
+     
+     return(evo_plot)
+     
+   }) %>% bindEvent(input$cafe_start5)
+   
+   evo.paths.id5 <- reactive({
+     
+     # Create phylogenomic tree with internal nodes names
+     og.cafe <- og.name5()
+     model.node.number <- ifelse(model.selected5(), 46, 36)
+     
+     mrca.tree <- read.tree(ifelse(model.selected5(), "pharaoh_folder/species_tree_global.txt",
+                                   "pharaoh_folder/species_tree_green.txt"))
+     
+     node.names <- read.csv(ifelse(model.selected5(), "pharaoh_folder/tax_labels_global.tsv",
+                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+     
+     mrca.tree$node.label <- node.names$V2
+     
+     # Create timeline
+     tree.name <- ifelse(model.selected5(),
+                         paste("Global_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"),
+                         paste("Green_Gene_Trees",paste(og.cafe, "tree.txt", sep = "_"), sep="/"))
+     
+     tree.ancestor <- read.tree(tree.name)
+     tips.orgs1 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[1]])
+     tips.orgs2 <- sapply(strsplit(as.character(tree.ancestor$tip.label), "_"), function(x) x[[2]])
+     tips.orgs <- paste(tips.orgs1, tips.orgs2, sep = "_")
+     
+     mrca.id <- getMRCA(mrca.tree,unique(tips.orgs))
+     evo.paths <- c()
+     for (i in 1:length(unique(tips.orgs)))
+     {
+       evo.paths <- c(evo.paths, nodepath(mrca.tree, mrca.id, which(unique(tips.orgs)[i] == mrca.tree$tip.label)))
+     }
+     
+     evo.paths <- unique(evo.paths)
+     evo.paths.id <- sapply(evo.paths, function(x) if (x <= model.node.number) mrca.tree$tip.label[x] else mrca.tree$node.label[x-model.node.number])
+     return(evo.paths.id)
+     
+   }) %>% bindEvent(input$cafe_start5)
+   
+   # Outputs
+   
+   # Remove previous boxes if they exist and create new ones
+   observeEvent(isTruthy(evo_plot5()), {
+     
+     if (UI_exist_cafe5)
+     {
+       removeUI(
+         selector = "div:has(>> #cafe_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #cafe_mrca5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #cafe_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadCAFEPlot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     if (UI_exist_error_cafe5)
+     {
+       removeUI(
+         selector = "div:has(>> #cafe_error_message5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     insertUI("#box_cafe5", "afterEnd", ui = {
+       box(width = 12,
+           title = "Ancestral State Reconstruction", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           imageOutput("cafe_plot5", height = 500, width = 1000))
+     })
+     
+     insertUI("#box_mrca5", "afterEnd", ui = {
+       box(width = 8,
+           title = "Most Recent Common Ancestor", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           textOutput("cafe_mrca5")
+       )
+     })
+     
+     insertUI("#cafe_down_button5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "cafe_download5", "Download NEWICK tree",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     insertUI("#download_ui_for_cafe_plot5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadCAFEPlot5", "Download Ancestral State Plot",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     UI_exist_cafe5 <<- TRUE
+     shinyjs::hideElement(id = 'loading.cafe5')
+   })
+   
+   # Fill outputs
+   
+   output$cafe_plot5 <- renderImage({
+     png("evo_plot5.png", height = 500, width = 1000)
+     plot(evo_plot5())
+     dev.off()
+     
+     list(src = "evo_plot5.png",
+          contentType="image/png", width=1000,height=500)
+   }, deleteFile = T)
+   
+   output$cafe_mrca5 <- renderText({
+     print(paste0("Most recent common ancestor for this orthogroup is the
+                   ancestor of the clade: ", evo.paths.id5()[1]))
+   })
+   
+   # Download tab's results
+   
+   output$cafe_download5 <- downloadHandler(
+     filename= function() {
+       paste("ancestral_newick", ".txt", sep="")
+     },
+     content= function(file) {
+       cafe_tree <- cafe_tree5()
+       
+       write.tree(cafe_tree, file)
+     })
+   
+   output$downloadCAFEPlot5<- downloadHandler(
+     filename= function() {
+       paste("ancestral_plot", ".png", sep="")
+     },
+     content= function(file) {
+       evo_plot <- evo_plot5()
+       
+       png(file)
+       plot(evo_plot)
+       dev.off()
+     })
+   
+   
    
    
 # End of SHOOT Search
