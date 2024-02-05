@@ -1840,11 +1840,132 @@ ui <- dashboardPage(
                                                      tags$div(id = "download_ui_for_pfam_table5")
                                          )
                                 ),
-                                tabPanel("Multiple Sequence Alignment", "Tab content 2"),
-                                tabPanel("GO Terms", "First tab content"),
-                                tabPanel("KEGG Orthology", "Tab content 2"),
-                                tabPanel("STRING Interactions", "First tab content"),
-                                tabPanel("Literature Annotation", "Tab content 2")
+                                tabPanel("Multiple Sequence Alignment",
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("msa_start5", "Show Gene Selection for MSA",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "royal"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_msa5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "msa_method5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "msa_selectionI5"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.msa5',h3('Please be patient, aligning sequences ...'))),
+                                         uiOutput(outputId = "error_msa5"),
+                                         tags$div(id = "box_msa5"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "msa_down_fasta5"),
+                                                     tags$div(id = "msa_down_plot5"))
+                                ),
+                                tabPanel("GO Terms", 
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("go_start5", "Show Gene Selection for GO Annotation",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "royal"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_gos5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_gos_mode5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "gos_selection5"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.go5',h3('Please be patient, preparing results ...'))),
+                                         uiOutput(outputId = "error_gos5"),
+                                         tags$div(id = "box_gos_table5"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "box_gos_plot5"), tags$div(id = "box_gos_treeplot5")),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("33%", "33%", "33%"), 
+                                                     tags$div(id = "download_ui_for_gos_table5"),
+                                                     tags$div(id = "gos_down_button5"),
+                                                     tags$div(id = "tree_gos_down_button5"))
+                                         
+                                         
+                                ),
+                                tabPanel("KEGG Orthology",
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("kegg_start5", "Show Gene Selection for KEGG Annotation",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "royal"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_kos5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "kos_selection5"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.ko5',h3('Please be patient, exploring pathways ...'))),
+                                         uiOutput(outputId = "error_kos5"),
+                                         tags$div(id = "box_kos_table5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_kegg_table5"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"), 
+                                                     tags$div(id = "download_ui_for_kos_table5"),
+                                                     tags$div(id = "download_ui_for_kegg_table5")),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_paths5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "paths_button5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_path_image5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "path_download_ui5")
+                                         
+                                ),
+                                tabPanel("STRING Interactions",
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("string_start5", "Show Gene Selection for STRING annotation",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "royal"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_string5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "string_selection5"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.string5',h3('Please be patient, retrieving interactions ...'))),
+                                         uiOutput(outputId = "error_string5"),
+                                         tags$div(id = "box_st_table5"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "box_count_table5"), tags$div(id = "box_count_plot5")),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("33%", "33%", "33%"), 
+                                                     tags$div(id = "download_ui_for_st_table5"),
+                                                     tags$div(id = "download_ui_for_count_table5"),
+                                                     tags$div(id = "count_down_button5")),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_network5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "network_button5"),
+                                         fluidRow(tags$br()),
+                                         uiOutput(outputId = "error_network5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_output_network5")
+                                         
+                                ),
+                                tabPanel("Literature Annotation", 
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("lit_start5", "Show Search Box for Literature Annotation",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "royal"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "query_lit5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_lit5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "lit_selection5"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.lit5',h3('Please be patient, browsing literature ...'))),
+                                         uiOutput(outputId = "error_lit5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_lit_table5"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "download_ui_for_lit_table5")
+                                         
+                                )
                     ))
               )
       )
@@ -4433,7 +4554,7 @@ server <- function(input, output) {
         url_vec[[1]][1] <- "https:"
         url_vec[[1]][6] <- "download"
         url_vec[[1]][8] <- "score?format=tsv"
-        url_tsv <<- paste0(url_vec[[1]], collapse = "/")
+        url_tsv <- paste0(url_vec[[1]], collapse = "/")
         tsv_res <- getURL(url_tsv)
         nap.time <- 0
         while (strsplit(tsv_res, "\t")[[1]][1] != "Family id")
@@ -18430,8 +18551,8 @@ server <- function(input, output) {
      file.remove(paste0("pharaoh_folder/", random_name, "_input.fa"))
 
      # Load gene tree file depending on the input
-     shoot_tree <- ape::read.tree("pharaoh_folder/pruebashoot.txt")
-     #shoot_tree <- ape::read.tree(paste0("pharaoh_folder/", random_name, ".tre"))
+     shoot_tree <- ape::read.tree("../shoot/pruebas_shoot/query.fa.shoot.tre")
+     #shoot_tree <- ape::read.tree(paste0("pharaoh_folder/", random_name, ".fa.shoot.tre"))
      return(shoot_tree)
 
    }) %>% bindEvent(input$run_button5)
@@ -19676,56 +19797,56 @@ server <- function(input, output) {
    tree_plot5 <- reactive({
      
      # Define previous variables
-     tree_reduced <<- tree_reduced5()
-     gene.name.tree <<- "query_prot"
-     tree <<- tree_adj5()
+     tree_reduced <- tree_reduced5()
+     gene.name.tree <- "query_prot"
+     tree <- tree_adj5()
      
-     tips_to_keep.mp <<- tips_to_keep.mp5()
-     tips_to_keep.ot <<- tips_to_keep.ot5()
-     tips_to_keep.at <<- tips_to_keep.at5()
-     tips_to_keep.cp <<- tips_to_keep.cp5()
-     tips_to_keep.cr <<- tips_to_keep.cr5()
-     tips_to_keep.cz <<- tips_to_keep.cz5()
-     tips_to_keep.kn <<- tips_to_keep.kn5()
-     tips_to_keep.me <<- tips_to_keep.me5()
-     tips_to_keep.mi <<- tips_to_keep.mi5()
-     tips_to_keep.pp <<- tips_to_keep.pp5()
-     tips_to_keep.sl <<- tips_to_keep.sl5()
-     tips_to_keep.sm <<- tips_to_keep.sm5()
-     tips_to_keep.sp <<- tips_to_keep.sp5()
-     tips_to_keep.ta <<- tips_to_keep.ta5()
-     tips_to_keep.vc <<- tips_to_keep.vc5()
-     tips_to_keep.bp <<- tips_to_keep.bp5()
-     tips_to_keep.cri <<- tips_to_keep.cri5()
-     tips_to_keep.ds <<- tips_to_keep.ds5()
-     tips_to_keep.os <<- tips_to_keep.os5()
-     tips_to_keep.smag <<- tips_to_keep.smag5()
-     tips_to_keep.tp <<- tips_to_keep.tp5()
-     tips_to_keep.aa <<- tips_to_keep.aa5()
-     tips_to_keep.um <<- tips_to_keep.um5()
-     tips_to_keep.rs <<- tips_to_keep.rs5()
-     tips_to_keep.cyc <<- tips_to_keep.cyc5()
-     tips_to_keep.pu <<- tips_to_keep.pu5()
-     tips_to_keep.pt <<- tips_to_keep.pt5()
-     tips_to_keep.ng <<- tips_to_keep.ng5()
-     tips_to_keep.cyano <<- tips_to_keep.cyano5()
-     tips_to_keep.ca <<- tips_to_keep.ca5()
-     tips_to_keep.mv <<- tips_to_keep.mv5()
-     tips_to_keep.af <<- tips_to_keep.af5()
-     tips_to_keep.sc <<- tips_to_keep.sc5()
-     tips_to_keep.aegi <<- tips_to_keep.aegi5()
-     tips_to_keep.sb <<- tips_to_keep.sb5()
-     tips_to_keep.chara <<- tips_to_keep.chara5()
-     tips_to_keep.guilla <<- tips_to_keep.guilla5()
-     tips_to_keep.crypto <<- tips_to_keep.crypto5()
-     tips_to_keep.cymero <<- tips_to_keep.cymero5()
-     tips_to_keep.galsul <<- tips_to_keep.galsul5()
-     tips_to_keep.gracichor <<- tips_to_keep.gracichor5()
-     tips_to_keep.sceobli <<- tips_to_keep.sceobli5()
-     tips_to_keep.cocco <<- tips_to_keep.cocco5()
-     tips_to_keep.saccha <<- tips_to_keep.saccha5()
-     tips_to_keep.haema <<- tips_to_keep.haema5()
-     tips_to_keep.zm <<- tips_to_keep.zm5()
+     tips_to_keep.mp <- tips_to_keep.mp5()
+     tips_to_keep.ot <- tips_to_keep.ot5()
+     tips_to_keep.at <- tips_to_keep.at5()
+     tips_to_keep.cp <- tips_to_keep.cp5()
+     tips_to_keep.cr <- tips_to_keep.cr5()
+     tips_to_keep.cz <- tips_to_keep.cz5()
+     tips_to_keep.kn <- tips_to_keep.kn5()
+     tips_to_keep.me <- tips_to_keep.me5()
+     tips_to_keep.mi <- tips_to_keep.mi5()
+     tips_to_keep.pp <- tips_to_keep.pp5()
+     tips_to_keep.sl <- tips_to_keep.sl5()
+     tips_to_keep.sm <- tips_to_keep.sm5()
+     tips_to_keep.sp <- tips_to_keep.sp5()
+     tips_to_keep.ta <- tips_to_keep.ta5()
+     tips_to_keep.vc <- tips_to_keep.vc5()
+     tips_to_keep.bp <- tips_to_keep.bp5()
+     tips_to_keep.cri <- tips_to_keep.cri5()
+     tips_to_keep.ds <- tips_to_keep.ds5()
+     tips_to_keep.os <- tips_to_keep.os5()
+     tips_to_keep.smag <- tips_to_keep.smag5()
+     tips_to_keep.tp <- tips_to_keep.tp5()
+     tips_to_keep.aa <- tips_to_keep.aa5()
+     tips_to_keep.um <- tips_to_keep.um5()
+     tips_to_keep.rs <- tips_to_keep.rs5()
+     tips_to_keep.cyc <- tips_to_keep.cyc5()
+     tips_to_keep.pu <- tips_to_keep.pu5()
+     tips_to_keep.pt <- tips_to_keep.pt5()
+     tips_to_keep.ng <- tips_to_keep.ng5()
+     tips_to_keep.cyano <- tips_to_keep.cyano5()
+     tips_to_keep.ca <- tips_to_keep.ca5()
+     tips_to_keep.mv <- tips_to_keep.mv5()
+     tips_to_keep.af <- tips_to_keep.af5()
+     tips_to_keep.sc <- tips_to_keep.sc5()
+     tips_to_keep.aegi <- tips_to_keep.aegi5()
+     tips_to_keep.sb <- tips_to_keep.sb5()
+     tips_to_keep.chara <- tips_to_keep.chara5()
+     tips_to_keep.guilla <- tips_to_keep.guilla5()
+     tips_to_keep.crypto <- tips_to_keep.crypto5()
+     tips_to_keep.cymero <- tips_to_keep.cymero5()
+     tips_to_keep.galsul <- tips_to_keep.galsul5()
+     tips_to_keep.gracichor <- tips_to_keep.gracichor5()
+     tips_to_keep.sceobli <- tips_to_keep.sceobli5()
+     tips_to_keep.cocco <- tips_to_keep.cocco5()
+     tips_to_keep.saccha <- tips_to_keep.saccha5()
+     tips_to_keep.haema <- tips_to_keep.haema5()
+     tips_to_keep.zm <- tips_to_keep.zm5()
      
      if (length(tree_reduced$tip.label) < 2)
      {
@@ -19988,10 +20109,10 @@ server <- function(input, output) {
        
        
        #Matrix with labels and colors and transform to dplyr format
-       data.tree <<- data.frame(node = 1:length(tree_reduced$tip.label), label = tree_reduced$tip.label,
+       data.tree <- data.frame(node = 1:length(tree_reduced$tip.label), label = tree_reduced$tip.label,
                                col = col.factor, org = org.factor)
        
-       d2 <<- dplyr::mutate(data.tree, lab = data.tree$label,
+       d2 <- dplyr::mutate(data.tree, lab = data.tree$label,
                            color = data.tree$col,
                            organism = data.tree$org,
                            name = glue("<i style='color:{color}'> {lab} </i>"))
@@ -20013,7 +20134,7 @@ server <- function(input, output) {
    og.name5 <- reactive({
 
      # Path1: read .sh.ogs.txt.gz file for OG
-     og.name.file <- read.table("../shoot/query.fa.assign.txt", header = F, sep="\t", skip = 1)
+     og.name.file <- read.table("../shoot/pruebas_shoot/query.fa.assign.txt", header = F, sep="\t", skip = 1)
      og.name <- paste0("OG", sprintf("%07d", og.name.file$V2))
      return(og.name)
 
@@ -20437,7 +20558,7 @@ server <- function(input, output) {
          url_vec[[1]][1] <- "https:"
          url_vec[[1]][6] <- "download"
          url_vec[[1]][8] <- "score?format=tsv"
-         url_tsv <<- paste0(url_vec[[1]], collapse = "/")
+         url_tsv <- paste0(url_vec[[1]], collapse = "/")
          tsv_res <- getURL(url_tsv)
          nap.time <- 0
          while (strsplit(tsv_res, "\t")[[1]][1] != "Family id")
@@ -20613,6 +20734,7 @@ server <- function(input, output) {
        write.table(x = out_pf_table, quote = F,sep = "\t",
                    file=file,row.names=FALSE,col.names=TRUE)
      })
+   
    
    ####################### CAFE #################################
    
@@ -21019,6 +21141,2195 @@ server <- function(input, output) {
      })
    
    
+   ####################### MSA #################################
+   
+   observeEvent(input$run_button5, {
+     removeUI(
+       selector = "div:has(>> #selected_msaI5)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI(
+       selector = "div:has(>> #msa_methodI5)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI("#msa_selection5")
+     
+     if (UI_exist_msa5)
+     {
+       removeUI(
+         selector = "div:has(>> #msa_print5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_fa5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_msa5 <<- F
+     }
+     
+   })
+   
+   observeEvent(input$msa_start5, {
+     insertUI("#selected_msa5", "afterEnd", ui = {
+       
+       shinyWidgets::pickerInput("selected_msaI5","Select the desired genes from the tree to align",
+                                 choices=isolate({tree_reduced5()$tip.label}), options = list(`actions-box` = TRUE),
+                                 multiple = T, selected = isolate({"query_prot"}))
+       
+     })
+     
+     insertUI("#msa_method5", "afterEnd", ui = {
+       shinyWidgets::pickerInput(inputId = "msa_methodI5", label = "Choose alignment method", 
+                                 choices = c("ClustalOmega", "MAFFT"), selected = "ClustalOmega")
+       
+     })
+     
+     insertUI("#msa_selectionI5", "afterEnd", ui = {
+       
+       shinyWidgets::actionBttn("msa_selection5", "Align Sequences", size = "sm",
+                                style = "float", color = "royal")
+     })
+     
+   })
+   
+   alignseqs5 <- reactive({
+     
+     library(msa)
+     shinyjs::showElement(id = 'loading.msa5')
+     
+     selected_genes <- as.vector(input$selected_msaI5)
+     selected_method <- as.character(input$msa_methodI5)
+     file.name <- og.name5()
+     
+     if (length(selected_genes) < 2)
+     {
+       shinyjs::hideElement(id = 'loading.msa5')
+       
+       if (UI_exist_msa5)
+       {
+         removeUI(
+           selector = "div:has(>> #msa_print5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #msa_download_plot5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #msa_download_fa5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+       }
+       UI_exist_msa5 <<- F
+       output$error_msa5 <- renderUI({renderText({print("Please select at least two genes.")})})
+       validate(need(length(selected_genes) > 1, "Please select at least two genes."))
+     }
+     
+     output$error_msa5 <- NULL
+     
+     # If de novo alignment is selected
+     {
+       if(selected_method == "ClustalOmega")
+       {
+         # Define path to orthogroup sequences file
+         # ortho.seq.name <- ifelse(model.selected5(),
+         #                          paste("Global_Orthogroup_Sequences", paste(file.name, "fa", sep = "."), sep="/"),
+         #                          paste("Green_Orthogroup_Sequences", paste(file.name, "fa", sep = "."), sep="/"))
+         # Load sequences from OG and query
+         
+         
+         # Read orthogroup sequences file and select the genes for alignment
+         random.file <- random.file5()
+         ortho_reduced <- ortho_reduced5()
+         seqinr::write.fasta(sequences = seqinr::getSequence(ortho_reduced),
+                             names = seqinr::getName(ortho_reduced), 
+                             file.out = paste0(random.file, "_for_msa.fa"))
+         
+         mySequences1 <- Biostrings::readAAStringSet(paste0(random.file, "_for_msa.fa"))
+         mysubseqs <- mySequences1[selected_genes]
+         
+         # Remove auxiliar fasta and create alignment
+         file.remove(paste0(random.file, "_for_msa.fa"))
+         alignseqs <- msa(mysubseqs, verbose = F, method = "ClustalOmega")
+       }
+       
+       # If MAFFT alignment is selected
+       else
+       {
+         mySequences1 <- seqinr::read.fasta("../shoot/pruebas_shoot/query.fa.sh.msa.fa", seqtype = "AA")
+         #mySequences1 <- seqinr::read.fasta(ortho.seq.name, seqtype = "AA")
+         mysubseqs <- mySequences1[selected_genes]
+         mysubnames <- seqinr::getName(mySequences1)
+         
+         # Identify indexes associated with reduced names
+         indexes_msa <- sapply(selected_genes, function(x) grep(mysubnames, pattern = x))
+         
+         # Retrieve those sequences from alignment keeping gaps
+         mysubseqs <- mySequences1[indexes_msa]
+         names(mysubseqs) <- names(indexes_msa)
+         
+         # Remove columns with gaps and remove empty spaces in last positions
+         seqs_mysubseqs <- seqinr::getSequence(mysubseqs)
+         last <- seqs_mysubseqs[[length(seqs_mysubseqs)]]
+         last <- last[which(last != " ")]
+         seqs_mysubseqs[[length(seqs_mysubseqs)]] <- last
+         seqs_mysubseqs <- remove_gaps(seqs_mysubseqs)
+         names(seqs_mysubseqs) <- names(mysubseqs)
+         
+         mysubseqs2 <- unlist(lapply(seqs_mysubseqs, function(x) paste(x, collapse="")))
+         
+         alignseqs <- Biostrings::AAMultipleAlignment(mysubseqs2, use.names = T)
+         
+       }
+     }
+     
+     detach("package:msa", unload=TRUE)
+     
+     return(alignseqs)
+     
+   }) %>% bindEvent(input$msa_selection5)
+   
+   # Create boxes for outputs
+   observeEvent(isTruthy(alignseqs5()), {
+     
+     if (UI_exist_msa5)
+     {
+       removeUI(
+         selector = "div:has(>> #msa_print5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #msa_download_fa5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     insertUI("#box_msa5", "afterEnd", ui = {
+       box(width = 12,
+           title = "MSA Explorer", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           msaROutput("msa_print5", width = "60%")
+       )
+     })
+     
+     insertUI("#msa_down_plot5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "msa_download_plot5", "Download Colored MSA",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     insertUI("#msa_down_fasta5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "msa_download_fa5", "Download MSA FASTA",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     UI_exist_msa5 <<- TRUE
+   })
+   
+   
+   # Fill Output
+   output$msa_print5 <- renderMsaR({
+     alignseqs <- alignseqs5()
+     msaout <- msa::msaConvert(alignseqs, "ape::AAbin")
+     msaR(msaout, menu=T, overviewbox = F,  colorscheme = "clustal")
+   })
+   
+   # Prepare variables for pdf construction
+   observeEvent(isTruthy(alignseqs5()), {
+     alignseqs <- alignseqs5()
+     
+     library(ggmsa)
+     class(alignseqs) <- "AAMultipleAlignment"
+     
+     for(i in 1:(ncol(alignseqs)%/%100 +1)){
+       assign(paste("msapseq", i, sep = ""), ggmsa(alignseqs, 1+(100*(i-1)), i*100, seq_name = TRUE, char_width = 0.5) +
+                geom_seqlogo(color = "Chemistry_AA"), envir = as.environment(1), pos=1)
+     }
+     shinyjs::hideElement(id = 'loading.msa5')
+   })
+   
+   # Download tab's results
+   # Download colored MSA in pdf
+   output$msa_download_plot5 <- downloadHandler(
+     filename= function() {
+       paste("msa", ".pdf", sep="")
+     },
+     content= function(file) {
+       selected_msa <- input$selected_msaI5
+       alignseqs <- alignseqs5()
+       pdf(file, height = 2+length(selected_msa)*0.25, width = 16)
+       {
+         for(i in 1:(ncol(alignseqs)%/%100 +1)){
+           print(mget(paste0("msapseq", i), envir = as.environment(1)))
+         }
+         dev.off()
+       }
+     })
+   
+   # Download MSA in FASTA format
+   output$msa_download_fa5<- downloadHandler(
+     filename= function() {
+       paste("msa", ".fa", sep="")
+     },
+     content= function(file) {
+       alignseqs <- alignseqs5()
+       writeXStringSet(as(unmasked(alignseqs), "XStringSet"), file)
+     })
+   
+   
+   ####################### GO #################################
+   
+   observeEvent(input$run_button5, {
+     removeUI(
+       selector = "div:has(>> #selected_gosI5)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI(
+       selector = "div:has(>> #selected_gos_modeI5)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI("#gos_selectionI5")
+     
+     if (UI_exist_go5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_gos_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #gos_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #gos_treeplot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadGOSTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #gos_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #tree_gos_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_go5 <<- F
+     }
+     
+   })
+   
+   
+   observeEvent(input$go_start5, {
+     insertUI("#selected_gos5", "afterEnd", ui = {
+       
+       shinyWidgets::pickerInput("selected_gosI5","Select the desired genes from the tree",
+                                 choices=isolate({tree_reduced5()$tip.label[which(tree_reduced5()$tip.label != "query_prot")]}), 
+                                 options = list(`actions-box` = TRUE),
+                                 multiple = T, selected = isolate({tree_reduced5()$tip.label[1]}))
+       
+     })
+     
+     insertUI("#selected_gos_mode5", "afterEnd", ui = {
+       
+       selectInput(inputId = "selected_gos_modeI5",
+                   choices=c("Biological Processes" = "bp",
+                             "Molecular Functions" = "mf",
+                             "Cellular Components" = "cc"),
+                   label = "Select the gene ontology to use",
+                   multiple = F, selected = c("bp"))
+       
+     })
+     
+     insertUI("#gos_selection5", "afterEnd", ui = {
+       
+       shinyWidgets::actionBttn("gos_selectionI5", "Show GO terms", size = "sm",
+                                style = "float", color = "royal")
+     })
+     
+   })
+   
+   total_table_gos5 <- reactive({
+     
+     shinyjs::showElement(id = 'loading.go5')
+     gos_anot <- read.csv("pharaoh_folder/final_anot_table.tsv", sep="\t", header = T)
+     sel.genes.go <- as.vector(input$selected_gosI5)
+     selected_gos_mode <- as.character(isolate({input$selected_gos_modeI5}))
+     
+     total_table_gos <- subset(gos_anot, gos_anot$name %in% sel.genes.go)
+     
+     # Show an error if no terms are identified in the input
+     if (nrow(total_table_gos) == 0) 
+     {
+       shinyjs::hideElement(id = 'loading.go5')
+       if (UI_exist_go5)
+       {
+         removeUI(
+           selector = "div:has(>> #output_gos_table5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #gos_plot5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #gos_treeplot5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadGOSTable5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #gos_download5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #tree_gos_download5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         UI_exist_go5 <<- F
+       }
+       output$error_gos5 <- renderUI({
+         renderPrint({cat("0 GO terms identified.")})
+       })
+       
+       validate(need(nrow(total_table_gos) != 0, " "))
+     }
+     
+     
+     gos_sel <- paste("gos", selected_gos_mode, sep="_")
+     terms_sel <- paste("terms", selected_gos_mode, sep="_")
+     total_table_gos <- total_table_gos[,c("organism", "id", "name", gos_sel, terms_sel)]
+     
+     # Once removed the two GO categories not selected, remove rows with blank cells
+     total_table_gos_clean <- subset(total_table_gos, gos_sel != "")
+     
+     # Show an error if no terms are identified after the previous operation
+     if (nrow(total_table_gos_clean) == 0) 
+     {
+       shinyjs::hideElement(id = 'loading.go5')
+       if (UI_exist_go5)
+       {
+         removeUI(
+           selector = "div:has(>> #output_gos_table5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #gos_plot5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #gos_treeplot5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadGOSTable5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #gos_download5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #tree_gos_download5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         UI_exist_go5 <<- F
+       }
+       
+       output$error_gos5 <- renderUI({
+         renderPrint({cat("0 GO terms identified.")})
+       })
+       
+       validate(need(nrow(total_table_gos_clean) != 0, " "))
+     }
+     
+     output$error_gos5 <- NULL
+     
+     return(total_table_gos_clean)
+     
+   }) %>% bindEvent(input$gos_selectionI5)
+   
+   enr_table5 <- reactive({
+     
+     total_table_gos <- total_table_gos5()
+     selected_gos_mode <- as.character(isolate({input$selected_gos_modeI5}))
+     
+     # Create the plot
+     
+     # Create a list of GO terms vector of each gene
+     gos_sel <- paste("gos", selected_gos_mode, sep="_")
+     gos_list <- apply(total_table_gos,MARGIN=1,FUN = function(x) trimws(strsplit(as.character(x[gos_sel]), split = "[|]")[[1]]))
+     names(gos_list) <- total_table_gos$name
+     
+     # Count GOs for each gene and create a matrix of gene-GO pairs
+     count_gos_in_genes <- sapply(gos_list, FUN = function(x) length(x))
+     comp_data <- data.frame(gene = rep(names(count_gos_in_genes), count_gos_in_genes), gos = as.character(unlist(gos_list)))
+     
+     # Collapse genes that share a same GO
+     gene.v <- c()
+     for (i in 1:length(unique(comp_data$gos)))
+     {
+       new.table <- subset(comp_data, gos == unique(comp_data$gos)[i])
+       new.cha <- as.character(new.table$gene)
+       gene.v <- c(gene.v, paste(new.cha, collapse = "/"))
+     }
+     
+     names(gene.v) <- unique(comp_data$gos)
+     
+     # Load libraries and create gene chains, count and GO IDs fields (same order)
+     library(GO.db)
+     library("multienrichjam")
+     library(clusterProfiler)
+     library(enrichplot)
+     library(ggplot2)
+     
+     count_go <- table(comp_data$gos)
+     geneids <- gene.v[names(count_go)]
+     count_terms <- mapply(function(x) {Term(x)}, names(count_go), USE.NAMES = F)
+     
+     # Create pseudo-enrichment table
+     enr_table <- data.frame(ID=names(count_go), Description=count_terms, GeneRatio="90/100", BgRatio="90/10000", 
+                             pvalue=0.000005, p.adjust=0.000005, qvalue=0.000005, geneID=geneids, Count = as.vector(count_go))
+     
+     return(enr_table)
+     
+   }) %>% bindEvent(input$gos_selectionI5)
+   
+   ema_gos_plot5 <- reactive({
+     
+     enr_table <- enr_table5()
+     
+     # Transform to enrichResult object
+     enr <- enrichDF2enrichResult(enrichDF = enr_table, keyColname = "ID",
+                                  geneColname = "geneID", pvalueColname = "p.adjust",
+                                  descriptionColname = "Description", pvalueCutoff = 0.05)
+     
+     # Create plot
+     ema_gos_plot <- emapplot(pairwise_termsim(enr), showCategory = 15) + theme(legend.position='none')
+     return(ema_gos_plot)
+   })
+   
+   tree_gos_plot5 <- reactive({
+     
+     enr_table <- enr_table5()
+     
+     # Transform to enrichResult object
+     enr <- enrichDF2enrichResult(enrichDF = enr_table, keyColname = "ID",
+                                  geneColname = "geneID", pvalueColname = "p.adjust",
+                                  descriptionColname = "Description", pvalueCutoff = 0.05)
+     {
+       if (nrow(enr_table) > 4)
+       {
+         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15) + theme(legend.position='none')
+       }
+       else if (nrow(enr_table) > 2)
+       {
+         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2)) + 
+           theme(legend.position='none')
+       }
+       else
+       {
+         text <- paste("\n  Unable to create treeplot with less than 3 GO terms \n")
+         tree_gos_plot <- ggplot() + 
+           annotate("text", x = 4, y = 25, size=8, label = text) + 
+           theme_void()
+       }
+     }
+     
+     shinyjs::hideElement(id = 'loading.go5')
+     return(tree_gos_plot)
+   })
+   
+   # Create boxes for outputs
+   observeEvent(isTruthy(tree_gos_plot5()), {
+     
+     if (UI_exist_go5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_gos_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #gos_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #gos_treeplot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadGOSTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #gos_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #tree_gos_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     insertUI("#box_gos_table5", "afterEnd", ui = {
+       box(width = 12,
+           title = "GO Terms Table", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           dataTableOutput("output_gos_table5")
+       )
+     })
+     
+     insertUI("#box_gos_plot5", "afterEnd", ui = {
+       box(width = 12,
+           title = "GO Terms Plot", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           imageOutput("gos_plot5")
+       )
+     })
+     
+     insertUI("#box_gos_treeplot5", "afterEnd", ui = {
+       box(width = 12,
+           title = "GO Terms Treeplot", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           imageOutput("gos_treeplot5")
+       )
+     })
+     
+     insertUI("#download_ui_for_gos_table5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadGOSTable5", "Download GO Table",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     insertUI("#gos_down_button5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "gos_download5", "Download GO Plot",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     insertUI("#tree_gos_down_button5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "tree_gos_download5", "Download GO Treeplot",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     UI_exist_go5 <<- TRUE
+   })
+   
+   # Fill outputs
+   # Table
+   output$output_gos_table5 <- renderDataTable({
+     total_table_gos <- total_table_gos5()
+     selected_gos_mode <- as.character(isolate({input$selected_gos_modeI5}))
+     gos_sel <- paste("gos", selected_gos_mode, sep="_")
+     gos_list <- apply(total_table_gos,MARGIN=1,
+                       FUN = function(x) trimws(strsplit(as.character(x[gos_sel]), split = "[|]")[[1]]))
+     gos_links <- lapply(gos_list, function(x) sapply(x, go.link))
+     gos_formatted <- unlist(lapply(gos_links, function(x) paste0(x, collapse = " | ")))
+     total_table_gos[,gos_sel] <- gos_formatted
+     total_table_gos
+   },escape=FALSE, rownames=F, options =list(pageLength = 5))
+   
+   # First plot
+   output$gos_plot5 <- renderImage({
+     ema_gos_plot <- ema_gos_plot5()
+     
+     png("pharaoh_folder/gosplot.png")
+     plot(ema_gos_plot)
+     dev.off()
+     list(src = "pharaoh_folder/gosplot.png",
+          contentType="image/png")
+     
+   }, deleteFile=T
+   )
+   
+   # Second plot
+   output$gos_treeplot5 <- renderImage({
+     tree_gos_plot <- tree_gos_plot5()
+     
+     png("pharaoh_folder/treeplot.png")
+     plot(tree_gos_plot)
+     dev.off()
+     list(src = "pharaoh_folder/treeplot.png",
+          contentType="image/png")
+     
+   }, deleteFile=T
+   )
+   
+   # Download tab's results
+   # Download GO table
+   output$downloadGOSTable5 <- downloadHandler(
+     filename= function() {
+       paste("GOS_table", ".tsv", sep="")
+     },
+     content= function(file) {
+       total_table_gos <- total_table_gos5()
+       
+       write.table(x = total_table_gos,quote = F,sep = "\t",
+                   file=file,row.names=FALSE,col.names=TRUE)
+     })
+   
+   # Download emaplot
+   output$gos_download5 <- downloadHandler(
+     filename= function() {
+       paste("gos_plot", ".png", sep="")
+     },
+     content= function(file) {
+       ema_gos_plot <- ema_gos_plot5()
+       
+       png(file, height = 600, width = 800)
+       plot(ema_gos_plot)
+       dev.off()
+     })
+   
+   # Download treeplot
+   output$tree_gos_download5 <- downloadHandler(
+     filename= function() {
+       paste("gos_treeplot", ".png", sep="")
+     },
+     content= function(file) {
+       tree_gos_plot <- tree_gos_plot5()
+       
+       png(file, height = 800, width = 1000)
+       plot(tree_gos_plot)
+       dev.off()
+     })
+   
+   
+   ###################### KEGG ###########################
+   
+   observeEvent(input$run_button5, {
+     removeUI(
+       selector = "div:has(>> #selected_kosI5)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI("#kos_selectionI5")
+     
+     if (UI_exist_kegg5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kos_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #output_kegg_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKOSTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_pathsI5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#paths_buttonI5")
+       
+       UI_exist_kegg5 <<- F
+     }
+     
+     if (UI_exist_pathview5)
+     {
+       removeUI(
+         selector = "div:has(>> #path_image5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGpathway5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_pathview5 <<- F
+     }
+     
+     
+   })
+   
+   observeEvent(input$kegg_start5, {
+     insertUI("#selected_kos5", "afterEnd", ui = {
+       
+       shinyWidgets::pickerInput("selected_kosI5","Select the desired genes from the tree",
+                                 choices=isolate({tree_reduced5()$tip.label[which(tree_reduced5()$tip.label != "query_prot")]}), 
+                                 options = list(`actions-box` = TRUE),
+                                 multiple = T, selected = isolate({tree_reduced5()$tip.label[1]}))
+       
+       
+     })
+     
+     
+     insertUI("#kos_selection5", "afterEnd", ui = {
+       
+       shinyWidgets::actionBttn("kos_selectionI5", "Show KEGG pathways", size = "sm",
+                                style = "float", color = "royal")
+     })
+     
+   })
+   
+   tab_kegg5 <- reactive({
+     
+     shinyjs::showElement(id = 'loading.ko5')
+     # Create KOs set
+     kos_anot <- read.csv("pharaoh_folder/ko_table_funtree.tsv", sep="\t", header = T)
+     sel.genes.ko <- as.vector(isolate({input$selected_kosI5}))
+     
+     tab_kegg <- subset(kos_anot, gene %in% sel.genes.ko)
+     set_kegg <- tab_kegg$ko[tab_kegg$ko != ""]
+     
+     # Show an error if no terms are identified in the input
+     {
+       if (length(set_kegg) == 0) 
+       {
+         shinyjs::hideElement(id = 'loading.ko5')
+         output$error_kos5 <- renderUI({
+           renderPrint({cat("0 KO terms identified. Please select more genes. If this 
+        message persists, it should be interpreted as a lack of KO annotation for this orthogroup")})
+         })
+         
+         if (UI_exist_kegg5)
+         {
+           removeUI(
+             selector = "div:has(>> #output_kos_table5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #output_kegg_table5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadKOSTable5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadKEGGTable5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #selected_pathsI5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI("#paths_buttonI5")
+           
+           UI_exist_kegg5 <<- F
+         }
+         
+         if (UI_exist_pathview5)
+         {
+           removeUI(
+             selector = "div:has(>> #path_image5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadKEGGpathway5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           UI_exist_pathview5 <<- F
+         }
+         
+         validate("No KO terms detected")
+       }
+     }
+     
+     output$error_kos5 <- NULL
+     
+     return(tab_kegg)
+     
+   }) %>% bindEvent(input$kos_selectionI5)
+   
+   total_table_kegg5 <- reactive({
+     
+     tab_kegg <- tab_kegg5()
+     set_kegg <- tab_kegg$ko[tab_kegg$ko != ""]
+     
+     # Load libraries
+     library(clusterProfiler)
+     library(enrichplot)
+     
+     # Enrich with pvalue cutoff = 1 to show all paths
+     kos_enrich <- enrichKEGG(gene         = set_kegg,
+                              organism     = 'ko',
+                              pvalueCutoff = 1)
+     
+     total_table_kegg <- as.data.frame(kos_enrich)
+     
+     return(total_table_kegg)
+     
+   }) %>% bindEvent(input$kos_selectionI5)
+   
+   total_table_kos5 <- reactive({
+     
+     tab_kegg <- tab_kegg5()
+     
+     library(KEGGREST)
+     
+     # Collapse genes that share KOs
+     
+     tab_kegg_for_ko <- subset(tab_kegg, ko != "")
+     gene.v.ko <- c()
+     for (i in 1:length(unique(tab_kegg_for_ko$ko)))
+     {
+       new.table <- subset(tab_kegg_for_ko, ko == unique(tab_kegg_for_ko$ko)[i])
+       new.cha <- as.character(new.table$gene)
+       gene.v.ko <- c(gene.v.ko, paste(new.cha, collapse = "/"))
+     }
+     
+     names(gene.v.ko) <- unique(tab_kegg_for_ko$ko)
+     
+     # Create gene chains, count and KO IDs fields (same order)
+     count_ko <- table(tab_kegg_for_ko$ko)
+     geneids.ko <- gene.v.ko[names(count_ko)]
+     count_terms.ko <- mapply(function(x) {keggFind("ko", x)}, names(count_ko), USE.NAMES = F)
+     total_table_kos <- data.frame(ko=names(count_ko), name=count_terms.ko, count=as.numeric(count_ko),
+                                   genes=geneids.ko)
+     
+     return(total_table_kos)
+     
+   }) %>% bindEvent(input$kos_selectionI5)
+   
+   # Create boxes for outputs
+   observeEvent(isTruthy(total_table_kos5()), {
+     
+     if (UI_exist_kegg5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kos_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #output_kegg_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKOSTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_pathsI5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#paths_buttonI5")
+       
+     }
+     
+     insertUI("#box_kos_table5", "afterEnd", ui = {
+       box(width = 12,
+           title = "KO Terms Table", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           dataTableOutput("output_kos_table5")
+       )
+     })
+     
+     
+     insertUI("#box_kegg_table5", "afterEnd", ui = {
+       box(width = 12,
+           title = "KEGG Pathways Table", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           dataTableOutput("output_kegg_table5")
+       )
+     })
+     
+     insertUI("#download_ui_for_kos_table5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable5", "Download KO Table",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     insertUI("#download_ui_for_kegg_table5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKEGGTable5", "Download Pathways Table",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     UI_exist_kegg5 <<- TRUE
+     
+     # Remove previous results for pathview
+     if (UI_exist_pathview5)
+     {
+       removeUI(
+         selector = "div:has(>> #path_image5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGpathway5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_pathview5 <<- F
+     }
+   })
+   
+   # Fill outputs
+   # Render KO table
+   output$output_kos_table5 <- renderDataTable({
+     total_table_kos <- total_table_kos5()
+     total_table_kos$ko <- sapply(total_table_kos$ko, ko.link)
+     total_table_kos
+   },escape=FALSE, rownames= F, options =list(pageLength = 5))
+   
+   # Render KEGG table
+   output$output_kegg_table5 <- renderDataTable({
+     total_table_kegg <- total_table_kegg5()
+     total_table_kegg$ID <- sapply(total_table_kegg$ID, kegg.link)
+     total_table_kegg[,c("ID", "Description", "geneID")]
+   },escape=FALSE, rownames= F, options =list(pageLength = 5))
+   
+   # Download tab's outputs
+   # Download KO table
+   output$downloadKOSTable5 <- downloadHandler(
+     filename= function() {
+       paste("KO_table", ".tsv", sep="")
+     },
+     content= function(file) {
+       total_table_kos <- total_table_kos5()
+       write.table(x = total_table_kos,quote = F,sep = "\t",
+                   file=file,row.names=FALSE,col.names=TRUE)
+     })
+   
+   # Download KEGG table
+   output$downloadKEGGTable5 <- downloadHandler(
+     filename= function() {
+       paste("KEGG_table", ".tsv", sep="")
+     },
+     content= function(file) {
+       total_table_kegg <- total_table_kegg5()
+       write.table(x = total_table_kegg[,c("ID", "Description", "geneID")],quote = F,sep = "\t",
+                   file=file,row.names=FALSE,col.names=TRUE)
+     })
+   
+   # Create pathway selector and button
+   observeEvent(input$kos_selectionI5,{
+     
+     total_table_kos <- total_table_kos5()
+     total_table_kegg <- total_table_kegg5()
+     
+     if(nrow(total_table_kegg) != 0)
+     {
+       paths.options <- sapply(strsplit(total_table_kegg$ID, split = "map"), function(x) x[[2]])
+       
+       
+       insertUI("#selected_paths5", "afterEnd", ui = {
+         shinyWidgets::pickerInput(inputId = "selected_pathsI5", label = "Select the pathway to plot", 
+                                   choices = paths.options, selected = paths.options[1], multiple = F)
+         
+       })
+       
+       
+       insertUI("#paths_button5", "afterEnd", ui = {
+         
+         shinyWidgets::actionBttn("paths_buttonI5", "Plot Pathway", size = "sm",
+                                  style = "float", color = "royal")
+       })
+       
+       shinyjs::hideElement(id = 'loading.ko5')
+     }
+   })
+   
+   observeEvent(input$paths_buttonI5,{
+     
+     if (UI_exist_pathview5)
+     {
+       removeUI(
+         selector = "div:has(>> #path_image5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGpathway5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+     }
+     
+     UI_exist_pathview5 <<- F
+     
+   })
+   
+   # Create Image to Render and save path name
+   pathway.current.id5 <- reactive({
+     pathway.current.id <- input$selected_pathsI5
+     total_table_kos <- total_table_kos5()
+     
+     kos_unique <- unique(total_table_kos$ko)
+     gene.pathway <- rep(0, length(kos_unique))
+     names(gene.pathway) <-  kos_unique
+     gene.pathway[kos_unique] <-1
+     
+     library(pathview)
+     pathview(gene.data = sort(gene.pathway,decreasing = TRUE),kegg.dir = "pharaoh_folder",
+              pathway.id = pathway.current.id,
+              species = "ko",
+              limit = list(gene=max(abs(gene.pathway)), cpd=1),
+              gene.idtype ="kegg")
+     
+     return(pathway.current.id)
+     
+   }) %>% bindEvent(input$paths_buttonI5)
+   
+   # Create output box and download button
+   observeEvent(isTruthy(pathway.current.id5()),{
+     
+     insertUI("#box_path_image5", "afterEnd", ui = {
+       box(width = 12,
+           title = "KEGG Pathway Plot", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           fluidRow(column(1), imageOutput("path_image5", width = "100%", height = "700px"))
+       )
+     })
+     
+     insertUI("#path_download_ui5", "afterEnd", ui = {
+       tags$div(shinyWidgets::downloadBttn(outputId= "downloadKEGGpathway5", "Download KEGG Pathway Plot",
+                                           size = "sm", color = "primary"))
+     })
+     
+     UI_exist_pathview5 <<- T
+     
+   })
+   
+   # Fill path image output
+   output$path_image5 <- renderImage({
+     
+     pathway.current.id <- pathway.current.id5()
+     list(src = paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."),
+          contentType="image/png",width=900,height=700)
+   },deleteFile = F)
+   
+   # Download and remove path image output
+   output$downloadKEGGpathway5 <- downloadHandler(
+     filename= function() {
+       paste("path_plot", ".png", sep="")
+     },
+     content= function(file) {
+       pathway.current.id <- pathway.current.id5()
+       file.copy(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."), file)
+       file.remove(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."))
+     })   
+   
+   
+   
+   ############################# LITERATURE ANNOTATION ##########################################
+   
+   observeEvent(input$run_button5, {
+     removeUI(
+       selector = "div:has(>> #selected_litI5)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI(
+       selector = "div:has(> #query_litI5)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI("#lit_selectionI5")
+     
+     
+     if (UI_exist_lit5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_lit_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadLITTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_lit5 <<- F
+     }
+     
+   })
+   
+   observeEvent(input$lit_start5, {
+     
+     insertUI("#query_lit5", "afterEnd", ui = {
+       
+       textInput(inputId = "query_litI5",value = "", label = "Enter search term", placeholder = "CCA1")
+       
+     })
+     
+     
+     insertUI("#selected_lit5", "afterEnd", ui = {
+       
+       shinyWidgets::pickerInput("selected_litI5","Select the search mode",
+                                 choices=c("Normal","Exact", "Substring", "Alias"),
+                                 multiple = F, selected = "Normal")
+       
+       
+     })
+     
+     
+     insertUI("#lit_selection5", "afterEnd", ui = {
+       
+       shinyWidgets::actionBttn("lit_selectionI5", "Get biological information and papers", size = "sm",
+                                style = "float", color = "royal")
+     })
+     
+   })
+   
+   pc_result5 <- reactive({
+     
+     shinyjs::showElement(id = 'loading.lit5')
+     pc_search <- as.character(input$query_litI5)
+     pc_search <- gsub(" ", "%20", pc_search) 
+     pc_modality <- tolower(as.character(input$selected_litI5))
+     
+     # Get PlantConnectome URL for query
+     pc_url <- paste(c("https://connectome.plant.tools", pc_modality, pc_search), collapse = "/")
+     
+     library(RCurl)
+     
+     pc_res <- getURL(pc_url)
+     
+     if (!length(grep("No hits", pc_res)) == 0)
+     {
+       shinyjs::hideElement(id = 'loading.lit5')
+       
+       if (UI_exist_lit5)
+       {
+         removeUI(
+           selector = "div:has(>> #output_lit_table5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadLITTable5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         UI_exist_lit5 <<- F
+       }
+       
+       output$error_lit5 <- renderUI({
+         renderPrint({cat("No results found for this query")})
+       })
+       
+       validate(" ")
+       
+     }
+     
+     output$error_lit5 <- NULL
+     
+     # Isolate data frame from complete HTML file
+     pc_split <- strsplit(as.character(pc_res), split = "<tbody")[[1]][2]
+     pc_split <- strsplit(as.character(pc_split), split = "</tbody>")[[1]][1]
+     
+     pc_clean <- gsub("</tr>", "", pc_split)
+     pc_clean <- gsub("[\r\n\t]", "", pc_clean)
+     
+     pc_vector <- strsplit(pc_clean, split = "<tr>")[[1]][-1]
+     pc_vector2 <- sapply(pc_vector, FUN=function(x) strsplit(x, split = "<td> | </td>"))
+     pc_table <- sapply(pc_vector2, FUN=function(x) as.character(unlist(x)))
+     
+     colnames(pc_table) <- NULL
+     pc_result <- data.frame(t(pc_table[c(2,4,6,8),]))
+     colnames(pc_result) <- c("Source", "Interaction Type", "Target", "Pubmed ID")
+     
+     return(pc_result)
+     
+   }) %>% bindEvent(input$lit_selectionI5)
+   
+   pc_result_show5 <- reactive({
+     
+     pc_result <- pc_result5()
+     
+     # Add links to papers
+     urls_connect <- sapply(pc_result$`Pubmed ID`, FUN = function(x) paste0(c("<a href=\"",
+                                                                              "https://pubmed.ncbi.nlm.nih.gov/",x,"/",
+                                                                              "\" target=\"_blank\">", x,
+                                                                              "</a>"),
+                                                                            collapse=""))
+     pc_result_show <- pc_result
+     pc_result_show$`Pubmed ID` <- urls_connect
+     
+     return(pc_result_show)
+     
+   })
+   
+   # Create boxes for outputs
+   observeEvent(isTruthy(pc_result_show5()), {
+     
+     if (UI_exist_lit5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_lit_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadLITTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     insertUI("#box_lit_table5", "afterEnd", ui = {
+       box(width = 12,
+           title = "Literature Table", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           dataTableOutput("output_lit_table5")
+       )
+     })
+     
+     insertUI("#download_ui_for_lit_table5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 400px;", shinyWidgets::downloadBttn(outputId= "downloadLITTable5", "Download Literature Table",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     shinyjs::hideElement(id = 'loading.lit5')
+     
+     UI_exist_lit5 <<- TRUE
+     
+   })
+   
+   # Fill outputs
+   # Render table
+   output$output_lit_table5 <- renderDataTable({
+     pc_result_show5()
+   },escape=FALSE, rownames= F, options =list(pageLength = 10))
+   
+   # Download results
+   output$downloadLITTable5 <- downloadHandler(
+     filename= function() {
+       paste("literature_table", ".tsv", sep="")
+     },
+     content= function(file) {
+       pc_result <- pc_result5()
+       write.table(x = pc_result,quote = F,sep = "\t",
+                   file=file,row.names=FALSE,col.names=TRUE)
+     })   
+   
+   
+   ######################## STRING ###########################
+   
+   observeEvent(input$run_button5, {
+     removeUI(
+       selector = "div:has(>> #selected_stringI5)",
+       multiple = TRUE,
+       immediate = TRUE
+     )
+     
+     removeUI("#string_selectionI5")
+     
+     shinyjs::hideElement("error_string5")
+     
+     
+     if (UI_exist_string5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_st_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #output_count_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>>> #count_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadSTRINGTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadCOUNTTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #count_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_networkI5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#network_buttonI5")
+       
+       UI_exist_string5 <<- F
+     }
+     
+     if (UI_exist_network5)
+     {
+       removeUI(
+         selector = "div:has(>>>> #network_image5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_network5 <<- F
+     }
+     
+   })
+   
+   # First, create a table that links reduced gene names to its species
+   string_sel_table5 <- reactive({
+     
+     # Define previous variables
+     tree_reduced <- tree_reduced5()
+     tree <- tree_adj5()
+  
+     tips_to_keep.mp <- tips_to_keep.mp5()
+     tips_to_keep.ot <- tips_to_keep.ot5()
+     tips_to_keep.at <- tips_to_keep.at5()
+     tips_to_keep.cp <- tips_to_keep.cp5()
+     tips_to_keep.cr <- tips_to_keep.cr5()
+     tips_to_keep.cz <- tips_to_keep.cz5()
+     tips_to_keep.kn <- tips_to_keep.kn5()
+     tips_to_keep.me <- tips_to_keep.me5()
+     tips_to_keep.mi <- tips_to_keep.mi5()
+     tips_to_keep.pp <- tips_to_keep.pp5()
+     tips_to_keep.sl <- tips_to_keep.sl5()
+     tips_to_keep.sm <- tips_to_keep.sm5()
+     tips_to_keep.sp <- tips_to_keep.sp5()
+     tips_to_keep.ta <- tips_to_keep.ta5()
+     tips_to_keep.vc <- tips_to_keep.vc5()
+     tips_to_keep.bp <- tips_to_keep.bp5()
+     tips_to_keep.cri <- tips_to_keep.cri5()
+     tips_to_keep.ds <- tips_to_keep.ds5()
+     tips_to_keep.os <- tips_to_keep.os5()
+     tips_to_keep.smag <- tips_to_keep.smag5()
+     tips_to_keep.tp <- tips_to_keep.tp5()
+     tips_to_keep.aa <- tips_to_keep.aa5()
+     tips_to_keep.um <- tips_to_keep.um5()
+     tips_to_keep.rs <- tips_to_keep.rs5()
+     tips_to_keep.cyc <- tips_to_keep.cyc5()
+     tips_to_keep.pu <- tips_to_keep.pu5()
+     tips_to_keep.pt <- tips_to_keep.pt5()
+     tips_to_keep.ng <- tips_to_keep.ng5()
+     tips_to_keep.cyano <- tips_to_keep.cyano5()
+     tips_to_keep.ca <- tips_to_keep.ca5()
+     tips_to_keep.mv <- tips_to_keep.mv5()
+     tips_to_keep.af <- tips_to_keep.af5()
+     tips_to_keep.sc <- tips_to_keep.sc5()
+     tips_to_keep.aegi <- tips_to_keep.aegi5()
+     tips_to_keep.sb <- tips_to_keep.sb5()
+     tips_to_keep.chara <- tips_to_keep.chara5()
+     tips_to_keep.guilla <- tips_to_keep.guilla5()
+     tips_to_keep.crypto <- tips_to_keep.crypto5()
+     tips_to_keep.cymero <- tips_to_keep.cymero5()
+     tips_to_keep.galsul <- tips_to_keep.galsul5()
+     tips_to_keep.gracichor <- tips_to_keep.gracichor5()
+     tips_to_keep.sceobli <- tips_to_keep.sceobli5()
+     tips_to_keep.cocco <- tips_to_keep.cocco5()
+     tips_to_keep.saccha <- tips_to_keep.saccha5()
+     tips_to_keep.haema <- tips_to_keep.haema5()
+     tips_to_keep.zm <- tips_to_keep.zm5()
+     tips_to_keep.query <- tips_to_keep.query5()
+     
+     # Table construction
+     org.factor <- c()
+     
+     for (i in 1:length(tree_reduced$tip.label))
+     {
+       
+       if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.mp])
+       {
+         org.factor <- c(org.factor,"Marchantia")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ot])
+       {
+         org.factor <- c(org.factor,"Ostreococcus")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.at])
+       {
+         org.factor <- c(org.factor,"Arabidopsis")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cp])
+       {
+         org.factor <- c(org.factor,"Ceratodon")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cr])
+       {
+         org.factor <- c(org.factor,"Chlamydomonas")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cz])
+       {
+         org.factor <- c(org.factor,"Chromochloris")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.kn])
+       {
+         org.factor <- c(org.factor,"Klebsormidium")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.me])
+       {
+         org.factor <- c(org.factor,"Mesotaenium")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.mi])
+       {
+         org.factor <- c(org.factor,"Micromonas")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.pp])
+       {
+         org.factor <- c(org.factor,"Physcomitrium")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sl])
+       {
+         org.factor <- c(org.factor,"Solanum")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sm])
+       {
+         org.factor <- c(org.factor,"Selaginella")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sp])
+       {
+         org.factor <- c(org.factor,"Spirogloea")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ta])
+       {
+         org.factor <- c(org.factor,"Triticum")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.vc])
+       {
+         org.factor <- c(org.factor,"Volvox")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.bp])
+       {
+         org.factor <- c(org.factor,"Bathycoccus")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cri])
+       {
+         org.factor <- c(org.factor,"Ceratopteris")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ds])
+       {
+         org.factor <- c(org.factor,"Dunaliella")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.os])
+       {
+         org.factor <- c(org.factor,"Oryza")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.smag])
+       {
+         org.factor <- c(org.factor,"Sphagnum")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.tp])
+       {
+         org.factor <- c(org.factor,"Thuja")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.aa])
+       {
+         org.factor <- c(org.factor,"Anthoceros")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.um])
+       {
+         org.factor <- c(org.factor,"Ulva")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.rs])
+       {
+         org.factor <- c(org.factor,"Raphidocelis")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cyc])
+       {
+         org.factor <- c(org.factor,"Cycas")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.pu])
+       {
+         org.factor <- c(org.factor,"Porphyra")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.pt])
+       {
+         org.factor <- c(org.factor,"Phaeodactylum")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ng])
+       {
+         org.factor <- c(org.factor,"Nannochloropsis")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cyano])
+       {
+         org.factor <- c(org.factor,"Cyanophora")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.ca])
+       {
+         org.factor <- c(org.factor,"Chlorokybus")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.mv])
+       {
+         org.factor <- c(org.factor,"Mesostigma")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.af])
+       {
+         org.factor <- c(org.factor,"Azolla")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sc])
+       {
+         org.factor <- c(org.factor,"Salvinia")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.aegi])
+       {
+         org.factor <- c(org.factor,"Aegilops")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sb])
+       {
+         org.factor <- c(org.factor,"Sorghum")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.chara])
+       {
+         org.factor <- c(org.factor,"Chara")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.guilla])
+       {
+         org.factor <- c(org.factor,"Guillardia")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.crypto])
+       {
+         org.factor <- c(org.factor,"Cryptophyceae")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cymero])
+       {
+         org.factor <- c(org.factor,"Cyanidioschyzon")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.galsul])
+       {
+         org.factor <- c(org.factor,"Galdieria")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.gracichor])
+       {
+         org.factor <- c(org.factor,"Gracilariopsis")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sceobli])
+       {
+         org.factor <- c(org.factor,"Scenedesmus")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cocco])
+       {
+         org.factor <- c(org.factor,"Coccomyxa")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.saccha])
+       {
+         org.factor <- c(org.factor,"Saccharina")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.haema])
+       {
+         org.factor <- c(org.factor,"Haematococcus")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.zm])
+       {
+         org.factor <- c(org.factor,"Zea")
+       }
+       else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.query])
+       {
+         org.factor <- c(org.factor,"Query")
+       }
+       
+     }
+     
+     #Matrix with labels and colors and transform to dplyr format
+     string.sel.table <- data.frame(node = 1:length(tree_reduced$tip.label), label = tree_reduced$tip.label,
+                                    org = org.factor)
+     
+     return(string.sel.table)
+     
+   }) %>% bindEvent(input$string_start5)
+   
+   # Now, selection is allowed for genes of species with STRING support
+   observeEvent(input$string_start5, {
+     
+     string_sel_table <- string_sel_table5()
+     allow_string_species <- c("Aegilops", "Arabidopsis", "Bathycoccus", "Chara", "Chlamydomonas",
+                               "Coccomyxa", "Cyanidioschyzon", "Galdieria", "Gracilariopsis",
+                               "Guillardia", "Klebsormidium", "Micromonas","Oryza",
+                               "Ostreococcus", "Phaeodactylum","Physcomitrium", "Raphidocelis",
+                               "Scenedesmus", "Selaginella", "Solanum", "Sorghum", "Triticum",
+                               "Volvox")
+     
+     st_genes <- subset(string_sel_table, string_sel_table$org %in% allow_string_species)$label
+     
+     if (length(st_genes) == 0)
+     {
+       shinyjs::showElement("error_string5")
+       output$error_string5 <- renderUI({renderText({print("No results for this
+      analysis due to lack of genes of STRING-supported species in the selection.")})})
+       validate(" ")
+     }
+     
+     output$error_string5 <- NULL
+     
+     insertUI("#selected_string5", "afterEnd", ui = {
+       
+       shinyWidgets::pickerInput("selected_stringI5","Select the desired genes from the tree",
+                                 choices=st_genes, options = list(`actions-box` = TRUE),
+                                 multiple = T)
+       
+     })
+     
+     
+     insertUI("#string_selection5", "afterEnd", ui = {
+       
+       shinyWidgets::actionBttn("string_selectionI5", "Show STRING Interactions", size = "sm",
+                                style = "float", color = "royal")
+     })
+     
+   })
+   
+   phys_table5 <- reactive({
+     
+     shinyjs::showElement(id = 'loading.string5')
+     query_genes <- input$selected_stringI5
+     
+     # Load complete STRING annotation table
+     library(data.table)
+     
+     # Load iteratively from split files using data.table format
+     data_phys <- fread("pharaoh_folder/string_physical/string_physical_1.tsv")
+     
+     for (x in list.files("pharaoh_folder/string_physical/")[-1])
+     {
+       data_phys <- rbind(data_phys, 
+                          fread(paste0("pharaoh_folder/string_physical/", x)))
+     }
+     
+     
+     
+     # Subset by query genes using data.table for speed
+     #string_res <- subset(data_phys, data_phys$prot_query %in% query_genes)
+     string_res <- data_phys[prot_query %in% query_genes,]
+     string_res <- as.data.frame(string_res)
+     
+     # Assign OG ID to each target
+     ortho_data_file <- ifelse(model.selected5(), "Global_Gene_Trees/Orthogroups.tsv",
+                               "Green_Gene_Trees/Orthogroups.tsv")
+     
+     ortho_data <- as.data.frame(fread(ortho_data_file))
+     
+     ortho_char <- apply(ortho_data, MARGIN = 1, function(x) paste(x, collapse = ","))
+     ortho.numbers <- sapply(string_res$prot_interaction, function(x) grep(x, ortho_char), USE.NAMES = F)
+     
+     # If a pattern is found in several names, i.e., is a subpattern of several genes,
+     # search for the exact match
+     if(class(ortho.numbers) == "list")
+     {
+       # If a gene isn't associated to an OG
+       index.none <- which(sapply(ortho.numbers, function(x) length(x) == 0))
+       
+       if (length(index.none) != 0)
+       {
+         # We create another row for OG table to associate those genes
+         ortho_data <- rbind(ortho_data, "No OG")
+         ortho.numbers[index.none] <- nrow(ortho_data)
+       }
+       
+       # If a gene has more than one match due to subpatterns
+       index.wrong <- which(sapply(ortho.numbers, function(x) length(x) > 1))
+       {
+         if (length(index.wrong) == 0)
+         {
+           ortho.numbers <- unlist(ortho.numbers, use.names = F)
+         }
+         else
+         {
+           for (i in index.wrong)
+           {
+             for (j in ortho.numbers[[i]])
+             {
+               ortho_char_split <- strsplit(ortho_char[j],split = ",")
+               ortho_char_split_clean <- sapply(ortho_char_split, function(x) gsub(" ", "", x))
+               if (string_res$prot_interaction[i] %in% ortho_char_split_clean)
+               {
+                 ortho.numbers[i] <- j
+                 ortho.numbers <- unlist(ortho.numbers, use.names = F)
+               }
+             }
+           }
+         }
+       }
+     }
+     
+     
+     
+     # Create the final table
+     ortho.string.names <- ortho_data$Orthogroup[ortho.numbers]
+     phys_table <- data.frame(string_res, orthogroup = ortho.string.names)
+     
+     return(phys_table)
+   }) %>% bindEvent(input$string_selectionI5)
+   
+   # Create count table to identify enriched OGs in STRING result
+   string_counts5 <- reactive({
+     
+     phys_table <- phys_table5()
+     string_counts <- sort(table(phys_table$orthogroup), decreasing = T)
+     
+     return(string_counts)
+     
+   }) %>% bindEvent(input$string_selectionI5)
+   
+   string_count_plot5 <- reactive({
+     
+     library(ggplot2)
+     library(dplyr)
+     
+     data_count <- as.data.frame(string_counts5())
+     colnames(data_count) <- c("orthogroup", "value")
+     
+     # Compute the position of labels
+     data_count <- data_count %>%
+       arrange(desc(orthogroup)) %>%
+       mutate(prop = value / sum(data_count$value) *100) %>%
+       mutate(ypos = cumsum(prop)- 0.5*prop )
+     
+     # Create plot
+     count_plot <- ggplot(data_count, aes(x="", y=prop, fill=orthogroup)) +
+       geom_bar(stat="identity", width=1, color="white") +
+       coord_polar("y", start=0) +
+       theme_void() +
+       theme(legend.position="none") +
+       #geom_text(aes(y = ypos, label = orthogroup), color = "white", size=6) +
+       scale_fill_manual(values = rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"), 
+                                      floor(nrow(data_count)/9)+1))
+     
+     return(count_plot)
+     
+   }) %>% bindEvent(input$string_selectionI5)
+   
+   # Create boxes for outputs
+   observeEvent(isTruthy(string_count_plot5()), {
+     
+     if (UI_exist_string5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_st_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #output_count_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>>> #count_plot5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadSTRINGTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadCOUNTTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #count_download5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_networkI5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#network_buttonI5")
+       
+     }
+     
+     insertUI("#box_st_table5", "afterEnd", ui = {
+       box(width = 12,
+           title = "STRING Interactions Table", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           dataTableOutput("output_st_table5")
+       )
+     })
+     
+     insertUI("#box_count_table5", "afterEnd", ui = {
+       box(width = 12,
+           title = "Interacting Orthogroups Table", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           dataTableOutput("output_count_table5")
+       )
+     })
+     
+     insertUI("#box_count_plot5", "afterEnd", ui = {
+       box(width = 12,
+           title = "Interacting Orthogroups Plot", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           fluidRow(column(1), imageOutput("count_plot5"))
+       )
+     })
+     
+     
+     insertUI("#download_ui_for_st_table5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadSTRINGTable5", "Download STRING Table",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     insertUI("#download_ui_for_count_table5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadCOUNTTable5", "Download OG Count Table",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     insertUI("#count_down_button5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "count_download5", "Download OG Count Plot",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     UI_exist_string5 <<- TRUE
+     
+     # Remove previous results for STRING network
+     if (UI_exist_network5)
+     {
+       removeUI(
+         selector = "div:has(>>>> #network_image5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_network5 <<- F
+     }
+     
+   })
+   
+   # Fill outputs
+   # Render STRING table
+   output$output_st_table5 <- renderDataTable({
+     phys_table <- phys_table5()
+     datatable(phys_table, escape=FALSE, rownames= F, options =list(pageLength = 10)) %>%
+       formatStyle(
+         'type',
+         color = styleEqual(
+           c("Direct interaction", "Interolog"), c('green', '#CA931B')
+         )
+       )
+   }) 
+   
+   
+   # Render OG count table
+   output$output_count_table5 <- renderDataTable({
+     string_counts <- as.data.frame(string_counts5())
+     colnames(string_counts) <- c("orthogroup", "count")
+     string_counts
+   },escape=FALSE, rownames= F, options =list(pageLength = 7))
+   
+   # Render OG count pie chart
+   output$count_plot5 <- renderImage({
+     
+     string_count_plot <- string_count_plot5()
+     
+     png("string_count_plot5.png", height = 450, width = 450)
+     plot(string_count_plot)
+     dev.off()
+     
+     list(src = "string_count_plot5.png",
+          contentType="image/png", width=400,height=400)
+   }, deleteFile = T)
+   
+   
+   # Download tab's outputs
+   # Download STRING table
+   output$downloadSTRINGTable5 <- downloadHandler(
+     filename= function() {
+       paste("string_table", ".tsv", sep="")
+     },
+     content= function(file) {
+       phys_table <- phys_table5()
+       write.table(x = phys_table,quote = F,sep = "\t",
+                   file=file,row.names=FALSE,col.names=TRUE)
+     })
+   
+   # Download count table
+   output$downloadCOUNTTable5 <- downloadHandler(
+     filename= function() {
+       paste("string_count_table", ".tsv", sep="")
+     },
+     content= function(file) {
+       string_counts <- string_counts5()
+       write.table(x = string_counts,quote = F,sep = "\t",
+                   file=file,row.names=FALSE,col.names=TRUE)
+     })
+   
+   # Download count plot
+   output$count_download5 <- downloadHandler(
+     filename= function() {
+       paste("string_count", ".png", sep="")
+     },
+     content= function(file) {
+       string_count_plot <- string_count_plot5()
+       
+       png(file, height = 450, width = 450)
+       plot(string_count_plot)
+       dev.off()
+     })
+   
+   # Create gene selector and button for STRING network representation
+   observeEvent(input$string_selectionI5,{
+     
+     phys_table <- phys_table5()
+     network_genes <- unique(phys_table$prot_query)
+     
+     # Error message if no genes are allowed for selection should have  been reported
+     # earlier
+     
+     insertUI("#selected_network5", "afterEnd", ui = {
+       
+       shinyWidgets::pickerInput(inputId = "selected_networkI5", label = "Select the gene whose network you want to plot", 
+                                 choices = network_genes, selected = network_genes[1],
+                                 options = list(`actions-box` = TRUE), multiple = T)
+       
+     })
+     
+     
+     insertUI("#network_button5", "afterEnd", ui = {
+       
+       shinyWidgets::actionBttn("network_buttonI5", "Plot STRING Network", size = "sm",
+                                style = "float", color = "royal")
+     })
+     
+     shinyjs::hideElement(id = 'loading.string5')
+     
+   })
+   
+   mapped_string5 <- reactive({
+     
+     # Load genes (PharaohFUN IDs) and convert to STRING IDs
+     library(data.table)
+     
+     network_genes <- input$selected_networkI5
+     map_table <- fread("pharaoh_folder/string_map.tsv")
+     
+     # Fast subset using data.table
+     map_network <- map_table[pharaohfun_id %in% network_genes,]
+     
+     # Error if no genes from selection have an associated high fidelity STRING ID
+     if (nrow(map_network) == 0)
+     {
+       
+       if (UI_exist_network5)
+       {
+         removeUI(
+           selector = "div:has(>>>> #network_image5)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         UI_exist_network5 <<- F
+       }
+       
+       output$error_network5 <- renderUI({renderText({print("It's not possible to map any
+                               genes from selection to STRING IDs, please select different ones.")})})
+       validate( " ")
+       
+     }
+     
+     output$error_network5 <- NULL
+     
+     # Get only STRING IDS and paste in a format interpretable by JS function
+     string_ids <- as.data.frame(map_network)$string_id
+     
+     
+     mapped_string <- paste0(string_ids, collapse = "%0d")
+     return(mapped_string)
+     
+   }) %>% bindEvent(input$network_buttonI5)
+   
+   # Create boxes
+   observeEvent(isTruthy(mapped_string5()),{
+     
+     mapped_string <- mapped_string5()
+     
+     if (UI_exist_network5)
+     {
+       removeUI(
+         selector = "div:has(>>>> #network_image5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+     }
+     
+     url_interactive <- paste0("https://string-db.org/cgi/network?identifiers=", 
+                               mapped_string, 
+                               "&add_color_nodes=25&network_flavor=confidence&show_query_node_labels=1")
+     
+     insertUI("#box_output_network5", "afterEnd", ui = {
+       box(width = 12,
+           title = "Image", status = "primary", solidHeader = TRUE,
+           collapsible = TRUE,
+           fluidRow(column(1), 
+                    column(8, htmlOutput("network_image5")), 
+                    column(3, div( style = "margin-top: 300px;", 
+                                   shinyWidgets::actionBttn("network_link5", "Interactive Network", size = "md", 
+                                                            icon = icon("circle-nodes"), style = "float", color = "royal", 
+                                                            onclick=paste0("window.open('", url_interactive,"','_blank')")))
+                           
+                    ))
+           
+       )
+     })
+     
+     UI_exist_network5 <<- T
+     
+   })
+   
+   # Fill network box
+   
+   output$network_image5 <- renderText({
+     
+     mapped_string <- mapped_string5()
+     src_map <- paste0("https://string-db.org/api/image/network?identifiers=", mapped_string, 
+                       "&add_color_nodes=25&network_flavor=confidence")
+     
+     c('<img src="',src_map,'"width="675" height="625">')
+   })
    
    
 # End of SHOOT Search
