@@ -4662,9 +4662,11 @@ server <- function(input, output) {
         total_table_pfam <- total_table_pfam1()
         box_pfplot_height <- 150 + 700*length(total_table_pfam$order[nrow(total_table_pfam)])
         box(
-          title = "Domains Localization", status = "info", solidHeader = TRUE, width = 12, #height = box_pfplot_height,
+          title = "Domains Localization", status = "info", solidHeader = TRUE, width = 12, height = box_pfplot_height+10,
           collapsible = TRUE,
-          imageOutput("pfam_plot1"))
+          plotOutput("pfam_plot1", height = box_pfplot_height)
+          )
+        
       }) 
       
       insertUI("#pfam_down_button1", "afterEnd", ui = {
@@ -5156,7 +5158,7 @@ server <- function(input, output) {
     if (UI_exist_msa1)
     {
       removeUI(
-        selector = "div:has(>> #msa_print1)",
+        selector = "div:has(>>> #msa_print1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -5216,7 +5218,7 @@ server <- function(input, output) {
       if (UI_exist_msa1)
       {
       removeUI(
-        selector = "div:has(>> #msa_print1)",
+        selector = "div:has(>>> #msa_print1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -5301,7 +5303,7 @@ server <- function(input, output) {
     if (UI_exist_msa1)
     {
       removeUI(
-        selector = "div:has(>> #msa_print1)",
+        selector = "div:has(>>> #msa_print1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -5321,10 +5323,14 @@ server <- function(input, output) {
     }
     
     insertUI("#box_msa1", "afterEnd", ui = {
+      selected_msa <- isolate({input$selected_msaI1})
+      msa_height <- ifelse(length(selected_msa) > 14, 550, 400 + 5*length(selected_msa))
       box(width = 12,
-          title = "MSA Explorer", status = "info", solidHeader = TRUE,
+          title = "MSA Explorer", status = "info", solidHeader = TRUE, height = msa_height,
           collapsible = TRUE,
-          msaROutput("msa_print1", width = "60%")
+          tags$div(id = "msa_pocket1", style = "width: 1300px; height: 400px",
+                   msaROutput("msa_print1")),
+          
       )
     })
     
@@ -10165,7 +10171,7 @@ server <- function(input, output) {
        box(
          title = "Domains Localization", status = "success", solidHeader = TRUE, width = 12, #height = box_pfplot_height,
          collapsible = TRUE,
-         imageOutput("pfam_plot2"))
+         plotOutput("pfam_plot2", height = box_pfplot_height))
      }) 
      
      insertUI("#pfam_down_button2", "afterEnd", ui = {
@@ -10657,7 +10663,7 @@ server <- function(input, output) {
      if (UI_exist_msa2)
      {
        removeUI(
-         selector = "div:has(>> #msa_print2)",
+         selector = "div:has(>>> #msa_print2)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -10718,7 +10724,7 @@ server <- function(input, output) {
        if (UI_exist_msa2)
        {
        removeUI(
-         selector = "div:has(>> #msa_print2)",
+         selector = "div:has(>>> #msa_print2)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -10803,7 +10809,7 @@ server <- function(input, output) {
      if (UI_exist_msa2)
      {
        removeUI(
-         selector = "div:has(>> #msa_print2)",
+         selector = "div:has(>>> #msa_print2)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -10823,10 +10829,14 @@ server <- function(input, output) {
      }
      
      insertUI("#box_msa2", "afterEnd", ui = {
+       selected_msa <- isolate({input$selected_msaI2})
+       msa_height <- ifelse(length(selected_msa) > 14, 550, 400 + 5*length(selected_msa))
        box(width = 12,
-           title = "MSA Explorer", status = "success", solidHeader = TRUE,
+           title = "MSA Explorer", status = "success", solidHeader = TRUE, height = msa_height,
            collapsible = TRUE,
-           msaROutput("msa_print2", width = "60%")
+           tags$div(id = "msa_pocket2", style = "width: 1300px; height: 400px",
+                    msaROutput("msa_print2")),
+           
        )
      })
      
@@ -15424,7 +15434,7 @@ server <- function(input, output) {
        box(
          title = "Domains Localization", status = "danger", solidHeader = TRUE, width = 12, #height = box_pfplot_height,
          collapsible = TRUE,
-         imageOutput("pfam_plot3"))
+         plotOutput("pfam_plot3", height = box_pfplot_height))
      }) 
      
      insertUI("#pfam_down_button3", "afterEnd", ui = {
@@ -15914,7 +15924,7 @@ server <- function(input, output) {
      if (UI_exist_msa3)
      {
        removeUI(
-         selector = "div:has(>> #msa_print3)",
+         selector = "div:has(>>> #msa_print3)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -15975,7 +15985,7 @@ server <- function(input, output) {
        if (UI_exist_msa3)
        {
          removeUI(
-           selector = "div:has(>> #msa_print3)",
+           selector = "div:has(>>> #msa_print3)",
            multiple = TRUE,
            immediate = TRUE
          )
@@ -16060,7 +16070,7 @@ server <- function(input, output) {
      if (UI_exist_msa3)
      {
        removeUI(
-         selector = "div:has(>> #msa_print3)",
+         selector = "div:has(>>> #msa_print3)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -16080,10 +16090,14 @@ server <- function(input, output) {
      }
      
      insertUI("#box_msa3", "afterEnd", ui = {
+       selected_msa <- isolate({input$selected_msaI3})
+       msa_height <- ifelse(length(selected_msa) > 14, 550, 400 + 5*length(selected_msa))
        box(width = 12,
-           title = "MSA Explorer", status = "danger", solidHeader = TRUE,
+           title = "MSA Explorer", status = "danger", solidHeader = TRUE, height = msa_height,
            collapsible = TRUE,
-           msaROutput("msa_print3", width = "60%")
+           tags$div(id = "msa_pocket3", style = "width: 1300px; height: 400px",
+                    msaROutput("msa_print3")),
+           
        )
      })
      
@@ -18344,6 +18358,26 @@ server <- function(input, output) {
            }
      )
      
+     # Create gene tables with reduced species for each OG
+     selected_organisms <- selected_organisms4()
+     org_sel <- as.character(sapply(selected_organisms, function(x) gsub(" ", "_", tolower(x))))
+     org_first <- sapply(strsplit(org_sel, split = "_"), function(x) x[[1]])
+    
+     
+     table_ogs <- fread(ortho.file)
+     org_index <- sapply(org_first, function(x) grep(x, colnames(table_ogs)), USE.NAMES = F)
+     org_index <- as.numeric(c(1, org_index))
+     table_ogs_red <- table_ogs[,c(org_index), with=F]
+    
+     apply(diamond_table, MARGIN = 1,
+           FUN = function(x) if (x["OG"] != "Gene is not clustered in an OG") 
+           {
+             # Copy trees to its folders
+             new_line <- as.data.frame(table_ogs_red[Orthogroup == x["OG"]])
+             fwrite(new_line, file = paste0(random.file, "/", x["query_id"], "/", x["query_id"], "_gene_table.tsv"),
+                    sep = "\t", col.names = T, row.names = F)
+           })
+     
      # Compress folder and remove uncompressed one
      zip(zipfile = paste0(random.file, ".zip"), files = random.file)
      unlink(random.file, recursive = TRUE)
@@ -18365,12 +18399,16 @@ server <- function(input, output) {
      random.file <- random.file4()
      table_heat <- table_heat4()
      selected_organisms <- selected_organisms4()
-     orgs_to_keep <- as.character(sapply(selected_organisms, function(x) gsub(" ", "_", tolower(x))))
+     org_sel <- as.character(sapply(selected_organisms, function(x) gsub(" ", "_", tolower(x))))
+     org_first <- sapply(strsplit(org_sel, split = "_"), function(x) x[[1]])
      
      # Load gene count for each OG and filter out species that are not selected by the user
      genecount_file <- ifelse(model.selected4(), "pharaoh_folder/global_genecount.tsv",
                               "pharaoh_folder/green_genecount.tsv")
-     genecount_data <- fread(genecount_file, select = c("Orthogroup", orgs_to_keep))
+     genecount_data_raw <- fread(genecount_file)
+     org_index <- sapply(org_first, function(x) grep(x, colnames(genecount_data_raw)), USE.NAMES = F)
+     org_index <- as.numeric(c(1, org_index))
+     genecount_data <- genecount_data_raw[,c(org_index), with=F]
      
      # Create index to retain order and dups in the subset
      genecount_index <- sapply(table_heat$OG, function(x) which(x == genecount_data$Orthogroup))
@@ -18430,7 +18468,7 @@ server <- function(input, output) {
      table_heat <- table_heat4()
      
      insertUI("#box_heatmap4", "afterEnd", ui = {
-       box(width = 12, height = nrow(table_heat)*30,
+       box(width = 12, height = nrow(table_heat)*30+20,
            title = "Orthogroups Heatmap", status = "warning", solidHeader = TRUE,
            collapsible = TRUE, 
            plotOutput("heat_image4", height = nrow(table_heat)*30-20)
@@ -18541,18 +18579,29 @@ server <- function(input, output) {
      
      # Create a FASTA file with the query seq (using a random file name to
      # avoid conflicts between simultaneous users) for comparison
-     write.fasta(vec_comp, names = "query_prot", paste0("pharaoh_folder/", random_name, "_input.fa"))
+     random_system <- paste0(random_name, "_system")
+     write.fasta(vec_comp, names = "query_prot", paste0("pharaoh_folder/", random_system, ".fa"))
 
-     # Then, execute DIAMOND in server to create .sh.ogs.txt.gz file
-
-     # Execute SHOOT in server
-     
+     # Then, execute DIAMOND in server to create .sh.ogs.txt.gz file and execute SHOOT
+     # system("cd /home/operador/pruebas_shoot; 
+     #        diamond blastp --db Results_Apr22/profile_sequences.all.fa -q query_prot.fa.sh.ogs.txt.gz --quiet -e 0.001 --compress 1 -p 1;
+     #        python3 ../SHOOT/shoot query_prot.fa Results_Apr22/")
+     # 
+     # database <- ifelse(model.selected5(), "Results_Apr19", "Results_Apr22")
+     # 
+     # afs <- paste0("cd /home/operador/pruebas_shoot; 
+     #        diamond blastp --db ", database, "/profile_sequences.all.fa -q ", random_system, ".fa.sh.ogs.txt.gz --quiet -e 0.001 --compress 1 -p 1;
+     #        python3 ../SHOOT/shoot ", random_system, ".fa ", database, "/")
+    
      # Remove input fasta file once SHOOT results have been generated
-     file.remove(paste0("pharaoh_folder/", random_name, "_input.fa"))
-
+     file.remove(paste0("pharaoh_folder/", random_system, ".fa"))
+     
      # Load gene tree file depending on the input
      shoot_tree <- ape::read.tree("../shoot/pruebas_shoot/query.fa.shoot.tre")
-     #shoot_tree <- ape::read.tree(paste0("pharaoh_folder/", random_name, ".fa.shoot.tre"))
+     #shoot_tree <- ape::read.tree(paste0("pharaoh_folder/", random_system, ".fa.shoot.tre"))
+     
+     # TODO Remove the rest of useless SHOOT files, except for MSA
+     
      return(shoot_tree)
 
    }) %>% bindEvent(input$run_button5)
@@ -20249,19 +20298,19 @@ server <- function(input, output) {
      insertUI("#download_tree5", "afterEnd", ui = {
        tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadTree5", 
                                                                           "Download Tree Plot",
-                                                                          size = "sm", color = "royal"))
+                                                                          size = "sm", color = "primary"))
      })
      
      insertUI("#download_newick5", "afterEnd", ui = {
        tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadNewick5", 
                                                                           "Download NEWICK Tree",
-                                                                          size = "sm", color = "royal"))
+                                                                          size = "sm", color = "primary"))
      })
      
      insertUI("#download_tree_seqs5", "afterEnd", ui = {
        tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadTreeSeqs5", 
                                                                           "Download Protein Sequences",
-                                                                          size = "sm", color = "royal"))
+                                                                          size = "sm", color = "primary"))
      })
      
      UI_exist_tree5 <<- TRUE
@@ -20668,7 +20717,7 @@ server <- function(input, output) {
        box(
          title = "Domains Localization", status = "primary", solidHeader = TRUE, width = 12, #height = box_pfplot_height,
          collapsible = TRUE,
-         imageOutput("pfam_plot5"))
+         plotOutput("pfam_plot5", height = box_pfplot_height))
      }) 
      
      insertUI("#pfam_down_button5", "afterEnd", ui = {
@@ -21161,7 +21210,7 @@ server <- function(input, output) {
      if (UI_exist_msa5)
      {
        removeUI(
-         selector = "div:has(>> #msa_print5)",
+         selector = "div:has(>>> #msa_print5)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -21222,7 +21271,7 @@ server <- function(input, output) {
        if (UI_exist_msa5)
        {
          removeUI(
-           selector = "div:has(>> #msa_print5)",
+           selector = "div:has(>>> #msa_print5)",
            multiple = TRUE,
            immediate = TRUE
          )
@@ -21314,7 +21363,7 @@ server <- function(input, output) {
      if (UI_exist_msa5)
      {
        removeUI(
-         selector = "div:has(>> #msa_print5)",
+         selector = "div:has(>>> #msa_print5)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -21332,12 +21381,16 @@ server <- function(input, output) {
        )
        
      }
-     
+    
      insertUI("#box_msa5", "afterEnd", ui = {
+       selected_msa <- isolate({input$selected_msaI5})
+       msa_height <- ifelse(length(selected_msa) > 14, 550, 400 + 5*length(selected_msa))
        box(width = 12,
-           title = "MSA Explorer", status = "primary", solidHeader = TRUE,
+           title = "MSA Explorer", status = "primary", solidHeader = TRUE, height = msa_height,
            collapsible = TRUE,
-           msaROutput("msa_print5", width = "60%")
+           tags$div(id = "msa_pocket5", style = "width: 1300px; height: 400px",
+                    msaROutput("msa_print5")),
+           
        )
      })
      
