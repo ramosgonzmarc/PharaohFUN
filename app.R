@@ -378,8 +378,8 @@ ui <- dashboardPage(
                   shinyWidgets::awesomeRadio(
                     inputId = "build_trees_1",
                     label = "", 
-                    choices = c("FastTree", "Neighbour Joining", "UPGMA", "Parsimony"),
-                    selected = "FastTree",
+                    choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Parsimony"),
+                    selected = "Maximum Likelihood",
                     inline = TRUE, 
                     status = "info"
                   ),
@@ -770,8 +770,8 @@ ui <- dashboardPage(
                 shinyWidgets::awesomeRadio(
                   inputId = "build_trees_2",
                   label = "", 
-                  choices = c("FastTree", "Neighbour Joining", "UPGMA", "Parsimony"),
-                  selected = "FastTree",
+                  choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Parsimony"),
+                  selected = "Maximum Likelihood",
                   inline = TRUE, 
                   status = "success"
                 ),
@@ -1188,8 +1188,8 @@ ui <- dashboardPage(
                 shinyWidgets::awesomeRadio(
                   inputId = "build_trees_3",
                   label = "", 
-                  choices = c("FastTree", "Neighbour Joining", "UPGMA", "Parsimony"),
-                  selected = "FastTree",
+                  choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Parsimony"),
+                  selected = "Maximum Likelihood",
                   inline = TRUE, 
                   status = "danger"
                 ),
@@ -2172,7 +2172,7 @@ server <- function(input, output) {
     
     # Generate tree depending on the tree building method selected
     {
-    if (build_trees1() == "FastTree")
+    if (build_trees1() == "Maximum Likelihood")
     {
       tree <- read.tree(tree.name)
       return(tree)
@@ -4143,7 +4143,7 @@ server <- function(input, output) {
                           organism = data.tree$org,
                           name = glue("<i style='color:{color}'> {lab} </i>"))
       { 
-      if (build_trees1() == "FastTree")
+      if (build_trees1() == "Maximum Likelihood")
       {
       tree_plot <- ggtree(tree_reduced) %<+% d2 + geom_tiplab() + theme(legend.position =) +
         xlim(0, max(tree_reduced$edge.length)*3) + geom_tiplab(aes(label = label, color = organism)) +
@@ -4353,7 +4353,7 @@ server <- function(input, output) {
     if (UI_exist_phylo1)
     {
       removeUI(
-        selector = "div:has(>> #phylo_plot1)",
+        selector = "div:has(>>> #phylo_plot1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -4383,7 +4383,7 @@ server <- function(input, output) {
     if(UI_exist_phylo1)
     {
       removeUI(
-        selector = "div:has(>> #phylo_plot1)",
+        selector = "div:has(>>> #phylo_plot1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -4393,10 +4393,13 @@ server <- function(input, output) {
     
     
     insertUI("#box_phylo1", "afterEnd", ui = {
+      phylo_tree <- phylo_tree1()
+      phylo_height <- length(phylo_tree$tip.label) *14 + 220
       box(width = 12,
-          title = "Interactive Tree", status = "info", solidHeader = TRUE,
+          title = "Interactive Tree", status = "info", solidHeader = TRUE, height = phylo_height + 100,
           collapsible = TRUE,
-          phylowidgetOutput("phylo_plot1", height = "800px", width = "98%")
+          tags$div(id = "phylo_pocket1", style = paste0("width: 1300px; height: ",  phylo_height + 50, "px"),
+                   phylowidgetOutput("phylo_plot1", height = paste0(phylo_height,"px"), width = "98%"))
       )
       })
     
@@ -5329,7 +5332,7 @@ server <- function(input, output) {
           title = "MSA Explorer", status = "info", solidHeader = TRUE, height = msa_height,
           collapsible = TRUE,
           tags$div(id = "msa_pocket1", style = "width: 1300px; height: 400px",
-                   msaROutput("msa_print1")),
+                   msaROutput("msa_print1"))
           
       )
     })
@@ -5685,11 +5688,12 @@ server <- function(input, output) {
     {
       if (nrow(enr_table) > 4)
       {
-        tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15) + theme(legend.position='none')
+        tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(label_words_n = 3)) +
+          theme(legend.position='none')
       }
       else if (nrow(enr_table) > 2)
       {
-        tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2)) + 
+        tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2, label_words_n = 3)) + 
           theme(legend.position='none')
       }
       else
@@ -5760,7 +5764,7 @@ server <- function(input, output) {
       box(width = 12,
           title = "GO Terms Plot", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
-          imageOutput("gos_plot1")
+          plotOutput("gos_plot1", height = 610)
       )
     })
     
@@ -5768,9 +5772,10 @@ server <- function(input, output) {
       box(width = 12,
           title = "GO Terms Treeplot", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
-          imageOutput("gos_treeplot1")
+          plotOutput("gos_treeplot1", height = 610)
       )
     })
+    
     
     insertUI("#download_ui_for_gos_table1", "afterEnd", ui = {
       tags$div(style = "margin-left: 100px;", shinyWidgets::downloadBttn(outputId= "downloadGOSTable1", "Download GO Table",
@@ -5808,7 +5813,7 @@ server <- function(input, output) {
   output$gos_plot1 <- renderImage({
     ema_gos_plot <- ema_gos_plot1()
     
-    png("pharaoh_folder/gosplot.png")
+    png("pharaoh_folder/gosplot.png", width = 590, height = 590, res = 90)
     plot(ema_gos_plot)
     dev.off()
     list(src = "pharaoh_folder/gosplot.png",
@@ -5821,7 +5826,7 @@ server <- function(input, output) {
   output$gos_treeplot1 <- renderImage({
     tree_gos_plot <- tree_gos_plot1()
     
-    png("pharaoh_folder/treeplot.png")
+    png("pharaoh_folder/treeplot.png", width = 620, height = 590, res = 80)
     plot(tree_gos_plot)
     dev.off()
     list(src = "pharaoh_folder/treeplot.png",
@@ -5851,7 +5856,7 @@ server <- function(input, output) {
     content= function(file) {
       ema_gos_plot <- ema_gos_plot1()
       
-      png(file, height = 600, width = 800)
+      png(file, height = 1200, width = 1500, res=140)
       plot(ema_gos_plot)
       dev.off()
     })
@@ -5864,7 +5869,7 @@ server <- function(input, output) {
     content= function(file) {
       tree_gos_plot <- tree_gos_plot1()
       
-      png(file, height = 800, width = 1000)
+      png(file, height = 1200, width = 1500, res=140)
       plot(tree_gos_plot)
       dev.off()
     })
@@ -7642,7 +7647,7 @@ server <- function(input, output) {
      
      # Generate tree depending on the tree building method selected
      {
-       if (build_trees2() == "FastTree")
+       if (build_trees2() == "Maximum Likelihood")
        {
          tree <- read.tree(tree.name)
          return(tree)
@@ -9631,7 +9636,7 @@ server <- function(input, output) {
                            organism = data.tree$org,
                            name = glue("<i style='color:{color}'> {lab} </i>"))
        { 
-         if (build_trees2() == "FastTree")
+         if (build_trees2() == "Maximum Likelihood")
          {
            tree_plot <- ggtree(tree_reduced) %<+% d2 + geom_tiplab() + theme(legend.position =) +
              xlim(0, max(tree_reduced$edge.length)*3) + geom_tiplab(aes(label = label, color = organism)) +
@@ -9861,7 +9866,7 @@ server <- function(input, output) {
      if (UI_exist_phylo2)
      {
        removeUI(
-         selector = "div:has(>> #phylo_plot2)",
+         selector = "div:has(>>> #phylo_plot2)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -9890,7 +9895,7 @@ server <- function(input, output) {
      if(UI_exist_phylo2)
      {
        removeUI(
-         selector = "div:has(>> #phylo_plot2)",
+         selector = "div:has(>>> #phylo_plot2)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -9900,10 +9905,13 @@ server <- function(input, output) {
      
      
      insertUI("#box_phylo2", "afterEnd", ui = {
+       phylo_tree <- phylo_tree2()
+       phylo_height <- length(phylo_tree$tip.label) *14 + 220
        box(width = 12,
-           title = "Interactive Tree", status = "success", solidHeader = TRUE,
+           title = "Interactive Tree", status = "success", solidHeader = TRUE, height = phylo_height + 100,
            collapsible = TRUE,
-           phylowidgetOutput("phylo_plot2", height = "800px", width = "98%")
+           tags$div(id = "phylo_pocket2", style = paste0("width: 1300px; height: ",  phylo_height + 50, "px"),
+                    phylowidgetOutput("phylo_plot2", height = paste0(phylo_height,"px"), width = "98%"))
        )
      })
      
@@ -10835,7 +10843,7 @@ server <- function(input, output) {
            title = "MSA Explorer", status = "success", solidHeader = TRUE, height = msa_height,
            collapsible = TRUE,
            tags$div(id = "msa_pocket2", style = "width: 1300px; height: 400px",
-                    msaROutput("msa_print2")),
+                    msaROutput("msa_print2"))
            
        )
      })
@@ -11188,11 +11196,12 @@ server <- function(input, output) {
      {
        if (nrow(enr_table) > 4)
        {
-         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15) + theme(legend.position='none')
+         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(label_words_n = 3)) +
+           theme(legend.position='none')
        }
        else if (nrow(enr_table) > 2)
        {
-         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2)) + 
+         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2, label_words_n = 3)) + 
            theme(legend.position='none')
        }
        else
@@ -11311,7 +11320,7 @@ server <- function(input, output) {
    output$gos_plot2 <- renderImage({
      ema_gos_plot <- ema_gos_plot2()
      
-     png("pharaoh_folder/gosplot.png")
+     png("pharaoh_folder/gosplot.png", width = 590, height = 590, res = 90)
      plot(ema_gos_plot)
      dev.off()
      list(src = "pharaoh_folder/gosplot.png",
@@ -11324,7 +11333,7 @@ server <- function(input, output) {
    output$gos_treeplot2 <- renderImage({
      tree_gos_plot <- tree_gos_plot2()
      
-     png("pharaoh_folder/treeplot.png")
+     png("pharaoh_folder/treeplot.png", width = 620, height = 590, res = 80)
      plot(tree_gos_plot)
      dev.off()
      list(src = "pharaoh_folder/treeplot.png",
@@ -11354,7 +11363,7 @@ server <- function(input, output) {
      content= function(file) {
        ema_gos_plot <- ema_gos_plot2()
        
-       png(file, height = 600, width = 800)
+       png(file, height = 1200, width = 1500, res=140)
        plot(ema_gos_plot)
        dev.off()
      })
@@ -11367,7 +11376,7 @@ server <- function(input, output) {
      content= function(file) {
        tree_gos_plot <- tree_gos_plot2()
        
-       png(file, height = 800, width = 1000)
+       png(file, height = 1200, width = 1500, res=140)
        plot(tree_gos_plot)
        dev.off()
      })
@@ -13007,7 +13016,7 @@ server <- function(input, output) {
      
      # Generate tree depending on the tree building method selected
      {
-       if (build_trees3() == "FastTree")
+       if (build_trees3() == "Maximum Likelihood")
        {
          tree <- read.tree(tree.name)
          return(tree)
@@ -14922,7 +14931,7 @@ server <- function(input, output) {
                            organism = data.tree$org,
                            name = glue("<i style='color:{color}'> {lab} </i>"))
        { 
-         if (build_trees3() == "FastTree")
+         if (build_trees3() == "Maximum Likelihood")
          {
            tree_plot <- ggtree(tree_reduced) %<+% d2 + geom_tiplab() + theme(legend.position =) +
              xlim(0, max(tree_reduced$edge.length)*3) + geom_tiplab(aes(label = label, color = organism)) +
@@ -15125,7 +15134,7 @@ server <- function(input, output) {
      if (UI_exist_phylo3)
      {
        removeUI(
-         selector = "div:has(>> #phylo_plot3)",
+         selector = "div:has(>>> #phylo_plot3)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -15154,7 +15163,7 @@ server <- function(input, output) {
      if(UI_exist_phylo3)
      {
        removeUI(
-         selector = "div:has(>> #phylo_plot3)",
+         selector = "div:has(>>> #phylo_plot3)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -15164,10 +15173,13 @@ server <- function(input, output) {
      
      
      insertUI("#box_phylo3", "afterEnd", ui = {
+       phylo_tree <- phylo_tree3()
+       phylo_height <- length(phylo_tree$tip.label) *14 + 220
        box(width = 12,
-           title = "Interactive Tree", status = "danger", solidHeader = TRUE,
+           title = "Interactive Tree", status = "danger", solidHeader = TRUE, height = phylo_height + 100,
            collapsible = TRUE,
-           phylowidgetOutput("phylo_plot3", height = "800px", width = "98%")
+           tags$div(id = "phylo_pocket3", style = paste0("width: 1300px; height: ",  phylo_height + 50, "px"),
+                    phylowidgetOutput("phylo_plot3", height = paste0(phylo_height,"px"), width = "98%"))
        )
      })
      
@@ -16096,7 +16108,7 @@ server <- function(input, output) {
            title = "MSA Explorer", status = "danger", solidHeader = TRUE, height = msa_height,
            collapsible = TRUE,
            tags$div(id = "msa_pocket3", style = "width: 1300px; height: 400px",
-                    msaROutput("msa_print3")),
+                    msaROutput("msa_print3"))
            
        )
      })
@@ -16450,11 +16462,12 @@ server <- function(input, output) {
      {
        if (nrow(enr_table) > 4)
        {
-         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15) + theme(legend.position='none')
+         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(label_words_n = 3)) +
+           theme(legend.position='none')
        }
        else if (nrow(enr_table) > 2)
        {
-         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2)) + 
+         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2, label_words_n = 3)) + 
            theme(legend.position='none')
        }
        else
@@ -16573,7 +16586,7 @@ server <- function(input, output) {
    output$gos_plot3 <- renderImage({
      ema_gos_plot <- ema_gos_plot3()
      
-     png("pharaoh_folder/gosplot.png")
+     png("pharaoh_folder/gosplot.png", width = 590, height = 590, res = 90)
      plot(ema_gos_plot)
      dev.off()
      list(src = "pharaoh_folder/gosplot.png",
@@ -16586,7 +16599,7 @@ server <- function(input, output) {
    output$gos_treeplot3 <- renderImage({
      tree_gos_plot <- tree_gos_plot3()
      
-     png("pharaoh_folder/treeplot.png")
+     png("pharaoh_folder/treeplot.png", width = 620, height = 590, res = 80)
      plot(tree_gos_plot)
      dev.off()
      list(src = "pharaoh_folder/treeplot.png",
@@ -16616,7 +16629,7 @@ server <- function(input, output) {
      content= function(file) {
        ema_gos_plot <- ema_gos_plot3()
        
-       png(file, height = 600, width = 800)
+       png(file,height = 1200, width = 1500, res=140)
        plot(ema_gos_plot)
        dev.off()
      })
@@ -16629,7 +16642,7 @@ server <- function(input, output) {
      content= function(file) {
        tree_gos_plot <- tree_gos_plot3()
        
-       png(file, height = 800, width = 1000)
+       png(file, height = 1200, width = 1500, res=140)
        plot(tree_gos_plot)
        dev.off()
      })
@@ -20404,7 +20417,7 @@ server <- function(input, output) {
      if (UI_exist_phylo5)
      {
        removeUI(
-         selector = "div:has(>> #phylo_plot5)",
+         selector = "div:has(>>> #phylo_plot5)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -20434,7 +20447,7 @@ server <- function(input, output) {
      if(UI_exist_phylo5)
      {
        removeUI(
-         selector = "div:has(>> #phylo_plot5)",
+         selector = "div:has(>>> #phylo_plot5)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -20442,14 +20455,17 @@ server <- function(input, output) {
        UI_exist_phylo5 <<- F
      }
      
-     
      insertUI("#box_phylo5", "afterEnd", ui = {
+       phylo_tree <- phylo_tree5()
+       phylo_height <- length(phylo_tree$tip.label) *14 + 220
        box(width = 12,
-           title = "Interactive Tree", status = "primary", solidHeader = TRUE,
+           title = "Interactive Tree", status = "primary", solidHeader = TRUE, height = phylo_height + 100,
            collapsible = TRUE,
-           phylowidgetOutput("phylo_plot5", height = "800px", width = "98%")
+           tags$div(id = "phylo_pocket5", style = paste0("width: 1300px; height: ",  phylo_height + 50, "px"),
+                    phylowidgetOutput("phylo_plot5", height = paste0(phylo_height,"px"), width = "98%"))
        )
      })
+     
      
      UI_exist_phylo5 <<- T
      
@@ -21389,7 +21405,7 @@ server <- function(input, output) {
            title = "MSA Explorer", status = "primary", solidHeader = TRUE, height = msa_height,
            collapsible = TRUE,
            tags$div(id = "msa_pocket5", style = "width: 1300px; height: 400px",
-                    msaROutput("msa_print5")),
+                    msaROutput("msa_print5"))
            
        )
      })
@@ -21745,11 +21761,12 @@ server <- function(input, output) {
      {
        if (nrow(enr_table) > 4)
        {
-         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15) + theme(legend.position='none')
+         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(label_words_n = 3)) +
+           theme(legend.position='none')
        }
        else if (nrow(enr_table) > 2)
        {
-         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2)) + 
+         tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2, label_words_n = 3)) + 
            theme(legend.position='none')
        }
        else
@@ -21868,7 +21885,7 @@ server <- function(input, output) {
    output$gos_plot5 <- renderImage({
      ema_gos_plot <- ema_gos_plot5()
      
-     png("pharaoh_folder/gosplot.png")
+     png("pharaoh_folder/gosplot.png", width = 590, height = 590, res = 90)
      plot(ema_gos_plot)
      dev.off()
      list(src = "pharaoh_folder/gosplot.png",
@@ -21881,7 +21898,7 @@ server <- function(input, output) {
    output$gos_treeplot5 <- renderImage({
      tree_gos_plot <- tree_gos_plot5()
      
-     png("pharaoh_folder/treeplot.png")
+     png("pharaoh_folder/treeplot.png", width = 620, height = 590, res = 80)
      plot(tree_gos_plot)
      dev.off()
      list(src = "pharaoh_folder/treeplot.png",
@@ -21911,7 +21928,7 @@ server <- function(input, output) {
      content= function(file) {
        ema_gos_plot <- ema_gos_plot5()
        
-       png(file, height = 600, width = 800)
+       png(file, height = 1200, width = 1500, res=140)
        plot(ema_gos_plot)
        dev.off()
      })
@@ -21924,7 +21941,7 @@ server <- function(input, output) {
      content= function(file) {
        tree_gos_plot <- tree_gos_plot5()
        
-       png(file, height = 800, width = 1000)
+       png(file, height = 1200, width = 1500, res=140)
        plot(tree_gos_plot)
        dev.off()
      })
