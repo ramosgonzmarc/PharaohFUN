@@ -136,20 +136,17 @@ ui <- dashboardPage(
   
   dashboardHeader( #disable = TRUE
     title = "PharaohFUN",
-                  dropdownMenu(badgeStatus = "warning", icon = icon("question"), headerText = "", type = "notifications",
-                               notificationItem(
-                                 text = "A tutorial is available at",
-                                 icon("question"),
-                                 status = "success"
-                               )),
-                  dropdownMenu(headerText = "", icon = icon("address-book"), type = "notifications",
-                               notificationItem(
-                                 text = "Contact us at",
-                                 icon = icon("question")
-                               ))
-                  
-                               
-                  ),
+    tags$li(a(href = 'https://www.ibvf.us-csic.es/', tags$img(src = 'logoibvf.png',
+                                                              title = "IBVF", height = "20px"), style = "margin-top: 0px;"),
+            class = "dropdown"),
+    tags$li(a(href = 'https://www.us.es/', tags$img(src = 'Logo_US.png',
+                                                    title = "US", height = "20px"), style = "margin-top: 0px;"),
+            class = "dropdown"),
+    tags$li(a(href = 'https://www.csic.es/es', tags$img(src = '2560px-Logotipo_del_CSIC.svg.png',
+                                                        title = "CSIC", height = "20px"), style = "margin-top: 0px;"),
+            class = "dropdown")
+  ),
+  
   dashboardSidebar(
     ## Sidebar content
     dashboardSidebar( 
@@ -161,466 +158,652 @@ ui <- dashboardPage(
         menuItem("Batch mode", icon = icon("layer-group"), tabName = "batch_search"),
         menuItem("Sequence from new organism", icon = icon("leaf", lib = "glyphicon"), tabName = "shoot_search"),
         menuItem("Source code", icon = icon("code"), 
-                 href = "https://github.com/fran-romero-campero/AlgaeFUN")
+                 href = "https://github.com/fran-romero-campero/AlgaeFUN"),
+        menuItem("Contact and Tutorial", icon = icon("envelope"), tabName = "contact_tutorial")
       )
     )
   ),
   dashboardBody(
     ## Body content
     
-      tabItems(
-        
-        # First tab content
-        tabItem(tabName = "home",
-                #tags$head(tags$style(HTML("a {color: white}"))),
-                h2("PharaohFUN: Phylogenomic Analysis for Plant Protein History and Function Elucidation"),
-                br(),
-                fluidRow(
-                valueBox(a("Gene ID", href="#shiny-tab-gene_search", "data-toggle" = "tab", "style" = "color:white"), 
-                         "Gene ID from one of the listed organisms",
-                         icon = icon("dna"), width = 4),
-                
-                valueBox(a("Sequence", href="#shiny-tab-seq_search", "data-toggle" = "tab", "style" = "color:white"), 
-                         "Protein sequence from one of the listed organisms",
-                         icon = icon("a"), width = 4, color = "lime"),
-                
-                valueBox(a("Orthogroup ID", href="#shiny-tab-og_id_search", "data-toggle" = "tab", "style" = "color:white"), 
-                         "Orthogroup ID (from STRING result)",
-                         icon = icon("dashboard"), width = 4, color = "red")
+    tabItems(
+      
+      # First tab content
+      tabItem(tabName = "home",
+              #tags$head(tags$style(HTML("a {color: white}"))),
+              #h1("PharaohFUN: Phylogenomic Analysis for Plant Protein History and Function Elucidation"),
+              #h1(span(HTML(tab2), style = 'color:green; font-weight: bold;')),
+              tags$br(),
+              
+              fluidRow(column(9,
+                              tags$div(span("PharaohFUN: Phylogenomic Analysis for Plant Protein History and Function Elucidation",
+                                            style = 'color: #1f618d; font-weight: 540; font-size: 42px; font-family: "Alatsi"", Verdana, sans-serif;')),
+                              style = "margin-top: 45px; margin-left: 35px;"
+                              
+              ),
+              column(2, 
+                     img(
+                       src = "pharaohlogo-removebg-preview.png",
+                       alt = "logo",
+                       width = 220,
+                       height = 220, style="display: block; margin-left: 0px``; margin-right: auto;"
+                     )
+              ),
+              column(1)
+              ),
+              # Put a margin on the right
+              fluidRow(
+                column(11,
+                       tags$br(),
+                       tags$br(),
+                       tags$div(align="justify", tags$b("PharaohFUN"), "allows researchers to explore orthologous proteins across different evolutionarily 
+                       distant species given a target protein. The tool focuses on photosynthetic eukaryotes, whether brown, red, green microalgae
+                       or land plants. It offers flexibility in terms of the available search modalities, allowing the use of 
+                             up to 5 different ones:", style = 'font-size: 18px; margin-left: 20px;'
+                                
+                       ),
+                       fluidRow(tags$br()),
+                       fluidRow(tags$br()),
+                       fluidRow(
+                         column(1),
+                         column(12,
+                                valueBox(a("Gene ID", href="#shiny-tab-gene_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                         "Gene ID from one of the listed organisms",
+                                         icon = icon("dna"), width = 4),
+                                
+                                valueBox(a("Sequence", href="#shiny-tab-seq_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                         "Protein sequence from one of the listed organisms",
+                                         icon = icon("a"), width = 4, color = "lime"),
+                                
+                                valueBox(a("Orthogroup ID", href="#shiny-tab-og_id_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                         "Orthogroup ID (from STRING result)",
+                                         icon = icon("dashboard"), width = 4, color = "red")
+                         )
+                       ),
+                       fluidRow(
+                         
+                         column(2),
+                         valueBox(a("Batch mode", href="#shiny-tab-batch_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                  "Sequences set from one of the listed organisms",
+                                  icon = icon("layer-group"), width = 4, color = "orange"),
+                         
+                         valueBox(a("New organism", href="#shiny-tab-shoot_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                  "Protein sequence from any organism",
+                                  icon = icon("leaf", lib = "glyphicon"), width = 4, color = "purple")
+                       ),
+                       
+                       fluidRow(tags$br()),
+                       tags$div(align="justify", style = 'font-size: 18px; margin-left: 30px;',
+                                tags$ol(
+                                  tags$li(tags$b("Gene ID-based search"), ". When the identifier of a gene in one of the species available 
+                                       in the database is known, it allows the direct search for a gene. Only one gene
+                                       per query corresponding to a species supported by the tool."),
+                                  tags$li(tags$b("Sequence-based search"),". If an identifier is not known or differs from the nomenclature
+                                       used by the tool, this modality maps an amino acid sequence onto the proteome of the 
+                                       species, identifying the protein and eliminating possible ambiguities. Only one sequence
+                                       per query corresponding to a species supported by the tool."),
+                                  tags$li(tags$b("Orthogroup ID-based search"),". When the identifier of an orthogroup is known (typically 
+                                       from STRING results of previous searches), it is possible to explore it directly
+                                       without resorting to searching for individual genes. Only one orthogroup per query."),
+                                  tags$li(tags$b("Batch mode search"),". It allows searching for multiple (up to 300) IDs or sequences 
+                                       automatically, creating a folder with the sorted results. All genes must correspond
+                                       to a single species supported by the tool."),
+                                  tags$li(tags$b("New organism search"),". Unlike the previous cases, if you want to perform a study of 
+                                       a protein that does not come from a species supported by the tool, this search method 
+                                       allows the inclusion of the sequence in the gene tree and in subsequent analyses. Only
+                                       one sequence per query from any organism.")
+                                )
+                       ),
+                       
+                       fluidRow(br()),
+                       fluidRow(br()),
+                       fluidRow(
+                         column(7, 
+                                tags$div(align="justify", style = 'font-size: 18px; margin-left: 20px;',  br(), 
+                                         "The exploration of orthology is based on the construction of orthogroups, sets of genes that descend from a 
+                         single gene in the common ancestor of the species under study. In this way, it is possible to trace the evolutionary 
+                         history of these genes and to analyze the changes that the orthogroup has undergone from its appearance to 
+                         its current situation in the extant species.", br(), br(), "Regarding the species supported by the tool, two different models are offered. 
+                         The default model focuses on 36 species of the ", tags$b("Viridiplantae"), " clade, with representatives of the 
+                         Chlorophyta and Streptophyta clades chosen to span the evolutionary set of these groups.",
+                                         br(), br(),"Furthermore, an additional ", tags$b("Global"), " model includes species from the whole Archaeplastida clade, 
+                         as well as examples of Stramenopiles and Cryptophytes. Note that although both models contain the green lineage,
+                         their results may vary because the common ancestors of the groups are very distant in time,
+                         so for a more accurate analysis it is recommended to use the Viridiplantae model, while for a more 
+                         generalist one the Global model should yield more information.", br(), br(), "After the construction of 
+                         the tree, PharaohFUN allows the exploration of the proteins encoded by the orthogroup genes, implementing 
+                         modules for interactive tree viewing, PFAM module determination, multiple sequence alignment, Gene Ontology 
+                         terms annotation, KEGG pathways annotation, exploration of physical interactions between proteins 
+                         and scientific literature annotation.")
+                         ),
+                         column(4,
+                                tags$div(style = "margin-left: 20px;",
+                                         img(
+                                           src = "species_gg46-removebg-preview.png",
+                                           alt = "species",
+                                           width = 400,
+                                           height = 600, style="display: block; margin-left: 20px; margin-right: auto;"
+                                         )
+                                )
+                         ),
+                         column(1)
+                         
+                       ),
+                       fluidRow(br()),
                 ),
                 
-                fluidRow(
-                  
-                  column(2),
-                  valueBox(a("Batch mode", href="#shiny-tab-batch_search", "data-toggle" = "tab", "style" = "color:white"), 
-                           "Sequences set from one of the listed organisms",
-                           icon = icon("layer-group"), width = 4, color = "orange"),
-                  
-                  valueBox(a("New organism", href="#shiny-tab-shoot_search", "data-toggle" = "tab", "style" = "color:white"), 
-                           "Protein sequence from any organism",
-                           icon = icon("leaf", lib = "glyphicon"), width = 4, color = "purple"),
-                  br(),
-                  br(),
-                  fluidRow(br()),
-                  
-                  box(status = "primary", width = 12, title = "",
-                      
-                      fluidRow(),
-                      img(
-                        src = "species_gg46.png",
-                        alt = "streptophytes",
-                        width = 900,
-                        height = 550, style="display: block; margin-left: auto; margin-right: auto;"
-                      )
-                      )
-                  
-                )
-        ),
-       
-        # Second tab content
-        tabItem(tabName = "gene_search",
-                h2(""),
-                fluidRow(valueBox("Gene ID-based search", 
-                         subtitle = "Single gene, available organism",
-                         icon = icon("dna"), width = 6)),
-                br(),
-                box(
-                  title = span(tags$b("Organism selection"), style = "color:#34c5d1; font-size: 20px; "), status = "info", width = "500",
-                  "Please select the desired organisms from the following list for performing the analysis.
+                # Right Margin
+                column(1)
+              )
+              
+              
+              
+              
+      ),
+      
+      # Second tab content
+      tabItem(tabName = "gene_search",
+              h2(""),
+              fluidRow(valueBox("Gene ID-based search", 
+                                subtitle = "Single gene, available organism",
+                                icon = icon("dna"), width = 6)),
+              br(),
+              box(
+                title = span(tags$b("Organism selection"), style = "color:#34c5d1; font-size: 20px; "), status = "info", width = "500",
+                "Please select the desired organisms from the following list for performing the analysis.
                   Please take care of selecting the organism whose gene ID is being inputted. Organisms in 
                   green belong to Viridiplantae, while other colors indicate groups outside this clade.", br(), br(),
-                  column(3,
-                         checkboxGroupInput(
-                           "tsar_check_1",
-                           p("Cryptophytes and TSAR", class= "h4",
-                             tags$img(
-                               src = "phaeodactylum.png",
-                               alt = "streptophytes",
-                               width = 25,
-                               height = 25, style = "margin-left: 10px;"
-                             )
-                           ),
-                           choices = column1,
-                           inline = F,
-                           selected = NULL),
-                         checkboxGroupInput(
-                           "rhodo_check_1",
-                           p("Rhodophytes", class= "h4",
-                             tags$img(
-                               src = "porphyra.png",
-                               alt = "rhodophyta",
-                               width = 25,
-                               height = 25, style = "margin-left: 10px;"
-                             )
-                           ),
-                           choices = column2,
-                           inline = F,
-                           selected = NULL),
-                         checkboxGroupInput(
-                           "glauco_check_1",
-                           p("Glaucophytes", class= "h4",
-                             tags$img(
-                               src = "cyanophora.png",
-                               alt = "glaucophytes",
-                               width = 18,
-                               height = 30, style = "margin-left: 10px;"
-                             )
-                           ),
-                           choices = column3,
-                           inline = F,
-                           selected = NULL)
+                column(3,
+                       checkboxGroupInput(
+                         "tsar_check_1",
+                         p("Cryptophytes and TSAR", class= "h4",
+                           tags$img(
+                             src = "phaeodactylum.png",
+                             alt = "streptophytes",
+                             width = 25,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column1,
+                         inline = F,
+                         selected = NULL),
+                       checkboxGroupInput(
+                         "rhodo_check_1",
+                         p("Rhodophytes", class= "h4",
+                           tags$img(
+                             src = "porphyra.png",
+                             alt = "rhodophyta",
+                             width = 25,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column2,
+                         inline = F,
+                         selected = NULL),
+                       checkboxGroupInput(
+                         "glauco_check_1",
+                         p("Glaucophytes", class= "h4",
+                           tags$img(
+                             src = "cyanophora.png",
+                             alt = "glaucophytes",
+                             width = 18,
+                             height = 30, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column3,
+                         inline = F,
+                         selected = NULL)
+                       
+                ),
+                column(3,
+                       checkboxGroupInput(
+                         "mami_check_1",
+                         p("Mamiellophyceae", class= "h4",
+                           tags$img(
+                             src = "bathycoccus.png",
+                             alt = "mamiellales",
+                             width = 20,
+                             height = 22, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column4,
+                         inline = F,
+                         selected = NULL),
+                       
+                       checkboxGroupInput(
+                         "chloro_check_1",
+                         p("Other Chlorophytes", class= "h4",
+                           tags$img(
+                             src = "scenedesmus.png",
+                             alt = "chlorophytes",
+                             width = 50,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column5,
+                         inline = F,
+                         selected = NULL)
+                ),
+                column(3,
+                       checkboxGroupInput(
+                         "strepto_check_1",
+                         p("Streptophyte algae", class= "h4",
+                           tags$img(
+                             src = "klebsormidium.png",
+                             alt = "streptophytes",
+                             width = 25,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column6,
+                         inline = F,
+                         selected = NULL),
+                       
+                       checkboxGroupInput(
+                         "bryo_check_1",
+                         p("Bryophytes", class= "h4",
+                           tags$img(
+                             src = "marchantia.png",
+                             alt = "bryophyta",
+                             width = 32,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column7,
+                         inline = F,
+                         selected = NULL)
+                ),
+                
+                column(3,
+                       checkboxGroupInput(
+                         "lyco_check_1",
+                         p("Lycophytes and Ferns", class= "h4",
+                           tags$img(
+                             src = "selaginella.png",
+                             alt = "lycophyta",
+                             width = 50,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
                          
-                  ),
-                  column(3,
-                         checkboxGroupInput(
-                           "mami_check_1",
-                           p("Mamiellophyceae", class= "h4",
-                             tags$img(
-                               src = "bathycoccus.png",
-                               alt = "mamiellales",
-                               width = 20,
-                               height = 22, style = "margin-left: 10px;"
-                             )
-                           ),
-                           choices = column4,
-                           inline = F,
-                           selected = NULL),
-                         
-                         checkboxGroupInput(
-                           "chloro_check_1",
-                           p("Other Chlorophytes", class= "h4",
-                             tags$img(
-                               src = "scenedesmus.png",
-                               alt = "chlorophytes",
-                               width = 50,
-                               height = 25, style = "margin-left: 10px;"
-                             )
-                           ),
-                           choices = column5,
-                           inline = F,
-                           selected = NULL)
-                  ),
-                  column(3,
-                         checkboxGroupInput(
-                           "strepto_check_1",
-                           p("Streptophyte algae", class= "h4",
-                             tags$img(
-                               src = "klebsormidium.png",
-                               alt = "streptophytes",
-                               width = 25,
-                               height = 25, style = "margin-left: 10px;"
-                             )
-                           ),
-                           choices = column6,
-                           inline = F,
-                           selected = NULL),
-                         
-                         checkboxGroupInput(
-                           "bryo_check_1",
-                           p("Bryophytes", class= "h4",
-                             tags$img(
-                               src = "marchantia.png",
-                               alt = "bryophyta",
-                               width = 32,
-                               height = 25, style = "margin-left: 10px;"
-                             )
-                           ),
-                           choices = column7,
-                           inline = F,
-                           selected = NULL)
-                  ),
-                  
-                  column(3,
-                         checkboxGroupInput(
-                           "lyco_check_1",
-                           p("Lycophytes and Ferns", class= "h4",
-                             tags$img(
-                               src = "selaginella.png",
-                               alt = "lycophyta",
-                               width = 50,
-                               height = 25, style = "margin-left: 10px;"
-                             )
-                           ),
-                           
-                           choices = column8,
-                           inline = F,
-                           selected = NULL),
-                         
-                         checkboxGroupInput(
-                           "sperma_check_1",
-                           p("Spermatophyta", class= "h4",
-                             tags$img(
-                               src = "arabidopsis.png",
-                               alt = "spermatophyta",
-                               width = 25,
-                               height = 25, style = "margin-left: 10px;"
-                             )
-                           ),
-                           choices = column9,
-                           inline = F,
-                           selected = NULL)
-                  ),
-                  
-                  fluidRow(br()),
-                  fluidRow(br()),
-                  
-                  span(tags$b("Tree building method"), style = "color:#34c5d1; font-size: 20px; "),
-                  div(br()),
-                  
-                  div("The first step in any study using PharaohFUN is the construction of the 
+                         choices = column8,
+                         inline = F,
+                         selected = NULL),
+                       
+                       checkboxGroupInput(
+                         "sperma_check_1",
+                         p("Spermatophyta", class= "h4",
+                           tags$img(
+                             src = "arabidopsis.png",
+                             alt = "spermatophyta",
+                             width = 25,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column9,
+                         inline = F,
+                         selected = NULL)
+                ),
+                
+                fluidRow(br()),
+                fluidRow(br()),
+                
+                span(tags$b("Tree building method"), style = "color:#34c5d1; font-size: 20px; "),
+                div(br()),
+                
+                div("The first step in any study using PharaohFUN is the construction of the 
                     gene tree corresponding to the selected orthogroup. For this, four standard methods 
                     are offered, select one before continuing. Default is performed with FastTree using Orthofinder 2
                     pipeline, which renders trees by aproximate maximum-likelihood and then reconciliate
                     gene trees with the species tree shown in the Home tab. For the other three methods,
                     no reconciliation is performed but support for each branch is shown as bootstrap 
                     values."),
-                  
-                  shinyWidgets::awesomeRadio(
-                    inputId = "build_trees_1",
-                    label = "", 
-                    choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Parsimony"),
-                    selected = "Maximum Likelihood",
-                    inline = TRUE, 
-                    status = "info"
-                  ),
-                  
-                  fluidRow(br()),
-                  
-                  span(tags$b("Insert gene ID"), style = "color:#34c5d1; font-size: 20px; "),
-                  div(br()),
-                  
-                  div("Below you can write the ID associated to the protein whose evolutionary history you
+                
+                shinyWidgets::awesomeRadio(
+                  inputId = "build_trees_1",
+                  label = "", 
+                  choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Parsimony"),
+                  selected = "Maximum Likelihood",
+                  inline = TRUE, 
+                  status = "info"
+                ),
+                
+                fluidRow(br()),
+                
+                span(tags$b("Insert gene ID"), style = "color:#34c5d1; font-size: 20px; "),
+                div(br()),
+                
+                div("Below you can write the ID associated to the protein whose evolutionary history you
                              wish to analyze. Then, select a model: Global or Viridiplantae (default
                              is Viridiplantae). Note that the groups TSAR
                              and Cryptophytes, Rhodophytes and Glaucophytes do not belong to Viridiplantae, so they
                              will be ignored in case this is the selected model."),
                 
-                  fluidRow(
-                    column(5, textInput("geneInt1", label = "", 
-                                        width = "100%", placeholder = "AT2G46830")),
-                   
-                    column(1, div( style = "margin-top: 20px;", 
-                                   shinyWidgets::actionBttn("run_button1", "Run", size = "sm", icon = icon("magnifying-glass"),
-                                                            style = "float", color = "primary"))),
+                fluidRow(
+                  column(5, textInput("geneInt1", label = "", 
+                                      width = "100%", placeholder = "AT2G46830")),
+                  
+                  column(1, div( style = "margin-top: 20px;", 
+                                 shinyWidgets::actionBttn("run_button1", "Run", size = "sm", icon = icon("magnifying-glass"),
+                                                          style = "float", color = "primary"))),
                   column(3,div(style = "margin-top: 24px;",
                                shinyWidgets::materialSwitch(inputId = "switch1", label = "Global", 
                                                             value = T, status = "info", inline = TRUE),
                                span("Viridiplantae")))
                 )
                 
-                ),
-                
-                br(),
-                fluidRow(
-                  box(status = "info", width = 12, 
-                      title = span(tags$b("Results"), style = "color:#34c5d1; font-size: 20px; "),
-                      "Results for the query gene and species are displayed below, arranged in 
+              ),
+              
+              br(),
+              fluidRow(
+                box(status = "info", width = 12, 
+                    title = span(tags$b("Results"), style = "color:#34c5d1; font-size: 20px; "),
+                    "Results for the query gene and species are displayed below, arranged in 
                       different tabs. The execution of each analysis is initiated from the start 
-                      button within each of the tabs, with specific instructions for each analysis.",
-                      div(br()),
-                      tabsetPanel(type = "tabs",
-                                  tabPanel("Genes Tree",
-                                           fluidRow(br()),
-                                           shinyjs::useShinyjs(),
-                                           shinyjs::hidden(div(id='loading.tree1',h3('Please be patient, building tree ...'))),
-                                           uiOutput(outputId = "error_tree1"),
-                                           splitLayout(cellWidths = c("50%", "50%"),
-                                                       tags$div(id = "box_tree_text1"), tags$div(id = "box_tree_pie1")),
-                                           fluidRow(tags$br()),
-                                           fluidRow(tags$div(id = "box_tree_plot1")),
-                                           splitLayout(cellWidths = c("33%", "33%", "33%"), 
-                                                       tags$div(id = "download_tree1"),
-                                                       tags$div(id = "download_newick1"),
-                                                       tags$div(id = "download_tree_seqs1"))
-                                           ),
-                                  tabPanel("Collapsable tree",
-                                           fluidRow(tags$br()),
-                                           shinyWidgets::actionBttn("phylo_start1", "Show Collapsable Tree",
-                                                                    size = "sm", icon = icon("magnifying-glass"),
-                                                                    style = "float", color = "primary"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "box_phylo1"),
-                                           fluidRow(tags$br())
-                                  ),
-                                  tabPanel("Expansion/Contraction",
-                                            fluidRow(tags$br()),
-                                            shinyWidgets::actionBttn("cafe_start1", "Show Evolutionary History",
-                                                                    size = "sm", icon = icon("magnifying-glass"),
-                                                                    style = "float", color = "primary"),
-                                           fluidRow(tags$br()),
-                                          
-                                           shinyjs::hidden(div(id='loading.cafe1', h3('Please be patient, reconstructing expansion/contraction events ...'))),
-                                           tags$div(id = "error_cafe1"),
-                                           tags$div(id = "box_mrca1"),
-                                           tags$br(),
-                                           tags$div(id = "box_cafe1"),
-                                           fluidRow(tags$br()),
-                                           splitLayout(cellWidths = c("50%", "50%"),
-                                           tags$div(id = "cafe_down_button1"),
-                                           tags$div(id = "download_ui_for_cafe_plot1"))
-                                           ),
-                                  tabPanel("PFAM Domains", 
-                                           fluidRow(tags$br()),
-                                           shinyWidgets::actionBttn("pfam_start1", "Show Gene Selection for Pfam",
-                                                                    size = "sm", icon = icon("magnifying-glass"),
-                                                                    style = "float", color = "primary"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "selected_pfams1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "pfam_selectionI1"),
-                                           fluidRow(tags$br()),
-                                           shinyjs::hidden(div(id='loading.pfam.pf1',h3('Please be patient, identifying domains ...'))),
-                                           uiOutput(outputId = "error_pfam1"),
-                                           tags$div(id = "box_pfam1"),
-                                           tags$br(),
-                                           tags$div(id = "box_pfplot1"),
-                                           fluidRow(tags$br()),
-                                           splitLayout(cellWidths = c("50%", "50%"), 
-                                                      tags$div(id = "pfam_down_button1"),
-                                                      tags$div(id = "download_ui_for_pfam_table1")
-                                                      )
-                                           ),
-                                  tabPanel("Multiple Sequence Alignment",
-                                           fluidRow(tags$br()),
-                                           shinyWidgets::actionBttn("msa_start1", "Show Gene Selection for MSA",
-                                                                    size = "sm", icon = icon("magnifying-glass"),
-                                                                    style = "float", color = "primary"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "selected_msa1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "msa_method1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "msa_selectionI1"),
-                                           fluidRow(tags$br()),
-                                           shinyjs::hidden(div(id='loading.msa1',h3('Please be patient, aligning sequences ...'))),
-                                           uiOutput(outputId = "error_msa1"),
-                                           tags$div(id = "box_msa1"),
-                                           fluidRow(tags$br()),
-                                           splitLayout(cellWidths = c("50%", "50%"),
-                                                       tags$div(id = "msa_down_fasta1"),
-                                                       tags$div(id = "msa_down_plot1"))
-                                           ),
-                                  tabPanel("GO Terms", 
-                                           fluidRow(tags$br()),
-                                           shinyWidgets::actionBttn("go_start1", "Show Gene Selection for GO Annotation",
-                                                                    size = "sm", icon = icon("magnifying-glass"),
-                                                                    style = "float", color = "primary"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "selected_gos1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "selected_gos_mode1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "gos_selection1"),
-                                           fluidRow(tags$br()),
-                                           shinyjs::hidden(div(id='loading.go1',h3('Please be patient, preparing results ...'))),
-                                           uiOutput(outputId = "error_gos1"),
-                                           tags$div(id = "box_gos_table1"),
-                                           fluidRow(tags$br()),
-                                           splitLayout(cellWidths = c("50%", "50%"),
-                                                       tags$div(id = "box_gos_plot1"), tags$div(id = "box_gos_treeplot1")),
-                                           fluidRow(tags$br()),
-                                           splitLayout(cellWidths = c("33%", "33%", "33%"), 
-                                                       tags$div(id = "download_ui_for_gos_table1"),
-                                                       tags$div(id = "gos_down_button1"),
-                                                       tags$div(id = "tree_gos_down_button1"))
-                                           
-                                           
-                                           ),
-                                  tabPanel("KEGG Orthology",
-                                           fluidRow(tags$br()),
-                                           shinyWidgets::actionBttn("kegg_start1", "Show Gene Selection for KEGG Annotation",
-                                                                    size = "sm", icon = icon("magnifying-glass"),
-                                                                    style = "float", color = "primary"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "selected_kos1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "kos_selection1"),
-                                           fluidRow(tags$br()),
-                                           shinyjs::hidden(div(id='loading.ko1',h3('Please be patient, exploring pathways ...'))),
-                                           uiOutput(outputId = "error_kos1"),
-                                           tags$div(id = "box_kos_table1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "box_kegg_table1"),
-                                           fluidRow(tags$br()),
-                                           splitLayout(cellWidths = c("50%", "50%"), 
-                                                       tags$div(id = "download_ui_for_kos_table1"),
-                                                       tags$div(id = "download_ui_for_kegg_table1")),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "selected_paths1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "paths_button1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "box_path_image1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "path_download_ui1")
-                                           
-                                           ),
-                                  tabPanel("STRING Interactions",
-                                           fluidRow(tags$br()),
-                                           shinyWidgets::actionBttn("string_start1", "Show Gene Selection for STRING annotation",
-                                                                    size = "sm", icon = icon("magnifying-glass"),
-                                                                    style = "float", color = "primary"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "selected_string1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "string_selection1"),
-                                           fluidRow(tags$br()),
-                                           shinyjs::hidden(div(id='loading.string1',h3('Please be patient, retrieving interactions ...'))),
-                                           uiOutput(outputId = "error_string1"),
-                                           tags$div(id = "box_st_table1"),
-                                           fluidRow(tags$br()),
-                                           splitLayout(cellWidths = c("50%", "50%"),
-                                                       tags$div(id = "box_count_table1"), tags$div(id = "box_count_plot1")),
-                                           fluidRow(tags$br()),
-                                           splitLayout(cellWidths = c("33%", "33%", "33%"), 
-                                                       tags$div(id = "download_ui_for_st_table1"),
-                                                       tags$div(id = "download_ui_for_count_table1"),
-                                                       tags$div(id = "count_down_button1")),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "selected_network1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "network_button1"),
-                                           fluidRow(tags$br()),
-                                           uiOutput(outputId = "error_network1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "box_output_network1")
-                                           ),
-                                  tabPanel("Literature Annotation", 
-                                           fluidRow(tags$br()),
-                                           shinyWidgets::actionBttn("lit_start1", "Show Search Box for Literature Annotation",
-                                                                    size = "sm", icon = icon("magnifying-glass"),
-                                                                    style = "float", color = "primary"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "query_lit1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "selected_lit1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "lit_selection1"),
-                                           fluidRow(tags$br()),
-                                           shinyjs::hidden(div(id='loading.lit1',h3('Please be patient, browsing literature ...'))),
-                                           uiOutput(outputId = "error_lit1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "box_lit_table1"),
-                                           fluidRow(tags$br()),
-                                           tags$div(id = "download_ui_for_lit_table1")
-                                           
-                                           )
-                      ))
-                )
-        ),
-                
-                 
-        # Third tab content
-        tabItem(tabName = "seq_search",
-                h2(""),
-                fluidRow(valueBox("Sequence-based search", 
-                                  subtitle = "Single gene, available organism",
-                                  icon = icon("a"), width = 6, color = "lime")),
-                br(),
+                      button within each of the tabs, with specific instructions for each analysis. First, go to Gene Tree tab,
+                      which shows a gene tree containing the genes corresponding to the same orthogroup as the query in the
+                      selected species. The rest of the tabs allow for a deeper exploration of these genes. Do not start any 
+                      analysis before creating gene tree.",
+                    div(br()),
+                    tabsetPanel(type = "tabs",
+                                tabPanel("Gene Tree",
+                                         fluidRow(br()),
+                                         div("This tab shows three different results. First of all, a complete list of the genes
+                                               that are assigned to the same orthogroup as the query. Secondly, the proportion of
+                                               genes of each species. Finally, a gene tree show the evolutionary relationships 
+                                               between those genes. All results can be downloaded using the buttons at the bottom
+                                               of the page."),
+                                         fluidRow(br()),
+                                         shinyjs::useShinyjs(),
+                                         shinyjs::hidden(div(id='loading.tree1',h3('Please be patient, building tree ...'))),
+                                         uiOutput(outputId = "error_tree1"),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "box_tree_text1"), tags$div(id = "box_tree_pie1")),
+                                         fluidRow(tags$br()),
+                                         fluidRow(tags$div(id = "box_tree_plot1")),
+                                         splitLayout(cellWidths = c("33%", "33%", "33%"), 
+                                                     tags$div(id = "download_tree1"),
+                                                     tags$div(id = "download_newick1"),
+                                                     tags$div(id = "download_tree_seqs1"))
+                                ),
+                                tabPanel("Collapsable tree",
+                                         fluidRow(tags$br()),
+                                         div("This tab allows an interactive visualization of the previous tree. 
+                                               In particular, in situations where gene duplications have given rise 
+                                               to several clades and you want to reduce the tree not in relation to 
+                                               the species that appear, but to these clades, this visualization allows 
+                                               the collapse of subtrees and the simple exploration of the areas of interest. 
+                                               Press Show Collapsable Tree to show the tree."),
+                                         fluidRow(br()),
+                                         shinyWidgets::actionBttn("phylo_start1", "Show Collapsable Tree",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "primary"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_phylo1"),
+                                         fluidRow(tags$br())
+                                ),
+                                tabPanel("Expansion/Contraction",
+                                         fluidRow(tags$br()),
+                                         div("Click the Show Evolutionary History button to calculate the species tree showing 
+                                               the reconstruction of ancestral states of the orthogroup, i.e. the number of genes 
+                                               calculated for each common ancestor of each species. In case there has been no significant 
+                                               variation in the size of the orthogroup or the variability is so high between species that
+                                               the sizes cannot be reliably calculated, the tree will not be plotted. For orthogroups that
+                                               have undergone significant expansions or contractions along any branch, these are marked 
+                                               in red and blue on the tree, respectively. In turn, the loss or non-existence of orthogroup
+                                               genes in the different clades is represented in gray."),
+                                         fluidRow(br()),
+                                         shinyWidgets::actionBttn("cafe_start1", "Show Evolutionary History",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "primary"),
+                                         fluidRow(tags$br()),
+                                         
+                                         shinyjs::hidden(div(id='loading.cafe1', h3('Please be patient, reconstructing expansion/contraction events ...'))),
+                                         tags$div(id = "error_cafe1"),
+                                         tags$div(id = "box_mrca1"),
+                                         tags$br(),
+                                         tags$div(id = "box_cafe1"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "cafe_down_button1"),
+                                                     tags$div(id = "download_ui_for_cafe_plot1"))
+                                ),
+                                tabPanel("PFAM Domains", 
+                                         fluidRow(tags$br()),
+                                         div("Next, click on the Show Gene Selection for Pfam button, select the desired proteins
+                                               from the tree and click on the Show Pfam Domains button to determine their PFAM domains.
+                                               A table with the domains of each protein and their positions will be displayed, as well 
+                                               as a plot showing the same information. Links to each domain's data are provided.
+                                               Warning: this process may take a long time in the case of selecting many proteins."),
+                                         fluidRow(br()),
+                                         shinyWidgets::actionBttn("pfam_start1", "Show Gene Selection for Pfam",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "primary"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_pfams1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "pfam_selectionI1"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.pfam.pf1',h3('Please be patient, identifying domains ...'))),
+                                         uiOutput(outputId = "error_pfam1"),
+                                         tags$div(id = "box_pfam1"),
+                                         tags$br(),
+                                         tags$div(id = "box_pfplot1"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"), 
+                                                     tags$div(id = "pfam_down_button1"),
+                                                     tags$div(id = "download_ui_for_pfam_table1")
+                                         )
+                                ),
+                                tabPanel("Multiple Sequence Alignment",
+                                         fluidRow(br()),
+                                         div("Press the Show Gene Selection for MSA button to enable the selection of genes 
+                                           from the tree to be aligned. Two alignment methods are supported: ClustalOmega uses this 
+                                           algorithm to perform a de novo multiple sequence alignment of the selected proteins, while 
+                                           the second option filters the precalculated MSA of the entire orthogroup (computed using the 
+                                           software MAFFT) to retain 
+                                           only the selected sequences, removing columns containing only gaps in the chosen subset. Thus,
+                                           this second option retains the evolutionary framework to which the entire orthogroup is ascribed, 
+                                           while the first aligns only the chosen sequences. The resulting alignment can be explored interactively,
+                                           including searching for patterns USING Selection -> Find Motifs and different cholor schemes can be applied 
+                                           based on different properties of amino acids. A consensus sequence is shown to summarize the alignment. For 
+                                           a graphical representation with the different amino acids colored according to their chemical nature, click 
+                                           on the Download Colored MSA button. The aligned sequences can also be download as a standard FASTA file.
+                                           Warning: This process (specially the colored download) may take a long time in the case of selecting many proteins."),
+                                         fluidRow(tags$br()),
+                                         shinyWidgets::actionBttn("msa_start1", "Show Gene Selection for MSA",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "primary"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_msa1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "msa_method1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "msa_selectionI1"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.msa1',h3('Please be patient, aligning sequences ...'))),
+                                         uiOutput(outputId = "error_msa1"),
+                                         tags$div(id = "box_msa1"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "msa_down_fasta1"),
+                                                     tags$div(id = "msa_down_plot1"))
+                                ),
+                                tabPanel("GO Terms", 
+                                         fluidRow(tags$br()),
+                                         div("Click on the button to select the genes of interest from the tree and select 
+                                               the ontology type to display the GO terms associated with those genes. After
+                                               pressing the Show GO terms button, the results are displayed in tabular form 
+                                               and are accompanied by a GO association plot (each node is a GO and an edge 
+                                               is drawn between two nodes if a gene from the set share both terms) and a treeplot
+                                               showing the hierarchy of the identified terms and their summary. Links to each 
+                                               individual GO term are avalaible from table and all results can be downloaded in
+                                               standard PNG and TSV files."),
+                                         fluidRow(br()),
+                                         shinyWidgets::actionBttn("go_start1", "Show Gene Selection for GO Annotation",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "primary"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_gos1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_gos_mode1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "gos_selection1"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.go1',h3('Please be patient, preparing results ...'))),
+                                         uiOutput(outputId = "error_gos1"),
+                                         tags$div(id = "box_gos_table1"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "box_gos_plot1"), tags$div(id = "box_gos_treeplot1")),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("33%", "33%", "33%"), 
+                                                     tags$div(id = "download_ui_for_gos_table1"),
+                                                     tags$div(id = "gos_down_button1"),
+                                                     tags$div(id = "tree_gos_down_button1"))
+                                         
+                                         
+                                ),
+                                tabPanel("KEGG Orthology",
+                                         fluidRow(tags$br()),
+                                         div("Click on the button to select the genes of interest from the tree and press
+                                               the Show KEGG information button to show the results. These include a table 
+                                               showing the KEGG Orthology IDs, indicating how many and which of the selected 
+                                               proteins correspond to each ID. In addition, the application performs an enrichment 
+                                               in KEGG pathways from the identified KOs and allows for the plotting of these 
+                                               pathways with the genes mapped onto them, using a selector to choose the pathway
+                                               in case several enriched ones exist. Warning: this process may take a long time 
+                                               in the case of selecting many proteins. Attempts to plot large pathways will
+                                               produce an error, only more specific ones are supported i.e. Carbon metabolism 
+                                               will return an error while Biotin metabolism will not."),
+                                         fluidRow(br()),
+                                         shinyWidgets::actionBttn("kegg_start1", "Show Gene Selection for KEGG Annotation",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "primary"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_kos1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "kos_selection1"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.ko1',h3('Please be patient, exploring pathways ...'))),
+                                         uiOutput(outputId = "error_kos1"),
+                                         tags$div(id = "box_kos_table1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_kegg_table1"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"), 
+                                                     tags$div(id = "download_ui_for_kos_table1"),
+                                                     tags$div(id = "download_ui_for_kegg_table1")),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_paths1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "paths_button1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_path_image1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "path_download_ui1")
+                                         
+                                ),
+                                tabPanel("STRING Interactions",
+                                         fluidRow(tags$br()),
+                                         div("This tab presents the results of interactions of the different proteins 
+                                               for the species supported by the STRING database. After clicking the button,
+                                               the proteins of the species included in the database are displayed. Once the
+                                               desired selection has been made, press the Show String Interactions
+                                               button and a table will be displayed
+                                               indicating in each row an interaction and the type of evidence for its existence,
+                                               either experimental (direct) or ortholog-based (interolog). In addition, a count
+                                               of the orthogroups to which the target proteins belong is computed, presented in
+                                               tabular form and by means of a pie chart, to assess preferential interaction of
+                                               the orthogroup under study with other specific orthogroups. Finally, for
+                                               specific proteins, an
+                                               interaction network can be generated with the proteins that have the most reliable
+                                               interactions with the selected protein. In case more than one protein is selected,
+                                               all of them will appear in the network, which will contain their interactions to 
+                                               determine pathways between them. The network is shown as an image and a button
+                                               that creates the network is provided on the STRING page, where an interactive 
+                                               network with additional protein structure information and SMART domains appears.
+                                               Species currently supported by STRING: Aegilops, Arabidopsis, Bathycoccus, 
+                                               Chara, Chlamydomonas, Coccomyxa, Cyanidioschyzon, Galdieria, Gracilariopsis,
+                                               Guillardia, Klebsormidium, Micromonas, Oryza, Ostreococcus, Phaeodactylum,
+                                               Physcomitrium, Raphidocelis, Scenedesmus, Selaginella, Solanum, Sorghum,
+                                               Triticum and Volvox. Warning: the selection of many proteins in the first
+                                               step can lead to particularly high waiting times."),
+                                         fluidRow(br()),
+                                         shinyWidgets::actionBttn("string_start1", "Show Gene Selection for STRING annotation",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "primary"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_string1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "string_selection1"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.string1',h3('Please be patient, retrieving interactions ...'))),
+                                         uiOutput(outputId = "error_string1"),
+                                         tags$div(id = "box_st_table1"),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("50%", "50%"),
+                                                     tags$div(id = "box_count_table1"), tags$div(id = "box_count_plot1")),
+                                         fluidRow(tags$br()),
+                                         splitLayout(cellWidths = c("33%", "33%", "33%"), 
+                                                     tags$div(id = "download_ui_for_st_table1"),
+                                                     tags$div(id = "download_ui_for_count_table1"),
+                                                     tags$div(id = "count_down_button1")),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_network1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "network_button1"),
+                                         fluidRow(tags$br()),
+                                         uiOutput(outputId = "error_network1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_output_network1")
+                                ),
+                                tabPanel("Literature Annotation", 
+                                         fluidRow(tags$br()),
+                                         div("In the text box, type the search term to query your bibliographic information,
+                                               i.e., CCA1. Then select one of the 4 search modes: Normal returns the entities 
+                                               containing the term, Exact returns those that are identical, Alias returns all 
+                                               aliases associated with the term and Substring returns all those containing a 
+                                               given string. Associations found in the literature are returned in tabular form,
+                                               with links to the papers from which the information was extracted. This
+                                               functionality is based on PlantConnectome, to extend this analysis, it is recommended
+                                               to go to https://connectome.plant.tools/."),
+                                         fluidRow(br()),
+                                         shinyWidgets::actionBttn("lit_start1", "Show Search Box for Literature Annotation",
+                                                                  size = "sm", icon = icon("magnifying-glass"),
+                                                                  style = "float", color = "primary"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "query_lit1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "selected_lit1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "lit_selection1"),
+                                         fluidRow(tags$br()),
+                                         shinyjs::hidden(div(id='loading.lit1',h3('Please be patient, browsing literature ...'))),
+                                         uiOutput(outputId = "error_lit1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "box_lit_table1"),
+                                         fluidRow(tags$br()),
+                                         tags$div(id = "download_ui_for_lit_table1")
+                                         
+                                )
+                    ))
+              )
+      ),
+      
+      
+      # Third tab content
+      tabItem(tabName = "seq_search",
+              h2(""),
+              fluidRow(valueBox("Sequence-based search", 
+                                subtitle = "Single gene, available organism",
+                                icon = icon("a"), width = 6, color = "lime")),
+              br(),
               box(
                 title = span(tags$b("Organism selection"), style = "color:#25d04a; font-size: 20px; "), status = "success", width = "500",
                 "Please select the desired organisms from the following list for performing the analysis.
-                  Please take care of selecting the organism whose gene ID is being inputted.", br(), br(),
+                  Please take care of selecting the organism whose gene ID is being inputted. Organisms in 
+                  green belong to Viridiplantae, while other colors indicate groups outside this clade.", br(), br(),
                 column(3,
                        checkboxGroupInput(
                          "tsar_check_2",
@@ -721,7 +904,7 @@ ui <- dashboardPage(
                          inline = F,
                          selected = NULL)
                 ),
-
+                
                 column(3,
                        checkboxGroupInput(
                          "lyco_check_2",
@@ -782,61 +965,74 @@ ui <- dashboardPage(
                 br(),
                 br(),
                 div("Below you can paste the sequence of the protein whose evolutionary history you
-                             wish to analyze. After pasting it, select a model: Global or Viridiplantae (default
+                             wish to analyze. Then use the selection bar to choose the organism which the pasted sequence
+                             belongs to. After pasting it, select a model: Global or Viridiplantae (default
                              is Viridiplantae). Note that the groups TSAR
                              and Cryptophytes, Rhodophytes and Glaucophytes do not belong to Viridiplantae, so they
                              will be ignored in case this is the selected model."),
                 fluidRow(
-                
+                  
                   column(8, 
-                  textAreaInput(inputId = "geneInt2", 
-                                #label= span(tags$b("Insert a protein chain"), style = "color:#25d04a; font-size: 20px; "),
-                                  "", 
-                                width="200%", height = "200px", 
-                                value= "", resize = "vertical",
-                                placeholder = 
-                                "METNSSGEDLVIKTRKPYTITKQRERWTEEEHNRFIEALRLYGRAWQKIEEHVATKTAVQ...")),
+                         textAreaInput(inputId = "geneInt2", 
+                                       "", 
+                                       width="200%", height = "200px", 
+                                       value= "", resize = "vertical",
+                                       placeholder = 
+                                         "METNSSGEDLVIKTRKPYTITKQRERWTEEEHNRFIEALRLYGRAWQKIEEHVATKTAVQ...")),
                   column(4,
                          
                          fluidRow(
                            
                            column(9,
-                           div(style = "margin-top: 25px;",
-                               # selectInput("organism_input_2", label = "Choose organism", 
-                               #             choices = organisms_values, 
-                               #             selected = organisms_values[1], multiple = FALSE,
-                               #             selectize = TRUE, width = NULL, size = NULL)
-                               shinyWidgets::pickerInput("organism_input_2","Choose organism",
-                                                         choices=names(organisms_values),
-                                                         multiple = F, selected=names(organisms_values)[11])
-                           )
+                                  div(style = "margin-top: 25px;",
+                                      shinyWidgets::pickerInput("organism_input_2","Choose organism",
+                                                                choices=names(organisms_values),
+                                                                multiple = F, selected=names(organisms_values)[11])
+                                  )
+                                  
+                                  
+                           )),
+                         
+                         fluidRow(
+                           column(3, div( style = "margin-top: 85px;", 
+                                          shinyWidgets::actionBttn("run_button2", "Run", size = "sm", icon = icon("magnifying-glass"),
+                                                                   style = "float", color = "success"))),
                            
-                           
-                         )),
-                  
-                        fluidRow(
-                          column(3, div( style = "margin-top: 85px;", 
-                                        shinyWidgets::actionBttn("run_button2", "Run", size = "sm", icon = icon("magnifying-glass"),
-                                        style = "float", color = "success"))),
-                    
-                          column(9,div(style = "margin-top: 89px;",
-                                       shinyWidgets::materialSwitch(inputId = "switch2", label = "Global", 
-                                                                    value = T, status = "success", inline = TRUE),
-                                       span("Viridiplantae"))
-                    
-                        )),
-                  
+                           column(9,div(style = "margin-top: 89px;",
+                                        shinyWidgets::materialSwitch(inputId = "switch2", label = "Global", 
+                                                                     value = T, status = "success", inline = TRUE),
+                                        span("Viridiplantae"))
+                                  
+                           )),
+                         
                   )
-                
+                  
                 )),
               
               br(),
               fluidRow(
                 box(status = "success", width = 12, 
                     title = span(tags$b("Results"), style = "color:#25d04a; font-size: 20px; "),
+                    "Results for the query gene and species are displayed below, arranged in 
+                      different tabs. The execution of each analysis is initiated from the start 
+                      button within each of the tabs, with specific instructions for each analysis. First, go to Gene Tree tab,
+                      which shows best matches for query sequence and a tree containing the genes corresponding to the same 
+                      orthogroup as the query in the
+                      selected species. The rest of the tabs allow for a deeper exploration of these genes. Do not start any 
+                      analysis before creating gene tree.",
+                    div(br()),
                     tabsetPanel(type = "tabs",
-                                tabPanel("Genes Tree", 
+                                tabPanel("Gene Tree", 
                                          fluidRow(br()),
+                                         div("This tab shows four different results. First of all, a table with up to 5 best 
+                                         matches for the query sequence in the chosen proteome, with decreasing confidence. First row
+                                         corresponds to best match, which is used to perform subsequent analysis. If you are interested
+                                         in another one, please copy de ID and paste it in Gene ID-based search tab. Secondly, a complete list of the genes
+                                         that are assigned to the same orthogroup as the query. Next, the proportion of  genes of each species. 
+                                         Finally, a gene tree show the evolutionary relationships between those genes. All results can be downloaded 
+                                         using the buttons at the bottom of the page."),
+                                         fluidRow(br()),
+                                         
                                          shinyjs::useShinyjs(),
                                          shinyjs::hidden(div(id='loading.tree2',h3('Please be patient, building tree ...'))),
                                          uiOutput(outputId = "error_tree2"),
@@ -850,8 +1046,15 @@ ui <- dashboardPage(
                                                      tags$div(id = "download_tree2"),
                                                      tags$div(id = "download_newick2"),
                                                      tags$div(id = "download_tree_seqs2"))
-                                         ),
+                                ),
                                 tabPanel("Collapsable tree",
+                                         fluidRow(tags$br()),
+                                         div("This tab allows for an interactive visualization of the previous tree. 
+                                               In particular, in situations where gene duplications have given rise 
+                                               to several clades and you want to reduce the tree not in relation to 
+                                               the species that appear, but to these clades, this visualization allows 
+                                               the collapse of subtrees and the simple exploration of the areas of interest. 
+                                               Press Show Collapsable Tree to show the tree."),
                                          fluidRow(tags$br()),
                                          shinyWidgets::actionBttn("phylo_start2", "Show Collapsable Tree",
                                                                   size = "sm", icon = icon("magnifying-glass"),
@@ -862,6 +1065,15 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Expansion/Contraction",
                                          fluidRow(tags$br()),
+                                         div("Click the Show Evolutionary History button to calculate the species tree showing 
+                                               the reconstruction of ancestral states of the orthogroup, i.e. the number of genes 
+                                               calculated for each common ancestor of each species. In case there has been no significant 
+                                               variation in the size of the orthogroup or the variability is so high between species that
+                                               the sizes cannot be reliably calculated, the tree will not be plotted. For orthogroups that
+                                               have undergone significant expansions or contractions along any branch, these are marked 
+                                               in red and blue on the tree, respectively. In turn, the loss or non-existence of orthogroup
+                                               genes in the different clades is represented in gray."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("cafe_start2", "Show Evolutionary History",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "success"),
@@ -879,6 +1091,12 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("PFAM Domains", 
                                          fluidRow(tags$br()),
+                                         div("Next, click on the Show Gene Selection for Pfam button, select the desired proteins
+                                               from the tree and click on the Show Pfam Domains button to determine their PFAM domains.
+                                               A table with the domains of each protein and their positions will be displayed, as well 
+                                               as a plot showing the same information. Links to each domain's data are provided.
+                                               Warning: this process may take a long time in the case of selecting many proteins."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("pfam_start2", "Show Gene Selection for Pfam",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "success"),
@@ -900,6 +1118,20 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Multiple Sequence Alignment",
                                          fluidRow(tags$br()),
+                                         div("Press the Show Gene Selection for MSA button to enable the selection of genes 
+                                           from the tree to be aligned. Two alignment methods are supported: ClustalOmega uses this 
+                                           algorithm to perform a de novo multiple sequence alignment of the selected proteins, while 
+                                           the second option filters the precalculated MSA of the entire orthogroup (computed using the 
+                                           software MAFFT) to retain 
+                                           only the selected sequences, removing columns containing only gaps in the chosen subset. Thus,
+                                           this second option retains the evolutionary framework to which the entire orthogroup is ascribed, 
+                                           while the first aligns only the chosen sequences. The resulting alignment can be explored interactively,
+                                           including searching for patterns USING Selection -> Find Motifs and different cholor schemes can be applied 
+                                           based on different properties of amino acids. A consensus sequence is shown to summarize the alignment. For 
+                                           a graphical representation with the different amino acids colored according to their chemical nature, click 
+                                           on the Download Colored MSA button. The aligned sequences can also be download as a standard FASTA file.
+                                           Warning: This process (specially the colored download) may take a long time in the case of selecting many proteins."),
+                                         fluidRow(tags$br()),
                                          shinyWidgets::actionBttn("msa_start2", "Show Gene Selection for MSA",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "success"),
@@ -920,6 +1152,15 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("GO Terms", 
                                          fluidRow(tags$br()),
+                                         div("Click on the button to select the genes of interest from the tree and select 
+                                               the ontology type to display the GO terms associated with those genes. After
+                                               pressing the Show GO terms button, the results are displayed in tabular form 
+                                               and are accompanied by a GO association plot (each node is a GO and an edge 
+                                               is drawn between two nodes if a gene from the set share both terms) and a treeplot
+                                               showing the hierarchy of the identified terms and their summary. Links to each 
+                                               individual GO term are avalaible from table and all results can be downloaded in
+                                               standard PNG and TSV files."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("go_start2", "Show Gene Selection for GO Annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "success"),
@@ -946,6 +1187,17 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("KEGG Orthology",
                                          fluidRow(tags$br()),
+                                         div("Click on the button to select the genes of interest from the tree and press
+                                               the Show KEGG information button to show the results. These include a table 
+                                               showing the KEGG Orthology IDs, indicating how many and which of the selected 
+                                               proteins correspond to each ID. In addition, the application performs an enrichment 
+                                               in KEGG pathways from the identified KOs and allows for the plotting of these 
+                                               pathways with the genes mapped onto them, using a selector to choose the pathway
+                                               in case several enriched ones exist. Warning: this process may take a long time 
+                                               in the case of selecting many proteins. Attempts to plot large pathways will
+                                               produce an error, only more specific ones are supported i.e. Carbon metabolism 
+                                               will return an error while Biotin metabolism will not."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("kegg_start2", "Show Gene Selection for KEGG Annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "success"),
@@ -975,6 +1227,30 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("STRING Interactions",
                                          fluidRow(tags$br()),
+                                         div("This tab presents the results of interactions of the different proteins 
+                                               for the species supported by the STRING database. After clicking the button,
+                                               the proteins of the species included in the database are displayed. Once the
+                                               desired selection has been made, press the Show String Interactions
+                                               button and a table will be displayed
+                                               indicating in each row an interaction and the type of evidence for its existence,
+                                               either experimental (direct) or ortholog-based (interolog). In addition, a count
+                                               of the orthogroups to which the target proteins belong is computed, presented in
+                                               tabular form and by means of a pie chart, to assess preferential interaction of
+                                               the orthogroup under study with other specific orthogroups. Finally, for
+                                               specific proteins, an
+                                               interaction network can be generated with the proteins that have the most reliable
+                                               interactions with the selected protein. In case more than one protein is selected,
+                                               all of them will appear in the network, which will contain their interactions to 
+                                               determine pathways between them. The network is shown as an image and a button
+                                               that creates the network is provided on the STRING page, where an interactive 
+                                               network with additional protein structure information and SMART domains appears.
+                                               Species currently supported by STRING: Aegilops, Arabidopsis, Bathycoccus, 
+                                               Chara, Chlamydomonas, Coccomyxa, Cyanidioschyzon, Galdieria, Gracilariopsis,
+                                               Guillardia, Klebsormidium, Micromonas, Oryza, Ostreococcus, Phaeodactylum,
+                                               Physcomitrium, Raphidocelis, Scenedesmus, Selaginella, Solanum, Sorghum,
+                                               Triticum and Volvox. Warning: the selection of many proteins in the first
+                                               step can lead to particularly high waiting times."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("string_start2", "Show Gene Selection for STRING annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "success"),
@@ -1006,6 +1282,15 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Literature Annotation", 
                                          fluidRow(tags$br()),
+                                         div("In the text box, type the search term to query your bibliographic information,
+                                               i.e., CCA1. Then select one of the 4 search modes: Normal returns the entities 
+                                               containing the term, Exact returns those that are identical, Alias returns all 
+                                               aliases associated with the term and Substring returns all those containing a 
+                                               given string. Associations found in the literature are returned in tabular form,
+                                               with links to the papers from which the information was extracted. This
+                                               functionality is based on PlantConnectome, to extend this analysis, it is recommended
+                                               to go to https://connectome.plant.tools/."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("lit_start2", "Show Search Box for Literature Annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "success"),
@@ -1038,7 +1323,8 @@ ui <- dashboardPage(
               box(
                 title = span(tags$b("Organism selection"), style = "color:#d5251d; font-size: 20px; "), status = "danger", width = "500",
                 "Please select the desired organisms from the following list for performing the analysis.
-                  Please take care of selecting organisms that are present in the selected orthogroup.", br(), br(),
+                  Please take care of selecting organisms that are present in the selected orthogroup. Organisms in 
+                  green belong to Viridiplantae, while other colors indicate groups outside this clade.", br(), br(),
                 column(3,
                        checkboxGroupInput(
                          "tsar_check_3",
@@ -1196,14 +1482,23 @@ ui <- dashboardPage(
                 
                 fluidRow(br()),
                 
+                span(tags$b("Insert Orthogroup ID"), style = "color:#d5251d; font-size: 20px; "),
+                div(br()),
+                
+                div("Below you can write the ID corresponding to the desired orthogroup. It is specially intended
+                             to study STRING's results from previous queries. Then, select a model: Global 
+                             or Viridiplantae (default is Viridiplantae). Note that the groups TSAR
+                             and Cryptophytes, Rhodophytes and Glaucophytes do not belong to Viridiplantae, so they
+                             will be ignored in case this is the selected model."),
+                
                 
                 fluidRow(
-                  column(5, textInput("geneInt3", label = h4("Insert Orthogroup ID"), width = "100%", placeholder = "OG0001709")),
-                  #column(1, div( style = "margin-top: 20px;", actionButton("run", "Run", icon = icon("magnifying-glass")))))
-                  column(1, div( style = "margin-top: 45px;", 
+                  column(5, textInput("geneInt3", label = "", width = "100%", placeholder = "OG0001709")),
+                  
+                  column(1, div( style = "margin-top: 20px;", 
                                  shinyWidgets::actionBttn("run_button3", "Run", size = "sm", icon = icon("magnifying-glass"),
                                                           style = "float", color = "danger"))),
-                  column(3,div(style = "margin-top: 49px;",
+                  column(3,div(style = "margin-top: 24px;",
                                shinyWidgets::materialSwitch(inputId = "switch3", label = "Global", 
                                                             value = T, status = "danger", inline = TRUE),
                                span("Viridiplantae")))
@@ -1216,8 +1511,21 @@ ui <- dashboardPage(
               fluidRow(
                 box(status = "danger", width = 12,
                     title = span(tags$b("Results"), style = "color:#d5251d; font-size: 20px; "),
+                    "Results for the query orthogroup and species are displayed below, arranged in 
+                      different tabs. The execution of each analysis is initiated from the start 
+                      button within each of the tabs, with specific instructions for each analysis. First, go to Gene Tree tab,
+                      which shows a tree containing the genes corresponding to the orthogroup in the selected species. 
+                      The rest of the tabs allow for a deeper exploration of these genes. Do not start any analysis before 
+                    creating gene tree.",
+                    div(br()),
                     tabsetPanel(type = "tabs",
-                                tabPanel("Genes Tree",
+                                tabPanel("Gene Tree",
+                                         fluidRow(br()),
+                                         div("This tab shows three different results. First of all, a complete list of the genes
+                                               that are assigned to the query orthogroup. Secondly, the proportion of
+                                               genes of each species. Finally, a gene tree show the evolutionary relationships 
+                                               between those genes. All results can be downloaded using the buttons at the bottom
+                                               of the page."),
                                          fluidRow(br()),
                                          shinyjs::useShinyjs(),
                                          shinyjs::hidden(div(id='loading.tree3',h3('Please be patient, building tree ...'))),
@@ -1233,6 +1541,13 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Collapsable tree",
                                          fluidRow(tags$br()),
+                                         div("This tab allows an interactive visualization of the previous tree. 
+                                               In particular, in situations where gene duplications have given rise 
+                                               to several clades and you want to reduce the tree not in relation to 
+                                               the species that appear, but to these clades, this visualization allows 
+                                               the collapse of subtrees and the simple exploration of the areas of interest. 
+                                               Press Show Collapsable Tree to show the tree."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("phylo_start3", "Show Collapsable Tree",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "danger"),
@@ -1242,6 +1557,15 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Expansion/Contraction",
                                          fluidRow(tags$br()),
+                                         div("Click the Show Evolutionary History button to calculate the species tree showing 
+                                               the reconstruction of ancestral states of the orthogroup, i.e. the number of genes 
+                                               calculated for each common ancestor of each species. In case there has been no significant 
+                                               variation in the size of the orthogroup or the variability is so high between species that
+                                               the sizes cannot be reliably calculated, the tree will not be plotted. For orthogroups that
+                                               have undergone significant expansions or contractions along any branch, these are marked 
+                                               in red and blue on the tree, respectively. In turn, the loss or non-existence of orthogroup
+                                               genes in the different clades is represented in gray."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("cafe_start3", "Show Evolutionary History",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "danger"),
@@ -1259,6 +1583,12 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("PFAM Domains", 
                                          fluidRow(tags$br()),
+                                         div("Next, click on the Show Gene Selection for Pfam button, select the desired proteins
+                                               from the tree and click on the Show Pfam Domains button to determine their PFAM domains.
+                                               A table with the domains of each protein and their positions will be displayed, as well 
+                                               as a plot showing the same information. Links to each domain's data are provided.
+                                               Warning: this process may take a long time in the case of selecting many proteins."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("pfam_start3", "Show Gene Selection for Pfam",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "danger"),
@@ -1280,6 +1610,20 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Multiple Sequence Alignment",
                                          fluidRow(tags$br()),
+                                         div("Press the Show Gene Selection for MSA button to enable the selection of genes 
+                                           from the tree to be aligned. Two alignment methods are supported: ClustalOmega uses this 
+                                           algorithm to perform a de novo multiple sequence alignment of the selected proteins, while 
+                                           the second option filters the precalculated MSA of the entire orthogroup (computed using the 
+                                           software MAFFT) to retain 
+                                           only the selected sequences, removing columns containing only gaps in the chosen subset. Thus,
+                                           this second option retains the evolutionary framework to which the entire orthogroup is ascribed, 
+                                           while the first aligns only the chosen sequences. The resulting alignment can be explored interactively,
+                                           including searching for patterns USING Selection -> Find Motifs and different cholor schemes can be applied 
+                                           based on different properties of amino acids. A consensus sequence is shown to summarize the alignment. For 
+                                           a graphical representation with the different amino acids colored according to their chemical nature, click 
+                                           on the Download Colored MSA button. The aligned sequences can also be download as a standard FASTA file.
+                                           Warning: This process (specially the colored download) may take a long time in the case of selecting many proteins."),
+                                         fluidRow(tags$br()),
                                          shinyWidgets::actionBttn("msa_start3", "Show Gene Selection for MSA",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "danger"),
@@ -1300,6 +1644,15 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("GO Terms", 
                                          fluidRow(tags$br()),
+                                         div("Click on the button to select the genes of interest from the tree and select 
+                                               the ontology type to display the GO terms associated with those genes. After
+                                               pressing the Show GO terms button, the results are displayed in tabular form 
+                                               and are accompanied by a GO association plot (each node is a GO and an edge 
+                                               is drawn between two nodes if a gene from the set share both terms) and a treeplot
+                                               showing the hierarchy of the identified terms and their summary. Links to each 
+                                               individual GO term are avalaible from table and all results can be downloaded in
+                                               standard PNG and TSV files."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("go_start3", "Show Gene Selection for GO Annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "danger"),
@@ -1326,6 +1679,17 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("KEGG Orthology",
                                          fluidRow(tags$br()),
+                                         div("Click on the button to select the genes of interest from the tree and press
+                                               the Show KEGG information button to show the results. These include a table 
+                                               showing the KEGG Orthology IDs, indicating how many and which of the selected 
+                                               proteins correspond to each ID. In addition, the application performs an enrichment 
+                                               in KEGG pathways from the identified KOs and allows for the plotting of these 
+                                               pathways with the genes mapped onto them, using a selector to choose the pathway
+                                               in case several enriched ones exist. Warning: this process may take a long time 
+                                               in the case of selecting many proteins. Attempts to plot large pathways will
+                                               produce an error, only more specific ones are supported i.e. Carbon metabolism 
+                                               will return an error while Biotin metabolism will not."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("kegg_start3", "Show Gene Selection for KEGG Annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "danger"),
@@ -1355,6 +1719,30 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("STRING Interactions",
                                          fluidRow(tags$br()),
+                                         div("This tab presents the results of interactions of the different proteins 
+                                               for the species supported by the STRING database. After clicking the button,
+                                               the proteins of the species included in the database are displayed. Once the
+                                               desired selection has been made, press the Show String Interactions
+                                               button and a table will be displayed
+                                               indicating in each row an interaction and the type of evidence for its existence,
+                                               either experimental (direct) or ortholog-based (interolog). In addition, a count
+                                               of the orthogroups to which the target proteins belong is computed, presented in
+                                               tabular form and by means of a pie chart, to assess preferential interaction of
+                                               the orthogroup under study with other specific orthogroups. Finally, for
+                                               specific proteins, an
+                                               interaction network can be generated with the proteins that have the most reliable
+                                               interactions with the selected protein. In case more than one protein is selected,
+                                               all of them will appear in the network, which will contain their interactions to 
+                                               determine pathways between them. The network is shown as an image and a button
+                                               that creates the network is provided on the STRING page, where an interactive 
+                                               network with additional protein structure information and SMART domains appears.
+                                               Species currently supported by STRING: Aegilops, Arabidopsis, Bathycoccus, 
+                                               Chara, Chlamydomonas, Coccomyxa, Cyanidioschyzon, Galdieria, Gracilariopsis,
+                                               Guillardia, Klebsormidium, Micromonas, Oryza, Ostreococcus, Phaeodactylum,
+                                               Physcomitrium, Raphidocelis, Scenedesmus, Selaginella, Solanum, Sorghum,
+                                               Triticum and Volvox. Warning: the selection of many proteins in the first
+                                               step can lead to particularly high waiting times."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("string_start3", "Show Gene Selection for STRING annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "danger"),
@@ -1386,6 +1774,15 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Literature Annotation", 
                                          fluidRow(tags$br()),
+                                         div("In the text box, type the search term to query your bibliographic information,
+                                               i.e., CCA1. Then select one of the 4 search modes: Normal returns the entities 
+                                               containing the term, Exact returns those that are identical, Alias returns all 
+                                               aliases associated with the term and Substring returns all those containing a 
+                                               given string. Associations found in the literature are returned in tabular form,
+                                               with links to the papers from which the information was extracted. This
+                                               functionality is based on PlantConnectome, to extend this analysis, it is recommended
+                                               to go to https://connectome.plant.tools/."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("lit_start3", "Show Search Box for Literature Annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "danger"),
@@ -1418,7 +1815,9 @@ ui <- dashboardPage(
               box(
                 title = span(tags$b("Organism selection"), style = "color:#e37326; font-size: 20px; "), status = "warning", width = "500",
                 "Please select the desired organisms from the following list for performing the analysis.
-                  Please take care of selecting the organism whose sequences are being used as input.", br(), br(),
+                  Please take care of selecting the organism whose sequences or IDs are being used as input. The 
+                selected organisms will be the only ones that appear in heatmap and gene tables. Organisms in 
+                  green belong to Viridiplantae, while other colors indicate groups outside this clade.", br(), br(),
                 column(3,
                        checkboxGroupInput(
                          "tsar_check_4",
@@ -1551,26 +1950,42 @@ ui <- dashboardPage(
                          selected = NULL)
                 ),
                 
+                fluidRow(br()),
+                fluidRow(br()),
+                
+                span(tags$b("Choose Sequence File to Upload"), style = "color:#e37326; font-size: 20px; "),
+                div(br()),
+                
+                div("Below you can upload a file with a list of gene IDs (with a single ID per line) or a FASTA file
+                    containing custom identifiers for each sequence. These IDs or sequences must correspond to one
+                    of the available organisms, and the correct species must be selected prior to analysis on the 
+                    selection bar to the right of the Run button. Then, select a model: Global 
+                             or Viridiplantae (default is Viridiplantae). Note that the groups TSAR
+                             and Cryptophytes, Rhodophytes and Glaucophytes do not belong to Viridiplantae, so they
+                             will be ignored in case this is the selected model. Finally, choose if the upload file
+                    contains IDs or Sequences and click Run to begin computations."),
+                fluidRow(br()),
+                
                 
                 fluidRow(
-                  column(4, fileInput(inputId = "geneInt4",label = h4("Choose Sequence File to Upload"))),
-                  column(1, div( style = "margin-top: 45px;", 
+                  column(4, fileInput(inputId = "geneInt4",label = "")),
+                  column(1, div( style = "margin-top: 20px;", 
                                  shinyWidgets::actionBttn("run_button4", "Run", size = "sm", icon = icon("magnifying-glass"),
                                                           style = "float", color = "warning"))),
-                  column(3, div(style = "margin-top: 25px;",
-                             
-                             shinyWidgets::pickerInput("organism_input_4","Choose organism",
-                                                       choices=names(organisms_values),
-                                                       multiple = F, selected=names(organisms_values)[11]))
+                  column(3, div(style = "margin-top: 0px;",
+                                
+                                shinyWidgets::pickerInput("organism_input_4","",
+                                                          choices=names(organisms_values),
+                                                          multiple = F, selected=names(organisms_values)[11]))
                          
                          
                   ),
-                  column(2,div(style = "margin-top: 49px;",
+                  column(2,div(style = "margin-top: 24px;",
                                shinyWidgets::materialSwitch(inputId = "switch4", label = "Global", 
                                                             value = T, status = "warning", inline = TRUE),
                                span("Viridiplantae"))),
                   
-                  column(2,div(style = "margin-top: 49px;",
+                  column(2,div(style = "margin-top: 24px;",
                                shinyWidgets::materialSwitch(inputId = "search_mode4", label = "IDs", 
                                                             value = T, status = "warning", inline = TRUE),
                                span("Sequences")))
@@ -1584,6 +1999,17 @@ ui <- dashboardPage(
               fluidRow(
                 box(status = "warning", width = 12, 
                     title = span(tags$b("Results"), style = "color:#e37326; font-size: 20px; "),
+                    "Results for the query sequences or IDs and species are displayed below. Using the download button, user can
+                    access a compressed file with results arranged in different subfolders. First, a table in TSV format indicates
+                    the mapping of each sequence against the proteome and its associated metrics (in case sequence sarch mode is 
+                    selected). Each of the subfolders corresponds to a query sequence/ID and contains the gene tree of its 
+                    orthogroup (without filtering by species), the MSA of the complete orthogroup, the expansion/contraction 
+                    results, the KO and GO annotations for the genes from the selected species and a table with the genes
+                    forming the orthogroup in the selected species. Additionally, a visual summary of the number of genes 
+                    within each orthogroup relative to each of the sequences/IDs is presented in the form of a heatmap, 
+                    which allows to determine if in any of the selected species some orthogroups have undergone expansions 
+                    or if there are orthogroups that are not present in all species.",
+                    div(br()),
                     fluidRow(br()),
                     shinyjs::useShinyjs(),
                     shinyjs::hidden(div(id='loading.batch4',h3('Please be patient, preparing your folders ...'))),
@@ -1592,7 +2018,7 @@ ui <- dashboardPage(
                     fluidRow(tags$br()),
                     tags$div(id = "box_heatmap4")
                     
-                    ))
+                ))
               
       ),
       
@@ -1607,7 +2033,8 @@ ui <- dashboardPage(
                 title = span(tags$b("Organism selection"), style = "color:#5e3587; font-size: 20px; "), status = "primary", width = "500",
                 "Please select the desired organisms from the following list for performing the analysis.
                   It is recommended to select organisms that span the evolutionary placement of the custom
-                organism to allow for better resolution of the created tree.", br(), br(),
+                organism to allow for better resolution of the created tree. Organisms in 
+                  green belong to Viridiplantae, while other colors indicate groups outside this clade.", br(), br(),
                 column(3,
                        checkboxGroupInput(
                          "tsar_check_5",
@@ -1755,7 +2182,6 @@ ui <- dashboardPage(
                 
                 fluidRow(
                   column(8, textAreaInput(inputId = "geneInt5", 
-                                          #label= span(tags$b("Insert a protein chain"), style = "color:#25d04a; font-size: 20px; "),
                                           "", 
                                           width="200%", height = "200px", 
                                           value= "", resize = "vertical",
@@ -1778,8 +2204,22 @@ ui <- dashboardPage(
               fluidRow(
                 box(status = "primary", width = 12,
                     title = span(tags$b("Results"), style = "color:#5e3587; font-size: 20px; "),
+                    "Results for the query sequence and species are displayed below, arranged in 
+                      different tabs. The execution of each analysis is initiated from the start 
+                      button within each of the tabs, with specific instructions for each analysis. First, go to Gene Tree tab,
+                      which shows a tree containing the genes corresponding to the same orthogroup as the query in the
+                      selected species. The rest of the tabs allow for a deeper exploration of these genes. Do not start any 
+                      analysis before creating gene tree.",
+                    div(br()),
                     tabsetPanel(type = "tabs",
-                                tabPanel("Genes Tree",
+                                tabPanel("Gene Tree",
+                                         fluidRow(br()),
+                                         div("This tab shows three different results. First of all, a complete list of the genes
+                                               that are assigned to the same orthogroup as the query. Secondly, the proportion of
+                                               genes of each species. Finally, a gene tree show the evolutionary relationships 
+                                               between those genes. Query sequence placement is highlighted in red. All results 
+                                               can be downloaded using the buttons at the bottom
+                                               of the page."),
                                          fluidRow(br()),
                                          shinyjs::useShinyjs(),
                                          shinyjs::hidden(div(id='loading.tree5',h3('Please be patient, building tree ...'))),
@@ -1795,6 +2235,13 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Collapsable tree",
                                          fluidRow(tags$br()),
+                                         div("This tab allows an interactive visualization of the previous tree. 
+                                               In particular, in situations where gene duplications have given rise 
+                                               to several clades and you want to reduce the tree not in relation to 
+                                               the species that appear, but to these clades, this visualization allows 
+                                               the collapse of subtrees and the simple exploration of the areas of interest. 
+                                               Press Show Collapsable Tree to show the tree."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("phylo_start5", "Show Collapsable Tree",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "royal"),
@@ -1804,6 +2251,15 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Expansion/Contraction",
                                          fluidRow(tags$br()),
+                                         div("Click the Show Evolutionary History button to calculate the species tree showing 
+                                               the reconstruction of ancestral states of the orthogroup, i.e. the number of genes 
+                                               calculated for each common ancestor of each species. In case there has been no significant 
+                                               variation in the size of the orthogroup or the variability is so high between species that
+                                               the sizes cannot be reliably calculated, the tree will not be plotted. For orthogroups that
+                                               have undergone significant expansions or contractions along any branch, these are marked 
+                                               in red and blue on the tree, respectively. In turn, the loss or non-existence of orthogroup
+                                               genes in the different clades is represented in gray."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("cafe_start5", "Show Evolutionary History",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "royal"),
@@ -1821,6 +2277,12 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("PFAM Domains", 
                                          fluidRow(tags$br()),
+                                         div("Next, click on the Show Gene Selection for Pfam button, select the desired proteins
+                                               from the tree and click on the Show Pfam Domains button to determine their PFAM domains.
+                                               A table with the domains of each protein and their positions will be displayed, as well 
+                                               as a plot showing the same information. Links to each domain's data are provided.
+                                               Warning: this process may take a long time in the case of selecting many proteins."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("pfam_start5", "Show Gene Selection for Pfam",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "royal"),
@@ -1842,6 +2304,20 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Multiple Sequence Alignment",
                                          fluidRow(tags$br()),
+                                         div("Press the Show Gene Selection for MSA button to enable the selection of genes 
+                                           from the tree to be aligned. Two alignment methods are supported: ClustalOmega uses this 
+                                           algorithm to perform a de novo multiple sequence alignment of the selected proteins, while 
+                                           the second option filters the precalculated MSA of the entire orthogroup (computed using the 
+                                           software MAFFT) to retain 
+                                           only the selected sequences, removing columns containing only gaps in the chosen subset. Thus,
+                                           this second option retains the evolutionary framework to which the entire orthogroup is ascribed, 
+                                           while the first aligns only the chosen sequences. The resulting alignment can be explored interactively,
+                                           including searching for patterns USING Selection -> Find Motifs and different cholor schemes can be applied 
+                                           based on different properties of amino acids. A consensus sequence is shown to summarize the alignment. For 
+                                           a graphical representation with the different amino acids colored according to their chemical nature, click 
+                                           on the Download Colored MSA button. The aligned sequences can also be download as a standard FASTA file.
+                                           Warning: This process (specially the colored download) may take a long time in the case of selecting many proteins."),
+                                         fluidRow(tags$br()),
                                          shinyWidgets::actionBttn("msa_start5", "Show Gene Selection for MSA",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "royal"),
@@ -1862,6 +2338,15 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("GO Terms", 
                                          fluidRow(tags$br()),
+                                         div("Click on the button to select the genes of interest from the tree and select 
+                                               the ontology type to display the GO terms associated with those genes. After
+                                               pressing the Show GO terms button, the results are displayed in tabular form 
+                                               and are accompanied by a GO association plot (each node is a GO and an edge 
+                                               is drawn between two nodes if a gene from the set share both terms) and a treeplot
+                                               showing the hierarchy of the identified terms and their summary. Links to each 
+                                               individual GO term are avalaible from table and all results can be downloaded in
+                                               standard PNG and TSV files."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("go_start5", "Show Gene Selection for GO Annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "royal"),
@@ -1888,6 +2373,17 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("KEGG Orthology",
                                          fluidRow(tags$br()),
+                                         div("Click on the button to select the genes of interest from the tree and press
+                                               the Show KEGG information button to show the results. These include a table 
+                                               showing the KEGG Orthology IDs, indicating how many and which of the selected 
+                                               proteins correspond to each ID. In addition, the application performs an enrichment 
+                                               in KEGG pathways from the identified KOs and allows for the plotting of these 
+                                               pathways with the genes mapped onto them, using a selector to choose the pathway
+                                               in case several enriched ones exist. Warning: this process may take a long time 
+                                               in the case of selecting many proteins. Attempts to plot large pathways will
+                                               produce an error, only more specific ones are supported i.e. Carbon metabolism 
+                                               will return an error while Biotin metabolism will not."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("kegg_start5", "Show Gene Selection for KEGG Annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "royal"),
@@ -1917,6 +2413,30 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("STRING Interactions",
                                          fluidRow(tags$br()),
+                                         div("This tab presents the results of interactions of the different proteins 
+                                               for the species supported by the STRING database. After clicking the button,
+                                               the proteins of the species included in the database are displayed. Once the
+                                               desired selection has been made, press the Show String Interactions
+                                               button and a table will be displayed
+                                               indicating in each row an interaction and the type of evidence for its existence,
+                                               either experimental (direct) or ortholog-based (interolog). In addition, a count
+                                               of the orthogroups to which the target proteins belong is computed, presented in
+                                               tabular form and by means of a pie chart, to assess preferential interaction of
+                                               the orthogroup under study with other specific orthogroups. Finally, for
+                                               specific proteins, an
+                                               interaction network can be generated with the proteins that have the most reliable
+                                               interactions with the selected protein. In case more than one protein is selected,
+                                               all of them will appear in the network, which will contain their interactions to 
+                                               determine pathways between them. The network is shown as an image and a button
+                                               that creates the network is provided on the STRING page, where an interactive 
+                                               network with additional protein structure information and SMART domains appears.
+                                               Species currently supported by STRING: Aegilops, Arabidopsis, Bathycoccus, 
+                                               Chara, Chlamydomonas, Coccomyxa, Cyanidioschyzon, Galdieria, Gracilariopsis,
+                                               Guillardia, Klebsormidium, Micromonas, Oryza, Ostreococcus, Phaeodactylum,
+                                               Physcomitrium, Raphidocelis, Scenedesmus, Selaginella, Solanum, Sorghum,
+                                               Triticum and Volvox. Warning: the selection of many proteins in the first
+                                               step can lead to particularly high waiting times."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("string_start5", "Show Gene Selection for STRING annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "royal"),
@@ -1948,6 +2468,15 @@ ui <- dashboardPage(
                                 ),
                                 tabPanel("Literature Annotation", 
                                          fluidRow(tags$br()),
+                                         div("In the text box, type the search term to query your bibliographic information,
+                                               i.e., CCA1. Then select one of the 4 search modes: Normal returns the entities 
+                                               containing the term, Exact returns those that are identical, Alias returns all 
+                                               aliases associated with the term and Substring returns all those containing a 
+                                               given string. Associations found in the literature are returned in tabular form,
+                                               with links to the papers from which the information was extracted. This
+                                               functionality is based on PlantConnectome, to extend this analysis, it is recommended
+                                               to go to https://connectome.plant.tools/."),
+                                         fluidRow(br()),
                                          shinyWidgets::actionBttn("lit_start5", "Show Search Box for Literature Annotation",
                                                                   size = "sm", icon = icon("magnifying-glass"),
                                                                   style = "float", color = "royal"),
@@ -1968,11 +2497,58 @@ ui <- dashboardPage(
                                 )
                     ))
               )
+      ),
+      
+      # Last tab
+      tabItem(tabName = "contact_tutorial", 
+              
+              h3(""),
+              
+              tags$div(style = 'font-size: 18px; margin-left: 20px;',"We are strongly committed to open access software and open science. PharaohFUN's source code is available
+                       at GitHub following the lateral panel link and is released under a GNU General Public License v3.0. If you 
+                       experience any problem using PharaohFUN, please create an issue in GitHub and we will address it."),
+              tags$br(),
+              
+              fluidRow(
+                column(8, 
+                       tags$div(style = 'font-size: 18px; margin-left: 20px;', 
+                                "All organisms images where acquired from PhyloPic. Next, we present a list with the authors of each one:",
+                                tags$ul(
+                                  tags$li("Phaeodactylum by Jonathan Wells."),
+                                  tags$li("Porphyra Guillaume Dera."),
+                                  tags$li("Cyanophora Guillaume Dera."),
+                                  tags$li("Ostreococcus by Guillaume Dera."),
+                                  tags$li("Scenedesmus Sergio A. Muñoz-Gómez."),
+                                  tags$li("Klebsormidium by Matt Crook."),
+                                  tags$li("Marchantia by Guillaume Dera."),
+                                  tags$li("Selaginella by Mason McNair."),
+                                  tags$li("Arabidopsis by Mason McNair."),
+                                  tags$li("Chlamydomonas by Sergio A. Muñoz-Gómez."),
+                                  tags$li("Haematococcus by Matthew Crook."),
+                                  tags$li("Volvox by Matthew Crook."),
+                                  tags$li("Zygnema by Matthew Crook"),
+                                  tags$li("Marchantia by T. Michael Keesey."),
+                                  tags$li("Araucaria by T. Michael Keesey."),
+                                  tags$li("Gnetum by T. Michael Keesey."),
+                                  
+                                ),
+                       )
+                ),
+                column(4, tags$div(align="center",width=60,
+                                   HTML('<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5yb18atzqxr&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>'))
+                       
+                )
+              ),
+              tags$div(style = 'font-size: 18px; margin-left: 20px;', 
+                       "Some of these images are licensed under an ", tags$a(href="https://creativecommons.org/licenses/by-nc-sa/3.0/", 
+                                                                             "Attribution-NonCommercial-ShareAlike 3.0 Unported"), "or ",
+                       
+                       tags$a(href="https://creativecommons.org/licenses/by-sa/3.0/", "Attribution-ShareAlike 3.0 Unported"), " license.")
       )
-      
-      
+      # Close tabs, body and UI code   
       
     )
+    
   )
 )
 
@@ -6062,6 +6638,10 @@ server <- function(input, output) {
     
     total_table_kegg <- as.data.frame(kos_enrich)
     
+    # Filter out pathways that are not present in plants
+    kegg_plants <- read.csv("pharaoh_folder/pathways_plant.ids", sep = "\t", header = T)$x
+    total_table_kegg <- subset(total_table_kegg, ID %in% kegg_plants)
+    
     return(total_table_kegg)
     
   }) %>% bindEvent(input$kos_selectionI1)
@@ -6229,7 +6809,7 @@ server <- function(input, output) {
     
     if(nrow(total_table_kegg) != 0)
     {
-      paths.options <- sapply(strsplit(total_table_kegg$ID, split = "map"), function(x) x[[2]])
+      paths.options <- sapply(strsplit(total_table_kegg$ID, split = "ko"), function(x) x[[2]])
       
       
       insertUI("#selected_paths1", "afterEnd", ui = {
@@ -7472,7 +8052,7 @@ server <- function(input, output) {
        sensitivity_mode = "sensitive",
        output_path = tempdir(),
        #db_import  = FALSE,
-       diamond_exec_path = "/usr/bin", 
+       ##diamond_exec_path = "/usr/bin", 
        max_target_seqs = 5)
      
      # Convert to data.frame
@@ -11570,6 +12150,10 @@ server <- function(input, output) {
      
      total_table_kegg <- as.data.frame(kos_enrich)
      
+     # Filter out pathways that are not present in plants
+     kegg_plants <- read.csv("pharaoh_folder/pathways_plant.ids", sep = "\t", header = T)$x
+     total_table_kegg <- subset(total_table_kegg, ID %in% kegg_plants)
+     
      return(total_table_kegg)
      
    }) %>% bindEvent(input$kos_selectionI2)
@@ -11737,7 +12321,7 @@ server <- function(input, output) {
      
      if(nrow(total_table_kegg) != 0)
      {
-       paths.options <- sapply(strsplit(total_table_kegg$ID, split = "map"), function(x) x[[2]])
+       paths.options <- sapply(strsplit(total_table_kegg$ID, split = "ko"), function(x) x[[2]])
        
        
        insertUI("#selected_paths2", "afterEnd", ui = {
@@ -16835,6 +17419,10 @@ server <- function(input, output) {
      
      total_table_kegg <- as.data.frame(kos_enrich)
      
+     # Filter out pathways that are not present in plants
+     kegg_plants <- read.csv("pharaoh_folder/pathways_plant.ids", sep = "\t", header = T)$x
+     total_table_kegg <- subset(total_table_kegg, ID %in% kegg_plants)
+     
      return(total_table_kegg)
      
    }) %>% bindEvent(input$kos_selectionI3)
@@ -17002,7 +17590,7 @@ server <- function(input, output) {
      
      if(nrow(total_table_kegg) != 0)
      {
-       paths.options <- sapply(strsplit(total_table_kegg$ID, split = "map"), function(x) x[[2]])
+       paths.options <- sapply(strsplit(total_table_kegg$ID, split = "ko"), function(x) x[[2]])
        
        
        insertUI("#selected_paths3", "afterEnd", ui = {
@@ -18181,7 +18769,7 @@ server <- function(input, output) {
            sensitivity_mode = "sensitive",
            output_path = tempdir(),
            #db_import  = FALSE,
-           diamond_exec_path = "/usr/bin", 
+           #diamond_exec_path = "/usr/bin", 
            max_target_seqs = 1)
          
          diamond_table <- data.frame(diamond_res)
@@ -18596,22 +19184,19 @@ server <- function(input, output) {
      write.fasta(vec_comp, names = "query_prot", paste0("pharaoh_folder/", random_system, ".fa"))
 
      # Then, execute DIAMOND in server to create .sh.ogs.txt.gz file and execute SHOOT
-     # system("cd /home/operador/pruebas_shoot; 
-     #        diamond blastp --db Results_Apr22/profile_sequences.all.fa -q query_prot.fa.sh.ogs.txt.gz --quiet -e 0.001 --compress 1 -p 1;
-     #        python3 ../SHOOT/shoot query_prot.fa Results_Apr22/")
-     # 
-     # database <- ifelse(model.selected5(), "Results_Apr19", "Results_Apr22")
-     # 
-     # afs <- paste0("cd /home/operador/pruebas_shoot; 
-     #        diamond blastp --db ", database, "/profile_sequences.all.fa -q ", random_system, ".fa.sh.ogs.txt.gz --quiet -e 0.001 --compress 1 -p 1;
-     #        python3 ../SHOOT/shoot ", random_system, ".fa ", database, "/")
+
+     database <- ifelse(model.selected5(), "Results_Apr19", "Results_Apr22")
+
+     system(paste0("cd srv/shiny-server/pharaoh_folder;
+            diamond blastp --db ", database, "/profile_sequences.all.fa -q ", random_system, ".fa -o ", random_system, ".fa.sh.ogs.txt.gz --quiet -e 0.001 --compress 1 -p 1;
+            python3 /home/operador/SHOOT/shoot ", random_system, ".fa ", database, "/"))
     
      # Remove input fasta file once SHOOT results have been generated
      file.remove(paste0("pharaoh_folder/", random_system, ".fa"))
      
      # Load gene tree file depending on the input
-     shoot_tree <- ape::read.tree("../shoot/pruebas_shoot/query.fa.shoot.tre")
-     #shoot_tree <- ape::read.tree(paste0("pharaoh_folder/", random_system, ".fa.shoot.tre"))
+     #shoot_tree <- ape::read.tree("../shoot/pruebas_shoot/query.fa.shoot.tre")
+     shoot_tree <- ape::read.tree(paste0("pharaoh_folder/", random_system, ".fa.shoot.tre"))
      
      # TODO Remove the rest of useless SHOOT files, except for MSA
      
@@ -22135,6 +22720,10 @@ server <- function(input, output) {
      
      total_table_kegg <- as.data.frame(kos_enrich)
      
+     # Filter out pathways that are not present in plants
+     kegg_plants <- read.csv("pharaoh_folder/pathways_plant.ids", sep = "\t", header = T)$x
+     total_table_kegg <- subset(total_table_kegg, ID %in% kegg_plants)
+     
      return(total_table_kegg)
      
    }) %>% bindEvent(input$kos_selectionI5)
@@ -22302,7 +22891,7 @@ server <- function(input, output) {
      
      if(nrow(total_table_kegg) != 0)
      {
-       paths.options <- sapply(strsplit(total_table_kegg$ID, split = "map"), function(x) x[[2]])
+       paths.options <- sapply(strsplit(total_table_kegg$ID, split = "ko"), function(x) x[[2]])
        
        
        insertUI("#selected_paths5", "afterEnd", ui = {
