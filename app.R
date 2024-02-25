@@ -136,15 +136,15 @@ ui <- dashboardPage(
   
   dashboardHeader( #disable = TRUE
     title = "PharaohFUN",
-    tags$li(a(href = 'https://www.ibvf.us-csic.es/', tags$img(src = 'logoibvf.png',
-                                                              title = "IBVF", height = "20px"), style = "margin-top: 0px;"),
-            class = "dropdown"),
-    tags$li(a(href = 'https://www.us.es/', tags$img(src = 'Logo_US.png',
-                                                    title = "US", height = "20px"), style = "margin-top: 0px;"),
-            class = "dropdown"),
-    tags$li(a(href = 'https://www.csic.es/es', tags$img(src = '2560px-Logotipo_del_CSIC.svg.png',
-                                                        title = "CSIC", height = "20px"), style = "margin-top: 0px;"),
-            class = "dropdown")
+     tags$li(a(href = 'https://www.ibvf.us-csic.es/', tags$img(src = 'logoibvf.png',
+                                                               title = "IBVF", height = "20px"), style = "margin-top: 0px;"),
+             class = "dropdown"),
+     tags$li(a(href = 'https://www.us.es/', tags$img(src = 'Logo_US.png',
+                                                     title = "US", height = "20px"), style = "margin-top: 0px;"),
+             class = "dropdown"),
+     tags$li(a(href = 'https://www.csic.es/es', tags$img(src = '2560px-Logotipo_del_CSIC.svg.png',
+                                                         title = "CSIC", height = "20px"), style = "margin-top: 0px;"),
+             class = "dropdown")
   ),
   
   dashboardSidebar(
@@ -204,33 +204,33 @@ ui <- dashboardPage(
                        ),
                        fluidRow(tags$br()),
                        fluidRow(tags$br()),
-                       fluidRow(
-                         column(1),
-                         column(12,
-                                valueBox(a("Gene ID", href="#shiny-tab-gene_search", "data-toggle" = "tab", "style" = "color:white"), 
-                                         "Gene ID from one of the listed organisms",
-                                         icon = icon("dna"), width = 4),
-                                
-                                valueBox(a("Sequence", href="#shiny-tab-seq_search", "data-toggle" = "tab", "style" = "color:white"), 
-                                         "Protein sequence from one of the listed organisms",
-                                         icon = icon("a"), width = 4, color = "lime"),
-                                
-                                valueBox(a("Orthogroup ID", href="#shiny-tab-og_id_search", "data-toggle" = "tab", "style" = "color:white"), 
-                                         "Orthogroup ID (from STRING result)",
-                                         icon = icon("dashboard"), width = 4, color = "red")
-                         )
-                       ),
-                       fluidRow(
-                         
-                         column(2),
-                         valueBox(a("Batch mode", href="#shiny-tab-batch_search", "data-toggle" = "tab", "style" = "color:white"), 
-                                  "Sequences set from one of the listed organisms",
-                                  icon = icon("layer-group"), width = 4, color = "orange"),
-                         
-                         valueBox(a("New organism", href="#shiny-tab-shoot_search", "data-toggle" = "tab", "style" = "color:white"), 
-                                  "Protein sequence from any organism",
-                                  icon = icon("leaf", lib = "glyphicon"), width = 4, color = "purple")
-                       ),
+                        fluidRow(
+                          column(1),
+                          column(12,
+                                 valueBox(a("Gene ID", href="#shiny-tab-gene_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                          "Gene ID from one of the listed organisms",
+                                          icon = icon("dna"), width = 4),
+                                 
+                                 valueBox(a("Sequence", href="#shiny-tab-seq_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                          "Protein sequence from one of the listed organisms",
+                                          icon = icon("a"), width = 4, color = "lime"),
+                                 
+                                 valueBox(a("Orthogroup ID", href="#shiny-tab-og_id_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                          "Orthogroup ID (from STRING result)",
+                                          icon = icon("dashboard"), width = 4, color = "red")
+                          )
+                        ),
+                        fluidRow(
+                          
+                          column(2),
+                          valueBox(a("Batch mode", href="#shiny-tab-batch_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                   "Sequences set from one of the listed organisms",
+                                   icon = icon("layer-group"), width = 4, color = "orange"),
+                          
+                          valueBox(a("New organism", href="#shiny-tab-shoot_search", "data-toggle" = "tab", "style" = "color:white"), 
+                                   "Protein sequence from any organism",
+                                   icon = icon("leaf", lib = "glyphicon"), width = 4, color = "purple")
+                        ),
                        
                        fluidRow(tags$br()),
                        tags$div(align="justify", style = 'font-size: 18px; margin-left: 30px;',
@@ -462,7 +462,7 @@ ui <- dashboardPage(
                 shinyWidgets::awesomeRadio(
                   inputId = "build_trees_1",
                   label = "", 
-                  choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Parsimony"),
+                  choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Bayesian Inference"),
                   selected = "Maximum Likelihood",
                   inline = TRUE, 
                   status = "info"
@@ -953,7 +953,7 @@ ui <- dashboardPage(
                 shinyWidgets::awesomeRadio(
                   inputId = "build_trees_2",
                   label = "", 
-                  choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Parsimony"),
+                  choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Bayesian Inference"),
                   selected = "Maximum Likelihood",
                   inline = TRUE, 
                   status = "success"
@@ -1474,7 +1474,7 @@ ui <- dashboardPage(
                 shinyWidgets::awesomeRadio(
                   inputId = "build_trees_3",
                   label = "", 
-                  choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Parsimony"),
+                  choices = c("Maximum Likelihood", "Neighbour Joining", "UPGMA", "Bayesian Inference"),
                   selected = "Maximum Likelihood",
                   inline = TRUE, 
                   status = "danger"
@@ -2753,6 +2753,71 @@ server <- function(input, output) {
       tree <- read.tree(tree.name)
       return(tree)
     }
+    else if(build_trees1() == "Bayesian Inference")
+    {
+      tree.bayes <- ifelse(model.selected1(),
+                          paste("Global_Bayes",paste0("bayes_tree_", file.name, ".nwk"), sep="/"),
+                          paste("Green_Bayes",paste0("bayes_tree_", file.name, ".nwk"), sep="/"))
+      
+      # Error if tree file not found
+      if (!(file.exists(tree.bayes)))
+      {
+        shinyjs::hideElement(id = 'loading.tree1')
+        
+        if (UI_exist_tree1)
+        {
+          removeUI(
+            selector = "div:has(>> #treeTips1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>>> #presentorg1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #tree_image1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #downloadTree1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #downloadNewick1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #downloadTreeSeqs1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+        }
+        
+        UI_exist_tree1 <<- F
+        output$error_tree1 <- renderUI({renderText({print("Bayesian tree inference is currently under development. 
+                                                          We are working to offer this method for all 
+                                                          orthogroups through regular updates. If this message appears,
+                                                          the orthogroup of interest is not yet available. If you want it
+                                                          to appear in the next update, please send an email to marcos.ramos@ibvf.csic.es 
+                                                          and we will try to prioritize it. Meanwhile, try the other methods
+                                                          to build the gene tree.")})})
+        validate(need(file.exists(tree.bayes), " "))
+      }
+      
+      tree <- read.tree(tree.bayes)
+      return(tree)
+      
+    }
     
     else
     {
@@ -3075,23 +3140,6 @@ server <- function(input, output) {
         return(tree)
       }
       
-      else if (build_trees1() == "Parsimony")
-      {
-        # Use ratchet for stimating tree (BS incorporated)
-        tree  <- pratchet(my_subset_tree, trace = 0, minit=100)
-        
-        # Include branch lengths
-        tree  <- acctran(tree, my_subset_tree)
-        
-        # Prune away internal edges of length tol (default = 1e-08) so our trees may contain multifurcations
-        tree  <- di2multi(tree)
-        
-        # Some trees may difer in edges of lengths 0
-        if(inherits(tree, "multiPhylo")){
-          tree <- unique(tree)
-        }
-        return(tree)
-      }
       }
       
     }
@@ -8233,6 +8281,78 @@ server <- function(input, output) {
          return(tree)
        }
        
+       else if(build_trees2() == "Bayesian Inference")
+       {
+         tree.bayes <- ifelse(model.selected2(),
+                              paste("Global_Bayes",paste0("bayes_tree_", file.name, ".nwk"), sep="/"),
+                              paste("Green_Bayes",paste0("bayes_tree_", file.name, ".nwk"), sep="/"))
+         
+         # Error if tree file not found
+         if (!(file.exists(tree.bayes)))
+         {
+           shinyjs::hideElement(id = 'loading.tree2')
+           
+           if (UI_exist_tree2)
+           {
+             removeUI(
+               selector = "div:has(>> #tree_seq_table2)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>> #treeTips2)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>>> #presentorg2)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>> #tree_image2)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>> #downloadTree2)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>> #downloadNewick2)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>> #downloadTreeSeqs2)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+           }
+           
+           UI_exist_tree2 <<- F
+           output$error_tree2 <- renderUI({renderText({print("Bayesian tree inference is currently under development. 
+                                                          We are working to offer this method for all 
+                                                          orthogroups through regular updates. If this message appears,
+                                                          the orthogroup of interest is not yet available. If you want it
+                                                          to appear in the next update, please send an email to marcos.ramos@ibvf.csic.es 
+                                                          and we will try to prioritize it. Meanwhile, try the other methods
+                                                          to build the gene tree.")})})
+           validate(need(file.exists(tree.bayes), " "))
+         }
+         
+         tree <- read.tree(tree.bayes)
+         return(tree)
+         
+       }
+       
        else
        {
          library(phangorn)
@@ -8551,24 +8671,6 @@ server <- function(input, output) {
              
              # Save bootstrap values to the tree
              tree <- addConfidences(treeUPGMA, bs_upgma)
-             return(tree)
-           }
-           
-           else if (build_trees2() == "Parsimony")
-           {
-             # Use ratchet for stimating tree (BS incorporated)
-             tree  <- pratchet(my_subset_tree, trace = 0, minit=100)
-             
-             # Include branch lengths
-             tree  <- acctran(tree, my_subset_tree)
-             
-             # Prune away internal edges of length tol (default = 1e-08) so our trees may contain multifurcations
-             tree  <- di2multi(tree)
-             
-             # Some trees may difer in edges of lengths 0
-             if(inherits(tree, "multiPhylo")){
-               tree <- unique(tree)
-             }
              return(tree)
            }
          }
@@ -13606,6 +13708,72 @@ server <- function(input, output) {
          return(tree)
        }
        
+       else if(build_trees3() == "Bayesian Inference")
+       {
+         tree.bayes <- ifelse(model.selected3(),
+                              paste("Global_Bayes",paste0("bayes_tree_", file.name, ".nwk"), sep="/"),
+                              paste("Green_Bayes",paste0("bayes_tree_", file.name, ".nwk"), sep="/"))
+         
+         # Error if tree file not found
+         if (!(file.exists(tree.bayes)))
+         {
+           shinyjs::hideElement(id = 'loading.tree3')
+           
+           if (UI_exist_tree3)
+           {
+             removeUI(
+               selector = "div:has(>> #treeTips3)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>>> #presentorg3)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>> #tree_image3)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>> #downloadTree3)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>> #downloadNewick3)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+             
+             removeUI(
+               selector = "div:has(>> #downloadTreeSeqs3)",
+               multiple = TRUE,
+               immediate = TRUE
+             )
+           }
+           
+           UI_exist_tree3 <<- F
+           output$error_tree3 <- renderUI({renderText({print("Bayesian tree inference is currently under development. 
+                                                          We are working to offer this method for all 
+                                                          orthogroups through regular updates. If this message appears,
+                                                          the orthogroup of interest is not yet available. If you want it
+                                                          to appear in the next update, please send an email to marcos.ramos@ibvf.csic.es 
+                                                          and we will try to prioritize it. Meanwhile, try the other methods
+                                                          to build the gene tree.")})})
+           validate(need(file.exists(tree.bayes), " "))
+         }
+         
+         tree <- read.tree(tree.bayes)
+         return(tree)
+         
+       }
+       
        else
        {
          library(phangorn)
@@ -13926,24 +14094,7 @@ server <- function(input, output) {
              tree <- addConfidences(treeUPGMA, bs_upgma)
              return(tree)
            }
-           
-           else if (build_trees3() == "Parsimony")
-           {
-             # Use ratchet for stimating tree (BS incorporated)
-             tree  <- pratchet(my_subset_tree, trace = 0, minit=100)
-             
-             # Include branch lengths
-             tree  <- acctran(tree, my_subset_tree)
-             
-             # Prune away internal edges of length tol (default = 1e-08) so our trees may contain multifurcations
-             tree  <- di2multi(tree)
-             
-             # Some trees may difer in edges of lengths 0
-             if(inherits(tree, "multiPhylo")){
-               tree <- unique(tree)
-             }
-             return(tree)
-           }
+          
          }
          
        }
@@ -19187,21 +19338,37 @@ server <- function(input, output) {
 
      database <- ifelse(model.selected5(), "Results_Apr19", "Results_Apr22")
 
-     system(paste0("cd srv/shiny-server/pharaoh_folder;
+     system(paste0("cd /srv/shiny-server/PharaohFUN/pharaoh_folder;
             diamond blastp --db ", database, "/profile_sequences.all.fa -q ", random_system, ".fa -o ", random_system, ".fa.sh.ogs.txt.gz --quiet -e 0.001 --compress 1 -p 1;
-            python3 /home/operador/SHOOT/shoot ", random_system, ".fa ", database, "/"))
+            python3 /srv/shiny-server/PharaohFUN/SHOOT/shoot ", random_system, ".fa ", database, "/"))
     
      # Remove input fasta file once SHOOT results have been generated
      file.remove(paste0("pharaoh_folder/", random_system, ".fa"))
      
      # Load gene tree file depending on the input
-     #shoot_tree <- ape::read.tree("../shoot/pruebas_shoot/query.fa.shoot.tre")
      shoot_tree <- ape::read.tree(paste0("pharaoh_folder/", random_system, ".fa.shoot.tre"))
-     
-     # TODO Remove the rest of useless SHOOT files, except for MSA
      
      return(shoot_tree)
 
+   }) %>% bindEvent(input$run_button5)
+   
+   # Create variable for MSA and remove useless files
+   shoot_msa5 <- reactive({
+     tree <- tree5()
+     random_name <- random.file5()
+     random_system <- paste0(random_name, "_system")
+     
+     mySequences1 <- seqinr::read.fasta(paste0("pharaoh_folder/", random_system, ".fa.sh.msa.fa"), seqtype = "AA")
+     
+     # Remove useless files and folders
+     system(paste0("cd /srv/shiny-server/PharaohFUN/pharaoh_folder/;
+                   rm ", random_system, ".fa.*"))
+     system(paste0("cd /srv/shiny-server/PharaohFUN/pharaoh_folder/;
+                   rm -r ", random_system, ".fa.*"))
+     
+     return(mySequences1)
+     
+     
    }) %>% bindEvent(input$run_button5)
 
 
@@ -20366,6 +20533,7 @@ server <- function(input, output) {
    organims_reduced5 <- reactive({
      
      tree_reduced <- tree_reduced5()
+     shoot_msa <- shoot_msa5()
      
      len.mp <- length(tips_to_keep.mp5())
      len.ot <- length(tips_to_keep.ot5())
@@ -20779,9 +20947,13 @@ server <- function(input, output) {
    
    # Identify OG from SHOOT output
    og.name5 <- reactive({
+     
+     tree_reduced <- tree_reduced5()
+     random_name <- random.file5()
+     random_system <- paste0(random_name, "_system")
 
      # Path1: read .sh.ogs.txt.gz file for OG
-     og.name.file <- read.table("../shoot/pruebas_shoot/query.fa.assign.txt", header = F, sep="\t", skip = 1)
+     og.name.file <- read.table(paste0("pharaoh_folder/", random_system,".fa.assign.txt"), header = F, sep="\t", skip = 1)
      og.name <- paste0("OG", sprintf("%07d", og.name.file$V2))
      return(og.name)
 
@@ -21925,7 +22097,7 @@ server <- function(input, output) {
        # If MAFFT alignment is selected
        else
        {
-         mySequences1 <- seqinr::read.fasta("../shoot/pruebas_shoot/query.fa.sh.msa.fa", seqtype = "AA")
+         mySequences1 <- shoot_msa5()
          #mySequences1 <- seqinr::read.fasta(ortho.seq.name, seqtype = "AA")
          mysubseqs <- mySequences1[selected_genes]
          mysubnames <- seqinr::getName(mySequences1)
