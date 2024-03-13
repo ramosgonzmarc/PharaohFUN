@@ -12,6 +12,7 @@ library(ape)
 library(msaR)
 library(shinyjs)
 library(phylowidget)
+library(plotly)
 
 # Functions
 
@@ -4770,7 +4771,7 @@ server <- function(input, output) {
       if (build_trees1() == "Maximum Likelihood")
       {
       tree_plot <- ggtree(tree_reduced) %<+% d2 + geom_tiplab() + theme(legend.position =) +
-        xlim(0, max(tree_reduced$edge.length)*3) + geom_tiplab(aes(label = label, color = organism)) +
+        xlim(0, max(tree_reduced$edge.length)*2.2) + geom_tiplab(aes(label = label, color = organism)) +
         scale_color_manual(values = unique(d2$col), breaks = unique(d2$org)) +
         geom_highlight(mapping=aes(subset = label %in% high.gene,
                                    node = node,
@@ -4781,7 +4782,7 @@ server <- function(input, output) {
       else
       {
         tree_plot <- ggtree(tree_reduced) %<+% d2 + geom_tiplab() + theme(legend.position =) +
-          xlim(0, max(tree_reduced$edge.length)*3) + geom_tiplab(aes(label = label, color = organism)) +
+          xlim(0, max(tree_reduced$edge.length)*2.2) + geom_tiplab(aes(label = label, color = organism)) +
           geom_nodelab() +
           scale_color_manual(values = unique(d2$col), breaks = unique(d2$org)) +
           geom_highlight(mapping=aes(subset = label %in% high.gene,
@@ -4855,15 +4856,16 @@ server <- function(input, output) {
       box(
         title = "Present Organisms", status = "info", solidHeader = TRUE,
         collapsible = TRUE, width = 12,
-        fluidRow(column(1), imageOutput("presentorg1"))
+        plotlyOutput("presentorg1")
       )
     }) 
     
     insertUI("#box_tree_plot1", "afterEnd", ui = {
-      box(width = 12,
+      image_height <- 300 + 15*length(tree_reduced1()$tip.label)
+      box(width = 12, height = image_height + 100,
           title = "Gene Tree", status = "info", solidHeader = TRUE,
           collapsible = TRUE, 
-          plotOutput("tree_image1", height = 500)
+          plotOutput("tree_image1", height = image_height, width = 1100)
       )
     })
       
@@ -4895,7 +4897,7 @@ server <- function(input, output) {
   }, width = 400) # %>% bindEvent(input$run_button1)
 
   # Render pie chart
-  output$presentorg1 <- renderImage({
+  output$presentorg1 <- renderPlotly({
 
     {library(ggplot2)
     library(dplyr)
@@ -4910,32 +4912,24 @@ server <- function(input, output) {
       mutate(ypos = cumsum(prop)- 0.5*prop )
 
   # Create plot
-    a <- ggplot(data, aes(x="", y=prop, fill=group)) +
-      geom_bar(stat="identity", width=1, color="white") +
-      coord_polar("y", start=0) +
-      theme_void() +
-      theme(legend.position="none") +
-      geom_text(aes(y = ypos, label = group), color = "white", size=6) +
-      #scale_fill_brewer(palette="Set1")
-      scale_fill_manual(values = rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"), 
-                                   floor(nrow(data)/9)+1))}
+    
+    plotly::plot_ly(data=data,values=~prop,labels=~factor(group),
+                    marker=list(colors=rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"),
+                                           floor(nrow(data)/9)+1)),
+                    type="pie",showlegend = F, text= ~group,
+                    textinfo = "none", hoverinfo = "text")} 
 
-    png("organims_reduced1.png", height = 450, width = 450)
-    plot(a)
-    dev.off()
-
-    list(src = "organims_reduced1.png",
-         contentType="image/png", width=400,height=400)
-  }, deleteFile = T)
+  })
 
   # Render tree image
   output$tree_image1 <- renderImage({
-    png("tree1.png", height = 500, width = 1000)
+    image_height <- 300 + 15*length(tree_reduced1()$tip.label)
+    png("tree1.png", height = image_height, width = 1100)
     plot(tree_plot1())
     dev.off()
 
     list(src = "tree1.png",
-         contentType="image/png", width=1000,height=500)
+         contentType="image/png", width=1100,height=image_height)
   }, deleteFile = T)
 
  # Download results
@@ -4944,9 +4938,9 @@ server <- function(input, output) {
       paste("tree", ".png", sep="")
     },
     content= function(file) {
-      image_height <- 300 + 11*length(tree_reduced1()$tip.label)
-      image_width <- 200 + 400*max(tree_reduced1()$edge.length)
-      png(file, height = image_height, width = image_width)
+      image_height <- (300 + 11*length(tree_reduced1()$tip.label))*3
+      image_width <- (200 + 400*max(tree_reduced1()$edge.length))*3
+      png(file, height = image_height, width = image_width, res = (70 + 0.1*length(tree_reduced1()$tip.label))*3)
       plot(tree_plot1())
       dev.off()
     })
@@ -5482,11 +5476,31 @@ server <- function(input, output) {
     
     return(cafe.tree)
   }) %>% bindEvent(input$cafe_start1)
-
-  evo_plot1 <- reactive({
+  
+  mrca.tree1 <- reactive({
     
     og.cafe <- og.name1()
     cafe.tree <- cafe_tree1()
+    
+    # Create phylogenomic tree with internal nodes names
+    
+    mrca.tree <- read.tree(ifelse(model.selected1(), "pharaoh_folder/species_tree_global.txt",
+                                  "pharaoh_folder/species_tree_green.txt"))
+    
+    node.names <- read.csv(ifelse(model.selected1(), "pharaoh_folder/tax_labels_global.tsv",
+                                  "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+    
+    mrca.tree$node.label <- node.names$V2
+    
+    return(mrca.tree)
+    
+  }) %>% bindEvent(input$cafe_start1)
+
+  evo_plot_data1 <- reactive({
+    
+    og.cafe <- og.name1()
+    cafe.tree <- cafe_tree1()
+    mrca.tree <- mrca.tree1()
     
     # Show an error if the orthogroup is not significantly expanded/collapsed in any branch
 
@@ -5545,16 +5559,6 @@ server <- function(input, output) {
     # Merge tips and nodes reconstruction
     cafe.count <- c(tip.count.clean, node.count.clean)
 
-    # Create phylogenomic tree with internal nodes names
-
-    mrca.tree <- read.tree(ifelse(model.selected1(), "pharaoh_folder/species_tree_global.txt",
-                                  "pharaoh_folder/species_tree_green.txt"))
-
-    node.names <- read.csv(ifelse(model.selected1(), "pharaoh_folder/tax_labels_global.tsv",
-                                  "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
-
-    mrca.tree$node.label <- node.names$V2
-
     # Create a timeline for a given OG
 
     tree.name <- ifelse(model.selected1(),
@@ -5598,22 +5602,60 @@ server <- function(input, output) {
     cafe.table.node.comp <- rbind(cafe.table.tips, cafe.table.nodes)
 
     d <- dplyr::mutate(cafe.table.node.comp)
+    d$text <- d$label
+    d_index <- if(model.selected1()) c(47:91) else c(37:71)
+    d$label[d_index] <- "" 
 
+    return(d)
+
+  }) %>% bindEvent(input$cafe_start1)
+  
+  evo_plot1 <- reactive({
+    
+    d <- evo_plot_data1() 
+    mrca.tree <- mrca.tree1()
+    
     library(ggtree)
     library(ggplot2)
 
     evo_plot <- ggtree(mrca.tree, layout = "ellipse") %<+% d + aes(colour = I(d$col)) +
       geom_tiplab(aes(label=gsub("_", " ", tools::toTitleCase(d$label))), offset = 30) +
       theme(legend.position = "none") +
-      xlim(0, max(mrca.tree$edge.length)*1.5) +
+      xlim(0, max(mrca.tree$edge.length)*1.85) +
       geom_nodepoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
                      alpha = .75) +
       scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
       geom_tippoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
                     alpha = .75)
-
+    
     return(evo_plot)
-
+    
+  }) %>% bindEvent(input$cafe_start1)
+  
+  evo_plotly1 <- reactive({
+    
+    d <- evo_plot_data1() 
+    mrca.tree <- mrca.tree1()
+    
+    library(ggtree)
+    library(ggplot2)
+    
+    evo_plotly <- ggtree(mrca.tree) %<+% d + aes(colour = I(d$col),text=paste0("</br> Duplications: ",dup_number,
+                                                                              "</br> Name: ",gsub("_", " ", tools::toTitleCase(d$text)))) + 
+      geom_text(aes(x = ifelse(model.selected1(), 1870, 1070), label=gsub("_", " ", tools::toTitleCase(d$label)))) + 
+      theme(legend.position = "none") +
+      xlim(0, max(mrca.tree$edge.length)*1.8) +
+      geom_point(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                 alpha = .75) +
+      scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
+      geom_tippoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                    alpha = .75)
+    
+    p <- ggplotly(evo_plotly, tooltip = "text", width = 1300, height = ifelse(model.selected1(), 800, 700)) 
+    p <- p %>%
+      plotly::style(textposition = "right",xanchor="right")
+    return(p)
+    
   }) %>% bindEvent(input$cafe_start1)
 
   evo.paths.id1 <- reactive({
@@ -5622,13 +5664,7 @@ server <- function(input, output) {
     og.cafe <- og.name1()
     model.node.number <- ifelse(model.selected1(), 46, 36)
 
-    mrca.tree <- read.tree(ifelse(model.selected1(), "pharaoh_folder/species_tree_global.txt",
-                                  "pharaoh_folder/species_tree_green.txt"))
-
-    node.names <- read.csv(ifelse(model.selected1(), "pharaoh_folder/tax_labels_global.tsv",
-                                  "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
-
-    mrca.tree$node.label <- node.names$V2
+    mrca.tree <- mrca.tree1()
 
     # Create timeline
     tree.name <- ifelse(model.selected1(),
@@ -5700,7 +5736,7 @@ server <- function(input, output) {
       box(width = 12,
           title = "Ancestral State Reconstruction", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
-          imageOutput("cafe_plot1", height = 500, width = 1000))
+          plotlyOutput("cafe_plot1", height = ifelse(model.selected1(), "800px", "800px")))
     })
 
     insertUI("#box_mrca1", "afterEnd", ui = {
@@ -5727,14 +5763,9 @@ server <- function(input, output) {
 
  # Fill outputs
 
-  output$cafe_plot1 <- renderImage({
-        png("evo_plot1.png", height = 500, width = 1000)
-        plot(evo_plot1())
-        dev.off()
-
-        list(src = "evo_plot1.png",
-             contentType="image/png", width=1000,height=500)
-      }, deleteFile = T)
+  output$cafe_plot1 <- renderPlotly({
+        evo_plotly1()
+      })
 
   output$cafe_mrca1 <- renderText({
         print(paste0("Most recent common ancestor for this orthogroup is the
@@ -5760,7 +5791,7 @@ server <- function(input, output) {
     content= function(file) {
       evo_plot <- evo_plot1()
       
-      png(file)
+      png(file, width = 1400, height = 800, res = 100)
       plot(evo_plot)
       dev.off()
     })
@@ -10466,7 +10497,7 @@ server <- function(input, output) {
    }, width = 400) # %>% bindEvent(input$run_button2)
    
    # Render pie chart
-   output$presentorg2 <- renderImage({
+   output$presentorg2 <- renderPlotly({
      
      {library(ggplot2)
        library(dplyr)
@@ -10481,33 +10512,39 @@ server <- function(input, output) {
          mutate(ypos = cumsum(prop)- 0.5*prop )
        
        # Create plot
-       a <- ggplot(data, aes(x="", y=prop, fill=group)) +
-         geom_bar(stat="identity", width=1, color="white") +
-         coord_polar("y", start=0) +
-         theme_void() +
-         theme(legend.position="none") +
-         geom_text(aes(y = ypos, label = group), color = "white", size=6) +
-         #scale_fill_brewer(palette="Set1")
-         scale_fill_manual(values = rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"), 
-                                        floor(nrow(data)/9)+1))}
+       
+       plotly::plot_ly(data=data,values=~prop,labels=~factor(group),
+                       marker=list(colors=rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"),
+                                              floor(nrow(data)/9)+1)),
+                       type="pie",showlegend = F, text= ~group,
+                       textinfo = "none", hoverinfo = "text")} 
      
-     png("organims_reduced2.png", height = 450, width = 450)
-     plot(a)
-     dev.off()
-     
-     list(src = "organims_reduced2.png",
-          contentType="image/png", width=400,height=400)
-   }, deleteFile = T)
+   })
    
    # Render tree image
    output$tree_image2 <- renderImage({
-     png("tree2.png", height = 500, width = 1000)
+     image_height <- 300 + 15*length(tree_reduced2()$tip.label)
+     png("tree2.png", height = image_height, width = 1100)
      plot(tree_plot2())
      dev.off()
      
      list(src = "tree2.png",
-          contentType="image/png", width=1000,height=500)
+          contentType="image/png", width=1100,height=image_height)
    }, deleteFile = T)
+   
+   # Download results
+   output$downloadTree2 <- downloadHandler(
+     filename= function() {
+       paste("tree", ".png", sep="")
+     },
+     content= function(file) {
+       image_height <- (300 + 11*length(tree_reduced2()$tip.label))*3
+       image_width <- (200 + 400*max(tree_reduced2()$edge.length))*3
+       png(file, height = image_height, width = image_width, res = (70 + 0.1*length(tree_reduced2()$tip.label))*3)
+       plot(tree_plot2())
+       dev.off()
+     })
+  
    
    # Download results
    output$downloadTree2 <- downloadHandler(
@@ -11050,10 +11087,30 @@ server <- function(input, output) {
      return(cafe.tree)
    }) %>% bindEvent(input$cafe_start2)
    
-   evo_plot2 <- reactive({
+   mrca.tree2 <- reactive({
      
      og.cafe <- og.name2()
      cafe.tree <- cafe_tree2()
+     
+     # Create phylogenomic tree with internal nodes names
+     
+     mrca.tree <- read.tree(ifelse(model.selected2(), "pharaoh_folder/species_tree_global.txt",
+                                   "pharaoh_folder/species_tree_green.txt"))
+     
+     node.names <- read.csv(ifelse(model.selected2(), "pharaoh_folder/tax_labels_global.tsv",
+                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+     
+     mrca.tree$node.label <- node.names$V2
+     
+     return(mrca.tree)
+     
+   }) %>% bindEvent(input$cafe_start2)
+   
+   evo_plot_data2 <- reactive({
+     
+     og.cafe <- og.name2()
+     cafe.tree <- cafe_tree2()
+     mrca.tree <- mrca.tree2()
      
      # Show an error if the orthogroup is not significantly expanded/collapsed in any branch
      
@@ -11112,16 +11169,6 @@ server <- function(input, output) {
      # Merge tips and nodes reconstruction
      cafe.count <- c(tip.count.clean, node.count.clean)
      
-     # Create phylogenomic tree with internal nodes names
-     
-     mrca.tree <- read.tree(ifelse(model.selected2(), "pharaoh_folder/species_tree_global.txt",
-                                   "pharaoh_folder/species_tree_green.txt"))
-     
-     node.names <- read.csv(ifelse(model.selected2(), "pharaoh_folder/tax_labels_global.tsv",
-                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
-     
-     mrca.tree$node.label <- node.names$V2
-     
      # Create a timeline for a given OG
      
      tree.name <- ifelse(model.selected2(),
@@ -11165,6 +11212,18 @@ server <- function(input, output) {
      cafe.table.node.comp <- rbind(cafe.table.tips, cafe.table.nodes)
      
      d <- dplyr::mutate(cafe.table.node.comp)
+     d$text <- d$label
+     d_index <- if(model.selected2()) c(47:91) else c(37:71)
+     d$label[d_index] <- "" 
+     
+     return(d)
+     
+   }) %>% bindEvent(input$cafe_start2)
+   
+   evo_plot2 <- reactive({
+     
+     d <- evo_plot_data2() 
+     mrca.tree <- mrca.tree2()
      
      library(ggtree)
      library(ggplot2)
@@ -11172,7 +11231,7 @@ server <- function(input, output) {
      evo_plot <- ggtree(mrca.tree, layout = "ellipse") %<+% d + aes(colour = I(d$col)) +
        geom_tiplab(aes(label=gsub("_", " ", tools::toTitleCase(d$label))), offset = 30) +
        theme(legend.position = "none") +
-       xlim(0, max(mrca.tree$edge.length)*1.5) +
+       xlim(0, max(mrca.tree$edge.length)*1.85) +
        geom_nodepoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
                       alpha = .75) +
        scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
@@ -11180,6 +11239,32 @@ server <- function(input, output) {
                      alpha = .75)
      
      return(evo_plot)
+     
+   }) %>% bindEvent(input$cafe_start2)
+   
+   evo_plotly2 <- reactive({
+     
+     d <- evo_plot_data2() 
+     mrca.tree <- mrca.tree2()
+     
+     library(ggtree)
+     library(ggplot2)
+     
+     evo_plotly <- ggtree(mrca.tree) %<+% d + aes(colour = I(d$col),text=paste0("</br> Duplications: ",dup_number,
+                                                                                "</br> Name: ",gsub("_", " ", tools::toTitleCase(d$text)))) + 
+       geom_text(aes(x = ifelse(model.selected2(), 1870, 1070), label=gsub("_", " ", tools::toTitleCase(d$label)))) + 
+       theme(legend.position = "none") +
+       xlim(0, max(mrca.tree$edge.length)*1.8) +
+       geom_point(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                  alpha = .75) +
+       scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
+       geom_tippoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                     alpha = .75)
+     
+     p <- ggplotly(evo_plotly, tooltip = "text", width = 1300, height = ifelse(model.selected2(), 800, 700)) 
+     p <- p %>%
+       plotly::style(textposition = "right",xanchor="right")
+     return(p)
      
    }) %>% bindEvent(input$cafe_start2)
    
@@ -11267,7 +11352,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "Ancestral State Reconstruction", status = "success", solidHeader = TRUE,
            collapsible = TRUE,
-           imageOutput("cafe_plot2", height = 500, width = 1000))
+           plotlyOutput("cafe_plot2", height = ifelse(model.selected2(), "800px", "800px")))
      })
      
      insertUI("#box_mrca2", "afterEnd", ui = {
@@ -11293,15 +11378,9 @@ server <- function(input, output) {
    })
    
    # Fill outputs
-   
-   output$cafe_plot2 <- renderImage({
-     png("evo_plot2.png", height = 500, width = 1000)
-     plot(evo_plot2())
-     dev.off()
-     
-     list(src = "evo_plot2.png",
-          contentType="image/png", width=1000,height=500)
-   }, deleteFile = T)
+   output$cafe_plot2 <- renderPlotly({
+     evo_plotly2()
+   })
    
    output$cafe_mrca2 <- renderText({
      print(paste0("Most recent common ancestor for this orthogroup is the
@@ -11327,10 +11406,10 @@ server <- function(input, output) {
      content= function(file) {
        evo_plot <- evo_plot2()
        
-       png(file)
+       png(file, width = 1400, height = 800, res = 100)
        plot(evo_plot)
        dev.off()
-     }) 
+     })
    
 
    ####################### MSA #################################
@@ -15788,7 +15867,7 @@ server <- function(input, output) {
    }, width = 400) # %>% bindEvent(input$run_button3)
    
    # Render pie chart
-   output$presentorg3 <- renderImage({
+   output$presentorg3 <- renderPlotly({
      
      {library(ggplot2)
        library(dplyr)
@@ -15803,31 +15882,24 @@ server <- function(input, output) {
          mutate(ypos = cumsum(prop)- 0.5*prop )
        
        # Create plot
-       a <- ggplot(data, aes(x="", y=prop, fill=group)) +
-         geom_bar(stat="identity", width=1, color="white") +
-         coord_polar("y", start=0) +
-         theme_void() +
-         theme(legend.position="none") +
-         geom_text(aes(y = ypos, label = group), color = "white", size=6) +
-         scale_fill_manual(values = rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"), 
-                                        floor(nrow(data)/9)+1))}
+       
+       plotly::plot_ly(data=data,values=~prop,labels=~factor(group),
+                       marker=list(colors=rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"),
+                                              floor(nrow(data)/9)+1)),
+                       type="pie",showlegend = F, text= ~group,
+                       textinfo = "none", hoverinfo = "text")} 
      
-     png("organims_reduced3.png", height = 450, width = 450)
-     plot(a)
-     dev.off()
-     
-     list(src = "organims_reduced3.png",
-          contentType="image/png", width=400,height=400)
-   }, deleteFile = T)
+   })
    
    # Render tree image
    output$tree_image3 <- renderImage({
-     png("tree3.png", height = 500, width = 1000)
+     image_height <- 300 + 15*length(tree_reduced3()$tip.label)
+     png("tree3.png", height = image_height, width = 1100)
      plot(tree_plot3())
      dev.off()
      
      list(src = "tree3.png",
-          contentType="image/png", width=1000,height=500)
+          contentType="image/png", width=1100,height=image_height)
    }, deleteFile = T)
    
    # Download results
@@ -15836,9 +15908,9 @@ server <- function(input, output) {
        paste("tree", ".png", sep="")
      },
      content= function(file) {
-       image_height <- 300 + 11*length(tree_reduced3()$tip.label)
-       image_width <- 200 + 400*max(tree_reduced3()$edge.length)
-       png(file, height = image_height, width = image_width)
+       image_height <- (300 + 11*length(tree_reduced3()$tip.label))*3
+       image_width <- (200 + 400*max(tree_reduced3()$edge.length))*3
+       png(file, height = image_height, width = image_width, res = (70 + 0.1*length(tree_reduced3()$tip.label))*3)
        plot(tree_plot3())
        dev.off()
      })
@@ -16369,10 +16441,30 @@ server <- function(input, output) {
      return(cafe.tree)
    }) %>% bindEvent(input$cafe_start3)
    
-   evo_plot3 <- reactive({
+   mrca.tree3 <- reactive({
      
      og.cafe <- og.name3()
      cafe.tree <- cafe_tree3()
+     
+     # Create phylogenomic tree with internal nodes names
+     
+     mrca.tree <- read.tree(ifelse(model.selected3(), "pharaoh_folder/species_tree_global.txt",
+                                   "pharaoh_folder/species_tree_green.txt"))
+     
+     node.names <- read.csv(ifelse(model.selected3(), "pharaoh_folder/tax_labels_global.tsv",
+                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+     
+     mrca.tree$node.label <- node.names$V2
+     
+     return(mrca.tree)
+     
+   }) %>% bindEvent(input$cafe_start3)
+   
+   evo_plot_data3 <- reactive({
+     
+     og.cafe <- og.name3()
+     cafe.tree <- cafe_tree3()
+     mrca.tree <- mrca.tree3()
      
      # Show an error if the orthogroup is not significantly expanded/collapsed in any branch
      
@@ -16431,16 +16523,6 @@ server <- function(input, output) {
      # Merge tips and nodes reconstruction
      cafe.count <- c(tip.count.clean, node.count.clean)
      
-     # Create phylogenomic tree with internal nodes names
-     
-     mrca.tree <- read.tree(ifelse(model.selected3(), "pharaoh_folder/species_tree_global.txt",
-                                   "pharaoh_folder/species_tree_green.txt"))
-     
-     node.names <- read.csv(ifelse(model.selected3(), "pharaoh_folder/tax_labels_global.tsv",
-                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
-     
-     mrca.tree$node.label <- node.names$V2
-     
      # Create a timeline for a given OG
      
      tree.name <- ifelse(model.selected3(),
@@ -16484,6 +16566,18 @@ server <- function(input, output) {
      cafe.table.node.comp <- rbind(cafe.table.tips, cafe.table.nodes)
      
      d <- dplyr::mutate(cafe.table.node.comp)
+     d$text <- d$label
+     d_index <- if(model.selected3()) c(47:91) else c(37:71)
+     d$label[d_index] <- "" 
+     
+     return(d)
+     
+   }) %>% bindEvent(input$cafe_start3)
+   
+   evo_plot3 <- reactive({
+     
+     d <- evo_plot_data3() 
+     mrca.tree <- mrca.tree3()
      
      library(ggtree)
      library(ggplot2)
@@ -16491,7 +16585,7 @@ server <- function(input, output) {
      evo_plot <- ggtree(mrca.tree, layout = "ellipse") %<+% d + aes(colour = I(d$col)) +
        geom_tiplab(aes(label=gsub("_", " ", tools::toTitleCase(d$label))), offset = 30) +
        theme(legend.position = "none") +
-       xlim(0, max(mrca.tree$edge.length)*1.5) +
+       xlim(0, max(mrca.tree$edge.length)*1.85) +
        geom_nodepoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
                       alpha = .75) +
        scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
@@ -16499,6 +16593,32 @@ server <- function(input, output) {
                      alpha = .75)
      
      return(evo_plot)
+     
+   }) %>% bindEvent(input$cafe_start3)
+   
+   evo_plotly3 <- reactive({
+     
+     d <- evo_plot_data3() 
+     mrca.tree <- mrca.tree3()
+     
+     library(ggtree)
+     library(ggplot2)
+     
+     evo_plotly <- ggtree(mrca.tree) %<+% d + aes(colour = I(d$col),text=paste0("</br> Duplications: ",dup_number,
+                                                                                "</br> Name: ",gsub("_", " ", tools::toTitleCase(d$text)))) + 
+       geom_text(aes(x = ifelse(model.selected3(), 1870, 1070), label=gsub("_", " ", tools::toTitleCase(d$label)))) + 
+       theme(legend.position = "none") +
+       xlim(0, max(mrca.tree$edge.length)*1.8) +
+       geom_point(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                  alpha = .75) +
+       scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
+       geom_tippoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                     alpha = .75)
+     
+     p <- ggplotly(evo_plotly, tooltip = "text", width = 1300, height = ifelse(model.selected3(), 800, 700)) 
+     p <- p %>%
+       plotly::style(textposition = "right",xanchor="right")
+     return(p)
      
    }) %>% bindEvent(input$cafe_start3)
    
@@ -16586,7 +16706,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "Ancestral State Reconstruction", status = "danger", solidHeader = TRUE,
            collapsible = TRUE,
-           imageOutput("cafe_plot3", height = 500, width = 1000))
+           plotlyOutput("cafe_plot3", height = ifelse(model.selected3(), "800px", "800px")))
      })
      
      insertUI("#box_mrca3", "afterEnd", ui = {
@@ -16613,14 +16733,9 @@ server <- function(input, output) {
    
    # Fill outputs
    
-   output$cafe_plot3 <- renderImage({
-     png("evo_plot3.png", height = 500, width = 1000)
-     plot(evo_plot3())
-     dev.off()
-     
-     list(src = "evo_plot3.png",
-          contentType="image/png", width=1000,height=500)
-   }, deleteFile = T)
+   output$cafe_plot3 <- renderPlotly({
+     evo_plotly3()
+   })
    
    output$cafe_mrca3 <- renderText({
      print(paste0("Most recent common ancestor for this orthogroup is the
@@ -16646,10 +16761,10 @@ server <- function(input, output) {
      content= function(file) {
        evo_plot <- evo_plot3()
        
-       png(file)
+       png(file, width = 1400, height = 800, res = 100)
        plot(evo_plot)
        dev.off()
-     }) 
+     })
    
    ####################### MSA #################################
    
@@ -19062,7 +19177,7 @@ server <- function(input, output) {
      # Retrieve genes for each OG
      ortho_for_go <- apply(diamond_table, MARGIN = 1,
                            FUN = function(x) if (x["OG"] != "Gene is not clustered in an OG") 
-                             as.character(subset(ortho.line, (ortho.line$Orthogroup == x["OG"]))))
+                             as.character(subset(ortho.line, (ortho.line$Orthogroup == x["OG"]))), simplify = F)
      
      
      ortho_for_go2 <- lapply(ortho_for_go, function(x) paste0(x[-1][x[-1] != ""], collapse = ","))
@@ -21092,8 +21207,9 @@ server <- function(input, output) {
      print(tree_reduced5()$tip.label)
    }, width = 400) # %>% bindEvent(input$run_button5)
    
+   
    # Render pie chart
-   output$presentorg5 <- renderImage({
+   output$presentorg5 <- renderPlotly({
      
      {library(ggplot2)
        library(dplyr)
@@ -21108,32 +21224,24 @@ server <- function(input, output) {
          mutate(ypos = cumsum(prop)- 0.5*prop )
        
        # Create plot
-       a <- ggplot(data, aes(x="", y=prop, fill=group)) +
-         geom_bar(stat="identity", width=1, color="white") +
-         coord_polar("y", start=0) +
-         theme_void() +
-         theme(legend.position="none") +
-         geom_text(aes(y = ypos, label = group), color = "white", size=6) +
-         #scale_fill_brewer(palette="Set1")
-         scale_fill_manual(values = rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"), 
-                                        floor(nrow(data)/9)+1))}
+       
+       plotly::plot_ly(data=data,values=~prop,labels=~factor(group),
+                       marker=list(colors=rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"),
+                                              floor(nrow(data)/9)+1)),
+                       type="pie",showlegend = F, text= ~group,
+                       textinfo = "none", hoverinfo = "text")} 
      
-     png("organims_reduced5.png", height = 450, width = 450)
-     plot(a)
-     dev.off()
-     
-     list(src = "organims_reduced5.png",
-          contentType="image/png", width=400,height=400)
-   }, deleteFile = T)
+   })
    
    # Render tree image
    output$tree_image5 <- renderImage({
-     png("tree5.png", height = 500, width = 1000)
+     image_height <- 300 + 15*length(tree_reduced5()$tip.label)
+     png("tree5.png", height = image_height, width = 1100)
      plot(tree_plot5())
      dev.off()
      
      list(src = "tree5.png",
-          contentType="image/png", width=1000,height=500)
+          contentType="image/png", width=1100,height=image_height)
    }, deleteFile = T)
    
    # Download results
@@ -21142,12 +21250,13 @@ server <- function(input, output) {
        paste("tree", ".png", sep="")
      },
      content= function(file) {
-       image_height <- 300 + 11*length(tree_reduced5()$tip.label)
-       image_width <- 200 + 400*max(tree_reduced5()$edge.length)
-       png(file, height = image_height, width = image_width)
+       image_height <- (300 + 11*length(tree_reduced5()$tip.label))*3
+       image_width <- (200 + 400*max(tree_reduced5()$edge.length))*3
+       png(file, height = image_height, width = image_width, res = (70 + 0.1*length(tree_reduced5()$tip.label))*3)
        plot(tree_plot5())
        dev.off()
      })
+   
    
    # Create and download tree in newick format
    output$downloadNewick5 <- downloadHandler(
@@ -21680,10 +21789,30 @@ server <- function(input, output) {
      return(cafe.tree)
    }) %>% bindEvent(input$cafe_start5)
    
-   evo_plot5 <- reactive({
+   mrca.tree5 <- reactive({
      
      og.cafe <- og.name5()
      cafe.tree <- cafe_tree5()
+     
+     # Create phylogenomic tree with internal nodes names
+     
+     mrca.tree <- read.tree(ifelse(model.selected5(), "pharaoh_folder/species_tree_global.txt",
+                                   "pharaoh_folder/species_tree_green.txt"))
+     
+     node.names <- read.csv(ifelse(model.selected5(), "pharaoh_folder/tax_labels_global.tsv",
+                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
+     
+     mrca.tree$node.label <- node.names$V2
+     
+     return(mrca.tree)
+     
+   }) %>% bindEvent(input$cafe_start5)
+   
+   evo_plot_data5 <- reactive({
+     
+     og.cafe <- og.name5()
+     cafe.tree <- cafe_tree5()
+     mrca.tree <- mrca.tree5()
      
      # Show an error if the orthogroup is not significantly expanded/collapsed in any branch
      
@@ -21742,16 +21871,6 @@ server <- function(input, output) {
      # Merge tips and nodes reconstruction
      cafe.count <- c(tip.count.clean, node.count.clean)
      
-     # Create phylogenomic tree with internal nodes names
-     
-     mrca.tree <- read.tree(ifelse(model.selected5(), "pharaoh_folder/species_tree_global.txt",
-                                   "pharaoh_folder/species_tree_green.txt"))
-     
-     node.names <- read.csv(ifelse(model.selected5(), "pharaoh_folder/tax_labels_global.tsv",
-                                   "pharaoh_folder/tax_labels_green.tsv"), header = F, sep="\t")
-     
-     mrca.tree$node.label <- node.names$V2
-     
      # Create a timeline for a given OG
      
      tree.name <- ifelse(model.selected5(),
@@ -21795,6 +21914,18 @@ server <- function(input, output) {
      cafe.table.node.comp <- rbind(cafe.table.tips, cafe.table.nodes)
      
      d <- dplyr::mutate(cafe.table.node.comp)
+     d$text <- d$label
+     d_index <- if(model.selected5()) c(47:91) else c(37:71)
+     d$label[d_index] <- "" 
+     
+     return(d)
+     
+   }) %>% bindEvent(input$cafe_start5)
+   
+   evo_plot5 <- reactive({
+     
+     d <- evo_plot_data5() 
+     mrca.tree <- mrca.tree5()
      
      library(ggtree)
      library(ggplot2)
@@ -21802,7 +21933,7 @@ server <- function(input, output) {
      evo_plot <- ggtree(mrca.tree, layout = "ellipse") %<+% d + aes(colour = I(d$col)) +
        geom_tiplab(aes(label=gsub("_", " ", tools::toTitleCase(d$label))), offset = 30) +
        theme(legend.position = "none") +
-       xlim(0, max(mrca.tree$edge.length)*1.5) +
+       xlim(0, max(mrca.tree$edge.length)*1.85) +
        geom_nodepoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
                       alpha = .75) +
        scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
@@ -21810,6 +21941,32 @@ server <- function(input, output) {
                      alpha = .75)
      
      return(evo_plot)
+     
+   }) %>% bindEvent(input$cafe_start5)
+   
+   evo_plotly5 <- reactive({
+     
+     d <- evo_plot_data5() 
+     mrca.tree <- mrca.tree5()
+     
+     library(ggtree)
+     library(ggplot2)
+     
+     evo_plotly <- ggtree(mrca.tree) %<+% d + aes(colour = I(d$col),text=paste0("</br> Duplications: ",dup_number,
+                                                                                "</br> Name: ",gsub("_", " ", tools::toTitleCase(d$text)))) + 
+       geom_text(aes(x = ifelse(model.selected5(), 1870, 1070), label=gsub("_", " ", tools::toTitleCase(d$label)))) + 
+       theme(legend.position = "none") +
+       xlim(0, max(mrca.tree$edge.length)*1.8) +
+       geom_point(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                  alpha = .75) +
+       scale_color_manual(values = unique(d$col), breaks = unique(d$col)) +
+       geom_tippoint(aes(color=d$col, size = as.numeric(gsub("[*]", "", d$dup_number))*4/max(as.numeric(gsub("[*]", "", d$dup_number)))),
+                     alpha = .75)
+     
+     p <- ggplotly(evo_plotly, tooltip = "text", width = 1300, height = ifelse(model.selected5(), 800, 700)) 
+     p <- p %>%
+       plotly::style(textposition = "right",xanchor="right")
+     return(p)
      
    }) %>% bindEvent(input$cafe_start5)
    
@@ -21897,7 +22054,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "Ancestral State Reconstruction", status = "primary", solidHeader = TRUE,
            collapsible = TRUE,
-           imageOutput("cafe_plot5", height = 500, width = 1000))
+           plotlyOutput("cafe_plot5", height = ifelse(model.selected5(), "800px", "800px")))
      })
      
      insertUI("#box_mrca5", "afterEnd", ui = {
@@ -21924,14 +22081,9 @@ server <- function(input, output) {
    
    # Fill outputs
    
-   output$cafe_plot5 <- renderImage({
-     png("evo_plot5.png", height = 500, width = 1000)
-     plot(evo_plot5())
-     dev.off()
-     
-     list(src = "evo_plot5.png",
-          contentType="image/png", width=1000,height=500)
-   }, deleteFile = T)
+   output$cafe_plot5 <- renderPlotly({
+     evo_plotly5()
+   })
    
    output$cafe_mrca5 <- renderText({
      print(paste0("Most recent common ancestor for this orthogroup is the
@@ -21957,7 +22109,7 @@ server <- function(input, output) {
      content= function(file) {
        evo_plot <- evo_plot5()
        
-       png(file)
+       png(file, width = 1400, height = 800, res = 100)
        plot(evo_plot)
        dev.off()
      })
