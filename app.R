@@ -158,6 +158,8 @@ ui <- dashboardPage(
         menuItem("Existing Orthogroup ID", icon = icon("dashboard"), tabName = "og_id_search"),
         menuItem("Batch mode", icon = icon("layer-group"), tabName = "batch_search"),
         menuItem("Sequence from new organism", icon = icon("leaf", lib = "glyphicon"), tabName = "shoot_search"),
+        menuItem("Whole Datasets", icon = icon("th-list", lib = "glyphicon"), tabName = "whole_data"),
+        menuItem("Download genomes", icon = icon("download") , tabName = "down_genomes"),
         menuItem("Source code", icon = icon("code"), 
                  href = "https://github.com/fran-romero-campero/AlgaeFUN"),
         menuItem("Contact and Tutorial", icon = icon("envelope"), tabName = "contact_tutorial")
@@ -2500,10 +2502,236 @@ ui <- dashboardPage(
               )
       ),
       
+      # Whole dataset tab
+      tabItem(tabName = "whole_data", 
+              
+              h2(""),
+              fluidRow(valueBox("Whole Datasets", 
+                                subtitle = "Complete data, available organisms",
+                                icon = icon("th-list", lib = "glyphicon"), width = 6, color = "maroon")),
+              br(),
+              box(
+                title = span(tags$b("Organism selection"), style = "color:#c21860; font-size: 20px; "), status = "danger", width = "500",
+                "Please select the desired organisms from the following list for filtering the complete dataset. The 
+                selected organisms will be the only ones that appear in the final table. Organisms in 
+                  green belong to Viridiplantae, while other colors indicate groups outside this clade.", br(), br(),
+                column(3,
+                       checkboxGroupInput(
+                         "tsar_check_6",
+                         p("Cryptophytes and TSAR", class= "h4",
+                           tags$img(
+                             src = "phaeodactylum.png",
+                             alt = "streptophytes",
+                             width = 25,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column1,
+                         inline = F,
+                         selected = NULL),
+                       checkboxGroupInput(
+                         "rhodo_check_6",
+                         p("Rhodophytes", class= "h4",
+                           tags$img(
+                             src = "porphyra.png",
+                             alt = "rhodophyta",
+                             width = 25,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column2,
+                         inline = F,
+                         selected = NULL),
+                       checkboxGroupInput(
+                         "glauco_check_6",
+                         p("Glaucophytes", class= "h4",
+                           tags$img(
+                             src = "cyanophora.png",
+                             alt = "glaucophytes",
+                             width = 18,
+                             height = 30, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column3,
+                         inline = F,
+                         selected = NULL)
+                       
+                ),
+                column(3,
+                       checkboxGroupInput(
+                         "mami_check_6",
+                         p("Mamiellophyceae", class= "h4",
+                           tags$img(
+                             src = "bathycoccus.png",
+                             alt = "mamiellales",
+                             width = 20,
+                             height = 22, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column4,
+                         inline = F,
+                         selected = NULL),
+                       
+                       checkboxGroupInput(
+                         "chloro_check_6",
+                         p("Other Chlorophytes", class= "h4",
+                           tags$img(
+                             src = "scenedesmus.png",
+                             alt = "chlorophytes",
+                             width = 50,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column5,
+                         inline = F,
+                         selected = NULL)
+                ),
+                column(3,
+                       checkboxGroupInput(
+                         "strepto_check_6",
+                         p("Streptophyte algae", class= "h4",
+                           tags$img(
+                             src = "klebsormidium.png",
+                             alt = "streptophytes",
+                             width = 25,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column6,
+                         inline = F,
+                         selected = NULL),
+                       
+                       checkboxGroupInput(
+                         "bryo_check_6",
+                         p("Bryophytes", class= "h4",
+                           tags$img(
+                             src = "marchantia.png",
+                             alt = "bryophyta",
+                             width = 32,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column7,
+                         inline = F,
+                         selected = NULL)
+                ),
+                
+                column(3,
+                       checkboxGroupInput(
+                         "lyco_check_6",
+                         p("Lycophytes and Ferns", class= "h4",
+                           tags$img(
+                             src = "selaginella.png",
+                             alt = "lycophyta",
+                             width = 50,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         
+                         choices = column8,
+                         inline = F,
+                         selected = NULL),
+                       
+                       checkboxGroupInput(
+                         "sperma_check_6",
+                         p("Spermatophyta", class= "h4",
+                           tags$img(
+                             src = "arabidopsis.png",
+                             alt = "spermatophyta",
+                             width = 25,
+                             height = 25, style = "margin-left: 10px;"
+                           )
+                         ),
+                         choices = column9,
+                         inline = F,
+                         selected = NULL)
+                ),
+                
+                fluidRow(br()),
+                fluidRow(br()),
+                
+                span(tags$b("Choose Model Data to Download"), style = "color:#c21860; font-size: 20px; "),
+                div(br()),
+                
+                div("Below you must select the model data to download: Global 
+                             or Viridiplantae (default is Viridiplantae). Note that the groups TSAR
+                             and Cryptophytes, Rhodophytes and Glaucophytes do not belong to Viridiplantae, so they
+                             will be ignored in case this is the selected model. Then, click Run to create the table."),
+                fluidRow(br()),
+                
+                fluidRow(column(5), 
+                         column(2,div(style = "margin-top: 14px;",
+                                      shinyWidgets::materialSwitch(inputId = "switch6", label = "Global", 
+                                                                   value = T, status = "danger", inline = TRUE),
+                                      span("Viridiplantae"))),
+                         column(1, div( style = "margin-top: 9px;", 
+                                        shinyWidgets::actionBttn("run_button6", "Run", size = "sm", icon = icon("magnifying-glass"),
+                                                                 style = "float", color = "danger"))),
+                         column(4))
+                
+               ),
+              
+              br(),
+              
+              fluidRow(
+                box(status = "danger", width = 12,
+                    title = span(tags$b("Results"), style = "color:#c21860; font-size: 20px; "),
+                    "Use the button to download the filtered dataset.",
+                    div(br()),
+                   
+                    div(id='down.text6', uiOutput(outputId = "text_dataset6")),
+                    div(br()),
+                    div(br()),
+                    div(id='down.whole6',
+                                        style = "margin-left: 600px;", 
+                                        shinyWidgets::downloadBttn(outputId= "downloadDataset6", "Download Filtered Dataset",
+                                                                                                  size = "sm", color = "danger"))
+                                        
+                                        ),
+                div(br())
+              )
+              
+      ),
+      
+      # Download genomes tab
+      tabItem(tabName = "down_genomes", 
+              h2(""),
+              fluidRow(valueBox("Download genomes", 
+                                subtitle = "Complete genome, available organism",
+                                icon = icon("download"), width = 6, color = "olive")),
+              br(),
+              box(
+                title = span(tags$b("Organism selection"), style = "color:#08a266; font-size: 20px; "), status = "success", width = "500",
+                "Please select the desired organisms from the following list for filtering the complete dataset. The 
+                selected organisms will be the only ones that appear in the final table. Organisms in 
+                  green belong to Viridiplantae, while other colors indicate groups outside this clade.", br(), br(),
+                
+                fluidRow(
+                  column(3),
+                  column(2, div(style = "margin-top: 4px;",
+                              
+                              shinyWidgets::pickerInput("organism_down_7","",
+                                                        choices=names(organisms_values),
+                                                        multiple = F, selected=names(organisms_values)[11]))),
+                  column(1),
+                  column(3, div(style = "margin-top: 22px;",
+                         shinyWidgets::downloadBttn(outputId= "downloadGenomes7", "Download Genome",
+                                                    size = "sm", color = "success"))),
+                  column(3)
+                         ),
+                  
+                )
+              
+              ),
+      
       # Last tab
       tabItem(tabName = "contact_tutorial", 
               
-              h3(""),
+              h2(""),
+              fluidRow(valueBox("Contact and Tutorial", 
+                                subtitle = "Acknowledgments and other information",
+                                icon = icon("envelope"), width = 6, color = "teal")),
+              br(),
               
               tags$div(style = 'font-size: 18px; margin-left: 20px;',"We are strongly committed to open access software and open science. PharaohFUN's source code is available
                        at GitHub following the lateral panel link and is released under a GNU General Public License v3.0. If you 
@@ -2516,10 +2744,10 @@ ui <- dashboardPage(
                                 "All organisms images where acquired from PhyloPic. Next, we present a list with the authors of each one:",
                                 tags$ul(
                                   tags$li("Phaeodactylum by Jonathan Wells."),
-                                  tags$li("Porphyra Guillaume Dera."),
-                                  tags$li("Cyanophora Guillaume Dera."),
+                                  tags$li("Porphyra by Guillaume Dera."),
+                                  tags$li("Cyanophora by Guillaume Dera."),
                                   tags$li("Ostreococcus by Guillaume Dera."),
-                                  tags$li("Scenedesmus Sergio A. Muñoz-Gómez."),
+                                  tags$li("Scenedesmus by Sergio A. Muñoz-Gómez."),
                                   tags$li("Klebsormidium by Matt Crook."),
                                   tags$li("Marchantia by Guillaume Dera."),
                                   tags$li("Selaginella by Mason McNair."),
@@ -7683,6 +7911,34 @@ server <- function(input, output) {
     
   }) %>% bindEvent(input$string_selectionI1)
   
+  string_count_plotly1 <- reactive({
+    
+    library(ggplot2)
+    library(dplyr)
+    
+    data_count <- as.data.frame(string_counts1())
+    colnames(data_count) <- c("orthogroup", "value")
+    
+    # Compute the position of labels
+    data_count <- data_count %>%
+      arrange(desc(orthogroup)) %>%
+      mutate(prop = value / sum(data_count$value) *100) %>%
+      mutate(ypos = cumsum(prop)- 0.5*prop )
+    
+    # Create plot
+    count_plotly <- plotly::plot_ly(data=data_count,values=~prop,labels=~factor(orthogroup),
+                    marker=list(colors=rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"),
+                                           floor(nrow(data_count)/9)+1)),
+                    type="pie",showlegend = F, text= ~paste0("</br> ", orthogroup,
+                                                            "</br> ",prop, "%"),
+                    textinfo = "none", hoverinfo = "text") 
+    
+    
+    
+    return(count_plotly)
+    
+  }) %>% bindEvent(input$string_selectionI1)
+  
   # Create boxes for outputs
   observeEvent(isTruthy(string_count_plot1()), {
     
@@ -7754,7 +8010,7 @@ server <- function(input, output) {
       box(width = 12,
           title = "Interacting Orthogroups Plot", status = "info", solidHeader = TRUE,
           collapsible = TRUE,
-          fluidRow(column(1), imageOutput("count_plot1"))
+          plotlyOutput("count_plot1")
       )
     })
     
@@ -7814,17 +8070,10 @@ server <- function(input, output) {
   },escape=FALSE, rownames= F, options =list(pageLength = 7))
   
   # Render OG count pie chart
-  output$count_plot1 <- renderImage({
+  output$count_plot1 <- renderPlotly({
+    string_count_plotly1()
     
-    string_count_plot <- string_count_plot1()
-    
-    png("string_count_plot1.png", height = 450, width = 450)
-    plot(string_count_plot)
-    dev.off()
-    
-    list(src = "string_count_plot1.png",
-         contentType="image/png", width=400,height=400)
-  }, deleteFile = T)
+  })
   
   
   # Download tab's outputs
@@ -13297,6 +13546,34 @@ server <- function(input, output) {
      
    }) %>% bindEvent(input$string_selectionI2)
    
+   string_count_plotly2 <- reactive({
+     
+     library(ggplot2)
+     library(dplyr)
+     
+     data_count <- as.data.frame(string_counts2())
+     colnames(data_count) <- c("orthogroup", "value")
+     
+     # Compute the position of labels
+     data_count <- data_count %>%
+       arrange(desc(orthogroup)) %>%
+       mutate(prop = value / sum(data_count$value) *100) %>%
+       mutate(ypos = cumsum(prop)- 0.5*prop )
+     
+     # Create plot
+     count_plotly <- plotly::plot_ly(data=data_count,values=~prop,labels=~factor(orthogroup),
+                                     marker=list(colors=rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"),
+                                                            floor(nrow(data_count)/9)+1)),
+                                     type="pie",showlegend = F, text= ~paste0("</br> ", orthogroup,
+                                                                              "</br> ",prop, "%"),
+                                     textinfo = "none", hoverinfo = "text") 
+     
+     
+     
+     return(count_plotly)
+     
+   }) %>% bindEvent(input$string_selectionI2)
+   
    # Create boxes for outputs
    observeEvent(isTruthy(string_count_plot2()), {
      
@@ -13368,7 +13645,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "Interacting Orthogroups Plot", status = "success", solidHeader = TRUE,
            collapsible = TRUE,
-           fluidRow(column(1), imageOutput("count_plot2"))
+           plotlyOutput("count_plot2")
        )
      })
      
@@ -13440,17 +13717,9 @@ server <- function(input, output) {
    },escape=FALSE, rownames= F, options =list(pageLength = 7))
    
    # Render OG count pie chart
-   output$count_plot2 <- renderImage({
-     
-     string_count_plot <- string_count_plot2()
-     
-     png("string_count_plot2.png", height = 450, width = 450)
-     plot(string_count_plot)
-     dev.off()
-     
-     list(src = "string_count_plot2.png",
-          contentType="image/png", width=400,height=400)
-   }, deleteFile = T)
+   output$count_plot2 <- renderPlotly({
+     string_count_plotly2()
+   })
    
    
    # Download tab's outputs
@@ -18651,6 +18920,34 @@ server <- function(input, output) {
      
    }) %>% bindEvent(input$string_selectionI3)
    
+   string_count_plotly3 <- reactive({
+     
+     library(ggplot2)
+     library(dplyr)
+     
+     data_count <- as.data.frame(string_counts3())
+     colnames(data_count) <- c("orthogroup", "value")
+     
+     # Compute the position of labels
+     data_count <- data_count %>%
+       arrange(desc(orthogroup)) %>%
+       mutate(prop = value / sum(data_count$value) *100) %>%
+       mutate(ypos = cumsum(prop)- 0.5*prop )
+     
+     # Create plot
+     count_plotly <- plotly::plot_ly(data=data_count,values=~prop,labels=~factor(orthogroup),
+                                     marker=list(colors=rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"),
+                                                            floor(nrow(data_count)/9)+1)),
+                                     type="pie",showlegend = F, text= ~paste0("</br> ", orthogroup,
+                                                                              "</br> ",prop, "%"),
+                                     textinfo = "none", hoverinfo = "text") 
+     
+     
+     
+     return(count_plotly)
+     
+   }) %>% bindEvent(input$string_selectionI3)
+   
    # Create boxes for outputs
    observeEvent(isTruthy(string_count_plot3()), {
      
@@ -18722,7 +19019,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "Interacting Orthogroups Plot", status = "danger", solidHeader = TRUE,
            collapsible = TRUE,
-           fluidRow(column(1), imageOutput("count_plot3"))
+           plotlyOutput("count_plot3")
        )
      })
      
@@ -18781,17 +19078,9 @@ server <- function(input, output) {
    },escape=FALSE, rownames= F, options =list(pageLength = 7))
    
    # Render OG count pie chart
-   output$count_plot3 <- renderImage({
-     
-     string_count_plot <- string_count_plot3()
-     
-     png("string_count_plot3.png", height = 450, width = 450)
-     plot(string_count_plot)
-     dev.off()
-     
-     list(src = "string_count_plot3.png",
-          contentType="image/png", width=400,height=400)
-   }, deleteFile = T)
+   output$count_plot3 <- renderPlotly({
+     string_count_plotly3()
+   })
    
    
    # Download tab's outputs
@@ -19291,23 +19580,25 @@ server <- function(input, output) {
                        variable.name = "species",
                        value.name = "value")
      
-     # Create heatmap
-     heat_plot <- ggplot(data_plot, aes(species, query, fill= value)) + 
-       geom_tile(color = "white",
-                 linewidth = 1.5,
-                 linetype = 1) +
-       scale_fill_gradientn(
-         values = c(0, quantile(data_plot$value, 0.1), quantile(data_plot$value, 0.2),
-                    quantile(data_plot$value, 0.3), quantile(data_plot$value, 0.4),
-                    quantile(data_plot$value, 0.7)),
-         guide = "colourbar",
-         aesthetics = "fill",
-         colors = c("white", "#fcd57a", "#fcc139", "#f48131", "#ed1411", "#ab0808")
-       ) +
-       theme(axis.text.x = element_text(angle = 65, hjust = 1, size=11),
-             axis.text.y = element_text(size=12)) 
+     return(data_plot)
      
-     return(heat_plot)
+     # # Create heatmap
+     # heat_plot <- ggplot(data_plot, aes(species, query, fill= value)) + 
+     #   geom_tile(color = "white",
+     #             linewidth = 1.5,
+     #             linetype = 1) +
+     #   scale_fill_gradientn(
+     #     values = c(0, quantile(data_plot$value, 0.1), quantile(data_plot$value, 0.2),
+     #                quantile(data_plot$value, 0.3), quantile(data_plot$value, 0.4),
+     #                quantile(data_plot$value, 0.7)),
+     #     guide = "colourbar",
+     #     aesthetics = "fill",
+     #     colors = c("white", "#fcd57a", "#fcc139", "#f48131", "#ed1411", "#ab0808")
+     #   ) +
+     #   theme(axis.text.x = element_text(angle = 65, hjust = 1, size=11),
+     #         axis.text.y = element_text(size=12)) 
+     # 
+     # return(heat_plot)
      
    }) 
    
@@ -19335,10 +19626,10 @@ server <- function(input, output) {
      table_heat <- table_heat4()
      
      insertUI("#box_heatmap4", "afterEnd", ui = {
-       box(width = 12, height = nrow(table_heat)*30+20,
+       box(width = 12, height = nrow(table_heat)*30+50,
            title = "Orthogroups Heatmap", status = "warning", solidHeader = TRUE,
            collapsible = TRUE, 
-           plotOutput("heat_image4", height = nrow(table_heat)*30-20)
+           plotlyOutput("heat_image4", height = nrow(table_heat)*30-20)
        )
      })
      
@@ -19355,18 +19646,41 @@ server <- function(input, output) {
    # Fill boxes with output
    
    # Render heatmap
-   output$heat_image4 <- renderImage({
+   # output$heat_image4 <- renderImage({
+   #   
+   #   table_heat <- table_heat4()
+   #   heat_plot <- heat_plot4()
+   #   
+   #   png("heatmap.png", height = nrow(table_heat)*30-20, width = 1000)
+   #   plot(heat_plot)
+   #   dev.off()
+   #   
+   #   list(src = "heatmap.png",
+   #        contentType="image/png", width=1000,height=nrow(table_heat)*30-20)
+   # }, deleteFile = T)
+   
+   output$heat_image4 <- renderPlotly({
      
      table_heat <- table_heat4()
      heat_plot <- heat_plot4()
      
-     png("heatmap.png", height = nrow(table_heat)*30-20, width = 1000)
-     plot(heat_plot)
-     dev.off()
+     heat_plot %>%
+       plot_ly(x = ~species, y = ~query, z = ~value, type = "heatmap", colors = c("#fcd57a", "#fcc139", "#f48131", "#ed1411", "#ab0808"),
+               width = 1300, height = nrow(table_heat)*30-20) %>%
+       layout(xaxis = list(side = "top"), 
+              yaxis = list(title = ""), 
+              showlegend = FALSE) %>%
+       
+       add_trace(data = heat_plot, x = ~species, y = ~query, z = ~value, type = "heatmap",
+                 hoverinfo = 'text',
+                 text = ~paste(" Species:", heat_plot$species,
+                               "<br> Query gene:", heat_plot$query,
+                               "<br> Gene number:", heat_plot$value)) %>%
+      hide_colorbar()
      
-     list(src = "heatmap.png",
-          contentType="image/png", width=1000,height=nrow(table_heat)*30-20)
-   }, deleteFile = T)
+   })
+   
+     
    
    # Download results
    output$downloadBatch4 <- downloadHandler(
@@ -24015,6 +24329,34 @@ server <- function(input, output) {
      
    }) %>% bindEvent(input$string_selectionI5)
    
+   string_count_plotly5 <- reactive({
+     
+     library(ggplot2)
+     library(dplyr)
+     
+     data_count <- as.data.frame(string_counts5())
+     colnames(data_count) <- c("orthogroup", "value")
+     
+     # Compute the position of labels
+     data_count <- data_count %>%
+       arrange(desc(orthogroup)) %>%
+       mutate(prop = value / sum(data_count$value) *100) %>%
+       mutate(ypos = cumsum(prop)- 0.5*prop )
+     
+     # Create plot
+     count_plotly <- plotly::plot_ly(data=data_count,values=~prop,labels=~factor(orthogroup),
+                                     marker=list(colors=rep(RColorBrewer::brewer.pal(n = 9, name = "Set1"),
+                                                            floor(nrow(data_count)/9)+1)),
+                                     type="pie",showlegend = F, text= ~paste0("</br> ", orthogroup,
+                                                                              "</br> ",prop, "%"),
+                                     textinfo = "none", hoverinfo = "text") 
+     
+     
+     
+     return(count_plotly)
+     
+   }) %>% bindEvent(input$string_selectionI5)
+   
    # Create boxes for outputs
    observeEvent(isTruthy(string_count_plot5()), {
      
@@ -24086,7 +24428,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "Interacting Orthogroups Plot", status = "primary", solidHeader = TRUE,
            collapsible = TRUE,
-           fluidRow(column(1), imageOutput("count_plot5"))
+           plotlyOutput("count_plot5")
        )
      })
      
@@ -24144,17 +24486,9 @@ server <- function(input, output) {
    },escape=FALSE, rownames= F, options =list(pageLength = 7))
    
    # Render OG count pie chart
-   output$count_plot5 <- renderImage({
-     
-     string_count_plot <- string_count_plot5()
-     
-     png("string_count_plot5.png", height = 450, width = 450)
-     plot(string_count_plot)
-     dev.off()
-     
-     list(src = "string_count_plot5.png",
-          contentType="image/png", width=400,height=400)
-   }, deleteFile = T)
+   output$count_plot5 <- renderPlotly({
+     string_count_plotly5()
+   })
    
    
    # Download tab's outputs
@@ -24317,6 +24651,93 @@ server <- function(input, output) {
    
 # End of SHOOT Search
    
+   ##################### WHOLE DATASET ##########################
+   
+   # Set global variables for tracking changes in output
+   #UI_exist_data6 <<- F
+   
+   # To avoid autoupdating some inputs, define variables with its values
+   model.selected6 <- reactive({
+     model.selected <- !input$switch6
+     return(model.selected)
+   })%>% bindEvent(input$run_button6)
+   
+   # Load organisms selection based on the model selected
+   selected_organisms6 <- reactive({
+     selected_organisms <- c(input$mami_check_6,input$chloro_check_6, input$strepto_check_6,
+                             input$bryo_check_6, input$lyco_check_6, input$sperma_check_6)
+     if(model.selected6()){selected_organisms <- c(input$tsar_check_6, input$rhodo_check_6, 
+                                                   input$glauco_check_6,selected_organisms)}
+     return(selected_organisms)
+     
+   }) %>% bindEvent(input$run_button6)
+   
+   selected_values_org6 <- reactive(organisms_values[selected_organisms6()]) %>% bindEvent(input$run_button6)
+   
+   # Reactive for creating results table when Run button is clicked 
+   whole_data_table6 <- reactive({
+     
+     # Create gene tables with reduced species for each OG (first word because of
+     # posible errors in second word)
+     selected_organisms <- selected_organisms6()
+     org_sel <- as.character(sapply(selected_organisms, function(x) gsub(" ", "_", tolower(x))))
+     org_first <- sapply(strsplit(org_sel, split = "_"), function(x) x[[1]])
+     
+     ortho.file <- ifelse(model.selected6(), "Global_Gene_Trees/Orthogroups.tsv",
+                          "Green_Gene_Trees/Orthogroups.tsv")
+     
+     table_ogs <- fread(ortho.file)
+     org_index <- sapply(org_first, function(x) grep(x, colnames(table_ogs)), USE.NAMES = F)
+     org_index <- as.numeric(c(1, org_index)) # 1 to include Orthogroups column
+     table_ogs_red <- table_ogs[,c(org_index), with=F]
+     
+     return(table_ogs_red)
+     
+   }) %>% bindEvent(input$run_button6)
+   
+   
+   # Text output
+   output$text_dataset6 <- renderUI({renderText({
+     
+   selected_organisms <- selected_organisms6()
+   table_ogs_red <- whole_data_table6()
+   org_sel <- as.character(sapply(selected_organisms, function(x) gsub(" ", "_", tolower(x))))
+   org_first <- sapply(strsplit(org_sel, split = "_"), function(x) x[[1]])
+   
+   print(paste0("Created table for the species: ", paste0(c(org_first), collapse = "/")))
+      
+         })
+   })
+   
+   # Download count table
+   output$downloadDataset6 <- downloadHandler(
+     filename= function() {
+       paste("dataset_table", ".tsv", sep="")
+     },
+     content= function(file) {
+       whole_data_table <- whole_data_table6()
+       write.table(x = whole_data_table,quote = F,sep = "\t",
+                   file=file,row.names=FALSE,col.names=TRUE)
+     })
+   
+   ############################ DOWNLOAD GENOMES  ########################
+   
+   gen_fasta7 <- reactive({
+     organism_down <- input$organism_down_7
+     gen_search <- gsub(" ", "_", tolower(organism_down))
+     gen_fasta <- paste("pharaohfun_proteomes", paste0(gen_search, ".fa", sep=""), sep = "/")
+   })
+   
+   output$downloadGenomes7 <- downloadHandler(
+     filename <- function() {
+       strsplit(gen_fasta7(),split = "[/]")[[1]][2]
+     },
+     
+     content <- function(file) {
+       file.copy(gen_fasta7(), file)
+     },
+     contentType = "text/*"
+   )
    
 # End of the whole server function
      }
