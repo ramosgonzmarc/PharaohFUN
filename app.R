@@ -161,8 +161,8 @@ ui <- dashboardPage(
         menuItem("Whole Datasets", icon = icon("th-list", lib = "glyphicon"), tabName = "whole_data"),
         menuItem("Download genomes", icon = icon("download") , tabName = "down_genomes"),
         menuItem("Source code", icon = icon("code"), 
-                 href = "https://github.com/fran-romero-campero/AlgaeFUN"),
-        menuItem("Contact and Tutorial", icon = icon("envelope"), tabName = "contact_tutorial")
+                 href = "https://github.com/ramosgonzmarc/PharaohFUN"),
+        menuItem("Contact and Info", icon = icon("envelope"), tabName = "contact_tutorial")
       )
     )
   ),
@@ -2728,14 +2728,19 @@ ui <- dashboardPage(
       tabItem(tabName = "contact_tutorial", 
               
               h2(""),
-              fluidRow(valueBox("Contact and Tutorial", 
+              fluidRow(valueBox("Contact and Info", 
                                 subtitle = "Acknowledgments and other information",
                                 icon = icon("envelope"), width = 6, color = "teal")),
               br(),
               
+              tags$div(style = 'font-size: 18px; margin-left: 20px;',"Authors: Marcos Ramos González, Víctor
+                       Ramos González, Emma Serrano Pérez, Mercedes García González and Francisco José Romero Campero."),
+              tags$br(),
+              
               tags$div(style = 'font-size: 18px; margin-left: 20px;',"We are strongly committed to open access software and open science. PharaohFUN's source code is available
                        at GitHub following the lateral panel link and is released under a GNU General Public License v3.0. If you 
-                       experience any problem using PharaohFUN, please create an issue in GitHub and we will address it."),
+                       experience any problem using PharaohFUN, please create an issue in GitHub and we will address it. For other
+                       inquiries, send an email to mramos5@us.es."),
               tags$br(),
               
               fluidRow(
@@ -3037,7 +3042,7 @@ server <- function(input, output) {
                                                           We are working to offer this method for all 
                                                           orthogroups through regular updates. If this message appears,
                                                           the orthogroup of interest is not yet available. If you want it
-                                                          to appear in the next update, please send an email to marcos.ramos@ibvf.csic.es 
+                                                          to appear in the next update, please send an email to mramos5@us.es 
                                                           and we will try to prioritize it. Meanwhile, try the other methods
                                                           to build the gene tree.")})})
         validate(need(file.exists(tree.bayes), " "))
@@ -5391,7 +5396,7 @@ server <- function(input, output) {
       curl_env <- getCurlHandle()
       
       
-      RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
+      hmm <- RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
       
       curl_info <- getCurlInfo(curl_env, which = getCurlInfoConstants())
       
@@ -5406,18 +5411,26 @@ server <- function(input, output) {
         url_tsv <- paste0(url_vec[[1]], collapse = "/")
         tsv_res <- getURL(url_tsv)
         nap.time <- 0
-        while (strsplit(tsv_res, "\t")[[1]][1] != "Family id")
+        
+        # Loop for allowing the response of the server and stopping 
+        # query if a gene does not have domains
+        while (strsplit(tsv_res, "\t")[[1]][1] != "Family id" && nap.time < 11)
         {
           nap.time <- nap.time + 5
           tsv_res <- getURL(url_tsv)
           Sys.sleep(nap.time)
-          if (nap.time > 11){
-            shinyjs::hideElement(id = 'loading.pfam.pf1')
-            break
-          }
+          # if (nap.time > 11){
+          #   shinyjs::hideElement(id = 'loading.pfam.pf1')
+          #   break
+          # }
         }
+        
+        # if(!grepl("results", hmm)) {
+        # 
+        #   stop("Request to HMMER server failed")
+        # }
 
-        validate(need(nap.time < 25,"Connection time too high."))
+        #validate(need(nap.time < 12,"Connection time too high."))
         res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
         pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
                                  description=c("Protein chain",res_pfam$Family.Accession),
@@ -5442,7 +5455,9 @@ server <- function(input, output) {
     }
     
     total_table_pfam <- total_table_pfam[-1,]
-    
+    total_table_pfam <- total_table_pfam[!duplicated(total_table_pfam),]
+    # Remove protein chain results
+    total_table_pfam <- subset(total_table_pfam, !(type=="DOMAIN" & description=="Protein chain"))
     
     return(total_table_pfam)
     
@@ -6300,7 +6315,7 @@ server <- function(input, output) {
       immediate = TRUE
     )
     
-    removeUI("#gos_selectionI1") ####### No sería sin I
+    removeUI("#gos_selectionI1")
     
     if (UI_exist_go1)
     {
@@ -8622,7 +8637,7 @@ server <- function(input, output) {
                                                           We are working to offer this method for all 
                                                           orthogroups through regular updates. If this message appears,
                                                           the orthogroup of interest is not yet available. If you want it
-                                                          to appear in the next update, please send an email to marcos.ramos@ibvf.csic.es 
+                                                          to appear in the next update, please send an email to mramos5@us.es 
                                                           and we will try to prioritize it. Meanwhile, try the other methods
                                                           to build the gene tree.")})})
            validate(need(file.exists(tree.bayes), " "))
@@ -10699,15 +10714,16 @@ server <- function(input, output) {
        box(
          title = "Present Organisms", status = "success", solidHeader = TRUE,
          collapsible = TRUE, width = 12,
-         fluidRow(column(1), imageOutput("presentorg2"))
+         plotlyOutput("presentorg2")
        )
      }) 
      
      insertUI("#box_tree_plot2", "afterEnd", ui = {
+       image_height <- 300 + 15*length(tree_reduced2()$tip.label)
        box(width = 12,
            title = "Gene Tree", status = "success", solidHeader = TRUE,
            collapsible = TRUE, 
-           plotOutput("tree_image2", height = 500)
+           plotOutput("tree_image2", height = image_height, width = 1100)
        )
      })
      
@@ -11025,7 +11041,7 @@ server <- function(input, output) {
        curl_env <- getCurlHandle()
        
        
-       RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
+       hmm <- RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
        
        curl_info <- getCurlInfo(curl_env, which = getCurlInfoConstants())
        
@@ -11040,18 +11056,26 @@ server <- function(input, output) {
          url_tsv <- paste0(url_vec[[1]], collapse = "/")
          tsv_res <- getURL(url_tsv)
          nap.time <- 0
-         while (strsplit(tsv_res, "\t")[[1]][1] != "Family id")
+         
+         # Loop for allowing the response of the server and stopping 
+         # query if a gene does not have domains
+         while (strsplit(tsv_res, "\t")[[1]][1] != "Family id" && nap.time < 11)
          {
            nap.time <- nap.time + 5
            tsv_res <- getURL(url_tsv)
            Sys.sleep(nap.time)
-           if (nap.time > 25){
-             shinyjs::hideElement(id = 'loading.pfam.pf2')
-             break
-           }
+           # if (nap.time > 11){
+           #   shinyjs::hideElement(id = 'loading.pfam.pf1')
+           #   break
+           # }
          }
          
-         validate(need(nap.time < 25,"Connection time too high."))
+         # if(!grepl("results", hmm)) {
+         # 
+         #   stop("Request to HMMER server failed")
+         # }
+         
+         #validate(need(nap.time < 12,"Connection time too high."))
          res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
          pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
                                   description=c("Protein chain",res_pfam$Family.Accession),
@@ -11076,7 +11100,9 @@ server <- function(input, output) {
      }
      
      total_table_pfam <- total_table_pfam[-1,]
-     
+     total_table_pfam <- total_table_pfam[!duplicated(total_table_pfam),]
+     # Remove protein chain results
+     total_table_pfam <- subset(total_table_pfam, !(type=="DOMAIN" & description=="Protein chain"))
      
      return(total_table_pfam)
      
@@ -12282,7 +12308,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "GO Terms Plot", status = "success", solidHeader = TRUE,
            collapsible = TRUE,
-           imageOutput("gos_plot2")
+           plotOutput("gos_plot2", height = 610)
        )
      })
      
@@ -12290,7 +12316,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "GO Terms Treeplot", status = "success", solidHeader = TRUE,
            collapsible = TRUE,
-           imageOutput("gos_treeplot2")
+           plotOutput("gos_treeplot2", height = 610)
        )
      })
      
@@ -14111,7 +14137,7 @@ server <- function(input, output) {
                                                           We are working to offer this method for all 
                                                           orthogroups through regular updates. If this message appears,
                                                           the orthogroup of interest is not yet available. If you want it
-                                                          to appear in the next update, please send an email to marcos.ramos@ibvf.csic.es 
+                                                          to appear in the next update, please send an email to mramos5@us.es 
                                                           and we will try to prioritize it. Meanwhile, try the other methods
                                                           to build the gene tree.")})})
            validate(need(file.exists(tree.bayes), " "))
@@ -16096,15 +16122,16 @@ server <- function(input, output) {
        box(
          title = "Present Organisms", status = "danger", solidHeader = TRUE,
          collapsible = TRUE, width = 12,
-         fluidRow(column(1), imageOutput("presentorg3"))
+         plotlyOutput("presentorg3")
        )
      }) 
      
      insertUI("#box_tree_plot3", "afterEnd", ui = {
+       image_height <- 300 + 15*length(tree_reduced3()$tip.label)
        box(width = 12,
            title = "Gene Tree", status = "danger", solidHeader = TRUE,
            collapsible = TRUE, 
-           plotOutput("tree_image3", height = 500)
+           plotOutput("tree_image3", height = image_height, width = 1100)
        )
      })
      
@@ -16401,7 +16428,7 @@ server <- function(input, output) {
        curl_env <- getCurlHandle()
        
        
-       RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
+       hmm <- RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
        
        curl_info <- getCurlInfo(curl_env, which = getCurlInfoConstants())
        
@@ -16416,18 +16443,26 @@ server <- function(input, output) {
          url_tsv <- paste0(url_vec[[1]], collapse = "/")
          tsv_res <- getURL(url_tsv)
          nap.time <- 0
-         while (strsplit(tsv_res, "\t")[[1]][1] != "Family id")
+         
+         # Loop for allowing the response of the server and stopping 
+         # query if a gene does not have domains
+         while (strsplit(tsv_res, "\t")[[1]][1] != "Family id" && nap.time < 11)
          {
            nap.time <- nap.time + 5
            tsv_res <- getURL(url_tsv)
            Sys.sleep(nap.time)
-           if (nap.time > 25){
-             shinyjs::hideElement(id = 'loading.pfam.pf3')
-             break
-           }
+           # if (nap.time > 11){
+           #   shinyjs::hideElement(id = 'loading.pfam.pf1')
+           #   break
+           # }
          }
          
-         validate(need(nap.time < 25,"Connection time too high."))
+         # if(!grepl("results", hmm)) {
+         # 
+         #   stop("Request to HMMER server failed")
+         # }
+         
+         #validate(need(nap.time < 12,"Connection time too high."))
          res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
          pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
                                   description=c("Protein chain",res_pfam$Family.Accession),
@@ -16452,7 +16487,9 @@ server <- function(input, output) {
      }
      
      total_table_pfam <- total_table_pfam[-1,]
-     
+     total_table_pfam <- total_table_pfam[!duplicated(total_table_pfam),]
+     # Remove protein chain results
+     total_table_pfam <- subset(total_table_pfam, !(type=="DOMAIN" & description=="Protein chain"))
      
      return(total_table_pfam)
      
@@ -17657,7 +17694,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "GO Terms Plot", status = "danger", solidHeader = TRUE,
            collapsible = TRUE,
-           imageOutput("gos_plot3")
+           plotOutput("gos_plot3", height = 610)
        )
      })
      
@@ -17665,7 +17702,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "GO Terms Treeplot", status = "danger", solidHeader = TRUE,
            collapsible = TRUE,
-           imageOutput("gos_treeplot3")
+           plotOutput("gos_treeplot3", height = 610)
        )
      })
      
@@ -19348,6 +19385,7 @@ server <- function(input, output) {
      prot_comp_fasta <- seqinr::read.fasta(file = org_fasta, seqtype = "AA", forceDNAtolower = F, as.string = T) 
      prot_ids <- seqinr::getName(prot_comp_fasta)
      
+     {
      if (!all(diamond_table$subject_id %in% prot_ids))
      {
        # Error message and remove output
@@ -19370,14 +19408,23 @@ server <- function(input, output) {
          
        }
        
+       incorrect_ids <- diamond_table$subject_id[which(!(diamond_table$subject_id %in% prot_ids))]
        shinyjs::hideElement(id = 'loading.batch4')
        output$error_batch4 <- renderUI({
-         renderPrint({cat("No results available due to wrong ID format. Please use
+         renderPrint({cat(paste0("No results available due to wrong ID format. Please use
                           supported IDs or introduce the corresponding sequences
-                          using a FASTA format with your own portein names.")})
+                          using a FASTA format with your own protein names. Remove the following
+                          IDs: ", paste0(incorrect_ids, collapse = " / ")))})
        })
        
        validate(" ")
+     }
+     
+     else
+     {
+       incorrect_ids <- NULL
+       output$error_batch4 <- NULL
+     }
      }
    
      # Once table is created and IDs checked, create a new results folder 
@@ -19506,6 +19553,8 @@ server <- function(input, output) {
      # Keep the ones corresponding to present OGs
      cafe_correspondence <- subset(diamond_table, diamond_table$OG %in% names(cafe_comp))[,c("query_id", "OG")]
      
+     if (nrow(cafe_correspondence) > 0)
+     {
      apply(cafe_correspondence, MARGIN = 1,
            FUN = function(x)
            {
@@ -19513,6 +19562,7 @@ server <- function(input, output) {
              write.tree(cafe_comp[[x["OG"]]], file = paste0(random.file, "/", x["query_id"], "/", x["query_id"], "_ancestral.txt"))
            }
      )
+     }
      
      # Create gene tables with reduced species for each OG
      selected_organisms <- selected_organisms4()
@@ -21482,15 +21532,16 @@ server <- function(input, output) {
        box(
          title = "Present Organisms", status = "primary", solidHeader = TRUE,
          collapsible = TRUE, width = 12,
-         fluidRow(column(1), imageOutput("presentorg5"))
+         plotlyOutput("presentorg5")
        )
      }) 
      
      insertUI("#box_tree_plot5", "afterEnd", ui = {
+       image_height <- 300 + 15*length(tree_reduced5()$tip.label)
        box(width = 12,
            title = "Gene Tree", status = "primary", solidHeader = TRUE,
            collapsible = TRUE, 
-           plotOutput("tree_image5", height = 500)
+           plotOutput("tree_image5", height = image_height, width = 1100)
        )
      })
      
@@ -21790,8 +21841,8 @@ server <- function(input, output) {
        curl.opts <- list(httpheader = "Expect:", httpheader = "Accept:text/xml", verbose = T, followlocation = TRUE)
        curl_env <- getCurlHandle()
        
-       
-       RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
+       # Add hmm variable for storing
+       hmm <- RCurl::postForm(url, hmmdb = "pfam", seqdb = NULL,  seq = ortho_cha ,  style = "POST", .opts = curl.opts,  .contentEncodeFun = RCurl::curlPercentEncode,  .checkParams = TRUE, curl=curl_env)
        
        curl_info <- getCurlInfo(curl_env, which = getCurlInfoConstants())
        
@@ -21806,18 +21857,26 @@ server <- function(input, output) {
          url_tsv <- paste0(url_vec[[1]], collapse = "/")
          tsv_res <- getURL(url_tsv)
          nap.time <- 0
-         while (strsplit(tsv_res, "\t")[[1]][1] != "Family id")
+         
+         # Loop for allowing the response of the server and stopping 
+         # query if a gene does not have domains
+         while (strsplit(tsv_res, "\t")[[1]][1] != "Family id" && nap.time < 11)
          {
            nap.time <- nap.time + 5
            tsv_res <- getURL(url_tsv)
            Sys.sleep(nap.time)
-           if (nap.time > 11){
-             shinyjs::hideElement(id = 'loading.pfam.pf5')
-             break
-           }
+           # if (nap.time > 11){
+           #   shinyjs::hideElement(id = 'loading.pfam.pf1')
+           #   break
+           # }
          }
          
-         validate(need(nap.time < 25,"Connection time too high."))
+         # if(!grepl("results", hmm)) {
+         # 
+         #   stop("Request to HMMER server failed")
+         # }
+         
+         #validate(need(nap.time < 12,"Connection time too high."))
          res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
          pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
                                   description=c("Protein chain",res_pfam$Family.Accession),
@@ -21842,7 +21901,9 @@ server <- function(input, output) {
      }
      
      total_table_pfam <- total_table_pfam[-1,]
-     
+     total_table_pfam <- total_table_pfam[!duplicated(total_table_pfam),]
+     # Remove protein chain results
+     total_table_pfam <- subset(total_table_pfam, !(type=="DOMAIN" & description=="Protein chain"))
      
      return(total_table_pfam)
      
@@ -23060,7 +23121,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "GO Terms Plot", status = "primary", solidHeader = TRUE,
            collapsible = TRUE,
-           imageOutput("gos_plot5")
+           plotOutput("gos_plot5", height = 610)
        )
      })
      
@@ -23068,7 +23129,7 @@ server <- function(input, output) {
        box(width = 12,
            title = "GO Terms Treeplot", status = "primary", solidHeader = TRUE,
            collapsible = TRUE,
-           imageOutput("gos_treeplot5")
+           plotOutput("gos_treeplot5", height = 610)
        )
      })
      
