@@ -2734,7 +2734,7 @@ ui <- dashboardPage(
               br(),
               
               tags$div(style = 'font-size: 18px; margin-left: 20px;',"Authors: Marcos Ramos González, Víctor
-                       Ramos González, Emma Serrano Pérez, Mercedes García González and Francisco José Romero Campero."),
+                       Ramos González, Emma Serrano Pérez, Christina Arvanitidou, Jorge Hernández García, Mercedes García González and Francisco José Romero Campero."),
               tags$br(),
               
               tags$div(style = 'font-size: 18px; margin-left: 20px;',"We are strongly committed to open access software and open science. PharaohFUN's source code is available
@@ -2799,6 +2799,7 @@ server <- function(input, output) {
   UI_exist_msa1 <<- F
   UI_exist_go1 <<- F
   UI_exist_kegg1 <<- F
+  UI_exist_kegg_path1 <<- F
   UI_exist_pathview1 <<- F
   UI_exist_lit1 <<-  F
   UI_exist_string1 <<-  F
@@ -2838,7 +2839,8 @@ server <- function(input, output) {
  
   
   og.name1 <- reactive({
-    gene.name.tree <- input$geneInt1
+    library(stringr)
+    gene.name.tree <- str_replace_all(input$geneInt1, fixed(" "), "")
     shinyjs::showElement(id = 'loading.tree1')
     
     # Load table with orthogroups information depending on selected model
@@ -4535,7 +4537,7 @@ server <- function(input, output) {
     
       
   # Error message if query gene does not belong to selected organisms
-    if (!(input$geneInt1 %in% tree$tip.label))
+    if (!(str_replace_all(input$geneInt1, fixed(" "), "") %in% tree$tip.label))
     {
       shinyjs::hideElement(id = 'loading.tree1')
       
@@ -4581,7 +4583,7 @@ server <- function(input, output) {
       UI_exist_tree1 <<- F
       output$error_tree1 <- renderUI({renderText({print("Please select the species corresponding
       to the query gene. Read the instructions for clarification.")})})
-      validate(need(input$geneInt1 %in% tree$tip.label, " "))
+      validate(need(str_replace_all(input$geneInt1, fixed(" "), "") %in% tree$tip.label, " "))
     }
     
     
@@ -4682,7 +4684,7 @@ server <- function(input, output) {
     
     # Define previous variables
     tree_reduced <- tree_reduced1()
-    gene.name.tree <- input$geneInt1
+    gene.name.tree <- str_replace_all(input$geneInt1, fixed(" "), "")
     tree <- tree_adj1()
     
     tips_to_keep.mp <- tips_to_keep.mp1()
@@ -5279,7 +5281,7 @@ server <- function(input, output) {
       
       shinyWidgets::pickerInput("selected_pfamsI1","Select the desired genes from the tree",
                                 choices=isolate({tree_reduced1()$tip.label}), options = list(`actions-box` = TRUE),
-                                multiple = T, selected = isolate({input$geneInt1}))
+                                multiple = T, selected = isolate({str_replace_all(input$geneInt1, fixed(" "), "")}))
     })
   })
   
@@ -6086,7 +6088,7 @@ server <- function(input, output) {
       
       shinyWidgets::pickerInput("selected_msaI1","Select the desired genes from the tree to align",
                                 choices=isolate({tree_reduced1()$tip.label}), options = list(`actions-box` = TRUE),
-                                multiple = T, selected = isolate({input$geneInt1}))
+                                multiple = T, selected = isolate({str_replace_all(input$geneInt1, fixed(" "), "")}))
       
     })
     
@@ -6365,7 +6367,7 @@ server <- function(input, output) {
       
       shinyWidgets::pickerInput("selected_gosI1","Select the desired genes from the tree",
                                 choices=isolate({tree_reduced1()$tip.label}), options = list(`actions-box` = TRUE),
-                                multiple = T, selected = isolate({input$geneInt1}))
+                                multiple = T, selected = isolate({str_replace_all(input$geneInt1, fixed(" "), "")}))
       
     })
     
@@ -6452,10 +6454,13 @@ server <- function(input, output) {
     
     gos_sel <- paste("gos", selected_gos_mode, sep="_")
     terms_sel <- paste("terms", selected_gos_mode, sep="_")
+    
     total_table_gos <- total_table_gos[,c("organism", "id", "name", gos_sel, terms_sel)]
     
+    
     # Once removed the two GO categories not selected, remove rows with blank cells
-    total_table_gos_clean <- subset(total_table_gos, gos_sel != "")
+    #total_table_gos_clean <- subset(total_table_gos, gos_sel != "")
+    total_table_gos_clean <- total_table_gos[ total_table_gos[[gos_sel]] != "" , ]
     
     # Show an error if no terms are identified after the previous operation
     if (nrow(total_table_gos_clean) == 0) 
@@ -6782,7 +6787,7 @@ server <- function(input, output) {
       immediate = TRUE
     )
     
-    removeUI("#kos_selectionI1") # MIRAR SI EN GO ESTA CON O SIN I
+    removeUI("#kos_selectionI1")
     
     if (UI_exist_kegg1)
     {
@@ -6793,19 +6798,19 @@ server <- function(input, output) {
       )
       
       removeUI(
-        selector = "div:has(>> #output_kegg_table1)",
-        multiple = TRUE,
-        immediate = TRUE
-      )
-      
-      removeUI(
         selector = "div:has(>> #downloadKOSTable1)",
         multiple = TRUE,
         immediate = TRUE
       )
       
+      
+      UI_exist_kegg1 <<- F
+    }
+    
+    if (UI_exist_kegg_path1)
+    {
       removeUI(
-        selector = "div:has(>> #downloadKEGGTable1)",
+        selector = "div:has(>> #output_kegg_table1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -6816,15 +6821,21 @@ server <- function(input, output) {
         immediate = TRUE
       )
       
+      removeUI(
+        selector = "div:has(>> #downloadKEGGTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
       removeUI("#paths_buttonI1")
       
-      UI_exist_kegg1 <<- F
+      UI_exist_kegg_path1 <<- F
     }
     
     if (UI_exist_pathview1)
     {
       removeUI(
-        selector = "div:has(>> #path_image1)",
+        selector = "div:has(>>> #path_image1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -6838,15 +6849,80 @@ server <- function(input, output) {
       UI_exist_pathview1 <<- F
     }
     
+    output$error_kos1 <- NULL
     
   })
   
   observeEvent(input$kegg_start1, {
+    
+    
+    if (UI_exist_kegg1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_kos_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKOSTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      
+      UI_exist_kegg1 <<- F
+    }
+    
+    if (UI_exist_kegg_path1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_kegg_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #selected_pathsI1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKEGGTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI("#paths_buttonI1")
+      
+      UI_exist_kegg_path1 <<- F
+    }
+    
+    if (UI_exist_pathview1)
+    {
+      removeUI(
+        selector = "div:has(>>> #path_image1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKEGGpathway1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      UI_exist_pathview1 <<- F
+    }
+    
+    output$error_kos1 <- NULL
+    
     insertUI("#selected_kos1", "afterEnd", ui = {
       
       shinyWidgets::pickerInput("selected_kosI1","Select the desired genes from the tree",
                                 choices=isolate({tree_reduced1()$tip.label}), options = list(`actions-box` = TRUE),
-                                multiple = T, selected = isolate({input$geneInt1}))
+                                multiple = T, selected = isolate({str_replace_all(input$geneInt1, fixed(" "), "")}))
       
       
     })
@@ -6889,19 +6965,19 @@ server <- function(input, output) {
           )
           
           removeUI(
-            selector = "div:has(>> #output_kegg_table1)",
-            multiple = TRUE,
-            immediate = TRUE
-          )
-          
-          removeUI(
             selector = "div:has(>> #downloadKOSTable1)",
             multiple = TRUE,
             immediate = TRUE
           )
           
+          
+          UI_exist_kegg1 <<- F
+        }
+        
+        if (UI_exist_kegg_path1)
+        {
           removeUI(
-            selector = "div:has(>> #downloadKEGGTable1)",
+            selector = "div:has(>> #output_kegg_table1)",
             multiple = TRUE,
             immediate = TRUE
           )
@@ -6912,15 +6988,21 @@ server <- function(input, output) {
             immediate = TRUE
           )
           
+          removeUI(
+            selector = "div:has(>> #downloadKEGGTable1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
           removeUI("#paths_buttonI1")
           
-          UI_exist_kegg1 <<- F
+          UI_exist_kegg_path1 <<- F
         }
         
         if (UI_exist_pathview1)
         {
           removeUI(
-            selector = "div:has(>> #path_image1)",
+            selector = "div:has(>>> #path_image1)",
             multiple = TRUE,
             immediate = TRUE
           )
@@ -6934,11 +7016,12 @@ server <- function(input, output) {
           UI_exist_pathview1 <<- F
         }
         
+        
         validate("No KO terms detected")
       }
     }
     
-    output$error_kos1 <- NULL
+    #output$error_kos1 <- NULL
     
     return(tab_kegg)
     
@@ -6960,9 +7043,70 @@ server <- function(input, output) {
     
     total_table_kegg <- as.data.frame(kos_enrich)
     
+    # Show an error if the KOs are not mapped to any KEGG pathway
+    {
+      if (nrow(total_table_kegg) == 0) 
+      {
+        shinyjs::hideElement(id = 'loading.ko1')
+        output$error_kos1 <- renderUI({
+          renderPrint({cat("No KEGG pathway appears in this OG.")})
+        })
+        
+        
+        if (UI_exist_kegg_path1)
+        {
+          removeUI(
+            selector = "div:has(>> #output_kegg_table1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #selected_pathsI1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #downloadKEGGTable1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI("#paths_buttonI1")
+          
+          UI_exist_kegg_path1 <<- F
+        }
+        
+        if (UI_exist_pathview1)
+        {
+          removeUI(
+            selector = "div:has(>>> #path_image1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          removeUI(
+            selector = "div:has(>> #downloadKEGGpathway1)",
+            multiple = TRUE,
+            immediate = TRUE
+          )
+          
+          UI_exist_pathview1 <<- F
+        }
+        
+        validate("No KEGG pathway appears in this OG.")
+      }
+    }
+    
+    output$error_kos1 <- NULL
+    
+    #pruebatest <- sapply(strsplit(total_table_kegg$ID, "map"), function(x) x[[2]])#only for testing
+    #total_table_kegg$ID <- paste0("ko", pruebatest)
     # Filter out pathways that are not present in plants
     kegg_plants <- read.csv("pharaoh_folder/pathways_plant.ids", sep = "\t", header = T)$x
     total_table_kegg <- subset(total_table_kegg, ID %in% kegg_plants)
+    
     
     return(total_table_kegg)
     
@@ -7010,31 +7154,13 @@ server <- function(input, output) {
       )
       
       removeUI(
-        selector = "div:has(>> #output_kegg_table1)",
-        multiple = TRUE,
-        immediate = TRUE
-      )
-      
-      removeUI(
         selector = "div:has(>> #downloadKOSTable1)",
         multiple = TRUE,
         immediate = TRUE
       )
       
-      removeUI(
-        selector = "div:has(>> #downloadKEGGTable1)",
-        multiple = TRUE,
-        immediate = TRUE
-      )
       
-      removeUI(
-        selector = "div:has(>> #selected_pathsI1)",
-        multiple = TRUE,
-        immediate = TRUE
-      )
-      
-      removeUI("#paths_buttonI1")
-      
+      UI_exist_kegg1 <<- F
     }
     
     insertUI("#box_kos_table1", "afterEnd", ui = {
@@ -7045,6 +7171,41 @@ server <- function(input, output) {
       )
     })
     
+    insertUI("#download_ui_for_kos_table1", "afterEnd", ui = {
+      tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable1", "Download KO Table",
+                                                                         size = "sm", color = "primary"))
+    })
+    
+    UI_exist_kegg1 <<- TRUE
+  })
+  
+  observeEvent(isTruthy(total_table_kegg1()), {
+    
+    if (UI_exist_kegg_path1)
+    {
+      removeUI(
+        selector = "div:has(>> #output_kegg_table1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #selected_pathsI1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI(
+        selector = "div:has(>> #downloadKEGGTable1)",
+        multiple = TRUE,
+        immediate = TRUE
+      )
+      
+      removeUI("#paths_buttonI1")
+      
+      UI_exist_kegg_path1 <<- F
+    }
+    
     
     insertUI("#box_kegg_table1", "afterEnd", ui = {
       box(width = 12,
@@ -7054,23 +7215,20 @@ server <- function(input, output) {
       )
     })
     
-    insertUI("#download_ui_for_kos_table1", "afterEnd", ui = {
-      tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable1", "Download KO Table",
-                                                                         size = "sm", color = "primary"))
-    })
+    
     
     insertUI("#download_ui_for_kegg_table1", "afterEnd", ui = {
       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKEGGTable1", "Download Pathways Table",
                                                                          size = "sm", color = "primary"))
     })
     
-    UI_exist_kegg1 <<- TRUE
+    UI_exist_kegg_path1 <<- TRUE
     
     # Remove previous results for pathview
     if (UI_exist_pathview1)
     {
       removeUI(
-        selector = "div:has(>> #path_image1)",
+        selector = "div:has(>>> #path_image1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -7156,7 +7314,7 @@ server <- function(input, output) {
     if (UI_exist_pathview1)
     {
       removeUI(
-        selector = "div:has(>> #path_image1)",
+        selector = "div:has(>>> #path_image1)",
         multiple = TRUE,
         immediate = TRUE
       )
@@ -7166,9 +7324,11 @@ server <- function(input, output) {
         multiple = TRUE,
         immediate = TRUE
       )
+      
+      UI_exist_pathview1 <<- F
     }
     
-    UI_exist_pathview1 <<- F
+    
     
   })
   
@@ -8264,6 +8424,7 @@ server <- function(input, output) {
   UI_exist_msa2 <<- F
   UI_exist_go2 <<- F
   UI_exist_kegg2 <<- F
+  UI_exist_kegg_path2 <<- F
   UI_exist_pathview2 <<- F
   UI_exist_lit2 <<-  F
   UI_exist_string2 <<-  F
@@ -8389,20 +8550,79 @@ server <- function(input, output) {
      library(rdiamond)
      
      # Run diamond
+     diamond_res <- NULL
+     
+     try(
      diamond_res <- rdiamond::diamond_protein_to_protein(
        query   = paste0("pharaoh_folder/", random_name, ".fa"),
        subject = org_fasta,
        sensitivity_mode = "sensitive",
        output_path = tempdir(),
        #db_import  = FALSE,
-       ##diamond_exec_path = "/usr/bin", 
+       #diamond_exec_path = "/usr/bin", 
        max_target_seqs = 5)
-     
+     )
+    
      # Convert to data.frame
      diamond_table <- data.frame(ID=diamond_res$subject_id, Identity_perc=diamond_res$perc_identity,
                                  Num_identical_matches=diamond_res$num_ident_matches, 
                                  Length = diamond_res$alig_length, Mismatches = diamond_res$mismatches,
                                  Num_gaps=diamond_res$n_gaps, E_value=diamond_res$evalue)
+    
+     # Error if no sequence is detected
+     if (nrow(diamond_table) == 0)
+     {
+       shinyjs::hideElement(id = 'loading.tree2')
+       
+       if (UI_exist_tree2)
+       {
+         removeUI(
+           selector = "div:has(>> #tree_seq_table2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #treeTips2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>>> #presentorg2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #tree_image2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTree2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadNewick2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+         
+         removeUI(
+           selector = "div:has(>> #downloadTreeSeqs2)",
+           multiple = TRUE,
+           immediate = TRUE
+         )
+       }
+       
+       UI_exist_tree2 <<- F
+       output$error_tree2 <- renderUI({renderText({print("No matches for the query were detected in the selected proteome.")})})
+       validate(" ")
+     }
      
      return(diamond_table)
      
@@ -12101,7 +12321,7 @@ server <- function(input, output) {
      total_table_gos <- total_table_gos[,c("organism", "id", "name", gos_sel, terms_sel)]
      
      # Once removed the two GO categories not selected, remove rows with blank cells
-     total_table_gos_clean <- subset(total_table_gos, gos_sel != "")
+     total_table_gos_clean <- total_table_gos[ total_table_gos[[gos_sel]] != "" , ]
      
      # Show an error if no terms are identified after the previous operation
      if (nrow(total_table_gos_clean) == 0) 
@@ -12439,19 +12659,19 @@ server <- function(input, output) {
        )
        
        removeUI(
-         selector = "div:has(>> #output_kegg_table2)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
-       
-       removeUI(
          selector = "div:has(>> #downloadKOSTable2)",
          multiple = TRUE,
          immediate = TRUE
        )
        
+       
+       UI_exist_kegg2 <<- F
+     }
+     
+     if (UI_exist_kegg_path2)
+     {
        removeUI(
-         selector = "div:has(>> #downloadKEGGTable2)",
+         selector = "div:has(>> #output_kegg_table2)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -12462,15 +12682,21 @@ server <- function(input, output) {
          immediate = TRUE
        )
        
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
        removeUI("#paths_buttonI2")
        
-       UI_exist_kegg2 <<- F
+       UI_exist_kegg_path2 <<- F
      }
      
      if (UI_exist_pathview2)
      {
        removeUI(
-         selector = "div:has(>> #path_image2)",
+         selector = "div:has(>>> #path_image2)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -12484,10 +12710,75 @@ server <- function(input, output) {
        UI_exist_pathview2 <<- F
      }
      
+     output$error_kos2 <- NULL
+     
      
    })
    
    observeEvent(input$kegg_start2, {
+     
+     if (UI_exist_kegg2)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kos_table2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKOSTable2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       
+       UI_exist_kegg2 <<- F
+     }
+     
+     if (UI_exist_kegg_path2)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kegg_table2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_pathsI2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#paths_buttonI2")
+       
+       UI_exist_kegg_path2 <<- F
+     }
+     
+     if (UI_exist_pathview2)
+     {
+       removeUI(
+         selector = "div:has(>>> #path_image2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGpathway2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_pathview2 <<- F
+     }
+     
+     output$error_kos2 <- NULL
+     
      insertUI("#selected_kos2", "afterEnd", ui = {
        
        shinyWidgets::pickerInput("selected_kosI2","Select the desired genes from the tree",
@@ -12535,19 +12826,19 @@ server <- function(input, output) {
            )
            
            removeUI(
-             selector = "div:has(>> #output_kegg_table2)",
-             multiple = TRUE,
-             immediate = TRUE
-           )
-           
-           removeUI(
              selector = "div:has(>> #downloadKOSTable2)",
              multiple = TRUE,
              immediate = TRUE
            )
            
+           
+           UI_exist_kegg2 <<- F
+         }
+         
+         if (UI_exist_kegg_path2)
+         {
            removeUI(
-             selector = "div:has(>> #downloadKEGGTable2)",
+             selector = "div:has(>> #output_kegg_table2)",
              multiple = TRUE,
              immediate = TRUE
            )
@@ -12558,15 +12849,21 @@ server <- function(input, output) {
              immediate = TRUE
            )
            
+           removeUI(
+             selector = "div:has(>> #downloadKEGGTable2)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
            removeUI("#paths_buttonI2")
            
-           UI_exist_kegg2 <<- F
+           UI_exist_kegg_path2 <<- F
          }
          
          if (UI_exist_pathview2)
          {
            removeUI(
-             selector = "div:has(>> #path_image2)",
+             selector = "div:has(>>> #path_image2)",
              multiple = TRUE,
              immediate = TRUE
            )
@@ -12580,11 +12877,11 @@ server <- function(input, output) {
            UI_exist_pathview2 <<- F
          }
          
+         
          validate("No KO terms detected")
        }
      }
      
-     output$error_kos2 <- NULL
      
      return(tab_kegg)
      
@@ -12605,6 +12902,63 @@ server <- function(input, output) {
                               pvalueCutoff = 1)
      
      total_table_kegg <- as.data.frame(kos_enrich)
+     
+     # Show an error if the KOs are not mapped to any KEGG pathway
+     {
+       if (nrow(total_table_kegg) == 0) 
+       {
+         shinyjs::hideElement(id = 'loading.ko2')
+         output$error_kos2 <- renderUI({
+           renderPrint({cat("No KEGG pathway appears in this OG.")})
+         })
+         
+         
+         if (UI_exist_kegg_path2)
+         {
+           removeUI(
+             selector = "div:has(>> #output_kegg_table2)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #selected_pathsI2)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadKEGGTable2)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI("#paths_buttonI2")
+           
+           UI_exist_kegg_path2 <<- F
+         }
+         
+         if (UI_exist_pathview2)
+         {
+           removeUI(
+             selector = "div:has(>>> #path_image2)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadKEGGpathway2)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           UI_exist_pathview2 <<- F
+         }
+         
+         validate("No KEGG pathway appears in this OG.")
+       }
+     }
+     output$error_kos2 <- NULL
      
      # Filter out pathways that are not present in plants
      kegg_plants <- read.csv("pharaoh_folder/pathways_plant.ids", sep = "\t", header = T)$x
@@ -12645,6 +12999,7 @@ server <- function(input, output) {
    }) %>% bindEvent(input$kos_selectionI2)
    
    # Create boxes for outputs
+   
    observeEvent(isTruthy(total_table_kos2()), {
      
      if (UI_exist_kegg2)
@@ -12656,31 +13011,13 @@ server <- function(input, output) {
        )
        
        removeUI(
-         selector = "div:has(>> #output_kegg_table2)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
-       
-       removeUI(
          selector = "div:has(>> #downloadKOSTable2)",
          multiple = TRUE,
          immediate = TRUE
        )
        
-       removeUI(
-         selector = "div:has(>> #downloadKEGGTable2)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
        
-       removeUI(
-         selector = "div:has(>> #selected_pathsI2)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
-       
-       removeUI("#paths_buttonI2")
-       
+       UI_exist_kegg2 <<- F
      }
      
      insertUI("#box_kos_table2", "afterEnd", ui = {
@@ -12691,6 +13028,41 @@ server <- function(input, output) {
        )
      })
      
+     insertUI("#download_ui_for_kos_table2", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable2", "Download KO Table",
+                                                                          size = "sm", color = "success"))
+     })
+     
+     UI_exist_kegg2 <<- TRUE
+   })
+   
+   observeEvent(isTruthy(total_table_kegg2()), {
+     
+     if (UI_exist_kegg_path2)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kegg_table2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_pathsI2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable2)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#paths_buttonI2")
+       
+       UI_exist_kegg_path2 <<- F
+     }
+     
      
      insertUI("#box_kegg_table2", "afterEnd", ui = {
        box(width = 12,
@@ -12700,23 +13072,20 @@ server <- function(input, output) {
        )
      })
      
-     insertUI("#download_ui_for_kos_table2", "afterEnd", ui = {
-       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable2", "Download KO Table",
-                                                                          size = "sm", color = "success"))
-     })
+     
      
      insertUI("#download_ui_for_kegg_table2", "afterEnd", ui = {
        tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKEGGTable2", "Download Pathways Table",
                                                                           size = "sm", color = "success"))
      })
      
-     UI_exist_kegg2 <<- TRUE
+     UI_exist_kegg_path2 <<- TRUE
      
      # Remove previous results for pathview
      if (UI_exist_pathview2)
      {
        removeUI(
-         selector = "div:has(>> #path_image2)",
+         selector = "div:has(>>> #path_image2)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -12802,7 +13171,7 @@ server <- function(input, output) {
      if (UI_exist_pathview2)
      {
        removeUI(
-         selector = "div:has(>> #path_image2)",
+         selector = "div:has(>>> #path_image2)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -13920,6 +14289,7 @@ server <- function(input, output) {
    UI_exist_msa3 <<- F
    UI_exist_go3 <<- F
    UI_exist_kegg3 <<- F
+   UI_exist_kegg_path3 <<- F
    UI_exist_pathview3 <<- F
    UI_exist_lit3 <<-  F
    UI_exist_string3 <<-  F
@@ -17487,7 +17857,7 @@ server <- function(input, output) {
      total_table_gos <- total_table_gos[,c("organism", "id", "name", gos_sel, terms_sel)]
      
      # Once removed the two GO categories not selected, remove rows with blank cells
-     total_table_gos_clean <- subset(total_table_gos, gos_sel != "")
+     total_table_gos_clean <- total_table_gos[ total_table_gos[[gos_sel]] != "" , ]
      
      # Show an error if no terms are identified after the previous operation
      if (nrow(total_table_gos_clean) == 0) 
@@ -17815,16 +18185,11 @@ server <- function(input, output) {
      
      removeUI("#kos_selectionI3")
      
+     
      if (UI_exist_kegg3)
      {
        removeUI(
          selector = "div:has(>> #output_kos_table3)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
-       
-       removeUI(
-         selector = "div:has(>> #output_kegg_table3)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -17835,8 +18200,14 @@ server <- function(input, output) {
          immediate = TRUE
        )
        
+       
+       UI_exist_kegg3 <<- F
+     }
+     
+     if (UI_exist_kegg_path3)
+     {
        removeUI(
-         selector = "div:has(>> #downloadKEGGTable3)",
+         selector = "div:has(>> #output_kegg_table3)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -17847,15 +18218,21 @@ server <- function(input, output) {
          immediate = TRUE
        )
        
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
        removeUI("#paths_buttonI3")
        
-       UI_exist_kegg3 <<- F
+       UI_exist_kegg_path3 <<- F
      }
      
      if (UI_exist_pathview3)
      {
        removeUI(
-         selector = "div:has(>> #path_image3)",
+         selector = "div:has(>>> #path_image3)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -17869,10 +18246,75 @@ server <- function(input, output) {
        UI_exist_pathview3 <<- F
      }
      
+     output$error_kos3 <- NULL
+     
      
    })
    
    observeEvent(input$kegg_start3, {
+     
+     if (UI_exist_kegg3)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kos_table3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKOSTable3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       
+       UI_exist_kegg3 <<- F
+     }
+     
+     if (UI_exist_kegg_path3)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kegg_table3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_pathsI3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#paths_buttonI3")
+       
+       UI_exist_kegg_path3 <<- F
+     }
+     
+     if (UI_exist_pathview3)
+     {
+       removeUI(
+         selector = "div:has(>>> #path_image3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGpathway3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_pathview3 <<- F
+     }
+     
+     output$error_kos3 <- NULL
+     
      insertUI("#selected_kos3", "afterEnd", ui = {
        
        shinyWidgets::pickerInput("selected_kosI3","Select the desired genes from the tree",
@@ -17920,19 +18362,19 @@ server <- function(input, output) {
            )
            
            removeUI(
-             selector = "div:has(>> #output_kegg_table3)",
-             multiple = TRUE,
-             immediate = TRUE
-           )
-           
-           removeUI(
              selector = "div:has(>> #downloadKOSTable3)",
              multiple = TRUE,
              immediate = TRUE
            )
            
+           
+           UI_exist_kegg3 <<- F
+         }
+         
+         if (UI_exist_kegg_path3)
+         {
            removeUI(
-             selector = "div:has(>> #downloadKEGGTable3)",
+             selector = "div:has(>> #output_kegg_table3)",
              multiple = TRUE,
              immediate = TRUE
            )
@@ -17943,15 +18385,21 @@ server <- function(input, output) {
              immediate = TRUE
            )
            
+           removeUI(
+             selector = "div:has(>> #downloadKEGGTable3)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
            removeUI("#paths_buttonI3")
            
-           UI_exist_kegg3 <<- F
+           UI_exist_kegg_path3 <<- F
          }
          
          if (UI_exist_pathview3)
          {
            removeUI(
-             selector = "div:has(>> #path_image3)",
+             selector = "div:has(>>> #path_image3)",
              multiple = TRUE,
              immediate = TRUE
            )
@@ -17965,11 +18413,10 @@ server <- function(input, output) {
            UI_exist_pathview3 <<- F
          }
          
+         
          validate("No KO terms detected")
        }
      }
-     
-     output$error_kos3 <- NULL
      
      return(tab_kegg)
      
@@ -17990,6 +18437,64 @@ server <- function(input, output) {
                               pvalueCutoff = 1)
      
      total_table_kegg <- as.data.frame(kos_enrich)
+     
+     # Show an error if the KOs are not mapped to any KEGG pathway
+     {
+       if (nrow(total_table_kegg) == 0) 
+       {
+         shinyjs::hideElement(id = 'loading.ko3')
+         output$error_kos3 <- renderUI({
+           renderPrint({cat("No KEGG pathway appears in this OG.")})
+         })
+         
+         
+         if (UI_exist_kegg_path3)
+         {
+           removeUI(
+             selector = "div:has(>> #output_kegg_table3)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #selected_pathsI3)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadKEGGTable3)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI("#paths_buttonI3")
+           
+           UI_exist_kegg_path3 <<- F
+         }
+         
+         if (UI_exist_pathview3)
+         {
+           removeUI(
+             selector = "div:has(>>> #path_image3)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadKEGGpathway3)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           UI_exist_pathview3 <<- F
+         }
+         
+         validate("No KEGG pathway appears in this OG.")
+       }
+     }
+     
+     output$error_kos3 <- NULL
      
      # Filter out pathways that are not present in plants
      kegg_plants <- read.csv("pharaoh_folder/pathways_plant.ids", sep = "\t", header = T)$x
@@ -18041,31 +18546,13 @@ server <- function(input, output) {
        )
        
        removeUI(
-         selector = "div:has(>> #output_kegg_table3)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
-       
-       removeUI(
          selector = "div:has(>> #downloadKOSTable3)",
          multiple = TRUE,
          immediate = TRUE
        )
        
-       removeUI(
-         selector = "div:has(>> #downloadKEGGTable3)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
        
-       removeUI(
-         selector = "div:has(>> #selected_pathsI3)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
-       
-       removeUI("#paths_buttonI3")
-       
+       UI_exist_kegg3 <<- F
      }
      
      insertUI("#box_kos_table3", "afterEnd", ui = {
@@ -18076,6 +18563,41 @@ server <- function(input, output) {
        )
      })
      
+     insertUI("#download_ui_for_kos_table3", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable3", "Download KO Table",
+                                                                          size = "sm", color = "danger"))
+     })
+     
+     UI_exist_kegg3 <<- TRUE
+   })
+   
+   observeEvent(isTruthy(total_table_kegg3()), {
+     
+     if (UI_exist_kegg_path3)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kegg_table3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_pathsI3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable3)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#paths_buttonI3")
+       
+       UI_exist_kegg_path3 <<- F
+     }
+     
      
      insertUI("#box_kegg_table3", "afterEnd", ui = {
        box(width = 12,
@@ -18085,23 +18607,20 @@ server <- function(input, output) {
        )
      })
      
-     insertUI("#download_ui_for_kos_table3", "afterEnd", ui = {
-       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable3", "Download KO Table",
-                                                                          size = "sm", color = "danger"))
-     })
+     
      
      insertUI("#download_ui_for_kegg_table3", "afterEnd", ui = {
        tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKEGGTable3", "Download Pathways Table",
                                                                           size = "sm", color = "danger"))
      })
      
-     UI_exist_kegg3 <<- TRUE
+     UI_exist_kegg_path3 <<- TRUE
      
      # Remove previous results for pathview
      if (UI_exist_pathview3)
      {
        removeUI(
-         selector = "div:has(>> #path_image3)",
+         selector = "div:has(>>> #path_image3)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -18187,7 +18706,7 @@ server <- function(input, output) {
      if (UI_exist_pathview3)
      {
        removeUI(
-         selector = "div:has(>> #path_image3)",
+         selector = "div:has(>>> #path_image3)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -19335,6 +19854,7 @@ server <- function(input, output) {
      org_batch <- as.character(seq_org4())
      org_search <- gsub(" ", "_", tolower(as.character(org_batch)))
      org_fasta <- paste("pharaohfun_proteomes", paste0(org_search, ".fa", sep=""), sep = "/")
+     org_selection <- gsub(" ", "_", tolower(as.character(selected_organisms4())))
      
      # Load data based on input mode
      # If input is entered as sequences
@@ -19441,9 +19961,11 @@ server <- function(input, output) {
      ortho.file <- ifelse(model.selected4(), "Global_Gene_Trees/Orthogroups.tsv",
                                              "Green_Gene_Trees/Orthogroups.tsv")
      
-     ortho.line <- fread(ortho.file, select = c("Orthogroup",org_search))
+     ortho.line <- fread(ortho.file, select = c("Orthogroup",org_selection))
+     
      
      gene.numbers <- sapply(diamond_table$subject_id, function(x) grep(x, ortho.line[[org_search]]), USE.NAMES = F)
+     
      
      # If a pattern is found in several names, i.e., is a subpattern of several genes,
      # search for the exact match
@@ -19469,6 +19991,7 @@ server <- function(input, output) {
          }
        }
      }
+     
      
      # Write corresponding OG to results table, and indicate it if it is not clustered in any OG
      ogs.batch <- sapply(gene.numbers, function(x) ortho.line$Orthogroup[x], USE.NAMES = F)
@@ -19519,7 +20042,6 @@ server <- function(input, output) {
      ortho_for_go2 <- lapply(ortho_for_go, function(x) paste0(x[-1][x[-1] != ""], collapse = ","))
      ortho_for_go_clean <- sapply(ortho_for_go2, function(x) strsplit(str_replace_all(x, fixed(" "), ""), split = ","))
      ortho_for_go_def <- ortho_for_go_clean[lapply(ortho_for_go_clean,length)>0]
-     
      # Associate each vector of genes with its corresponding query id
      names(ortho_for_go_def) <- diamond_table$query_id[apply(diamond_table, MARGIN = 1,
                                                              FUN = function(x) (x["OG"] != "Gene is not clustered in an OG"))]
@@ -19758,6 +20280,7 @@ server <- function(input, output) {
    UI_exist_msa5 <<- F
    UI_exist_go5 <<- F
    UI_exist_kegg5 <<- F
+   UI_exist_kegg_path5 <<- F
    UI_exist_pathview5 <<- F
    UI_exist_lit5 <<-  F
    UI_exist_string5 <<-  F
@@ -19791,6 +20314,7 @@ server <- function(input, output) {
    shoot_sequence5 <- reactive({
      
      library(stringr)
+     output$error_tree5 <- NULL
      shinyjs::showElement(id = 'loading.tree5')
      seq_comp <- as.character(input$geneInt5)
      seq_comp_clean <- toupper(gsub("[\r\n\t]", "", seq_comp))
@@ -19816,10 +20340,94 @@ server <- function(input, output) {
      # Then, execute DIAMOND in server to create .sh.ogs.txt.gz file and execute SHOOT
 
      database <- ifelse(model.selected5(), "Results_Apr19", "Results_Apr22")
-
+     shoot_works <- F
+     
+     try(
      system(paste0("cd /srv/shiny-server/PharaohFUN/pharaoh_folder;
-            diamond blastp --db ", database, "/profile_sequences.all.fa -q ", random_system, ".fa -o ", random_system, ".fa.sh.ogs.txt.gz --quiet -e 0.001 --compress 1 -p 1;
+            diamond blastp --db ", database, "/profile_sequences.all.fa -q ", random_system, ".fa -o ", random_system, ".fa.sh.ogs.txt.gz --quiet -e 0.001 --compress 1 -p 1 || true"))
+     )
+     
+     gzip_file <- gzfile(paste0("pharaoh_folder/", random_system,".fa.sh.ogs.txt.gz"),'rt')  
+     gzip_data <- readLines(gzip_file)
+     shoot_test <- length(gzip_data)
+     
+     {
+        if(shoot_test > 0)
+        {
+          shoot_works <- T
+        }
+     }
+     
+     # # If a normal diamond search does not provide results, repeat using ultra sensitive mode
+     # if(!shoot_works)
+     # {
+     #   try(
+     #   system(paste0("cd /srv/shiny-server/PharaohFUN/pharaoh_folder;
+     #        diamond blastp --db ", database, "/profile_sequences.all.fa -q ", random_system, ".fa -o ", random_system, ".fa.sh.ogs.txt.gz --quiet -e 0.001 --compress 1 -p 1 --ultra-sensitive || true"))
+     #   )     
+     # }
+     # 
+     # try(
+     #   if(length(readLines(gzfile(paste0(random_system,".fa.sh.ogs.txt.gz")))) > 0)
+     #   {
+     #     shoot_works <- T
+     #   }
+     # )
+     
+     # Error if no sequence is detected after ultra sensitive mode
+     {
+       if(!shoot_works)
+       {
+         shinyjs::hideElement(id = 'loading.tree5')
+         
+         if (UI_exist_tree5)
+         {
+           removeUI(
+             selector = "div:has(>> #treeTips5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>>> #presentorg5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #tree_image5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadTree5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadNewick5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadTreeSeqs5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+         }
+         
+         UI_exist_tree5 <<- F
+         output$error_tree5 <- renderUI({renderText({print("No othogroup profile match the query sequence with E-value cutoff of 0.001.")})})
+         validate(" ")
+       }
+     }
+     
+     system(paste0("cd /srv/shiny-server/PharaohFUN/pharaoh_folder;
             python3 /srv/shiny-server/PharaohFUN/SHOOT/shoot ", random_system, ".fa ", database, "/"))
+     
     
      # Remove input fasta file once SHOOT results have been generated
      file.remove(paste0("pharaoh_folder/", random_system, ".fa"))
@@ -22914,7 +23522,7 @@ server <- function(input, output) {
      total_table_gos <- total_table_gos[,c("organism", "id", "name", gos_sel, terms_sel)]
      
      # Once removed the two GO categories not selected, remove rows with blank cells
-     total_table_gos_clean <- subset(total_table_gos, gos_sel != "")
+     total_table_gos_clean <- total_table_gos[ total_table_gos[[gos_sel]] != "" , ]
      
      # Show an error if no terms are identified after the previous operation
      if (nrow(total_table_gos_clean) == 0) 
@@ -23251,19 +23859,19 @@ server <- function(input, output) {
        )
        
        removeUI(
-         selector = "div:has(>> #output_kegg_table5)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
-       
-       removeUI(
          selector = "div:has(>> #downloadKOSTable5)",
          multiple = TRUE,
          immediate = TRUE
        )
        
+       
+       UI_exist_kegg5 <<- F
+     }
+     
+     if (UI_exist_kegg_path5)
+     {
        removeUI(
-         selector = "div:has(>> #downloadKEGGTable5)",
+         selector = "div:has(>> #output_kegg_table5)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -23274,15 +23882,21 @@ server <- function(input, output) {
          immediate = TRUE
        )
        
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
        removeUI("#paths_buttonI5")
        
-       UI_exist_kegg5 <<- F
+       UI_exist_kegg_path5 <<- F
      }
      
      if (UI_exist_pathview5)
      {
        removeUI(
-         selector = "div:has(>> #path_image5)",
+         selector = "div:has(>>> #path_image5)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -23296,10 +23910,75 @@ server <- function(input, output) {
        UI_exist_pathview5 <<- F
      }
      
+     output$error_kos5 <- NULL
+     
      
    })
    
    observeEvent(input$kegg_start5, {
+     
+     if (UI_exist_kegg5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kos_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKOSTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       
+       UI_exist_kegg5 <<- F
+     }
+     
+     if (UI_exist_kegg_path5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kegg_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_pathsI5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#paths_buttonI5")
+       
+       UI_exist_kegg_path5 <<- F
+     }
+     
+     if (UI_exist_pathview5)
+     {
+       removeUI(
+         selector = "div:has(>>> #path_image5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGpathway5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       UI_exist_pathview5 <<- F
+     }
+     
+     output$error_kos5 <- NULL
+     
      insertUI("#selected_kos5", "afterEnd", ui = {
        
        shinyWidgets::pickerInput("selected_kosI5","Select the desired genes from the tree",
@@ -23348,19 +24027,19 @@ server <- function(input, output) {
            )
            
            removeUI(
-             selector = "div:has(>> #output_kegg_table5)",
-             multiple = TRUE,
-             immediate = TRUE
-           )
-           
-           removeUI(
              selector = "div:has(>> #downloadKOSTable5)",
              multiple = TRUE,
              immediate = TRUE
            )
            
+           
+           UI_exist_kegg5 <<- F
+         }
+         
+         if (UI_exist_kegg_path5)
+         {
            removeUI(
-             selector = "div:has(>> #downloadKEGGTable5)",
+             selector = "div:has(>> #output_kegg_table5)",
              multiple = TRUE,
              immediate = TRUE
            )
@@ -23371,15 +24050,21 @@ server <- function(input, output) {
              immediate = TRUE
            )
            
+           removeUI(
+             selector = "div:has(>> #downloadKEGGTable5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
            removeUI("#paths_buttonI5")
            
-           UI_exist_kegg5 <<- F
+           UI_exist_kegg_path5 <<- F
          }
          
          if (UI_exist_pathview5)
          {
            removeUI(
-             selector = "div:has(>> #path_image5)",
+             selector = "div:has(>>> #path_image5)",
              multiple = TRUE,
              immediate = TRUE
            )
@@ -23397,7 +24082,6 @@ server <- function(input, output) {
        }
      }
      
-     output$error_kos5 <- NULL
      
      return(tab_kegg)
      
@@ -23418,6 +24102,64 @@ server <- function(input, output) {
                               pvalueCutoff = 1)
      
      total_table_kegg <- as.data.frame(kos_enrich)
+     
+     # Show an error if the KOs are not mapped to any KEGG pathway
+     {
+       if (nrow(total_table_kegg) == 0) 
+       {
+         shinyjs::hideElement(id = 'loading.ko5')
+         output$error_kos5 <- renderUI({
+           renderPrint({cat("No KEGG pathway appears in this OG.")})
+         })
+         
+         
+         if (UI_exist_kegg_path5)
+         {
+           removeUI(
+             selector = "div:has(>> #output_kegg_table5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #selected_pathsI5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadKEGGTable5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI("#paths_buttonI5")
+           
+           UI_exist_kegg_path5 <<- F
+         }
+         
+         if (UI_exist_pathview5)
+         {
+           removeUI(
+             selector = "div:has(>>> #path_image5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           removeUI(
+             selector = "div:has(>> #downloadKEGGpathway5)",
+             multiple = TRUE,
+             immediate = TRUE
+           )
+           
+           UI_exist_pathview5 <<- F
+         }
+         
+         validate("No KEGG pathway appears in this OG.")
+       }
+     }
+     
+     output$error_kos5 <- NULL
      
      # Filter out pathways that are not present in plants
      kegg_plants <- read.csv("pharaoh_folder/pathways_plant.ids", sep = "\t", header = T)$x
@@ -23469,31 +24211,13 @@ server <- function(input, output) {
        )
        
        removeUI(
-         selector = "div:has(>> #output_kegg_table5)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
-       
-       removeUI(
          selector = "div:has(>> #downloadKOSTable5)",
          multiple = TRUE,
          immediate = TRUE
        )
        
-       removeUI(
-         selector = "div:has(>> #downloadKEGGTable5)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
        
-       removeUI(
-         selector = "div:has(>> #selected_pathsI5)",
-         multiple = TRUE,
-         immediate = TRUE
-       )
-       
-       removeUI("#paths_buttonI5")
-       
+       UI_exist_kegg5 <<- F
      }
      
      insertUI("#box_kos_table5", "afterEnd", ui = {
@@ -23504,6 +24228,41 @@ server <- function(input, output) {
        )
      })
      
+     insertUI("#download_ui_for_kos_table5", "afterEnd", ui = {
+       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable5", "Download KO Table",
+                                                                          size = "sm", color = "primary"))
+     })
+     
+     UI_exist_kegg5 <<- TRUE
+   })
+   
+   observeEvent(isTruthy(total_table_kegg5()), {
+     
+     if (UI_exist_kegg_path5)
+     {
+       removeUI(
+         selector = "div:has(>> #output_kegg_table5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #selected_pathsI5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI(
+         selector = "div:has(>> #downloadKEGGTable5)",
+         multiple = TRUE,
+         immediate = TRUE
+       )
+       
+       removeUI("#paths_buttonI5")
+       
+       UI_exist_kegg_path5 <<- F
+     }
+     
      
      insertUI("#box_kegg_table5", "afterEnd", ui = {
        box(width = 12,
@@ -23513,23 +24272,20 @@ server <- function(input, output) {
        )
      })
      
-     insertUI("#download_ui_for_kos_table5", "afterEnd", ui = {
-       tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKOSTable5", "Download KO Table",
-                                                                          size = "sm", color = "primary"))
-     })
+     
      
      insertUI("#download_ui_for_kegg_table5", "afterEnd", ui = {
        tags$div(style = "margin-left: 200px;", shinyWidgets::downloadBttn(outputId= "downloadKEGGTable5", "Download Pathways Table",
                                                                           size = "sm", color = "primary"))
      })
      
-     UI_exist_kegg5 <<- TRUE
+     UI_exist_kegg_path5 <<- TRUE
      
      # Remove previous results for pathview
      if (UI_exist_pathview5)
      {
        removeUI(
-         selector = "div:has(>> #path_image5)",
+         selector = "div:has(>>> #path_image5)",
          multiple = TRUE,
          immediate = TRUE
        )
@@ -23615,7 +24371,7 @@ server <- function(input, output) {
      if (UI_exist_pathview5)
      {
        removeUI(
-         selector = "div:has(>> #path_image5)",
+         selector = "div:has(>>> #path_image5)",
          multiple = TRUE,
          immediate = TRUE
        )
