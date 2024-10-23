@@ -60,6 +60,6 @@ R packages dependecies:
 
 For support, send an email to mramos5@us.es.
 ## 🔗 Links
-PharaohFUN is available at https://greennetwork.us.es/PharaohFUN/
+PharaohFUN is available at https://greennetwork.us.es/PharaohFUN/ and you can consult a tutorial at:
 
 [![youtube](https://img.shields.io/youtube/channel/views/UCRBDDVQHHisLcZtLPlYvmow)](https://www.youtube.com/watch?v=DlU7JuBW7Pk)
