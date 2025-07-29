@@ -1,0 +1,1 @@
+((beta_vulgaris_Bevul.7G220500:0.23727,chenopodium_quinoa_AUR62036241:0.31561)n1:0.247875,(vaccinium_darrowii_Vadar_g6242:0.43208,(lactuca_sativa_Lsat_gn_2_57181:0.822,(coffea_arabica_Coara.015158:0.33141,daucus_carota_DCAR_521570:0.40951)n4:0.14242)n3:0.08138)n2:0.247875)n0;

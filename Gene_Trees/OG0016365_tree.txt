@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_36554:0.458245,(taxus_chinensis_KI387_015872:0.01641,(taxus_chinensis_KI387_038956:0.01079,(taxus_chinensis_KI387_012247:0.05886,(taxus_chinensis_KI387_027421:0.03407,taxus_chinensis_KI387_001610:0.00055)n4:0.00112)n3:0.12787)n2:0.07443)n1:0.458245)n0;

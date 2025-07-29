@@ -1,0 +1,1 @@
+((chenopodium_quinoa_AUR62026429:0.02058,(chenopodium_quinoa_AUR62042324:0,chenopodium_quinoa_AUR62042340:0)n2:0.00055)n1:0.462455,(vitis_vinifera_VIT_200s0505g00040:0.1689,(vigna_unguiculata_Vigun06g007320:0.58641,poncirus_trifoliata_Ptrif.0008s1164:0.04308)n4:0.12901)n3:0.462455)n0;

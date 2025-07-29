@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.09076:0.23391,(alsophila_spinulosa_Aspi01Gene03427:0.29389,(sisymbrium_irio_Siiris201g00010:0.54482,sisymbrium_irio_Siiris1548g00020:0.65814)n2:0.25236)n1:0.23391)n0;

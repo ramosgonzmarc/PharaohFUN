@@ -1,0 +1,1 @@
+(glycine_max_Glyma.08G362466:0.24239,(trifolium_pratense_Trpra.09189:0.26317,(trifolium_pratense_Trpra.06609:0.13621,trifolium_pratense_Trpra.06632:0.15462)n2:0.10878)n1:0.24239)n0;

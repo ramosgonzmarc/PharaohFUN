@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00154g9:0.935455,(isoetes_sinensis_IsiChr5g3720:0.00055,(isoetes_sinensis_IsiChr1g554:0.01754,isoetes_sinensis_IsiChr8g1686:0.04046)n2:0.00569)n1:0.935455)n0;

@@ -1,0 +1,1 @@
+((mesostigma_viride296_Mevir.Mv06951:1.45421,(ostreobium_quekettii_CAD7698493:0.27617,bryopsis_sp_Bsp_GMH39468:0.48011)n2:0.5849)n1:0.25332,(galdieria_sulphuraria_GsulpAzora_G2495:0.52029,(gracilariopsis_chorda_PXF44602:0.36216,porphyra_umbilicalis_Pum0300s0002:0.27966)n4:0.3546)n3:0.25332)n0;

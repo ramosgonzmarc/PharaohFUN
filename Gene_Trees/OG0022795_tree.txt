@@ -1,0 +1,1 @@
+((aegilops_tauschii_Atau_XP_020146348:0.27403,brachypodium_distachyon_Bradi1g71206:0.21643)n1:0.099895,(oropetium_thomaeum_Oropetium_20150105_00408A:0.52338,(zea_mays_Zm00001d048161:0.10107,(sorghum_bicolor_Sobic.001G467400:0.07736,(miscanthus_sinensis_Misin01G447100:0.03751,miscanthus_sinensis_Misin02G441600:0.03306)n5:0.00054)n4:0.07323)n3:0.47736)n2:0.099895)n0;

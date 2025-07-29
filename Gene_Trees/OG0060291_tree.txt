@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene67514:0.167595,(sisymbrium_irio_Siiris424g00040:0.97768,(theobroma_cacao_Thecc1EG017142:0.73816,(saponaria_officinalis_Sapof.07G036200:0.51562,(saponaria_officinalis_Sapof.10G042200:1.08938,sequoia_sempervirens_SESE_061839:0.49268)n4:0.124902)n3:0.013878)n2:0.20393)n1:0.02835)n0;

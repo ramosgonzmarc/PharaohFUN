@@ -1,0 +1,1 @@
+(paraphymatoceros_pearsonii_Papea.S2G073100:0.74863,(anthoceros_agrestis_AnagrOXF.S1G087500:0.00207,(anthoceros_agrestis_AnagrOXF.S6G051300:0.07911,(anthoceros_agrestis_AnagrOXF.S6G039700:0.06478,anthoceros_agrestis_AnagrOXF.S1G076300:0.06125)n3:0.01292)n2:0.08929)n1:0.74863)n0;

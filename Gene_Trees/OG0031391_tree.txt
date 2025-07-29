@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol041788:0.8395,carica_papaya_Capac.c01633g001:0.22089)n1:0.2111,(aquilegia_coerulea_Aqcoe6G258200:0.02754,aquilegia_coerulea_Aqcoe5G145700:0.00055)n2:0.2111)n0;

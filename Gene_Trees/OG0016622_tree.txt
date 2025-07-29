@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c12_1810V6:0.3356,takakia_lepidozioides_Tle2c01229:1.04898)n1:0.00027,((physcomitrium_patens_Pp6c3_18580V6:0.26016,physcomitrium_patens_Pp6c3_12210V6:0.27455)n3:0.08802,(takakia_lepidozioides_Tle1c08272:0.22216,takakia_lepidozioides_Tle4c04633:0.05282)n4:0.54231)n2:0.00027)n0;

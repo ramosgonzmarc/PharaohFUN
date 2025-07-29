@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c1_18140V6:0.48662,(medicago_truncatula_Medtr6g074590:0.22914,(eucalyptus_grandis_Eucgr.H02137:0.81206,eucalyptus_grandis_Eucgr.H00417:0.00054)n2:0.67415)n1:0.48662)n0;

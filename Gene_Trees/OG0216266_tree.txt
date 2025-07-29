@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_417561:0.3,(saponaria_officinalis_Sapof.06G198300:0.33013,(beta_vulgaris_Bevul.5G117600:0.28168,(chenopodium_quinoa_AUR62039734:0.06831,chenopodium_quinoa_AUR62036285:0.03962)n3:0.22728)n2:0.72974)n1:0.3)n0;

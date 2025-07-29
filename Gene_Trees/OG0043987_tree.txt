@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv14908:0.343845,(myrmecia_bisecta_Mybis.KAK9816877:0.61985,(tetraselmis_striata_TSEL_000185:0.00686,tetraselmis_striata_TSEL_035640:0.00054)n2:1.01202)n1:0.343845)n0;

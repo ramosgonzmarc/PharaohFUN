@@ -1,0 +1,1 @@
+(picea_abies_Pab_9061907g0010:0.2635,((quercus_rubra_Qurub.05G259900:0.27097,(lactuca_sativa_Lsat_gn_3_102241:0.02316,lactuca_sativa_Lsat_gn_6_13561:0.03077)n3:0.11135)n2:0.09423,(malus_domestica_MD03G1034400:0.03744,malus_domestica_MD03G1034500:0.01231)n4:0.47483)n1:0.2635)n0;

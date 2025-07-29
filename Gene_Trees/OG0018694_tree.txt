@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum1559_ZcUTEX1559_16051:0.31403,(porphyra_umbilicalis_Pum0141s0021:1.2497,(porphyra_umbilicalis_Pum0141s0020:0.26368,(porphyra_umbilicalis_Pum0517s0001:0.11406,(porphyra_umbilicalis_Pum0582s0007:0.0342,porphyra_umbilicalis_Pum0267s0005:0.06107)n4:0.18545)n3:0.11857)n2:0.62848)n1:0.31403)n0;

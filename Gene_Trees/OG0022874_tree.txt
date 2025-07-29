@@ -1,0 +1,1 @@
+(malus_domestica_MD12G1087100:0.24881,(oropetium_thomaeum_Oropetium_20150105_02022A:0.94827,((hordeum_vulgare_Hvul_2HG0204480:0.0747,(aegilops_tauschii_Atau_XP_020173707:0.0141,triticum_aestivum_TraesCS2D03G1156100:0.00697)n4:0.06987)n3:0.02688,(aegilops_tauschii_Atau_XP_040256608:0.09282,triticum_aestivum_TraesCS2B03G1354300:0.052506)n5:0.005834)n2:0.25363)n1:0.24881)n0;

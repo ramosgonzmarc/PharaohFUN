@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_019810:0.2012,(lens_culinaris_Lecul.6g046000:0.43644,lens_culinaris_Lecul.3g064410:0.667989)n2:0.074221)n1:0.068695,(gnetum_montanum_TnS000061381t02:0.01037,gnetum_montanum_TnS000720383t02:0.00054)n3:0.33107)n0;

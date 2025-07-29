@@ -1,0 +1,1 @@
+((marchantia_paleacea_Mapa_005769:1.61879,(brassica_oleracea_Bol010630:0.47862,(daucus_carota_DCAR_519402:0.22792,trifolium_pratense_Trpra.15662:0.33902)n3:0.35871)n2:0.32557)n1:0.07701,(alsophila_spinulosa_Aspi01Gene22949:0.22679,(phaeoceros_sp_Phsp.C2G090100:0.01386,(phaeoceros_sp_Phsp.C4G202300:0.0243,phaeoceros_sp_Phsp.C8G006100:0.02745)n6:0.01825)n5:0.28712)n4:0.07701)n0;

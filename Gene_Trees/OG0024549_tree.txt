@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g2934:0.69301,(bryopsis_sp_Bsp_GMH42567:1.30495,(pedinophyceae_sp_Pesp.9467545:1.30606,cymbomonas_tetramitiformis_KAK3275662:0.69008)n3:0.00441)n2:0.04045)n1:0.154555,(mesostigma_viride1140_Mesvi2359S04498:0.0833,(mesostigma_viride296_Mevir.Mv06555:0.73678,mesostigma_viride296_Mevir.Mv04706:0.05526)n5:0.00614)n4:0.69098)n0;

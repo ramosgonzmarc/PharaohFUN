@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz06g05180:0.58622,scenedesmus_obliquus_Sobl_g01513:0.49621)n1:0.04907,(chromochloris_zofingiensis_Cz04g15150:0.62221,(scenedesmus_obliquus_Sobl_g04501:0.98988,scenedesmus_obliquus_Sobl_g17492:0.918099)n3:0.102011)n2:0.08838)n0;

@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10021768:0.15633,((arachis_hypogaea_arahy_EUC3GX:0,arachis_hypogaea_arahy_CDD4S1:0)n2:0.29368,corylus_avellana_Corav.g22327:0.32989)n1:0.15633)n0;

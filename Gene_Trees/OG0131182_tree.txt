@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00071_0310:0.393705,(apatococcus_lobatus_Aplob.KAK9825770:1.17281,(elliptochloris_bilobata_Elbil.KAK9839203:0.79396,trebouxia_sp_FRX49_12431:0.42429)n2:0.39272)n1:0.393705)n0;

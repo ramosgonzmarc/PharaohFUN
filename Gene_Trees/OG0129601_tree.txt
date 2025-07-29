@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr12g2899:0.152705,(boechera_stricta_Bostr.1774s0001:0.94697,(eutrema_salsugineum_Thhalv10027043m:0.61358,eutrema_salsugineum_Thhalv10027012m:0.6247)n2:0.25611)n1:0.152705)n0;

@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM000207S06192:0.375,(marsilea_vestita_Mvestita_S7g18199:0.68004,(adiantum_capillus_Adc03483:0.43267,((azolla_filiculoides_Azfi_s0088.g042518:0.00053,azolla_filiculoides_Azfi_s0479.g073094:0.00055)n4:0.43575,(alsophila_spinulosa_Aspi01Gene26181:0.07304,alsophila_spinulosa_Aspi01Gene26184:0.01994)n5:0.20204)n3:0.10762)n2:0.27357)n1:0.375)n0;

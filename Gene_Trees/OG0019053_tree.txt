@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene17203:0.058275,(taxus_chinensis_KI387_002539:0.22489,((lens_culinaris_Lecul.6g054550:1.51393,sequoiadendron_giganteum_SEGI_22243:0.26864)n3:0.61229,(abies_alba_AALBA5B1101357:0.22974,abies_alba_AALBA5B046822:0.239958)n4:0.026662)n2:0.37456)n1:0.00055)n0;

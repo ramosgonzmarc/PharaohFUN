@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.08G061500:0.15694,(glycine_max_Glyma.12G104301:0.2407,(cicer_arietinum_Ca_17060:0.72669,trifolium_pratense_Trpra.32015:0.20818)n2:0.04876)n1:0.15694)n0;

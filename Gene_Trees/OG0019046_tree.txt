@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B039801:1.16866,adiantum_capillus_Adc23375:0.55803)n1:0.096945,(diphasiastrum_complanatum_Dicom.16G037500:0.59229,(diphasiastrum_complanatum_Dicom.Y514500:0.0315,diphasiastrum_complanatum_Dicom.18G019500:0.04564)n3:1.45936)n2:0.096945)n0;

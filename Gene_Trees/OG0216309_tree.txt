@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.D00103:0.40815,((daucus_carota_DCAR_103013:0.42362,daucus_carota_DCAR_206499:0.31777)n2:0.4793,(daucus_carota_DCAR_103014:0.09857,daucus_carota_DCAR_206498:0.34399)n3:0.10466)n1:0.40815)n0;

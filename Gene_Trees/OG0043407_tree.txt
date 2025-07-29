@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_004221:0.348775,((sequoia_sempervirens_SESE_081791:0.61506,(beta_vulgaris_Bevul.9G094500:0.26047,vaccinium_darrowii_Vadar_g38941:0.39394)n3:0.41218)n2:0.69609,(theobroma_cacao_Thecc1EG044444:0.47316,(takakia_lepidozioides_Tle4c04684:0.4438,takakia_lepidozioides_Tle2c02855:0.365013)n5:0.040557)n4:0.27847)n1:0.348775)n0;

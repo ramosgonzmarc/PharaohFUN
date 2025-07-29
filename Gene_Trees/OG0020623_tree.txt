@@ -1,0 +1,1 @@
+((picea_abies_Pab_7539g0010:0.91042,sequoia_sempervirens_SESE_077251:0.98882)n1:0.32799,(cycas_panzhihuaensis_CYCAS_024314:0.07533,(cycas_panzhihuaensis_CYCAS_024313:0.2067,(cycas_panzhihuaensis_CYCAS_024315:0.07169,cycas_panzhihuaensis_CYCAS_024316:0.18707)n4:0.03971)n3:0.03153)n2:0.32799)n0;

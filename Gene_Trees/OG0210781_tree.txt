@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10031766:0.36461,(cucumis_sativus_Cucsa.c058790g01:0.97498,(lupinus_albus_Lalb_Chr20g0108671:0.51388,(lens_culinaris_Lecul.4g009730:0.05971,(lens_culinaris_Lecul.4g009710:0.35223,lens_culinaris_Lecul.4g009630:0.11543)n4:0.00998)n3:0.32763)n2:0.29723)n1:0.36461)n0;

@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT5G06645:0.05981,(eutrema_salsugineum_Thhalv10015040m:0.34,(sisymbrium_irio_Siiris1171g00010:0.06019,sisymbrium_irio_Siiris2905g00010:0.08234)n2:0.38416)n1:0.05981)n0;

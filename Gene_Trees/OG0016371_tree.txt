@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr5g2157:0.155595,(musa_acuminata_Muacu.4P28220_001:1.15993,((ginkgo_biloba_Gb_14994:0.25106,amaranthus_hypochondriacus_AH002247:0.90178)n3:0.71871,((taxus_chinensis_KI387_021010:0.03468,taxus_chinensis_KI387_011912:0.17418)n5:0.0573,(taxus_chinensis_KI387_034465:0.02392,taxus_chinensis_KI387_036290:0.40617)n6:0.040617)n4:0.004513)n2:0.00195)n1:0.155595)n0;

@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B949553:0.59632,(picea_abies_Pab_308575g0020:0.10515,picea_abies_Pab_5644g0020:0.09649)n2:1.30038)n1:0.121475,(cycas_panzhihuaensis_CYCAS_029468:0.78587,(ginkgo_biloba_Gb_25946:0.04004,ginkgo_biloba_Gb_25643:0.28645)n4:0.43354)n3:0.121475)n0;

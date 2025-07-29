@@ -1,0 +1,1 @@
+((boechera_stricta_Bostr.7867s0100:0.18187,capsella_grandiflora_Cagra.3145s0009:0.33417)n1:0.17591,(schrenkiella_parvula_Scpar7g21170:0.2516,(thlaspi_arvense_TaMN106.7G183800:0.4026,(brassica_oleracea_Bol042078:0.14611,brassica_oleracea_Bol042079:0.09314)n4:0.3182)n3:0.1729)n2:0.17591)n0;

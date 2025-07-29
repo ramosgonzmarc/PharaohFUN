@@ -1,0 +1,1 @@
+((schrenkiella_parvula_Scpar6g03420:0.62059,(schrenkiella_parvula_Scpar6g03410:0.04311,schrenkiella_parvula_Scpar6g03430:0.09282)n2:1.18813)n1:0.029645,(boechera_stricta_Bostr.2983s0104:0.15627,(capsella_grandiflora_Cagra.15018s0001:0.10742,capsella_grandiflora_Cagra.15018s0002:0.14127)n4:0.094)n3:0.029645)n0;

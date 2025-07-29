@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre12.g801420_4532:0.003405,((chlamydomonas_reinhardtii_Cre12.g801427_4532:0.00055,chlamydomonas_reinhardtii_Cre12.g801422_4532:0.00407)n2:0.87202,((chlamydomonas_reinhardtii_Cre12.g801423_4532:0.07598,chlamydomonas_reinhardtii_Cre12.g526240_4532:0.00055)n4:0.02549,chlamydomonas_reinhardtii_Cre12.g526500_4532:0.30384)n3:0.00403)n1:0.003405)n0;

@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_00121:0.629725,((riccia_sorocarpa_Risor.KAL3677452:0.25231,(riccia_fluitans_R1flu_020481:0.19549,riccia_fluitans_R1flu_020482:0.19434)n3:0.11153)n2:0.05827,(riccia_sorocarpa_Risor.KAL3677449:0.92919,riccia_fluitans_R1flu_001591:1.18553)n4:0.131725)n1:0.629725)n0;

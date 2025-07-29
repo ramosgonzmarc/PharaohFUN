@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.15873:0.270825,(triticum_aestivum_TraesCS2D03G0224200:0.68693,(marsilea_vestita_Mvestita_S10g02579:1.10885,(alsophila_spinulosa_Aspi01Gene03865:0.02775,(alsophila_spinulosa_Aspi01Gene03866:0.06384,alsophila_spinulosa_Aspi01Gene03867:0.03113)n4:0.02021)n3:0.5125)n2:0.15142)n1:0.270825)n0;

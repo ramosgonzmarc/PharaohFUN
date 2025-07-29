@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_007188:0.05278,corymbia_citriodora_Cocit.A1518:0.62878)n1:0.02847,(picea_abies_Pab_10426569g0010:0.38829,(carica_papaya_Capac.c00052g123:0.89106,(gnetum_montanum_TnS000264597t09:0.44947,sequoiadendron_giganteum_SEGI_21656:1.81091)n4:0.07875)n3:0.18534)n2:0.02847)n0;

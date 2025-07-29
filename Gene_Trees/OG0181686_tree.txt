@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc01g068120:0.04492,solanum_tuberosum_Soltu.01G025480:0.07749)n1:0.19036,(arabidopsis_lyrata_Arlyr.AL4G46530:0.46741,(cicer_arietinum_Ca_01042:0.33402,(cicer_arietinum_Ca_26957:0.0602,(cicer_arietinum_Ca_27798:0.07329,cicer_arietinum_Ca_14716:0.09016)n5:0.03804)n4:0.353835)n3:0.039315)n2:0.09504)n0;

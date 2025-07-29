@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B196266:0.46823,malus_domestica_MD08G1117400:0.08371)n1:0.131345,((isoetes_sinensis_IsiChr8g826:0.81174,isoetes_sinensis_IsiChr10g4093:0.01537)n3:0.54186,(isoetes_sinensis_IsiScaffold3510g50:0.01428,isoetes_sinensis_IsiChr14g2043:0.02506)n4:0.06118)n2:0.131345)n0;

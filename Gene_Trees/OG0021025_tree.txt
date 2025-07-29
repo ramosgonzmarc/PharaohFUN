@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr8g063480:0.400265,(ginkgo_biloba_Gb_35397:0.08213,(ginkgo_biloba_Gb_21488:0.20665,(ginkgo_biloba_Gb_28280:0.0696,ginkgo_biloba_Gb_20611:0.05745)n3:0.03064)n2:0.00925)n1:0.400265)n0;

@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.D01396:0.01046,(kalanchoe_fedtschenkoi_Kaladp0042s0395:0.04616,(glycine_max_Glyma.05G084450:0.18771,(carya_illinoinensis_Caril.16G061800:0,carya_illinoinensis_Caril.16G061300:0)n3:0.29757)n2:0.11684)n1:0.01046)n0;

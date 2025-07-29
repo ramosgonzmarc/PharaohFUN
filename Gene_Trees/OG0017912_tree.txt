@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3267061:0.183685,(chloropicon_primus_Chlpr_g5423:0.44219,(pedinophyceae_sp_Pesp.9465618:0.52412,(caulerpa_lentillifera_Caule_g8351:0.87051,(tetraselmis_striata_TSEL_000788:0.43975,(tetraselmis_striata_TSEL_037855:0.47135,tetraselmis_striata_TSEL_038719:0.90171)n5:0.11262)n4:0.96567)n3:0.60879)n2:0.25191)n1:0.183685)n0;

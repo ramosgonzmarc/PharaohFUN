@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin13G031900:0.190005,(oropetium_thomaeum_Oropetium_20150105_23166A:0.52916,(oropetium_thomaeum_Oropetium_20150105_23163A:0.27159,(oropetium_thomaeum_Oropetium_20150105_23161A:0.39493,oropetium_thomaeum_Oropetium_20150105_23165A:0.37068)n3:0.19916)n2:0.53896)n1:0.190005)n0;

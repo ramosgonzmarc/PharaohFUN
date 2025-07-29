@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.06G038200:0.082375,(malus_domestica_MD03G1126700:0.11257,(prunus_persica_Prupe.6G198100:0.20685,prunus_persica_Prupe.6G198000:0.15557)n2:0.04652)n1:0.082375)n0;

@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000905923t16:0.669715,(welwitschia_mirabilis_Wmi_08230:0.08776,(welwitschia_mirabilis_Wmi_05320:0.00055,welwitschia_mirabilis_Wmi_05321:0.05468)n2:0.1493)n1:0.669715)n0;

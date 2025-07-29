@@ -1,0 +1,1 @@
+((chlorella_sorokiniana_Chlso_g9219:0.82103,gracilariopsis_chorda_PXF47648:0.45414)n1:0.17499,((auxenochlorella_protothecoides_APUTEX2500002485:0.48415,helicosporidium_sp_Helsp_g5954:0.39227)n3:1.29181,(galdieria_sulphuraria_GsulpAzora_G6008:0.68317,(cyanidioschyzon_merolae_CmerSOOS_G553:0.60877,porphyra_umbilicalis_Pum1570s0001:0.51412)n5:0.07865)n4:0.08329)n2:0.17499)n0;

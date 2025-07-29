@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.A11G277750:0.18337,(vitis_vinifera_VIT_200s2001g00010:0.21905,(vitis_vinifera_VIT_218s0164g00130:0.16375,vitis_vinifera_VIT_218s0164g00150:0.00055)n3:0.726651)n2:0.080739)n1:0.107065,medicago_truncatula_Medtr2g437250:0.84688)n0;

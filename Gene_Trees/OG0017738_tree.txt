@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum_Zci_08469:0.693725,(chara_braunii_CBR_g8703:0.18292,((chara_braunii_CBR_g51645:1.05917,chara_braunii_CBR_g8700:0.26916)n3:0.08319,(chara_braunii_CBR_g8692:0.09565,chara_braunii_CBR_g8695:0.0771)n4:0.12512)n2:0.06908)n1:0.693725)n0;

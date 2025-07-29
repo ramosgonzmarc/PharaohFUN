@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc02508:1.01741,azolla_filiculoides_Azfi_s0007.g011094:0.55328)n1:0.20696,(isoetes_sinensis_IsiChr1g4462:0.37725,isoetes_sinensis_IsiScaffold3436g59:0.00053)n2:0.20696)n0;

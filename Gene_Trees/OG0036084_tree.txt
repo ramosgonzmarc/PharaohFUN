@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_104312:0.297,(manihot_esculenta_Manes.11G052600:0.59985,(corymbia_citriodora_Cocit.J2071:0.09897,(eucalyptus_grandis_Eucgr.L02621:0.18753,eucalyptus_grandis_Eucgr.J03043:0.00055)n3:0.03473)n2:0.15411)n1:0.297)n0;

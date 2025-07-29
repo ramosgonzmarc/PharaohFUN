@@ -1,0 +1,1 @@
+(cinnamomum_kanehirae_CKAN_01223600:0.123845,(corymbia_citriodora_Cocit.D0572:0.5872,(citrus_sinensis_Cisin.041701:0.88514,citrus_sinensis_Cisin.048557:0.818532)n2:0.090948)n1:0.06528)n0;

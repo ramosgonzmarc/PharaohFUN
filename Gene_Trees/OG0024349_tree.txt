@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl01023_0020:0.42273,(chlorella_sorokiniana_Chlso_g1706:0.6223,(volvox_carteri_Vocar.0050s0064:0.09852,(chlamydomonas_reinhardtii_Cre14.g609600_4532:0.02778,chlamydomonas_incerta_Chincg10250:0.03146)n3:0.33691)n2:0.33569)n1:0.42273)n0;

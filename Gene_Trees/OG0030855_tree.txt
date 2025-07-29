@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00024g198:0.72578,oropetium_thomaeum_Oropetium_20150105_05751A:0.41749)n1:0.3544,(thuja_plicata_Thupl.29377759s0001:0.16367,sequoia_sempervirens_SESE_034310:0.21124)n2:0.3544)n0;

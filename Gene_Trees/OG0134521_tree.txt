@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH019069:0.14193,amaranthus_hypochondriacus_AH002151:0.21043)n1:0.156945,((corylus_avellana_Corav.g32075:0.28914,trifolium_pratense_Trpra.07563:0.58535)n3:0.14054,(malus_domestica_MD02G1118700:0.23788,prunus_persica_Prupe.7G016500:0.0991)n4:0.05419)n2:0.156945)n0;

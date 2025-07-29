@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B990525:0.5518,(huperzia_asiatica_HaA38G0111:0.31277,((huperzia_asiatica_HaA11G0161:0,huperzia_asiatica_HaA31G0168:0,huperzia_asiatica_HaA33G0391:0,huperzia_asiatica_HaA42G0516:0)n3:0.47014,(huperzia_asiatica_HaB17G0055:0.54512,huperzia_asiatica_HaB38G0520:0.54999)n4:0.21958)n2:0.2398)n1:0.5518)n0;

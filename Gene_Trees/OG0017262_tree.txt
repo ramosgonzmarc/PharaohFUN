@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene44994:0.21579,(aegilops_tauschii_Atau_XP_040254199:0.23263,(ginkgo_biloba_Gb_31048:1.14229,(oryza_sativa_Os02g25610:0.80003,oryza_sativa_Os05g11350:0.651879)n3:0.072431)n2:0.29534)n1:0.2261)n0;

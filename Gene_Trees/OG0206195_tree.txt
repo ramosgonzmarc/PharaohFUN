@@ -1,0 +1,1 @@
+((eutrema_salsugineum_Thhalv10028044m:0.05743,(boechera_stricta_Bostr.17016s0004:0.18337,brassica_rapa_Brara.G01540:0.31322)n2:0.07336)n1:0.566755,(gossypium_raimondii_Gorai.003G075700:0.01072,(gossypium_hirsutum_Gohir.A02G097401:0.03357,gossypium_hirsutum_Gohir.D03G086450:0.000495)n4:5.5e-05)n3:0.00054)n0;

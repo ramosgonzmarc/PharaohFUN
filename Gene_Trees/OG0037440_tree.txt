@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.14495:0.39824,(picea_abies_Pab_40423g0020:0.86397,(gnetum_montanum_TnS000545957t07:0.7961,(isoetes_sinensis_IsiChr7g2571:0.00055,isoetes_sinensis_IsiChr8g2275:0.00502)n3:0.24326)n2:0.25488)n1:0.39824)n0;

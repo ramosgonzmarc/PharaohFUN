@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.A09G097633:0.7337,vaccinium_darrowii_Vadar_g20898:0.52082)n1:0.0619,(ceratopteris_richardii_Ceric.11G011500:0.49234,(adiantum_capillus_Adc11448:0.92895,adiantum_capillus_Adc19194:0.337572)n3:0.037508)n2:0.43146)n0;

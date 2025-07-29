@@ -1,0 +1,1 @@
+((mesostigma_viride1140_Mesvi53S06741:0.02422,mesostigma_viride296_Mevir.Mv12182:0.08027)n1:0.46887,((tetraselmis_striata_TSEL_018012:0.01147,tetraselmis_striata_TSEL_003343:0.00054)n3:0.7828,(ulva_mutabilis_UM028_0105:0.97062,bryopsis_sp_Bsp_GMH33399:0.6113)n4:0.58176)n2:0.46887)n0;

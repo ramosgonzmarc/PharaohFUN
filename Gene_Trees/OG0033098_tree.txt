@@ -1,0 +1,1 @@
+(chlorella_sorokiniana_Chlso_g3746:0.323495,(tetrabaena_socialis_Tesoc.PNH04850:0.13213,(gonium_pectorale_Gopec.13531:0.20478,(volvox_carteri_Vocar.0008s0072:0.2642,(chlamydomonas_reinhardtii_Cre08.g385400_4532:0.08672,chlamydomonas_incerta_Chincg07434:0.14434)n4:0.27474)n3:0.07986)n2:0.07013)n1:0.323495)n0;

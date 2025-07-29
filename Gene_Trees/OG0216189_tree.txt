@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_415989:0.89972,((mimulus_guttatus_Migut.D02127:0.36326,(coffea_arabica_Coara.015220:0.01233,coffea_arabica_Coara.019002:0.01908)n4:0.36391)n3:0.25122,coffea_arabica_Coara.075653:0.839871)n2:0.093319)n1:0.244095,lactuca_sativa_Lsat_gn_9_22140:0.48268)n0;

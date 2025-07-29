@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9839002:0.80798,(tetraselmis_striata_TSEL_035722:0.30084,(tetraselmis_striata_TSEL_034791:0.13363,tetraselmis_striata_TSEL_034800:0.09723)n2:0.21585)n1:0.80798)n0;

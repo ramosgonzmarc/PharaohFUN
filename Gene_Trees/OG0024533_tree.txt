@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g401:0.68746,chloropicon_primus_Chlpr_g8487:0.35142)n1:0.558115,(ostreococcus_tauri_ostta14g01760:0.56651,(ostreococcus_mediterraneus_Ostme13g01410:0.73021,ostreococcus_lucimarinus_Oluc_29489:0.6847)n3:0.11897)n2:0.558115)n0;

@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag09G076700:0.232355,(lupinus_albus_Lalb_Chr07g0179921:0.54504,(ceratopteris_richardii_Ceric.34G033100:0.03425,miscanthus_sinensis_Misin04G318000:0.91797)n2:0.08316)n1:0.232355)n0;

@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_313924:0.86078,(amborella_trichopoda_AmTr00090g35:0.5199,amborella_trichopoda_AmTr00006g183:0.305883)n2:0.033987)n1:0.28464,((aegilops_tauschii_Atau_XP_020160273:0.00055,aegilops_tauschii_Atau_XP_040250986:0.01191)n4:0.11306,(triticum_aestivum_TraesCS5D03G1194700:0.158,triticum_aestivum_TraesCS4A03G1196500:0.07191)n5:0.00799)n3:0.16843)n0;

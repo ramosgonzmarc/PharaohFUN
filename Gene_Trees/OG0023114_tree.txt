@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S1G549600:0.33391,(thlaspi_arvense_TaMN106.6G124400:0.8746,(alsophila_spinulosa_Aspi01Gene12871:0.00054,(alsophila_spinulosa_Aspi01Gene30434:0.03534,alsophila_spinulosa_Aspi01Gene34963:0.05474)n3:0.04381)n2:0.05746)n1:0.33391)n0;

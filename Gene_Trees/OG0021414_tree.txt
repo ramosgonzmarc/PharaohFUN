@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.4G283600:0.397055,(malus_domestica_MD12G1152200:0.49522,(malus_domestica_MD03G1126400:0.2736,(malus_domestica_MD03G1126000:0.37637,malus_domestica_MD00G1034000:0.12654)n3:0.32722)n2:0.49455)n1:0.397055)n0;

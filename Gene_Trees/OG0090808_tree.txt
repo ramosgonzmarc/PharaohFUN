@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_02502500:0.2307,linum_usitatissimum_Lus10022489:0.60972)n1:0.44973,(huperzia_asiatica_HaB50G0341:0.08016,(huperzia_asiatica_HaA25G0659:0.03467,huperzia_asiatica_HaB41G0572:0.17119)n3:0.09615)n2:0.44973)n0;

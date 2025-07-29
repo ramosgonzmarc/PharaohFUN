@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C10G040200:0.506475,(anthoceros_fusiformis_Anfus.S3G072800:0.42092,(anthoceros_fusiformis_Anfus.S3G072900:0.00484,anthoceros_fusiformis_Anfus.S3G073400:0.11347)n2:0.22499)n1:0.506475)n0;

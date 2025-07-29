@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g43193:0.57913,(vaccinium_darrowii_Vadar_g9970:0.23408,(vaccinium_darrowii_Vadar_g43194:0.24369,vaccinium_darrowii_Vadar_g40142:0.00054)n2:0.89382)n1:0.57913)n0;

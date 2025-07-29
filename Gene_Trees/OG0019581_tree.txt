@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0200.g025585:0.86624,marsilea_vestita_Mvestita_S5g10004:0.9099)n1:0.31732,(alsophila_spinulosa_Aspi01Gene20650:0.00775,(alsophila_spinulosa_Aspi01Gene20653:0.07318,alsophila_spinulosa_Aspi01Gene20656:0.00404)n3:0.00542)n2:0.31732)n0;

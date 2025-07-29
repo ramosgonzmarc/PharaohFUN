@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.06452:0.343685,(dunaliella_salina_Dusal.0269s00015:0.70997,(haematococcus_lacustris_QJQ45_001083:0.04476,(haematococcus_lacustris_QJQ45_027223:0.00053,(haematococcus_lacustris_QJQ45_030366:0.00053,(haematococcus_lacustris_QJQ45_011178:0,haematococcus_lacustris_QJQ45_011177:0)n5:0.00055)n4:0.03239)n3:0.02847)n2:0.59822)n1:0.343685)n0;

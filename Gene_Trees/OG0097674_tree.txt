@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3242696:0.732365,(apatococcus_lobatus_Aplob.KAK9832935:0.50479,(apatococcus_lobatus_Aplob.KAK9836687:0.6157,(apatococcus_lobatus_Aplob.KAK9827197:0.17905,apatococcus_lobatus_Aplob.KAK9827007:0.19469)n3:0.24698)n2:0.26131)n1:0.732365)n0;

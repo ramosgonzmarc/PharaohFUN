@@ -1,0 +1,1 @@
+(panicum_hallii_Pahal.6G214600:0.19414,(oryza_sativa_Os05g03380:0.00056,(oryza_sativa_Os04g35830:0.17504,(oryza_sativa_Os12g04710:0.42194,oryza_sativa_Os12g27340:0.15752)n3:1.31895)n2:0.32581)n1:0.19414)n0;

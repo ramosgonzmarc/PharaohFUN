@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.H00241:0.2438,(coffea_arabica_Coara.060919:0.42005,(solanum_lycopersicum_Solyc02g086380:0.03181,solanum_tuberosum_Soltu.02G026260:0.03044)n2:0.3955)n1:0.2438)n0;

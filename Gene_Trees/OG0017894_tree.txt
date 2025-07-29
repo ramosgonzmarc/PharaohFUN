@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF40552:0.01324,gracilariopsis_chorda_PXF40359:0.01731)n1:0.47257,(chlorokybus_atmophyticus_Chrsp64S07093:1.00877,(chlorokybus_atmophyticus_Chrsp64S07095:0.33228,chlorokybus_atmophyticus_Chrsp64S07091:0.33864)n3:0.10944)n2:0.47257)n0;

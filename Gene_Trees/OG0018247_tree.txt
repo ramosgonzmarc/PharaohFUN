@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG004699:0.524895,(corymbia_citriodora_Cocit.C2516:0.04073,((eucalyptus_grandis_Eucgr.H01090:0.07435,(eucalyptus_grandis_Eucgr.H01092:0.06359,(eucalyptus_grandis_Eucgr.H01093:0,eucalyptus_grandis_Eucgr.H01091:0)n5:0.06882)n4:0.15116)n3:0.06409,eucalyptus_grandis_Eucgr.H01089:0.101916)n2:0.011324)n1:0.05328)n0;

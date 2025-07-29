@@ -1,0 +1,1 @@
+(oryza_sativa_Os04g13050:0.27315,(medicago_truncatula_Medtr6g086695:0.21551,(arachis_hypogaea_arahy_ZR77QB:0.47356,trifolium_pratense_Trpra.19265:0.25369)n2:0.08979)n1:0.27315)n0;

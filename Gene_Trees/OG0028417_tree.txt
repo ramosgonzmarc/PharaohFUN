@@ -1,0 +1,1 @@
+((gnetum_montanum_TnS000047685t01:0.43711,(welwitschia_mirabilis_Wmi_03069:0.00471,(welwitschia_mirabilis_Wmi_03068:0.08158,welwitschia_mirabilis_Wmi_03070:0.02016)n3:0.0163)n2:0.28416)n1:0.42489,(thlaspi_arvense_TaMN106.6G089500:0.42225,(brassica_oleracea_Bol039363:0.60568,brassica_oleracea_Bol033196:0.431208)n5:0.047912)n4:0.10342)n0;

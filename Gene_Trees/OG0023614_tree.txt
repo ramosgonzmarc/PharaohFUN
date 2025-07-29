@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.K00900:0.752315,(lupinus_albus_Lalb_Chr06g0171551:0.76072,(aquilegia_coerulea_Aqcoe2G227200:0.25839,(malus_domestica_MD13G1138400:0.52269,malus_domestica_MD11G1102200:0.37533)n3:0.44713)n2:0.05027)n1:0.752315)n0;

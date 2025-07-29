@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl01787_0010:0.534975,(riccia_sorocarpa_Risor.KAL3679383:0.88137,(physcomitrium_patens_Pp6c16_1540V6:0.06684,funaria_hygrometrica_Fuhyg.11884:0.07057)n2:0.56804)n1:0.534975)n0;

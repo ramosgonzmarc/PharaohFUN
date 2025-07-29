@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_006969:0.38081,(scenedesmus_obliquus_Sobl_g18531:0.73742,(tetrabaena_socialis_Tesoc.PNH00681:0.01845,tetrabaena_socialis_Tesoc.PNH00677:0.01769)n2:0.63656)n1:0.38081)n0;

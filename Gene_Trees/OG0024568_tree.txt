@@ -1,0 +1,1 @@
+(micromonas_pusilla_Mpus_65705:0.28836,(chloropicon_primus_Chlpr_g7004:0.81581,(dunaliella_salina_Dusal.0025s00041:0.5398,gonium_pectorale_Gopec.01733:1.30349)n2:0.15781)n1:0.28836)n0;

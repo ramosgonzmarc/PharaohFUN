@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_009769:0.66347,(scenedesmus_obliquus_Sobl_g05132:0.65379,(picochlorum_soloecismus_NSC_02236:0.51247,picochlorum_soloecismus_NSC_01501:0.534906)n2:0.059434)n1:0.10439)n0;

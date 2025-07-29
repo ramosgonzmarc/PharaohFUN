@@ -1,0 +1,1 @@
+((setaria_italica_Seita.9G031500:0.00054,((eleusine_coracana_Elcor.3BG0255410:0.01399,eleusine_coracana_Elcor.3AG0210260:0.04942)n3:0.12049,eleusine_coracana_Elcor.1AG0039550:0.395379)n2:0.043931)n1:0.044615,zea_mays_Zm00001d012956:0.13165)n0;

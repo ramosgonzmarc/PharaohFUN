@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_21433:0.597445,(brachypodium_distachyon_Bradi3g28030:0.40164,(panicum_hallii_Pahal.9G616600:0.12902,setaria_italica_Seita.9G542700:0.03186)n2:0.38835)n1:0.597445)n0;

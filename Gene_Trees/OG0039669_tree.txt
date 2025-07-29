@@ -1,0 +1,1 @@
+(olea_europaea_Oeu030261:0.10217,(fragaria_vesca_FvH4_7g28851:0.50213,(vitis_vinifera_VIT_208s0007g03680:0.31017,theobroma_cacao_Thecc1EG022527:0.1951)n2:0.74711)n1:0.10217)n0;

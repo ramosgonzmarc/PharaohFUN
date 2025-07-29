@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin02G199900:0.35762,(sorghum_bicolor_Sobic.003G001550:0.26027,(sorghum_bicolor_Sobic.004G125200:0.13804,(sorghum_bicolor_Sobic.008G041500:0.25465,sorghum_bicolor_Sobic.008G120000:0.08065)n3:0.13529)n2:0.10035)n1:0.35762)n0;

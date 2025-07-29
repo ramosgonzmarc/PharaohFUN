@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_27013:0.31806,(cucumis_sativus_Cucsa.c316900g01:0.81758,(lens_culinaris_Lecul.7g070040:0.67012,lens_culinaris_Lecul.3g067300:0.22488)n2:0.15811)n1:0.31806)n0;

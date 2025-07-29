@@ -1,0 +1,1 @@
+((glycine_max_Glyma.02G172400:0.82944,glycine_max_Glyma.10G234900:0.42391)n1:0.31522,(linum_usitatissimum_Lus10005297:1.11654,linum_usitatissimum_Lus10009101:0.449)n2:0.31522)n0;

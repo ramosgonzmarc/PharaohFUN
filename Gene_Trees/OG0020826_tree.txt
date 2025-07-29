@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNH02397:0.298335,(cymbomonas_tetramitiformis_KAK3288808:0.21456,(cymbomonas_tetramitiformis_KAK3256984:1.05087,(cymbomonas_tetramitiformis_KAK3288968:0.23793,cymbomonas_tetramitiformis_KAK3265097:1.05264)n3:0.09721)n2:0.04932)n1:0.298335)n0;

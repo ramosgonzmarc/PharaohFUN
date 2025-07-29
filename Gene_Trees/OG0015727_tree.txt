@@ -1,0 +1,1 @@
+(riccia_fluitans_R1flu_009098:0.45045,((ginkgo_biloba_Gb_29347:0.50069,taxus_chinensis_KI387_043234:0.15444)n2:0.69162,(isoetes_sinensis_IsiChr10g4095:0.87748,(amborella_trichopoda_AmTr00049g67:0.5077,malus_domestica_MD10G1144700:0.57257)n4:0.24509)n3:0.25501)n1:0.45045)n0;

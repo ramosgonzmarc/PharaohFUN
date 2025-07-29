@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.24G038700:0.429425,(trifolium_pratense_Trpra.10503:0.37459,(lotus_japonicus_LjContig00049g0025757:0.0424,lotus_japonicus_LjContig00049g0020749:0.17683)n2:0.2251)n1:0.429425)n0;

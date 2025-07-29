@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_6g00942:1.21108,theobroma_cacao_Thecc1EG002515:0.82793)n1:0.24704,(vitis_vinifera_VIT_218s0086g00540:0.21365,(vitis_vinifera_VIT_218s0086g00680:0.01736,(vitis_vinifera_VIT_218s0086g00520:0.01851,vitis_vinifera_VIT_218s0086g00320:0.01221)n4:0.00728)n3:0.169)n2:0.24704)n0;

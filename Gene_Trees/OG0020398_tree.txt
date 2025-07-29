@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp238S03634:0.56167,mesotaenium_endlicherianum_ME000022S03566:0.60013)n1:0.609565,(cymbomonas_tetramitiformis_KAK3244910:0.00055,cymbomonas_tetramitiformis_KAK3244911:0.00055)n2:0.609565)n0;

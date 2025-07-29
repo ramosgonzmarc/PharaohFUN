@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000774S09594:0.53122,(mesotaenium_endlicherianum_ME000774S09582:0.04283,(mesotaenium_endlicherianum_ME000213S03093:0.42541,mesotaenium_endlicherianum_ME000279S04737:0.17206)n2:0.12804)n1:0.53122)n0;

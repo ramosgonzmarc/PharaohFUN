@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc00g500294:0.33457,(marchantia_paleacea_Mapa_018879:0,marchantia_paleacea_Mapa_018714:0,marchantia_paleacea_Mapa_018634:0,marchantia_paleacea_Mapa_018250:0,marchantia_paleacea_Mapa_018151:0)n1:0.33457)n0;

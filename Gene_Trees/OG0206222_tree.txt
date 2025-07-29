@@ -1,0 +1,1 @@
+(brassica_rapa_Brara.I05053:0.089755,((gossypium_hirsutum_Gohir.D12G179260:0.04606,gossypium_raimondii_Gorai.008G192200:0.00055)n2:0.41735,(gossypium_hirsutum_Gohir.D13G173125:0.00054,(gossypium_raimondii_Gorai.009G384300:0.2863,gossypium_raimondii_Gorai.013G187400:0.000495)n4:5.5e-05)n3:0.11901)n1:0.089755)n0;

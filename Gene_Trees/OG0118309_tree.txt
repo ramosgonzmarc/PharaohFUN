@@ -1,0 +1,1 @@
+((pleurozium_schreberi_Plsch.06815:0,pleurozium_schreberi_Plsch.06819:0)n1:0.184115,(ginkgo_biloba_Gb_11491:0.21175,(sequoia_sempervirens_SESE_033763:0.07065,sequoiadendron_giganteum_SEGI_12870:0.08355)n3:0.29365)n2:0.184115)n0;

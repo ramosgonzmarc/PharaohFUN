@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.046653:0.46303,(theobroma_cacao_Thecc1EG004461:0.31179,(gossypium_raimondii_Gorai.004G083700:0.00054,((gossypium_hirsutum_Gohir.D11G124700:0.05572,gossypium_hirsutum_Gohir.A11G119900:0.00896)n4:0.57359,(gossypium_hirsutum_Gohir.A08G070100:0.0118,gossypium_hirsutum_Gohir.D08G078850:0.000495)n5:4.95e-05)n3:5.5e-06)n2:0.0091)n1:0.12471)n0;

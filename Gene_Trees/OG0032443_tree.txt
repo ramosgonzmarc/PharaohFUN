@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA31G0347:0.00241,huperzia_asiatica_HaB31G0356:0.15399)n1:0.658935,(ceratopteris_richardii_Ceric.27G017300:0.03301,ceratopteris_richardii_Ceric.29G016500:0.13012)n2:0.658935)n0;

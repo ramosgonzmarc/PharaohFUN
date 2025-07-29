@@ -1,0 +1,1 @@
+((carya_illinoinensis_Caril.01G104200:0.36788,carya_illinoinensis_Caril.01G104100:0.04225)n1:0.3696,((populus_trichocarpa_Potri.005G089900:0.01965,salix_purpurea_Sapur.005G071200:0.04489)n3:0.24578,(manihot_esculenta_Manes.01G167500:0.07075,manihot_esculenta_Manes.02G126400:0.10918)n4:0.25321)n2:0.3696)n0;

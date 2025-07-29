@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_100190:0.31871,solanum_tuberosum_Soltu.03G002850:0.45097)n1:0.048865,((arachis_hypogaea_arahy_E8WJC9:0.27707,trifolium_pratense_Trpra.35582:0.0721)n3:0.15249,(corymbia_citriodora_Cocit.D0338:0.31076,vitis_vinifera_VIT_200s0332g00070:0.03923)n4:0.02335)n2:0.048865)n0;

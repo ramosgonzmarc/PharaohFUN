@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF47683:0.356645,(gonium_pectorale_Gopec.02323:1.15717,(klebsormidium_nitens_kfl00121_0090:0.56994,zygnema_cylindricum_Zci1a_14407:0.65094)n2:0.28669)n1:0.356645)n0;

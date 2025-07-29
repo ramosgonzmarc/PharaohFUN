@@ -1,0 +1,1 @@
+(ostreococcus_mediterraneus_Ostme20g00500:0.287465,(scenedesmus_obliquus_Sobl_g18507:0.62109,(tetrabaena_socialis_Tesoc.PNH08876:0.12827,(gonium_pectorale_Gopec.07675:0.16922,(volvox_carteri_Vocar.0007s0370:0.16538,(chlamydomonas_reinhardtii_Cre01.g024100_4532:0.02641,chlamydomonas_incerta_Chincg06458:0.02637)n5:0.25277)n4:0.07947)n3:0.1312)n2:1.04105)n1:0.287465)n0;

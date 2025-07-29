@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT2G07795:0,capsella_grandiflora_Cagra.6994s0001:0)n1:0.00027,(brassica_rapa_Brara.K01157:0.00055,thlaspi_arvense_TaMN106.3G074900:0.12247)n2:0.00027)n0;

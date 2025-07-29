@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.384046:0.49637,(gonium_pectorale_Gopec.06349:0.3235,(chlamydomonas_reinhardtii_Cre17.g802121_4532:0.0543,chlamydomonas_incerta_Chincg09225:0.10571)n2:0.20374)n1:0.49637)n0;

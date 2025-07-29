@@ -1,0 +1,1 @@
+((mimulus_guttatus_Migut.N00238:0.18359,mimulus_guttatus_Migut.N00237:0.32733)n1:0.620325,((arabidopsis_lyrata_Arlyr.AL6G15540:0.01421,arabidopsis_lyrata_Arlyr.AL6G15990:0.07632)n3:0.12352,(arabidopsis_thaliana_AT5G05640:0.15531,capsella_grandiflora_Cagra.1504s0066:0.11686)n4:0.05873)n2:0.620325)n0;

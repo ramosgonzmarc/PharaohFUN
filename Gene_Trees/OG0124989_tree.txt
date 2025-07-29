@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.044765:0.25955,((trifolium_pratense_Trpra.11716:0.08253,trifolium_pratense_Trpra.11721:0.15443)n2:0.20748,(glycine_max_Glyma.07G209800:0.4386,quercus_rubra_Qurub.04G224000:1.42152)n3:0.19181)n1:0.25955)n0;

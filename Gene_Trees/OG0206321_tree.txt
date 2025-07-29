@@ -1,0 +1,1 @@
+(arabidopsis_lyrata_Arlyr.AL6G17140:0.052855,((sisymbrium_irio_Siiris770g01290:0,sisymbrium_irio_Siiris1641g00030:0)n2:0.05399,(brassica_oleracea_Bol017950:0.51238,brassica_oleracea_Bol043843:0.113697)n3:0.012633)n1:0.09367)n0;

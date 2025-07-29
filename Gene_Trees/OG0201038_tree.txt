@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g4067:0.422735,(manihot_esculenta_Manes.05G045000:0.58457,((corymbia_citriodora_Cocit.E1081:0.06563,corymbia_citriodora_Cocit.E1080:0.13008)n3:0.38563,(vitis_vinifera_VIT_215s0048g00880:0.43691,salix_purpurea_Sapur.014G051300:0.74221)n4:0.11961)n2:0.12793)n1:0.422735)n0;

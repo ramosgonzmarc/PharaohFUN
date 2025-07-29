@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_019052:0.355735,(mesotaenium_endlicherianum_ME000391S06775:0.93386,(mesostigma_viride1140_Mesvi303S05038:0.03259,mesostigma_viride296_Mevir.Mv07969:0.06708)n2:0.87796)n1:0.355735)n0;

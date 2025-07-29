@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.10G067400:0.062745,(ginkgo_biloba_Gb_09877:0.34982,((ginkgo_biloba_Gb_24761:0.34212,sequoiadendron_giganteum_SEGI_11179:0.27429)n3:0.24991,((sequoiadendron_giganteum_SEGI_13578:0.14082,sequoiadendron_giganteum_SEGI_25050:0.03861)n5:0.38029,(ginkgo_biloba_Gb_17108:0.19853,ginkgo_biloba_Gb_03271:0.18871)n6:0.881838)n4:0.097982)n2:0.01779)n1:0.062745)n0;

@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B852903:0.00604,(ginkgo_biloba_Gb_13892:0.48885,picea_abies_Pab_43014g0010:0.07148)n2:0.20075)n1:1.02432,(ceratopteris_richardii_Ceric.27G071000:0.03827,(ceratopteris_richardii_Ceric.24G045800:0.03667,(ceratopteris_richardii_Ceric.24G045900:0.00053,ceratopteris_richardii_Ceric.24G045700:0.02193)n5:0.00053)n4:0.02979)n3:1.02432)n0;

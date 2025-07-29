@@ -1,0 +1,1 @@
+(olea_europaea_Oeu001473:0.265205,(salix_purpurea_Sapur.003G157000:0.17103,(populus_trichocarpa_Potri.001G020140:0.03299,populus_trichocarpa_Potri.001G020080:0.04119)n2:0.07699)n1:0.265205)n0;

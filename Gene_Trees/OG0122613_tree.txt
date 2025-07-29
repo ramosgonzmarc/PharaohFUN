@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaB56G0149:0.22995,((sequoia_sempervirens_SESE_133054:0.00055,sequoia_sempervirens_SESE_125768:0.00055)n2:0.38622,(ginkgo_biloba_Gb_41537:0.09252,(mimulus_guttatus_Migut.N01677:0.0202,mimulus_guttatus_Migut.O00821:0.03107)n4:1.23507)n3:0.12666)n1:0.22995)n0;

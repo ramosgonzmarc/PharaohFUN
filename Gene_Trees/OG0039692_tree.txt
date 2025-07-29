@@ -1,0 +1,1 @@
+(zea_mays_Zm00001d003473:0.30456,((chenopodium_quinoa_AUR62038515:0.10856,(olea_europaea_Oeu051636:1.35536,(trifolium_pratense_Trpra.03457:0.24386,trifolium_pratense_Trpra.23542:0.33891)n4:0.28182)n3:0.10359)n2:0.15666,(olea_europaea_Oeu012920:0.2575,trifolium_pratense_Trpra.23540:0.252333)n5:0.028037)n1:0.30456)n0;

@@ -1,0 +1,1 @@
+(volvox_carteri_Vocar.0023s0005:0.383415,(cymbomonas_tetramitiformis_KAK3269636:0.98444,(cymbomonas_tetramitiformis_KAK3271901:0.42228,(cymbomonas_tetramitiformis_KAK3248597:0.00956,cymbomonas_tetramitiformis_KAK3289969:0.00524)n3:0.40389)n2:0.47832)n1:0.383415)n0;

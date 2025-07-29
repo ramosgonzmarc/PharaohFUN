@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_021019:0.3855,ginkgo_biloba_Gb_10138:0.38292)n1:0.213425,(welwitschia_mirabilis_Wmi_06046:0.96252,(abies_alba_AALBA5B097795:0.45909,(thuja_plicata_Thupl.29377229s0001:0.16217,(sequoia_sempervirens_SESE_045124:0.0465,sequoiadendron_giganteum_SEGI_21974:0.00975)n5:0.09116)n4:0.59566)n3:0.17978)n2:0.213425)n0;

@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc07576:1.17429,(isoetes_sinensis_IsiChr9g4121:0.65977,(ginkgo_biloba_Gb_05356:0.13335,sequoiadendron_giganteum_SEGI_05128:0.36198)n3:0.05017)n2:0.07339)n1:0.086375,(anthoceros_agrestis_AnagrOXF.S3G276400:0.40594,phaeoceros_sp_Phsp.C11G091000:0.63331)n4:0.086375)n0;

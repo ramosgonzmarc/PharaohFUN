@@ -1,0 +1,1 @@
+(micromonas_commoda_Micom.050621:0.538165,((coffea_arabica_Coara.009719:0.86589,picea_abies_Pab_28894g0010:0.72479)n2:0.20116,(vitis_vinifera_VIT_208s0058g00520:0.26715,(corylus_avellana_Corav.g12005:0.57549,oropetium_thomaeum_Oropetium_20150105_07192A:0.74458)n4:0.17985)n3:0.25714)n1:0.538165)n0;

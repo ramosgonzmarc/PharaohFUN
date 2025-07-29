@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S1G500500:0.32148,(phymatoceros_phymatodes_Phphy.S2G659400:0.33082,(paraphymatoceros_pearsonii_Papea.S2G672900:0.03982,(phaeoceros_carolinianus_Phcar.S4G032500:0.03016,(phaeoceros_sp_Phsp.C10G039800:0.06812,phaeoceros_sp_Phsp.C5G245100:0.003222)n4:0.000358)n3:0.05454)n2:0.03689)n1:0.32148)n0;

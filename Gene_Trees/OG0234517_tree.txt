@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.385282:0.261545,(desmodesmus_armatus_Desar.392833:0.78903,(desmodesmus_armatus_Desar.549407:0.29203,((desmodesmus_armatus_Desar.387212:1.07092,desmodesmus_armatus_Desar.378273:0.05478)n4:0.03648,desmodesmus_armatus_Desar.376639:0.00055)n3:0.01037)n2:0.44162)n1:0.261545)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl01405_0010:0.14158,(sequoiadendron_giganteum_SEGI_18277:0.46165,(mesotaenium_kramstae_Mekra.2152152:0.01733,vaccinium_darrowii_Vadar_g35429:0.38533)n2:0.05715)n1:0.14158)n0;

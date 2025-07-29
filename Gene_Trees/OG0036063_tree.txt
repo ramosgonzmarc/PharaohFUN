@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_026318:0.494895,(dunaliella_salina_Dusal.0205s00015:0.68049,(haematococcus_lacustris_QJQ45_013837:0.00054,(haematococcus_lacustris_QJQ45_007988:0.00054,haematococcus_lacustris_QJQ45_007836:0.1804)n3:0.00667)n2:0.46989)n1:0.494895)n0;

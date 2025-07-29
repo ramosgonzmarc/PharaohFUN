@@ -1,0 +1,1 @@
+((miscanthus_sinensis_Misin09G085200:0.51728,miscanthus_sinensis_Misin03G175000:0.67749)n1:0.19603,(brachypodium_distachyon_Bradi2g37798:0.45543,(aegilops_tauschii_Atau_XP_045086472:0.05642,(aegilops_tauschii_Atau_XP_045086202:0.01101,(aegilops_tauschii_Atau_XP_040247723:0.00055,aegilops_tauschii_Atau_XP_045085558:0.00055)n5:0.00055)n4:0.06849)n3:0.32067)n2:0.19603)n0;

@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00001g126:0.0976,amborella_trichopoda_AmTr00024g53:0.10059)n1:0.085705,(arabidopsis_lyrata_Arlyr.AL8G21750:0.50924,(kalanchoe_fedtschenkoi_Kaladp0039s0126:0.5547,malus_domestica_MD11G1001400:0.09821)n3:0.03345)n2:0.085705)n0;

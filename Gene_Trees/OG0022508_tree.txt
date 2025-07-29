@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B108879:1.37986,(spirogloea_muscicola_SM000979S25172:0.08132,spirogloea_muscicola_SM001035S09141:0.003339)n2:0.000371)n1:0.039875,(lens_culinaris_Lecul.6g017140:0.35412,picea_abies_Pab_503916g0010:0.0645)n3:0.71364)n0;

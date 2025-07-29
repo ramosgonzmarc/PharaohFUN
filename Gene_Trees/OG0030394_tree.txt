@@ -1,0 +1,1 @@
+(paraphymatoceros_pearsonii_Papea.S2G300200:0.319555,(chenopodium_quinoa_AUR62034871:1.10616,((corylus_avellana_Corav.g17408:0.25004,(theobroma_cacao_Thecc1EG023371:0.31219,fragaria_vesca_FvH4_3g31385:0.39243)n4:0.14581)n3:0.37728,(alsophila_spinulosa_Aspi01Gene44138:0.04902,alsophila_spinulosa_Aspi01Gene24148:0.60741)n5:0.06749)n2:0.1225)n1:0.319555)n0;

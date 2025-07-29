@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA41G0361:0.248245,((picea_abies_Pab_38593g0010:0.04944,((zostera_marina_Zosma06g22470:0.38684,(abies_alba_AALBA5B304534:0.18773,abies_alba_AALBA5B516518:0.12472)n5:2.21144)n4:0.3579,abies_alba_AALBA5B1157425:0.0612)n3:0.0068)n2:0.242,alsophila_spinulosa_Aspi01Gene70536:0.34497)n1:0.248245)n0;

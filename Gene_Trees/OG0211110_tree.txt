@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr5g069465:0.800215,(salix_purpurea_Sapur.008G025900:0.20444,(populus_trichocarpa_Potri.017G072950:0.00054,(populus_trichocarpa_Potri.010G225900:0.07099,populus_trichocarpa_Potri.008G036350:0.065313)n3:0.0065313)n2:0.0007257)n1:1.07754)n0;

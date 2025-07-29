@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub_58417:0.40916,(ostreobium_quekettii_CAD7704167:0.52346,(chlamydomonas_reinhardtii_Cre01.g800042_4532:0.65653,tetrabaena_socialis_Tesoc.PNH09144:0.08528)n2:0.37668)n1:0.40916)n0;

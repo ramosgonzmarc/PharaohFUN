@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.2152220:0.342215,(selaginella_moellendorffii_Smoe_117111:0.91733,(selaginella_moellendorffii_Smoe_44307:0.0563,selaginella_moellendorffii_Smoe_84506:0.0522)n2:0.58764)n1:0.342215)n0;

@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s0098.g019482:0.31228,((ananas_comosus_Aco012043:0.46018,ananas_comosus_Aco010961:0.56565)n2:0.3988,(olea_europaea_Oeu050650:1.10048,(cinnamomum_kanehirae_CKAN_01033200:0.26058,cinnamomum_kanehirae_CKAN_02479300:0.430317)n4:0.047813)n3:0.22771)n1:0.31228)n0;

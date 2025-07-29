@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene17614:0.25128,(lens_culinaris_Lecul.5g070220:0.80463,(daucus_carota_DCAR_205759:0.69679,(corylus_avellana_Corav.g22674:0.89617,(spirodela_polyrhiza_Spipo12G0056900:0.95964,(trifolium_pratense_Trpra.22917:0.80844,malus_domestica_MD11G1145100:0.3255)n5:0.00508)n4:0.07504)n3:0.08854)n2:0.46739)n1:0.25128)n0;

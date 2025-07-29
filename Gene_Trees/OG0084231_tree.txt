@@ -1,0 +1,1 @@
+((monoraphidium_minutum_Momin.456307:0.63466,(desmodesmus_armatus_Desar.381558:0.3359,scenedesmus_obliquus_Sobl_g05945:0.43821)n2:0.55018)n1:0.263285,((tetrabaena_socialis_Tesoc.PNH12296:0.27613,volvox_carteri_Vocar.0035s0120:0.17242)n4:0.31253,(chlamydomonas_reinhardtii_Cre03.g192100_4532:0.11082,chlamydomonas_incerta_Chincg05101:0.1152)n5:0.10452)n3:0.263285)n0;

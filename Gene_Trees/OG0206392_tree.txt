@@ -1,0 +1,1 @@
+((carica_papaya_Capac.c00019g025:0.574,gossypium_hirsutum_Gohir.D11G309150:0.65552)n1:0.26619,(corymbia_citriodora_Cocit.L1280:0.44788,(corymbia_citriodora_Cocit.L1298:0.00055,corymbia_citriodora_Cocit.B1380:0.00055)n3:0.70361)n2:0.26619)n0;

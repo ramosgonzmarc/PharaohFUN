@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr12g3215:0.69197,((diphasiastrum_complanatum_Dicom.13G025300:0.21354,lycopodium_clavatum_Lcl_0020094:0.26194)n2:0.517,(lycopodium_clavatum_Lcl_0019557:0.14336,(diphasiastrum_complanatum_Dicom.15G004500:0.05201,diphasiastrum_complanatum_Dicom.15G004900:0.00245)n4:0.27754)n3:0.11718)n1:0.69197)n0;

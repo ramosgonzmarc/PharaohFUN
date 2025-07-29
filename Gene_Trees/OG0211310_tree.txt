@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_2g18610:0.42519,(corylus_avellana_Corav.g23952:0.93726,(corylus_avellana_Corav.g23953:0.17478,corylus_avellana_Corav.g23954:0.07298)n2:0.63876)n1:0.42519)n0;

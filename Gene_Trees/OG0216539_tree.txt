@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.04G057200:0.09971,(saponaria_officinalis_Sapof.06G091000:0.45557,(saponaria_officinalis_Sapof.02G215300:0.12365,saponaria_officinalis_Sapof.09G062500:1.29788)n2:0.11136)n1:0.09971)n0;

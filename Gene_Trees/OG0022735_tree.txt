@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc00100:0.357665,(abies_alba_AALBA5B538553:0.0216,(taxus_chinensis_KI387_042950:0,taxus_chinensis_KI387_041250:0)n2:0.62118)n1:0.357665)n0;

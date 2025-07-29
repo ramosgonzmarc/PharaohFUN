@@ -1,0 +1,1 @@
+(oryza_sativa_Os01g57030:0.034005,(oropetium_thomaeum_Oropetium_20150105_12703A:0.13777,(miscanthus_sinensis_Misin05G291400:0.05397,miscanthus_sinensis_Misin06G282900:0.00054)n2:0.1569)n1:0.034005)n0;

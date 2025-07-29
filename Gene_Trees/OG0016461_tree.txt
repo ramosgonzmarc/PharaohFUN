@@ -1,0 +1,1 @@
+((ostreococcus_mediterraneus_Ostme20g00430:0.76999,(tetraselmis_striata_TSEL_034648:0.47109,tetraselmis_striata_TSEL_041009:0.59646)n2:0.25554)n1:0.212875,(klebsormidium_nitens_kfl00778_0070:0.73635,(klebsormidium_nitens_kfl00935_0110:0.19268,(klebsormidium_nitens_kfl00935_0120:0.44861,klebsormidium_nitens_kfl00219_0215:0.08031)n5:0.07583)n4:0.41397)n3:0.212875)n0;

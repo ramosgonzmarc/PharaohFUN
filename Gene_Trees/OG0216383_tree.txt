@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_4_186440:0.605505,(amaranthus_hypochondriacus_AH017569:0.82344,(chenopodium_quinoa_AUR62008432:0.0146,chenopodium_quinoa_AUR62021661:0.05849)n2:0.22334)n1:0.605505)n0;

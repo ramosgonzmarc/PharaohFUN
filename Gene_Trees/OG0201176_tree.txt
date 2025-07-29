@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_5_124321:0.119605,(carica_papaya_Capac.c00087g092:0.12995,(corymbia_citriodora_Cocit.A1429:0.1845,(vitis_vinifera_VIT_212s0059g00780:0.1775,corylus_avellana_Corav.g16705:0.09332)n3:0.0507)n2:0.04985)n1:0.119605)n0;

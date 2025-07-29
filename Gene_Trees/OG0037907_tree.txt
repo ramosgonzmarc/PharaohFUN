@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S1G071300:0.828695,((trifolium_pratense_Trpra.32187:0.47444,(isoetes_sinensis_IsiChr6g4240:0.05797,isoetes_sinensis_IsiChr12g3411:0.03836)n3:0.28731)n2:0.29924,(oropetium_thomaeum_Oropetium_20150105_05614A:0.49561,oropetium_thomaeum_Oropetium_20150105_21718A:0.46703)n4:0.23245)n1:0.828695)n0;

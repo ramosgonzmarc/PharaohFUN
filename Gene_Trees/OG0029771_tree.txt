@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin11G245300:0.64822,(hordeum_vulgare_Hvul_6HG0610990:0.07592,((aegilops_tauschii_Atau_XP_020157935:0.00055,triticum_aestivum_TraesCS6D03G0642300:0.00055)n3:0.00055,(aegilops_tauschii_Atau_XP_045085943:0.04122,triticum_aestivum_TraesCS6B03G0902900:0.051561)n4:0.005729)n2:0.09792)n1:0.64822)n0;

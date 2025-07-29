@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0058s0080:0.21529,(micromonas_commoda_Micom.059575:0.74423,(chlamydomonas_reinhardtii_Cre09.g402150_4532:0.62644,gonium_pectorale_Gopec.09710:0.22447)n2:0.50689)n1:0.21529)n0;

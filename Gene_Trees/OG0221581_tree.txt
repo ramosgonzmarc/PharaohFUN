@@ -1,0 +1,1 @@
+(ananas_comosus_Aco021326:0.10207,(ananas_comosus_Aco026709:0.45635,(ananas_comosus_Aco008107:0.63513,ananas_comosus_Aco027687:0.81769)n2:0.74674)n1:0.10207)n0;

@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B073791:0.35431,azolla_filiculoides_Azfi_s0189.g056862:0.9681)n1:0.251945,((diphasiastrum_complanatum_Dicom.15G002000:0,diphasiastrum_complanatum_Dicom.15G001600:0)n3:0.15688,(huperzia_asiatica_HaA63G0031:0.19051,(huperzia_asiatica_HaA26G0348:0.05329,huperzia_asiatica_HaB04G0085:0.05566)n5:0.07701)n4:0.41047)n2:0.251945)n0;

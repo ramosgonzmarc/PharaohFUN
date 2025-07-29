@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz12g14010:0.53115,(gonium_pectorale_Gopec.01407:0.27165,(tetrabaena_socialis_Tesoc.PNH02248:0.31927,(chlamydomonas_reinhardtii_Cre16.g683819_4532:0.10698,chlamydomonas_incerta_Chincg15885:0.15752)n3:0.23614)n2:0.1081)n1:0.53115)n0;

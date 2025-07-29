@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S1G388300:0.58613,(sequoia_sempervirens_SESE_118476:0.22613,(alsophila_spinulosa_Aspi01Gene70007:0.19872,(vaccinium_darrowii_Vadar_g28396:0.19614,(saponaria_officinalis_Sapof.01G098200:0.44944,solanum_tuberosum_Soltu.05G005220:0.41997)n4:0.10435)n3:0.61855)n2:0.10734)n1:0.58613)n0;

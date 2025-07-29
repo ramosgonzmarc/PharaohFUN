@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S5G018500:0.42184,(cucumis_sativus_Cucsa.c024100g01:0.94518,(alsophila_spinulosa_Aspi01Gene03057:0.09048,alsophila_spinulosa_Aspi01Gene25295:0.0379)n2:0.23507)n1:0.42184)n0;

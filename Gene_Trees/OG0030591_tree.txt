@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene55652:0.20544,ceratopteris_richardii_Ceric.35G056500:0.70213)n1:0.08823,(sequoia_sempervirens_SESE_065129:0.78034,(medicago_truncatula_Medtr2g075320:0.66893,(trifolium_pratense_Trpra.29210:0.02849,trifolium_pratense_Trpra.39696:0.15378)n4:0.34238)n3:0.19119)n2:0.08823)n0;

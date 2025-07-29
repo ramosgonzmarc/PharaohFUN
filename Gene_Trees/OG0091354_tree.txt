@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9829987:0.670775,(carica_papaya_Capac.c00030g062:0.58801,(musa_acuminata_Muacu.Un_randomP19680_001:0.41101,(cinnamomum_kanehirae_CKAN_00045800:0.44998,beta_vulgaris_Bevul.9G097300:0.47985)n3:0.04711)n2:0.13979)n1:0.670775)n0;

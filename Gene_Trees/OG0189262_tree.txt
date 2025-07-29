@@ -1,0 +1,1 @@
+((vaccinium_darrowii_Vadar_g12276:0.05628,vaccinium_darrowii_Vadar_g12320:0.12208)n1:0.3543,(phaeoceros_sp_Phsp.C2G325700:0.41508,(takakia_lepidozioides_Tle4c04870:0.46629,(phaeoceros_carolinianus_Phcar.S1G686400:0.93306,(paraphymatoceros_pearsonii_Papea.S1G855000:0.51135,notothylas_orbicularis_Noorb.S2G537700:0.37316)n5:0.07867)n4:0.19146)n3:0.1544)n2:0.3543)n0;

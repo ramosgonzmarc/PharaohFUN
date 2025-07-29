@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr14g1062:0.07946,(gnetum_montanum_TnS000011123t03:0.48953,(thuja_plicata_Thupl.29380537s0008:0.96429,(welwitschia_mirabilis_Wmi_07780:0.44455,arachis_hypogaea_arahy_BL92W9:0.59362)n3:0.00051)n2:0.26127)n1:0.07946)n0;

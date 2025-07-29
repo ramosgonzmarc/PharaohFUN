@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr21g680:0.538695,(sphagnum_fallax_Sphfalx12G100300:0.07093,(sphagnum_magellanicum_Sphmag12G106100:0.46307,(sphagnum_magellanicum_Sphmag12G106600:0.01603,sphagnum_magellanicum_Sphmag12G107600:0.00054)n3:0.000486)n2:5.4e-05)n1:0.11282)n0;

@@ -1,0 +1,1 @@
+((chenopodium_quinoa_AUR62018718:0.49503,saponaria_officinalis_Sapof.13G014600:0.49251)n1:0.390675,((vaccinium_darrowii_Vadar_g25986:0.33616,(lactuca_sativa_Lsat_gn_3_17720:0.49176,lactuca_sativa_Lsat_gn_3_68380:0.494451)n4:0.054939)n3:0.96432,(daucus_carota_DCAR_206330:0.30615,daucus_carota_DCAR_209355:0.07001)n5:0.3891)n2:0.16537)n0;

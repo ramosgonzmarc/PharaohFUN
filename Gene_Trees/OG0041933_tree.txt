@@ -1,0 +1,1 @@
+((riccia_fluitans_R1flu_026551:0.48858,riccia_fluitans_R1flu_026556:0.07257)n1:0.450285,(riccia_sorocarpa_Risor.KAL3676051:0.06054,riccia_sorocarpa_Risor.KAL3692318:0.33223)n2:0.450285)n0;

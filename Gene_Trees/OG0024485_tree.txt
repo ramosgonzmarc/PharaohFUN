@@ -1,0 +1,1 @@
+((myrmecia_bisecta_Mybis.KAK9811459:0.5432,(coccomyxa_subellipsoidea_Cosub_57056:0.50287,coccomyxa_subellipsoidea_Cosub_64726:0.40093)n2:0.23174)n1:0.25367,(chlorella_sorokiniana_Chlso_g8045:0.56123,(picochlorum_soloecismus_NSC_05866:0.66217,(auxenochlorella_protothecoides_APUTEX2500002412:0.61096,helicosporidium_sp_Helsp_g3334:0.82922)n5:0.13231)n4:0.15916)n3:0.25367)n0;

@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_016941:0.17796,tetraselmis_striata_TSEL_038387:0.30465)n1:0.43267,(gracilariopsis_chorda_PXF42259:0.55534,(cyanidioschyzon_merolae_CmerSOOS_G594:0.70074,porphyra_umbilicalis_Pum0071s0024:0.43374)n3:0.2032)n2:0.43267)n0;

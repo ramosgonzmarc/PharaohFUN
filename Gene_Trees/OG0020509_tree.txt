@@ -1,0 +1,1 @@
+((ananas_comosus_Aco030848:0.19272,(cinnamomum_kanehirae_CKAN_01053000:0.00053,cinnamomum_kanehirae_CKAN_01053500:0.02707)n2:0.74977)n1:0.051115,((sorghum_bicolor_Sobic.002G243300:0.13059,zea_mays_Zm00001d040843:0.82211)n4:0.03411,(kalanchoe_fedtschenkoi_Kaladp1016s0013:0.39465,oryza_sativa_Os01g19860:0.40773)n5:0.14107)n3:0.051115)n0;

@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10022382m:0.516285,(arabidopsis_lyrata_Arlyr.AL3G38470:0.07844,(arabidopsis_thaliana_AT3G23650:0.12413,arabidopsis_thaliana_AT2G16620:0.064647)n2:0.007183)n1:0.10655)n0;

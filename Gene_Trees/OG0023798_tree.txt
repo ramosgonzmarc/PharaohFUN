@@ -1,0 +1,1 @@
+((chlorella_sorokiniana_Chlso_g3797:0.54462,auxenochlorella_protothecoides_APUTEX2500000541:0.59707)n1:0.29645,(apatococcus_lobatus_Aplob.KAK9835516:0.75006,((coccomyxa_subellipsoidea_Cosub_49216:0.26475,elliptochloris_bilobata_Elbil.KAK9840575:0.48142)n4:0.25621,(asterochloris_glomerata_Astgl_g8335:0.76499,trebouxia_sp_FRX49_12731:0.33804)n5:0.26933)n3:0.09321)n2:0.29645)n0;

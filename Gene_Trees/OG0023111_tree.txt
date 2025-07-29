@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.14220:0.467965,(alsophila_spinulosa_Aspi01Gene12421:0.29284,(eucalyptus_grandis_Eucgr.I01741:0.77049,(fragaria_vesca_FvH4_5g31951:0.57099,(amborella_trichopoda_AmTr00005g210:0.81619,kalanchoe_fedtschenkoi_Kaladp0024s0097:0.46752)n4:0.29333)n3:0.30067)n2:1.00346)n1:0.467965)n0;

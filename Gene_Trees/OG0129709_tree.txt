@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr20g1616:0.000275,(miscanthus_sinensis_Misin02G107900:0.41516,(azolla_filiculoides_Azfi_s0250.g060238:0.54137,vaccinium_darrowii_Vadar_g27578:0.87233)n2:0.6879)n1:0.000275)n0;

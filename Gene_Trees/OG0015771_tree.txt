@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.005G237401:0.740985,(aquilegia_coerulea_Aqcoe5G334000:0.07317,((aquilegia_coerulea_Aqcoe5G334100:0.52233,(aquilegia_coerulea_Aqcoe5G333000:1.27321,aquilegia_coerulea_Aqcoe5G334200:0.41041)n4:0.01626)n3:0.35283,(aquilegia_coerulea_Aqcoe5G333600:0.64092,aquilegia_coerulea_Aqcoe5G333800:0.25992)n5:0.06552)n2:0.06442)n1:0.740985)n0;

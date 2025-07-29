@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.D01G068400:0.00055,gossypium_raimondii_Gorai.002G090400:0.0106)n1:0.62362,(eutrema_salsugineum_Thhalv10011875m:0.08888,(arabidopsis_lyrata_Arlyr.AL1G58470:0.05954,capsella_grandiflora_Cagra.0952s0009:0.12047)n3:0.08138)n2:0.62362)n0;

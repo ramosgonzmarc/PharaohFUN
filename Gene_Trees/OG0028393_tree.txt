@@ -1,0 +1,1 @@
+(salix_purpurea_Sapur.019G095000:0.63004,(vitis_vinifera_VIT_215s0048g02336:0.28054,(vitis_vinifera_VIT_215s0048g02332:0.18508,vitis_vinifera_VIT_215s0048g02324:0.27273)n2:0.38544)n1:0.63004)n0;

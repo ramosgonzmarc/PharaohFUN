@@ -1,0 +1,1 @@
+((marsilea_vestita_Mvestita_S18g14561:0.80123,(selaginella_moellendorffii_Smoe_404427:0.17597,selaginella_moellendorffii_Smoe_405892:0.05718)n2:0.62541)n1:0.054205,(theobroma_cacao_Thecc1EG029647:1.18117,(asparagus_officinalis_AsparagusV1_05.1798:0.72678,(coffea_arabica_Coara.058121:0.46172,huperzia_asiatica_HaA64G0365:0.36698)n5:0.44496)n4:0.14013)n3:0.054205)n0;

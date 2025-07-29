@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_038575:0.262855,(galdieria_sulphuraria_GsulpAzora_G3677:0.18799,(cyanidioschyzon_merolae_CmerSOOS_G4385:0.24585,(gracilariopsis_chorda_PXF42103:0.19753,porphyra_umbilicalis_Pum0346s0005:0.3371)n3:0.06489)n2:0.10188)n1:0.262855)n0;

@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.1G562400:0.38006,(vigna_unguiculata_Vigun03g084750:0.46075,(trifolium_pratense_Trpra.19093:0.30711,(medicago_truncatula_Medtr1g075130:0.84715,medicago_truncatula_Medtr4g028990:0.141561)n3:0.015729)n2:0.20776)n1:0.38006)n0;

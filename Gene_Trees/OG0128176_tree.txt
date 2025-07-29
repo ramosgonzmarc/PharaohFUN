@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S1G596400:0.06199,(isoetes_sinensis_IsiChr1g1052:0.52176,(gossypium_hirsutum_Gohir.A07G127733:0.21491,(sequoia_sempervirens_SESE_120819:0.34472,(sequoia_sempervirens_SESE_091837:0.12772,sequoia_sempervirens_SESE_082365:0.27631)n4:0.2168)n3:0.12167)n2:0.21703)n1:0.06199)n0;

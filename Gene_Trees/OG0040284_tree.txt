@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_830610:0.96267,((oryza_sativa_Os12g32770:0.39962,oryza_sativa_Os11g35380:0.00051)n3:0.40945,(eleusine_coracana_Elcor.2BG0188430:0.33695,(zea_mays_Zm00001d020073:0.01862,zea_mays_Zm00001d034354:0.00054)n5:0.65765)n4:0.1613)n2:0.17076)n1:0.13037,(schrenkiella_parvula_Scpar3g10110:0.53955,setaria_italica_Seita.5G113400:1.08528)n6:0.13037)n0;

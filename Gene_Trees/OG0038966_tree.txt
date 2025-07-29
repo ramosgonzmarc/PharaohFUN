@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_30179:0.513005,(riccia_fluitans_R1flu_017341:0.23097,(marchantia_polymorpha_Mp1g03450:0.1056,marchantia_paleacea_Mapa_010027:0.08151)n2:0.44356)n1:0.513005)n0;

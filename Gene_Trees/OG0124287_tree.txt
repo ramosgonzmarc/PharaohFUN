@@ -1,0 +1,1 @@
+(picea_abies_Pab_116652g0010:0.765445,(glycine_max_Glyma.08G099400:0.33074,(phaseolus_acutifolius_Phacu.002G207300:0.16103,vigna_unguiculata_Vigun03g171200:0.1551)n2:0.4127)n1:0.765445)n0;

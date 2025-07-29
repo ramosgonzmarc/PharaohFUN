@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g07899:0.46816,(haematococcus_lacustris_QJQ45_005554:0.41556,(dunaliella_salina_Dusal.0154s00008:0.59609,(volvox_carteri_Vocar.0017s0100:0.23968,(chlamydomonas_reinhardtii_Cre02.g114800_4532:0.23604,gonium_pectorale_Gopec.02705:0.20193)n4:0.09008)n3:0.33492)n2:0.10585)n1:0.46816)n0;

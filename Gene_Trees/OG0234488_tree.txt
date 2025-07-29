@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_Rsub_08253:0.679275,(scenedesmus_obliquus_Sobl_g09235:0.42794,(((desmodesmus_armatus_Desar.474688:0.32943,desmodesmus_armatus_Desar.375267:0.93508)n4:0.23457,(desmodesmus_armatus_Desar.368579:0.63327,desmodesmus_armatus_Desar.385300:0.17531)n5:0.52167)n3:0.11872,desmodesmus_armatus_Desar.082044:0.364716)n2:0.040524)n1:0.71098)n0;

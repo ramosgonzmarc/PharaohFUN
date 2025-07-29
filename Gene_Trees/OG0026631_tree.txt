@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.A03G028001:0.96464,picea_abies_Pab_102456g0010:0.46599)n1:0.01896,(olea_europaea_Oeu053303:0.18533,(welwitschia_mirabilis_Wmi_13471:0.00054,welwitschia_mirabilis_Wmi_13472:0.00055)n3:0.85349)n2:0.01896)n0;

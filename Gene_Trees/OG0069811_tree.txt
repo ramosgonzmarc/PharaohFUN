@@ -1,0 +1,1 @@
+(sisymbrium_irio_Siiris1709g00100:0.364795,(boechera_stricta_Bostr.2983s0111:0.17773,(arabidopsis_thaliana_AT4G03298:0.13342,((arabidopsis_lyrata_Arlyr.AL1G20980:0.10246,arabidopsis_lyrata_Arlyr.AL1G20960:0.15058)n4:0.37365,arabidopsis_lyrata_Arlyr.AL6G49620:0.093834)n3:0.010426)n2:0.03813)n1:0.15689)n0;

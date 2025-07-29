@@ -1,0 +1,1 @@
+((sphagnum_fallax_Sphfalx02G040700:0.68915,(ceratodon_purpureus_CepurR40.11G094500:0.33989,(physcomitrium_patens_Pp6c7_5150V6:0.82687,physcomitrium_patens_Pp6c22_6170V6:0.01575)n3:0.00175)n2:0.31674)n1:0.61892,(riccia_fluitans_R1flu_007450:0.05287,(marchantia_polymorpha_Mp3g01970:0.49151,riccia_sorocarpa_Risor.KAL3683876:0.1876)n5:0.09313)n4:0.61892)n0;

@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc15734:0.22121,(salvinia_cucullata_Sacu_s0110.g020613:0.35859,(salvinia_cucullata_Sacu_s0021.g008327:0.20535,salvinia_cucullata_Sacu_s0110.g020612:0.20202)n2:0.13551)n1:0.22121)n0;

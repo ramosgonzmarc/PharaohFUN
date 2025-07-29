@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_038480:0.39693,(apatococcus_lobatus_Aplob.KAK9840202:0.30005,(trebouxia_sp_FRX49_08963:0.36873,(coccomyxa_subellipsoidea_Cosub_28854:0.59055,coccomyxa_subellipsoidea_Cosub_21900:0.32221)n3:0.14647)n2:0.10047)n1:0.39693)n0;

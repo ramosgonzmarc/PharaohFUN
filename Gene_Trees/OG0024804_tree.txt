@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_000316:0.68961,cycas_panzhihuaensis_CYCAS_030945:0.0852)n1:0.52578,(olea_europaea_Oeu035356:0.57353,oropetium_thomaeum_Oropetium_20150105_27400A:0.66774)n2:0.52578)n0;

@@ -1,0 +1,1 @@
+(ananas_comosus_Aco019127:0.048985,(solanum_tuberosum_Soltu.12G021210:0.82723,(aquilegia_coerulea_Aqcoe2G199900:0.06411,aquilegia_coerulea_Aqcoe6G261300:0.00055)n2:0.51533)n1:0.048985)n0;

@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S3G224200:0.922115,(megaceros_flagellaris_Mefla.S2G474400:0.2328,(paraphymatoceros_pearsonii_Papea.S1G904900:0.20499,(phaeoceros_carolinianus_Phcar.S1G063300:0.00055,phaeoceros_sp_Phsp.C9G038100:0.08532)n3:0.33132)n2:0.49564)n1:0.922115)n0;

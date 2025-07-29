@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr12g69:0.5369,((porphyra_umbilicalis_Pum0229s0010:0.00055,porphyra_umbilicalis_Pum0086s0028:0.04708)n2:0.11496,(porphyra_umbilicalis_Pum0390s0004:0.00053,porphyra_umbilicalis_Pum0408s0010:0.10068)n3:0.04558)n1:0.5369)n0;

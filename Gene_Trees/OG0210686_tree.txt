@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.S034216:0.000275,(manihot_esculenta_Manes.S030752:0.00752,((manihot_esculenta_Manes.S052216:0,manihot_esculenta_Manes.S031116:0,manihot_esculenta_Manes.S012753:0)n3:0.00054,(manihot_esculenta_Manes.S042216:0.03828,manihot_esculenta_Manes.S037916:0.00055)n4:0.34491)n2:0.00052)n1:0.000275)n0;

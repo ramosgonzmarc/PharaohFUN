@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00369_0080:0.350695,(cymbomonas_tetramitiformis_KAK3276206:0.5218,(micromonas_pusilla_Mpus_49136:0.62382,(micromonas_commoda_Micom.108778:1.32665,micromonas_commoda_Micom.109517:0.773172)n3:0.085908)n2:0.09065)n1:0.350695)n0;

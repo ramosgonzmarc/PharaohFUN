@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz09g19060:0.73272,corymbia_citriodora_Cocit.L4498:0.76584)n1:0.06202,(chlorokybus_atmophyticus_Chrsp68S07355:0.36654,(ostreobium_quekettii_CAD7695533:0.22324,((caulerpa_lentillifera_Caule_g533:0.14007,caulerpa_lentillifera_Caule_g2199:0.1048)n5:0.31369,bryopsis_sp_Bsp_GMH33225:0.34946)n4:0.08759)n3:0.48232)n2:0.06202)n0;

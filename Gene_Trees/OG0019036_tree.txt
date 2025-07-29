@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c17_3860V6:0.312455,(abies_alba_AALBA5B558938:0.1007,(abies_alba_AALBA5B034759:0.16356,abies_alba_AALBA5B840224:0.00055)n2:0.0345)n1:0.312455)n0;

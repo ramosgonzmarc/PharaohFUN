@@ -1,0 +1,1 @@
+((sequoia_sempervirens_SESE_145255:0.73049,(selaginella_moellendorffii_Smoe_103955:0.00054,selaginella_moellendorffii_Smoe_99957:0.02882)n2:0.85725)n1:0.286785,(mesotaenium_endlicherianum_ME000123S00310:0.75852,(mesotaenium_kramstae_Mekra.2920129:0.51571,(zygnema_circumcarinatum_Zci_03319:0,zygnema_circumcarinatum1559_ZcUTEX1559_03802:0)n5:0.46978)n4:0.23961)n3:0.286785)n0;

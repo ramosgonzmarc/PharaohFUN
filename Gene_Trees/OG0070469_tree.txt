@@ -1,0 +1,1 @@
+((eutrema_salsugineum_Thhalv10004967m:0.12964,(sisymbrium_irio_Siiris27g01080:0.05052,(brassica_oleracea_Bol031169:0.06729,brassica_rapa_Brara.B03297:0.03148)n3:0.18985)n2:0.02345)n1:0.069465,(boechera_stricta_Bostr.0556s0423:0.03718,(arabidopsis_thaliana_AT3G27415:0.05927,capsella_grandiflora_Cagra.1264s0004:0.13379)n5:0.01103)n4:0.069465)n0;

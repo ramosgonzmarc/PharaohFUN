@@ -1,0 +1,1 @@
+((populus_trichocarpa_Potri.006G203800:0.05419,salix_purpurea_Sapur.006G166900:0.16992)n1:0.66811,(schrenkiella_parvula_Scpar4g18200:0.2259,(boechera_stricta_Bostr.23794s0500:0.05463,(capsella_grandiflora_Cagra.0993s0107:0.13864,(arabidopsis_thaliana_AT2G35950:0.05955,arabidopsis_lyrata_Arlyr.AL4G32060:0.05778)n5:0.04402)n4:0.02509)n3:0.13983)n2:0.66811)n0;

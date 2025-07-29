@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_018684:0.73774,(galdieria_sulphuraria_GsulpAzora_G5889:0.42524,(cyanidioschyzon_merolae_CmerSOOS_G2456:0.53498,gracilariopsis_chorda_PXF40583:0.38547)n2:0.39432)n1:0.73774)n0;

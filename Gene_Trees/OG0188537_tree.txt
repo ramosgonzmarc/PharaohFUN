@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S1G310200:0.65698,(sisymbrium_irio_Siiris715g00040:0.76879,sisymbrium_irio_Siiris96g00020:0.475983)n2:0.052887)n1:0.032375,takakia_lepidozioides_Tle2c02786:0.19242)n0;

@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene66570:0.201935,(malus_domestica_MD14G1207400:0.60384,(ananas_comosus_Aco029103:0.8027,linum_usitatissimum_Lus10029790:0.51079)n2:0.24353)n1:0.201935)n0;

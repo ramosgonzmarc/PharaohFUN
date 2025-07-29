@@ -1,0 +1,1 @@
+(glycine_max_Glyma.19G016900:0.36093,(medicago_truncatula_Medtr4g056050:0.37073,((medicago_truncatula_Medtr2g087540:0.44133,medicago_truncatula_Medtr8g031690:0.38583)n3:0.36215,(medicago_truncatula_Medtr3g078140:0.20395,(medicago_truncatula_Medtr1g100940:0.05996,medicago_truncatula_Medtr6g009280:0.16217)n5:0.15026)n4:0.25292)n2:0.49253)n1:0.36093)n0;

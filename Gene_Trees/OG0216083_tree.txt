@@ -1,0 +1,1 @@
+(amaranthus_hypochondriacus_AH022746:0.283435,((chenopodium_quinoa_AUR62026481:0.79391,(chenopodium_quinoa_AUR62001907:0.05305,chenopodium_quinoa_AUR62003903:0.15023)n3:0.01823)n2:0.29089,(chenopodium_quinoa_AUR62001906:0.44601,(chenopodium_quinoa_AUR62003907:0.26207,chenopodium_quinoa_AUR62003908:0.46201)n5:0.18467)n4:0.03049)n1:0.283435)n0;

@@ -1,0 +1,1 @@
+((saponaria_officinalis_Sapof.O325400:0,saponaria_officinalis_Sapof.O276100:0,saponaria_officinalis_Sapof.O318800:0,saponaria_officinalis_Sapof.O283000:0)n1:0.000275,(mimulus_guttatus_Migut.K00995:0.46718,(daucus_carota_DCAR_100115:0.09338,lactuca_sativa_Lsat_gn_1_118640:0.07408)n3:0.24264)n2:0.000275)n0;

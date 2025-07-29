@@ -1,0 +1,1 @@
+(kalanchoe_fedtschenkoi_Kaladp0081s0066:0.03851,(kalanchoe_fedtschenkoi_Kaladp0081s0064:0.03567,(kalanchoe_fedtschenkoi_Kaladp0081s0063:0.00053,((kalanchoe_fedtschenkoi_Kaladp0081s0068:0.01213,kalanchoe_fedtschenkoi_Kaladp0071s0017:0.89073)n4:0.11375,kalanchoe_fedtschenkoi_Kaladp0969s0001:0.00573)n3:0.00619)n2:0.01945)n1:0.03851)n0;

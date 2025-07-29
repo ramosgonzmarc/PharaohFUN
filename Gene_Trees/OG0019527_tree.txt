@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.8G005200:0.93913,riccia_sorocarpa_Risor.KAL3692580:1.21391)n1:0.21915,(alsophila_spinulosa_Aspi01Gene05389:0.5131,((alsophila_spinulosa_Aspi01Gene56944:0.04885,alsophila_spinulosa_Aspi01Gene50667:0.20185)n4:0.00055,alsophila_spinulosa_Aspi01Gene25248:0.14022)n3:0.18918)n2:0.21915)n0;

@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3684945:0.486845,((paraphymatoceros_pearsonii_Papea.S1G997100:0.29768,(anthoceros_agrestis_AnagrOXF.S2G432100:0.03462,anthoceros_punctatus_Anpun.S1G112300:0.00055)n3:0.63121)n2:0.17466,(phymatoceros_phymatodes_Phphy.S3G004500:0.09526,phymatoceros_phymatodes_Phphy.S4G205400:0.16729)n4:0.15408)n1:0.486845)n0;

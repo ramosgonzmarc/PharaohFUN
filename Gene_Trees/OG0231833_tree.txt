@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.2273616:0.049795,(mesotaenium_kramstae_Mekra.2280254:0.03837,((mesotaenium_kramstae_Mekra.2285638:0.30938,(mesotaenium_kramstae_Mekra.2280256:0.03142,mesotaenium_kramstae_Mekra.3110946:0.02596)n4:0.00055)n3:0.00394,(mesotaenium_kramstae_Mekra.3118983:0.00836,mesotaenium_kramstae_Mekra.3114487:0.0157)n5:0.00488)n2:0.0182)n1:0.049795)n0;

@@ -1,0 +1,1 @@
+(ananas_comosus_Aco014672:0.540485,(setaria_italica_Seita.9G490300:0.28183,(panicum_hallii_Pahal.8G219400:0.15522,(panicum_hallii_Pahal.6G273300:0.02012,panicum_hallii_Pahal.6G274200:0.00054)n3:0.07584)n2:0.32362)n1:0.540485)n0;

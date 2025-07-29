@@ -1,0 +1,1 @@
+((quercus_rubra_Qurub.03G081000:0.1474,(quercus_rubra_Qurub.03G081300:0,quercus_rubra_Qurub.03G081500:0)n2:0.00053)n1:0.378235,(carya_illinoinensis_Caril.15G018800:0.00054,(carya_illinoinensis_Caril.15G018500:0.00054,(carya_illinoinensis_Caril.15G019000:0.2442,carya_illinoinensis_Caril.15G019300:0.05391)n5:0.5418)n4:0.06924)n3:0.378235)n0;

@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3270284:0.231925,(cymbomonas_tetramitiformis_KAK3278452:0.14206,(cymbomonas_tetramitiformis_KAK3268538:0.00579,cymbomonas_tetramitiformis_KAK3287735:0.00055)n2:0.1686)n1:0.231925)n0;

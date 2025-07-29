@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B1084929:0.433485,(corylus_avellana_Corav.g24184:0.26213,(triticum_aestivum_TraesCS3A03G0115500:0.0259,triticum_aestivum_TraesCS3D03G0100900:0.02109)n2:0.39444)n1:0.433485)n0;

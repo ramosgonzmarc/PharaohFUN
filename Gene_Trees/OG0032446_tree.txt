@@ -1,0 +1,1 @@
+((marsilea_vestita_Mvestita_S12g15200:0.37176,marsilea_vestita_Mvestita_S14g07615:0.56214)n1:0.14531,((adiantum_capillus_Adc00327:0.13559,(adiantum_capillus_Adc20634:0.218,adiantum_capillus_Adc22830:0.07875)n4:0.19201)n3:0.0928,(ceratopteris_richardii_Ceric.27G013500:0.18424,ceratopteris_richardii_Ceric.07G003400:0.27659)n5:0.16721)n2:0.14531)n0;

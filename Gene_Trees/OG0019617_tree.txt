@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S5G104400:0.31012,(isoetes_sinensis_IsiChr15g4426:0.35398,(adiantum_capillus_Adc27799:0.45522,(alsophila_spinulosa_Aspi01Gene71086:0.06233,(alsophila_spinulosa_Aspi01Gene34619:0.04247,alsophila_spinulosa_Aspi01Gene54867:0.05238)n4:0.03)n3:0.20343)n2:0.26708)n1:0.31012)n0;

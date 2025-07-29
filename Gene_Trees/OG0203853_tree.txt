@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_21863:0.292515,(fragaria_vesca_FvH4_6g13323:0.67356,(trifolium_pratense_Trpra.40747:0.1741,trifolium_pratense_Trpra.07699:0.44487)n2:0.1757)n1:0.292515)n0;

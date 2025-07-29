@@ -1,0 +1,1 @@
+((aegilops_tauschii_Atau_XP_020176948:0.28077,aegilops_tauschii_Atau_XP_040249544:0.49005)n1:0.57551,(alsophila_spinulosa_Aspi01Gene08753:0.37885,alsophila_spinulosa_Aspi01Gene48435:0.0225)n2:0.57551)n0;

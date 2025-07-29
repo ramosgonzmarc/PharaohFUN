@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.1Z307900:0.00055,(ceratopteris_richardii_Ceric.17G019300:0.00055,ceratopteris_richardii_Ceric.1Z307800:0.00055)n2:0.00055)n1:0.29953,(salvinia_cucullata_Sacu_s0003.g001929:0.55284,marsilea_vestita_Mvestita_S1g07165:0.91515)n3:0.29953)n0;

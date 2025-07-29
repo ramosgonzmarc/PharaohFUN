@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum_Zci_13106:0.63003,((adiantum_capillus_Adc31226:0.8561,(ceratopteris_richardii_Ceric.07G037900:0.32174,(ceratopteris_richardii_Ceric.04G029500:0.16735,ceratopteris_richardii_Ceric.1Z100000:0.14593)n4:0.161415)n3:0.017935)n2:0.09453,(ceratopteris_richardii_Ceric.01G041200:0.36361,adiantum_capillus_Adc17717:0.474957)n5:0.052773)n1:0.63003)n0;

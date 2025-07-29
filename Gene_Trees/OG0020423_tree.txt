@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g4523:0.386195,((caulerpa_lentillifera_Caule_g637:0.1876,caulerpa_lentillifera_Caule_g2096:0.18)n2:0.54401,(bryopsis_sp_Bsp_GMH34186:0.35628,(ostreobium_quekettii_CAD7695648:0.18928,(ostreobium_quekettii_CAD7701506:0.06519,ostreobium_quekettii_CAD7695647:0.22853)n5:0.1041)n4:0.40003)n3:0.14858)n1:0.386195)n0;

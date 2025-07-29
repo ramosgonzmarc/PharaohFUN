@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_200s0332g00080:0.114805,(lens_culinaris_Lecul.7g005750:0.11774,(quercus_rubra_Qurub.M072400:0,quercus_rubra_Qurub.M036700:0)n2:0.00055)n1:0.114805)n0;

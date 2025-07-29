@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S4G045400:0.204145,(notothylas_orbicularis_Noorb.S4G005500:0.65675,(megaceros_flagellaris_Mefla.S3G002400:0.16227,(phaeoceros_sp_Phsp.C3G173300:0.39301,(phymatoceros_phymatodes_Phphy.S1G736400:0.33525,phymatoceros_phymatodes_Phphy.S2G481000:0.3685)n4:0.00054)n3:0.11074)n2:0.1186)n1:0.204145)n0;

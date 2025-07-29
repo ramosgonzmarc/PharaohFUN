@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_24825A:0.281495,(brachypodium_distachyon_Bradi1g03105:0.22393,(aegilops_tauschii_Atau_XP_020171312:0.04721,triticum_aestivum_TraesCS4A03G0902400:0.05053)n2:0.23907)n1:0.281495)n0;

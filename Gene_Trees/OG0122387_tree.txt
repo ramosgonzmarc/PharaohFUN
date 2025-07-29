@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S4G026800:0.292965,(lupinus_albus_Lalb_Chr00c03g0404351:0.47707,(ginkgo_biloba_Gb_33439:0.06133,(picea_abies_Pab_11517g0010:0.32397,(arachis_hypogaea_arahy_JUC985:0.98675,arachis_hypogaea_arahy_PK6JWH:0.569601)n4:0.063289)n3:0.09928)n2:0.16236)n1:0.292965)n0;

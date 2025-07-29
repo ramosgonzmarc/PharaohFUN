@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B523468:0.16894,(abies_alba_AALBA5B1092334:0.17907,abies_alba_AALBA5B937119:0.18582)n2:0.03706)n1:0.457735,(alsophila_spinulosa_Aspi01Gene63457:0.17296,(alsophila_spinulosa_Aspi01Gene45059:0.26976,alsophila_spinulosa_Aspi01Gene50366:0.36577)n4:0.17426)n3:0.457735)n0;

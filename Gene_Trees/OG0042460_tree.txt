@@ -1,0 +1,1 @@
+((phaeomegaceros_chiloensis_Phchi.S1G128500:1.34547,pleurozium_schreberi_Plsch.07781:0.25195)n1:0.088385,(huperzia_asiatica_HaB43G0438:0.66748,(selaginella_moellendorffii_Smoe_410482:0.00055,selaginella_moellendorffii_Smoe_405191:0.1348)n3:0.20482)n2:0.088385)n0;

@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.14G158202:0.166515,((trifolium_pratense_Trpra.28370:0.04581,(trifolium_pratense_Trpra.30679:0.59144,trifolium_pratense_Trpra.30680:0.03352)n3:0.03829)n2:0.32366,(quercus_rubra_Qurub.03G018300:0.36944,quercus_rubra_Qurub.01G026600:0.383634)n4:0.042626)n1:0.27212)n0;

@@ -1,0 +1,1 @@
+(riccia_fluitans_R1flu_001838:0.06054,(riccia_fluitans_R1flu_005096:0.68441,(riccia_fluitans_R1flu_005973:0.16772,(riccia_fluitans_R1flu_005095:0.45236,riccia_fluitans_R1flu_005974:0.22901)n3:1.06959)n2:0.58371)n1:0.06054)n0;

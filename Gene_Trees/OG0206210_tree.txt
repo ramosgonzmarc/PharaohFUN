@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10022236m:0.207565,(brassica_oleracea_Bol021319:0.41962,(brassica_oleracea_Bol038878:0.57481,(brassica_oleracea_Bol035200:0.35186,(brassica_oleracea_Bol019829:0.36864,brassica_oleracea_Bol012279:0.20035)n4:0.42518)n3:0.36777)n2:1.01896)n1:0.207565)n0;

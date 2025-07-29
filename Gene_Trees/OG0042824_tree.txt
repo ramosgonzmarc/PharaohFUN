@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0007s1722:0.69262,(solanum_tuberosum_Soltu.03G031840:0.13503,(solanum_lycopersicum_Solyc03g117620:0.27415,solanum_lycopersicum_Solyc03g117610:0.154485)n2:0.017165)n1:0.17489)n0;

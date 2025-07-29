@@ -1,0 +1,1 @@
+((corylus_avellana_Corav.g16661:0.90376,(corylus_avellana_Corav.g1093:1.0305,(corylus_avellana_Corav.g32919:0.84828,corylus_avellana_Corav.g32917:0.00055)n3:0.96452)n2:0.64103)n1:0.02807,(lupinus_albus_Lalb_Chr13g0293161:0.23251,(lupinus_albus_Lalb_Chr13g0292461:0.1064,lupinus_albus_Lalb_Chr00c49g0413081:0.13584)n5:0.18628)n4:0.02807)n0;

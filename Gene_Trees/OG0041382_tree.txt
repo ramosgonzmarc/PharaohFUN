@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.11305:0.445695,(funaria_hygrometrica_Fuhyg.06346:0.30413,(physcomitrium_patens_Pp6c6_1100V6:0.05531,physcomitrium_patens_Pp6c17_9000V6:0.15985)n2:0.10479)n1:0.445695)n0;

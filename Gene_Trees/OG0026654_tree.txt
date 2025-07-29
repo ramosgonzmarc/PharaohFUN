@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.06271:0.447435,((medicago_truncatula_Medtr0023s0260:1.01184,(carya_illinoinensis_Caril.10G115000:0.8412,trifolium_pratense_Trpra.22405:0.59351)n3:0.10353)n2:0.06279,(olea_europaea_Oeu048752:0.3555,(olea_europaea_Oeu031198:0.22195,olea_europaea_Oeu031197:0.37328)n5:0.02909)n4:0.07933)n1:0.447435)n0;

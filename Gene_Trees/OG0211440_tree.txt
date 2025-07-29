@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr7g064070:0.42152,(lupinus_albus_Lalb_Chr01g0022721:0.03852,(lupinus_albus_Lalb_Chr01g0022751:0.09886,lupinus_albus_Lalb_Chr01g0022741:0.17852)n2:0.01981)n1:0.42152)n0;

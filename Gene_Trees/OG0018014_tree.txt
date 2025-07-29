@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000007S09848:0.152905,(isoetes_sinensis_IsiChr20g3260:0.41865,(huperzia_asiatica_HaB59G0270:0.45232,(oryza_sativa_Os11g25030:0.55163,(cycas_panzhihuaensis_CYCAS_019060:0.20743,cycas_panzhihuaensis_CYCAS_024858:0.2239)n4:0.20791)n3:0.41211)n2:0.2837)n1:0.152905)n0;

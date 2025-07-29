@@ -1,0 +1,1 @@
+(helicosporidium_sp_Helsp_g5639:0.24046,((helicosporidium_sp_Helsp_g1511:0.33752,helicosporidium_sp_Helsp_g891:0.56139)n2:1.07292,(helicosporidium_sp_Helsp_g5640:0.30732,(helicosporidium_sp_Helsp_g5256:0.01419,helicosporidium_sp_Helsp_g5638:0.80362)n4:0.34518)n3:0.23466)n1:0.24046)n0;

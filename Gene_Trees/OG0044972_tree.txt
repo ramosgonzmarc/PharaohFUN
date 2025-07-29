@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum_Zci_01144:0.552405,(ananas_comosus_Aco013297:0.72459,(vitis_vinifera_VIT_216s0013g01570:0.17492,vitis_vinifera_VIT_216s0039g01725:0.19182)n2:0.44585)n1:0.552405)n0;

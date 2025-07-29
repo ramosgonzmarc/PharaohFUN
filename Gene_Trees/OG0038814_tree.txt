@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_6g51240:0.282595,(prunus_persica_Prupe.3G291300:0.2447,(malus_domestica_MD09G1027400:0.11323,malus_domestica_MD17G1027400:0.08629)n2:0.209)n1:0.282595)n0;

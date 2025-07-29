@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.S1G001400:0.76456,(alsophila_spinulosa_Aspi01Gene26819:0.22787,(alsophila_spinulosa_Aspi01Gene20065:0.00055,(alsophila_spinulosa_Aspi01Gene49044:0.09183,alsophila_spinulosa_Aspi01Gene63235:0.13271)n3:0.1571)n2:0.47016)n1:0.76456)n0;

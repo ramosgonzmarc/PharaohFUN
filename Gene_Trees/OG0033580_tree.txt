@@ -1,0 +1,1 @@
+(((mesostigma_viride296_Mevir.Mv10448:0,mesostigma_viride296_Mevir.Mv17278:0)n2:0.99109,(tetrabaena_socialis_Tesoc.PNH01081:0.00055,tetrabaena_socialis_Tesoc.PNG99385:0.01082)n3:0.53955)n1:0.268255,(chromochloris_zofingiensis_UNPLg00412:0.48668,klebsormidium_nitens_kfl00665_0060:0.42618)n4:0.268255)n0;

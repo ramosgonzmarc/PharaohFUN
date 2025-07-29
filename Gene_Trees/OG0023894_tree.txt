@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_XM_007513924:0.6208,((micromonas_commoda_Micom.109261:0.01681,micromonas_commoda_Micom.062992:0.08568)n2:0.31558,(micromonas_pusilla_Mpus_48237:0.35562,micromonas_pusilla_Mpus_160859:0.185841)n3:0.020649)n1:0.12154)n0;

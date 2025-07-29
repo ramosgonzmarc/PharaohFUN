@@ -1,0 +1,1 @@
+(glycine_max_Glyma.19G061500:0.49691,(ulva_mutabilis_UM009_0081:0.45085,(ulva_mutabilis_UM009_0076:0.11271,ulva_mutabilis_UM009_0077:0.11944)n2:0.22981)n1:0.49691)n0;

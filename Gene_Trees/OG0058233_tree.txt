@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA57G0383:0.3515,(alsophila_spinulosa_Aspi01Gene18180:0.53901,(sequoiadendron_giganteum_SEGI_18273:1.10125,sequoiadendron_giganteum_SEGI_31886:0.469485)n2:0.052165)n1:0.30205)n0;

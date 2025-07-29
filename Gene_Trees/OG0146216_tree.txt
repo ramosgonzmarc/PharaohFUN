@@ -1,0 +1,1 @@
+(zea_mays_Zm00001d040636:0.500235,((lens_culinaris_Lecul.6g045040:0.02228,((olea_europaea_Oeu001585:0.58014,(arachis_hypogaea_arahy_N3RWIF:0.57632,arachis_hypogaea_arahy_0A1ITQ:0.2987)n5:0.21441)n4:0.15419,arachis_hypogaea_arahy_I9PUIS:0.320859)n3:0.035651)n2:0.43157,vigna_unguiculata_Vigun01g096566:0.6203)n1:0.500235)n0;

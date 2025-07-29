@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_214s0083g00721:0.384215,(manihot_esculenta_Manes.01G105101:0.2657,(poncirus_trifoliata_Ptrif.0006s1977:0.93289,populus_trichocarpa_Potri.004G111232:0.42118)n2:0.07521)n1:0.384215)n0;

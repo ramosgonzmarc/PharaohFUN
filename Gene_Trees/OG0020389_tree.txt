@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g5126:0.86603,(chlorella_sorokiniana_Chlso_g8361:0.56291,ulva_mutabilis_UM007_0021:0.3342)n2:0.79884)n1:0.26299,(micromonas_pusilla_Mpus_51171:0.3883,micromonas_commoda_Micom.063057:0.31857)n3:0.26299)n0;

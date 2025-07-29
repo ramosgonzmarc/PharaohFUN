@@ -1,0 +1,1 @@
+((lupinus_albus_Lalb_Chr24g0397411:0.26389,lupinus_albus_Lalb_Chr14g0371631:0.07403)n1:0.436145,(linum_usitatissimum_Lus10023658:0.05785,linum_usitatissimum_Lus10034929:0.18186)n2:0.436145)n0;

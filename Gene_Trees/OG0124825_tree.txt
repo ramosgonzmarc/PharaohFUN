@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_19657A:0.40933,(quercus_rubra_Qurub.05G232200:0.13852,((cicer_arietinum_Ca_00373:0.08913,lotus_japonicus_Lj6g0015668:0.07671)n3:0.02633,(glycine_max_Glyma.15G080751:0.06556,(phaseolus_acutifolius_Phacu.006G199200:0.03124,vigna_unguiculata_Vigun06g193600:0.03724)n5:0.0445)n4:0.03339)n2:0.1487)n1:0.40933)n0;

@@ -1,0 +1,1 @@
+(ananas_comosus_Aco001092:0.33786,(mimulus_guttatus_Migut.D01807:0.83783,(citrus_sinensis_Cisin.027506:0.67592,((daucus_carota_DCAR_414734:0.55738,linum_usitatissimum_Lus10019090:0.39342)n4:0.32033,(solanum_lycopersicum_Solyc03g115930:0.05388,solanum_tuberosum_Soltu.03G030060:0.03078)n5:0.51242)n3:0.08201)n2:0.08471)n1:0.33786)n0;

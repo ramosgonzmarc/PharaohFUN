@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr17g2555:0.01863,isoetes_sinensis_IsiChr18g2243:0.00332)n1:0.26095,((azolla_filiculoides_Azfi_s0256.g060514:0.4494,marsilea_vestita_Mvestita_S5g09653:0.31843)n3:0.34748,(marsilea_vestita_Mvestita_C139g21393:0.75427,azolla_filiculoides_Azfi_s0470.g072895:0.526788)n4:0.058532)n2:0.26095)n0;

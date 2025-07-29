@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00019g125:0.15222,(nymphaea_colorata_Nycol.G00380:0.83223,(zostera_marina_Zosma01g28300:0.00054,zostera_marina_Zosma05g15390:0.01116)n2:0.79884)n1:0.15222)n0;

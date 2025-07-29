@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0006s0245:0.238375,(boechera_stricta_Bostr.4262s0001:0.5676,(gossypium_hirsutum_Gohir.A07G175856:0.09428,(gossypium_hirsutum_Gohir.D11G284350:0.10832,gossypium_hirsutum_Gohir.D06G113650:0.039798)n3:0.0039798)n2:0.0004422)n1:0.07626)n0;

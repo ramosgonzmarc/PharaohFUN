@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv18226:0.652365,(galdieria_sulphuraria_GsulpAzora_G5224:0.53807,(cyanidioschyzon_merolae_CmerSOOS_G613:1.10877,(gracilariopsis_chorda_PXF48818:0.84087,(gracilariopsis_chorda_PXF48421:0.57929,porphyra_umbilicalis_Pum0258s0008:0.82562)n4:0.034263)n3:0.003807)n2:0.16157)n1:0.08037)n0;

@@ -1,0 +1,1 @@
+((boechera_stricta_Bostr.10040s0253:0.69677,lupinus_albus_Lalb_Chr13g0298881:0.66682)n1:0.140475,(thuja_plicata_Thupl.29377087s0001:0.04012,(thuja_plicata_Thupl.29381914s0016:0.02994,thuja_plicata_Thupl.29379365s0011:0.04277)n3:0.00881)n2:0.140475)n0;

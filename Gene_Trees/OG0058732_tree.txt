@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc08858:0.28398,(alsophila_spinulosa_Aspi01Gene29157:0.26163,theobroma_cacao_Thecc1EG013306:1.34066)n2:0.15329)n1:0.155195,(lycopodium_clavatum_Lcl_0009767:0.39153,(lycopodium_clavatum_Lcl_0001979:0.12418,(lycopodium_clavatum_Lcl_0011831:0.01815,lycopodium_clavatum_Lcl_0002303:0.00055)n5:0.0659)n4:0.04244)n3:0.155195)n0;

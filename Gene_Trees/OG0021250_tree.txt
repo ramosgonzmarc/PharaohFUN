@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_14887:0.44091,(isoetes_sinensis_IsiChr9g200:0.39345,(isoetes_sinensis_IsiChr9g186:0.00054,(isoetes_sinensis_IsiChr17g2832:0.00056,isoetes_sinensis_IsiChr10g864:0.0121)n3:0.0144)n2:0.05918)n1:0.44091)n0;

@@ -1,0 +1,1 @@
+((marchantia_paleacea_Mapa_007280:0.38314,marchantia_paleacea_Mapa_005966:0.21382)n1:0.1215,(oropetium_thomaeum_Oropetium_20150105_00977A:0.21161,(alsophila_spinulosa_Aspi01Gene14290:0.32179,ananas_comosus_Aco011031:0.27339)n3:0.10345)n2:0.1215)n0;

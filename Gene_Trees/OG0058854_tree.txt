@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA39G0393:0.480355,(alsophila_spinulosa_Aspi01Gene32115:0.26561,(adiantum_capillus_Adc08026:0.3531,adiantum_capillus_Adc07310:0.02833)n2:0.16159)n1:0.480355)n0;

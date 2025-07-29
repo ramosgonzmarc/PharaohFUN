@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00008g17:0.154445,(theobroma_cacao_Thecc1EG007089:0.50969,((quercus_rubra_Qurub.02G010800:0.05605,quercus_rubra_Qurub.05G200200:0.01639)n3:0.28167,((corylus_avellana_Corav.g32544:0.06422,corylus_avellana_Corav.g32480:0.02259)n5:0.78838,sisymbrium_irio_Siiris581g00010:0.68885)n4:0.23981)n2:0.76789)n1:0.154445)n0;

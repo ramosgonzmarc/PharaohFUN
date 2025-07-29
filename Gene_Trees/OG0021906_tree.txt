@@ -1,0 +1,1 @@
+(riccia_fluitans_R1flu_019264:0.164985,(medicago_truncatula_Medtr4g013060:0.88366,(welwitschia_mirabilis_Wmi_04301:0.08883,(welwitschia_mirabilis_Wmi_17000:0.10404,welwitschia_mirabilis_Wmi_17289:0.03285)n3:0.02781)n2:1.12101)n1:0.164985)n0;

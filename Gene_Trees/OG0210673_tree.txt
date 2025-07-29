@@ -1,0 +1,1 @@
+((phaseolus_acutifolius_Phacu.010G115900:0.14329,phaseolus_acutifolius_Phacu.010G118200:0.24982)n1:0.1849,(lotus_japonicus_Lj3g0009106:0.25182,(trifolium_pratense_Trpra.30751:0.16578,(medicago_truncatula_Medtr4g014380:0.78944,(medicago_truncatula_Medtr7g099560:1.04247,medicago_truncatula_Medtr7g099550:0.369189)n5:0.0369189)n4:0.0041021)n3:0.85273)n2:0.21111)n0;

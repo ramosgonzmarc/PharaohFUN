@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S1G581600:0.34652,(chenopodium_quinoa_AUR62037521:1.19098,(alsophila_spinulosa_Aspi01Gene09914:0.40516,((sisymbrium_irio_Siiris111g00030:0.35048,(manihot_esculenta_Manes.16G057263:0.48929,manihot_esculenta_Manes.01G054202:0.477891)n5:0.053099)n4:0.48804,cucumis_sativus_Cucsa.c162270g01:0.53685)n3:0.04919)n2:0.02698)n1:0.34652)n0;

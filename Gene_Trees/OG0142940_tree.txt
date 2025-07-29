@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv08896:0.582865,(zygnema_cylindricum_Zci1a_26725:0.70684,(mesotaenium_endlicherianum_ME000263S04394:0.64454,zygnema_circumcarinatum_Zci_14966:0.5134)n2:0.15338)n1:0.582865)n0;

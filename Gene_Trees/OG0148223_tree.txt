@@ -1,0 +1,1 @@
+(capsella_grandiflora_Cagra.0268s0026:0.296645,(oryza_sativa_Os04g05630:0.61561,(hordeum_vulgare_Hvul_1HG0094860:0.16728,(triticum_aestivum_TraesCS1B03G0385400:0.00695,(triticum_aestivum_TraesCS1D03G0291200:0.01694,triticum_aestivum_TraesCS1A03G0300100:0.02837)n4:0.02881)n3:0.59568)n2:0.24553)n1:0.296645)n0;

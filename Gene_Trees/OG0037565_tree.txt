@@ -1,0 +1,1 @@
+(((huperzia_asiatica_HaA39G0363:0.1801,triticum_aestivum_TraesCS1B03G0534700:1.02313)n2:0.07618,(azolla_filiculoides_Azfi_s0063.g035406:0.32063,azolla_filiculoides_Azfi_s0471.g072916:0.863865)n3:0.095985)n1:0.11556,(marsilea_vestita_Mvestita_S19g17143:0.8122,(isoetes_sinensis_IsiChr1g2295:0.00513,isoetes_sinensis_IsiChr2g2042:0.01676)n5:0.29876)n4:0.11215)n0;

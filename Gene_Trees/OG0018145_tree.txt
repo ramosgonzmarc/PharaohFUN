@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g01041:0.592585,(cymbomonas_tetramitiformis_KAK3254619:0.73614,(cymbomonas_tetramitiformis_KAK3258256:0.66713,(cymbomonas_tetramitiformis_KAK3289274:0.00055,(cymbomonas_tetramitiformis_KAK3250552:0.00055,cymbomonas_tetramitiformis_KAK3250553:0.00055)n4:0.01406)n3:0.62126)n2:0.24256)n1:0.592585)n0;

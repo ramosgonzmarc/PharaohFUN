@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS2A03G0067600:0.41341,(setaria_italica_Seita.1G029600:0.19469,(sorghum_bicolor_Sobic.006G007450:0.32716,sorghum_bicolor_Sobic.006G007600:1.18035)n2:0.11961)n1:0.41341)n0;

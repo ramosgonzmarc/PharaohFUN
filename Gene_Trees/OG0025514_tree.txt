@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9820089:0.34762,(dunaliella_salina_Dusal.0140s00007:0.2075,(dunaliella_salina_Dusal.1039s00002:0.77713,dunaliella_salina_Dusal.4834s00001:0.19619)n2:0.64683)n1:0.34762)n0;

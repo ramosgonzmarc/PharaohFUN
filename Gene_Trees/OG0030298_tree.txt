@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene12939:0.29013,((sequoia_sempervirens_SESE_047129:0.77689,ginkgo_biloba_Gb_10802:0.20076)n2:0.13905,(theobroma_cacao_Thecc1EG024065:0.28779,(arachis_hypogaea_arahy_K30RN2:0.65736,trifolium_pratense_Trpra.41307:0.25706)n4:0.12192)n3:0.18265)n1:0.29013)n0;

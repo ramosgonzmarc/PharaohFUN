@@ -1,0 +1,1 @@
+(((coffea_arabica_Coara.015667:0.0018,coffea_arabica_Coara.019420:0.02792)n2:0.16195,(daucus_carota_DCAR_521269:0.7092,lactuca_sativa_Lsat_gn_5_177160:0.41261)n3:0.23328)n1:0.75231,(saponaria_officinalis_Sapof.05G104700:0.01444,(saponaria_officinalis_Sapof.05G105300:0.01422,saponaria_officinalis_Sapof.05G105800:0.01462)n5:0.02399)n4:0.75231)n0;

@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_39793:0.052545,(ananas_comosus_Aco013161:0.43014,(arachis_hypogaea_arahy_NBP004:0.63582,(miscanthus_sinensis_Misin01G072800:0.04737,miscanthus_sinensis_Misin02G051000:0.00605)n3:0.53179)n2:0.24273)n1:0.052545)n0;

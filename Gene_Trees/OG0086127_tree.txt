@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.07614:0.61446,(tetrabaena_socialis_Tesoc.PNH05670:0.46101,volvox_carteri_Vocar.0001s1364:0.15198)n2:0.49663)n1:0.175865,(chlamydomonas_reinhardtii_Cre06.g292150_4532:0.10728,chlamydomonas_incerta_Chincg00127:0.08283)n3:0.175865)n0;

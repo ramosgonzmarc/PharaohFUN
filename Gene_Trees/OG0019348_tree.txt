@@ -1,0 +1,1 @@
+(oryza_sativa_Os01g66910:0.630865,(brachypodium_distachyon_Bradi2g57488:0.89304,((aegilops_tauschii_Atau_XP_020156538:0.00055,triticum_aestivum_TraesCS3D03G0871000:0.00054)n3:0.04997,(triticum_aestivum_TraesCS3D03G0870900:0.00054,aegilops_tauschii_Atau_XP_045090385:0.212211)n4:0.023579)n2:0.029511)n1:0.003279)n0;

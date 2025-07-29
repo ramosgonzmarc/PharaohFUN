@@ -1,0 +1,1 @@
+(ananas_comosus_Aco016738:0.184855,(kalanchoe_fedtschenkoi_Kaladp0056s0128:0.51289,(amaranthus_hypochondriacus_AH012584:0.72416,(prunus_persica_Prupe.7G102000:0.12663,(malus_domestica_MD12G1030400:0.59451,lupinus_albus_Lalb_Chr01g0017981:0.41681)n4:0.128)n3:0.14009)n2:0.11902)n1:0.184855)n0;

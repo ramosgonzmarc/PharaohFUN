@@ -1,0 +1,1 @@
+((panicum_hallii_Pahal.3G449600:0.56783,oropetium_thomaeum_Oropetium_20150105_24132A:0.5114)n1:0.227905,(aegilops_tauschii_Atau_XP_020182073:0.00055,(triticum_aestivum_TraesCS5A03G0245600:0.05044,triticum_aestivum_TraesCS5D03G0257300:0.000495)n3:5.5e-05)n2:0.03449)n0;

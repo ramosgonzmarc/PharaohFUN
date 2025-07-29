@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0045s00017:0.73804,(haematococcus_lacustris_QJQ45_003496:0.01712,haematococcus_lacustris_QJQ45_025525:0.00054)n2:0.53394)n1:0.159015,(raphidocelis_subcapitata_Rsub_02953:0.08407,monoraphidium_minutum_Momin.404918:0.45593)n3:0.159015)n0;

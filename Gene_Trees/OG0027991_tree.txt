@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_16916:0.58664,(taxus_chinensis_KI387_038352:0.03342,(taxus_chinensis_KI387_043199:0.01088,taxus_chinensis_KI387_041662:0.01088)n2:0.00055)n1:0.58664)n0;

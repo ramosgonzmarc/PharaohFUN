@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_3g11530:0.41618,prunus_persica_Prupe.4G102600:0.31256)n1:0.154695,(carya_illinoinensis_Caril.09G145300:0.33333,(corylus_avellana_Corav.g7729:0.40584,quercus_rubra_Qurub.05G091200:0.30217)n3:0.11373)n2:0.154695)n0;

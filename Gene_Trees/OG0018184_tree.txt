@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3265757:0.61795,pedinophyceae_sp_Pesp.9464201:0.7595)n1:0.124935,(mesotaenium_endlicherianum_ME000730S09358:0.32646,(spirogloea_muscicola_SM000085S23220:0.05702,(spirogloea_muscicola_SM000128S26215:0.02512,spirogloea_muscicola_SM000015S01294:0.01871)n4:0.0302)n3:0.38704)n2:0.124935)n0;

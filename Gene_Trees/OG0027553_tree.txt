@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Smoe_70373:0.03155,selaginella_moellendorffii_Smoe_87015:0.10388)n1:0.535555,((trebouxia_sp_FRX49_13581:0,trebouxia_sp_FRX49_03786:0)n3:0.41628,(ulva_mutabilis_UM074_0020:0.56494,helicosporidium_sp_Helsp_g2104:0.6783)n4:0.66915)n2:0.535555)n0;

@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_5_113960:0.9592,trifolium_pratense_Trpra.19820:0.73193)n1:0.087365,(aegilops_tauschii_Atau_XP_040245124:0.67303,eleusine_coracana_Elcor.5AG0393340:1.11679)n2:0.087365)n0;

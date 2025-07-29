@@ -1,0 +1,1 @@
+((gnetum_montanum_TnS000286459t03:1.22596,chara_braunii_CBR_g26388:0.59328)n1:0.08207,(gnetum_montanum_TnS000304021t12:0.7208,(chara_braunii_CBR_g8105:0.26713,chara_braunii_CBR_g52413:0.16536)n3:0.14721)n2:0.08207)n0;

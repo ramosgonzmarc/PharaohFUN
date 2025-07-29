@@ -1,0 +1,1 @@
+(brassica_oleracea_Bol037104:0.12134,(prunus_persica_Prupe.1G031200:0.39681,(malus_domestica_MD16G1218900:0.32965,populus_trichocarpa_Potri.010G071100:1.18616)n2:0.06657)n1:0.12134)n0;

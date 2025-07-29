@@ -1,0 +1,1 @@
+(cinnamomum_kanehirae_CKAN_00653000:0.830835,((picea_abies_Pab_158596g0020:0.68944,(sequoia_sempervirens_SESE_043272:0.12882,sequoia_sempervirens_SESE_071377:0.187371)n3:0.020819)n2:0.00057,((thuja_plicata_Thupl.29377848s0002:0.07722,thuja_plicata_Thupl.29377848s0001:0.23469)n5:0.06543,thuja_plicata_Thupl.29342339s0002:0.235152)n4:0.026128)n1:0.10073)n0;

@@ -1,0 +1,1 @@
+(lycopodium_clavatum_Lcl_0015422:0.222965,(lycopodium_clavatum_Lcl_0005318:0.00053,(lycopodium_clavatum_Lcl_0021213:0.31078,(lycopodium_clavatum_Lcl_0019370:0.00054,(lycopodium_clavatum_Lcl_0018831:0.16088,(lycopodium_clavatum_Lcl_0012777:0.11025,lycopodium_clavatum_Lcl_0008471:0.02735)n5:0.16152)n4:0.99397)n3:0.03628)n2:0.05275)n1:0.222965)n0;

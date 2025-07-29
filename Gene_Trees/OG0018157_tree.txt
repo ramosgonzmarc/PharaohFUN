@@ -1,0 +1,1 @@
+(((cymbomonas_tetramitiformis_KAK3253103:0,cymbomonas_tetramitiformis_KAK3282332:0)n2:0.72321,corymbia_citriodora_Cocit.L5332:0.66198)n1:0.46382,(gracilariopsis_chorda_PXF44184:0.8758,(porphyra_umbilicalis_Pum1659s0001:0.40863,porphyra_umbilicalis_Pum1585s0002:0.51949)n4:0.16601)n3:0.46382)n0;

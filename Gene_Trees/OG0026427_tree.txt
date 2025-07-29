@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g5890:0.155875,(malus_domestica_MD17G1156600:0.16307,(vitis_vinifera_VIT_214s0006g00190:0.07508,vitis_vinifera_VIT_207s0197g00190:0.00055)n2:0.78035)n1:0.155875)n0;

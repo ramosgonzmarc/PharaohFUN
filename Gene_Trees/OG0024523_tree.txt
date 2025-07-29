@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp104S01302:1.20088,(klebsormidium_nitens_kfl00049_0320:0.25448,klebsormidium_nitens_kfl00834_0070:0.13068)n2:0.55262)n1:0.21777,(myrmecia_bisecta_Mybis.KAK9829177:0.50075,myrmecia_bisecta_Mybis.KAK9812598:0.46855)n3:0.21777)n0;

@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.010G120401:0.21687,(corylus_avellana_Corav.g3963:0.49816,(fragaria_vesca_FvH4_4g26741:0.87064,prunus_persica_Prupe.1G316600:0.16247)n2:0.24365)n1:0.21687)n0;

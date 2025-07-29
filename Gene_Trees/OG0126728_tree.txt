@@ -1,0 +1,1 @@
+((miscanthus_sinensis_Misin11G218200:0.03444,miscanthus_sinensis_Misin12G200800:0.00053)n1:0.26964,(glycine_max_Glyma.18G116200:0.32903,((boechera_stricta_Bostr.25993s0477:0.05089,capsella_grandiflora_Cagra.0202s0010:0.00055)n4:0.0603,(brassica_rapa_Brara.C02179:0.14178,thlaspi_arvense_TaMN106.4G053200:0.08335)n5:0.02453)n3:0.3797)n2:0.26964)n0;

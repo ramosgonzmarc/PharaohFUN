@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Smoe_103241:0.00943,selaginella_moellendorffii_Smoe_136503:0.14686)n1:0.65539,(gnetum_montanum_TnS000892201t04:0.35748,(abies_alba_AALBA5B418381:0.06801,picea_abies_Pab_100612g0010:0.06534)n3:0.48289)n2:0.65539)n0;

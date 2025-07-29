@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.08G115400:0.66116,((takakia_lepidozioides_Tle2c04245:0,takakia_lepidozioides_Tle2c04246:0)n2:0.05717,takakia_lepidozioides_Tle3c02161:0.00055)n1:0.66116)n0;

@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g2149:0.99646,cymbomonas_tetramitiformis_KAK3271326:0.38113)n1:0.10232,(micromonas_pusilla_Mpus_39141:0.81705,(tetraselmis_striata_TSEL_013128:0.01596,tetraselmis_striata_TSEL_022895:0.00054)n3:0.80861)n2:0.10232)n0;

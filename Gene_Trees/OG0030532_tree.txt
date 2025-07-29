@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene45665:0.05188,alsophila_spinulosa_Aspi01Gene61999:0.04992)n1:0.108355,(sequoia_sempervirens_SESE_053691:0.49252,(carya_illinoinensis_Caril.06G074300:0.68027,(chenopodium_quinoa_AUR62004989:0.93676,chenopodium_quinoa_AUR62017426:0.394065)n4:0.043785)n3:0.00774)n2:0.108355)n0;

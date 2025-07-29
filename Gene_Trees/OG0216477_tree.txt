@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g42969:0.18386,(mimulus_guttatus_Migut.E01381:0.45347,(daucus_carota_DCAR_104911:0.19607,daucus_carota_DCAR_100504:0.17848)n2:0.39164)n1:0.18386)n0;

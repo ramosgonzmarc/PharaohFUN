@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_007339:0.42407,(gnetum_montanum_TnS000989603t01:0,gnetum_montanum_TnS000739539t07:0,gnetum_montanum_TnS000574721t01:0)n1:0.42407)n0;

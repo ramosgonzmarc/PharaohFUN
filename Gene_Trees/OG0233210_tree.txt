@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNG74403:0.7908,((tetrabaena_socialis_Tesoc.PNH00947:0.02996,tetrabaena_socialis_Tesoc.PNG99594:0.04895)n2:0.25499,(tetrabaena_socialis_Tesoc.PNH06449:0.50329,(tetrabaena_socialis_Tesoc.PNH02082:0.01436,tetrabaena_socialis_Tesoc.PNH01592:0.03906)n4:0.4564)n3:0.13191)n1:0.7908)n0;

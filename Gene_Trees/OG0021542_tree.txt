@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.H02302:0.22226,(olea_europaea_Oeu055147:0.18701,(olea_europaea_Oeu046537:0.0036,(olea_europaea_Oeu046538:0,olea_europaea_Oeu046539:0)n3:0.0229)n2:0.1033)n1:0.22226)n0;

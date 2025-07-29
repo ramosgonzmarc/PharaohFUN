@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.6G068200:0.51117,sphagnum_fallax_Sphfalx11G036100:0.49124)n1:0.468415,(anthoceros_fusiformis_Anfus.S2G427100:0.0184,(anthoceros_agrestis_AnagrOXF.S1G033400:0.00914,anthoceros_punctatus_Anpun.S2G556000:0.02884)n3:0.02875)n2:0.468415)n0;

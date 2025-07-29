@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g26443:0.38093,(marchantia_polymorpha_Mp4g21680:1.05611,(alsophila_spinulosa_Aspi01Gene14013:0.07158,alsophila_spinulosa_Aspi01Gene59340:0.08739)n2:0.92198)n1:0.38093)n0;

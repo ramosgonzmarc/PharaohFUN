@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL4G26020:0.17679,boechera_stricta_Bostr.24513s0131:0.20867)n1:0.073155,(brassica_oleracea_Bol008283:0.2451,thlaspi_arvense_TaMN106.4G189100:0.14192)n2:0.073155)n0;

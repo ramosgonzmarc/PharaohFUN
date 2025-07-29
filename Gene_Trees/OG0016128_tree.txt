@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH33364:0.404,(cyanidioschyzon_merolae_CmerSOOS_G3949:0.53841,(porphyra_umbilicalis_Pum0079s0014:0.45878,((gracilariopsis_chorda_PXF48330:0.23126,(gracilariopsis_chorda_PXF43752:0.00055,gracilariopsis_chorda_PXF40508:0.10824)n5:0.07739)n4:0.77447,gracilariopsis_chorda_PXF49516:0.393849)n3:0.043761)n2:0.30769)n1:0.52532)n0;

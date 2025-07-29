@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C1G132200:0.617615,((paraphymatoceros_pearsonii_Papea.S1G141000:0.10625,paraphymatoceros_pearsonii_Papea.S4G062300:0.151)n2:0.16819,(paraphymatoceros_pearsonii_Papea.S6G025600:0.02056,paraphymatoceros_pearsonii_Papea.S2G627900:0.14535)n3:0.07697)n1:0.617615)n0;

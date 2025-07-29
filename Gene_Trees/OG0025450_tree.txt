@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr2g3484:0.511925,((huperzia_asiatica_HaA47G0168:0.03719,huperzia_asiatica_HaB47G0406:0.0109)n2:0.44949,(lycopodium_clavatum_Lcl_0013818:0.16438,(diphasiastrum_complanatum_Dicom.19G017700:0.00055,diphasiastrum_complanatum_Dicom.07G007000:0.79416)n4:0.08954)n3:0.19281)n1:0.511925)n0;

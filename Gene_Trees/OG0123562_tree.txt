@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr20g0110961:0.43563,(lotus_japonicus_Lj5g0008769:0.49237,(glycine_max_Glyma.02G179500:0.22441,((vigna_unguiculata_Vigun06g070650:0.07125,vigna_unguiculata_Vigun07g092233:0.35428)n4:0.36192,(phaseolus_acutifolius_Phacu.007G299800:0.1537,vigna_unguiculata_Vigun07g029700:0.1004)n5:0.160902)n3:0.017878)n2:0.23257)n1:0.51953)n0;

@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.052327:0.06819,coffea_arabica_Coara.056615:0.04893)n1:0.26745,(corylus_avellana_Corav.g30840:0.44484,(eucalyptus_grandis_Eucgr.K02613:0.36344,(fragaria_vesca_FvH4_6g20120:0.22865,fragaria_vesca_FvH4_6g20150:0.29429)n4:0.13255)n3:0.18973)n2:0.26745)n0;

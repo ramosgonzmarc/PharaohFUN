@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g76656:0.29917,(cymbomonas_tetramitiformis_KAK3284983:0.63976,(chromochloris_zofingiensis_Cz09g24170:0.22042,haematococcus_lacustris_QJQ45_007756:0.59976)n2:0.57845)n1:0.29917)n0;

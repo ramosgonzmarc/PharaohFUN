@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp109S01446:0.286685,(ulva_mutabilis_UM026_0061:1.01234,(tetraselmis_striata_TSEL_016255:0.00485,tetraselmis_striata_TSEL_020490:0.01704)n2:0.57798)n1:0.286685)n0;

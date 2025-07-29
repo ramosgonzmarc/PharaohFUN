@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_201s0011g01880:0.22435,(dioscorea_alata_Dioal.15G082800:0.58059,(panicum_hallii_Pahal.2G414200:0.16966,miscanthus_sinensis_Misin04G325000:0.0787)n2:0.51702)n1:0.22435)n0;

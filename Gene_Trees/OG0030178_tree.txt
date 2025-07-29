@@ -1,0 +1,1 @@
+(ananas_comosus_Aco010651:0.594835,(hordeum_vulgare_Hvul_3HG0322740:0.38233,(oryza_sativa_Os01g38430:0.51775,(aegilops_tauschii_Atau_XP_045090409:0.0712,triticum_aestivum_TraesCS3D03G1111300:0.02859)n3:0.33719)n2:0.17285)n1:0.594835)n0;

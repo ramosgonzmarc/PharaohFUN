@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g28374:0.32004,(haematococcus_lacustris_QJQ45_014586:0.80023,((gonium_pectorale_Gopec.10149:0.35956,volvox_carteri_Vocar.0057s0034:0.54146)n3:0.18093,(chlamydomonas_reinhardtii_Cre02.g108750_4532:0.40529,tetrabaena_socialis_Tesoc.PNH05824:0.81981)n4:0.07177)n2:0.27495)n1:0.32004)n0;

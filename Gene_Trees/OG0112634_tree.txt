@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_31602:0.71297,(eucalyptus_grandis_Eucgr.A01862:0.37003,(ananas_comosus_Aco006239:0.42602,fragaria_vesca_FvH4_1g05610:0.95608)n2:0.00708)n1:0.71297)n0;

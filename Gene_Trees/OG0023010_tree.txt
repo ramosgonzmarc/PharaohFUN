@@ -1,0 +1,1 @@
+(aegilops_tauschii_Atau_XP_045083476:0.584105,((glycine_max_Glyma.02G207251:0.60126,malus_domestica_MD17G1282200:0.73034)n2:0.31845,(cicer_arietinum_Ca_21784:0.15511,(cicer_arietinum_Ca_21786:0.05039,cicer_arietinum_Ca_21785:0.02459)n4:0.126)n3:0.50431)n1:0.584105)n0;

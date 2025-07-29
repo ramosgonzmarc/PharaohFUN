@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene45873:0.00055,(alsophila_spinulosa_Aspi01Gene45884:0,alsophila_spinulosa_Aspi01Gene45886:0)n2:0.00055)n1:0.306585,(selaginella_moellendorffii_Smoe_407288:0.19914,selaginella_moellendorffii_Smoe_407289:0.04942)n3:0.306585)n0;

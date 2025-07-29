@@ -1,0 +1,1 @@
+(sisymbrium_irio_Siiris266g00020:0.37526,(schrenkiella_parvula_Scpar7g10830:0.81644,((schrenkiella_parvula_Scpar3g25180:0.66065,schrenkiella_parvula_Scpar7g10500:0.52316)n3:0.25139,(schrenkiella_parvula_Scpar5g32330:0.16138,schrenkiella_parvula_Scpar3g22020:0.20219)n4:0.20761)n2:0.62415)n1:0.37526)n0;

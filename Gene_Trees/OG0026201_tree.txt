@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiScaffold3709g94:0.58685,(trifolium_pratense_Trpra.28741:1.1088,(welwitschia_mirabilis_Wmi_03024:0.08146,welwitschia_mirabilis_Wmi_03025:0.05283)n2:0.49218)n1:0.58685)n0;

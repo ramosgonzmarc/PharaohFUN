@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.01G072601:0.67044,(prunus_persica_Prupe.3G103400:1.39933,(fragaria_vesca_FvH4_5g30931:0.37777,(fragaria_vesca_FvH4_4g04241:0.24905,fragaria_vesca_FvH4_5g31301:0.58714)n3:0.5805)n2:0.34294)n1:0.67044)n0;

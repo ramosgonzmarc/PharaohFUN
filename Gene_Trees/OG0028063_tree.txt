@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.393806:0.69882,(tetraselmis_striata_TSEL_037253:0.35108,(tetraselmis_striata_TSEL_001186:0.00053,tetraselmis_striata_TSEL_006826:0.03099)n2:0.02795)n1:0.69882)n0;

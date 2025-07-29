@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_04114:0.17329,monoraphidium_minutum_Momin.412100:0.16106)n1:0.139985,(haematococcus_lacustris_QJQ45_022433:0.21808,(volvox_carteri_Vocar.0013s0249:0.3046,(chlamydomonas_reinhardtii_Cre04.g229850_4532:0.03098,chlamydomonas_incerta_Chincg04266:0.03764)n4:0.16734)n3:0.09916)n2:0.139985)n0;

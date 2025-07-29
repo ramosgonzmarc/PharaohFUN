@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_11515:0.34086,((chromochloris_zofingiensis_Cz04g08100:0.012,chromochloris_zofingiensis_Cz03g17110:0.169)n2:0.97509,(dunaliella_salina_Dusal.0022s00041:0.23145,(haematococcus_lacustris_QJQ45_022137:1.32845,haematococcus_lacustris_QJQ45_016052:0.416484)n4:0.046276)n3:0.3053)n1:0.12526)n0;

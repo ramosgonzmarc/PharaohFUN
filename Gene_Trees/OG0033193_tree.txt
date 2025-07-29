@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3245589:0.3337,((trebouxia_sp_FRX49_07257:0.60896,trebouxia_sp_FRX49_13233:0.35518)n2:0.1936,(chlorella_sorokiniana_Chlso_g3941:0.21345,(picochlorum_soloecismus_NSC_01014:0.55465,auxenochlorella_protothecoides_APUTEX2500002387:0.34455)n4:0.12147)n3:0.53423)n1:0.3337)n0;

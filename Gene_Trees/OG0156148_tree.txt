@@ -1,0 +1,1 @@
+((panicum_hallii_Pahal.8G257300:0.34586,(ananas_comosus_Aco027378:0,ananas_comosus_Aco020211:0)n2:0.61071)n1:0.14755,(chenopodium_quinoa_AUR62034210:0.06209,(carica_papaya_Capac.c00263g011:0.00055,schrenkiella_parvula_Scpar3g25590:0.056)n4:0.25456)n3:0.14755)n0;

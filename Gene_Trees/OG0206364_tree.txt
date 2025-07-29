@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.D09G006133:0.462935,(eutrema_salsugineum_Thhalv10026806m:0.2642,(capsella_grandiflora_Cagra.0796s0019:0.15611,(brassica_oleracea_Bol032079:0.01805,brassica_rapa_Brara.I01899:0.07289)n3:0.21934)n2:0.11701)n1:0.462935)n0;

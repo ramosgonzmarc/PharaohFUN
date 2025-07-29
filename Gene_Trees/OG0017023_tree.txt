@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_17057:0.171395,(abies_alba_AALBA5B398586:0.29517,(sequoiadendron_giganteum_SEGI_11999:0.22931,(taxus_chinensis_KI387_000407:0.08246,(taxus_chinensis_KI387_027746:0.08554,taxus_chinensis_KI387_039539:0.01198)n4:0.03934)n3:0.52937)n2:0.26175)n1:0.171395)n0;

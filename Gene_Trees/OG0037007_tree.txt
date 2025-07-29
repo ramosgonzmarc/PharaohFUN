@@ -1,0 +1,1 @@
+(lotus_japonicus_Lj3g0006833:0.59384,((glycine_max_Glyma.12G045100:0.03371,glycine_max_Glyma.11G120101:0.07724)n2:0.2232,(phaseolus_acutifolius_Phacu.011G054100:0.12269,vigna_unguiculata_Vigun11g173100:0.17716)n3:0.34902)n1:0.59384)n0;

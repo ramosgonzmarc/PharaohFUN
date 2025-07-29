@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c01800g001:0.134645,((vitis_vinifera_VIT_203s0038g00120:0.34976,vitis_vinifera_VIT_214s0108g00740:0.29633)n2:0.11978,(vitis_vinifera_VIT_216s0148g00090:0.03285,(vitis_vinifera_VIT_203s0180g00290:0.07754,vitis_vinifera_VIT_200s1317g00010:0.00255)n4:0.21117)n3:0.98659)n1:0.134645)n0;

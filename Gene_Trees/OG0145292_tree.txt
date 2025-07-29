@@ -1,0 +1,1 @@
+(olea_europaea_Oeu063964:0.21762,(fragaria_vesca_FvH4_2g24770:0.5107,(corylus_avellana_Corav.g1791:0.19398,corylus_avellana_Corav.g1684:0.14999)n2:0.33813)n1:0.21762)n0;

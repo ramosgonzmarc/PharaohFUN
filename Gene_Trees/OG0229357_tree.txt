@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S4G085700:0.0774,(anthoceros_punctatus_Anpun.S1G454300:1.9732,((anthoceros_fusiformis_Anfus.S4G089200:0.40138,(anthoceros_punctatus_Anpun.S2G544800:0.06102,anthoceros_punctatus_Anpun.S4G095900:0.0739)n4:0.16431)n3:0.11951,(anthoceros_fusiformis_Anfus.S4G091400:0.6161,anthoceros_punctatus_Anpun.S4G094100:0.807669)n5:0.089741)n2:0.21407)n1:0.0774)n0;

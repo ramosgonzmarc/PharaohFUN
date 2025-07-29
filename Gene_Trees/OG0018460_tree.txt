@@ -1,0 +1,1 @@
+(dioscorea_alata_Dioal.16G039300:0.91038,(klebsormidium_nitens_kfl00920_0060:0.00056,(klebsormidium_nitens_kfl00219_0290:0.18686,(klebsormidium_nitens_kfl00628_0050:0.08293,(klebsormidium_nitens_kfl00738_0070:0.04433,klebsormidium_nitens_kfl01462_0020:0.07979)n4:0.07274)n3:0.97879)n2:0.03924)n1:0.91038)n0;

@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.08G026140:0.456785,(isoetes_sinensis_IsiChr11g2376:0.00052,(isoetes_sinensis_IsiChr11g2375:0.00055,isoetes_sinensis_IsiChr12g2271:0.02579)n2:0.01291)n1:0.456785)n0;

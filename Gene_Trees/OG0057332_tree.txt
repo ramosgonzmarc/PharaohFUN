@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.037448:0.264465,(ananas_comosus_Aco016580:0.31703,(aegilops_tauschii_Atau_XP_045089761:0.0131,triticum_aestivum_TraesCS2B03G1436800:0.03759)n2:0.86247)n1:0.264465)n0;

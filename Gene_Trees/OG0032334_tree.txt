@@ -1,0 +1,1 @@
+(kalanchoe_fedtschenkoi_Kaladp0092s0010:0.597055,(adiantum_capillus_Adc14686:0.41166,(ceratopteris_richardii_Ceric.35G004900:0.01225,ceratopteris_richardii_Ceric.35G008500:0.03327)n2:0.49451)n1:0.597055)n0;

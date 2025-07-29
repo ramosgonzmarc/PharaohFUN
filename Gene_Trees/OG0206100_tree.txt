@@ -1,0 +1,1 @@
+((corymbia_citriodora_Cocit.H2528:0.64386,corymbia_citriodora_Cocit.B1541:0.82991)n1:0.44235,(capsella_grandiflora_Cagra.6357s0005:0.42377,((arabidopsis_lyrata_Arlyr.AL2G12530:0.32084,boechera_stricta_Bostr.22157s0017:0.04799)n4:0.10236,(thlaspi_arvense_TaMN106.2G343300:0.50777,thlaspi_arvense_TaMN106.2G343200:0.231336)n5:0.025704)n3:0.10267)n2:0.18186)n0;

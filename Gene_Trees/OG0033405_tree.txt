@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g8614:0.283365,(myrmecia_bisecta_Mybis.KAK9819869:0.9582,(picochlorum_soloecismus_NSC_04067:0.28303,(tetraselmis_striata_TSEL_001558:0.58466,auxenochlorella_protothecoides_APUTEX2500000671:0.31623)n3:0.51659)n2:0.13123)n1:0.283365)n0;

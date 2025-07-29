@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_XM_007510264:0.231285,(chromochloris_zofingiensis_Cz13g20070:0.53511,(asterochloris_glomerata_Astgl_g1183:0.64981,chlorella_sorokiniana_Chlso_g7733:1.32472)n2:0.3848)n1:0.231285)n0;

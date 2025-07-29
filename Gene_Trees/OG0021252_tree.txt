@@ -1,0 +1,1 @@
+(picocystis_sp_Picml_g2387:0.57658,(huperzia_asiatica_HaA34G0208:0.00054,(isoetes_sinensis_IsiChr10g3051:0.00055,(isoetes_sinensis_IsiChr9g3571:0.01842,(isoetes_sinensis_IsiChr9g3572:0.01319,isoetes_sinensis_IsiChr10g3053:0.00055)n4:0.50208)n3:0.01523)n2:0.6642)n1:0.57658)n0;

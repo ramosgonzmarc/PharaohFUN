@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3686687:0.685015,(galdieria_sulphuraria_GsulpAzora_G60:0.15242,(galdieria_sulphuraria_GsulpAzora_G61:0.04655,galdieria_sulphuraria_GsulpAzora_G2238:0.00054)n2:0.13572)n1:0.685015)n0;

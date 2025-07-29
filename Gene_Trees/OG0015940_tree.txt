@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S1G490600:0.20755,((chara_braunii_CBR_g39439:1.06769,chara_braunii_CBR_g27909:0.00054)n2:0.10689,(chara_braunii_CBR_g41267:0.11568,(chara_braunii_CBR_g79209:0.08662,(chara_braunii_CBR_g23262:0.06225,chara_braunii_CBR_g58304:0.05437)n5:0.01)n4:0.01204)n3:0.30317)n1:0.20755)n0;

@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.11G024870:0.893385,(hordeum_vulgare_Hvul_3HG0225000:0.10382,(aegilops_tauschii_Atau_XP_020177429:0.1532,(triticum_aestivum_TraesCS3B03G0099200:0.10549,(triticum_aestivum_TraesCS3A03G0080500:0.05901,(triticum_aestivum_TraesCS3A03G0081500:0.09577,triticum_aestivum_TraesCS3D03G0071200:0.05016)n5:0.070407)n4:0.0070407)n3:0.0007823)n2:0.01482)n1:0.07497)n0;

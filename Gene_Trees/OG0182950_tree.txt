@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10022212m:0.670165,(sorghum_bicolor_Sobic.003G193400:0.01064,(((oropetium_thomaeum_Oropetium_20150105_23964A:0.00054,oropetium_thomaeum_Oropetium_20150105_27595A:0.00829)n4:0.16651,setaria_italica_Seita.5G205600:0.69641)n3:0.1022,miscanthus_sinensis_MisinT194000:0.07328)n2:0.00179)n1:0.670165)n0;

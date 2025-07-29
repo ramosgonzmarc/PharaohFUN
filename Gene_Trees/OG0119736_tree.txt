@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_04680:0.142185,((solanum_tuberosum_Soltu.08G013000:0.41709,gossypium_hirsutum_Gohir.D02G070466:0.45025)n2:0.12167,((phaseolus_acutifolius_Phacu.001G079600:0.3945,(arachis_hypogaea_arahy_9QSV74:0.94598,arachis_hypogaea_arahy_X5R2L4:0.881136)n5:0.097904)n4:0.14751,vaccinium_darrowii_Vadar_g12319:0.50528)n3:0.1124)n1:0.142185)n0;

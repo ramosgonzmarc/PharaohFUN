@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH017093:0.18791,saponaria_officinalis_Sapof.10G174400:0.24392)n1:0.14935,(daucus_carota_DCAR_100650:0.32326,((coffea_arabica_Coara.067007:0.00055,coffea_arabica_Coara.070032:0.04093)n4:0.56368,(vaccinium_darrowii_Vadar_g39339:0.27147,solanum_tuberosum_Soltu.08G012130:0.19446)n5:0.025)n3:0.05517)n2:0.14935)n0;

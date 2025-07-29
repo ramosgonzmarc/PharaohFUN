@@ -1,0 +1,1 @@
+(cinnamomum_kanehirae_CKAN_02369900:0.227765,((welwitschia_mirabilis_Wmi_03483:0,welwitschia_mirabilis_Wmi_03484:0)n2:0.78436,welwitschia_mirabilis_Wmi_07593:0.23357)n1:0.227765)n0;

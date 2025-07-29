@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c16_13150V6:0.77969,(sphagnum_fallax_Sphfalx02G153600:0.19946,sphagnum_fallax_Sphfalx01G037700:0.000747)n2:8.3e-05)n1:0.06079,(pleurozium_schreberi_Plsch.03074:0.05449,pleurozium_schreberi_Plsch.11377:0.08477)n3:0.11559)n0;

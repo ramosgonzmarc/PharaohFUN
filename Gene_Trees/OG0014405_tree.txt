@@ -1,0 +1,1 @@
+(((physcomitrium_patens_Pp6c4_10650V6:0.00054,physcomitrium_patens_Pp6c6_12830V6:0.00054)n2:0.26828,(physcomitrium_patens_Pp6c14_8530V6:0.66596,physcomitrium_patens_Pp6c14_10020V6:0.00054)n3:0.13108)n1:0.2629,(alsophila_spinulosa_Aspi01Gene20082:0.23797,(taxus_chinensis_KI387_025902:0.35691,taxus_chinensis_KI387_023035:0.54246)n5:0.50404)n4:0.2629)n0;

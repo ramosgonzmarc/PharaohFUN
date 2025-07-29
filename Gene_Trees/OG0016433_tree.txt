@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_26839:0.606995,((isoetes_sinensis_IsiChr18g16:0.61195,selaginella_moellendorffii_Smoe_71839:0.37548)n2:0.14998,(isoetes_sinensis_IsiChr2g259:0.63499,(selaginella_moellendorffii_Smoe_82521:0.01362,selaginella_moellendorffii_Smoe_139075:0.00054)n4:0.319176)n3:0.035464)n1:0.606995)n0;

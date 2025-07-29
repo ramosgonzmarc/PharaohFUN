@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9464266:0.80038,(isoetes_sinensis_IsiScaffold3714g8:0.22819,(isoetes_sinensis_IsiChr6g3541:0.09915,(isoetes_sinensis_IsiChr18g1813:0.16123,(isoetes_sinensis_IsiChr4g1200:0.02907,isoetes_sinensis_IsiChr10g4125:0.03263)n4:0.00185)n3:0.05912)n2:0.02871)n1:0.80038)n0;

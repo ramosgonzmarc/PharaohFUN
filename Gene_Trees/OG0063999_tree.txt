@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00169g24:0.32042,(daucus_carota_DCAR_205480:1.17984,(linum_usitatissimum_Lus10009567:0.81776,oropetium_thomaeum_Oropetium_20150105_09501A:0.55378)n2:0.17838)n1:0.32042)n0;

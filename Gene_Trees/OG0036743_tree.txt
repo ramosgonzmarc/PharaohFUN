@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_38185:0.49281,ginkgo_biloba_Gb_10128:0.49207)n1:0.188225,(ananas_comosus_Aco022570:0.92998,ananas_comosus_Aco003230:0.65215)n2:0.188225)n0;

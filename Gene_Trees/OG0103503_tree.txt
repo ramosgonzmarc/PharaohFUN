@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc30497:0.262065,(cymbomonas_tetramitiformis_KAK3282346:0.92794,(bryopsis_sp_Bsp_GMH41325:0.00054,bryopsis_sp_Bsp_GMH45836:0.13382)n2:0.70074)n1:0.262065)n0;

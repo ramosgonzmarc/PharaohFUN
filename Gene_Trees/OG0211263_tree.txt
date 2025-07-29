@@ -1,0 +1,1 @@
+(cicer_arietinum_Ca_12779:0.235285,(lens_culinaris_Lecul.7g054690:0.24559,(trifolium_pratense_Trpra.26635:0.73607,medicago_truncatula_Medtr4g099520:0.07483)n2:0.06583)n1:0.235285)n0;

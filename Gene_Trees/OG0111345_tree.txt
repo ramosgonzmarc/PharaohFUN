@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.O00016:0.313605,(spirodela_polyrhiza_Spipo0G0101700:0.55911,(eucalyptus_grandis_Eucgr.J02714:0.02562,brassica_oleracea_Bol029608:1.07006)n2:0.26169)n1:0.313605)n0;

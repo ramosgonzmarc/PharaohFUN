@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62037109:0.23756,(sequoia_sempervirens_SESE_136368:1.05234,(ginkgo_biloba_Gb_10950:0.75415,((ginkgo_biloba_Gb_26308:0.07248,ginkgo_biloba_Gb_37939:0.05397)n4:0.02518,(ginkgo_biloba_Gb_05540:0.0422,(ginkgo_biloba_Gb_19343:0.0279,(ginkgo_biloba_Gb_27111:0.05762,ginkgo_biloba_Gb_12017:0.0474)n7:0.00631)n6:0.00692)n5:0.00053)n3:0.24695)n2:0.61401)n1:0.23756)n0;

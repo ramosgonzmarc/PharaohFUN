@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S4G116000:0.22234,(alsophila_spinulosa_Aspi01Gene44358:0.11338,(cucumis_sativus_Cucsa.c213630g01:0.47448,theobroma_cacao_Thecc1EG039088:0.64168)n2:0.36219)n1:0.22234)n0;

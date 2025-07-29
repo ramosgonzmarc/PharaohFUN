@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_27122:0.076755,(malus_domestica_MD14G1190100:0.05189,((triticum_aestivum_TraesCS4A03G0593400:0,triticum_aestivum_TraesCS4B03G0214900:0)n3:0.00925,triticum_aestivum_TraesCS4D03G0178600:0.00054)n2:0.14785)n1:0.076755)n0;

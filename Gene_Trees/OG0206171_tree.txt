@@ -1,0 +1,1 @@
+(sisymbrium_irio_Siiris693g00020:0.0541,((sisymbrium_irio_Siiric212363g00020:0.04888,sisymbrium_irio_Siiris327g00010:0.10214)n2:0.03272,(((sisymbrium_irio_Siiris1364g00060:1.04766,sisymbrium_irio_Siiris84g00090:0.15924)n5:0.05909,sisymbrium_irio_Siiric194309g00010:0.10656)n4:0.05547,sisymbrium_irio_Siiris221g00050:0.42907)n3:0.04716)n1:0.0541)n0;

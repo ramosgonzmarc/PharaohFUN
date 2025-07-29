@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_008432:0.20355,(lycopodium_clavatum_Lcl_0005358:0.41674,((isoetes_sinensis_IsiChr15g2190:0.14322,(isoetes_sinensis_IsiChr8g3530:0.01472,isoetes_sinensis_IsiChr7g3780:0.07425)n4:0.15583)n3:0.10445,(isoetes_sinensis_IsiScaffold3g2:0.00054,isoetes_sinensis_IsiChr18g1156:0.00672)n5:0.01667)n2:0.36286)n1:0.20355)n0;

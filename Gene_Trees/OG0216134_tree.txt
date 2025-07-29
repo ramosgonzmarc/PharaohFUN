@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.A01078:0,(mimulus_guttatus_Migut.C00298:0,mimulus_guttatus_Migut.C00308:0,(mimulus_guttatus_Migut.G00894:0.01103,(mimulus_guttatus_Migut.G00891:0.00507,(mimulus_guttatus_Migut.G00888:0.00055,mimulus_guttatus_Migut.C00301:0.21904)n4:0.16059)n3:0.09737)n2:0.01007)n1:0)n0;

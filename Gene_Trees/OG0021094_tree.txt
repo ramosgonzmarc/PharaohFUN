@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_20089:0.825405,(ginkgo_biloba_Gb_20731:0.09835,(ginkgo_biloba_Gb_20730:0.00055,ginkgo_biloba_Gb_20732:0.99223)n2:0.1838)n1:0.825405)n0;

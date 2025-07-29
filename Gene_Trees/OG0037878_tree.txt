@@ -1,0 +1,1 @@
+((picea_abies_Pab_10431507g0030:0.00053,sequoia_sempervirens_SESE_034262:0.3183)n1:0.510715,(isoetes_sinensis_IsiChr11g2274:0.00055,isoetes_sinensis_IsiChr12g2202:0.00256)n2:0.510715)n0;

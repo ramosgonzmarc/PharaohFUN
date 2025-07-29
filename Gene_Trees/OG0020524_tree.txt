@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub_45605:0.78144,(spirogloea_muscicola_SM000343S12825:0.03068,(spirogloea_muscicola_SM000014S00355:0.0453,spirogloea_muscicola_SM000142S00526:0.03985)n2:0.00943)n1:0.78144)n0;

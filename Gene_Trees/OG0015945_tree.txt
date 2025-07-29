@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG003070:0.66894,(chara_braunii_CBR_g11086:0.04086,(chara_braunii_CBR_g8889:0.39115,(chara_braunii_CBR_g45831:0.1629,(chara_braunii_CBR_g23543:0.19852,(chara_braunii_CBR_g51252:0.08035,chara_braunii_CBR_g36323:0.06339)n5:0.00343)n4:0.02661)n3:0.01209)n2:0.03424)n1:0.66894)n0;

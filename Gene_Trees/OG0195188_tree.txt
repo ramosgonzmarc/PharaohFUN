@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29378975s0005:0.13872,(ananas_comosus_Aco021890:0.04875,(nymphaea_colorata_Nycol.O00353:0.11055,nymphaea_colorata_Nycol.O02023:0.00055)n2:0.02332)n1:0.13872)n0;

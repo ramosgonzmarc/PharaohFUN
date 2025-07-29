@@ -1,0 +1,1 @@
+(olea_europaea_Oeu015195:0.117145,((cicer_arietinum_Ca_19720:1.95792,sisymbrium_irio_Siiris230g00030:0.39689)n2:0.14899,(malus_domestica_MD06G1061700:0.07838,malus_domestica_MD16G1238100:0.06201)n3:0.07885)n1:0.117145)n0;

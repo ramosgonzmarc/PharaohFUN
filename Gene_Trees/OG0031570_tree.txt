@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.A01G022550:0.00055,gossypium_raimondii_Gorai.001G166900:0.01644)n1:0.068155,((arabidopsis_thaliana_AT2G07713:0,arabidopsis_thaliana_ATMG00540:0,capsella_grandiflora_Cagra.8346s0005:0)n3:0.00777,boechera_stricta_Bostr.9928s0002:0.00054)n2:0.068155)n0;

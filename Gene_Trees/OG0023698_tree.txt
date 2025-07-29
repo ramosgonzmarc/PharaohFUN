@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.03158:0.14061,(ceratopteris_richardii_Ceric.1Z146700:0.67488,(aquilegia_coerulea_Aqcoe3G128500:0.10269,thuja_plicata_Thupl.29380640s0004:0.24915)n2:0.21359)n1:0.14061)n0;

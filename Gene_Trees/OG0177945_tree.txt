@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum_Zci_05098:0.83313,(marsilea_vestita_Mvestita_S16g10723:0.57941,((azolla_filiculoides_Azfi_s0273.g061331:0.40295,azolla_filiculoides_Azfi_s0304.g063813:0.32658)n3:0.28116,(adiantum_capillus_Adc03468:0.57816,salvinia_cucullata_Sacu_s0218.g026102:0.70222)n4:0.10223)n2:0.18813)n1:0.83313)n0;

@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.4g008280:1.17729,(trifolium_pratense_Trpra.31060:0.04163,(trifolium_pratense_Trpra.04484:0.07892,trifolium_pratense_Trpra.41131:0.18428)n3:0.43006)n2:0.2486)n1:0.26263,(phaseolus_acutifolius_Phacu.L002530:0.14214,(phaseolus_acutifolius_Phacu.001G139700:0.00055,phaseolus_acutifolius_Phacu.004G137400:0.08456)n5:0.00319)n4:0.26263)n0;

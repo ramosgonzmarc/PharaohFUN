@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr2g015750:0.379115,(prunus_persica_Prupe.4G274600:0.46388,(fragaria_vesca_FvH4_2g24390:0.48267,fragaria_vesca_FvH4_2g24671:0.57482)n2:0.36026)n1:0.379115)n0;

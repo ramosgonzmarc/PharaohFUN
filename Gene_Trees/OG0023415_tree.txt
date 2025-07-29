@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaB01G0142:0.2074,(ginkgo_biloba_Gb_38639:0.55391,(amborella_trichopoda_AmTr00114g42:0.8273,cinnamomum_kanehirae_CKAN_02761900:0.28951)n2:0.34903)n1:0.2074)n0;

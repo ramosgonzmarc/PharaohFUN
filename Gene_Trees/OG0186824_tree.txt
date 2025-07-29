@@ -1,0 +1,1 @@
+((anthoceros_punctatus_Anpun.S3G418800:1.30147,paraphymatoceros_pearsonii_Papea.S1G782300:0.51785)n1:0.11401,(sphagnum_magellanicum_Sphmag05G000400:0.18688,(sphagnum_fallax_Sphfalx08G022900:0.43784,sphagnum_fallax_Sphfalx17G103600:0.266832)n3:0.029648)n2:0.19191)n0;

@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3235675:0.760365,(picochlorum_soloecismus_NSC_02589:1.83542,(chlorella_sorokiniana_Chlso_g9582:0.29376,(raphidocelis_subcapitata_Rsub_11910:0.2891,monoraphidium_minutum_Momin.435890:0.20724)n3:0.25464)n2:0.03051)n1:0.760365)n0;

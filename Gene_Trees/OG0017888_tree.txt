@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp33S00388:0.398545,(ostreococcus_tauri_ostta04g02120:0.58769,((cymbomonas_tetramitiformis_KAK3284248:0.01002,cymbomonas_tetramitiformis_KAK3284249:0.05441)n3:0.89243,(micromonas_commoda_Micom.058032:0.39029,(ostreococcus_mediterraneus_Ostme02g02180:0.5908,micromonas_pusilla_Mpus_57113:0.41957)n5:0.21562)n4:0.44555)n2:0.22408)n1:0.398545)n0;

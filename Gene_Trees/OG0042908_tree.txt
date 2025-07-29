@@ -1,0 +1,1 @@
+(zea_mays_Zm00001d053896:0.069875,(miscanthus_sinensis_Misin07G019200:0.02717,((sorghum_bicolor_Sobic.003G134950:0.25766,miscanthus_sinensis_Misin06G115200:0.16117)n3:0.0269,(miscanthus_sinensis_Misin06G115000:0.17655,sorghum_bicolor_Sobic.004G017700:0.040473)n4:0.004497)n2:0.01605)n1:0.069875)n0;

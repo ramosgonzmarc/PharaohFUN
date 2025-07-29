@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene45226:0.4706,((picea_abies_Pab_3234g0010:0.16207,picea_abies_Pab_70177g0010:0.74681)n2:0.0043,(taxus_chinensis_KI387_034919:0.11225,sequoiadendron_giganteum_SEGI_31618:0.18057)n3:0.22749)n1:0.4706)n0;

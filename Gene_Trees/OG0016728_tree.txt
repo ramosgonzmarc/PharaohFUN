@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S4G453400:0.25766,(takakia_lepidozioides_Tle2c06205:0.91899,((takakia_lepidozioides_Tle1c02883:0.15309,(takakia_lepidozioides_Tle1c06313:0.00054,takakia_lepidozioides_Tle1c08000:0.02018)n4:0.15707)n3:0.06243,(takakia_lepidozioides_Tle4c04073:0.19114,takakia_lepidozioides_Tle1c04873:0.48949)n5:0.00055)n2:0.54473)n1:0.25766)n0;

@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c01188:0.03318,(takakia_lepidozioides_Tle4c00207:0.03957,(takakia_lepidozioides_Tle3c01722:0.02442,takakia_lepidozioides_Tle3c03964:0.05834)n2:0.098)n1:0.03318)n0;

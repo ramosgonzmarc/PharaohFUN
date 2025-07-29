@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.14G108850:0.35162,((malus_domestica_MD16G1035300:0.2927,prunus_persica_Prupe.1G319400:0.15317)n2:0.35135,(carya_illinoinensis_Caril.05G240400:0.2475,(quercus_rubra_Qurub.01G209400:0.24549,corylus_avellana_Corav.g3927:0.23349)n4:0.02007)n3:0.14776)n1:0.35162)n0;

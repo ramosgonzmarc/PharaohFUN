@@ -1,0 +1,1 @@
+(oryza_sativa_Os04g01920:0.49465,(setaria_italica_Seita.1G092200:0.15574,(setaria_italica_Seita.5G323700:0.16247,setaria_italica_Seita.9G353000:0.03953)n2:0.10929)n1:0.49465)n0;

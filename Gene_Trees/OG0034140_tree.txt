@@ -1,0 +1,1 @@
+(paraphymatoceros_pearsonii_Papea.S1G834500:0.590685,(isoetes_sinensis_IsiChr18g3082:0.58213,(cycas_panzhihuaensis_CYCAS_030411:0.27153,medicago_truncatula_Medtr5g029775:0.99973)n2:0.00054)n1:0.590685)n0;

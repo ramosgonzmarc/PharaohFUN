@@ -1,0 +1,1 @@
+((marchantia_paleacea_Mapa_003813:0.68019,(leiosporoceros_dussii_Ledus.S4G074900:0.4748,anthoceros_fusiformis_Anfus.S1G542900:0.83683)n2:0.19069)n1:0.04729,(isoetes_sinensis_IsiChr1g2974:0.52668,isoetes_sinensis_IsiChr6g4898:0.53096)n3:0.04729)n0;

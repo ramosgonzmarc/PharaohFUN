@@ -1,0 +1,1 @@
+((micromonas_pusilla_Mpus_191450:0.46342,pedinophyceae_sp_Pesp.9461973:0.65215)n1:0.218125,(desmodesmus_armatus_Desar.387400:1.0409,(caulerpa_lentillifera_Caule_g7629:0.77273,(cymbomonas_tetramitiformis_KAK3267840:1.07668,(ostreobium_quekettii_CAD7704626:0.4988,bryopsis_sp_Bsp_GMH41064:0.18971)n5:0.16697)n4:0.22372)n3:0.17712)n2:0.218125)n0;

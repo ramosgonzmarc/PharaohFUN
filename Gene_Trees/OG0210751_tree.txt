@@ -1,0 +1,1 @@
+(lens_culinaris_Lecul.6g044260:0.491245,((arachis_hypogaea_arahy_A3N3TR:0.73619,(arachis_hypogaea_arahy_US0JF3:0.08343,arachis_hypogaea_arahy_RRN87R:0.0715)n3:0.7034)n2:0.28027,(arachis_hypogaea_arahy_9DM7NS:0.8522,arachis_hypogaea_arahy_9242HH:1.22305)n4:0.1798)n1:0.491245)n0;

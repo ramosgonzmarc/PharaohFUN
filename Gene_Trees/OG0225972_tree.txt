@@ -1,0 +1,1 @@
+(diphasiastrum_complanatum_Dicom.01G174000:0.234605,((diphasiastrum_complanatum_Dicom.21G051100:0.64793,diphasiastrum_complanatum_Dicom.08G114800:0.72019)n2:0.4417,(diphasiastrum_complanatum_Dicom.14G052500:0.78171,diphasiastrum_complanatum_Dicom.15G072700:0.58281)n3:0.18117)n1:0.234605)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00333_0090:0.56635,(huperzia_asiatica_HaA19G0125:0.00053,(huperzia_asiatica_HaA19G0147:0.07634,huperzia_asiatica_HaB19G0585:0.01996)n2:0.07032)n1:0.56635)n0;

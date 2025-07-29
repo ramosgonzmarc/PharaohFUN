@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c07395:0.186565,(((taxus_chinensis_KI387_011668:0.24922,(taxus_chinensis_KI387_033365:0.67292,taxus_chinensis_KI387_029131:0.03784)n4:0.10727)n3:0.60784,(medicago_truncatula_Medtr2g104240:0.28503,medicago_truncatula_Medtr3g048930:0.752607)n5:0.083623)n2:0.36627,poncirus_trifoliata_Ptrif.0005s1973:0.49586)n1:0.186565)n0;

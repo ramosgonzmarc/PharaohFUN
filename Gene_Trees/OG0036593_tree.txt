@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr16g3162:0.261425,(ginkgo_biloba_Gb_19528:0.7248,(triticum_aestivum_TraesCS4A03G0833600:0.63342,zea_mays_Zm00001d052264:0.29279)n2:0.43801)n1:0.261425)n0;

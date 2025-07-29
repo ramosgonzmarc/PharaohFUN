@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_RY0Y5E:0.77737,(arachis_hypogaea_arahy_LXK470:0.134,arachis_hypogaea_arahy_KY8EX7:0.06571)n2:0.68239)n1:0.06087,(cicer_arietinum_Ca_25133:0.04267,cicer_arietinum_Ca_17817:0.06201)n3:0.06087)n0;

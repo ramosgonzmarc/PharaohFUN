@@ -1,0 +1,1 @@
+((olea_europaea_Oeu002127:0.74047,(olea_europaea_Oeu048640:0.64308,((olea_europaea_Oeu018300:0.00052,olea_europaea_Oeu048470:0.21555)n4:0.05374,(olea_europaea_Oeu050957:0.0269,olea_europaea_Oeu050954:0.00055)n5:0.63304)n3:0.46958)n2:0.64474)n1:0.048315,(phaeomegaceros_chiloensis_Phchi.S6G074500:1.04827,physcomitrium_patens_Pp6c23_5140V6:0.48575)n6:0.048315)n0;

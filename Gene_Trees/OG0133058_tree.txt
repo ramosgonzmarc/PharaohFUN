@@ -1,0 +1,1 @@
+((spirodela_polyrhiza_Spipo10G0044300:0.09788,spirodela_polyrhiza_Spipo10G0043500:0.04993)n1:0.72599,(eutrema_salsugineum_Thhalv10027238m:0.66456,(malus_domestica_MD10G1059000:0.31574,prunus_persica_Prupe.8G078300:0.18931)n3:0.03064)n2:0.72599)n0;

@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA24G0164:0.01216,huperzia_asiatica_HaA68G0508:0.00055)n1:0.391205,(cycas_panzhihuaensis_CYCAS_004673:0.12826,(sequoiadendron_giganteum_SEGI_22140:0.36063,(sequoiadendron_giganteum_SEGI_03396:0.26401,sequoiadendron_giganteum_SEGI_20988:0.272925)n4:0.0272925)n3:0.0030325)n2:0.07297)n0;

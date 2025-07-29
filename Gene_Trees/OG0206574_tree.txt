@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol019574:0.29829,schrenkiella_parvula_Scpar4g30010:0.0317)n1:0.59148,(gossypium_hirsutum_Gohir.D11G125100:0.35382,theobroma_cacao_Thecc1EG004454:0.13083)n2:0.59148)n0;

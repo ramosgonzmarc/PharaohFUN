@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr11g2362:0.43134,isoetes_sinensis_IsiChr10g1516:0.00055)n1:0.69976,(anthoceros_agrestis_AnagrOXF.S1G131600:0.14876,anthoceros_punctatus_Anpun.S2G465000:0.18341)n2:0.69976)n0;

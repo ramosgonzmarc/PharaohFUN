@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S2G067200:0.190675,(megaceros_flagellaris_Mefla.S1G436200:0.77374,(anthoceros_fusiformis_Anfus.S2G222600:0.05594,(anthoceros_punctatus_Anpun.S2G341500:0.02349,anthoceros_agrestis_AnagrOXF.S1G274500:0.02553)n3:0.02844)n2:0.47491)n1:0.190675)n0;

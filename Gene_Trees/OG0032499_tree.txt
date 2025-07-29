@@ -1,0 +1,1 @@
+(ostreobium_quekettii_CAD7700211:0.80278,(azolla_filiculoides_Azfi_s0304.g063834:0.44679,(ceratopteris_richardii_Ceric.17G043000:0.31343,adiantum_capillus_Adc29163:0.21022)n2:0.17581)n1:0.80278)n0;

@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA68G0416:0.443965,((physcomitrium_patens_Pp6c4_12090V6:0.22518,funaria_hygrometrica_Fuhyg.17697:0.18062)n2:0.39054,(ceratodon_purpureus_CepurR40.5G068900:0.99935,(ceratodon_purpureus_CepurR40.1G168100:0.80229,ceratodon_purpureus_CepurR40.4G112900:0.53639)n4:0.124902)n3:0.013878)n1:0.33427)n0;

@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.16268:0.618315,(cymbomonas_tetramitiformis_KAK3239158:0.33477,(cymbomonas_tetramitiformis_KAK3260552:0.03794,(cymbomonas_tetramitiformis_KAK3274799:0.00307,(cymbomonas_tetramitiformis_KAK3274797:0.00055,cymbomonas_tetramitiformis_KAK3274798:0.00055)n4:0.003)n3:0.04254)n2:0.16677)n1:0.618315)n0;

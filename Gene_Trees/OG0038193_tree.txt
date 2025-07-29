@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaB68G1381:0.26317,trifolium_pratense_Trpra.34688:0.94792)n1:0.060055,((isoetes_sinensis_IsiChr17g355:0.00203,isoetes_sinensis_IsiChr18g51:0.00377)n3:0.41207,(azolla_filiculoides_Azfi_s0288.g063250:0.60644,azolla_filiculoides_Azfi_s0284.g063081:0.74111)n4:0.15574)n2:0.060055)n0;

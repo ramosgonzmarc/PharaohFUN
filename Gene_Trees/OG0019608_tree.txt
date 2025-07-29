@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.06182:0.24265,((arabidopsis_thaliana_AT3G28922:0.52055,sequoiadendron_giganteum_SEGI_39794:0.62522)n2:0.37481,(alsophila_spinulosa_Aspi01Gene30604:0.00055,(alsophila_spinulosa_Aspi01Gene30606:0,alsophila_spinulosa_Aspi01Gene30609:0)n4:0.01481)n3:0.0222)n1:0.24265)n0;

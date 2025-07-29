@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.9P13100_001:0.32546,(huperzia_asiatica_HaA67G0419:0.45528,(isoetes_sinensis_IsiChr22g3614:0.00132,((isoetes_sinensis_IsiChr18g4704:0.11506,(isoetes_sinensis_IsiChr7g780:0.08853,isoetes_sinensis_IsiChr22g5394:0.04561)n5:0.02959)n4:0.22329,isoetes_sinensis_IsiChr21g3316:0.00055)n3:0.00054)n2:0.37981)n1:0.32546)n0;

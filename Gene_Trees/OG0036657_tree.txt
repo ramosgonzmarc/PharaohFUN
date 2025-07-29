@@ -1,0 +1,1 @@
+(asparagus_officinalis_AsparagusV1_07.2900:0.787335,((ginkgo_biloba_Gb_03466:0.09329,ginkgo_biloba_Gb_00155:0.21594)n2:0.3902,(picea_abies_Pab_7611897g0010:0.46713,(sequoia_sempervirens_SESE_088252:0.46368,sequoiadendron_giganteum_SEGI_00904:0.37779)n4:0.12708)n3:0.11551)n1:0.787335)n0;

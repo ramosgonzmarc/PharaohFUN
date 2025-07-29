@@ -1,0 +1,1 @@
+(beta_vulgaris_Bevul.5G148400:0.0897,(mimulus_guttatus_Migut.E01132:0.17369,(lactuca_sativa_Lsat_gn_3_62201:0.69635,(lactuca_sativa_Lsat_gn_9_49181:0,lactuca_sativa_Lsat_gn_6_67941:0,lactuca_sativa_Lsat_gn_5_126261:0)n3:0.57335)n2:0.33286)n1:0.0897)n0;

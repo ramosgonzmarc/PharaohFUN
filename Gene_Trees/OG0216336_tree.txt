@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_5_125700:0.51049,lactuca_sativa_Lsat_gn_5_125660:0.12377)n1:0.242135,(mimulus_guttatus_Migut.M00605:0.09377,(mimulus_guttatus_Migut.M00606:0.22772,mimulus_guttatus_Migut.M00565:0.00055)n3:0.04653)n2:0.242135)n0;

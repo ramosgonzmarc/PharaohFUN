@@ -1,0 +1,1 @@
+((gnetum_montanum_TnS000603279t05:1.11325,medicago_truncatula_Medtr5g031770:0.61115)n1:0.002765,((ginkgo_biloba_Gb_10768:0.22301,sequoiadendron_giganteum_SEGI_41140:0.32377)n3:0.174,vaccinium_darrowii_Vadar_g12950:0.54548)n2:0.002765)n0;

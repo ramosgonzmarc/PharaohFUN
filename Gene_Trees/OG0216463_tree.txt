@@ -1,0 +1,1 @@
+((solanum_tuberosum_Soltu.08G029740:0.24679,solanum_tuberosum_Soltu.08G029730:0.20181)n1:0.691435,(coffea_arabica_Coara.069775:0.00055,coffea_arabica_Coara.072904:0.02651)n2:0.691435)n0;

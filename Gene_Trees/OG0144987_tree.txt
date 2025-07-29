@@ -1,0 +1,1 @@
+((olea_europaea_Oeu038319:0.39579,mimulus_guttatus_Migut.J00042:0.69836)n1:0.322375,(fragaria_vesca_FvH4_6g09930:0.67346,theobroma_cacao_Thecc1EG019705:0.37622)n2:0.322375)n0;

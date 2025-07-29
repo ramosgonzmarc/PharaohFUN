@@ -1,0 +1,1 @@
+((micromonas_commoda_Micom.064962:1.27076,myrmecia_bisecta_Mybis.KAK9807538:0.98218)n1:0.213565,(cymbomonas_tetramitiformis_KAK3253056:0.49193,tetraselmis_striata_TSEL_022298:0.52956)n2:0.213565)n0;

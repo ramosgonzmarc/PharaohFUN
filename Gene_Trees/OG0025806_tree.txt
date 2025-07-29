@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_21154:0.32339,welwitschia_mirabilis_Wmi_15367:0.72427)n1:0.080195,(((carica_papaya_Capac.c01334g001:0.52481,(ananas_comosus_Aco028013:0.74686,ananas_comosus_Aco007783:0.348813)n5:0.038757)n4:0.18055,(oryza_sativa_Os10g22850:0.75374,setaria_italica_Seita.7G241900:0.03433)n6:0.77757)n3:0.19015,corylus_avellana_Corav.g28052:0.74742)n2:0.080195)n0;

@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29382001s0001:0.194915,(selaginella_moellendorffii_Smoe_111428:0.66166,(isoetes_sinensis_IsiChr9g1941:0.47005,isoetes_sinensis_IsiChr10g883:1.27759)n2:0.141954)n1:0.37903)n0;

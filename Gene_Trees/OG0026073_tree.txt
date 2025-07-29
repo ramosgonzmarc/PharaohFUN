@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S2G317100:0.23321,((isoetes_sinensis_IsiChr22g3108:0.00818,isoetes_sinensis_IsiChr21g2901:0.00055)n2:0.24291,(welwitschia_mirabilis_Wmi_17629:0.3144,(gnetum_montanum_TnS000502437t01:0.3411,(gnetum_montanum_TnS000189831t02:0.07478,gnetum_montanum_TnS000845803t01:0.18929)n5:0.261693)n4:0.029077)n3:0.21685)n1:0.23321)n0;

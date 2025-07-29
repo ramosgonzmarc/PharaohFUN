@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz08g08110:0.56603,(ceratodon_purpureus_CepurR40.7G165200:0.35069,(medicago_truncatula_Medtr2g028930:0.42978,medicago_truncatula_Medtr2g025200:0.39319)n2:0.19208)n1:0.56603)n0;

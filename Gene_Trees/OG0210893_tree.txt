@@ -1,0 +1,1 @@
+(cucumis_sativus_Cucsa.c139370g01:0.34478,((arachis_hypogaea_arahy_6FP08M:0,arachis_hypogaea_arahy_G6CZ3E:0,arachis_hypogaea_arahy_B6AFD4:0)n2:0.40729,trifolium_pratense_Trpra.25637:0.3777)n1:0.34478)n0;

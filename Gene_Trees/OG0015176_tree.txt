@@ -1,0 +1,1 @@
+(vigna_unguiculata_VigunL050700:0.523665,((riccia_fluitans_R1flu_020951:0.33042,(riccia_fluitans_R1flu_017901:0.07381,riccia_fluitans_R1flu_020953:0.23247)n3:0.52066)n2:1.0443,(riccia_fluitans_R1flu_000098:0.19859,(riccia_fluitans_R1flu_013888:0.00055,(riccia_fluitans_R1flu_010945:0.52684,riccia_fluitans_R1flu_024027:0.16185)n6:0.08405)n5:0.06368)n4:0.77223)n1:0.523665)n0;

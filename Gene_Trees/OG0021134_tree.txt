@@ -1,0 +1,1 @@
+((glycine_max_Glyma.07G001132:0.80718,((isoetes_sinensis_IsiChr17g818:0.38847,(gnetum_montanum_TnS000617517t02:0.15029,gnetum_montanum_TnS000006879t01:0.23865)n4:0.37879)n3:0.19836,isoetes_sinensis_IsiChr16g3672:0.453582)n2:0.050398)n1:0.16153,(taxus_chinensis_KI387_009713:0.00054,picea_abies_Pab_8845192g0010:0.25864)n5:0.36654)n0;

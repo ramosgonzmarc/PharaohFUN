@@ -1,0 +1,1 @@
+(carya_illinoinensis_Caril.12G011200:0.21876,(trifolium_pratense_Trpra.40527:0.27347,(vigna_unguiculata_Vigun05g163500:0.45327,(lupinus_albus_Lalb_Chr08g0235661:0.36414,(cicer_arietinum_Ca_13159:0.21419,(lupinus_albus_Lalb_Chr13g0303151:0.05632,lupinus_albus_Lalb_Chr07g0178111:0.24393)n5:0.03039)n4:0.055287)n3:0.006143)n2:0.23708)n1:0.05691)n0;

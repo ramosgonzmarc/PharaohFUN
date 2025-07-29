@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.6g013570:0.26681,trifolium_pratense_Trpra.01144:0.08246)n1:0.10653,(glycine_max_Glyma.16G067100:0.35979,phaseolus_acutifolius_Phacu.004G058600:0.45736)n2:0.10653)n0;

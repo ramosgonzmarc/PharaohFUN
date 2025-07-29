@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.15029:0.261305,((alsophila_spinulosa_Aspi01Gene37875:0.0154,alsophila_spinulosa_Aspi01Gene71377:0.01735)n2:0.4818,(sequoia_sempervirens_SESE_081408:0.00053,sequoia_sempervirens_SESE_080990:0.00951)n3:0.79304)n1:0.261305)n0;

@@ -1,0 +1,1 @@
+(sorghum_bicolor_Sobic.009G255400:0.347425,(brachypodium_distachyon_Bradi2g42140:0.41964,(hordeum_vulgare_Hvul_3HG0219150:0.2563,(triticum_aestivum_TraesCS3B03G0033500:0.00275,triticum_aestivum_TraesCS3B03G0015000:0.00256)n3:0.14651)n2:0.33312)n1:0.347425)n0;

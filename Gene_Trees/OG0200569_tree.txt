@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr8g088990:0.79707,(carya_illinoinensis_Caril.05G255900:0.54631,vitis_vinifera_VIT_216s0039g02280:0.04162)n2:0.01764)n1:0.267085,(musa_acuminata_Muacu.2P10320_001:0.09896,musa_acuminata_Muacu.2P10340_001:0.12478)n3:0.267085)n0;

@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_029859:0.11293,tetraselmis_striata_TSEL_010911:0.08284)n1:0.22845,(chlorokybus_atmophyticus_Chrsp208S00236:0.34362,(spirogloea_muscicola_SM000029S10491:0.01896,(spirogloea_muscicola_SM000019S05118:0.04125,(spirogloea_muscicola_SM000064S19735:0.00338,spirogloea_muscicola_SM000019S05120:0.14001)n5:0.02237)n4:0.01606)n3:0.47035)n2:0.22845)n0;

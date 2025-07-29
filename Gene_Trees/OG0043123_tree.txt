@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.3G142000:0.677265,((sphagnum_magellanicum_Sphmag03G099200:0.09852,sphagnum_fallax_Sphfalx03G104000:0.04691)n2:0.26741,(sphagnum_magellanicum_Sphmag13G072800:0.07918,sphagnum_fallax_Sphfalx13G074700:0.04786)n3:0.32608)n1:0.677265)n0;

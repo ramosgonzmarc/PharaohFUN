@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.C6G010400:0.175805,(tetraselmis_striata_TSEL_020807:0.47078,(tetraselmis_striata_TSEL_015867:0.56981,(tetraselmis_striata_TSEL_037572:0.88901,(tetraselmis_striata_TSEL_038532:0.3836,tetraselmis_striata_TSEL_039836:1.09407)n4:0.28146)n3:1.15447)n2:0.25823)n1:0.175805)n0;

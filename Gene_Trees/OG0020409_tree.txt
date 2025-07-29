@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3257347:0.00053,cymbomonas_tetramitiformis_KAK3258530:0.00055)n1:0.485575,(chlorokybus_atmophyticus_Chrsp96S09272:0.47496,(mesotaenium_endlicherianum_ME000121S00099:0.7826,(zygnema_circumcarinatum1559_ZcUTEX1559_00074:0.53555,zygnema_cylindricum_Zci1a_06245:0.59917)n4:0.33737)n3:0.79638)n2:0.485575)n0;

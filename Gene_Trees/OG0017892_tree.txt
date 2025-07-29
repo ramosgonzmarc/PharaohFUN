@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp59S06973:0.405715,(cymbomonas_tetramitiformis_KAK3288836:0.71854,((tetraselmis_striata_TSEL_021452:0.06702,tetraselmis_striata_TSEL_010509:0.05428)n3:0.75316,(micromonas_pusilla_Mpus_50451:0.56009,micromonas_commoda_Micom.108497:0.71302)n4:0.09737)n2:0.36406)n1:0.405715)n0;

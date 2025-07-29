@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3286593:0.2003,(tetraselmis_striata_TSEL_038016:0.80547,(ostreobium_quekettii_CAD7696007:0.73014,ostreobium_quekettii_CAD7698148:0.56549)n2:0.83022)n1:0.2003)n0;

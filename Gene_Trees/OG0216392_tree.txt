@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH013622:0.78682,saponaria_officinalis_Sapof.04G167900:0.12898)n1:0.46824,(solanum_tuberosum_Soltu.03G014070:0.09405,solanum_tuberosum_Soltu.11G026520:0.14891)n2:0.46824)n0;

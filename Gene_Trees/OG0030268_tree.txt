@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.07141:0.83824,(((chenopodium_quinoa_AUR62016032:0.2656,(sequoia_sempervirens_SESE_026294:0.38312,sequoia_sempervirens_SESE_036941:0.217287)n4:0.024143)n3:0.19019,sequoiadendron_giganteum_SEGI_14887:0.96997)n2:0.03486,(alsophila_spinulosa_Aspi01Gene09314:0.40254,alsophila_spinulosa_Aspi01Gene33503:0.07442)n5:0.16541)n1:0.83824)n0;

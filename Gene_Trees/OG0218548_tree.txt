@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS6A03G0236300:0.036305,(triticum_aestivum_TraesCS3D03G0469600:0.02836,((triticum_aestivum_TraesCS7B03G0077700:0.18397,triticum_aestivum_TraesCS5B03G0238900:0.12881)n3:0.08367,(triticum_aestivum_TraesCS6B03G0554500:0.05019,triticum_aestivum_TraesCS2B03G0123100:0.03594)n4:0.11489)n2:0.07818)n1:0.036305)n0;

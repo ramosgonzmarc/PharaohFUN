@@ -1,0 +1,1 @@
+((glycine_max_Glyma.18G245400:0.95568,(phaseolus_acutifolius_Phacu.008G051100:0.09491,vigna_unguiculata_Vigun05g050700:0.25098)n2:0.40573)n1:0.17573,(cicer_arietinum_Ca_06090:1.20366,(trifolium_pratense_Trpra.10618:0.04498,trifolium_pratense_Trpra.39004:0.12967)n4:0.82956)n3:0.17573)n0;

@@ -1,0 +1,1 @@
+(paraphymatoceros_pearsonii_Papea.S3G240200:0.01001,(paraphymatoceros_pearsonii_Papea.S3G261800:0.02717,(paraphymatoceros_pearsonii_Papea.S3G242900:0.0334,(paraphymatoceros_pearsonii_Papea.S2G146200:0.04715,paraphymatoceros_pearsonii_Papea.S2G146300:0.07372)n3:0.149)n2:0.00821)n1:0.01001)n0;

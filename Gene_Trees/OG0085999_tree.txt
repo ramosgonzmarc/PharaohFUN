@@ -1,0 +1,1 @@
+(helicosporidium_sp_Helsp_g3934:0.59406,((chlamydomonas_reinhardtii_Cre07.g328050_4532:0.01335,chlamydomonas_incerta_Chincg16044:0.08091)n2:0.10941,(gonium_pectorale_Gopec.03449:0.11752,(tetrabaena_socialis_Tesoc.PNH11067:0.16478,(tetrabaena_socialis_Tesoc.PNH11068:0.12727,volvox_carteri_Vocar.0017s0053:0.37199)n5:0.051624)n4:0.005736)n3:0.16149)n1:0.08268)n0;

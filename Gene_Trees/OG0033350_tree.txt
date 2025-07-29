@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g3004:0.45777,(micromonas_pusilla_Mpus_48995:0.45783,(micromonas_commoda_Micom.109310:0.44616,micromonas_commoda_Micom.106067:0.886041)n2:0.098449)n1:0.12357)n0;

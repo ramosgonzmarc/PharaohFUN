@@ -1,0 +1,1 @@
+((anthoceros_punctatus_Anpun.S1G189500:0.55202,paraphymatoceros_pearsonii_Papea.S1G1043800:0.45344)n1:0.38462,(isoetes_sinensis_IsiChr22g5002:0.29975,azolla_filiculoides_Azfi_s0139.g051165:0.55075)n2:0.38462)n0;

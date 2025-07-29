@@ -1,0 +1,1 @@
+((zostera_marina_Zosma06g09130:0.48704,oropetium_thomaeum_Oropetium_20150105_05424A:0.83559)n1:0.248235,(vigna_unguiculata_Vigun03g119600:0.0866,(vigna_unguiculata_Vigun03g119000:0.02705,vigna_unguiculata_Vigun03g118900:0.00055)n3:0.06789)n2:0.248235)n0;

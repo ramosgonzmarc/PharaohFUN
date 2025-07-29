@@ -1,0 +1,1 @@
+((asparagus_officinalis_AsparagusV1_06.1997:1.03179,prunus_persica_Prupe.1G234600:0.38385)n1:0.196495,(musa_acuminata_Muacu.11P22590_001:1.10913,(eucalyptus_grandis_Eucgr.L02674:0.19187,eucalyptus_grandis_Eucgr.B03703:0.14525)n3:0.16605)n2:0.196495)n0;

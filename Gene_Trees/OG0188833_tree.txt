@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.02091:0.17243,(zygnema_cylindricum_Zci1a_41280:0.43586,(takakia_lepidozioides_Tle3c01508:0.00055,sphagnum_fallax_Sphfalx04G140100:0.63413)n2:0.72136)n1:0.17243)n0;

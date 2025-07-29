@@ -1,0 +1,1 @@
+(picea_abies_Pab_10427257g0010:0.249225,(amborella_trichopoda_AmTr00018g42:1.22775,((malus_domestica_MD10G1334400:0.00224,medicago_truncatula_Medtr0128s0060:1.1076)n3:0.42055,solanum_lycopersicum_Solyc06g033960:0.60385)n2:0.16277)n1:0.249225)n0;

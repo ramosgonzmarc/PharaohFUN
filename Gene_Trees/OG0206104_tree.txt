@@ -1,0 +1,1 @@
+((corymbia_citriodora_Cocit.G1666:0,corymbia_citriodora_Cocit.G1664:0)n1:0.99609,((boechera_stricta_Bostr.0556s0318:0.21586,(brassica_oleracea_Bol038094:0.91708,brassica_oleracea_Bol023117:0.40311)n4:0.04479)n3:0.10649,(sisymbrium_irio_Siiris1491g00240:0.1616,thlaspi_arvense_TaMN106.1G307500:0.03101)n5:0.10753)n2:0.00053)n0;

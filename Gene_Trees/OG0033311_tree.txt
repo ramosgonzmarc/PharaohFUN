@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp7S07777:0.58032,gonium_pectorale_Gopec.10681:0.75371)n1:0.19706,(cucumis_sativus_Cucsa.c366690g01:0.87856,(haematococcus_lacustris_QJQ45_019929:1.00159,(micromonas_pusilla_Mpus_46744:0.43461,micromonas_commoda_Micom.057070:0.37419)n4:0.23407)n3:0.27124)n2:0.19706)n0;

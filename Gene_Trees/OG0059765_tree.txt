@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C12G006500:0.55568,(alsophila_spinulosa_Aspi01Gene54946:0.56112,(lycopodium_clavatum_Lcl_0018379:0.10624,lycopodium_clavatum_Lcl_0012890:0.189441)n2:0.021049)n1:0.11804)n0;

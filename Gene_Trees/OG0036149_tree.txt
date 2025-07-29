@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g43729:0.47687,(vitis_vinifera_VIT_207s0095g00490:0.27673,(eucalyptus_grandis_Eucgr.H04881:0.40993,carica_papaya_Capac.c00003g386:0.93817)n2:0.29445)n1:0.47687)n0;

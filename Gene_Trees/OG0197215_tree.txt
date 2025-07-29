@@ -1,0 +1,1 @@
+((manihot_esculenta_Manes.18G092750:0.516,asparagus_officinalis_AsparagusV1_08.2517:0.44029)n1:0.088265,(thuja_plicata_Thupl.29377209s0005:0.27723,picea_abies_Pab_531910g0010:0.48964)n2:0.088265)n0;

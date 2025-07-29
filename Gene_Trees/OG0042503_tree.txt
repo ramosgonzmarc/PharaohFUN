@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_QSB38G:0.75391,(sisymbrium_irio_Siiris1249g00040:0.70636,brassica_rapa_Brara.A03426:0.45131)n2:0.16194)n1:0.288175,(selaginella_moellendorffii_Smoe_74208:0.05994,selaginella_moellendorffii_Smoe_60649:0.05765)n3:0.288175)n0;

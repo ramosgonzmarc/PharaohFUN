@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc32240:0.433175,(((ginkgo_biloba_Gb_22372:0.00905,(ginkgo_biloba_Gb_22373:0.00058,(ginkgo_biloba_Gb_03092:0.24185,ginkgo_biloba_Gb_20718:0.1316)n5:0.23214)n4:1.01874)n3:0.01298,ginkgo_biloba_Gb_22374:0.01988)n2:0.54236,(ginkgo_biloba_Gb_20715:0.15904,(ginkgo_biloba_Gb_13591:0.01429,ginkgo_biloba_Gb_20714:0.01801)n7:0.1249)n6:0.60194)n1:0.433175)n0;

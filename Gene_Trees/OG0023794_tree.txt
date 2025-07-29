@@ -1,0 +1,1 @@
+((asterochloris_glomerata_Astgl_g7302:0.43293,myrmecia_bisecta_Mybis.KAK9812908:0.46823)n1:0.514075,(cymbomonas_tetramitiformis_KAK3264435:0.00991,cymbomonas_tetramitiformis_KAK3268851:0.00056)n2:0.514075)n0;

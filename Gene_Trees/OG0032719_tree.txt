@@ -1,0 +1,1 @@
+((chara_braunii_CBR_g38901:0.59696,mesotaenium_kramstae_Mekra.2823534:0.6806)n1:0.3295,(micromonas_pusilla_Mpus_69428:0.44232,micromonas_commoda_Micom.063118:0.32511)n2:0.3295)n0;

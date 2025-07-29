@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g25657:0.513235,(salvinia_cucullata_Sacu_s0001.g000221:0.50741,(salvinia_cucullata_Sacu_s0084.g018196:0.30789,salvinia_cucullata_Sacu_s0215.g026039:0.00054)n2:0.25565)n1:0.513235)n0;

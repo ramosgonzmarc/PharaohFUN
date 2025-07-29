@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv13084:0.1821,(((mesostigma_viride296_Mevir.Mv05435:0,mesostigma_viride296_Mevir.Mv01181:0,mesostigma_viride296_Mevir.Mv18785:0,mesostigma_viride296_Mevir.Mv07156:0)n3:0.00096,mesostigma_viride296_Mevir.Mv10466:0.01106)n2:0.43804,(mesostigma_viride296_Mevir.Mv14456:0.63938,mesostigma_viride296_Mevir.Mv14529:0.90711)n4:0.52245)n1:0.1821)n0;

@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S2G317300:0.55346,(abies_alba_AALBA5B1137183:0.02832,(picea_abies_Pab_10431337g0010:0.04272,picea_abies_Pab_10431337g0020:0.07882)n2:0.15918)n1:0.55346)n0;

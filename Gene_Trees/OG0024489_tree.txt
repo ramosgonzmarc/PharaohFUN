@@ -1,0 +1,1 @@
+((riccia_sorocarpa_Risor.KAL3692588:1.39635,(chlorokybus_atmophyticus_Chrsp109S01454:0.46345,chlorokybus_atmophyticus_Chrsp109S01455:0.28576)n2:0.35881)n1:0.088715,(chlorokybus_atmophyticus_Chrsp17S02677:0.49465,riccia_sorocarpa_Risor.KAL3690003:0.71362)n3:0.088715)n0;

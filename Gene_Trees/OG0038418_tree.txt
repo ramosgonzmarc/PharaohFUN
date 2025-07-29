@@ -1,0 +1,1 @@
+((gnetum_montanum_TnS000820667t05:0.63171,(carica_papaya_Capac.c01110g001:0.30518,citrus_sinensis_Cisin.047264:0.32627)n2:0.26854)n1:0.3879,(isoetes_sinensis_IsiChr15g455:0.01803,isoetes_sinensis_IsiChr16g412:0.00494)n3:0.3879)n0;

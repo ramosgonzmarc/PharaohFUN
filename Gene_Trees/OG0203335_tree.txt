@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_12367:0.242645,((arachis_hypogaea_arahy_95ZVRF:0,arachis_hypogaea_arahy_5UB2G1:0)n2:0.58506,boechera_stricta_Bostr.5325s0137:0.00054)n1:0.242645)n0;

@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene28003:0.32769,alsophila_spinulosa_Aspi01Gene28007:0.13479)n1:0.41817,((adiantum_capillus_Adc16941:0.41639,adiantum_capillus_Adc16943:0.31778)n3:0.37655,(adiantum_capillus_Adc16929:0.33533,adiantum_capillus_Adc16939:0.49776)n4:0.46017)n2:0.41817)n0;

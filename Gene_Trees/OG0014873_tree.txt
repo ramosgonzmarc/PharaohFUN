@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF41175:0.5312,((ostreobium_quekettii_CAD7696681:0.45088,tetraselmis_striata_TSEL_018604:0.49264)n2:0.16079,(cymbomonas_tetramitiformis_KAK3286850:0.76331,(cymbomonas_tetramitiformis_KAK3251369:0.00054,(cymbomonas_tetramitiformis_KAK3251372:0.00055,cymbomonas_tetramitiformis_KAK3251373:0.00055)n5:0.00053)n4:1.11605)n3:0.19928)n1:0.5312)n0;

@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.7g025080:0.78667,(eucalyptus_grandis_Eucgr.L02638:0.17138,corymbia_citriodora_Cocit.J1264:0.06769)n2:0.25147)n1:0.123815,(poncirus_trifoliata_Ptrif.0005s0837:0.8019,(medicago_truncatula_Medtr4g018840:0.29781,(trifolium_pratense_Trpra.17448:0.09737,trifolium_pratense_Trpra.00148:0.23915)n5:0.22631)n4:0.14414)n3:0.123815)n0;

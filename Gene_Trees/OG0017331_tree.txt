@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C1G276900:0.811385,(alsophila_spinulosa_Aspi01Gene26942:0.4441,(alsophila_spinulosa_Aspi01Gene08922:0.08882,(alsophila_spinulosa_Aspi01Gene34759:0.1369,(alsophila_spinulosa_Aspi01Gene32762:0.03082,alsophila_spinulosa_Aspi01Gene42649:0.22208)n4:0.01418)n3:0.05864)n2:0.09607)n1:0.811385)n0;

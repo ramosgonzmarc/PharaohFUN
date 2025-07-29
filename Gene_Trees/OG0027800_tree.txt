@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.C1410:0.602955,(spirogloea_muscicola_SM000151S01466:0.01911,(spirogloea_muscicola_SM000290S10897:0.04521,spirogloea_muscicola_SM000083S22764:0.04529)n2:0.04051)n1:0.602955)n0;

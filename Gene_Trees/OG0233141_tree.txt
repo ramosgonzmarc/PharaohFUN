@@ -1,0 +1,1 @@
+((haematococcus_lacustris_QJQ45_001067:0.26428,haematococcus_lacustris_QJQ45_027249:0.00055)n1:0.34907,(chlamydomonas_incerta_Chincg09724:0.2107,((volvox_carteri_Vocar.0003s0306:0.14385,(volvox_carteri_Vocar.0496s0001:0.03639,volvox_carteri_Vocar.0009s0345:0.0052)n5:0.0987)n4:0.10042,tetrabaena_socialis_Tesoc.PNH06587:0.08794)n3:0.07451)n2:0.34907)n0;

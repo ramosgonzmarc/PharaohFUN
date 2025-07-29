@@ -1,0 +1,1 @@
+(zostera_marina_Zosma07g01270:0.25409,(ostreobium_quekettii_CAD7694949:0.52097,(tetraselmis_striata_TSEL_038586:0.32652,tetraselmis_striata_TSEL_038585:0.542331)n2:0.060259)n1:0.74138)n0;

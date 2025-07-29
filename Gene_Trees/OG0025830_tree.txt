@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr1g553:0.03436,isoetes_sinensis_IsiChr5g3719:0.00054)n1:0.58376,(glycine_max_Glyma.17G146002:0.36332,lens_culinaris_Lecul.7g069030:0.07059)n2:0.58376)n0;

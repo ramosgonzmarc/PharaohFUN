@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT2G07290:0.465805,(schrenkiella_parvula_Scpar1g33290:0.64979,(brassica_oleracea_Bol024854:0.03964,brassica_oleracea_Bol032833:0.17565)n2:0.59815)n1:0.465805)n0;

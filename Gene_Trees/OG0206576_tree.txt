@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.D12G271200:0.556425,(sisymbrium_irio_Siiris1491g00080:0.05973,(brassica_oleracea_Bol031520:0.01443,brassica_rapa_Brara.I04967:0.02222)n2:0.08452)n1:0.556425)n0;

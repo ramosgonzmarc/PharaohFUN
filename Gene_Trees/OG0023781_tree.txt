@@ -1,0 +1,1 @@
+(asterochloris_glomerata_Astgl_g4577:0.37326,((volvox_carteri_Vocar.0003s0452:0.11412,(chlamydomonas_reinhardtii_Cre05.g232800_4532:0.04276,chlamydomonas_incerta_Chincg07062:0.03532)n3:0.16111)n2:0.00056,(dunaliella_salina_Dusal.0323s00003:0.45091,(desmodesmus_armatus_Desar.186157:0.32077,scenedesmus_obliquus_Sobl_g14839:0.16063)n5:0.30922)n4:0.16779)n1:0.37326)n0;

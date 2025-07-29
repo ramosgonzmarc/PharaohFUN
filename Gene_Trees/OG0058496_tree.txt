@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene24250:0.11864,(sequoia_sempervirens_SESE_032165:0.71271,(trifolium_pratense_Trpra.35429:0.47378,(chenopodium_quinoa_AUR62019756:0.60316,quercus_rubra_Qurub.05G255200:0.94273)n3:0.1639)n2:0.21893)n1:0.11864)n0;

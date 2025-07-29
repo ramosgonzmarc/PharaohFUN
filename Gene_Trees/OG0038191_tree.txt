@@ -1,0 +1,1 @@
+((poncirus_trifoliata_Ptrif.0005s0962:1.22177,(triticum_aestivum_TraesCS5A03G0355500:0.0117,triticum_aestivum_TraesCS5D03G0341000:0.00244)n2:0.68951)n1:0.15636,(isoetes_sinensis_IsiChr17g3690:0.00055,isoetes_sinensis_IsiChr18g3440:0.00442)n3:0.15636)n0;

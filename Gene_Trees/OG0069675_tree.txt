@@ -1,0 +1,1 @@
+((capsella_grandiflora_Cagra.7597s0001:0.00054,eutrema_salsugineum_Thhalv10005231m:1.29878)n1:0.078035,((arabidopsis_thaliana_AT2G23445:0.08058,arabidopsis_lyrata_Arlyr.AL4G13420:0.12954)n3:0.02799,(brassica_rapa_Brara.D01396:0.10995,(schrenkiella_parvula_Scpar4g02445:0.08034,thlaspi_arvense_TaMN106.4G284700:0.10044)n5:0.01275)n4:0.07711)n2:0.078035)n0;

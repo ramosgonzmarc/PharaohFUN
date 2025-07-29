@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.03G004910:0.471105,((malus_domestica_MD11G1233300:0.0388,prunus_persica_Prupe.4G193500:0.24895)n2:0.26048,(medicago_truncatula_Medtr5g079975:1.41268,medicago_truncatula_Medtr3g080900:0.465984)n3:0.051776)n1:0.28398)n0;

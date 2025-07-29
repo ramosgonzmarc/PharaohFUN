@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g8976:0.114555,(vitis_vinifera_VIT_200s0409g00070:0.43197,(vitis_vinifera_VIT_215s0046g00800:0.00054,vitis_vinifera_VIT_215s0046g00870:0.00055)n2:0.11131)n1:0.114555)n0;

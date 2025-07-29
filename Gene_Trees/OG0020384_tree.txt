@@ -1,0 +1,1 @@
+(chlorella_sorokiniana_Chlso_g5149:0.27664,(chlorella_sorokiniana_Chlso_g8422:0.14191,(chlorella_sorokiniana_Chlso_g8420:0.19746,chlorella_sorokiniana_Chlso_g8421:0.22488)n2:0.1254)n1:0.27664)n0;

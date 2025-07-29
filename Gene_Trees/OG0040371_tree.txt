@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9838983:0.47484,((caulerpa_lentillifera_Caule_g4298:0.04644,caulerpa_lentillifera_Caule_g4891:0.05284)n2:0.37554,(bryopsis_sp_Bsp_GMH41277:0.21108,(ostreobium_quekettii_CAD7699292:0.0442,ostreobium_quekettii_CAD7696869:0.02152)n4:0.3057)n3:0.07876)n1:0.47484)n0;

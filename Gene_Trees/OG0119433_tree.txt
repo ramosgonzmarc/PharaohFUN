@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.7G154400:0.317145,(ginkgo_biloba_Gb_00925:0.51328,(triticum_aestivum_TraesCS7A03G0620500:0.01983,(triticum_aestivum_TraesCS7B03G0446900:0.01515,triticum_aestivum_TraesCS7D03G0605400:0.02696)n3:0.00055)n2:0.66001)n1:0.317145)n0;

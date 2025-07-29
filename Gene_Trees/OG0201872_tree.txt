@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_210s0116g01570:0.440395,(theobroma_cacao_Thecc1EG030252:0.18508,(manihot_esculenta_Manes.16G005401:0.21269,corylus_avellana_Corav.g9155:0.32994)n2:0.08982)n1:0.440395)n0;

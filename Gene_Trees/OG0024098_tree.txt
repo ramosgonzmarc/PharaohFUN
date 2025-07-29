@@ -1,0 +1,1 @@
+((boechera_stricta_Bostr.10273s0489:0.98196,(gnetum_montanum_TnS000947673t02:0.09295,gnetum_montanum_TnS000947673t04:0.07458)n2:0.31933)n1:0.55063,(ceratopteris_richardii_Ceric.03G005100:0.29683,(ceratopteris_richardii_Ceric.03G005200:0.0324,ceratopteris_richardii_Ceric.03G005300:0.0568)n4:0.26594)n3:0.55063)n0;

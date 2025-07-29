@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00055g4:0.59729,(zostera_marina_Zosma07g04270:0.29744,(zostera_marina_Zosma19g00040:0.08307,zostera_marina_Zosma05g27050:0.05826)n2:0.3808)n1:0.59729)n0;

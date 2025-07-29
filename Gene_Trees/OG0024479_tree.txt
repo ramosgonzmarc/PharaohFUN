@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_019833:0.266775,(bryopsis_sp_Bsp_GMH41842:0.85476,(chlorella_sorokiniana_Chlso_g6077:0.639,chlorella_sorokiniana_Chlso_g6078:0.54794)n2:0.57861)n1:0.266775)n0;

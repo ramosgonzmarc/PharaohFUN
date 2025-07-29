@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.1Z011800:0.83016,adiantum_capillus_Adc25424:0.87493)n1:0.21031,(ceratopteris_richardii_Ceric.1Z012000:0.36029,adiantum_capillus_Adc25423:0.50399)n2:0.21031)n0;

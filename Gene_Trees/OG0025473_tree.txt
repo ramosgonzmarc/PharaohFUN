@@ -1,0 +1,1 @@
+(diphasiastrum_complanatum_Dicom.04G137400:0.361745,((sphagnum_magellanicum_Sphmag05G086900:0.0803,sphagnum_fallax_Sphfalx05G078400:0.04251)n2:0.35477,(sphagnum_magellanicum_Sphmag08G079000:0.02694,sphagnum_fallax_Sphfalx08G083300:0.05762)n3:0.32817)n1:0.361745)n0;

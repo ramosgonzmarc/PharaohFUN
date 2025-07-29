@@ -1,0 +1,1 @@
+(kalanchoe_fedtschenkoi_Kaladp0008s0361:0.572445,(ginkgo_biloba_Gb_20114:0.21923,(abies_alba_AALBA5B861195:0.05989,picea_abies_Pab_18551g0010:0.10551)n2:0.12079)n1:0.572445)n0;

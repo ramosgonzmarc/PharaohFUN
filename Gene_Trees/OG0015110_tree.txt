@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_016225:0.7227,tetraselmis_striata_TSEL_029825:0.59779)n1:0.63415,((ostreobium_quekettii_CAD7695070:0.09841,ostreobium_quekettii_CAD7695071:0.18005)n3:0.19743,(ostreobium_quekettii_CAD7697553:0.02842,(ostreobium_quekettii_CAD7694790:0.00055,ostreobium_quekettii_CAD7697554:0.02329)n5:0.04823)n4:0.23563)n2:0.63415)n0;

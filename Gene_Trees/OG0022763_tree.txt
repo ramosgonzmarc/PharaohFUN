@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B697792:0.590065,((mimulus_guttatus_Migut.D00278:0.32014,miscanthus_sinensis_Misin10G068000:0.58456)n2:0.33899,(panicum_hallii_Pahal.8G169100:0.17928,sorghum_bicolor_Sobic.005G116601:0.2442)n3:0.2457)n1:0.590065)n0;

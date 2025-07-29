@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene28843:0.415105,(welwitschia_mirabilis_Wmi_16156:1.19235,(picea_abies_Pab_10436197g0010:0.55816,(malus_domestica_MD07G1165000:0.18661,(eucalyptus_grandis_Eucgr.E01867:0.32839,(linum_usitatissimum_Lus10024681:0.54649,linum_usitatissimum_Lus10032186:0.355284)n5:0.039476)n4:0.07093)n3:0.05254)n2:0.1432)n1:0.415105)n0;

@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B666412:0.478085,(haematococcus_lacustris_QJQ45_025035:0.97806,(cymbomonas_tetramitiformis_KAK3256547:0.00909,(cymbomonas_tetramitiformis_KAK3242741:0.27606,cymbomonas_tetramitiformis_KAK3283046:0.597537)n3:0.0597537)n2:0.0066393)n1:0.15824)n0;

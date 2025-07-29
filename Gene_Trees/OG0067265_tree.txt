@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe6G054000:0.68896,(theobroma_cacao_Thecc1EG036859:0.19125,(gossypium_hirsutum_Gohir.D07G037900:0.00055,gossypium_raimondii_Gorai.001G039600:0.01182)n2:0.13022)n1:0.68896)n0;

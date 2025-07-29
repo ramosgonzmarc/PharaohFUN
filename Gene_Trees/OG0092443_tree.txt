@@ -1,0 +1,1 @@
+((desmodesmus_armatus_Desar.372629:0.56534,desmodesmus_armatus_Desar.380204:0.49861)n1:0.1018,(coccomyxa_subellipsoidea_Cosub_49311:0.86296,elliptochloris_bilobata_Elbil.KAK9841027:0.74042)n2:0.1018)n0;

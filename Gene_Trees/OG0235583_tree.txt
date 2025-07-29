@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH34883:0.10567,(bryopsis_sp_Bsp_GMH42210:0.53887,(bryopsis_sp_Bsp_GMH34753:0.0245,(bryopsis_sp_Bsp_GMH41809:0.79186,bryopsis_sp_Bsp_GMH41810:0.00055)n3:0.14796)n2:0.33307)n1:0.10567)n0;

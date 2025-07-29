@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000099S10504:0.373675,((brassica_oleracea_Bol004415:0.94132,linum_usitatissimum_Lus10022694:0.33652)n2:0.21195,((abies_alba_AALBA5B083665:0.02818,(abies_alba_AALBA5B925985:0.0315,(abies_alba_AALBA5B324884:0.03896,abies_alba_AALBA5B113563:0.07516)n6:0.03741)n5:0.00054)n4:0.44225,abies_alba_AALBA5B1157936:0.227205)n3:0.025245)n1:0.15584)n0;

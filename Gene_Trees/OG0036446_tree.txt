@@ -1,0 +1,1 @@
+((kalanchoe_fedtschenkoi_Kaladp0022s0045:0.59201,(ginkgo_biloba_Gb_40826:0.89677,ginkgo_biloba_Gb_37364:0.240579)n2:0.026731)n1:0.022595,(triticum_aestivum_TraesCS1A03G0020700:0.00055,(triticum_aestivum_TraesCS1B03G0020800:0.02425,triticum_aestivum_TraesCS1D03G0011000:0.02466)n4:0.0246)n3:0.32318)n0;

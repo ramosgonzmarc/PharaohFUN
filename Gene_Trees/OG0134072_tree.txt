@@ -1,0 +1,1 @@
+((malus_domestica_MD09G1103100:0.14054,prunus_persica_Prupe.3G222700:0.35281)n1:0.411355,(gossypium_raimondii_Gorai.012G133000:0.00055,(gossypium_hirsutum_Gohir.D04G147100:0.00054,gossypium_hirsutum_Gohir.A04G107100:0.030933)n3:0.003437)n2:0.00796)n0;

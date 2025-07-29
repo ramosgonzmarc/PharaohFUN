@@ -1,0 +1,1 @@
+(carya_illinoinensis_Caril.13G141800:0.32535,(ginkgo_biloba_Gb_28687:0.17792,(ginkgo_biloba_Gb_07013:0.08261,ginkgo_biloba_Gb_04084:0.00055)n2:1.31347)n1:0.32535)n0;

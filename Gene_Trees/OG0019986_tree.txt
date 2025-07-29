@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_006213:0.52229,tetraselmis_striata_TSEL_009988:1.20484)n1:0.49988,(bathycoccus_prasinos_XM_007511188:0.92629,(ostreococcus_mediterraneus_Ostme18g01610:0.29648,(ostreococcus_tauri_ostta18g00510:0.29341,ostreococcus_lucimarinus_Oluc_28260:0.21734)n4:0.1717)n3:0.31747)n2:0.49988)n0;

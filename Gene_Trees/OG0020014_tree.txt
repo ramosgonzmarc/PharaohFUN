@@ -1,0 +1,1 @@
+((brachypodium_distachyon_Bradi4g13779:0.58955,brachypodium_distachyon_Bradi4g13781:0.42721)n1:0.37504,(panicum_hallii_Pahal.4G047300:0.00193,panicum_hallii_Pahal.4G047200:0.06689)n2:0.37504)n0;

@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr20g1885:0.02378,lycopodium_clavatum_Lcl_0008342:0.205)n1:0.14232,((lotus_japonicus_Lj2g0002277:1.64554,sequoiadendron_giganteum_SEGI_27544:1.19343)n3:0.28289,(sequoia_sempervirens_SESE_090349:0.11069,sequoia_sempervirens_SESE_073079:0.17106)n4:0.12307)n2:0.14232)n0;

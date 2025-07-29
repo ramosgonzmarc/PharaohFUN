@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_017245:0.219505,(picea_abies_Pab_110995g0010:0.30518,(thuja_plicata_Thupl.29380710s0016:0.12921,sequoia_sempervirens_SESE_000142:0.07411)n2:0.24818)n1:0.219505)n0;

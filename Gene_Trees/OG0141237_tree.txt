@@ -1,0 +1,1 @@
+((paraphymatoceros_pearsonii_Papea.S3G141800:0.05422,(phaeoceros_carolinianus_Phcar.S3G350100:0.01558,phaeoceros_sp_Phsp.C3G144300:0.01472)n2:0.07543)n1:0.173975,(phymatoceros_phymatodes_Phphy.S1G333400:0.18446,(megaceros_flagellaris_Mefla.S3G317600:0.29942,phaeomegaceros_chiloensis_Phchi.S1G030800:0.06324)n4:0.0997)n3:0.173975)n0;

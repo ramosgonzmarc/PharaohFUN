@@ -1,0 +1,1 @@
+((bryopsis_sp_Bsp_GMH36746:0.01956,bryopsis_sp_Bsp_GMH36780:0.02801)n1:0.46587,(gracilariopsis_chorda_PXF42383:0.01725,(gracilariopsis_chorda_PXF41840:0.04798,gracilariopsis_chorda_PXF40564:0.00767)n3:0.05561)n2:0.46587)n0;

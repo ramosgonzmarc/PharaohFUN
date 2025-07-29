@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr11g3649:0.26585,(ananas_comosus_Aco009866:1.10541,(brachypodium_distachyon_Bradi1g68640:0.21613,trifolium_pratense_Trpra.34949:1.47671)n2:0.42938)n1:0.26585)n0;

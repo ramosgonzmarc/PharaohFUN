@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0188s0021:0.534585,((desmodesmus_armatus_Desar.537004:0.32167,scenedesmus_obliquus_Sobl_g21835:0.07286)n2:0.62194,(raphidocelis_subcapitata_Rsub_00102:0.33675,(monoraphidium_minutum_Momin.462290:0.0059,monoraphidium_minutum_Momin.526763:0.00486)n4:0.25655)n3:0.13034)n1:0.534585)n0;

@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.9600s0040:0.54639,(eleusine_coracana_Elcor.2BG0166140:0.09148,((panicum_hallii_Pahal.9G198800:0.09929,setaria_italica_Seita.9G201700:0.11904)n3:0.05343,(sorghum_bicolor_Sobic.001G202800:0.06155,(miscanthus_sinensis_Misin01G185600:0.04775,miscanthus_sinensis_Misin02G170900:0.023958)n5:0.002662)n4:0.00055)n2:0.09331)n1:0.54639)n0;

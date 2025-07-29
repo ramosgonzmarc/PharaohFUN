@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_41588:0.14719,((taxus_chinensis_KI387_041734:0.20351,picea_abies_Pab_10433358g0010:0.50606)n2:0.12086,(taxus_chinensis_KI387_007512:0.80148,picea_abies_Pab_67805g0010:0.500211)n3:0.055579)n1:0.14719)n0;

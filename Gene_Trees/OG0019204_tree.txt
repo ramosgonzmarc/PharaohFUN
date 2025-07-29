@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B1158089:0.250635,(ginkgo_biloba_Gb_20601:0.06136,(ginkgo_biloba_Gb_28756:0.04785,ginkgo_biloba_Gb_14710:0.04038)n2:0.16664)n1:0.250635)n0;

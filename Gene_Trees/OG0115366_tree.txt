@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_04289:0.235485,(corylus_avellana_Corav.g11823:1.09565,(carica_papaya_Capac.c00011g109:0.08951,carica_papaya_Capac.c00004g189:0.29582)n2:0.38884)n1:0.235485)n0;

@@ -1,0 +1,1 @@
+(picea_abies_Pab_147122g0010:0.745035,((cymbomonas_tetramitiformis_KAK3260076:0.02798,cymbomonas_tetramitiformis_KAK3271104:0.17845)n2:0.26921,(cymbomonas_tetramitiformis_KAK3284136:0.0005,cymbomonas_tetramitiformis_KAK3285245:0.61864)n3:0.20342)n1:0.745035)n0;

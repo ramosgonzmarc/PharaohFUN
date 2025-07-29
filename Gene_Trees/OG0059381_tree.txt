@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene45559:0.571915,(azolla_filiculoides_Azfi_s0168.g054590:0.30934,(azolla_filiculoides_Azfi_s0286.g063147:0.06585,azolla_filiculoides_Azfi_s0440.g070299:0.05555)n2:0.14897)n1:0.571915)n0;

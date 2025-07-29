@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.M01254:0.12288,((chenopodium_quinoa_AUR62013021:0.00845,chenopodium_quinoa_AUR62010033:0.039)n2:1.57516,((chenopodium_quinoa_AUR62044052:0,chenopodium_quinoa_AUR62014640:0)n4:0.00054,chenopodium_quinoa_AUR62012560:0.06878)n3:0.64017)n1:0.12288)n0;

@@ -1,0 +1,1 @@
+((oryza_sativa_Os10g03720:0.32453,oryza_sativa_Os04g13060:1.38016)n1:0.05782,(oropetium_thomaeum_Oropetium_20150105_27927A:0.58326,oropetium_thomaeum_Oropetium_20150105_20829A:0.7959)n2:0.05782)n0;

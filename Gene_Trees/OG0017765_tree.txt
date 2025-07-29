@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g2360:0.64316,klebsormidium_nitens_kfl00041_g19:0.49053)n1:0.146895,(chara_braunii_CBR_g38669:0.70114,(cymbomonas_tetramitiformis_KAK3268312:0.00055,cymbomonas_tetramitiformis_KAK3268313:0.00055)n3:1.21875)n2:0.146895)n0;

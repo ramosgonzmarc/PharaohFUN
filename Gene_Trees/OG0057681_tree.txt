@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene06795:0.309125,(sisymbrium_irio_Siiris821g00140:0.27865,(trifolium_pratense_Trpra.28771:0.26283,trifolium_pratense_Trpra.32168:0.48337)n2:0.09327)n1:0.309125)n0;

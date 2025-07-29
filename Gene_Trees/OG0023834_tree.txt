@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv00632:0.557425,(tetraselmis_striata_TSEL_006606:1.13288,((bathycoccus_prasinos_XM_007509898:0.58731,micromonas_commoda_Micom.107993:0.85964)n3:0.14607,(bathycoccus_prasinos_XM_007511538:0.68733,micromonas_commoda_Micom.050528:0.82752)n4:0.34268)n2:0.4866)n1:0.557425)n0;

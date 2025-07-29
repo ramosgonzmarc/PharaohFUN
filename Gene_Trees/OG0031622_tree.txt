@@ -1,0 +1,1 @@
+((schrenkiella_parvula_Scpar7g25810:0.63254,sisymbrium_irio_Siiris2444g00300:0.41435)n1:0.26167,(boechera_stricta_Bostr.7867s0614:0.20234,((arabidopsis_thaliana_AT4G27850:0.20737,arabidopsis_lyrata_Arlyr.AL7G24790:0.50398)n4:0.30098,(arabidopsis_thaliana_AT4G27845:0.143,arabidopsis_lyrata_Arlyr.AL7G24800:0.10349)n5:0.533619)n3:0.059291)n2:0.16166)n0;

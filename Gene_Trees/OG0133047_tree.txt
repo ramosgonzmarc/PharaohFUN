@@ -1,0 +1,1 @@
+((corylus_avellana_Corav.g33177:0.37055,poncirus_trifoliata_Ptrif.0003s3232:0.55231)n1:0.029125,(carica_papaya_Capac.c00008g212:0.88571,(fragaria_vesca_FvH4_2g19950:0.42486,(malus_domestica_MD10G1171500:0.13037,prunus_persica_Prupe.8G209900:0.16602)n4:0.06106)n3:0.3675)n2:0.029125)n0;

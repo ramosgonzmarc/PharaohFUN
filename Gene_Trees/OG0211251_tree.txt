@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10012638:0.376045,(lens_culinaris_Lecul.6g070050:0.68864,(carya_illinoinensis_Caril.02G038900:0.59572,cucumis_sativus_Cucsa.c258920g01:0.52002)n2:0.22794)n1:0.376045)n0;

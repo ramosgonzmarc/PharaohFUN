@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9465082:0.068655,(pedinophyceae_sp_Pesp.9465084:0.15184,(pedinophyceae_sp_Pesp.9465083:0.04068,(pedinophyceae_sp_Pesp.9466939:1.2632,(pedinophyceae_sp_Pesp.9460747:0.59611,pedinophyceae_sp_Pesp.9463161:1.25458)n4:0.18094)n3:0.44459)n2:0.04388)n1:0.068655)n0;

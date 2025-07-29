@@ -1,0 +1,1 @@
+(asparagus_officinalis_AsparagusV1_05.2519:0.313555,((welwitschia_mirabilis_Wmi_19225:0.00055,(welwitschia_mirabilis_Wmi_19227:0.00988,welwitschia_mirabilis_Wmi_05758:0.30211)n3:0.03377)n2:0.36295,(picea_abies_Pab_10314549g0010:0.58145,(picea_abies_Pab_175771g0010:0.39948,picea_abies_Pab_54271g0010:0.08057)n5:0.497655)n4:0.055295)n1:0.24725)n0;

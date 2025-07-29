@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene42479:0.202175,(sequoia_sempervirens_SESE_039198:0.32561,(solanum_tuberosum_Soltu.04G021990:0.62627,(gossypium_hirsutum_Gohir.A13G115450:0.28971,theobroma_cacao_Thecc1EG012821:0.28334)n3:0.12303)n2:0.25614)n1:0.202175)n0;

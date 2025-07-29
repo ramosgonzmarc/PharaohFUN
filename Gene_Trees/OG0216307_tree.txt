@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_6_4280:0.42088,(daucus_carota_DCAR_520955:0.77006,(daucus_carota_DCAR_414810:0.4453,(daucus_carota_DCAR_933254:0.32574,daucus_carota_DCAR_207586:0.46159)n3:0.40971)n2:0.48169)n1:0.42088)n0;

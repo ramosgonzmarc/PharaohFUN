@@ -1,0 +1,1 @@
+(helicosporidium_sp_Helsp_g4804:0.33576,(chlamydomonas_reinhardtii_Cre03.g155500_4532:1.19011,(raphidocelis_subcapitata_Rsub_08633:0.00821,desmodesmus_armatus_Desar.430573:0.72594)n2:0.40799)n1:0.33576)n0;

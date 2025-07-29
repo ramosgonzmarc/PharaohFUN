@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S5G044800:0.56921,notothylas_orbicularis_Noorb.S5G065800:0.59)n1:0.231805,((sequoia_sempervirens_SESE_027036:0.25223,sequoia_sempervirens_SESE_035107:0.26036)n3:0.72635,(alsophila_spinulosa_Aspi01Gene59909:0.08694,(alsophila_spinulosa_Aspi01Gene38058:0.0991,alsophila_spinulosa_Aspi01Gene41765:0.01905)n5:0.05241)n4:0.16339)n2:0.231805)n0;

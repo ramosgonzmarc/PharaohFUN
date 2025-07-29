@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_UNPLg00046:0.784115,(picocystis_sp_Picml_g1170:0.00054,(picocystis_sp_Picml_g1542:0.00239,picocystis_sp_Picml_g4603:0.11451)n2:0.00051)n1:0.784115)n0;

@@ -1,0 +1,1 @@
+((poncirus_trifoliata_Ptrif.0008s0232:0.44175,poncirus_trifoliata_Ptrif.0008s2485:0.18491)n1:0.671065,((carica_papaya_Capac.c00020g061:0.01024,carica_papaya_Capac.c00051g073:0.54353)n3:0.39457,(carica_papaya_Capac.c00051g075:0.09896,carica_papaya_Capac.c00051g077:0.01968)n4:0.22776)n2:0.671065)n0;

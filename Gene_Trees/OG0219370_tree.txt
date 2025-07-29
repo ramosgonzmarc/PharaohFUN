@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.2AG0102500:0.005615,((eleusine_coracana_Elcor.2BG0155790:0,eleusine_coracana_Elcor.2BG0155760:0,eleusine_coracana_Elcor.2BG0155810:0,eleusine_coracana_Elcor.2BG0155770:0)n2:0.12111,(eleusine_coracana_Elcor.2AG0102480:0.09426,eleusine_coracana_Elcor.2BG0155750:0.08475)n3:0.15935)n1:0.005615)n0;

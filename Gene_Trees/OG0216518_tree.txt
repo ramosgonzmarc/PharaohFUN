@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g6728:0.26461,((mimulus_guttatus_Migut.E01408:0,mimulus_guttatus_Migut.E01420:0)n2:0.38521,solanum_tuberosum_Soltu.08G018570:0.71839)n1:0.26461)n0;

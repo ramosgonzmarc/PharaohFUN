@@ -1,0 +1,1 @@
+(hordeum_vulgare_Hvul_1HG0080700:0.72231,(panicum_hallii_Pahal.1G085500:0.14236,(zea_mays_Zm00001d053599:0.21106,(sorghum_bicolor_Sobic.004G090700:0.10326,miscanthus_sinensis_Misin08G085000:0.06329)n3:0.23939)n2:0.34952)n1:0.72231)n0;

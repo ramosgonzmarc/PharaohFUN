@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.06G011160:0.43369,((cycas_panzhihuaensis_CYCAS_019191:0,cycas_panzhihuaensis_CYCAS_019218:0)n2:0.08509,cycas_panzhihuaensis_CYCAS_032253:0.12982)n1:0.43369)n0;

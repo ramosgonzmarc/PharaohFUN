@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0209s00001:0.00483,(oropetium_thomaeum_Oropetium_20150105_25212A:0.70882,(picea_abies_Pab_10097988g0010:0.23102,(adiantum_capillus_Adc14962:1.09874,((huperzia_asiatica_HaA02G0391:0.13884,huperzia_asiatica_HaA14G0531:0.1536)n5:0.41106,huperzia_asiatica_HaA33G0373:0.571518)n4:0.063502)n3:0.14405)n2:0.08428)n1:0.00483)n0;

@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S18g14792:0.10039,(selaginella_moellendorffii_Smoe_443235:0.10401,(isoetes_sinensis_IsiChr15g3753:0.00054,isoetes_sinensis_IsiChr16g3526:0.05835)n2:0.36788)n1:0.10039)n0;

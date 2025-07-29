@@ -1,0 +1,1 @@
+(panicum_hallii_Pahal.2G220300:0.195895,(aegilops_tauschii_Atau_XP_045086473:0.00054,((aegilops_tauschii_Atau_XP_040249910:0.00864,triticum_aestivum_TraesCS6D03G0292800:0.00053)n3:0.00864,(aegilops_tauschii_Atau_XP_045087033:0.00878,triticum_aestivum_TraesCS6B03G0435000:0.019377)n4:0.002153)n2:0.0819)n1:0.195895)n0;

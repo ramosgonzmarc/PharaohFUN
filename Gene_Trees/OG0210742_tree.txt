@@ -1,0 +1,1 @@
+(((arachis_hypogaea_arahy_MRF8E9:0,arachis_hypogaea_arahy_A94UKZ:0)n2:0.32981,arachis_hypogaea_arahy_QPR8KG:0.39369)n1:0.27053,(trifolium_pratense_Trpra.40788:0.3409,(medicago_truncatula_Medtr7g115680:0.17041,medicago_truncatula_Medtr5g014270:0.087975)n4:0.009775)n3:1.14225)n0;

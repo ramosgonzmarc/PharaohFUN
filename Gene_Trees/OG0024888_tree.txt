@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA09G0814:0.03467,huperzia_asiatica_HaB09G0057:0.00055)n1:0.59335,(cycas_panzhihuaensis_CYCAS_015424:0.40776,(ginkgo_biloba_Gb_36506:0.34762,(thuja_plicata_Thupl.29381589s0005:0.08463,(sequoiadendron_giganteum_SEGI_41326:0.40923,sequoiadendron_giganteum_SEGI_02505:0.069813)n5:0.007757)n4:0.18385)n3:0.00097)n2:0.59335)n0;

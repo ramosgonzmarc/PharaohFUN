@@ -1,0 +1,1 @@
+((marchantia_paleacea_Mapa_017362:0.38353,(marchantia_polymorpha_Mp4g00760:0.21988,(marchantia_polymorpha_Mp2g05940:0.07387,marchantia_polymorpha_Mp2g05980:0.10606)n3:0.38316)n2:0.18902)n1:0.05704,(sphagnum_magellanicum_Sphmag06G134200:0.48064,sphagnum_fallax_Sphfalx18G050600:0.68173)n4:0.05704)n0;

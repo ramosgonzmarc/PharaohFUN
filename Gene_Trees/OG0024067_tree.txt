@@ -1,0 +1,1 @@
+((malus_domestica_MD09G1251800:0.71051,corymbia_citriodora_Cocit.D1221:1.00391)n1:0.190095,(oryza_sativa_Os04g44760:0.13178,(oropetium_thomaeum_Oropetium_20150105_12180A:0.21246,(setaria_italica_Seita.7G177200:0.26001,brachypodium_distachyon_Bradi5g16485:0.45987)n4:0.0361)n3:0.00054)n2:0.190095)n0;

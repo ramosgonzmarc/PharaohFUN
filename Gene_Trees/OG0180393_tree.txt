@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c37200g001:0.14174,(mimulus_guttatus_Migut.O00954:0.48102,(solanum_lycopersicum_Solyc04g016070:0.05975,(solanum_tuberosum_Soltu.10G027310:0.40336,solanum_tuberosum_Soltu.04G010990:0.147735)n3:0.016415)n2:0.76016)n1:0.14174)n0;

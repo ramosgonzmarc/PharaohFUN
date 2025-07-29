@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL1G37180:0.10855,(sisymbrium_irio_Siiris1556g00690:0.33779,sisymbrium_irio_Siiric156159g00010:0.166302)n2:0.018478)n1:0.001775,boechera_stricta_Bostr.12659s0200:0.0665)n0;

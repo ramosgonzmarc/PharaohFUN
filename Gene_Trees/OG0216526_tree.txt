@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.04G013290:0.120375,(saponaria_officinalis_Sapof.13G148100:0.555,(saponaria_officinalis_Sapof.10G077500:0.06789,saponaria_officinalis_Sapof.12G042700:0.37294)n2:0.7418)n1:0.120375)n0;

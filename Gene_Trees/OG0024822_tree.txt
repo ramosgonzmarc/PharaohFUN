@@ -1,0 +1,1 @@
+((picea_abies_Pab_9232738g0010:0.43182,(huperzia_asiatica_HaA29G0600:0.00055,huperzia_asiatica_HaB29G0020:0.04673)n2:0.59001)n1:0.099425,(cycas_panzhihuaensis_CYCAS_009712:0.74545,(isoetes_sinensis_IsiChr11g392:0.00708,isoetes_sinensis_IsiChr12g202:0.00054)n4:0.54066)n3:0.099425)n0;

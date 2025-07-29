@@ -1,0 +1,1 @@
+((riccia_sorocarpa_Risor.KAL3689056:0.14526,riccia_sorocarpa_Risor.KAL3699694:0.42423)n1:0.315835,(megaceros_flagellaris_Mefla.S2G160600:0.48328,(megaceros_flagellaris_Mefla.S3G219200:0.14148,(megaceros_flagellaris_Mefla.S1G258200:0.05075,megaceros_flagellaris_Mefla.S1G408100:0.03562)n4:0.29686)n3:0.044)n2:0.315835)n0;

@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00007242:0.41184,(chlorokybus_atmophyticus_Chrsp52S06607:0.6749,(picocystis_sp_Picml_g1562:0.78101,(chloropicon_primus_Chlpr_g845:0.66745,micromonas_pusilla_Mpus_42389:0.57876)n3:0.13823)n2:0.22009)n1:0.41184)n0;

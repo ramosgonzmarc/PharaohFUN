@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00007256:0.202215,(chlorella_sorokiniana_Chlso_g1400:0.61511,(cymbomonas_tetramitiformis_KAK3240502:0.74373,(micromonas_pusilla_Mpus_187764:0.28232,micromonas_commoda_Micom.061059:0.26553)n3:0.18083)n2:0.08167)n1:0.202215)n0;

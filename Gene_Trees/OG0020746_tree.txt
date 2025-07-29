@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr20g3163:0.816195,(cymbomonas_tetramitiformis_KAK3243501:0.00055,(cymbomonas_tetramitiformis_KAK3273020:0.01257,cymbomonas_tetramitiformis_KAK3284961:0.01111)n2:0.06832)n1:0.816195)n0;

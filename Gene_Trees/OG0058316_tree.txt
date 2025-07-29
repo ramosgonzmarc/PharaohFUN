@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene20329:0.03579,adiantum_capillus_Adc05041:0.2096)n1:0.121555,(chenopodium_quinoa_AUR62005757:0.51151,manihot_esculenta_Manes.03G085816:1.11976)n2:0.121555)n0;

@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10004765:0.31002,(malus_domestica_MD02G1167200:1.25833,(malus_domestica_MD05G1333500:0.39538,(malus_domestica_MD03G1171000:0.25578,malus_domestica_MD12G1047400:0.31141)n3:0.52492)n2:0.45325)n1:0.31002)n0;

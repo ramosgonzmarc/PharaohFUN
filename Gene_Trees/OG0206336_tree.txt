@@ -1,0 +1,1 @@
+((brassica_rapa_Brara.B03749:0.52527,(eutrema_salsugineum_Thhalv10015590m:1.14787,sisymbrium_irio_Siiris1547g00940:0.40514)n2:0.00054)n1:0.092755,(arabidopsis_lyrata_Arlyr.AL8G37750:0.16321,boechera_stricta_Bostr.26833s0127:0.2868)n3:0.092755)n0;

@@ -1,0 +1,1 @@
+(diphasiastrum_complanatum_Dicom.22G042400:0.136715,((vigna_unguiculata_Vigun06g212850:0.73897,(aquilegia_coerulea_Aqcoe4G017700:0.18833,vitis_vinifera_VIT_210s0003g02560:0.79675)n3:0.1718)n2:0.36324,(abies_alba_AALBA5B321972:0.22808,abies_alba_AALBA5B828949:1.97732)n4:0.219702)n1:0.22237)n0;

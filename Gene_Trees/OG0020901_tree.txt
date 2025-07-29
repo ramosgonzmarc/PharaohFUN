@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0834s00006:0.47102,bryopsis_sp_Bsp_GMH36327:0.7344)n1:0.10844,((tetraselmis_striata_TSEL_004735:0.69863,(micromonas_pusilla_Mpus_209515:0.79511,micromonas_commoda_Micom.057012:0.7444)n4:0.40288)n3:0.17878,(cymbomonas_tetramitiformis_KAK3285097:0.81459,pedinophyceae_sp_Pesp.9466056:0.84555)n5:0.04056)n2:0.10844)n0;

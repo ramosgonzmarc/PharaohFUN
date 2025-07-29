@@ -1,0 +1,1 @@
+((chlorella_sorokiniana_Chlso_g6130:0.83937,(chlorella_sorokiniana_Chlso_g1421:0.77901,chlorella_sorokiniana_Chlso_g4002:0.58013)n2:0.39923)n1:0.15832,(myrmecia_bisecta_Mybis.KAK9823297:0.65097,(asterochloris_glomerata_Astgl_g4025:0.51562,trebouxia_sp_FRX49_08642:0.30196)n4:0.3706)n3:0.15832)n0;

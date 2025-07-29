@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.4BG0356010:0.07924,(triticum_aestivum_TraesCS1B03G0238700:0.33573,(oryza_sativa_Os04g24840:0.00055,oryza_sativa_Os04g25820:0.04259)n2:0.26938)n1:0.07924)n0;

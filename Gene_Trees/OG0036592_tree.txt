@@ -1,0 +1,1 @@
+((sequoiadendron_giganteum_SEGI_14353:0.0679,sequoiadendron_giganteum_SEGI_31364:0.00051)n1:0.13828,(ginkgo_biloba_Gb_02308:1.32018,ginkgo_biloba_Gb_02309:0.21775)n2:0.13828)n0;

@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene10491:0.30869,(azolla_filiculoides_Azfi_s0087.g042291:0.26773,(salvinia_cucullata_Sacu_s0007.g003870:0.26224,salvinia_cucullata_Sacu_s0062.g015499:0.92739)n2:0.09354)n1:0.30869)n0;

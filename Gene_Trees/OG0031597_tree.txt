@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr00c51g0413231:0.734615,((brassica_rapa_Brara.K01442:0.00055,eutrema_salsugineum_Thhalv10029241m:0.01776)n2:0.03542,((arabidopsis_thaliana_AT2G07708:0,arabidopsis_thaliana_ATMG00500:0)n4:0.00055,capsella_grandiflora_Cagra.23916s0004:0.01586)n3:0.11541)n1:0.734615)n0;

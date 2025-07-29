@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_01169200:0.3131,(coffea_arabica_Coara.015345:0.00731,coffea_arabica_Coara.022747:0.08119)n2:0.41013)n1:0.307035,(anthoceros_agrestis_AnagrOXF.S6G060900:0.12159,(anthoceros_punctatus_Anpun.S1G481500:0.78727,(anthoceros_punctatus_Anpun.S1G062400:0.34306,anthoceros_punctatus_Anpun.S1G063000:0.00055)n5:0.793764)n4:0.088196)n3:0.1272)n0;

@@ -1,0 +1,1 @@
+(amaranthus_hypochondriacus_AH000722:0.11693,((saponaria_officinalis_Sapof.14G209200:0.77042,beta_vulgaris_Bevul.8G183600:0.26529)n2:0.07285,(beta_vulgaris_Bevul.6G039600:0.21153,(saponaria_officinalis_Sapof.13G161400:0.24824,saponaria_officinalis_Sapof.02G165700:0.52084)n4:0.46083)n3:1.05778)n1:0.117531)n0;

@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3235630:0.49122,((apatococcus_lobatus_Aplob.KAK9819306:0.90729,((myrmecia_bisecta_Mybis.KAK9820352:0.62302,(coccomyxa_subellipsoidea_Cosub_67416:0.36838,elliptochloris_bilobata_Elbil.KAK9835398:0.48012)n5:0.16416)n4:0.08554,myrmecia_bisecta_Mybis.KAK9806859:0.271728)n3:0.030192)n2:0.24466,asterochloris_glomerata_Astgl_g1685:0.60647)n1:0.49122)n0;

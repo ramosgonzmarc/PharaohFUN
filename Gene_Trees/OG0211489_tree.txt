@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr8g066103:0.10357,(medicago_truncatula_Medtr8g066107:0.1207,(medicago_truncatula_Medtr8g066158:0.54873,medicago_truncatula_Medtr8g066097:0.48063)n2:0.75331)n1:0.10357)n0;

@@ -1,0 +1,1 @@
+(cinnamomum_kanehirae_CKAN_01986600:0.19417,((huperzia_asiatica_HaA02G0648:0.27864,huperzia_asiatica_HaB05G0157:0.11096)n2:0.34607,(isoetes_sinensis_IsiChr17g1152:0.08748,(isoetes_sinensis_IsiChr18g819:0.01943,isoetes_sinensis_IsiChr7g1919:0.0579)n4:0.00054)n3:1.01244)n1:0.19417)n0;

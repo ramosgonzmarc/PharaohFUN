@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.A01192:0.74785,(isoetes_sinensis_IsiChr14g4329:0.00076,((isoetes_sinensis_IsiChr22g3947:0.00054,isoetes_sinensis_IsiChr21g3652:0.01708)n3:0.17687,(isoetes_sinensis_IsiChr1g1912:0.00944,isoetes_sinensis_IsiChr2g1711:0.03828)n4:0.013)n2:0.02905)n1:0.74785)n0;

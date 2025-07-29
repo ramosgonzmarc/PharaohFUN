@@ -1,0 +1,1 @@
+(((sphagnum_fallax_Sphfalx16G019100:0,sphagnum_fallax_Sphfalx19G047400:0)n2:0.00055,sphagnum_fallax_Sphfalx11G067900:0.03895)n1:0.021715,(funaria_hygrometrica_Fuhyg.11669:0.12069,(pleurozium_schreberi_Plsch.12255:0.16823,pleurozium_schreberi_Plsch.03482:0.000495)n4:5.5e-05)n3:0.06103)n0;

@@ -1,0 +1,1 @@
+((carica_papaya_Capac.c00395g001:0.96099,coffea_arabica_Coara.063765:0.76919)n1:0.000275,(thuja_plicata_Thupl.29378588s0003:0.35794,sequoiadendron_giganteum_SEGI_09464:0.12955)n2:0.000275)n0;

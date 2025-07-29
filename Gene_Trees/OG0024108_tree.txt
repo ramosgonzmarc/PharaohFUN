@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s0050.g013843:0.59186,((ceratopteris_richardii_Ceric.1Z259900:0.02395,ceratopteris_richardii_Ceric.08G050400:0.00672)n2:0.62604,(adiantum_capillus_Adc31837:0.00055,adiantum_capillus_Adc08639:0.04585)n3:0.28473)n1:0.59186)n0;

@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_003380:0.19684,(amborella_trichopoda_AmTr00049g233:0.91602,(spirodela_polyrhiza_Spipo11G0020100:0.08332,spirodela_polyrhiza_Spipo11G0005900:0.02399)n2:1.07007)n1:0.19684)n0;

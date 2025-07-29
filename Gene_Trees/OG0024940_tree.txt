@@ -1,0 +1,1 @@
+((ostreococcus_mediterraneus_Ostme12g01290:1.34667,(micromonas_pusilla_Mpus_193816:0.60828,micromonas_commoda_Micom.056502:1.10052)n2:0.64252)n1:0.333145,(cymbomonas_tetramitiformis_KAK3234568:0.12872,cymbomonas_tetramitiformis_KAK3249143:0.24064)n3:0.333145)n0;

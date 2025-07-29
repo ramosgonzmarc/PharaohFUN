@@ -1,0 +1,1 @@
+(elliptochloris_bilobata_Elbil.KAK9828021:0.669935,((aegilops_tauschii_Atau_XP_020158924:0,aegilops_tauschii_Atau_XP_020158925:0,aegilops_tauschii_Atau_XP_020158927:0,triticum_aestivum_TraesCS5D03G1200500:0)n2:0.12983,(corymbia_citriodora_Cocit.J1609:0.00725,(corymbia_citriodora_Cocit.F0836:0.02285,corymbia_citriodora_Cocit.C0245:0.02404)n4:0.02031)n3:0.63386)n1:0.669935)n0;

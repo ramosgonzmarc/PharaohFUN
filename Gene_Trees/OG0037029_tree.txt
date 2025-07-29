@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_215s0107g00173:0.35608,(glycine_max_Glyma.10G129700:0.10629,(trifolium_pratense_Trpra.41698:0.00054,(trifolium_pratense_Trpra.18606:0.01517,(trifolium_pratense_Trpra.27421:0.0765,trifolium_pratense_Trpra.33499:0.020961)n4:0.0020961)n3:0.00020961)n2:2.329e-05)n1:0.01105)n0;

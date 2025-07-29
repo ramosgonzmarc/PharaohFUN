@@ -1,0 +1,1 @@
+(lens_culinaris_Lecul.5g030180:0.530335,(trifolium_pratense_Trpra.32190:0.249,(trifolium_pratense_Trpra.16780:0.43414,trifolium_pratense_Trpra.12616:0.1164)n2:0.0399)n1:0.530335)n0;

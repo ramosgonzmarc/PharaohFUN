@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_012099:0.151215,(riccia_sorocarpa_Risor.KAL3679314:0.22506,(riccia_sorocarpa_Risor.KAL3689890:0.06353,(riccia_sorocarpa_Risor.KAL3687033:0.14152,(riccia_sorocarpa_Risor.KAL3692982:0.15295,(riccia_sorocarpa_Risor.KAL3684913:0.13279,riccia_sorocarpa_Risor.KAL3692977:0.02844)n5:0.04945)n4:0.40582)n3:0.32926)n2:0.97619)n1:0.151215)n0;

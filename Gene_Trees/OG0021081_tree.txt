@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_41636:0.51496,(vitis_vinifera_VIT_215s0024g00840:0.00054,(vitis_vinifera_VIT_213s0101g00010:0.00055,vitis_vinifera_VIT_209s0018g00870:0.04595)n2:0.02091)n1:0.51496)n0;

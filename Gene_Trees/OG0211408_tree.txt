@@ -1,0 +1,1 @@
+(vigna_unguiculata_VigunL074601:0.13716,(lens_culinaris_Lecul.6g017620:0.24382,(medicago_truncatula_Medtr3g116530:0.00055,medicago_truncatula_Medtr0082s0010:0.983529)n2:0.109281)n1:0.54073)n0;

@@ -1,0 +1,1 @@
+((picea_abies_Pab_91792g0010:0.9606,(chenopodium_quinoa_AUR62020004:0.2786,lens_culinaris_Lecul.7g066970:0.32661)n2:0.81991)n1:0.22015,((chara_braunii_CBR_g19570:0.16406,chara_braunii_CBR_g31134:0.17553)n4:0.14933,(chara_braunii_CBR_g19687:0.09896,(chara_braunii_CBR_g29973:0.0337,chara_braunii_CBR_g41294:0.03011)n6:0.04727)n5:0.1476)n3:0.22015)n0;

@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0025s00027:0.00025,(triticum_aestivum_TraesCS4A03G0860500:0.47729,(zostera_marina_Zosma06g08620:0.43463,((selaginella_moellendorffii_Smoe_18890:0.0989,selaginella_moellendorffii_Smoe_431040:0.18006)n4:0.5219,selaginella_moellendorffii_Smoe_18152:0.38905)n3:0.38792)n2:0.60963)n1:0.00025)n0;

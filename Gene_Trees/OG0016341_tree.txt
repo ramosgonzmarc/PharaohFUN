@@ -1,0 +1,1 @@
+((cicer_arietinum_Ca_10803:1.93359,((ginkgo_biloba_Gb_01284:0.00054,(ginkgo_biloba_Gb_14089:0.52122,(ginkgo_biloba_Gb_16309:0.66274,ginkgo_biloba_Gb_33436:0.15572)n5:0.0879)n4:0.34254)n3:0.03806,(ginkgo_biloba_Gb_07195:0.48503,ginkgo_biloba_Gb_23327:0.29962)n6:0.332919)n2:0.036991)n1:0.18179,vaccinium_darrowii_Vadar_g33617:1.5992)n0;

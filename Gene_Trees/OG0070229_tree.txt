@@ -1,0 +1,1 @@
+((brassica_rapa_Brara.I01678:0.31762,(thlaspi_arvense_TaMN106.2G279000:0.00732,thlaspi_arvense_TaMN106.2G279100:0.00437)n2:0.17399)n1:0.0589,(boechera_stricta_Bostr.12938s0007:0.09583,((arabidopsis_thaliana_AT1G56660:0.1066,arabidopsis_lyrata_Arlyr.AL1G66620:0.06099)n5:0.05543,capsella_grandiflora_Cagra.12963s0007:0.15449)n4:0.01742)n3:0.0589)n0;

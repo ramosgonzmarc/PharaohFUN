@@ -1,0 +1,1 @@
+((chenopodium_quinoa_AUR62020825:0.2139,saponaria_officinalis_Sapof.05G169300:0.26902)n1:0.071705,((linum_usitatissimum_Lus10007126:0.02196,linum_usitatissimum_Lus10016670:0.00054)n3:0.37957,(fragaria_vesca_FvH4_4g16400:0.28543,(malus_domestica_MD04G1008900:0.18855,prunus_persica_Prupe.1G008300:0.15354)n5:0.03614)n4:0.48267)n2:0.071705)n0;

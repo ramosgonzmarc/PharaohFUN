@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9839085:0.69006,(monoraphidium_minutum_Momin.521701:0.30155,(raphidocelis_subcapitata_Rsub_10449:0.31273,raphidocelis_subcapitata_Rsub_08758:0.360324)n2:0.040036)n1:0.07481)n0;

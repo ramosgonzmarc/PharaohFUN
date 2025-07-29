@@ -1,0 +1,1 @@
+((citrus_sinensis_Cisin.042642:0.37952,gossypium_hirsutum_Gohir.D04G087900:0.59781)n1:0.16737,(mimulus_guttatus_Migut.L01169:0.45113,(olea_europaea_Oeu020358:0.54645,olea_europaea_Oeu020357:0.00055)n3:0.20398)n2:0.16737)n0;

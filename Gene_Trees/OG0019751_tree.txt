@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AnagrOXF.S2G169200:0.48747,(thuja_plicata_Thupl.29380935s0005:0.20507,(ginkgo_biloba_Gb_23504:0.09323,ginkgo_biloba_Gb_21337:0.248463)n2:0.027607)n1:0.13334)n0;

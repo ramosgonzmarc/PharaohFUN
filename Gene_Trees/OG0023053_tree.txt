@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0350s0014:0.455555,(alsophila_spinulosa_Aspi01Gene02657:0.52078,(ginkgo_biloba_Gb_05344:0.34986,kalanchoe_fedtschenkoi_Kaladp0022s0226:0.30768)n2:0.25193)n1:0.455555)n0;

@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc04g025283:1.12344,(carica_papaya_Capac.c00037g032:0.25196,carica_papaya_Capac.c00074g028:0.14185)n2:0.06667)n1:0.05896,(saponaria_officinalis_Sapof.06G095100:0.46962,(manihot_esculenta_Manes.07G072314:0.09505,manihot_esculenta_Manes.06G147450:0.11574)n4:0.16108)n3:0.05896)n0;

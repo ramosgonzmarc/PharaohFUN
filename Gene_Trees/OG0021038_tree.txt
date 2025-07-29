@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_27083:0.83108,ginkgo_biloba_Gb_20473:0.62015)n1:0.50675,(isoetes_sinensis_IsiChr14g2017:0.00054,isoetes_sinensis_IsiChr13g2008:0.01436)n2:0.50675)n0;

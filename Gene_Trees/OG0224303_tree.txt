@@ -1,0 +1,1 @@
+((sequoia_sempervirens_SESE_051856:0.34985,sequoiadendron_giganteum_SEGI_17260:0.34599)n1:0.07185,(sequoia_sempervirens_SESE_044568:0.41607,(sequoiadendron_giganteum_SEGI_12396:0.39213,sequoiadendron_giganteum_SEGI_14084:0.8155)n3:0.29329)n2:0.07185)n0;

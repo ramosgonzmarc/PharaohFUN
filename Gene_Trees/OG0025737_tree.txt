@@ -1,0 +1,1 @@
+(ananas_comosus_Aco010817:0.370385,((picea_abies_Pab_9831132g0010:0.00054,picea_abies_Pab_40964g0020:0.08563)n2:0.37509,((ginkgo_biloba_Gb_02391:0.22816,ginkgo_biloba_Gb_24475:1.32614)n4:0.16199,ginkgo_biloba_Gb_25872:0.061911)n3:0.006879)n1:0.30045)n0;

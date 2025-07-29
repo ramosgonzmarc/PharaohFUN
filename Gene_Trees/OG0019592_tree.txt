@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr21g285:0.399105,(alsophila_spinulosa_Aspi01Gene24848:0.19257,(cycas_panzhihuaensis_CYCAS_001626:0.55426,thuja_plicata_Thupl.29382125s0013:0.4029)n2:0.16689)n1:0.399105)n0;

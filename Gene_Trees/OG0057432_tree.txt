@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene01611:0.35865,((carica_papaya_Capac.c00040g032:0.1431,carica_papaya_Capac.c00984g001:0.31724)n2:0.68408,(mimulus_guttatus_Migut.D01270:0.47613,cucumis_sativus_Cucsa.c319520g01:1.46946)n3:0.15674)n1:0.35865)n0;

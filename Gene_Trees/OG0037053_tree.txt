@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_449J5H:0.05666,arachis_hypogaea_arahy_7HP585:0.00054)n1:0.15174,((phaseolus_acutifolius_Phacu.006G068900:0.14572,(glycine_max_Glyma.08G329600:0.0471,glycine_max_Glyma.18G077000:0.05507)n4:0.07114)n3:0.08069,(lupinus_albus_Lalb_Chr15g0082101:0.20889,trifolium_pratense_Trpra.24945:0.23059)n5:0.03984)n2:0.15174)n0;

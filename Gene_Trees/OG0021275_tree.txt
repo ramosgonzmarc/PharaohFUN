@@ -1,0 +1,1 @@
+((lycopodium_clavatum_Lcl_0006047:0.86953,((isoetes_sinensis_IsiChr16g3997:0.04576,isoetes_sinensis_IsiChr18g4935:0.1263)n3:0.38657,(isoetes_sinensis_IsiChr11g1514:0.16493,isoetes_sinensis_IsiChr8g1672:0.08731)n4:0.56454)n2:0.55556)n1:0.430065,(desmodesmus_armatus_Desar.552679:0.03272,desmodesmus_armatus_Desar.553990:0.04476)n5:0.430065)n0;

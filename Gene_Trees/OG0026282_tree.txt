@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl01754_0010:1.21749,(klebsormidium_nitens_kfl01145_0030:0.22122,klebsormidium_nitens_kfl00369_0010:0.23268)n2:0.5586)n1:0.42455,(mesostigma_viride296_Mevir.Mv07517:0.05637,mesostigma_viride296_Mevir.Mv22752:0.08173)n3:0.42455)n0;

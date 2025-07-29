@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_314228:0.56071,(picea_abies_Pab_10436988g0010:0.74336,sequoiadendron_giganteum_SEGI_22516:0.78294)n2:0.41623)n1:0.086585,(spirogloea_muscicola_SM000002S05642:0.11241,(spirogloea_muscicola_SM000316S12288:0.02997,spirogloea_muscicola_SM000126S26355:0.04654)n4:0.01414)n3:0.086585)n0;

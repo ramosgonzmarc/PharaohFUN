@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp208S03300:0.47387,mesostigma_viride296_Mevir.Mv09537:0.60198)n1:0.18266,((pedinophyceae_sp_Pesp.9464579:0.5329,(tetraselmis_striata_TSEL_019944:0.19653,tetraselmis_striata_TSEL_024836:0.00054)n4:0.92416)n3:0.24695,(chloropicon_primus_Chlpr_g3545:0.81833,cymbomonas_tetramitiformis_KAK3257113:0.58308)n5:0.08461)n2:0.18266)n0;

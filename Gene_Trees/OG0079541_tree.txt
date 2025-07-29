@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin03G139500:0.61583,(ceratopteris_richardii_Ceric.23G042100:0.65744,(((adiantum_capillus_Adc29255:0.49823,adiantum_capillus_Adc29663:0.45579)n4:0.05775,adiantum_capillus_Adc31122:0.483084)n3:0.053676,(azolla_filiculoides_Azfi_s0008.g011548:0.50441,azolla_filiculoides_Azfi_s0027.g023652:0.568827)n5:0.063203)n2:0.06241)n1:0.23782)n0;

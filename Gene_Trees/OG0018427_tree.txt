@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0007.g003557:0.70716,salvinia_cucullata_Sacu_s0007.g003702:0.13098)n1:0.68241,(isoetes_sinensis_IsiChr21g4540:0.00724,(isoetes_sinensis_IsiChr21g4539:0.25578,isoetes_sinensis_IsiChr21g4542:0.16214)n3:0.00837)n2:0.68241)n0;

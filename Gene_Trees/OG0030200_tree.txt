@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene02508:0.15683,alsophila_spinulosa_Aspi01Gene04706:1.13055)n1:0.13298,(kalanchoe_fedtschenkoi_Kaladp0068s0146:0.57283,(sisymbrium_irio_Siiric210085g00010:0.83896,sisymbrium_irio_Siiris1237g00010:0.511479)n3:0.056831)n2:0.12056)n0;

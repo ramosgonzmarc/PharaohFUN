@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g01907:0.66579,(dunaliella_salina_Dusal.0061s00031:0.64489,(haematococcus_lacustris_QJQ45_019016:0.23687,(haematococcus_lacustris_QJQ45_012981:0.01238,haematococcus_lacustris_QJQ45_029129:0.02627)n3:0.04188)n2:0.66787)n1:0.66579)n0;

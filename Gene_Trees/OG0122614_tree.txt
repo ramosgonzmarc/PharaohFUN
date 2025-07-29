@@ -1,0 +1,1 @@
+((asparagus_officinalis_AsparagusV1_08.135:0.81963,(chenopodium_quinoa_AUR62026791:0.7747,phaseolus_acutifolius_Phacu.003G004100:0.7635)n2:0.12654)n1:0.09049,(ginkgo_biloba_Gb_41544:0.21165,picea_abies_Pab_42343g0010:0.25152)n3:0.09049)n0;

@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr9g3329:0.02695,isoetes_sinensis_IsiChr10g2834:0.01806)n1:0.70756,(diphasiastrum_complanatum_Dicom.13G067700:0.60434,(huperzia_asiatica_HaA61G0156:0.01727,huperzia_asiatica_HaB61G0160:0.03473)n3:0.33627)n2:0.70756)n0;

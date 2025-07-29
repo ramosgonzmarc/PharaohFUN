@@ -1,0 +1,1 @@
+(helicosporidium_sp_Helsp_g2702:0.57159,(panicum_hallii_Pahal.5G278400:0.38385,((isoetes_sinensis_IsiChr1g436:0,isoetes_sinensis_IsiScaffold1372g2:0)n3:0.28887,isoetes_sinensis_IsiChr12g1826:0.12241)n2:0.22411)n1:0.57159)n0;

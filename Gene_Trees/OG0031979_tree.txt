@@ -1,0 +1,1 @@
+((setaria_italica_Seita.5G148200:0.29094,((asparagus_officinalis_AsparagusV1_01.2584:0.94466,panicum_hallii_Pahal.3G068300:0.14103)n3:0.06958,asparagus_officinalis_AsparagusV1_01.2585:0.833778)n2:0.092642)n1:0.070575,brachypodium_distachyon_Bradi2g06775:0.20533)n0;

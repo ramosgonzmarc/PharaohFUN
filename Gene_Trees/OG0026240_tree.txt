@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00277g009:0.681425,(isoetes_sinensis_IsiChr19g754:0.00929,(isoetes_sinensis_IsiChr20g727:0.00055,isoetes_sinensis_IsiChr19g758:0.00053)n2:0.05311)n1:0.681425)n0;

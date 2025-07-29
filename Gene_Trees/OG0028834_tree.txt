@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g5700:0.531,((abies_alba_AALBA5B1061050:0.00055,picea_abies_Pab_17640g0010:0.30038)n2:0.18995,(taxus_chinensis_KI387_008447:0.16513,sequoia_sempervirens_SESE_046684:0.40794)n3:0.26541)n1:0.531)n0;

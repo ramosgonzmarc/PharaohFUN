@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_418042:0.4386,lactuca_sativa_Lsat_gn_8_139180:0.75074)n1:0.271285,(saponaria_officinalis_Sapof.04G025100:0.22366,(saponaria_officinalis_Sapof.04G025300:0.31474,(saponaria_officinalis_Sapof.04G025400:0.06552,saponaria_officinalis_Sapof.04G025200:0.16813)n4:0.0809)n3:0.06089)n2:0.271285)n0;

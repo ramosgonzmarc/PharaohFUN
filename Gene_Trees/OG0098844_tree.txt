@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3253620:0.23672,(chlamydomonas_incerta_Chincg10932:0.61626,(gonium_pectorale_Gopec.09957:0.20816,gonium_pectorale_Gopec.15855:0.18102)n2:0.76415)n1:0.23672)n0;

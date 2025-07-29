@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S3G162200:0.59125,(huperzia_asiatica_HaB45G0495:0.46458,((isoetes_sinensis_IsiChr2g2013:0.00055,(isoetes_sinensis_IsiChr9g1935:0,isoetes_sinensis_IsiChr13g4146:0)n4:0.04733)n3:0.03025,(isoetes_sinensis_IsiChr11g2294:0.01082,isoetes_sinensis_IsiChr12g2216:0.00895)n5:0.00456)n2:0.72248)n1:0.59125)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00064_0270:0.668565,(spirogloea_muscicola_SM000216S06555:0.03764,(spirogloea_muscicola_SM000260S09944:0.0398,spirogloea_muscicola_SM000114S24162:0.06622)n2:0.01599)n1:0.668565)n0;

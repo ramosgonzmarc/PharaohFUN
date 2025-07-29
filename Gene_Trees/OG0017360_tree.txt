@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00012_0560:0.44111,((anthoceros_agrestis_AnagrOXF.S2G156200:0.61233,ceratodon_purpureus_CepurR40.5G109100:0.95373)n2:0.85971,(alsophila_spinulosa_Aspi01Gene17988:0.0086,(alsophila_spinulosa_Aspi01Gene17976:0.0321,alsophila_spinulosa_Aspi01Gene17982:0.12265)n4:0.05633)n3:0.53708)n1:0.44111)n0;

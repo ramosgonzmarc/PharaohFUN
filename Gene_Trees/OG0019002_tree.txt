@@ -1,0 +1,1 @@
+(zostera_marina_Zosma02g13360:0.000275,(zostera_marina_Zosma23g00030:0.44225,(zostera_marina_Zosma02g13970:0.0232,(zostera_marina_Zosma02g13960:0.00055,zostera_marina_Zosma02g14010:0.00055)n3:0.00054)n2:0.50612)n1:0.000275)n0;

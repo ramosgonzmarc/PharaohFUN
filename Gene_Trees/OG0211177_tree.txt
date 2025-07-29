@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_NQ3EBQ:0.46901,(corylus_avellana_Corav.g32846:0.46719,(fragaria_vesca_FvH4_1g22180:0.29214,fragaria_vesca_FvH4_1g22190:0.79799)n2:0.15029)n1:0.46901)n0;

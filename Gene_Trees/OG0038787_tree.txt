@@ -1,0 +1,1 @@
+((quercus_rubra_Qurub.02G193600:0.31861,(carya_illinoinensis_Caril.04G156100:0.30793,corylus_avellana_Corav.g33761:0.3093)n2:0.1466)n1:0.33281,(fragaria_vesca_FvH4_1g05950:0.50296,(prunus_persica_Prupe.7G221600:0.13802,(malus_domestica_MD15G1194600:0.12634,malus_domestica_MD02G1064100:0.12096)n5:0.14329)n4:0.02805)n3:0.33281)n0;

@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_219s0090g00880:0.14823,(eucalyptus_grandis_Eucgr.F03486:0.54947,(carica_papaya_Capac.c00012g273:0.41157,cucumis_sativus_Cucsa.c007380g01:0.92763)n2:0.22371)n1:0.14823)n0;

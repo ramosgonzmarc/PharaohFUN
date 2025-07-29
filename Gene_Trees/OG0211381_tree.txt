@@ -1,0 +1,1 @@
+(lotus_japonicus_Lj4g0000358:0.471,(lens_culinaris_Lecul.7g070810:0.34604,(lens_culinaris_Lecul.1g060940:0.00055,lens_culinaris_Lecul.1g060920:0.00054)n2:0.34233)n1:0.471)n0;

@@ -1,0 +1,1 @@
+(asparagus_officinalis_AsparagusV1_10.817:0.774165,(cycas_panzhihuaensis_CYCAS_005401:0.08179,(ginkgo_biloba_Gb_06357:0.60681,picea_abies_Pab_31648g0010:1.07793)n2:0.35057)n1:0.774165)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv22835:0.162925,(cymbomonas_tetramitiformis_KAK3236714:0.78351,(pedinophyceae_sp_Pesp.9460164:0.21177,(elliptochloris_bilobata_Elbil.KAK9840935:0.65604,(tetraselmis_striata_TSEL_043751:0.40107,myrmecia_bisecta_Mybis.KAK9829597:0.46076)n4:0.07202)n3:0.34734)n2:0.14479)n1:0.162925)n0;

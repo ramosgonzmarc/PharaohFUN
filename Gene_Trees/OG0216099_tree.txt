@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62043672:0.326095,((chenopodium_quinoa_AUR62027491:0.12213,(chenopodium_quinoa_AUR62040797:0.15272,chenopodium_quinoa_AUR62028429:0.06955)n3:0.10112)n2:0.56478,(chenopodium_quinoa_AUR62031602:0.0393,(chenopodium_quinoa_AUR62011192:0.06799,chenopodium_quinoa_AUR62032484:0.24278)n5:0.01686)n4:0.18989)n1:0.326095)n0;

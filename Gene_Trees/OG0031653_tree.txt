@@ -1,0 +1,1 @@
+(schrenkiella_parvula_Scpar2g04850:0.389495,(arabidopsis_lyrata_Arlyr.AL6G35750:0.16832,(arabidopsis_thaliana_AT1G59723:0.27333,arabidopsis_thaliana_AT1G59724:0.1251)n2:0.92684)n1:0.389495)n0;

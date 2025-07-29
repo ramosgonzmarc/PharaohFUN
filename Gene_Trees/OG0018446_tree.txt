@@ -1,0 +1,1 @@
+(spirodela_polyrhiza_Spipo6G0057300:0.455945,(klebsormidium_nitens_kfl00174_0170:1.1635,(klebsormidium_nitens_kfl00130_0310:0.50307,(klebsormidium_nitens_kfl00472_0070:0.64017,(klebsormidium_nitens_kfl00289_0140:0.23624,klebsormidium_nitens_kfl00320_0150:0.13216)n4:0.09834)n3:0.20149)n2:0.37206)n1:0.455945)n0;

@@ -1,0 +1,1 @@
+((phaeoceros_carolinianus_Phcar.S2G054000:0.13163,phaeoceros_sp_Phsp.C8G075000:0.22292)n1:0.73189,(((ceratopteris_richardii_Ceric.15G026300:0.46252,alsophila_spinulosa_Aspi01Gene34895:0.17088)n4:0.05116,(azolla_filiculoides_Azfi_s0083.g038857:0.28032,azolla_filiculoides_Azfi_s0094.g043402:0.858132)n5:0.095348)n3:0.00599,salvinia_cucullata_Sacu_s0022.g008533:0.27613)n2:0.73189)n0;

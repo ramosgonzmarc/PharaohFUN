@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_038572:0.14249,(huperzia_asiatica_HaScaf2546:0.32961,(huperzia_asiatica_HaScaf2539:0.08152,huperzia_asiatica_HaScaf4960:0.11397)n2:0.0832)n1:0.14249)n0;

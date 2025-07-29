@@ -1,0 +1,1 @@
+(olea_europaea_Oeu021226:0.46544,((isoetes_sinensis_IsiChr7g29:0.05643,(isoetes_sinensis_IsiChr15g4296:0.05312,isoetes_sinensis_IsiChr14g2625:0.01734)n3:0.11093)n2:0.00568,(isoetes_sinensis_IsiChr12g37:0.10444,isoetes_sinensis_IsiChr20g3845:0.02623)n4:0.01593)n1:0.46544)n0;

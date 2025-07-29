@@ -1,0 +1,1 @@
+(ananas_comosus_Aco003672:0.62757,(oropetium_thomaeum_Oropetium_20150105_09802A:0.38069,(brachypodium_distachyon_Bradi2g59101:0.00051,setaria_italica_Seita.5G432400:0.78664)n2:0.2839)n1:0.62757)n0;

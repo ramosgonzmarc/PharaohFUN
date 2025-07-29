@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA51G0366:0.32494,(malus_domestica_MD10G1073400:0.52396,(malus_domestica_MD17G1260000:0.00055,malus_domestica_MD05G1069000:0.08417)n2:0.19707)n1:0.32494)n0;

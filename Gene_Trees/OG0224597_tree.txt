@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0031.g024557:0.069565,(azolla_filiculoides_Azfi_s0043.g027020:0.0501,(azolla_filiculoides_Azfi_s0386.g067562:0.86008,(azolla_filiculoides_Azfi_s0024.g020479:0.00054,azolla_filiculoides_Azfi_s0644.g080731:0.15327)n3:1.57401)n2:0.16864)n1:0.069565)n0;

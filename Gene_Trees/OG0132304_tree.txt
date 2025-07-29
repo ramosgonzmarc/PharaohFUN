@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S1G334700:0.11635,(anthoceros_fusiformis_Anfus.S1G386600:0.10778,(paraphymatoceros_pearsonii_Papea.S1G395000:0.12159,(phaeoceros_carolinianus_Phcar.S2G343600:0.00054,phaeoceros_sp_Phsp.C1G096700:0.00489)n3:0.25381)n2:0.1452)n1:0.11635)n0;

@@ -1,0 +1,1 @@
+((asterochloris_glomerata_Astgl_g3002:0.2328,trebouxia_sp_FRX49_11249:0.45507)n1:0.555815,(chlorella_sorokiniana_Chlso_g4738:0.34425,picochlorum_soloecismus_NSC_05788:0.47476)n2:0.555815)n0;

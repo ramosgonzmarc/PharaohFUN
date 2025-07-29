@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.11G099400:0.421555,(populus_trichocarpa_Potri.013G084650:0.88259,(salix_purpurea_Sapur.003G022800:0.40864,salix_purpurea_Sapur.007G120200:0.32808)n2:0.24593)n1:0.421555)n0;

@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_031958:0.34861,(ginkgo_biloba_Gb_37112:0.17777,ginkgo_biloba_Gb_29038:0.00054)n2:0.19334)n1:0.189675,(taxus_chinensis_KI387_038750:0.12503,(thuja_plicata_Thupl.29381866s0001:0.12434,(sequoia_sempervirens_SESE_079932:0.00275,sequoia_sempervirens_SESE_094887:0.00055)n5:0.00237)n4:0.13143)n3:0.189675)n0;

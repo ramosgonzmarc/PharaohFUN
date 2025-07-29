@@ -1,0 +1,1 @@
+((zygnema_cylindricum_Zci1a_25580:0.00054,zygnema_cylindricum_Zci1a_17119:0.01971)n1:0.46953,(carica_papaya_Capac.c00094g023:0.91972,(daucus_carota_DCAR_626432:1.08953,(amborella_trichopoda_AmTr00046g19:0.3543,nymphaea_colorata_Nycol.C01733:0.6325)n4:0.28519)n3:0.18056)n2:0.46953)n0;

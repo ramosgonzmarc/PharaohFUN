@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv18973:0.47297,(picochlorum_soloecismus_NSC_01191:0.69738,(raphidocelis_subcapitata_Rsub_10754:0.106,(raphidocelis_subcapitata_Rsub_13429:0.23075,(raphidocelis_subcapitata_Rsub_10755:0.02657,(raphidocelis_subcapitata_Rsub_06890:0.04386,raphidocelis_subcapitata_Rsub_13419:0.08051)n5:0.01283)n4:0.00699)n3:0.04777)n2:0.52413)n1:0.47297)n0;

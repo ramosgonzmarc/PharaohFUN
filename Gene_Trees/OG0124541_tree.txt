@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g1218:0.518235,(glycine_max_Glyma.01G078700:0.10854,(lotus_japonicus_Lj1g0001185:0.31455,(phaseolus_acutifolius_Phacu.L015580:0.13429,vigna_unguiculata_Vigun05g164500:0.17754)n3:0.26739)n2:0.06987)n1:0.518235)n0;

@@ -1,0 +1,1 @@
+(brassica_oleracea_Bol020828:0.500855,((huperzia_asiatica_HaA40G0405:0.01478,huperzia_asiatica_HaB40G0400:0.01324)n2:0.15625,(diphasiastrum_complanatum_Dicom.08G041900:0.06307,lycopodium_clavatum_Lcl_0019659:0.08771)n3:0.17951)n1:0.500855)n0;

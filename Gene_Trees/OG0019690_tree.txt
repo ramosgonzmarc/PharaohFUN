@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.1G206200:0.286335,(amborella_trichopoda_AmTr00086g33:0.27664,(amborella_trichopoda_AmTr00159g26:0.44946,(amborella_trichopoda_AmTr00024g11:0.22585,amborella_trichopoda_AmTr00047g72:0.03011)n3:0.8581)n2:0.10649)n1:0.286335)n0;

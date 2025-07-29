@@ -1,0 +1,1 @@
+((beta_vulgaris_Bevul.5G208200:1.53957,vaccinium_darrowii_Vadar_g14446:0.78865)n1:0.19335,(aquilegia_coerulea_Aqcoe3G182900:0.7229,(aquilegia_coerulea_Aqcoe3G100900:0.47599,(aquilegia_coerulea_Aqcoe3G090700:0.05796,aquilegia_coerulea_Aqcoe3G090900:0.01205)n4:0.51462)n3:0.07992)n2:0.19335)n0;

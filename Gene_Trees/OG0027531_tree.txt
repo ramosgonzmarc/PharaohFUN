@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA61G0428:0.42765,(selaginella_moellendorffii_Smoe_413152:0.27521,(selaginella_moellendorffii_Smoe_426858:0.60776,selaginella_moellendorffii_Smoe_413179:0.10371)n2:0.93125)n1:0.42765)n0;

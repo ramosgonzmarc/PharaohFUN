@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_27GHF6:0.193785,(glycine_max_Glyma.02G077800:0.31029,((medicago_truncatula_Medtr2g018090:0.05815,trifolium_pratense_Trpra.04667:0.28268)n3:0.15085,lupinus_albus_Lalb_Chr18g0054781:0.40853)n2:0.12495)n1:0.193785)n0;

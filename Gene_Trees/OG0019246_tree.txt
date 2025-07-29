@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr9g638:0.227245,(sequoia_sempervirens_SESE_128081:0.78026,(trifolium_pratense_Trpra.12730:0.79653,((abies_alba_AALBA5B239926:0.1477,picea_abies_Pab_9394466g0010:0.13445)n4:0.22362,(cycas_panzhihuaensis_CYCAS_002249:0.1968,ginkgo_biloba_Gb_03298:0.18684)n5:0.12894)n3:1.04357)n2:0.19629)n1:0.227245)n0;

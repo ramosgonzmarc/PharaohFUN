@@ -1,0 +1,1 @@
+((galdieria_sulphuraria_GsulpAzora_G3659:0.77291,porphyra_umbilicalis_Pum0229s0023:0.63705)n1:0.716435,(cymbomonas_tetramitiformis_KAK3255750:0.01097,cymbomonas_tetramitiformis_KAK3257146:0.01999)n2:0.716435)n0;

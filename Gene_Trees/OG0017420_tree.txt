@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr04217g1:0.01065,((cinnamomum_kanehirae_CKAN_02727400:0.00053,cinnamomum_kanehirae_CKAN_02763400:0.00887)n2:0.00054,(cinnamomum_kanehirae_CKAN_02431500:0.02124,cinnamomum_kanehirae_CKAN_01386800:0.01575)n3:0.03506)n1:0.01065)n0;

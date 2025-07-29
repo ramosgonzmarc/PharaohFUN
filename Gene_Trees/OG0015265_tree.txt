@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_200s1448g00010:0.548515,((tetraselmis_striata_TSEL_025885:0.37941,tetraselmis_striata_TSEL_039090:0.31741)n2:0.38322,(tetraselmis_striata_TSEL_038830:0.52849,(tetraselmis_striata_TSEL_037643:1.00359,(tetraselmis_striata_TSEL_037315:0.67519,tetraselmis_striata_TSEL_038032:0.73691)n5:0.77159)n4:0.37135)n3:0.07905)n1:0.548515)n0;

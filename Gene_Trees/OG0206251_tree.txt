@@ -1,0 +1,1 @@
+(gossypium_raimondii_Gorai.006G244000:0.576525,(citrus_sinensis_Cisin.037341:0.03046,((poncirus_trifoliata_Ptrif.0005s0121:0.0284,poncirus_trifoliata_Ptrif.0005s3398:0.06212)n3:0.85678,(poncirus_trifoliata_Ptrif.0005s3098:0.85825,poncirus_trifoliata_Ptrif.0003s3783:0.009585)n4:0.0009585)n2:0.0001065)n1:0.31045)n0;

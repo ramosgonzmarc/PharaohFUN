@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr07g0188011:0.19754,(populus_trichocarpa_Potri.002G076300:0.34472,(salix_purpurea_Sapur.010G072800:0.47849,salix_purpurea_Sapur.002G060400:0.000495)n2:5.5e-05)n1:0.66244)n0;

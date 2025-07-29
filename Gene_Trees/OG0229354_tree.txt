@@ -1,0 +1,1 @@
+((anthoceros_fusiformis_Anfus.S5G151700:0.65262,anthoceros_fusiformis_Anfus.S3G222200:0.29106)n1:0.13357,(notothylas_orbicularis_Noorb.S4G183400:0.22088,(phaeomegaceros_chiloensis_Phchi.S1G674700:0.19516,((phaeoceros_carolinianus_Phcar.S1G109500:0,phaeoceros_sp_Phsp.C19G019300:0)n5:0.17653,paraphymatoceros_pearsonii_Papea.S1G973800:0.10014)n4:0.03027)n3:0.0459)n2:0.13357)n0;

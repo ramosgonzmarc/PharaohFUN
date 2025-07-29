@@ -1,0 +1,1 @@
+((phymatoceros_phymatodes_Phphy.S1G052800:0.54284,phymatoceros_phymatodes_Phphy.S1G226600:0.64804)n1:0.39159,(alsophila_spinulosa_Aspi01Gene44799:0.02981,(alsophila_spinulosa_Aspi01Gene35028:0.03443,(alsophila_spinulosa_Aspi01Gene29926:0.05669,alsophila_spinulosa_Aspi01Gene00453:0.01444)n4:0.00054)n3:0.01655)n2:0.39159)n0;

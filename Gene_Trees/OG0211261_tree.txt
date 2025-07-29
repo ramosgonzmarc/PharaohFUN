@@ -1,0 +1,1 @@
+(cicer_arietinum_Ca_26364:0.25488,(medicago_truncatula_Medtr5g060440:0.23163,(trifolium_pratense_Trpra.27567:0.40921,trifolium_pratense_Trpra.28867:0.4624)n2:0.27703)n1:0.25488)n0;

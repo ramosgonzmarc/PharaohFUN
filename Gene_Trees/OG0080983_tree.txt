@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.1Z226100:0.00055,oropetium_thomaeum_Oropetium_20150105_20914A:0.20661)n1:0.25132,(adiantum_capillus_Adc11611:0.80666,(medicago_truncatula_Medtr5g024550:0.124685,medicago_truncatula_Medtr1g040770:0.618183)n3:0.068687)n2:0.1085)n0;

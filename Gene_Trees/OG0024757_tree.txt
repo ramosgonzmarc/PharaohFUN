@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00093_0060:0.613625,(elliptochloris_bilobata_Elbil.KAK9845204:0.24683,(coccomyxa_subellipsoidea_Cosub_61318:0.47118,coccomyxa_subellipsoidea_Cosub_66312:0.427563)n2:0.047507)n1:0.29899)n0;

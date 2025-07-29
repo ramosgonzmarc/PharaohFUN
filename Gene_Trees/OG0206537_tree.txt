@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.18473s0147:0.702505,(gossypium_raimondii_Gorai.006G123600:0.01231,(gossypium_hirsutum_Gohir.A09G109601:0.03906,gossypium_hirsutum_Gohir.D09G106150:0.000495)n2:5.5e-05)n1:0.0078)n0;

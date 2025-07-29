@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol018519:0.21212,brassica_rapa_Brara.B03108:0.19376)n1:0.202855,(malus_domestica_MD10G1059300:0.31896,(arachis_hypogaea_arahy_GNXD3Q:0.71022,manihot_esculenta_Manes.04G079501:0.47894)n3:0.10237)n2:0.202855)n0;

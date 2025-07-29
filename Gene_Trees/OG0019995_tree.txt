@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi4g06275:0.040195,(brachypodium_distachyon_Bradi3g47745:0.06978,(brachypodium_distachyon_Bradi2g26563:0.07869,brachypodium_distachyon_Bradi1g42513:0.15073)n2:0.03122)n1:0.040195)n0;

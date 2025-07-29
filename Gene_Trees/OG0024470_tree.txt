@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000013S00818:0.39089,(monoraphidium_minutum_Momin.404255:0.34513,(chlorella_sorokiniana_Chlso_g8108:1.41033,chlorella_sorokiniana_Chlso_g3527:0.12979)n2:0.20221)n1:0.39089)n0;

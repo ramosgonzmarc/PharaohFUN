@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_02016400:0.30281,cinnamomum_kanehirae_CKAN_01126700:0.32455)n1:0.18326,(musa_acuminata_Muacu.8P25170_001:0.15563,(musa_acuminata_Muacu.7P08660_001:0.14015,musa_acuminata_Muacu.2P05190_001:0.22646)n3:0.14771)n2:0.18326)n0;

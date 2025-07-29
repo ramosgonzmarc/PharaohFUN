@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0027.g023505:0.319435,(ceratopteris_richardii_Ceric.30G024700:0.37731,(adiantum_capillus_Adc28847:0.77892,(adiantum_capillus_Adc26588:0.45323,adiantum_capillus_Adc26589:0.23238)n3:0.023238)n2:0.002582)n1:0.21157)n0;

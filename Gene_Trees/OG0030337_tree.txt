@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle4c02143:0.238575,((alsophila_spinulosa_Aspi01Gene17367:0.55243,huperzia_asiatica_HaA26G0509:1.16177)n2:0.07748,(sequoia_sempervirens_SESE_053816:0.00907,sequoia_sempervirens_SESE_048921:0.00055)n3:0.78874)n1:0.238575)n0;

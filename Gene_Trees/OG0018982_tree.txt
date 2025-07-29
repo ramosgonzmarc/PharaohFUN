@@ -1,0 +1,1 @@
+(schrenkiella_parvula_Scpar7g13190:0.538415,(welwitschia_mirabilis_Wmi_11832:0.36115,((welwitschia_mirabilis_Wmi_12595:0.00055,welwitschia_mirabilis_Wmi_12596:0.00054)n3:0.69605,(welwitschia_mirabilis_Wmi_14996:0.0123,welwitschia_mirabilis_Wmi_14997:0.00055)n4:0.00053)n2:0.11107)n1:0.538415)n0;

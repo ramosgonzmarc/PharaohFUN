@@ -1,0 +1,1 @@
+(setaria_italica_Seita.2G416300:0.006105,(setaria_italica_Seita.2G024700:0.25318,(setaria_italica_Seita.2G197600:0.02848,(setaria_italica_Seita.5G291300:0.02336,setaria_italica_Seita.1G021200:0.01818)n3:0.01341)n2:0.0214)n1:0.006105)n0;

@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr5g063660:0.37892,(brachypodium_distachyon_Bradi2g49770:0.00053,(brachypodium_distachyon_Bradi2g34096:0.65174,brachypodium_distachyon_Bradi3g31471:0.01831)n2:0.23928)n1:0.37892)n0;

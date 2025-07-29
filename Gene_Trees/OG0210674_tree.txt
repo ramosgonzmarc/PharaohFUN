@@ -1,0 +1,1 @@
+((lotus_japonicus_Lj6g0027110:0.02126,lotus_japonicus_LjContig00175g0003462:0.00054)n1:0.510765,((medicago_truncatula_Medtr8g015750:0.45255,(trifolium_pratense_Trpra.39126:1.00751,trifolium_pratense_Trpra.00325:0.08235)n4:0.05398)n3:0.07723,(trifolium_pratense_Trpra.31785:0.10943,medicago_truncatula_Medtr4g046740:0.497817)n5:0.055313)n2:0.510765)n0;

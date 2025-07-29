@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10014349m:0.88823,(sisymbrium_irio_Siiris2018g00020:0.17523,(sisymbrium_irio_Siiris198g00010:0.06583,sisymbrium_irio_Siiris515g00030:0.1729)n2:0.25409)n1:0.88823)n0;

@@ -1,0 +1,1 @@
+(elliptochloris_bilobata_Elbil.KAK9843509:0.337235,(picochlorum_soloecismus_NSC_04587:1.01863,(chlorella_sorokiniana_Chlso_g6186:0.49496,auxenochlorella_protothecoides_APUTEX2500002460:0.43355)n2:0.18927)n1:0.337235)n0;

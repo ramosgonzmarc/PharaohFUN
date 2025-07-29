@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S2G034000:0.426665,((takakia_lepidozioides_Tle1c05363:0.34087,takakia_lepidozioides_Tle2c03287:0.00054)n2:0.11439,(takakia_lepidozioides_Tle1c04043:0.03885,takakia_lepidozioides_Tle2c02549:0.197)n3:0.03279)n1:0.426665)n0;

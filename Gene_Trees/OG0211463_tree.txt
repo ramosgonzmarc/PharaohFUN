@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.16G059700:0.561155,(populus_trichocarpa_Potri.015G119100:0.00054,(populus_trichocarpa_Potri.015G118850:0.00055,populus_trichocarpa_Potri.015G118900:0.00054)n2:0.10413)n1:0.561155)n0;

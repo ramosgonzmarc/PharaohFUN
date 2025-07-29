@@ -1,0 +1,1 @@
+(((oryza_sativa_Os08g32340:0.13814,oryza_sativa_Os08g32350:0.63592)n2:0.68682,(oryza_sativa_Os08g32360:0.18296,oryza_sativa_Os08g32370:0.30867)n3:0.3841)n1:0.050965,(panicum_hallii_Pahal.6G198200:0.53761,(eleusine_coracana_Elcor.8AG0630570:0,eleusine_coracana_Elcor.8AG0630540:0)n5:0.56402)n4:0.050965)n0;

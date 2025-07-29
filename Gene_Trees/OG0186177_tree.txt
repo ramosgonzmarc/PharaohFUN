@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS5D03G0219400:0.29413,((miscanthus_sinensis_Misin15G149300:0.47158,setaria_italica_Seita.3G324400:0.36192)n2:0.13031,(setaria_italica_Seita.3G363000:0.41935,(sorghum_bicolor_Sobic.002G062350:0.03619,miscanthus_sinensis_Misin04G061000:0.11492)n4:0.384894)n3:0.042766)n1:0.29413)n0;

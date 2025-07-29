@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene59215:0.127245,(thlaspi_arvense_TaMN106.6G149900:0.52971,(sequoiadendron_giganteum_SEGI_08548:0.24577,(chenopodium_quinoa_AUR62037345:0.58482,sequoia_sempervirens_SESE_050453:0.50583)n3:0.04205)n2:0.13963)n1:0.127245)n0;

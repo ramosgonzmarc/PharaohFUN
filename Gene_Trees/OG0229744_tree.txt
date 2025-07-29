@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S1G259800:0.14501,(paraphymatoceros_pearsonii_Papea.S1G1007500:0.97684,(paraphymatoceros_pearsonii_Papea.C15G001800:0.15405,paraphymatoceros_pearsonii_Papea.S1G1007400:0.0432)n2:0.12493)n1:0.14501)n0;

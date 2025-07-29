@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr1072s0010:0.66005,(chlamydomonas_incerta_Chincg04747:0.78564,(cymbomonas_tetramitiformis_KAK3289298:0.25347,(cymbomonas_tetramitiformis_KAK3253390:0.05385,(cymbomonas_tetramitiformis_KAK3279558:0.00773,(cymbomonas_tetramitiformis_KAK3274328:0.00055,cymbomonas_tetramitiformis_KAK3283117:0.84463)n5:0.02118)n4:0.52294)n3:0.15102)n2:0.35332)n1:0.66005)n0;

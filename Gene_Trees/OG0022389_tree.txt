@@ -1,0 +1,1 @@
+((glycine_max_Glyma.02G204650:0.00053,arachis_hypogaea_arahy_TF9MBQ:0.67479)n1:0.221075,(abies_alba_AALBA5B059194:0.04852,abies_alba_AALBA5B841241:0.04149)n2:0.221075)n0;

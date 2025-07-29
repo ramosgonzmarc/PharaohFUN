@@ -1,0 +1,1 @@
+(chlamydomonas_incerta_Chincg14823:0.002015,(chlamydomonas_incerta_Chincg04370:0.00055,(chlamydomonas_incerta_Chincg14817:0.00055,(chlamydomonas_incerta_Chincg14819:0.01626,chlamydomonas_incerta_Chincg14821:0.0333)n3:0.00411)n2:0.00054)n1:0.002015)n0;

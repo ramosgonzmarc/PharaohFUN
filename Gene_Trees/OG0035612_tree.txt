@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3287706:0.369685,(picocystis_sp_Picml_g3261:1.03802,(ostreobium_quekettii_CAD7695364:0.30622,bryopsis_sp_Bsp_GMH40116:0.88816)n2:0.39987)n1:0.369685)n0;

@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp27S04226:0.69663,mesostigma_viride296_Mevir.Mv09740:0.4644)n1:0.63094,(isoetes_sinensis_IsiChr17g2185:0.00784,isoetes_sinensis_IsiChr18g1899:0.0061)n2:0.63094)n0;

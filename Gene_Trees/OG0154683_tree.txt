@@ -1,0 +1,1 @@
+((sequoiadendron_giganteum_SEGI_22975:0.03209,sequoiadendron_giganteum_SEGI_27342:0.02907)n1:0.64815,(panicum_hallii_Pahal.3G214600:0.10567,setaria_italica_Seita.3G179700:0.14319)n2:0.64815)n0;

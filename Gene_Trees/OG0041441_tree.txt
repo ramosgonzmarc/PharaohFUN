@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_41471:0.676855,(ceratodon_purpureus_CepurR40.11G017800:0.66559,(funaria_hygrometrica_Fuhyg.18696:0.27936,(physcomitrium_patens_Pp6c22_3970V6:0.00178,physcomitrium_patens_Pp6c22_3960V6:0.0251)n3:0.27119)n2:0.37604)n1:0.676855)n0;

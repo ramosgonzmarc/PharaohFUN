@@ -1,0 +1,1 @@
+((olea_europaea_Oeu020238:0.33526,coffea_arabica_Coara.024000:0.17569)n1:0.12282,((lactuca_sativa_Lsat_gn_7_33421:0.15007,lactuca_sativa_Lsat_gn_1_89400:0.14313)n3:0.04033,((daucus_carota_DCAR_102257:0.02485,(daucus_carota_DCAR_100514:0.19596,daucus_carota_DCAR_935868:0.11407)n6:0.01286)n5:0.14265,daucus_carota_DCAR_935870:0.678384)n4:0.075376)n2:0.03472)n0;

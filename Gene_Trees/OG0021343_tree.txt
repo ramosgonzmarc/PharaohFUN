@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00028_0180:0.80037,(klebsormidium_nitens_kfl00536_0020:0.40447,klebsormidium_nitens_kfl00156_0220:0.42088)n2:0.3144)n1:0.28654,(mesotaenium_endlicherianum_ME000157S01551:0.70464,(zygnema_circumcarinatum_Zci_05267:0.39333,zygnema_cylindricum_Zci1a_13177:0.32897)n4:0.39777)n3:0.28654)n0;

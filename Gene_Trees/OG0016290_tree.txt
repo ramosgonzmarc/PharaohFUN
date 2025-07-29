@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00534_0080:0.28812,(cymbomonas_tetramitiformis_KAK3288196:0.59276,((tetraselmis_striata_TSEL_040747:0.0649,(tetraselmis_striata_TSEL_012477:0.00055,tetraselmis_striata_TSEL_027530:0.2291)n4:0.11431)n3:0.53598,(micromonas_pusilla_Mpus_193246:0.5348,micromonas_commoda_Micom.058179:0.35273)n5:0.92397)n2:0.2482)n1:0.28812)n0;

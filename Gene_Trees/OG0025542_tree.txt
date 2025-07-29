@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.3031s00001:0.636245,(trifolium_pratense_Trpra.07587:0.65777,(isoetes_sinensis_IsiChr17g2231:0.00203,isoetes_sinensis_IsiChr17g2912:0.296163)n2:0.032907)n1:0.01532)n0;

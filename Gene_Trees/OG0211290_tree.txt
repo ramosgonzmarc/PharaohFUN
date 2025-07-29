@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.8G030700:0.24648,(corylus_avellana_Corav.g7249:0.45612,(corylus_avellana_Corav.g33030:0.00055,corylus_avellana_Corav.g33015:0.26779)n2:1.07261)n1:0.24648)n0;

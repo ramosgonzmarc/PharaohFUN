@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.J00713:0.05666,trifolium_pratense_Trpra.22919:0.33285)n1:0.23787,(coffea_arabica_Coara.072725:1.15902,lactuca_sativa_Lsat_gn_4_142760:0.8387)n2:0.23787)n0;

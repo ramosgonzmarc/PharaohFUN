@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx09G037600:0.290235,(alsophila_spinulosa_Aspi01Gene28695:0.10591,(adiantum_capillus_Adc13370:0.40649,marsilea_vestita_Mvestita_S19g17507:0.40093)n2:0.00363)n1:0.290235)n0;

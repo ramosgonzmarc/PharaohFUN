@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.10713:0.14482,(chlamydomonas_reinhardtii_Cre06.g287750_4532:0.07524,chlamydomonas_incerta_Chincg00421:0.06705)n2:0.25577)n1:0.21836,(monoraphidium_minutum_Momin.524832:0.26736,(desmodesmus_armatus_Desar.503749:0.33167,scenedesmus_obliquus_Sobl_g20021:0.14607)n4:0.15633)n3:0.21836)n0;

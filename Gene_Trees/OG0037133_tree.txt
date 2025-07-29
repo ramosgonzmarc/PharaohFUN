@@ -1,0 +1,1 @@
+(zea_mays_Zm00001d007735:0.106395,(lens_culinaris_Lecul.2g088580:0.34816,(glycine_max_Glyma.06G292700:0.69131,glycine_max_Glyma.13G297150:0.152289)n2:0.016921)n1:0.97191)n0;

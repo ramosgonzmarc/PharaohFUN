@@ -1,0 +1,1 @@
+(((medicago_truncatula_Medtr1g107390:0.07056,trifolium_pratense_Trpra.03362:0.06516)n2:0.191,((glycine_max_Glyma.20G128251:0.04944,(phaseolus_acutifolius_Phacu.007G039700:0.08089,vigna_unguiculata_Vigun07g257800:0.16049)n5:0.1871)n4:0.20677,glycine_max_Glyma.20G128200:0.203067)n3:0.022563)n1:0.08549,lotus_japonicus_Lj6g0006289:0.70964)n0;

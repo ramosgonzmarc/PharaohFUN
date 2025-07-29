@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_03263:0.58889,((volvox_carteri_Vocar.0035s0124:0.64045,(chlamydomonas_incerta_Chincg02753:0.35405,tetrabaena_socialis_Tesoc.PNH11811:0.52854)n3:0.72299)n2:0.09906,(tetrabaena_socialis_Tesoc.PNH07615:0.5783,(chlamydomonas_reinhardtii_Cre03.g192450_4532:0.19419,chlamydomonas_incerta_Chincg05097:0.14558)n5:0.326295)n4:0.036255)n1:0.58889)n0;

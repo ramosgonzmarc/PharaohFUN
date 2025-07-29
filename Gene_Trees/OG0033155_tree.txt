@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.14949:0.52986,(chlamydomonas_reinhardtii_Cre04.g229250_4532:0.16003,chlamydomonas_incerta_Chincg04256:0.23812)n2:0.21517)n1:0.528495,(ceratodon_purpureus_CepurR40.8G059200:0.22343,(physcomitrium_patens_Pp6c21_6180V6:0.05291,funaria_hygrometrica_Fuhyg.19190:0.10343)n4:0.08866)n3:0.528495)n0;

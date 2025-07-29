@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.13G119200:0.802035,((marchantia_polymorpha_Mp6g09030:0.10919,marchantia_paleacea_Mapa_017044:0.00055)n2:0.6086,(riccia_fluitans_R1flu_001188:0.25264,riccia_sorocarpa_Risor.KAL3681063:0.24653)n3:0.3452)n1:0.802035)n0;

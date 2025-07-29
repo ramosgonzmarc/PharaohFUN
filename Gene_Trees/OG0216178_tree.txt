@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.09G165200:0.083985,(chenopodium_quinoa_AUR62039081:1.20896,((chenopodium_quinoa_AUR62020423:0.14706,chenopodium_quinoa_AUR62015793:0.13281)n3:0.33987,(chenopodium_quinoa_AUR62020424:0.04103,chenopodium_quinoa_AUR62015790:0.09485)n4:0.34313)n2:0.88886)n1:0.083985)n0;

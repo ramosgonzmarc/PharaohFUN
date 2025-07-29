@@ -1,0 +1,1 @@
+(vigna_unguiculata_Vigun04g144766:0.00027,(vigna_unguiculata_Vigun01g022432:0.07462,((vigna_unguiculata_Vigun06g123650:0.01933,vigna_unguiculata_Vigun03g016701:0.00055)n3:0.07466,(vigna_unguiculata_Vigun05g176750:0.05146,vigna_unguiculata_Vigun05g176801:0.09745)n4:0.04099)n2:0.14679)n1:0.00027)n0;

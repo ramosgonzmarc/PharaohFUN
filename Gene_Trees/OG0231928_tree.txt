@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_31413:0.02819,(zygnema_cylindricum_Zci1a_31414:0.05437,(zygnema_cylindricum_Zci1a_41918:0.76727,(zygnema_cylindricum_Zci1a_32336:0.20407,zygnema_cylindricum_Zci1a_42015:0.2755)n3:0.07395)n2:0.03023)n1:0.02819)n0;

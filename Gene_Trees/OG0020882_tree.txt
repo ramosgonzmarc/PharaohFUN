@@ -1,0 +1,1 @@
+(((tetraselmis_striata_TSEL_030919:0.01862,tetraselmis_striata_TSEL_006491:0.0009)n2:0.50365,(micromonas_commoda_Micom.064187:1.00031,cymbomonas_tetramitiformis_KAK3275222:0.38547)n3:0.17832)n1:0.27628,(mesostigma_viride1140_Mesvi1362S02643:0.02127,mesostigma_viride296_Mevir.Mv00807:0.07942)n4:0.27628)n0;

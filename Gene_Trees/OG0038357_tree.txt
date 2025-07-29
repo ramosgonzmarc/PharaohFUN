@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiScaffold3501g16:0.433195,(daucus_carota_DCAR_935493:0.51373,(populus_trichocarpa_Potri.001G116350:0.29854,(olea_europaea_Oeu017524:0.12325,oropetium_thomaeum_Oropetium_20150105_23186A:0.87597)n3:0.04331)n2:0.18387)n1:0.433195)n0;

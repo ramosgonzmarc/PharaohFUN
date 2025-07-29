@@ -1,0 +1,1 @@
+(malus_domestica_MD01G1166500:0.58831,(prunus_persica_Prupe.6G045400:0.97231,(prunus_persica_Prupe.2G254700:0.77197,(prunus_persica_Prupe.2G062400:0.09731,prunus_persica_Prupe.2G051300:0.21454)n3:0.45732)n2:0.04769)n1:0.58831)n0;

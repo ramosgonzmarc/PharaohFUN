@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag04G053600:0.30291,(glycine_max_Glyma.09G130700:0.87703,(ginkgo_biloba_Gb_17195:0.36816,welwitschia_mirabilis_Wmi_17125:0.76893)n2:0.37572)n1:0.30291)n0;

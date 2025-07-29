@@ -1,0 +1,1 @@
+(kalanchoe_fedtschenkoi_Kaladp0095s0282:0.596925,(lupinus_albus_Lalb_Chr06g0175591:0.73106,(glycine_max_Glyma.13G066400:0.18479,vigna_unguiculata_Vigun04g047666:0.24371)n2:0.34343)n1:0.596925)n0;

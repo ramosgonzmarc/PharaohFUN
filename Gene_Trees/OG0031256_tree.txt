@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S3G212300:0.11863,((notothylas_orbicularis_Noorb.S1G204500:0.29789,phaeomegaceros_chiloensis_Phchi.S3G217900:0.22199)n2:0.16966,(anthoceros_fusiformis_Anfus.S1G282100:0.00801,(anthoceros_agrestis_AnagrOXF.S5G052900:0.01489,anthoceros_punctatus_Anpun.S3G398400:0.00055)n4:0.05292)n3:0.27939)n1:0.11863)n0;

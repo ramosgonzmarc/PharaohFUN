@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA31G0612:0.62522,(ginkgo_biloba_Gb_38637:0.66221,(ginkgo_biloba_Gb_25239:0.72168,ginkgo_biloba_Gb_38112:0.54163)n2:0.12109)n1:0.62522)n0;

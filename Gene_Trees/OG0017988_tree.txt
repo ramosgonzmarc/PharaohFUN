@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3254104:0.0664,cymbomonas_tetramitiformis_KAK3255972:0.0005)n1:0.5511,(gracilariopsis_chorda_PXF45403:0.42042,(cyanidioschyzon_merolae_CmerSOOS_G1160:0.54131,porphyra_umbilicalis_Pum0260s0002:0.53251)n3:0.08167)n2:0.5511)n0;

@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.5G152600:0.62772,(alsophila_spinulosa_Aspi01Gene34891:0.76059,(selaginella_moellendorffii_Smoe_417191:0.59584,(selaginella_moellendorffii_Smoe_417192:0.09133,selaginella_moellendorffii_Smoe_430377:0.01904)n3:0.19172)n2:0.3482)n1:0.62772)n0;

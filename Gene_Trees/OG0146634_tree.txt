@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaB10G0380:0.43595,(olea_europaea_Oeu059962:0.00055,(kalanchoe_fedtschenkoi_Kaladp0039s0141:0.50282,(vaccinium_darrowii_Vadar_g45642:0.317,vaccinium_darrowii_Vadar_g8434:0.07304)n3:1.00069)n2:0.24214)n1:0.43595)n0;

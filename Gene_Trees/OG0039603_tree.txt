@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00002069:0.51248,((myrmecia_bisecta_Mybis.KAK9824103:0.0744,myrmecia_bisecta_Mybis.KAK9816470:0.3027)n2:1.0968,(micromonas_pusilla_Mpus_152797:0.2838,micromonas_commoda_Micom.109446:0.46819)n3:0.29285)n1:0.51248)n0;

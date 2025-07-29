@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S2G561100:0.58109,(theobroma_cacao_Thecc1EG012295:0.57905,(manihot_esculenta_Manes.16G065025:0.98695,(alsophila_spinulosa_Aspi01Gene57059:0.05136,alsophila_spinulosa_Aspi01Gene67879:0.11232)n3:0.12234)n2:0.05092)n1:0.58109)n0;

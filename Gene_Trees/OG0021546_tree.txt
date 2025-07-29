@@ -1,0 +1,1 @@
+(picea_abies_Pab_11824g0010:0.325555,(olea_europaea_Oeu013071:0.00053,(olea_europaea_Oeu052193:0.81523,(olea_europaea_Oeu045438:0.73897,olea_europaea_Oeu051948:0.1318)n3:0.46435)n2:0.58714)n1:0.325555)n0;

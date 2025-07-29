@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol041484:0.39094,funaria_hygrometrica_Fuhyg.00601:0.42661)n1:0.239625,(chara_braunii_CBR_g29355:0.20965,chara_braunii_CBR_g54805:0.13416)n2:0.239625)n0;

@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00014_0010:0.52472,desmodesmus_armatus_Desar.446659:1.39083)n1:0.02335,(mesostigma_viride1140_Mesvi2045S04085:0.76276,(micromonas_pusilla_Mpus_8132:0.23026,micromonas_commoda_Micom.108013:0.42516)n3:0.30028)n2:0.02335)n0;

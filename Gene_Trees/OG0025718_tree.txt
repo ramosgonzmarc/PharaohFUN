@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum_Zci_15867:0.63762,(medicago_truncatula_Medtr8g009630:0.85327,((sequoia_sempervirens_SESE_035369:0.49135,sequoiadendron_giganteum_SEGI_40458:0.37956)n3:0.32396,((ginkgo_biloba_Gb_00207:0.62265,ginkgo_biloba_Gb_11261:0.54812)n5:0.346,ginkgo_biloba_Gb_38869:0.333837)n4:0.037093)n2:0.19454)n1:0.35165)n0;

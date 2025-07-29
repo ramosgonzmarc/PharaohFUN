@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c6_13870V6:0.38282,(theobroma_cacao_Thecc1EG014347:0.79125,(alsophila_spinulosa_Aspi01Gene08802:0.10824,alsophila_spinulosa_Aspi01Gene64721:0.02269)n2:0.00054)n1:0.38282)n0;

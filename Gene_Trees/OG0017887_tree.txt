@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00020_0470:0.78729,(tetraselmis_striata_TSEL_005059:0.00953,tetraselmis_striata_TSEL_005061:0.00054)n2:0.95104)n1:0.070255,(chlorokybus_atmophyticus_Chrsp31S04778:0.79837,(raphidocelis_subcapitata_Rsub_07064:0.18082,monoraphidium_minutum_Momin.521753:0.29946)n4:0.38799)n3:0.070255)n0;

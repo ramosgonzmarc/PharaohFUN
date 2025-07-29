@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_10763:0.132805,(poncirus_trifoliata_Ptrif.0002s3244:0.66003,(aquilegia_coerulea_Aqcoe6G110200:0.28715,vitis_vinifera_VIT_218s0041g01820:0.34839)n2:0.10037)n1:0.132805)n0;

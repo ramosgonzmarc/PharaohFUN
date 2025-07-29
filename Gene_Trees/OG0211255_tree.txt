@@ -1,0 +1,1 @@
+(vigna_unguiculata_Vigun04g147850:0.52868,(prunus_persica_Prupe.4G251000:0.36859,(carya_illinoinensis_Caril.14G120400:0.29806,corylus_avellana_Corav.g26903:0.36565)n2:0.26872)n1:0.52868)n0;

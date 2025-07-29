@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g2850:0.663305,(zygnema_cylindricum_Zci1a_16673:0.51654,(mesotaenium_endlicherianum_ME000047S07947:0.09403,mesotaenium_endlicherianum_ME000120S00150:0.03983)n2:0.86989)n1:0.663305)n0;

@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr20g3263:0.05965,isoetes_sinensis_IsiChr19g3339:0.11874)n1:0.82086,((abies_alba_AALBA5B102396:0.16214,sequoiadendron_giganteum_SEGI_24414:0.16896)n3:0.28111,(asparagus_officinalis_AsparagusV1_07.1232:0.32198,nymphaea_colorata_Nycol.G00454:0.32397)n4:0.16441)n2:0.82086)n0;

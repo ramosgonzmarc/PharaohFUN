@@ -1,0 +1,1 @@
+((mimulus_guttatus_Migut.D01387:0.49554,mimulus_guttatus_Migut.D01247:0.00055)n1:0.351425,(saponaria_officinalis_Sapof.O000400:0.0324,((saponaria_officinalis_Sapof.O155700:0.00325,saponaria_officinalis_Sapof.O329600:0.00703)n4:0.00057,saponaria_officinalis_Sapof.O307700:0.02656)n3:0.00081)n2:0.351425)n0;

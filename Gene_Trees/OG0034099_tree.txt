@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S1g07116:0.57298,(sequoiadendron_giganteum_SEGI_30372:0.57485,(cycas_panzhihuaensis_CYCAS_013011:0.30596,cycas_panzhihuaensis_CYCAS_013013:0.00054)n2:0.22968)n1:0.57298)n0;

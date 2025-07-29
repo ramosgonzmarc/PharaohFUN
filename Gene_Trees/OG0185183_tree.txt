@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS6B03G0872500:0.371345,(eleusine_coracana_Elcor.5AG0403440:0.90489,(sorghum_bicolor_Sobic.001G052000:0.31421,miscanthus_sinensis_Misin01G046200:0.28811)n2:0.3578)n1:0.371345)n0;

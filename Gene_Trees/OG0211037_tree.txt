@@ -1,0 +1,1 @@
+(salix_purpurea_Sapur.005G190400:0.312985,(quercus_rubra_Qurub.02G271100:0.81565,(lens_culinaris_Lecul.6g043160:0.30557,(medicago_truncatula_Medtr7g084500:0.08018,medicago_truncatula_Medtr7g084490:0.06356)n3:0.21391)n2:0.49695)n1:0.312985)n0;

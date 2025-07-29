@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.S1G146100:0.48387,((spirogloea_muscicola_SM000241S08519:0.02022,spirogloea_muscicola_SM000252S09076:0.03243)n2:0.4482,(spirogloea_muscicola_SM000241S08507:0.02616,spirogloea_muscicola_SM000252S09060:0.01517)n3:0.38068)n1:0.48387)n0;

@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNG99684:0.594805,(chlamydomonas_reinhardtii_Cre11.g801294_4532:0.0095,(chlamydomonas_reinhardtii_Cre11.g801298_4532:0.27832,chlamydomonas_reinhardtii_Cre11.g801297_4532:0.04413)n2:0.17986)n1:0.594805)n0;

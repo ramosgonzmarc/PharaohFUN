@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10008637m:0.49362,(coffea_arabica_Coara.004540:0.65606,(solanum_lycopersicum_Solyc05g051830:0.00486,solanum_tuberosum_Soltu.05G021840:0.51575)n2:0.81481)n1:0.49362)n0;

@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag16G070500:0.287235,(fragaria_vesca_FvH4_1g28641:0.58171,(malus_domestica_MD17G1274400:0.17383,(malus_domestica_MD01G1098000:0.12726,malus_domestica_MD02G1274100:0.04557)n3:0.00698)n2:0.21046)n1:0.287235)n0;

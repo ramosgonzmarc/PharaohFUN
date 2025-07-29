@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene03086:0.34314,(theobroma_cacao_Thecc1EG024251:0.65158,(aegilops_tauschii_Atau_XP_020193029:0.20121,(chenopodium_quinoa_AUR62006163:0.99482,(trifolium_pratense_Trpra.02965:0.87675,solanum_lycopersicum_Solyc07g018075:0.22588)n4:0.17321)n3:0.24924)n2:0.33036)n1:0.34314)n0;

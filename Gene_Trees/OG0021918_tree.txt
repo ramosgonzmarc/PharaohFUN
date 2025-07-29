@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s0824.g027760:0.575425,(tetraselmis_striata_TSEL_025900:0.29104,(tetraselmis_striata_TSEL_025899:0.19622,tetraselmis_striata_TSEL_039284:0.37817)n2:0.12276)n1:0.575425)n0;

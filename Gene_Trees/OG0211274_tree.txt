@@ -1,0 +1,1 @@
+(cicer_arietinum_Ca_23051:0.189785,(trifolium_pratense_Trpra.24506:0.41296,(trifolium_pratense_Trpra.09218:0.20685,trifolium_pratense_Trpra.36153:0.13942)n2:0.63048)n1:0.189785)n0;

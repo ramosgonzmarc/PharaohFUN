@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr01g0019201:0.14819,(glycine_max_Glyma.05G007300:1.65931,((medicago_truncatula_Medtr4g131370:0.50613,(medicago_truncatula_Medtr5g095235:0.61346,medicago_truncatula_Medtr1g086660:0.39966)n4:0.13485)n3:0.20339,(medicago_truncatula_Medtr4g036635:0.17678,medicago_truncatula_Medtr3g115360:0.72473)n5:0.23329)n2:0.6191)n1:0.14819)n0;

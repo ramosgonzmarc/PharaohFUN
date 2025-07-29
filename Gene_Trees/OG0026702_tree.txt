@@ -1,0 +1,1 @@
+((oryza_sativa_Os10g04950:0.17314,(oryza_sativa_Os11g38840:0.34917,oryza_sativa_Os10g04980:0.00055)n2:0.07143)n1:0.343375,(oropetium_thomaeum_Oropetium_20150105_24627A:0.26571,(eleusine_coracana_Elcor.2AG0118950:0.04548,eleusine_coracana_Elcor.2BG0172790:0.05366)n4:0.34946)n3:0.343375)n0;

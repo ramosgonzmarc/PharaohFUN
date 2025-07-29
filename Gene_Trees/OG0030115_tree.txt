@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin18G078400:0.540705,(triticum_aestivum_TraesCS5B03G0366000:0.32492,(aegilops_tauschii_Atau_XP_040257364:0.00055,aegilops_tauschii_Atau_XP_040257366:0.00055)n2:0.17933)n1:0.540705)n0;

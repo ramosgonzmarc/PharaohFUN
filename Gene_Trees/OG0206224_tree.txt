@@ -1,0 +1,1 @@
+((eutrema_salsugineum_Thhalv10011872m:0.14123,(thlaspi_arvense_TaMN106.1G199400:0.10547,thlaspi_arvense_TaMN106.1G199500:0.08598)n2:0.08088)n1:0.016035,(schrenkiella_parvula_Scpar1g36420:0.04198,(brassica_rapa_Brara.H00296:0.11497,sisymbrium_irio_Siiris689g00510:0.20841)n4:0.09798)n3:0.016035)n0;

@@ -1,0 +1,1 @@
+((chara_braunii_CBR_g21803:0.74168,zygnema_circumcarinatum1559_ZcUTEX1559_03721:0.78077)n1:0.47356,(picocystis_sp_Picml_g2694:0.49379,(dunaliella_salina_Dusal.0238s00018:0.42031,dunaliella_salina_Dusal.0735s00001:0.94729)n3:0.12404)n2:0.47356)n0;

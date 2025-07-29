@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM000040S14753:0.00762,spirogloea_muscicola_SM000069S20718:0.25921)n1:0.39834,(mesotaenium_kramstae_Mekra.2920040:0.18557,(zygnema_circumcarinatum_Zci_03339:0.00055,zygnema_circumcarinatum1559_ZcUTEX1559_03811:0.00055)n3:0.69345)n2:0.39834)n0;

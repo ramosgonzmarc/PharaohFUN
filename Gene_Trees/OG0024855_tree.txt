@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_019284:0,cycas_panzhihuaensis_CYCAS_019600:0)n1:0.271385,(lens_culinaris_Lecul.6g015750:0.51924,(vitis_vinifera_VIT_200s0854g00045:0.00055,nymphaea_colorata_Nycol.F01599:0.37848)n3:0.30751)n2:0.271385)n0;

@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.A08G201800:0.45871,(boechera_stricta_Bostr.7867s1640:0.99599,((boechera_stricta_Bostr.26326s0116:0.41695,thlaspi_arvense_TaMN106.5G186300:0.43075)n3:0.39491,(schrenkiella_parvula_Scpar4g07470:0.7357,boechera_stricta_Bostr.27991s0068:0.39136)n4:0.13705)n2:0.64179)n1:0.45871)n0;

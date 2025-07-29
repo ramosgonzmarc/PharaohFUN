@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.14387:0.06276,(brassica_oleracea_Bol042306:0.32652,(gnetum_montanum_TnS000241525t01:0.12339,(gossypium_hirsutum_Gohir.D05G386750:1.08364,(abies_alba_AALBA5B1055645:0.08832,abies_alba_AALBA5B342307:0.135621)n4:0.015069)n3:0.00054)n2:0.03151)n1:0.06276)n0;

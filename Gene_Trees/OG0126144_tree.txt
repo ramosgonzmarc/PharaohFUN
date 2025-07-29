@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr8g447320:0.85682,(medicago_truncatula_Medtr3g105775:0.23344,medicago_truncatula_Medtr5g072910:0.85541)n2:0.14572)n1:0.06857,(glycine_max_Glyma.06G218400:0.40165,(vigna_unguiculata_Vigun05g046833:0.35687,vigna_unguiculata_Vigun08g208850:0.68984)n4:0.00235)n3:0.06857)n0;

@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_020832:0.025505,((tetraselmis_striata_TSEL_030523:0,tetraselmis_striata_TSEL_003545:0)n2:0.00869,(tetraselmis_striata_TSEL_018991:0.00054,tetraselmis_striata_TSEL_029989:0.04339)n3:0.02691)n1:0.025505)n0;

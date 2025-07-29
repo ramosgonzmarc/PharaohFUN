@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_061537:0.35611,((sphagnum_magellanicum_Sphmag10G001700:0.02281,((pleurozium_schreberi_Plsch.01897:0.406,(sphagnum_fallax_Sphfalx08G054500:0.48075,sphagnum_fallax_Sphfalx01G202700:0.336744)n5:0.037416)n4:0.15456,sphagnum_fallax_Sphfalx10G002300:0.026559)n3:0.002951)n2:0.34126,phaeomegaceros_chiloensis_Phchi.S1G735500:1.0535)n1:0.35611)n0;

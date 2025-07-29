@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S16g11019:0.747825,(adiantum_capillus_Adc30465:0.37058,(ceratopteris_richardii_Ceric.29G040700:0.42282,ceratopteris_richardii_Ceric.03G058600:0.368829)n2:0.040981)n1:0.13566)n0;

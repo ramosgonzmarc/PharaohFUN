@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_521457:0.36435,daucus_carota_DCAR_415254:0.29458)n1:0.39999,(amaranthus_hypochondriacus_AH014705:0.3708,(saponaria_officinalis_Sapof.07G168400:0.33538,saponaria_officinalis_Sapof.06G089800:0.16068)n3:0.3422)n2:0.39999)n0;

@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH43988:0.614175,(cinnamomum_kanehirae_CKAN_00526600:0.06929,(cinnamomum_kanehirae_CKAN_01747800:0.02869,cinnamomum_kanehirae_CKAN_01747900:0.01437)n2:0.08994)n1:0.614175)n0;

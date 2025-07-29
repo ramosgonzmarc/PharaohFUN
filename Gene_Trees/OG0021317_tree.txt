@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr17g4331:0.03736,(isoetes_sinensis_IsiChr12g3770:0.09016,(isoetes_sinensis_IsiChr4g3779:0.15488,isoetes_sinensis_IsiChr3g4228:0.00131)n2:0.25485)n1:0.03736)n0;

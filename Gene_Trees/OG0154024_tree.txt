@@ -1,0 +1,1 @@
+(micromonas_commoda_Micom.059275:0.75752,(ostreococcus_mediterraneus_Ostme17g00630:0.31616,(ostreococcus_tauri_ostta17g00490:0.28507,ostreococcus_lucimarinus_Oluc_28003:0.21499)n2:0.23582)n1:0.75752)n0;

@@ -1,0 +1,1 @@
+(((vaccinium_darrowii_Vadar_g43103:0.23479,vaccinium_darrowii_Vadar_g43111:0.2019)n2:0.69382,(aquilegia_coerulea_Aqcoe2G146800:0.56843,aquilegia_coerulea_Aqcoe3G383900:0.16858)n3:0.30061)n1:0.36323,(marchantia_paleacea_Mapa_015373:0.37751,(riccia_fluitans_R1flu_017618:0.07806,riccia_sorocarpa_Risor.KAL3701426:0.21831)n5:0.10422)n4:0.36323)n0;

@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT1G07485:0.07489,(boechera_stricta_Bostr.25219s0211:0.04322,arabidopsis_lyrata_Arlyr.AL1G17670:0.09499)n2:0.01136)n1:0.251975,(sisymbrium_irio_Siiris2336g00040:0.02476,(brassica_oleracea_Bol023390:0.12181,brassica_oleracea_Bol041132:0.216513)n4:0.024057)n3:0.0468)n0;

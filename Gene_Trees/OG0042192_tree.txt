@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_001185:0.35543,((riccia_fluitans_R1flu_006212:0.0434,riccia_sorocarpa_Risor.KAL3693094:0.24156)n2:0.11519,(riccia_fluitans_R1flu_006211:0.13418,riccia_sorocarpa_Risor.KAL3693093:0.08085)n3:0.07374)n1:0.35543)n0;

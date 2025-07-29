@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp3g09295:0,(marchantia_polymorpha_Mp3g09295_L1:0,marchantia_polymorpha_Mp3g09295_R2:0,marchantia_polymorpha_Mp3g09295_R1:0)n1:0)n0;

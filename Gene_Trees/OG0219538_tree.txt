@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin05G050700:0.183295,(eleusine_coracana_Elcor.1AG0002570:0.12496,(oropetium_thomaeum_Oropetium_20150105_27248A:0,oropetium_thomaeum_Oropetium_20150105_17941A:0)n2:0.20604)n1:0.183295)n0;

@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx16G020100:0.33021,((malus_domestica_MD08G1122400:0.00053,malus_domestica_MD07G1115300:0.00055)n2:0.55023,(picea_abies_Pab_10434518g0010:0.29474,ginkgo_biloba_Gb_14179:0.4234)n3:0.05893)n1:0.33021)n0;

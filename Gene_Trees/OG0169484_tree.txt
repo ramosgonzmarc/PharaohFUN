@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0505s0007:0.314495,(phymatoceros_phymatodes_Phphy.S4G176700:0.34135,(anthoceros_fusiformis_Anfus.S2G333600:0.62268,(notothylas_orbicularis_Noorb.S1G474500:0.21672,phaeoceros_sp_Phsp.C3G247600:0.1271)n3:0.09861)n2:0.24933)n1:0.314495)n0;

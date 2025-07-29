@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000047685t02:0.3604,(triticum_aestivum_TraesCS2A03G0924800:0.53018,((oryza_sativa_Os10g20080:0.10483,oryza_sativa_Os01g32840:0.22279)n3:1.01505,oryza_sativa_Os04g32000:0.20518)n2:0.16539)n1:0.3604)n0;

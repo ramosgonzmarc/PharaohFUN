@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.037175:0.16893,((malus_domestica_MD09G1106400:0.00054,prunus_persica_Prupe.3G219200:0.02622)n2:0.02741,(malus_domestica_MD17G1094200:0.01359,prunus_persica_Prupe.4G025800:0.495297)n3:0.055033)n1:0.16893)n0;

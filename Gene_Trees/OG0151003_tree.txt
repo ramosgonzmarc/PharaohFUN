@@ -1,0 +1,1 @@
+(oryza_sativa_Os09g11890:0.57526,(zea_mays_Zm00001d050073:0.35955,(eleusine_coracana_Elcor.1BG0080060:0.19615,(eleusine_coracana_Elcor.3BG0265870:0.10902,eleusine_coracana_Elcor.8BG0655790:0.09034)n3:0.1185)n2:0.32131)n1:0.57526)n0;

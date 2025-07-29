@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9817529:0.20567,(asterochloris_glomerata_Astgl_g8395:0.47207,(trebouxia_sp_FRX49_13138:0.15663,trebouxia_sp_FRX49_07907:0.20075)n2:0.14932)n1:0.20567)n0;

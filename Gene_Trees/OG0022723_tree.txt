@@ -1,0 +1,1 @@
+(oryza_sativa_Os09g38890:0.189595,(gnetum_montanum_TnS000767149t01:0.35352,((abies_alba_AALBA5B497734:0.02101,abies_alba_AALBA5B626163:0.01428)n3:0.2318,(picea_abies_Pab_158431g0010:0.18636,picea_abies_Pab_126021g0010:0.234801)n4:0.026089)n2:0.09444)n1:0.189595)n0;

@@ -1,0 +1,1 @@
+((mimulus_guttatus_Migut.D01361:0.3757,mimulus_guttatus_Migut.M00280:0.17157)n1:0.1624,(beta_vulgaris_Bevul.9G186800:1.38323,beta_vulgaris_Bevul.5G140600:0.46256)n2:0.1624)n0;

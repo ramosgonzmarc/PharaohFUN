@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.09G037600:0.7763,(eucalyptus_grandis_Eucgr.I02577:0.34772,((eucalyptus_grandis_Eucgr.A00357:0.05362,corymbia_citriodora_Cocit.A0140:0.0516)n3:0.03245,((eucalyptus_grandis_Eucgr.L02499:0.05953,eucalyptus_grandis_Eucgr.A00362:0.07094)n5:0.12089,corymbia_citriodora_Cocit.I1662:0.128295)n4:0.014255)n2:0.10588)n1:0.7763)n0;

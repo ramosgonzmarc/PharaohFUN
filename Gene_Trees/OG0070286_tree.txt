@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol016301:0.10049,brassica_rapa_Brara.A02222:0.11785)n1:0.44751,(arabidopsis_thaliana_AT1G09625:0.24095,arabidopsis_lyrata_Arlyr.AL1G20160:0.00054)n2:0.44751)n0;

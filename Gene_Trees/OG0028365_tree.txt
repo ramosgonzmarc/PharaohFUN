@@ -1,0 +1,1 @@
+((vitis_vinifera_VIT_218s0041g00390:0.31331,(vitis_vinifera_VIT_208s0056g00850:0.4986,vitis_vinifera_VIT_208s0056g00880:0.08494)n2:0.95267)n1:0.579395,(coffea_arabica_Coara.035504:0.008,(coffea_arabica_Coara.038531:0.02167,(coffea_arabica_Coara.038529:0.00054,(coffea_arabica_Coara.076551:0.03572,coffea_arabica_Coara.038528:0.0073)n6:0.00687)n5:0.03676)n4:0.02811)n3:0.579395)n0;

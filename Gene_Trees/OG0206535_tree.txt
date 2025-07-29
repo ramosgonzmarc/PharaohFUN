@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.F1243:0.21667,(theobroma_cacao_Thecc1EG031302:0.58932,(boechera_stricta_Bostr.2983s0048:0.0771,brassica_rapa_Brara.C02746:0.13951)n2:0.88597)n1:0.21667)n0;

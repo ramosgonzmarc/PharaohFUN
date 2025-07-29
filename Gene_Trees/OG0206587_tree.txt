@@ -1,0 +1,1 @@
+(capsella_grandiflora_Cagra.0664s0072:0.314515,(gossypium_raimondii_Gorai.012G027500:0.00054,(gossypium_hirsutum_Gohir.A05G392150:0.05693,gossypium_hirsutum_Gohir.D04G024950:0.007443)n2:0.000827)n1:0.09298)n0;

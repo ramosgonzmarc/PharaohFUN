@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Smoe_446322:0.55555,(isoetes_sinensis_IsiChr15g136:0.00993,isoetes_sinensis_IsiChr16g305:0.0026)n2:0.64231)n1:0.493895,((huperzia_asiatica_HaA26G0173:0.45176,lycopodium_clavatum_Lcl_0007453:0.43203)n4:0.0788,(lycopodium_clavatum_Lcl_0001290:0.34741,huperzia_asiatica_HaB34G0294:0.727542)n5:0.080838)n3:0.493895)n0;

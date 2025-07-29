@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_18223:0.365635,(welwitschia_mirabilis_Wmi_03506:0.46418,(gnetum_montanum_TnS000935997t01:0.81079,(gnetum_montanum_TnS000677525t08:0.49949,gnetum_montanum_TnS000132787t03:0.74974)n3:0.446238)n2:0.049582)n1:0.23656)n0;

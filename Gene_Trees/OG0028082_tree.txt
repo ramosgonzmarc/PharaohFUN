@@ -1,0 +1,1 @@
+(spirodela_polyrhiza_Spipo0G0184900:0.544505,((tetraselmis_striata_TSEL_014419:0,tetraselmis_striata_TSEL_031229:0)n2:0.00253,tetraselmis_striata_TSEL_029072:0.10385)n1:0.544505)n0;

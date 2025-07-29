@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.10879:0.46829,gonium_pectorale_Gopec.10880:0.89798)n1:0.09911,(chlamydomonas_reinhardtii_Cre05.g244100_4532:0.1757,chlamydomonas_incerta_Chincg01285:0.22207)n2:0.09911)n0;

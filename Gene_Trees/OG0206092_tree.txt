@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol022033:0.57591,brassica_rapa_Brara.K00940:0.55559)n1:0.04977,(arabidopsis_lyrata_Arlyr.AL1G16870:0.51689,(boechera_stricta_Bostr.26527s0401:0.45988,(boechera_stricta_Bostr.18351s0106:0.512,(boechera_stricta_Bostr.26527s0077:0.07547,boechera_stricta_Bostr.13129s0015:0.11392)n5:0.13457)n4:0.000504)n3:5.6e-05)n2:0.39166)n0;

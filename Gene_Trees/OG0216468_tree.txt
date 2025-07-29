@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_727398:0.41844,(saponaria_officinalis_Sapof.12G022500:0.69755,(saponaria_officinalis_Sapof.13G103100:0.00202,saponaria_officinalis_Sapof.13G103000:0.00114)n2:0.49351)n1:0.41844)n0;

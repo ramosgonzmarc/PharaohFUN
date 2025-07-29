@@ -1,0 +1,1 @@
+(hordeum_vulgare_Hvul_4HG0355400:0.02094,(triticum_aestivum_TraesCS4B03G0315100:0.00592,((aegilops_tauschii_Atau_XP_020184223:0.00307,triticum_aestivum_TraesCS4D03G0258200:0.00055)n3:0.01548,(aegilops_tauschii_Atau_XP_020171453:0.10811,triticum_aestivum_TraesCS4A03G0498900:0.00054)n4:0.01229)n2:0.00347)n1:0.02094)n0;

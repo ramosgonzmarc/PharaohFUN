@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0114.g046078:0.269135,((ceratopteris_richardii_Ceric.34G032500:0.47044,adiantum_capillus_Adc27094:0.17664)n2:0.20241,(alsophila_spinulosa_Aspi01Gene46379:0.19375,alsophila_spinulosa_Aspi01Gene29943:0.147348)n3:0.016372)n1:0.19802)n0;

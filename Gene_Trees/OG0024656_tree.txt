@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_07004:0.42669,desmodesmus_armatus_Desar.387167:0.57293)n1:0.049195,(chromochloris_zofingiensis_Cz03g35150:0.29019,chromochloris_zofingiensis_Cz07g04180:0.52723)n2:0.049195)n0;

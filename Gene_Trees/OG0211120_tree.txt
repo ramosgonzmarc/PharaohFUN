@@ -1,0 +1,1 @@
+((salix_purpurea_Sapur.T033200:0.36491,salix_purpurea_Sapur.006G163200:0.41518)n1:0.177665,(populus_trichocarpa_Potri.014G187400:0.00055,(populus_trichocarpa_Potri.014G189201:0.02063,populus_trichocarpa_Potri.014G187450:0.00055)n3:0.02202)n2:0.177665)n0;

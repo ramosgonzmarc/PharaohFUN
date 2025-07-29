@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00003764:0.56011,(cymbomonas_tetramitiformis_KAK3282511:0.71208,(caulerpa_lentillifera_Caule_g6950:0.44795,(ostreobium_quekettii_CAD7705120:0.50874,bryopsis_sp_Bsp_GMH37445:0.35457)n3:0.12748)n2:0.58028)n1:0.56011)n0;

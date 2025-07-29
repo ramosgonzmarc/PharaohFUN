@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000436S07361:0.661285,(huperzia_asiatica_HaB57G0580:0.20103,(huperzia_asiatica_HaA02G0741:0.13394,huperzia_asiatica_HaA02G0742:0.16371)n2:0.15413)n1:0.661285)n0;

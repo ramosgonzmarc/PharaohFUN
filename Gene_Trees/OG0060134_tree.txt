@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S4G111600:0.12434,(sequoia_sempervirens_SESE_100378:0.93154,(alsophila_spinulosa_Aspi01Gene63772:0.22491,trifolium_pratense_Trpra.25494:0.31044)n2:0.29219)n1:0.12434)n0;

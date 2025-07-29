@@ -1,0 +1,1 @@
+((trebouxia_sp_FRX49_08900:0.70901,(trebouxia_sp_FRX49_00228:1.55319,((trebouxia_sp_FRX49_07793:0.40899,trebouxia_sp_FRX49_01400:0.29847)n4:0.04845,trebouxia_sp_FRX49_11110:0.73155)n3:0.16594)n2:0.3037)n1:0.058885,(apatococcus_lobatus_Aplob.KAK9819444:0.42408,(apatococcus_lobatus_Aplob.KAK9838702:0.37081,apatococcus_lobatus_Aplob.KAK9834629:0.35151)n6:0.19241)n5:0.058885)n0;

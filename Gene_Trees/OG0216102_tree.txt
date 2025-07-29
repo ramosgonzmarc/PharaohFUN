@@ -1,0 +1,1 @@
+((vaccinium_darrowii_Vadar_g40024:0.25329,vaccinium_darrowii_Vadar_g19727:0.09679)n1:0.159975,(daucus_carota_DCAR_416910:0.5475,(mimulus_guttatus_Migut.H02187:0.36674,(coffea_arabica_Coara.003917:0.88783,(coffea_arabica_Coara.061268:0.00172,coffea_arabica_Coara.064696:0.01811)n5:0.259947)n4:0.028883)n3:0.07686)n2:0.17006)n0;

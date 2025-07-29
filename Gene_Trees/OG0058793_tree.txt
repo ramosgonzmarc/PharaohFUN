@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.15917:0.36716,((fragaria_vesca_FvH4_4g19532:0.59001,saponaria_officinalis_Sapof.11G087200:0.80903)n2:0.02251,(alsophila_spinulosa_Aspi01Gene30809:0.27279,(huperzia_asiatica_HaB14G0250:0.33452,medicago_truncatula_Medtr7g056703:1.03111)n4:0.18185)n3:0.13405)n1:0.36716)n0;

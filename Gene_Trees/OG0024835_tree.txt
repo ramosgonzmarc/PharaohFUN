@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_25300A:0.342815,(cycas_panzhihuaensis_CYCAS_012293:0.52881,(ginkgo_biloba_Gb_18998:0.12516,ginkgo_biloba_Gb_20365:0.383742)n2:0.042638)n1:0.23916)n0;

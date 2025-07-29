@@ -1,0 +1,1 @@
+((malus_domestica_MD02G1051300:0.50341,(malus_domestica_MD10G1039700:0.50571,malus_domestica_MD05G1315500:0.17401)n2:0.04085)n1:0.298195,(ginkgo_biloba_Gb_08635:0.70288,ginkgo_biloba_Gb_40549:0.79225)n3:0.298195)n0;

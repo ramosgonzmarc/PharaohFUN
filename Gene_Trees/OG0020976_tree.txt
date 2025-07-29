@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0399s00003:0.01179,(dunaliella_salina_Dusal.0158s00001:0.01986,(dunaliella_salina_Dusal.0112s00010:0.95581,dunaliella_salina_Dusal.0439s00006:0.7798)n2:0.2138)n1:0.01179)n0;

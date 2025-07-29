@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.017G104001:0.00583,((populus_trichocarpa_Potri.001G298233:0,populus_trichocarpa_Potri.001G298266:0)n2:0.00054,(populus_trichocarpa_Potri.019G094650:0.28201,(populus_trichocarpa_Potri.003G027116:0,populus_trichocarpa_Potri.003G027318:0)n4:0.0111)n3:0.00054)n1:0.00583)n0;

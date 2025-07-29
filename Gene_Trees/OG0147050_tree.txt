@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.3P19110_001:0.020065,(olea_europaea_Oeu036933:0.08765,(lupinus_albus_Lalb_Chr10g0101611:0.23761,lupinus_albus_Lalb_Chr19g0138981:0.07439)n2:0.20812)n1:0.020065)n0;

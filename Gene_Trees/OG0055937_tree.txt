@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62020324:0.734055,(eleusine_coracana_Elcor.5BG0415030:0.66801,(aegilops_tauschii_Atau_XP_020175035:0.00055,(triticum_aestivum_TraesCS6B03G0308800:0.03439,triticum_aestivum_TraesCS6D03G0178000:0.000486)n3:5.4e-05)n2:0.04803)n1:0.734055)n0;

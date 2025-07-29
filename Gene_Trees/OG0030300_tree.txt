@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene13283:0.02847,alsophila_spinulosa_Aspi01Gene59552:0.01183)n1:0.19,(sequoia_sempervirens_SESE_040916:0.52728,theobroma_cacao_Thecc1EG019415:1.02252)n2:0.19)n0;

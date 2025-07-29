@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.5G134800:0.07927,(linum_usitatissimum_Lus10017352:0.25934,((populus_trichocarpa_Potri.001G452100:0.01038,salix_purpurea_Sapur.016G291500:0.01109)n3:0.03013,(populus_trichocarpa_Potri.011G149800:0.03239,salix_purpurea_Sapur.011G111000:0.00054)n4:0.02598)n2:0.07295)n1:0.07927)n0;

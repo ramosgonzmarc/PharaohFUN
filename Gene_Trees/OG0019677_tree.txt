@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s1682.g028125:0.390825,((cycas_panzhihuaensis_CYCAS_000738:0.52324,lupinus_albus_Lalb_Chr07g0194871:0.68507)n2:0.51999,(amborella_trichopoda_AmTr00065g177:0.25499,amborella_trichopoda_AmTr00065g175:0.44248)n3:0.41966)n1:0.390825)n0;

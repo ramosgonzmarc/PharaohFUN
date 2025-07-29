@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.7g028130:0.03884,lens_culinaris_Lecul.7g028150:0.02635)n1:0.283425,(manihot_esculenta_Manes.13G098000:0.23785,(linum_usitatissimum_Lus10012740:0.05775,linum_usitatissimum_Lus10025731:0.19299)n3:0.1712)n2:0.283425)n0;

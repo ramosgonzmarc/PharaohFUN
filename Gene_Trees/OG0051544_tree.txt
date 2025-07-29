@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_123664:0.15239,(gnetum_montanum_TnS000416193t01:0.55532,(abies_alba_AALBA5B535036:0.2204,picea_abies_Pab_97299g0010:0.61811)n2:0.15447)n1:0.15239)n0;

@@ -1,0 +1,1 @@
+(olea_europaea_Oeu057583:0.53491,((arachis_hypogaea_arahy_2DN05W:0.54094,poncirus_trifoliata_Ptrif.0006s1289:0.44874)n2:0.1797,(fragaria_vesca_FvH4_6g21690:0.14043,quercus_rubra_Qurub.06G132000:0.74587)n3:0.07618)n1:0.53491)n0;

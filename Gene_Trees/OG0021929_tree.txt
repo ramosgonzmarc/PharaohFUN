@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Smoe_427158:0.450485,(selaginella_moellendorffii_Smoe_413168:0.55059,(selaginella_moellendorffii_Smoe_431718:0.31023,selaginella_moellendorffii_Smoe_428311:0.05117)n2:0.29306)n1:0.450485)n0;

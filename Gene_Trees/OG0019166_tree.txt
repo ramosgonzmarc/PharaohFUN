@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.06G000100:0.472955,((welwitschia_mirabilis_Wmi_05303:0,welwitschia_mirabilis_Wmi_05304:0)n2:0.44568,(abies_alba_AALBA5B1092010:0.1247,picea_abies_Pab_10186926g0010:0.00055)n3:0.33741)n1:0.472955)n0;

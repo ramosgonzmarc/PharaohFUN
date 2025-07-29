@@ -1,0 +1,1 @@
+((trebouxia_sp_FRX49_01485:0.88774,(apatococcus_lobatus_Aplob.KAK9838873:1.0173,apatococcus_lobatus_Aplob.KAK9820777:0.970146)n2:0.107794)n1:0.12574,asterochloris_glomerata_Astgl_g7256:0.58708)n0;

@@ -1,0 +1,1 @@
+(picea_abies_Pab_27312g0010:0.4595,(amaranthus_hypochondriacus_AH005806:0.8719,(aquilegia_coerulea_Aqcoe7G086600:0.07191,aquilegia_coerulea_Aqcoe7G086800:0.15203)n2:0.28632)n1:0.4595)n0;

@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0076s00021:0.94778,bryopsis_sp_Bsp_GMH44157:0.7724)n1:0.088625,((ostreococcus_mediterraneus_Ostme03g00850:0.27918,(ostreococcus_tauri_ostta05g00720:0.25999,ostreococcus_lucimarinus_Oluc_5133:0.06356)n4:0.05064)n3:0.58114,(cymbomonas_tetramitiformis_KAK3269560:0.2422,cymbomonas_tetramitiformis_KAK3288774:0.19231)n5:0.5484)n2:0.088625)n0;

@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S3G167900:0.423425,((huperzia_asiatica_HaA61G0022:0.58215,oropetium_thomaeum_Oropetium_20150105_10046A:0.92647)n2:0.18805,((alsophila_spinulosa_Aspi01Gene58255:0.03228,alsophila_spinulosa_Aspi01Gene58258:0.01729)n4:0.19716,(ceratopteris_richardii_Ceric.12G027800:0.36212,adiantum_capillus_Adc26960:0.20892)n5:0.19883)n3:0.28368)n1:0.423425)n0;

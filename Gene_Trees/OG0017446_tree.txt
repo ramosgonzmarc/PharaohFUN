@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00253g1:0.06774,(cycas_panzhihuaensis_CYCAS_030489:0.00055,(cycas_panzhihuaensis_CYCAS_030392:0.70948,(cycas_panzhihuaensis_CYCAS_002557:0.01911,cycas_panzhihuaensis_CYCAS_002680:0.00055)n3:0.24621)n2:0.64752)n1:0.06774)n0;

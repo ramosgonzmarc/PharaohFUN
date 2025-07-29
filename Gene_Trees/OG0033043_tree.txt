@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz11g23030:0.75863,((chlamydomonas_reinhardtii_Cre07.g353700_4532:0.08014,chlamydomonas_incerta_Chincg08577:0.07347)n2:0.29735,(gonium_pectorale_Gopec.03248:0.32624,volvox_carteri_Vocar.0005s0112:0.42269)n3:0.1567)n1:0.75863)n0;

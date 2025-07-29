@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S1G293800:1.33135,paraphymatoceros_pearsonii_Papea.S2G103200:0.40397)n1:0.136995,(paraphymatoceros_pearsonii_Papea.S1G1125400:0.54545,(notothylas_orbicularis_Noorb.S4G100100:0.13624,(phaeoceros_carolinianus_Phcar.S1G133000:0.00099,phaeoceros_sp_Phsp.C11G011500:0.01645)n4:0.14618)n3:0.23574)n2:0.136995)n0;

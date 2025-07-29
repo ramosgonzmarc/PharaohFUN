@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv08771:0.42504,(chlorella_sorokiniana_Chlso_g4767:0.28265,(raphidocelis_subcapitata_Rsub_11366:0.66649,scenedesmus_obliquus_Sobl_g06243:0.28868)n2:0.13561)n1:0.42504)n0;

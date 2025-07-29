@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S1G115200:0.097575,(takakia_lepidozioides_Tle1c00364:0.10914,(sphagnum_magellanicum_Sphmag05G064600:0.17903,sphagnum_fallax_Sphfalx05G058000:0.00055)n2:0.25443)n1:0.097575)n0;

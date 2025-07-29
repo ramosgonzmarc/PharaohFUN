@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_22925:0.08615,(corylus_avellana_Corav.g10312:0.06308,lactuca_sativa_Lsat_gn_9_67201:0.10749)n2:0.05933)n1:0.033485,(marchantia_paleacea_Mapa_007450:0.08676,(marchantia_paleacea_Mapa_000434:0.00909,marchantia_paleacea_Mapa_000436:0.01511)n4:0.07577)n3:0.033485)n0;

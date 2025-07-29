@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr1g1248:0.383455,(ceratopteris_richardii_Ceric.04G110300:0.35855,(alsophila_spinulosa_Aspi01Gene43973:0.02411,(alsophila_spinulosa_Aspi01Gene04583:0.05067,alsophila_spinulosa_Aspi01Gene08538:0.06898)n3:0.02179)n2:0.27132)n1:0.383455)n0;

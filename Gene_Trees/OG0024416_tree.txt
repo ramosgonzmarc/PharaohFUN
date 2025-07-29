@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3285702:0.25147,(myrmecia_bisecta_Mybis.KAK9817048:0.67163,(tetraselmis_striata_TSEL_014093:0.38309,(gonium_pectorale_Gopec.00252:0.60747,(chlamydomonas_reinhardtii_Cre07.g320093_4532:0.00055,chlamydomonas_incerta_Chincg16265:0.2092)n4:0.42621)n3:0.77211)n2:0.3073)n1:0.25147)n0;

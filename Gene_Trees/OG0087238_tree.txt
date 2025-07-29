@@ -1,0 +1,1 @@
+(picochlorum_soloecismus_NSC_03598:0.72673,(helicosporidium_sp_Helsp_g1339:0.64682,(chlorella_sorokiniana_Chlso_g5091:0.63455,auxenochlorella_protothecoides_APUTEX2500000095:0.71678)n2:0.12074)n1:0.72673)n0;

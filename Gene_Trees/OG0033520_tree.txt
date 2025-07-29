@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9808599:0.429895,(raphidocelis_subcapitata_Rsub_10425:0.69137,(chromochloris_zofingiensis_Cz09g01040:0.37714,scenedesmus_obliquus_Sobl_g14732:0.5873)n2:0.11325)n1:0.429895)n0;

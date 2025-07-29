@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp1g03390:0.420605,(riccia_fluitans_R1flu_020191:0.19381,(riccia_sorocarpa_Risor.KAL3684219:0.0975,riccia_sorocarpa_Risor.KAL3685870:0.07173)n2:0.15927)n1:0.420605)n0;

@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.004G216400:0.614355,(manihot_esculenta_Manes.07G097007:0.22023,(manihot_esculenta_Manes.07G095602:0.01053,(manihot_esculenta_Manes.07G095502:0.01983,(manihot_esculenta_Manes.07G097002:0.00956,(manihot_esculenta_Manes.07G095608:0.02255,manihot_esculenta_Manes.07G097005:0.02911)n5:0.00858)n4:0.10676)n3:0.06917)n2:0.02228)n1:0.614355)n0;

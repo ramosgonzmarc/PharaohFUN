@@ -1,0 +1,1 @@
+((vitis_vinifera_VIT_218s0086g00280:0.17652,vitis_vinifera_VIT_200s0274g00010:0.17581)n1:0.1481,(gossypium_hirsutum_Gohir.D08G191100:0.36603,(arachis_hypogaea_arahy_ZJE509:0.29028,(arachis_hypogaea_arahy_4GZ83K:0.02496,arachis_hypogaea_arahy_HJB560:0.00055)n4:0.1167)n3:0.5347)n2:0.1481)n0;

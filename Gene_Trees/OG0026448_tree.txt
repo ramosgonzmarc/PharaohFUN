@@ -1,0 +1,1 @@
+((zostera_marina_Zosma05g11870:0.92289,oropetium_thomaeum_Oropetium_20150105_10876A:0.48835)n1:0.539295,(riccia_fluitans_R1flu_010470:0.06724,((marchantia_polymorpha_Mp2g16110:0.10439,marchantia_paleacea_Mapa_011212:0.03122)n4:0.1512,riccia_sorocarpa_Risor.KAL3696198:0.19323)n3:0.00055)n2:0.539295)n0;

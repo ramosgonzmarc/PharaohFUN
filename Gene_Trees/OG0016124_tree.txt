@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_CmerSOOS_G2264:0.53359,(porphyra_umbilicalis_Pum0280s0009:0.33602,((porphyra_umbilicalis_Pum0316s0004:0.09583,porphyra_umbilicalis_Pum0087s0041:0.11723)n3:0.21501,(porphyra_umbilicalis_Pum0269s0005:0.22207,porphyra_umbilicalis_Pum0242s0036:0.26321)n4:0.06057)n2:0.63503)n1:0.53359)n0;

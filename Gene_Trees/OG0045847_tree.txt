@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B014441:0.08301,quercus_rubra_Qurub.03G199800:0.76021)n1:0.12044,(sequoiadendron_giganteum_SEGI_04983:1.05785,solanum_tuberosum_Soltu.10G001910:0.56513)n2:0.12044)n0;

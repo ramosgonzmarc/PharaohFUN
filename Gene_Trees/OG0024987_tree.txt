@@ -1,0 +1,1 @@
+((picea_abies_Pab_327391g0010:0.26854,(sequoia_sempervirens_SESE_102460:0.12374,sequoia_sempervirens_SESE_104572:0.06607)n2:0.02222)n1:0.37253,(picochlorum_soloecismus_NSC_06079:0.35812,(cymbomonas_tetramitiformis_KAK3237036:0.00054,(cymbomonas_tetramitiformis_KAK3286278:0.01608,cymbomonas_tetramitiformis_KAK3286279:0.00055)n5:0.15642)n4:1.10271)n3:0.37253)n0;

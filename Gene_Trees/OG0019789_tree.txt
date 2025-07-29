@@ -1,0 +1,1 @@
+((haematococcus_lacustris_QJQ45_006053:0.29979,haematococcus_lacustris_QJQ45_005718:0.25403)n1:0.616565,(anthoceros_agrestis_AnagrOXF.S5G261900:0.03236,(physcomitrium_patens_Pp6c3_18620V6:0.03513,(physcomitrium_patens_Pp6c13_8570V6:0.34269,physcomitrium_patens_Pp6c4_2080V6:0.29701)n4:0.075)n3:1.11314)n2:0.616565)n0;

@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_026218:1.13135,cycas_panzhihuaensis_CYCAS_026217:0.10889)n1:0.103425,(taxus_chinensis_KI387_043593:1.1187,(picea_abies_Pab_912786g0010:0.1584,(abies_alba_AALBA5B153453:0.02673,abies_alba_AALBA5B337885:0.03222)n4:0.04682)n3:0.21611)n2:0.103425)n0;

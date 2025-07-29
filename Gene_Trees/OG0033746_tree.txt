@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_000219:0.144125,(corylus_avellana_Corav.g31982:0.37437,((cinnamomum_kanehirae_CKAN_01892500:0.23522,theobroma_cacao_Thecc1EG001233:0.72251)n3:0.18032,(phaseolus_acutifolius_Phacu.008G298100:0.29062,(eucalyptus_grandis_Eucgr.I00332:0.37049,ananas_comosus_Aco003075:0.80917)n5:0.09222)n4:0.28083)n2:0.25605)n1:0.144125)n0;

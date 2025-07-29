@@ -1,0 +1,1 @@
+((riccia_fluitans_R1flu_012814:0.13072,(riccia_fluitans_R1flu_012815:0.07274,riccia_fluitans_R1flu_012816:0.15438)n2:0.0623)n1:0.28542,(marchantia_polymorpha_Mp4g23150:0.35062,(marchantia_paleacea_Mapa_013496:0.89111,(marchantia_paleacea_Mapa_017471:0.11313,marchantia_paleacea_Mapa_017476:0.12461)n5:0.224172)n4:0.024908)n3:0.36071)n0;

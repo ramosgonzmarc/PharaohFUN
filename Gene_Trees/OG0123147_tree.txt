@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_X3BTXK:0.19453,((cicer_arietinum_Ca_04074:0.17588,lupinus_albus_Lalb_Chr08g0239431:0.30122)n2:0.04964,((lens_culinaris_Lecul.3g054820:0.26082,medicago_truncatula_Medtr3g093260:0.28835)n4:0.09458,(glycine_max_Glyma.04G226200:0.26195,lotus_japonicus_Lj1g0013180:0.15818)n5:0.03601)n3:0.03475)n1:0.19453)n0;

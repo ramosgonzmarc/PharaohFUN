@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_014745:0.07582,(micromonas_pusilla_Mpus_187884:0.13071,(micromonas_commoda_Micom.059814:0.08501,ostreococcus_mediterraneus_Ostme06g03730:0.27874)n2:0.04736)n1:0.07582)n0;

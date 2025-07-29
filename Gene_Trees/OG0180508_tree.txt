@@ -1,0 +1,1 @@
+((ananas_comosus_Aco026426:0,ananas_comosus_Aco022916:0,ananas_comosus_Aco022912:0)n1:0.10931,(solanum_lycopersicum_Solyc00g164580:0.24876,solanum_tuberosum_Soltu.01G021630:1.01809)n2:0.10931)n0;

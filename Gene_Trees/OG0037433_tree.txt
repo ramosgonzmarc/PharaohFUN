@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA42G0349:0.58572,marsilea_vestita_Mvestita_S4g08583:0.57407)n1:0.25504,((isoetes_sinensis_IsiScaffold633g1:0,isoetes_sinensis_IsiChr18g2374:0)n3:0.10954,(amaranthus_hypochondriacus_AH010215:0.27027,sisymbrium_irio_Siiris289g00130:0.19481)n4:0.50969)n2:0.25504)n0;

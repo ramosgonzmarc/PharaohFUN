@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_6X6LEW:1.12802,((isoetes_sinensis_IsiChr7g751:0.00875,(isoetes_sinensis_IsiChr9g4656:0.09735,isoetes_sinensis_IsiChr6g4600:0.02413)n4:0.0198)n3:0.03397,isoetes_sinensis_IsiChr13g2058:0.021096)n2:0.002344)n1:0.005915,adiantum_capillus_Adc20534:1.14694)n0;

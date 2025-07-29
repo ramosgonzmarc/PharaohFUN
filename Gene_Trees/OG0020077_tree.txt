@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_009529:0.586585,(ceratopteris_richardii_Ceric.36G049300:0.05508,(ceratopteris_richardii_Ceric.1Z099500:0,ceratopteris_richardii_Ceric.1Z099400:0)n2:0.36753)n1:0.586585)n0;

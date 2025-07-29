@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.G2205:0.72878,(brassica_rapa_Brara.G01620:0.14701,(boechera_stricta_Bostr.23312s0001:0.2342,thlaspi_arvense_TaMN106.5G093600:0.12048)n2:0.1159)n1:0.72878)n0;

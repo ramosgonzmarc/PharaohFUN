@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc18668:0.504665,(ananas_comosus_Aco030968:1.21861,(taxus_chinensis_KI387_043223:0.24467,(vitis_vinifera_VIT_200s1614g00010:0.36902,(picea_abies_Pab_1123357g0010:0.21813,(ginkgo_biloba_Gb_14764:0.11797,citrus_sinensis_Cisin.036059:0.90635)n5:0.11657)n4:0.08536)n3:0.07126)n2:0.18721)n1:0.504665)n0;

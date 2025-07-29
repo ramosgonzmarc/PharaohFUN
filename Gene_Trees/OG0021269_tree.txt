@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S2G528100:0.538705,(isoetes_sinensis_IsiChr21g3200:0.28489,(isoetes_sinensis_IsiChr18g4455:0.57686,(isoetes_sinensis_IsiChr11g3348:0.27007,isoetes_sinensis_IsiChr3g1502:0.34532)n3:0.17912)n2:0.18911)n1:0.538705)n0;

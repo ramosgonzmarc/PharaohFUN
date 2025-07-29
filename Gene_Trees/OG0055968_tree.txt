@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_004170:0.036295,(arachis_hypogaea_arahy_TJVH1M:0.15669,((aegilops_tauschii_Atau_XP_020176712:0.00055,theobroma_cacao_Thecc1EG001024:0.28576)n3:0.03133,(medicago_truncatula_Medtr4g128040:0.78384,lens_culinaris_Lecul.4g066660:0.29706)n4:0.24538)n2:0.08963)n1:0.036295)n0;

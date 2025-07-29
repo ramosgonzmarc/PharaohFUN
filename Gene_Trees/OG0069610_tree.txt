@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT2G27389:0.11737,arabidopsis_lyrata_Arlyr.AL4G21350:0.20234)n1:0.11577,(thlaspi_arvense_TaMN106.4G253900:0.23668,(brassica_oleracea_Bol032911:0.01536,(brassica_rapa_Brara.C02427:0.27455,brassica_rapa_Brara.C02428:0.0135)n4:0.0015)n3:0.35467)n2:0.04735)n0;

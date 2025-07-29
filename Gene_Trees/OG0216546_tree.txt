@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.02G019070:0.098235,(solanum_tuberosum_Soltu.05G001160:0.07961,(solanum_tuberosum_Soltu.05G019090:0.19888,solanum_tuberosum_Soltu.12G011970:0.03955)n2:0.10223)n1:0.098235)n0;

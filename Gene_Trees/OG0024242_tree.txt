@@ -1,0 +1,1 @@
+((chara_braunii_CBR_g32168:1.06204,(klebsormidium_nitens_kfl00005_0150:0.45391,klebsormidium_nitens_kfl00029_0210:0.36311)n2:0.61852)n1:0.11404,(caulerpa_lentillifera_Caule_g2564:0.73511,(bryopsis_sp_Bsp_GMH38578:0.46221,bryopsis_sp_Bsp_GMH36055:0.36018)n4:0.04002)n3:0.22638)n0;

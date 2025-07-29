@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.032533:0.578725,(amaranthus_hypochondriacus_AH010630:0.38997,(chenopodium_quinoa_AUR62000490:0.0345,chenopodium_quinoa_AUR62006834:0.11329)n2:0.15976)n1:0.578725)n0;

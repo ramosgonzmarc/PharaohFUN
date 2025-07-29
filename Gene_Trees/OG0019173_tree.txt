@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.35642:0.430235,(abies_alba_AALBA5B1099664:0.74415,(welwitschia_mirabilis_Wmi_23702:0.08272,(welwitschia_mirabilis_Wmi_23703:0.07997,welwitschia_mirabilis_Wmi_23704:0.02143)n3:0.56748)n2:0.13128)n1:0.430235)n0;

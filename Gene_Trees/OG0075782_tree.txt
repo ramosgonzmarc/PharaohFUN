@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi5g06622:0.434055,(hordeum_vulgare_Hvul_7HG0687680:0.01892,(hordeum_vulgare_Hvul_7HG0708680:0.06354,(hordeum_vulgare_Hvul_2HG0159890:0.01521,hordeum_vulgare_Hvul_7HG0678960:0.03325)n3:0.04923)n2:0.00102)n1:0.434055)n0;

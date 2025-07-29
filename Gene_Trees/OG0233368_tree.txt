@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_013668:0.381285,(haematococcus_lacustris_QJQ45_028512:0.00301,(haematococcus_lacustris_QJQ45_016307:0.00055,haematococcus_lacustris_QJQ45_028420:0.47292)n2:0.03253)n1:0.381285)n0;

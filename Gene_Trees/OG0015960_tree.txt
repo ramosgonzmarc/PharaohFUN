@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_034237:0.324015,(chara_braunii_CBR_g66779:1.07139,((mesotaenium_endlicherianum_ME000091S10314:0.00054,mesotaenium_endlicherianum_ME000194S02592:0.00055)n3:0.3098,(mesotaenium_endlicherianum_ME000091S10318:0.33325,mesotaenium_endlicherianum_ME000194S02590:0.11903)n4:0.29986)n2:0.76021)n1:0.324015)n0;

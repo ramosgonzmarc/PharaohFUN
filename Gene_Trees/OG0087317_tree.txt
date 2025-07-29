@@ -1,0 +1,1 @@
+((chlorella_sorokiniana_Chlso_g6239:0.51047,elliptochloris_bilobata_Elbil.KAK9833431:0.42397)n1:0.053885,(picochlorum_soloecismus_NSC_04641:0.47788,myrmecia_bisecta_Mybis.KAK9813050:0.56807)n2:0.053885)n0;

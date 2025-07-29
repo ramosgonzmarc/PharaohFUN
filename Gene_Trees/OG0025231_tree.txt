@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3257026:0.10361,cymbomonas_tetramitiformis_KAK3284172:0.19824)n1:0.68688,(ulva_mutabilis_UM019_0030:0.64706,bryopsis_sp_Bsp_GMH39283:0.51989)n2:0.68688)n0;

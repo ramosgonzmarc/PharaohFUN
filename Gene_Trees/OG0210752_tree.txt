@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_1PT4IE:0.669865,((medicago_truncatula_Medtr0028s0230:0.82021,medicago_truncatula_Medtr0233s0050:0.72756)n2:0.27225,((lens_culinaris_Lecul.7g030080:0.01258,lens_culinaris_Lecul.5g039710:0.019)n4:0.2017,lens_culinaris_Lecul.7g056330:0.269037)n3:0.029893)n1:0.33034)n0;

@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_NP4J2X:0.00055,arachis_hypogaea_arahy_RSNU69:0.01532)n1:0.081895,(lens_culinaris_Lecul.7g060110:1.06137,(lupinus_albus_Lalb_Chr06g0160821:0.25928,lupinus_albus_Lalb_Chr01g0016461:0.97461)n3:0.10829)n2:0.24669)n0;

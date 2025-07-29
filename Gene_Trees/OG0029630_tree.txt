@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B754168:0.20776,abies_alba_AALBA5B918919:0.07018)n1:0.82456,(sequoia_sempervirens_SESE_047177:0.00055,sequoia_sempervirens_SESE_046841:0.0103)n2:0.82456)n0;

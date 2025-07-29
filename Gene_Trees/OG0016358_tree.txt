@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_06197:0.356815,((isoetes_sinensis_IsiChr6g699:0.03626,isoetes_sinensis_IsiChr5g877:0.02958)n2:0.75301,((selaginella_moellendorffii_Smoe_404292:0.16698,selaginella_moellendorffii_Smoe_438132:0.05699)n4:0.49427,selaginella_moellendorffii_Smoe_407655:0.557487)n3:0.061943)n1:0.21014)n0;

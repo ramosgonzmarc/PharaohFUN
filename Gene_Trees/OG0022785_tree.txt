@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B882774:0.2346,sequoia_sempervirens_SESE_057401:0.43497)n1:0.23362,(cinnamomum_kanehirae_CKAN_02131200:0.12403,cinnamomum_kanehirae_CKAN_02662000:0.0319)n2:0.23362)n0;

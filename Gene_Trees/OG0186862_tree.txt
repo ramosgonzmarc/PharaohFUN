@@ -1,0 +1,1 @@
+((salix_purpurea_Sapur.011G051900:0.78384,(huperzia_asiatica_HaA55G0348:0.02413,huperzia_asiatica_HaB68G0091:0.03752)n2:0.61737)n1:0.195385,(sphagnum_magellanicum_Sphmag17G000300:0.16707,sphagnum_fallax_Sphfalx03G147600:0.60338)n3:0.195385)n0;

@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00069_0220:0.25011,(klebsormidium_nitens_kfl00069_0390:0.0968,klebsormidium_nitens_kfl00069_0410:0.15705)n2:0.11869)n1:0.262625,((cymbomonas_tetramitiformis_KAK3252164:0.02279,cymbomonas_tetramitiformis_KAK3262522:0.0546)n4:0.59527,(tetraselmis_striata_TSEL_034321:0.00968,tetraselmis_striata_TSEL_006194:0.00915)n5:0.50002)n3:0.262625)n0;

@@ -1,0 +1,1 @@
+((desmodesmus_armatus_Desar.380481:0.57677,scenedesmus_obliquus_Sobl_g00572:0.32572)n1:0.348635,(raphidocelis_subcapitata_Rsub_12186:0.37846,monoraphidium_minutum_Momin.415617:0.38231)n2:0.348635)n0;

@@ -1,0 +1,1 @@
+(((zygnema_circumcarinatum_Zci_02361:0,zygnema_circumcarinatum1559_ZcUTEX1559_02671:0)n2:0.16388,zygnema_cylindricum_Zci1a_33800:0.33577)n1:0.212515,(spirogloea_muscicola_SM000055S18259:0.00731,spirogloea_muscicola_SM000139S00121:0.03075)n3:0.212515)n0;

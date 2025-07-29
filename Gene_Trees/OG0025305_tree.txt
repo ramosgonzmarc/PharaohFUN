@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3268508:0.470105,(myrmecia_bisecta_Mybis.KAK9806348:0.59922,(tetraselmis_striata_TSEL_029368:0.02284,tetraselmis_striata_TSEL_031813:0.00055)n2:0.49823)n1:0.470105)n0;

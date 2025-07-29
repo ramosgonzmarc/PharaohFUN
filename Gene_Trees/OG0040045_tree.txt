@@ -1,0 +1,1 @@
+(kalanchoe_fedtschenkoi_Kaladp0010s0110:0.446725,(ananas_comosus_Aco008464:0.72603,(oryza_sativa_Os07g12620:0.0205,oryza_sativa_Os06g05760:0.06178)n2:0.65764)n1:0.446725)n0;

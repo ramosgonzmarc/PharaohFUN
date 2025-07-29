@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_27488A:0.50969,(aegilops_tauschii_Atau_XP_020191085:0.00055,(triticum_aestivum_TraesCS6A03G0161700:0.23428,(triticum_aestivum_TraesCS6A03G0138800:0.02093,(triticum_aestivum_TraesCS6B03G0197800:0.05312,triticum_aestivum_TraesCS6D03G0131500:0.000495)n4:4.95e-05)n3:4.95e-06)n2:5.5e-07)n1:0.02832)n0;

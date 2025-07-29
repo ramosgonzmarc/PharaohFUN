@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_37526:0.22294,(marchantia_paleacea_Mapa_010742:0.66069,marchantia_paleacea_Mapa_009174:0.388143)n2:0.043127)n1:0.17136,(ananas_comosus_Aco010589:0.67951,miscanthus_sinensis_MisinT179500:0.74779)n3:0.16821)n0;

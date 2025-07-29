@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3698752:0.663555,(chara_braunii_CBR_g17862:0.0655,(chara_braunii_CBR_g47120:0.07696,chara_braunii_CBR_g78853:0.07954)n2:0.00055)n1:0.663555)n0;

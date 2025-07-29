@@ -1,0 +1,1 @@
+((sorghum_bicolor_Sobic.002G003900:0.07325,setaria_italica_Seita.J002500:0.12996)n1:0.055495,(brachypodium_distachyon_Bradi1g59501:0.43344,oryza_sativa_Os07g01470:0.31917)n2:0.055495)n0;

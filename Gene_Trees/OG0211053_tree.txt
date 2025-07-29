@@ -1,0 +1,1 @@
+((lotus_japonicus_Lj2g0000650:0.31426,(phaseolus_acutifolius_Phacu.002G318300:0.23325,(phaseolus_acutifolius_Phacu.002G030800:0.08231,vigna_unguiculata_Vigun02g173900:0.09108)n3:0.205263)n2:0.022807)n1:0.135645,medicago_truncatula_Medtr8g096860:0.28805)n0;

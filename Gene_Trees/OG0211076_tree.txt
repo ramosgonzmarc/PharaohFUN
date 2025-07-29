@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.13G118150:0.461995,((populus_trichocarpa_Potri.005G143100:0.13075,salix_purpurea_Sapur.005G123700:0.20641)n2:0.09269,(populus_trichocarpa_Potri.007G049700:0.13756,salix_purpurea_Sapur.007G046800:0.115002)n3:0.012778)n1:0.461995)n0;

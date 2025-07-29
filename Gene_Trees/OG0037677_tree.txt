@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc15031:0.58758,(marsilea_vestita_Mvestita_S3g03636:0.77497,(isoetes_sinensis_IsiChr22g613:0.00055,isoetes_sinensis_IsiChr21g592:0.00054)n3:0.31757)n2:0.19474)n1:0.122515,(anthoceros_punctatus_Anpun.S1G023300:0.40111,(paraphymatoceros_pearsonii_Papea.S3G272100:0.36245,paraphymatoceros_pearsonii_Papea.S1G278400:0.432162)n5:0.048018)n4:0.07745)n0;

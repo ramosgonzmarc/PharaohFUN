@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_9_113180:0.41841,mimulus_guttatus_Migut.B00455:0.50948)n1:0.28879,(saponaria_officinalis_Sapof.11G136800:0.33752,saponaria_officinalis_Sapof.14G191800:0.33164)n2:0.28879)n0;

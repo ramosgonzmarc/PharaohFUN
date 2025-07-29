@@ -1,0 +1,1 @@
+((asterochloris_glomerata_Astgl_g4202:0.78775,apatococcus_lobatus_Aplob.KAK9831181:0.90222)n1:0.13483,(myrmecia_bisecta_Mybis.KAK9829358:0.47831,(myrmecia_bisecta_Mybis.KAK9829607:0.74529,(myrmecia_bisecta_Mybis.KAK9828630:0.23137,myrmecia_bisecta_Mybis.KAK9823818:0.35283)n4:0.29259)n3:0.18733)n2:0.13483)n0;

@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.7903s0089:0.135675,(eutrema_salsugineum_Thhalv10011092m:0.77737,(schrenkiella_parvula_ScparUn0952_0010:0.40621,schrenkiella_parvula_Scpar3g33970:0.744183)n2:0.082687)n1:0.15452)n0;

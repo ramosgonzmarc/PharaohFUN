@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9804383:0.191125,((myrmecia_bisecta_Mybis.KAK9812994:0.50863,myrmecia_bisecta_Mybis.KAK9813246:0.6169)n2:0.43662,(myrmecia_bisecta_Mybis.KAK9804316:0.08877,myrmecia_bisecta_Mybis.KAK9804263:0.14921)n3:0.45592)n1:0.191125)n0;

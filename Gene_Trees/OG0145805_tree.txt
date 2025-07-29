@@ -1,0 +1,1 @@
+(olea_europaea_Oeu035146:0.31182,(coffea_arabica_Coara.010943:0.31474,(coffea_arabica_Coara.045241:0.26858,coffea_arabica_Coara.044108:0.25365)n2:0.04589)n1:0.31182)n0;

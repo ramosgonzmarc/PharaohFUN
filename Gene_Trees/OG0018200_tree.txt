@@ -1,0 +1,1 @@
+(((gracilariopsis_chorda_PXF43529:0,gracilariopsis_chorda_PXF40681:0)n2:0.88084,(porphyra_umbilicalis_Pum2788s0001:0.77858,porphyra_umbilicalis_Pum0189s0016:0.55997)n3:0.3336)n1:0.09608,(cymbomonas_tetramitiformis_KAK3287215:0.93142,(apatococcus_lobatus_Aplob.KAK9838853:0.64306,myrmecia_bisecta_Mybis.KAK9807598:0.46735)n5:0.65645)n4:0.09608)n0;

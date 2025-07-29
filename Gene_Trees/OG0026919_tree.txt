@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH43646:0.577695,(ostreobium_quekettii_CAD7701514:0.79293,(ostreobium_quekettii_CAD7701515:0.32356,ostreobium_quekettii_CAD7697364:0.42501)n2:0.21709)n1:0.577695)n0;

@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_07203:0.19307,monoraphidium_minutum_Momin.460550:0.39254)n1:0.63141,((chlamydomonas_reinhardtii_Cre12.g521050_4532:0.18346,chlamydomonas_incerta_Chincg17283:0.13695)n3:0.24688,(tetrabaena_socialis_Tesoc.PNH04806:0.36803,(volvox_carteri_Vocar.0037s0108:0.43757,gonium_pectorale_Gopec.04210:0.41057)n5:0.10355)n4:0.03613)n2:0.63141)n0;

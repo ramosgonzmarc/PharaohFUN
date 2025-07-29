@@ -1,0 +1,1 @@
+(brassica_rapa_Brara.A02767:0.556625,(azolla_filiculoides_Azfi_s0557.g076878:0.59434,(ceratopteris_richardii_Ceric.23G048800:0.13325,(adiantum_capillus_Adc20423:0.43808,adiantum_capillus_Adc20424:0.415944)n3:0.046216)n2:0.05249)n1:0.66088)n0;

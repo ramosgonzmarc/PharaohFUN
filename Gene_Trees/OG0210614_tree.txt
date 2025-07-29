@@ -1,0 +1,1 @@
+(carya_illinoinensis_Caril.09G129500:0.632225,(lens_culinaris_Lecul.5g072780:1.11504,(medicago_truncatula_Medtr2g098840:0.36751,((trifolium_pratense_Trpra.09981:0.17765,trifolium_pratense_Trpra.11354:0.04785)n4:1.15511,(trifolium_pratense_Trpra.00075:0.31322,trifolium_pratense_Trpra.24019:0.35469)n5:0.268317)n3:0.029813)n2:0.29182)n1:0.53406)n0;

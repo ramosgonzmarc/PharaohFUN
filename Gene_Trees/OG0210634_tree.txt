@@ -1,0 +1,1 @@
+(cucumis_sativus_Cucsa.c383470g01:0.13926,((lens_culinaris_Lecul.1g061900:0.00055,trifolium_pratense_Trpra.10404:0.09376)n2:0.02972,(medicago_truncatula_Medtr1g075490:0.07564,(vigna_unguiculata_Vigun07g174400:0.12229,(lotus_japonicus_Lj5g0027624:0.05708,lupinus_albus_Lalb_Chr02g0150321:0.07818)n5:0.10381)n4:0.03335)n3:0.0432)n1:0.13926)n0;

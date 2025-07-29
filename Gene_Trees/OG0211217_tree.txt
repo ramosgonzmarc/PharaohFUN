@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_PI03BP:0.31593,(lens_culinaris_Lecul.5g073370:0.64206,(medicago_truncatula_Medtr3g111820:0.0459,trifolium_pratense_Trpra.12888:0.32209)n2:0.17791)n1:0.31593)n0;

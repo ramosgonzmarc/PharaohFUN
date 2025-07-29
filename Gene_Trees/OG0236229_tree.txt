@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_13418:0.038865,(trebouxia_sp_FRX49_01168:0.09832,(trebouxia_sp_FRX49_01030:0.79685,(trebouxia_sp_FRX49_05277:0.09351,(trebouxia_sp_FRX49_05430:0.00055,trebouxia_sp_FRX49_07432:0.69662)n4:0.61515)n3:0.24819)n2:0.07441)n1:0.038865)n0;

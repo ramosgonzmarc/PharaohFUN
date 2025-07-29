@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe2G201500:0.11797,(brassica_rapa_Brara.K01737:0.00054,((medicago_truncatula_Medtr0082s0290:0.30452,lens_culinaris_Lecul.4g000290:0.04729)n3:0.05129,(phaseolus_acutifolius_Phacu.001G101700:0.06536,trifolium_pratense_Trpra.07626:0.00054)n4:0.10612)n2:0.29694)n1:0.11797)n0;

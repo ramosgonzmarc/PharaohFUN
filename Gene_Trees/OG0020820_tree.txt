@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.3121s00001:1.40063,tetraselmis_striata_TSEL_023703:0.61286)n1:0.10295,(cymbomonas_tetramitiformis_KAK3255119:0.57595,cymbomonas_tetramitiformis_KAK3279739:0.20839)n2:0.10295)n0;

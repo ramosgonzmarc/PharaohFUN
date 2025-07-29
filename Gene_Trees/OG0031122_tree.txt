@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S4G061000:0.57226,(anthoceros_fusiformis_Anfus.S4G301400:0.04695,(anthoceros_agrestis_AnagrOXF.S2G075000:0.00391,anthoceros_punctatus_Anpun.S4G306100:0.01853)n2:0.02758)n1:0.57226)n0;

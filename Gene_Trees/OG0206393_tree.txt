@@ -1,0 +1,1 @@
+((corymbia_citriodora_Cocit.F2148:0.0061,corymbia_citriodora_Cocit.L2393:0.00239)n1:0.24541,(citrus_sinensis_Cisin.044473:0.14181,(carica_papaya_Capac.c00003g457:0.38281,carica_papaya_Capac.c00065g072:0.177705)n3:0.019745)n2:0.23664)n0;

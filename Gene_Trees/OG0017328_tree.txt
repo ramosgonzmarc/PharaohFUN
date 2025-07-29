@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_2g35580:1.1374,sequoia_sempervirens_SESE_055738:0.74012)n1:0.054855,(alsophila_spinulosa_Aspi01Gene54952:0.68032,(alsophila_spinulosa_Aspi01Gene07914:0.00491,(alsophila_spinulosa_Aspi01Gene21737:0.07502,(alsophila_spinulosa_Aspi01Gene12366:0.10206,alsophila_spinulosa_Aspi01Gene69178:0.19656)n5:0.0982)n4:0.06126)n3:0.23837)n2:0.054855)n0;

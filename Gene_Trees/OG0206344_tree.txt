@@ -1,0 +1,1 @@
+((boechera_stricta_Bostr.19424s0568:0.02906,capsella_grandiflora_Cagra.2243s0002:0.04597)n1:0.03943,(eutrema_salsugineum_Thhalv10021794m:0.11791,(brassica_rapa_Brara.A02803:0.09839,brassica_rapa_Brara.E02124:0.03537)n3:0.00393)n2:0.02935)n0;

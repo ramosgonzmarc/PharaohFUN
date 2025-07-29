@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_CmerSOOS_G2960:0.460835,(cymbomonas_tetramitiformis_KAK3286098:0.91627,(tetraselmis_striata_TSEL_033071:0.5792,tetraselmis_striata_TSEL_037817:0.432297)n2:0.048033)n1:0.20542)n0;

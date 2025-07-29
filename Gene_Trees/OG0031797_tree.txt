@@ -1,0 +1,1 @@
+((apatococcus_lobatus_Aplob.KAK9822760:0.47276,elliptochloris_bilobata_Elbil.KAK9832514:0.516)n1:0.10656,(asterochloris_glomerata_Astgl_g6359:0.86784,(coccomyxa_subellipsoidea_Cosub_66248:0.77589,myrmecia_bisecta_Mybis.KAK9815627:0.51246)n3:0.33239)n2:0.10656)n0;

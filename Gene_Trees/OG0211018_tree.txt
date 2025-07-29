@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.L019660:0.47782,(lens_culinaris_Lecul.4g004420:0.13691,lens_culinaris_Lecul.4g071140:0.21361)n2:0.27369)n1:0.11417,(medicago_truncatula_Medtr1g045050:1.46337,medicago_truncatula_Medtr3g101440:0.47182)n3:0.11417)n0;

@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.4AG0304260:0.148145,((setaria_italica_Seita.5G138500:0.27841,setaria_italica_Seita.5G138200:0.25938)n2:0.26348,(sorghum_bicolor_Sobic.003G032800:0.30453,sorghum_bicolor_Sobic.003G032400:0.12967)n3:0.29177)n1:0.148145)n0;

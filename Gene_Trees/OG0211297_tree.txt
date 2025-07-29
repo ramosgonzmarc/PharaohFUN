@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10009357:0.0998,(corylus_avellana_Corav.g23480:0.61402,(corylus_avellana_Corav.g6790:0.96094,corylus_avellana_Corav.g23656:0.05537)n2:0.50181)n1:0.0998)n0;

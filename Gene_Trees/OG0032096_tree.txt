@@ -1,0 +1,1 @@
+((brachypodium_distachyon_Bradi5g14298:0.5987,miscanthus_sinensis_Misin18G080700:0.40808)n1:0.155145,(brachypodium_distachyon_Bradi4g43211:0.16085,(eleusine_coracana_Elcor.9AG0674030:0.28176,miscanthus_sinensis_MisinT470800:0.18915)n3:0.12302)n2:0.155145)n0;

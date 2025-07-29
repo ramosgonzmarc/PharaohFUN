@@ -1,0 +1,1 @@
+(ostreococcus_lucimarinus_Oluc_28445:0.50425,(cymbomonas_tetramitiformis_KAK3274115:1.3483,(cymbomonas_tetramitiformis_KAK3245428:0.56686,(cymbomonas_tetramitiformis_KAK3265682:0.0286,cymbomonas_tetramitiformis_KAK3265683:0.04833)n3:0.36332)n2:0.40266)n1:0.50425)n0;

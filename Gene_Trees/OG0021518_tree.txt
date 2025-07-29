@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g09102:0.46046,(micromonas_commoda_Micom.084815:0.44466,((micromonas_pusilla_Mpus_54739:0.76406,(micromonas_pusilla_Mpus_38340:0.00198,micromonas_pusilla_Mpus_71047:0.01379)n4:0.61446)n3:0.29211,micromonas_pusilla_Mpus_54545:0.27711)n2:0.03079)n1:0.25291)n0;

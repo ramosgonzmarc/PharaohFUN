@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene07081:0.28412,(gnetum_montanum_TnS000191375t02:0.62621,(abies_alba_AALBA5B003317:0.11354,picea_abies_Pab_70255g0010:0.06845)n2:0.56458)n1:0.28412)n0;

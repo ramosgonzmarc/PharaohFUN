@@ -1,0 +1,1 @@
+((glycine_max_Glyma.18G016500:0.15722,vigna_unguiculata_Vigun01g237266:0.22846)n1:0.176965,(lens_culinaris_Lecul.3g049230:0.41136,(trifolium_pratense_Trpra.16555:0.79813,((medicago_truncatula_Medtr7g090807:0.7519,medicago_truncatula_Medtr3g087080:0.03616)n5:0.07332,medicago_truncatula_Medtr3g087090:0.068634)n4:0.007626)n3:0.09025)n2:0.11286)n0;

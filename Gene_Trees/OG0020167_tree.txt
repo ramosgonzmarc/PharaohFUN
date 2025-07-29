@@ -1,0 +1,1 @@
+((lupinus_albus_Lalb_Chr24g0400971:0.09257,lupinus_albus_Lalb_Chr03g0040181:0.08961)n1:0.404415,(chara_braunii_CBR_g32367:0.04289,(chara_braunii_CBR_g51356:0.06674,(chara_braunii_CBR_g78744:0.11982,chara_braunii_CBR_g30347:0.2519)n4:0.00054)n3:0.64623)n2:0.404415)n0;

@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene34999:0.17306,(marsilea_vestita_Mvestita_S14g08200:0.79465,(salvinia_cucullata_Sacu_s0029.g010018:0.38009,azolla_filiculoides_Azfi_s0071.g036869:0.88089)n2:0.2035)n1:0.17306)n0;

@@ -1,0 +1,1 @@
+((gnetum_montanum_TnS000839783t01:0.73765,picea_abies_Pab_5286759g0010:0.53779)n1:0.23905,(isoetes_sinensis_IsiChr7g3551:0.0024,((isoetes_sinensis_IsiChr6g3777:0,isoetes_sinensis_IsiScaffold3457g3:0)n4:0.13772,isoetes_sinensis_IsiChr8g3267:0.00272)n3:0.00056)n2:0.23905)n0;

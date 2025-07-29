@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_049002:0.547245,(populus_trichocarpa_Potri.007G020732:0.79229,((miscanthus_sinensis_Misin04G383800:0.40027,trifolium_pratense_Trpra.20929:0.56506)n3:0.14537,(brachypodium_distachyon_Bradi4g43220:0.12529,(aegilops_tauschii_Atau_XP_020188421:0.03163,hordeum_vulgare_Hvul_5HG0461170:0.05727)n5:0.13463)n4:0.57504)n2:0.17738)n1:0.547245)n0;

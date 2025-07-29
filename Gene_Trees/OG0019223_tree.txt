@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_002543:0.277015,(sequoiadendron_giganteum_SEGI_12928:0.22269,(abies_alba_AALBA5B203495:0.06474,(abies_alba_AALBA5B162949:0.12995,abies_alba_AALBA5B449865:0.29709)n3:0.029709)n2:0.003301)n1:0.03589)n0;

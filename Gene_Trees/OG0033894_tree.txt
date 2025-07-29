@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaScaf1822:1.23216,mesostigma_viride296_Mevir.Mv15080:0.76775)n1:0.46756,(cyanidioschyzon_merolae_CmerSOOS_G2328:0.00055,cyanidioschyzon_merolae_CmerSOOS_G2882:0.00159)n2:0.46756)n0;

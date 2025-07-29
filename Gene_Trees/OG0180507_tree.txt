@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc00g316530:0.43217,(ananas_comosus_Aco030029:0,ananas_comosus_Aco020236:0,ananas_comosus_Aco030530:0)n1:0.43217)n0;

@@ -1,0 +1,1 @@
+(eucalyptus_grandis_Eucgr.B01067:0.006225,(eucalyptus_grandis_Eucgr.G00149:0.03025,((eucalyptus_grandis_Eucgr.L02546:0.01518,eucalyptus_grandis_Eucgr.G02755:0.25032)n3:0.55673,(eucalyptus_grandis_Eucgr.L03268:0.58236,eucalyptus_grandis_Eucgr.H02867:0.08329)n4:0.07315)n2:0.11909)n1:0.006225)n0;

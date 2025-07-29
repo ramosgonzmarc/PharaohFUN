@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S4G114100:0.345145,(huperzia_asiatica_HaA01G0843:0.4521,(isoetes_sinensis_IsiChr9g344:0.01903,isoetes_sinensis_IsiChr9g320:0.00687)n2:0.28319)n1:0.345145)n0;

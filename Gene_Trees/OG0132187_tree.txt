@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S1G199000:0.057215,(paraphymatoceros_pearsonii_Papea.S1G253000:0.57967,(anthoceros_punctatus_Anpun.C20G000100:0.65147,(notothylas_orbicularis_Noorb.S2G415300:0.20541,notothylas_orbicularis_Noorb.S3G276900:0.22438)n3:0.4305)n2:0.27375)n1:0.057215)n0;

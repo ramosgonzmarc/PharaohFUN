@@ -1,0 +1,1 @@
+((sequoia_sempervirens_SESE_147440:0.00055,sequoia_sempervirens_SESE_132076:0.00527)n1:0.538445,(adiantum_capillus_Adc26281:0.92242,(salvinia_cucullata_Sacu_s0004.g002376:0.62342,(alsophila_spinulosa_Aspi01Gene64728:0.08176,alsophila_spinulosa_Aspi01Gene64732:0.13628)n4:0.40309)n3:0.13317)n2:0.538445)n0;

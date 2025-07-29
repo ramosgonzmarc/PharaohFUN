@@ -1,0 +1,1 @@
+((miscanthus_sinensis_Misin01G250000:0.4618,((triticum_aestivum_TraesCS1D03G0944100:0.13959,(ginkgo_biloba_Gb_33924:0.84424,kalanchoe_fedtschenkoi_Kaladp0192s0025:0.40554)n4:0.02073)n3:0.21365,(ginkgo_biloba_Gb_18545:0.71464,ginkgo_biloba_Gb_39876:0.15213)n5:0.062604)n2:0.006956)n1:0.059715,ananas_comosus_Aco023402:0.40288)n0;

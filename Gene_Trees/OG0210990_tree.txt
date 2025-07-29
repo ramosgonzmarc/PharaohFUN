@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_6g36720:0.037865,(fragaria_vesca_FvH4_6g34230:0.00054,(fragaria_vesca_FvH4_3g33300:0.00679,(fragaria_vesca_FvH4_3g24741:0.06225,fragaria_vesca_FvH4_4g04901:1.45029)n3:0.09944)n2:0.01104)n1:0.037865)n0;

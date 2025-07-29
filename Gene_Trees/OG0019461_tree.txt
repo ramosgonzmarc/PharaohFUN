@@ -1,0 +1,1 @@
+(aegilops_tauschii_Atau_XP_040258748:0.000275,(aegilops_tauschii_Atau_XP_045083948:0.13313,(aegilops_tauschii_Atau_XP_040244459:0.06956,aegilops_tauschii_Atau_XP_040258750:0.00054)n2:0.13176)n1:0.000275)n0;

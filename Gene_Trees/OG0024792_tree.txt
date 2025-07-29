@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.M249000:0.41512,(galdieria_sulphuraria_GsulpAzora_G4807:0.90952,(cyanidioschyzon_merolae_CmerSOOS_G3361:0.49592,gracilariopsis_chorda_PXF47232:0.53913)n2:0.16732)n1:0.41512)n0;

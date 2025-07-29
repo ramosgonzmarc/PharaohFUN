@@ -1,0 +1,1 @@
+((lotus_japonicus_Lj2g0019441:0.18702,(cicer_arietinum_Ca_18562:0.1648,(lens_culinaris_Lecul.5g017100:0.08843,medicago_truncatula_Medtr5g045300:0.13576)n3:0.03351)n2:0.21303)n1:0.13058,((glycine_max_Glyma.02G119300:0.03075,glycine_max_Glyma.01G061000:0.01496)n5:0.075,(phaseolus_acutifolius_Phacu.003G043300:0.0349,vigna_unguiculata_Vigun02g047900:0.06491)n6:0.04973)n4:0.13058)n0;

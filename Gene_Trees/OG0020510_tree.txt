@@ -1,0 +1,1 @@
+((zostera_marina_Zosma07g02410:0.8918,medicago_truncatula_Medtr1685s0010:0.92048)n1:0.06002,(coccomyxa_subellipsoidea_Cosub_21165:0.58331,(tetraselmis_striata_TSEL_002205:0.29699,tetraselmis_striata_TSEL_039154:0.46027)n3:0.31273)n2:0.06002)n0;

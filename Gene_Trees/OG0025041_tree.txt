@@ -1,0 +1,1 @@
+(picochlorum_soloecismus_NSC_03917:0.82597,(cymbomonas_tetramitiformis_KAK3241566:0.1215,(cymbomonas_tetramitiformis_KAK3241565:0.1305,cymbomonas_tetramitiformis_KAK3242787:0.10562)n2:0.05276)n1:0.82597)n0;

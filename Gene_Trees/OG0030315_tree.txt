@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S4G007100:0.63453,(alsophila_spinulosa_Aspi01Gene14790:0.15657,alsophila_spinulosa_Aspi01Gene51204:0.0258)n2:0.45808)n1:0.056995,(huperzia_asiatica_HaA21G0398:0.55243,paraphymatoceros_pearsonii_Papea.S2G266000:0.49801)n3:0.056995)n0;

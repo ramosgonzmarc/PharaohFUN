@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_36707:0.26175,(lens_culinaris_Lecul.7g040810:0.48623,(ananas_comosus_Aco000424:0.23666,ananas_comosus_Aco000423:0.33867)n2:0.41915)n1:0.26175)n0;

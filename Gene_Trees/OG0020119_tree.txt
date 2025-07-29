@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3236227:0.07147,cymbomonas_tetramitiformis_KAK3247892:0.0398)n1:0.4308,((coffea_arabica_Coara.030841:0.74445,trifolium_pratense_Trpra.41919:0.67355)n3:0.76115,(ceratopteris_richardii_Ceric.1Z174100:0.73036,ceratopteris_richardii_Ceric.08G006300:0.46303)n4:0.17236)n2:0.4308)n0;

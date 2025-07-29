@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc03g033795:0.19816,solanum_tuberosum_Soltu.03G004010:0.46674)n1:0.117345,(solanum_tuberosum_Soltu.03G003920:0.1643,(solanum_lycopersicum_Solyc03g033770:0.29272,solanum_lycopersicum_Solyc03g033750:0.135324)n3:0.015036)n2:0.16103)n0;

@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9817282:0.558895,((zygnema_cylindricum_Zci1a_42401:0.00055,zygnema_cylindricum_Zci1a_27715:0.01452)n2:1.22922,(sphagnum_fallax_Sphfalx02G037100:0.04668,(sphagnum_magellanicum_Sphmag02G036800:0.03988,sphagnum_magellanicum_Sphmag02G037700:0.015066)n4:0.001674)n3:0.03294)n1:0.558895)n0;

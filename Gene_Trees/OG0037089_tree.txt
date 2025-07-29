@@ -1,0 +1,1 @@
+((phaseolus_acutifolius_Phacu.006G168900:0.95264,phaseolus_acutifolius_Phacu.005G152200:0.79982)n1:0.154055,(glycine_max_Glyma.15G108100:0.0482,glycine_max_Glyma.13G204500:0.0959)n2:0.154055)n0;

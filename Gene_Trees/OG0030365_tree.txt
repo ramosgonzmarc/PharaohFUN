@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S2G362400:0.365015,(beta_vulgaris_Bevul.1G063200:0.62314,(lupinus_albus_Lalb_Chr03g0043641:0.49188,(huperzia_asiatica_HaA55G0305:0.31774,(alsophila_spinulosa_Aspi01Gene20814:0.12767,alsophila_spinulosa_Aspi01Gene53303:0.98627)n4:0.20984)n3:0.0814)n2:0.09718)n1:0.365015)n0;

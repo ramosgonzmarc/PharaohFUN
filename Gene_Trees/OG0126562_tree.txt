@@ -1,0 +1,1 @@
+((carya_illinoinensis_Caril.09G037700:0.48057,(quercus_rubra_Qurub.07G001600:0.06463,quercus_rubra_Qurub.07G001500:0.03559)n2:0.36835)n1:0.3223,(arachis_hypogaea_arahy_V24NUQ:0.38782,(glycine_max_Glyma.19G138900:0.09482,(phaseolus_acutifolius_Phacu.001G156100:0.07515,vigna_unguiculata_Vigun01g115000:0.05994)n5:0.07505)n4:0.23179)n3:0.3223)n0;

@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.11P13940_001:0.01794,(musa_acuminata_Muacu.11P13960_001:0.03455,(musa_acuminata_Muacu.Un_randomP28850_001:0.12677,(musa_acuminata_Muacu.Un_randomP26810_001:0.04044,musa_acuminata_Muacu.Un_randomP11310_001:0.78355)n3:0.00053)n2:0.34991)n1:0.01794)n0;

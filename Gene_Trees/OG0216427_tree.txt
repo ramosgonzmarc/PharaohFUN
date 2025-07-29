@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.02G034660:0.5919,(saponaria_officinalis_Sapof.02G168800:0.26595,(chenopodium_quinoa_AUR62037802:0.09378,chenopodium_quinoa_AUR62017481:0.09024)n2:0.88714)n1:0.5919)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00136_0255:0.81696,((alsophila_spinulosa_Aspi01Gene22829:0.10325,azolla_filiculoides_Azfi_s4504.g119761:0.36942)n2:0.09834,(ceratopteris_richardii_Ceric.16G048300:0.36161,adiantum_capillus_Adc25991:0.12915)n3:0.10534)n1:0.81696)n0;

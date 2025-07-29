@@ -1,0 +1,1 @@
+((triticum_aestivum_TraesCS7B03G1236000:0.88054,(sequoia_sempervirens_SESE_053392:0.03967,(sequoiadendron_giganteum_SEGI_03043:0.16716,sequoiadendron_giganteum_SEGI_11769:0.2682)n3:0.00705)n2:0.05832)n1:0.115515,(thuja_plicata_Thupl.29364514s0003:0.35103,trifolium_pratense_Trpra.00900:1.34881)n4:0.115515)n0;

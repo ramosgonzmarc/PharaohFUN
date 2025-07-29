@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM067_0013:0.240115,(corymbia_citriodora_Cocit.L1500:0.40929,(quercus_rubra_Qurub.M248300:0.04716,quercus_rubra_Qurub.M248200:0.10285)n2:0.4735)n1:0.240115)n0;

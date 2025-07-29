@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_37214:0.820915,((anthoceros_fusiformis_Anfus.S1G311200:0.50849,selaginella_moellendorffii_Smoe_28027:0.38043)n2:0.11158,(isoetes_sinensis_IsiChr14g3424:0.1879,(isoetes_sinensis_IsiChr17g3211:0.00545,isoetes_sinensis_IsiChr18g3287:0.00055)n4:0.143388)n3:0.015932)n1:0.05682)n0;

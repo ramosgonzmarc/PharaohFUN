@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz02g26080:1.24907,tetraselmis_striata_TSEL_045187:0.36547)n1:0.06554,(bathycoccus_prasinos_XM_007511614:0.5495,micromonas_pusilla_Mpus_54268:0.37838)n2:0.06554)n0;

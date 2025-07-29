@@ -1,0 +1,1 @@
+(olea_europaea_Oeu022398:0.156905,(cinnamomum_kanehirae_CKAN_00442600:0.00052,(cinnamomum_kanehirae_CKAN_00442500:0.22458,cinnamomum_kanehirae_CKAN_00442000:0.00819)n2:0.26224)n1:0.156905)n0;

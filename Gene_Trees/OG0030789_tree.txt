@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00053g56:0.25024,(aquilegia_coerulea_Aqcoe2G328500:0.34954,(kalanchoe_fedtschenkoi_Kaladp0030s0030:0.6096,linum_usitatissimum_Lus10009712:0.48181)n2:0.24966)n1:0.25024)n0;

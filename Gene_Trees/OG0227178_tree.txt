@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx14G037100:0.244695,(pleurozium_schreberi_Plsch.13588:0.45802,(ceratodon_purpureus_CepurR40.VG217200:0.47081,ceratodon_purpureus_CepurR40.VG048800:0.70036)n2:0.35206)n1:0.244695)n0;

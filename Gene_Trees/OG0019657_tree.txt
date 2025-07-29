@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene71501:0.265695,(olea_europaea_Oeu063731:0.29442,(malus_domestica_MD00G1013700:0.23561,malus_domestica_MD11G1094900:0.03811)n2:0.45193)n1:0.265695)n0;

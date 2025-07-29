@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g2757:0.68457,scenedesmus_obliquus_Sobl_g11897:0.71902)n1:0.33981,(gracilariopsis_chorda_PXF43231:0.69032,((gracilariopsis_chorda_PXF42439:0.459,gracilariopsis_chorda_PXF41999:0.46031)n4:0.22191,(gracilariopsis_chorda_PXF40518:0.62012,gracilariopsis_chorda_PXF44917:0.6365)n5:0.12586)n3:0.30643)n2:0.33981)n0;

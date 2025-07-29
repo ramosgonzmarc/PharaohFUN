@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B804420:0.488095,(ananas_comosus_Aco021451:1.0902,(ananas_comosus_Aco031592:0.00054,ananas_comosus_Aco004300:0.03999)n2:0.67178)n1:0.488095)n0;

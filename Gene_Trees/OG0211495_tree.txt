@@ -1,0 +1,1 @@
+((phaseolus_acutifolius_Phacu.003G093600:0,phaseolus_acutifolius_Phacu.008G019100:0)n1:0.47105,(medicago_truncatula_Medtr0082s0250:0.01898,trifolium_pratense_Trpra.37454:0.00981)n2:0.47105)n0;

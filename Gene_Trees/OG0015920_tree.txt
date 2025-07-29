@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc00325:0.54461,((ceratopteris_richardii_Ceric.1Z181400:0.00816,ceratopteris_richardii_Ceric.1Z181500:0.01126)n2:0.00962,(ceratopteris_richardii_Ceric.1Z181300:0.02504,(ceratopteris_richardii_Ceric.1Z217000:0.02466,(ceratopteris_richardii_Ceric.1Z184700:0.01799,ceratopteris_richardii_Ceric.1Z181200:0.03071)n5:0.0031)n4:0.00054)n3:0.00053)n1:0.54461)n0;

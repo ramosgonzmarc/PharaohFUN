@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv00315:0.352095,(ostreococcus_mediterraneus_Ostme16g01510:0.57927,(micromonas_commoda_Micom.060748:0.09566,(micromonas_pusilla_Mpus_190013:0.97749,micromonas_pusilla_Mpus_8371:0.098352)n3:0.010928)n2:0.72194)n1:0.30044)n0;

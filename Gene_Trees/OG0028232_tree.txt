@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.A03557:0.386825,(tetraselmis_striata_TSEL_039324:1.05747,(tetraselmis_striata_TSEL_037523:0.18388,tetraselmis_striata_TSEL_010577:0.32963)n2:0.35167)n1:0.386825)n0;

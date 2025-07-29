@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_041031:0.22456,tetraselmis_striata_TSEL_009030:0.13348)n1:0.691365,(tetrabaena_socialis_Tesoc.PNH00821:0.00052,(tetrabaena_socialis_Tesoc.PNH01475:0.0099,tetrabaena_socialis_Tesoc.PNH01467:0.00663)n3:0.0062)n2:0.691365)n0;

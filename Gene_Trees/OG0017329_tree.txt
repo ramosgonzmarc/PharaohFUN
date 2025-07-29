@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3254515:0.728935,((alsophila_spinulosa_Aspi01Gene08151:0,alsophila_spinulosa_Aspi01Gene08157:0)n2:0.00053,(alsophila_spinulosa_Aspi01Gene08160:0.01777,alsophila_spinulosa_Aspi01Gene08158:0.0098)n3:0.00786)n1:0.728935)n0;

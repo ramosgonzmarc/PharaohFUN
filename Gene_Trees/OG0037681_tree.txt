@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum1559_ZcUTEX1559_12450:0.42473,(ceratodon_purpureus_CepurR40.6G062400:0.63026,(isoetes_sinensis_IsiChr22g357:0.02085,isoetes_sinensis_IsiScaffold3709g38:0.16194)n2:0.22244)n1:0.42473)n0;

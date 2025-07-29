@@ -1,0 +1,1 @@
+((salix_purpurea_Sapur.012G033700:0.0081,salix_purpurea_Sapur.012G033600:0.01235)n1:0.55536,(corylus_avellana_Corav.g20717:0.54331,(carya_illinoinensis_Caril.14G042300:0.22587,(carya_illinoinensis_Caril.14G042000:0.03927,carya_illinoinensis_Caril.14G042200:0.11579)n4:0.02241)n3:0.44437)n2:0.55536)n0;

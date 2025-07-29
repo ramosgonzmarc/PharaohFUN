@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_004066:0.393705,(salvinia_cucullata_Sacu_s0014.g006327:0.79523,(ginkgo_biloba_Gb_09016:0.68107,ginkgo_biloba_Gb_00293:0.22611)n2:0.20981)n1:0.393705)n0;

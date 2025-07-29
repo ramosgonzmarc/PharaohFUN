@@ -1,0 +1,1 @@
+(zostera_marina_Zosma05g24000:0.50646,((ginkgo_biloba_Gb_14153:0.23199,(ginkgo_biloba_Gb_32781:0.40249,ginkgo_biloba_Gb_29670:1.47212)n3:0.38764)n2:0.17337,(ginkgo_biloba_Gb_30166:0.13783,(ginkgo_biloba_Gb_08763:0.5872,ginkgo_biloba_Gb_25704:0.39466)n5:0.16531)n4:0.31533)n1:0.50646)n0;

@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_023252:0.16003,(tetraselmis_striata_TSEL_023149:0.23032,(tetraselmis_striata_TSEL_043598:0.28747,(tetraselmis_striata_TSEL_003109:0.09001,tetraselmis_striata_TSEL_045065:0.03685)n4:0.18346)n3:0.11608)n2:0.5965)n1:0.1388,(coccomyxa_subellipsoidea_Cosub_54526:0.78478,dunaliella_salina_Dusal.0569s00009:0.43346)n5:0.1388)n0;

@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c04814:0.090155,((vaccinium_darrowii_Vadar_g3677:1.17355,sequoia_sempervirens_SESE_146729:0.36626)n2:0.26982,(huperzia_asiatica_HaA03G0193:0.07122,huperzia_asiatica_HaB66G0501:0.01274)n3:0.5074)n1:0.090155)n0;

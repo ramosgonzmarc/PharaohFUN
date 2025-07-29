@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3290091:0.66354,(anthoceros_punctatus_Anpun.S4G237300:0.00055,(anthoceros_agrestis_AnagrOXF.S6G071300:0.01313,((anthoceros_agrestis_AnagrOXF.C134G000200:0,anthoceros_agrestis_AnagrOXF.S1G048800:0,anthoceros_agrestis_AnagrOXF.S1G049000:0)n4:0.01367,anthoceros_agrestis_AnagrOXF.S1G048400:0.01368)n3:0.07127)n2:0.08545)n1:0.66354)n0;

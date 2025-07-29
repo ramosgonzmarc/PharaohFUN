@@ -1,0 +1,1 @@
+(taxus_chinensis_KI387_022699:0.43926,(sequoia_sempervirens_SESE_041213:0.4129,(thuja_plicata_Thupl.29378028s0001:0.446,thuja_plicata_Thupl.29378028s0006:0.126693)n2:0.014077)n1:0.13618)n0;

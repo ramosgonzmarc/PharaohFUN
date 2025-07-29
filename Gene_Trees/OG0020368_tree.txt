@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_002172:0.541195,(helicosporidium_sp_Helsp_g1828:1.16102,((chlorella_sorokiniana_Chlso_g135:0.14723,chlorella_sorokiniana_Chlso_g205:0.13067)n3:0.48894,(raphidocelis_subcapitata_Rsub_00703:0.28053,monoraphidium_minutum_Momin.523318:0.28552)n4:0.15623)n2:0.38178)n1:0.541195)n0;

@@ -1,0 +1,1 @@
+(oryza_sativa_Os01g68210:0.42457,(miscanthus_sinensis_MisinT137500:0.43453,(eleusine_coracana_Elcor.1AG0043680:0.03059,eleusine_coracana_Elcor.1BG0093690:0.00899)n2:0.266)n1:0.42457)n0;

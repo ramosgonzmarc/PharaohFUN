@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp92S08204:0.4136,(riccia_fluitans_R1flu_014356:1.07658,(ceratodon_purpureus_CepurR40.8G049300:0.13151,((physcomitrium_patens_Pp6c18_2750V6:0.03215,funaria_hygrometrica_Fuhyg.17810:0.05144)n4:0.16436,(pleurozium_schreberi_Plsch.08746:0.23001,pleurozium_schreberi_Plsch.20284:0.172989)n5:0.019221)n3:0.03292)n2:0.10724)n1:0.4136)n0;

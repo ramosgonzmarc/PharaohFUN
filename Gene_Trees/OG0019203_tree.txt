@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_08594:0.385755,((vitis_vinifera_VIT_205s0094g00620:0.04722,carya_illinoinensis_Caril.05G180300:0.07386)n2:0.25315,(sequoia_sempervirens_SESE_028970:0.45745,(abies_alba_AALBA5B771195:0.02314,(abies_alba_AALBA5B566704:0.173,abies_alba_AALBA5B1157384:0.029007)n5:0.0029007)n4:0.0003223)n3:0.02214)n1:0.385755)n0;

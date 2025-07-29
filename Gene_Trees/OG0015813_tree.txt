@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3239089:0.55701,mesostigma_viride1140_Mesvi382S05642:0.49936)n1:0.062835,(chara_braunii_CBR_g23256:1.53602,((tetraselmis_striata_TSEL_035797:0.00746,tetraselmis_striata_TSEL_004511:0.00618)n4:0.5648,(asterochloris_glomerata_Astgl_g3184:0.76967,pedinophyceae_sp_Pesp.9460610:0.57909)n5:0.56733)n3:0.15031)n2:0.062835)n0;

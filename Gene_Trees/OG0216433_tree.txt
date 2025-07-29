@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62043972:0.795065,(vaccinium_darrowii_Vadar_g34329:0.25729,(vaccinium_darrowii_Vadar_g34332:0.32851,vaccinium_darrowii_Vadar_g34308:0.84044)n2:0.16596)n1:0.795065)n0;

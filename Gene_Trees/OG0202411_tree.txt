@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_211s0037g00390:0.105405,(carya_illinoinensis_Caril.15G148900:0.55413,(quercus_rubra_Qurub.02G385200:0.39277,(manihot_esculenta_Manes.06G035525:0.30438,(populus_trichocarpa_Potri.006G183101:0.24862,salix_purpurea_Sapur.006G150000:0.07122)n4:0.21067)n3:0.10662)n2:0.24204)n1:0.105405)n0;

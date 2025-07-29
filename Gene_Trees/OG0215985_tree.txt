@@ -1,0 +1,1 @@
+(amaranthus_hypochondriacus_AH016736:0.286305,((solanum_tuberosum_Soltu.01G016560:0.94798,(lactuca_sativa_Lsat_gn_3_45940:0,lactuca_sativa_Lsat_gn_1_88141:0,lactuca_sativa_Lsat_gn_2_97160:0,lactuca_sativa_Lsat_gn_5_181940:0,lactuca_sativa_Lsat_gn_5_47101:0)n3:0.12426)n2:0.00055,(daucus_carota_DCAR_101461:0.08669,daucus_carota_DCAR_934668:0.131769)n4:0.014641)n1:0.00584)n0;

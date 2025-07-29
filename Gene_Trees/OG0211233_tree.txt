@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_NRMQ9K:0.00055,arachis_hypogaea_arahy_89W0PE:0.14247)n1:0.153,(cicer_arietinum_Ca_17276:0.21626,lupinus_albus_Lalb_Chr10g0103661:0.208)n2:0.153)n0;

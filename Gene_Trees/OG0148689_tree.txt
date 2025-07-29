@@ -1,0 +1,1 @@
+(oryza_sativa_Os07g20610:0.22021,(hordeum_vulgare_Hvul_2HG0102630:0.12565,((triticum_aestivum_TraesCS2A03G0096300:0.07669,triticum_aestivum_TraesCSU03G0337500:0.05557)n3:0.04075,triticum_aestivum_TraesCS4A03G0725500:0.186615)n2:0.020735)n1:0.04927)n0;

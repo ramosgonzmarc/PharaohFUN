@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.S2G036900:0.393605,((selaginella_moellendorffii_Smoe_432673:0.13205,selaginella_moellendorffii_Smoe_418325:0.19585)n2:0.84072,(selaginella_moellendorffii_Smoe_411162:0.13269,(selaginella_moellendorffii_Smoe_411158:0.06843,selaginella_moellendorffii_Smoe_411161:0.00426)n4:0.15376)n3:0.49394)n1:0.393605)n0;

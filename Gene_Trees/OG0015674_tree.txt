@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene50511:0.61906,((isoetes_sinensis_IsiChr14g1126:0.04368,(isoetes_sinensis_IsiChr3g330:0.7137,isoetes_sinensis_IsiChr13g889:0.00055)n4:0.10766)n3:0.57781,isoetes_sinensis_IsiScaffold3445g80:0.37107)n2:0.04123)n1:0.044595,salvinia_cucullata_Sacu_s1579.g028098:0.32757)n0;

@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S6G009700:0.2384,(paraphymatoceros_pearsonii_Papea.S1G782900:0.6031,((phaeoceros_carolinianus_Phcar.S2G643400:0.12208,phaeoceros_sp_Phsp.C4G219400:0.06191)n3:0.46752,(phaeoceros_carolinianus_Phcar.S2G643500:0.00889,phaeoceros_sp_Phsp.C4G219300:0.00055)n4:0.38283)n2:1.17726)n1:0.2384)n0;

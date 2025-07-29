@@ -1,0 +1,1 @@
+((phaeomegaceros_chiloensis_Phchi.S1G247500:0.99506,anthoceros_agrestis_AnagrOXF.S2G572500:0.00055)n1:0.03136,(phaeoceros_carolinianus_Phcar.S2G600900:0.92206,anthoceros_fusiformis_Anfus.S1G010300:0.06078)n2:0.03136)n0;

@@ -1,0 +1,1 @@
+((anthoceros_punctatus_Anpun.S3G353400:0.11555,(linum_usitatissimum_Lus10029098:0.64227,(cinnamomum_kanehirae_CKAN_00550500:0.00584,cinnamomum_kanehirae_CKAN_02237400:0.05562)n3:0.00618)n2:0.05963)n1:0.009275,(physcomitrium_patens_Pp6c4_12760V6:0.33629,picea_abies_Pab_928590g0010:0.06267)n4:0.009275)n0;

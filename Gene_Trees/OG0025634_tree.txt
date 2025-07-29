@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpAzora_G6166:0.32242,(caulerpa_lentillifera_Caule_g3081:0.93109,(tetraselmis_striata_TSEL_002655:0.00638,tetraselmis_striata_TSEL_042402:0.00114)n2:1.32889)n1:0.32242)n0;

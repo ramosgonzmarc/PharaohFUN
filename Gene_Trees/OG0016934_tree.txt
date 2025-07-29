@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B1056426:0.24344,abies_alba_AALBA5B149063:0.68373)n1:0.66905,(taxus_chinensis_KI387_024278:0.49812,(taxus_chinensis_KI387_016801:1.47786,taxus_chinensis_KI387_005561:0.13182)n3:0.27889)n2:0.66905)n0;

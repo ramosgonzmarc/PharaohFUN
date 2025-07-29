@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.C0901:0.524615,(welwitschia_mirabilis_Wmi_03159:0.00054,(welwitschia_mirabilis_Wmi_11806:0.34161,(welwitschia_mirabilis_Wmi_26006:0.2033,welwitschia_mirabilis_Wmi_06671:0.00055)n3:0.09065)n2:0.16209)n1:0.524615)n0;

@@ -1,0 +1,1 @@
+(auxenochlorella_protothecoides_APUTEX2500001417:0.54576,(trebouxia_sp_FRX49_01754:0.23862,(coccomyxa_subellipsoidea_Cosub_46627:0.57745,elliptochloris_bilobata_Elbil.KAK9846416:0.8555)n2:0.87949)n1:0.54576)n0;

@@ -1,0 +1,1 @@
+((olea_europaea_Oeu022217:0.1772,musa_acuminata_Muacu.Un_randomP13780_001:1.19677)n1:0.057905,(setaria_italica_Seita.6G048700:0.93434,theobroma_cacao_Thecc1EG031353:0.62288)n2:0.057905)n0;

@@ -1,0 +1,1 @@
+((ananas_comosus_Aco023341:1.8261,picea_abies_Pab_10432042g0010:0.00055)n1:0.02387,(abies_alba_AALBA5B364574:0.00054,(glycine_max_Glyma.07G114801:0.24634,vitis_vinifera_VIT_200s1372g00020:0.0573)n3:0.31428)n2:0.02387)n0;

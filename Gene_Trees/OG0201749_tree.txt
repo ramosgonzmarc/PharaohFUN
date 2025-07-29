@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.B00951:0.61687,((vaccinium_darrowii_Vadar_g18364:0.50667,(corylus_avellana_Corav.g179:0.81407,(poncirus_trifoliata_Ptrif.0003s3060:0.38955,salix_purpurea_Sapur.019G037500:0.49836)n4:0.17781)n3:0.20193)n2:0.15884,(vitis_vinifera_VIT_213s0175g00050:0.63448,lactuca_sativa_Lsat_gn_4_63061:0.80831)n5:0.10098)n1:0.61687)n0;

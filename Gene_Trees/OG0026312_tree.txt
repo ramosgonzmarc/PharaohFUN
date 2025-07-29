@@ -1,0 +1,1 @@
+(micromonas_commoda_Micom.057919:0.67531,(klebsormidium_nitens_kfl00219_0175:0.12745,(klebsormidium_nitens_kfl00219_0170:0.44914,klebsormidium_nitens_kfl00935_0060:0.00054)n2:0.22321)n1:0.67531)n0;

@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.1BG0054180:0.126175,((brachypodium_distachyon_Bradi1g72710:0.14685,triticum_aestivum_TraesCS4D03G0695400:0.32089)n2:0.31207,(oryza_sativa_Os12g36160:0.2975,((oryza_sativa_Os01g14390:0.15753,oryza_sativa_Os01g14230:0.20926)n5:0.31694,(oryza_sativa_Os03g08180:0.72107,oryza_sativa_Os03g08190:0.489321)n6:0.0489321)n4:0.00489321)n3:0.00054369)n1:0.28297)n0;

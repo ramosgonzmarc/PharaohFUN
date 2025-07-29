@@ -1,0 +1,1 @@
+(capsella_grandiflora_Cagra.1361s0041:0.238225,(ananas_comosus_Aco017140:0.47953,(sorghum_bicolor_Sobic.004G037401:0.12272,((brachypodium_distachyon_Bradi3g17509:0.41826,brachypodium_distachyon_Bradi3g03471:0.10324)n4:0.17917,setaria_italica_Seita.5G160600:0.45517)n3:0.02114)n2:0.18042)n1:0.238225)n0;

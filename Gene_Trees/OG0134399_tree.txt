@@ -1,0 +1,1 @@
+((malus_domestica_MD16G1063600:0.19443,prunus_persica_Prupe.1G282900:0.05357)n1:0.177415,(lens_culinaris_Lecul.5g068450:0.02343,(lens_culinaris_Lecul.2g071540:0.06939,lens_culinaris_Lecul.5g068460:0.04574)n3:0.00877)n2:0.177415)n0;

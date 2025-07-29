@@ -1,0 +1,1 @@
+(picea_abies_Pab_16491g0010:0.55587,(olea_europaea_Oeu059146:0.12071,(linum_usitatissimum_Lus10011823:0.42586,poncirus_trifoliata_Ptrif.0001s2607:0.52253)n2:0.24148)n1:0.55587)n0;

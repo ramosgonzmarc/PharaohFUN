@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr3g3023:0.32994,(vaccinium_darrowii_Vadar_g10593:0.65733,(lactuca_sativa_Lsat_gn_1_109340:0.22008,((lactuca_sativa_Lsat_gn_0_29101:0,lactuca_sativa_Lsat_gn_8_19801:0)n4:0.23364,lactuca_sativa_Lsat_gn_5_147581:0.15213)n3:0.10657)n2:0.42613)n1:0.32994)n0;

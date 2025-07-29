@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0433s0017:0.52291,(galdieria_sulphuraria_GsulpAzora_G2056:0.60434,(cyanidioschyzon_merolae_CmerSOOS_G4384:0.92425,(cyanidioschyzon_merolae_CmerSOOS_G2360:0.5658,cyanidioschyzon_merolae_CmerSOOS_G4184:0.80308)n3:0.048285)n2:0.005365)n1:0.22105)n0;

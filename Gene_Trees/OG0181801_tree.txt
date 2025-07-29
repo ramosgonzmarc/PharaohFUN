@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc01g105430:0.46854,(triticum_aestivum_TraesCS5A03G0624500:0.00819,(triticum_aestivum_TraesCS5D03G0593100:0,triticum_aestivum_TraesCS5D03G0593500:0)n3:0.00083)n2:0.71278)n1:0.12411,(ananas_comosus_Aco010633:0.14466,kalanchoe_fedtschenkoi_Kaladp0035s0091:0.24692)n4:0.12411)n0;

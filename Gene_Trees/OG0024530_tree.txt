@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00007008:0.16979,(cymbomonas_tetramitiformis_KAK3256779:0.28397,(picocystis_sp_Picml_g2849:0.37853,(chloropicon_primus_Chlpr_g84:0.3085,trebouxia_sp_FRX49_12990:0.7604)n3:0.45191)n2:0.21213)n1:0.16979)n0;

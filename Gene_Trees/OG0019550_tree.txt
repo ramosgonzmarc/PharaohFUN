@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr6g43:0.05124,isoetes_sinensis_IsiChr9g1284:0.05054)n1:0.03562,(alsophila_spinulosa_Aspi01Gene11927:0.21016,(oryza_sativa_Os08g17370:0.05921,lens_culinaris_Lecul.4g070440:0.66985)n3:0.07547)n2:0.03562)n0;

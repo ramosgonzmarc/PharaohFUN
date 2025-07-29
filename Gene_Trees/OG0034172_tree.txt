@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr19g773:0.16889,(cycas_panzhihuaensis_CYCAS_007293:0.27025,(trifolium_pratense_Trpra.30691:0.71015,(gnetum_montanum_TnS000794879t01:0.83567,(picea_abies_Pab_18277g0020:0.61626,(cicer_arietinum_Ca_16513:0.6882,picea_abies_Pab_867407g0010:0.39697)n5:0.005364)n4:0.000596)n3:0.00055)n2:0.31842)n1:0.16889)n0;

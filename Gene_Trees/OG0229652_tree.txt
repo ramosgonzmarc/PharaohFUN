@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S1G082900:0.01265,(phymatoceros_phymatodes_Phphy.S3G482500:0.05699,(phymatoceros_phymatodes_Phphy.S4G364100:0.01864,(phymatoceros_phymatodes_Phphy.S1G259300:0.01822,phymatoceros_phymatodes_Phphy.S2G650200:0.15329)n3:0.00054)n2:0.00561)n1:0.01265)n0;

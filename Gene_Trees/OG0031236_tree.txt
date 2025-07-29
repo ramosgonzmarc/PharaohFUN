@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S1G355600:0.14356,((phaeoceros_carolinianus_Phcar.S2G374900:0.00054,phaeoceros_sp_Phsp.C1G060500:0.01892)n2:0.25015,(phaeomegaceros_chiloensis_Phchi.S3G135100:0.28897,(anthoceros_punctatus_Anpun.S3G114100:0.00054,(anthoceros_agrestis_AnagrOXF.S4G153400:0.00054,anthoceros_fusiformis_Anfus.S1G517900:0.09389)n5:0.0134)n4:0.356)n3:0.08164)n1:0.14356)n0;

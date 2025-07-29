@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B777613:0.703145,((diphasiastrum_complanatum_Dicom.14G082700:0.00574,diphasiastrum_complanatum_Dicom.14G083500:0.00136)n2:0.19932,(lycopodium_clavatum_Lcl_0024524:0.3895,lycopodium_clavatum_Lcl_0004265:0.183762)n3:0.020418)n1:0.06639)n0;

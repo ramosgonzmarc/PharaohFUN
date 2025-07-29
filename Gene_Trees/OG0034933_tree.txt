@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.041772:0.64536,(cymbomonas_tetramitiformis_KAK3255756:0.91251,(ostreococcus_tauri_ostta04g04190:0.40558,(ostreococcus_mediterraneus_Ostme02g04270:0.34627,ostreococcus_lucimarinus_Oluc_31344:0.28114)n3:0.09799)n2:0.26511)n1:0.64536)n0;

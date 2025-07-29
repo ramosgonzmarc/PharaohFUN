@@ -1,0 +1,1 @@
+(((asterochloris_glomerata_Astgl_g1959:0.36507,chlorella_sorokiniana_Chlso_g7992:0.48947)n2:0.8847,(coccomyxa_subellipsoidea_Cosub_58123:0.1016,coccomyxa_subellipsoidea_Cosub_58126:0.07242)n3:0.58893)n1:0.27028,(tetraselmis_striata_TSEL_035374:0.03686,tetraselmis_striata_TSEL_044147:0.01921)n4:0.27028)n0;

@@ -1,0 +1,1 @@
+(brassica_rapa_Brara.C02078:0.59487,(cinnamomum_kanehirae_CKAN_00063800:0.48014,(cinnamomum_kanehirae_CKAN_00063600:0.40275,cinnamomum_kanehirae_CKAN_00063700:0.34732)n2:0.19431)n1:0.59487)n0;

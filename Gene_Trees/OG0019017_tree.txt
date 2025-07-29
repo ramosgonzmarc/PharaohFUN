@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s0045.g013202:0.447185,(picea_abies_Pab_72139g0010:0.60226,(taxus_chinensis_KI387_028309:0.18914,(abies_alba_AALBA5B011486:0.1134,abies_alba_AALBA5B467970:0.07688)n3:0.91961)n2:0.11839)n1:0.447185)n0;

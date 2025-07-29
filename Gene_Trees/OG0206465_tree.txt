@@ -1,0 +1,1 @@
+((poncirus_trifoliata_Ptrif.0005s2416:0.05601,poncirus_trifoliata_Ptrif.0005s2415:0.03747)n1:0.535825,(gossypium_raimondii_Gorai.009G287200:0.00777,(gossypium_hirsutum_Gohir.A05G271900:0.00054,gossypium_hirsutum_Gohir.D05G274100:0.000495)n3:5.5e-05)n2:0.06438)n0;

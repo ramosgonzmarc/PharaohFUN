@@ -1,0 +1,1 @@
+((schrenkiella_parvula_Scpar5g12640:0.27239,thlaspi_arvense_TaMN106.2G260400:0.22487)n1:0.56839,((miscanthus_sinensis_MisinT285900:0.04389,miscanthus_sinensis_MisinT285800:0.0174)n3:0.4495,(zea_mays_Zm00001d042828:0.61004,(sorghum_bicolor_Sobic.002G170740:0.33132,setaria_italica_Seita.J024000:0.3914)n5:0.12225)n4:0.00363)n2:0.56839)n0;

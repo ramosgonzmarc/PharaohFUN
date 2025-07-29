@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_14570A:0.352405,(cinnamomum_kanehirae_CKAN_01552100:0.29703,(boechera_stricta_Bostr.2128s0157:0.47241,(citrus_sinensis_Cisin.048246:0.00054,citrus_sinensis_Cisin.042043:0.03172)n3:0.45617)n2:0.10127)n1:0.352405)n0;

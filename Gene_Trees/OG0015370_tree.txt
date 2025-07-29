@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.C00679:0.27283,eucalyptus_grandis_Eucgr.L03136:0.45225)n1:0.408895,(picea_abies_Pab_10376141g0030:0.58861,(abies_alba_AALBA5B409195:0.41879,(abies_alba_AALBA5B1027830:0.03452,(abies_alba_AALBA5B402333:0.03169,abies_alba_AALBA5B1150470:0.03926)n5:0.02814)n4:0.245997)n3:0.027333)n2:0.11048)n0;

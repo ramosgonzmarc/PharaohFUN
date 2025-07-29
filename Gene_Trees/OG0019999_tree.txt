@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_30794:0.34295,taxus_chinensis_KI387_027213:0.89302)n1:0.420975,(brachypodium_distachyon_Bradi2g26435:0.10654,(oryza_sativa_Os02g10170:0.61552,(miscanthus_sinensis_Misin15G037800:0.4004,miscanthus_sinensis_Misin19G152300:0.24134)n4:0.12599)n3:0.37122)n2:0.420975)n0;

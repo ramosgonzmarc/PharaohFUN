@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g27142:0.60386,(carya_illinoinensis_Caril.10G144000:0.49298,(malus_domestica_MD09G1143100:0.12906,phaseolus_acutifolius_Phacu.002G170800:0.72595)n2:0.12483)n1:0.60386)n0;

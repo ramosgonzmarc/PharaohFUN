@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S2G019300:0.629885,((marchantia_polymorpha_Mp6g06500:0.01224,marchantia_paleacea_Mapa_017351:0.02166)n2:0.00054,((riccia_fluitans_R1flu_003731:0.03588,riccia_fluitans_R1flu_003732:0.22886)n4:0.05369,(riccia_sorocarpa_Risor.KAL3690650:0.40722,riccia_sorocarpa_Risor.KAL3690649:0.164691)n5:0.018299)n3:0.03858)n1:0.629885)n0;

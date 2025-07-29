@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA50G0452:0.43361,(thlaspi_arvense_TaMN106.6G412500:1.04464,(thuja_plicata_Thupl.29377659s0015:0.152,sequoiadendron_giganteum_SEGI_20558:0.21569)n2:0.95021)n1:0.43361)n0;

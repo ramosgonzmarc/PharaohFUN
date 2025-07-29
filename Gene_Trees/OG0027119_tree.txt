@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_YBGH74:0.37595,(marchantia_paleacea_Mapa_010944:0.44,(physcomitrium_patens_Pp6c16_12500V6:0.13438,(physcomitrium_patens_Pp6c5_4200V6:0.17284,physcomitrium_patens_Pp6c6_12270V6:0.0772)n3:0.11974)n2:0.28104)n1:0.37595)n0;

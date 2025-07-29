@@ -1,0 +1,1 @@
+((carya_illinoinensis_Caril.09G147900:0.12718,corylus_avellana_Corav.g7836:0.11716)n1:0.129325,(manihot_esculenta_Manes.16G054300:0.24139,(populus_trichocarpa_Potri.003G149300:0.09925,populus_trichocarpa_Potri.001G081100:0.09952)n3:0.12989)n2:0.129325)n0;

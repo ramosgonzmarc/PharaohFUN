@@ -1,0 +1,1 @@
+((saponaria_officinalis_Sapof.O014700:0.5523,saponaria_officinalis_Sapof.O173700:0.00053)n1:0.502745,(lactuca_sativa_Lsat_gn_0_24541:0.03445,lactuca_sativa_Lsat_gn_5_44680:0.00055)n2:0.502745)n0;

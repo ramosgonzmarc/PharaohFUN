@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum0284s0014:0.47736,(cyanidioschyzon_merolae_CmerSOOS_G836:0.53993,galdieria_sulphuraria_GsulpAzora_G1655:0.50354)n2:0.41994)n1:0.24214,(dunaliella_salina_Dusal.0036s00029:0.56653,(haematococcus_lacustris_QJQ45_014797:0.23451,haematococcus_lacustris_QJQ45_028701:0.17789)n4:0.41373)n3:0.24214)n0;

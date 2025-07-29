@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c2_490V6:0.274725,((taxus_chinensis_KI387_044369:0.07703,sequoiadendron_giganteum_SEGI_38680:0.42785)n2:0.70437,(olea_europaea_Oeu048847:0.09187,olea_europaea_Oeu051257:0.0673)n3:0.72258)n1:0.274725)n0;

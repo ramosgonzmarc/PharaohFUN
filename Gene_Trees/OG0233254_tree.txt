@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_022413:0.25021,(volvox_carteri_Vocar.0008s0048:0.03031,(gonium_pectorale_Gopec.07464:0.19399,(tetrabaena_socialis_Tesoc.PNH07408:0.05072,tetrabaena_socialis_Tesoc.PNH05710:0.26751)n3:0.0356)n2:0.07859)n1:0.25021)n0;

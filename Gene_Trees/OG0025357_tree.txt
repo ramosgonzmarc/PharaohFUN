@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3280580:0.26254,(mesostigma_viride296_Mevir.Mv03301:0.84411,(riccia_sorocarpa_Risor.KAL3676587:0.45723,(riccia_fluitans_R1flu_004167:0.1043,riccia_fluitans_R1flu_005518:0.18264)n3:0.10255)n2:0.99817)n1:0.26254)n0;

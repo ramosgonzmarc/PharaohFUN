@@ -1,0 +1,1 @@
+(arabidopsis_lyrata_Arlyr.AL161U10020:0.948865,(oryza_sativa_Os04g48710:0.33831,((setaria_italica_Seita.4G241200:0.70354,miscanthus_sinensis_Misin09G191900:1.21834)n3:0.2655,sorghum_bicolor_Sobic.004G033500:0.45244)n2:0.20376)n1:0.948865)n0;

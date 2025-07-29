@@ -1,0 +1,1 @@
+(picocystis_sp_Picml_g2325:0.014225,(picocystis_sp_Picml_g4751:0.05483,((picocystis_sp_Picml_g3244:0,picocystis_sp_Picml_g481:0,picocystis_sp_Picml_g1239:0,picocystis_sp_Picml_g1322:0)n3:0.00578,picocystis_sp_Picml_g482:0.02479)n2:0.05197)n1:0.014225)n0;

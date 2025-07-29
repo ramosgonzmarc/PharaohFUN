@@ -1,0 +1,1 @@
+(auxenochlorella_protothecoides_APUTEX2500005363:0.268325,((auxenochlorella_protothecoides_APUTEX2500001830:0.09961,auxenochlorella_protothecoides_APUTEX2500002741:0.13291)n2:0.37394,(auxenochlorella_protothecoides_APUTEX2500001062:0.80656,auxenochlorella_protothecoides_APUTEX2500003678:0.90936)n3:0.39596)n1:0.268325)n0;

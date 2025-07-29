@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.10040s0116:0.086705,(sisymbrium_irio_Siiris2301g00200:1.1792,(brassica_rapa_Brara.B03592:0.20268,brassica_rapa_Brara.B03591:0.00054)n2:0.02286)n1:0.086705)n0;

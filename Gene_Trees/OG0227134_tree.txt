@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.14673:0.103745,(funaria_hygrometrica_Fuhyg.00464:0.37994,(funaria_hygrometrica_Fuhyg.00457:0.3374,(funaria_hygrometrica_Fuhyg.18237:0.19024,funaria_hygrometrica_Fuhyg.18750:0.29811)n3:0.05123)n2:0.07386)n1:0.103745)n0;

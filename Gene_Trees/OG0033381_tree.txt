@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g6117:0.83685,pedinophyceae_sp_Pesp.9464779:1.17996)n1:0.27587,(micromonas_pusilla_Mpus_41353:0.63679,(micromonas_commoda_Micom.053999:0.36479,(micromonas_commoda_Micom.099194:0.25486,micromonas_commoda_Micom.057575:0.46693)n4:0.087795)n3:0.009755)n2:0.18091)n0;

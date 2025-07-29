@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.2G053000:0.668385,((arachis_hypogaea_arahy_3DH759:0.15992,arachis_hypogaea_arahy_K9SZNW:0.15465)n2:0.20313,(arachis_hypogaea_arahy_2FC6Y8:0.48711,arachis_hypogaea_arahy_HX9N56:0.72161)n3:0.15033)n1:0.668385)n0;

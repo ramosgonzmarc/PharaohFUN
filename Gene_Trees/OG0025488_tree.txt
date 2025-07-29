@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0654s00003:0.251,desmodesmus_armatus_Desar.319116:1.1559)n1:0.397345,(tetraselmis_striata_TSEL_016500:0.01754,tetraselmis_striata_TSEL_000381:0.00053)n2:0.397345)n0;

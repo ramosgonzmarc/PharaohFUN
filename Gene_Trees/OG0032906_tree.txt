@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH42461:0.675045,(chromochloris_zofingiensis_Cz15g12090:0.85141,(volvox_carteri_Vocar.0001s1471:0.52246,(gonium_pectorale_Gopec.05217:0.429,(chlamydomonas_reinhardtii_Cre14.g618550_4532:0.09779,chlamydomonas_incerta_Chincg07961:0.03964)n4:0.37405)n3:0.16881)n2:0.39601)n1:0.675045)n0;

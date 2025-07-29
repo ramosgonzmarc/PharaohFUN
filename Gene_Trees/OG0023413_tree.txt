@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr19g2095:0,isoetes_sinensis_IsiChr19g2097:0)n1:0.651935,(amborella_trichopoda_AmTr00016g92:0.36747,arachis_hypogaea_arahy_9X7J17:0.68292)n2:0.651935)n0;

@@ -1,0 +1,1 @@
+(picea_abies_Pab_42373g0010:0.3161,((tetrabaena_socialis_Tesoc.PNH09113:0.45563,volvox_carteri_Vocar.0025s0097:0.32742)n2:0.38317,(chlamydomonas_reinhardtii_Cre04.g219500_4532:0.19956,chlamydomonas_incerta_Chincg02378:0.17095)n3:0.21022)n1:0.3161)n0;

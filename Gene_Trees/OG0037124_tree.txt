@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle2c06643:0.109495,((glycine_max_Glyma.09G154166:0.40631,asparagus_officinalis_AsparagusV1_09.1551:1.31018)n2:0.37091,(huperzia_asiatica_HaB15G0562:0.15259,(huperzia_asiatica_HaA33G0235:0.05499,huperzia_asiatica_HaB68G1172:0.06233)n4:0.13067)n3:0.58033)n1:0.109495)n0;

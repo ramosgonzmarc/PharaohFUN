@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AnagrOXF.S5G055000:0.13223,anthoceros_agrestis_AnagrOXF.S5G055300:0.79498)n1:0.325795,(isoetes_sinensis_IsiChr13g4513:0.00055,isoetes_sinensis_IsiChr13g4515:0.00831)n2:0.325795)n0;

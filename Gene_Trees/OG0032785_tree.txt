@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre03.g800332_4532:0.31446,chlamydomonas_reinhardtii_Cre06.g253000_4532:0.19148)n1:0.008645,(chlamydomonas_incerta_Chincg12539:0.01441,chlamydomonas_incerta_Chincg06287:0.01481)n2:0.008645)n0;

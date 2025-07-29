@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g21604:0.463765,(raphidocelis_subcapitata_Rsub_10091:0.42119,((monoraphidium_minutum_Momin.456067:0.25918,monoraphidium_minutum_Momin.524937:0.44732)n3:0.4162,monoraphidium_minutum_Momin.473918:0.288828)n2:0.032092)n1:0.052)n0;

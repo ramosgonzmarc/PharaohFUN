@@ -1,0 +1,1 @@
+((cyanidioschyzon_merolae_CmerSOOS_G2070:0.57778,gracilariopsis_chorda_PXF46483:1.063)n1:0.161315,(micromonas_pusilla_Mpus_50547:0.56206,(cymbomonas_tetramitiformis_KAK3254125:0.00055,(cymbomonas_tetramitiformis_KAK3254124:0.03003,cymbomonas_tetramitiformis_KAK3254194:0.00055)n4:0.03861)n3:0.73718)n2:0.161315)n0;

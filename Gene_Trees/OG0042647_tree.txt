@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c04857:0.063855,(trifolium_pratense_Trpra.05702:1.20942,(selaginella_moellendorffii_Smoe_130540:0.57569,cicer_arietinum_Ca_07278:0.55002)n2:0.08997)n1:0.063855)n0;

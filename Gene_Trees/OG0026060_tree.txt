@@ -1,0 +1,1 @@
+((riccia_fluitans_R1flu_008301:1.09728,(riccia_sorocarpa_Risor.KAL3687817:0.00996,riccia_sorocarpa_Risor.KAL3687823:0.00054)n2:0.67927)n1:0.07897,(isoetes_sinensis_IsiChr22g4257:0.88059,isoetes_sinensis_IsiChr9g529:0.33455)n3:0.07897)n0;

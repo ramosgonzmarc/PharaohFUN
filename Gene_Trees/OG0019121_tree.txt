@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_9_92320:0.00701,lactuca_sativa_Lsat_gn_5_30340:0.10765)n1:0.684105,(abies_alba_AALBA5B517549:0.00053,(abies_alba_AALBA5B822205:0.00055,(abies_alba_AALBA5B1029467:0.08671,abies_alba_AALBA5B1122271:0.10889)n4:0.02212)n3:0.31934)n2:0.684105)n0;

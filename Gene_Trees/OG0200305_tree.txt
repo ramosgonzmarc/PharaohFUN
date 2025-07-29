@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_201s0011g04100:0.229675,((miscanthus_sinensis_Misin06G346000:0.0482,miscanthus_sinensis_Misin04G326400:0.06738)n2:0.12277,(ananas_comosus_Aco026315:0.01298,(ananas_comosus_Aco028679:0,ananas_comosus_Aco022897:0,ananas_comosus_Aco019132:0)n4:0.00055)n3:0.02438)n1:0.229675)n0;

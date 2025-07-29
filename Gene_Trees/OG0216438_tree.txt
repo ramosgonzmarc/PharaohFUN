@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_7_84341:1.14601,saponaria_officinalis_Sapof.12G225000:0.20231)n1:0.12469,(chenopodium_quinoa_AUR62041544:0.1225,vaccinium_darrowii_Vadar_g36025:0.79164)n2:0.12469)n0;

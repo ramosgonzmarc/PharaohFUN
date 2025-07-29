@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AnagrOXF.S1G278600:0.2242,(anthoceros_agrestis_AnagrOXF.S1G278700:0.17027,(anthoceros_agrestis_AnagrOXF.S1G278800:0.35755,anthoceros_agrestis_AnagrOXF.S3G232800:0.00055)n2:0.00055)n1:0.2242)n0;

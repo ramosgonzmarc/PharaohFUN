@@ -1,0 +1,1 @@
+(phaseolus_acutifolius_Phacu.001G194500:0.468705,(lupinus_albus_Lalb_Chr02g0152631:0.12619,(lupinus_albus_Lalb_Chr06g0170591:0.2117,lupinus_albus_Lalb_Chr21g0313991:0.16274)n2:0.11542)n1:0.468705)n0;

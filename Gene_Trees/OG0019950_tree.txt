@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_XM_007507974:0.456115,(picochlorum_soloecismus_NSC_00790:0.94756,(myrmecia_bisecta_Mybis.KAK9814226:0.57633,(coccomyxa_subellipsoidea_Cosub_55028:0.44362,(coccomyxa_subellipsoidea_Cosub_56271:0.16503,coccomyxa_subellipsoidea_Cosub_56272:0.17176)n4:0.28755)n3:0.34487)n2:0.28474)n1:0.456115)n0;

@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0095s0001:0.38276,(cymbomonas_tetramitiformis_KAK3283869:1.74912,(coccomyxa_subellipsoidea_Cosub_58564:0.4731,(myrmecia_bisecta_Mybis.KAK9817813:0.28746,(chromochloris_zofingiensis_Cz11g28160:0.46383,(chromochloris_zofingiensis_Cz09g06110:0.60303,chromochloris_zofingiensis_Cz09g06120:0.291348)n5:0.0291348)n4:0.0032372)n3:0.04114)n2:0.20964)n1:0.38276)n0;

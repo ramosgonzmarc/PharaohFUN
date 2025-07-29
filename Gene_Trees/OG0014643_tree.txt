@@ -1,0 +1,1 @@
+(ostreococcus_lucimarinus_Oluc_93753:0.61932,(chara_braunii_CBR_g81026:0.47555,((chara_braunii_CBR_g12911:0.03782,chara_braunii_CBR_g12912:0.03879)n3:0.0321,(chara_braunii_CBR_g12907:0.05902,(chara_braunii_CBR_g12886:0.05837,(chara_braunii_CBR_g12876:0.02715,chara_braunii_CBR_g12889:0.03159)n6:0.00949)n5:0.02206)n4:0.03965)n2:0.29541)n1:0.61932)n0;

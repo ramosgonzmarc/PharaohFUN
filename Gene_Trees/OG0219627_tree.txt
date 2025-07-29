@@ -1,0 +1,1 @@
+(zea_mays_Zm00001d029522:0.44464,(oropetium_thomaeum_Oropetium_20150105_02014A:0.08186,(oropetium_thomaeum_Oropetium_20150105_16211A:0.09593,oropetium_thomaeum_Oropetium_20150105_14385A:0.2874)n2:0.67617)n1:0.44464)n0;

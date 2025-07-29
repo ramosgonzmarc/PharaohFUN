@@ -1,0 +1,1 @@
+(malus_domestica_MD06G1163500:0.185045,(coffea_arabica_Coara.040598:0.30581,(solanum_lycopersicum_Solyc03g026375:0.12246,solanum_lycopersicum_Solyc03g150149:0.40098)n2:0.04757)n1:0.185045)n0;

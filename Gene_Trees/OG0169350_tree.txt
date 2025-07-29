@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0192s0014:0.39211,(ananas_comosus_Aco030851:0.42879,(eleusine_coracana_Elcor.2AG0104310:0.00054,eleusine_coracana_Elcor.2BG0157670:0.0234)n2:0.13684)n1:0.39211)n0;

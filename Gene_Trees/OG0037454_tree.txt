@@ -1,0 +1,1 @@
+((pleurozium_schreberi_Plsch.00335:0,pleurozium_schreberi_Plsch.00336:0)n1:0.157635,(coffea_arabica_Coara.038400:0.499,(brassica_rapa_Brara.J01309:1.00539,(isoetes_sinensis_IsiChr7g4194:0.07034,isoetes_sinensis_IsiChr6g1225:0.03453)n4:0.29051)n3:0.20458)n2:0.157635)n0;

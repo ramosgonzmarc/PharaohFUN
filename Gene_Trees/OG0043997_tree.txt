@@ -1,0 +1,1 @@
+((monoraphidium_minutum_Momin.477437:0.5039,monoraphidium_minutum_Momin.517764:0.73739)n1:0.574045,(tetraselmis_striata_TSEL_022057:0.01986,tetraselmis_striata_TSEL_031941:0.03538)n2:0.574045)n0;

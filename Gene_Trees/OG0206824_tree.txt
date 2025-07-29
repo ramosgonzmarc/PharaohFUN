@@ -1,0 +1,1 @@
+(thlaspi_arvense_TaMN106.5G202600:0.061995,(thlaspi_arvense_TaMN106.5G224200:0.28253,(thlaspi_arvense_TaMN106.1G185500:0.20145,thlaspi_arvense_TaMN106.3G116000:0.71733)n2:0.24321)n1:0.061995)n0;

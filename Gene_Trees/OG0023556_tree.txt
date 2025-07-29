@@ -1,0 +1,1 @@
+((malus_domestica_MD02G1240600:0.88863,taxus_chinensis_KI387_044571:0.48236)n1:0.21746,(anthoceros_agrestis_AnagrOXF.S4G055900:0.30238,(anthoceros_fusiformis_Anfus.S3G304000:0.08545,(anthoceros_fusiformis_Anfus.S1G301300:0.24412,anthoceros_fusiformis_Anfus.S1G301600:0.02361)n4:0.103104)n3:0.011456)n2:0.18549)n0;

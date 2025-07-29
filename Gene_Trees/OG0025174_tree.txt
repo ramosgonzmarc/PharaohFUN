@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3251876:0.471875,(gonium_pectorale_Gopec.00938:0.63879,(tetraselmis_striata_TSEL_023024:0.01831,tetraselmis_striata_TSEL_031332:0.01546)n2:0.57024)n1:0.471875)n0;

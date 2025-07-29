@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3265428:0.70882,chloropicon_primus_Chlpr_g5849:1.40258)n1:0.00543,(klebsormidium_nitens_kfl00193_0050:0.68941,huperzia_asiatica_HaScaf1877:1.13156)n2:0.00543)n0;

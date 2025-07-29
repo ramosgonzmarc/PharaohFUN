@@ -1,0 +1,1 @@
+((marchantia_paleacea_Mapa_016567:0.0298,marchantia_paleacea_Mapa_010880:0.01028)n1:0.53854,(phaeoceros_sp_Phsp.C1G189900:0.40739,((anthoceros_agrestis_AnagrOXF.S2G313600:0,anthoceros_punctatus_Anpun.S4G099600:0)n4:0.03898,anthoceros_fusiformis_Anfus.S4G093800:0.0323)n3:0.56991)n2:0.53854)n0;

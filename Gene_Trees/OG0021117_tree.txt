@@ -1,0 +1,1 @@
+(((lens_culinaris_Lecul.2g082970:0.3319,trifolium_pratense_Trpra.17517:0.10306)n2:0.65832,(glycine_max_Glyma.20G230851:0.62955,citrus_sinensis_Cisin.046459:0.45307)n3:0.3595)n1:0.18219,(vitis_vinifera_VIT_207s0104g00140:0.00055,(vitis_vinifera_VIT_216s0013g01380:0.00897,vitis_vinifera_VIT_200s0285g00050:0.00055)n5:0.02372)n4:0.18219)n0;

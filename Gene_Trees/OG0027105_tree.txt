@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S2G254300:0.42081,(physcomitrium_patens_Pp6c25_2900V6:0.19726,((physcomitrium_patens_Pp6c23_5240V6:0.519,(ceratodon_purpureus_CepurR40.VG050900:0.27176,ceratodon_purpureus_CepurR40.1G100600:0.72411)n4:0.25965)n3:0.55944,(ceratodon_purpureus_CepurR40.8G138200:0.90985,physcomitrium_patens_Pp6c6_11700V6:0.000486)n5:5.4e-05)n2:0.00195)n1:0.42081)n0;

@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_037758:0.30489,(medicago_truncatula_Medtr1313s0020:0.18746,medicago_truncatula_Medtr1313s0010:0.47223)n2:0.05247)n1:0.15551,(cymbomonas_tetramitiformis_KAK3252124:0,cymbomonas_tetramitiformis_KAK3264824:0)n3:0.74716)n0;

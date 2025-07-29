@@ -1,0 +1,1 @@
+((tetrabaena_socialis_Tesoc.PNH10097:0.38062,((haematococcus_lacustris_QJQ45_025857:0.82413,volvox_carteri_Vocar.0008s0196:0.46305)n3:0.06196,(haematococcus_lacustris_QJQ45_015716:0.00054,haematococcus_lacustris_QJQ45_027763:0.00992)n4:0.744264)n2:0.082696)n1:0.043565,chlamydomonas_incerta_Chincg08969:0.4075)n0;

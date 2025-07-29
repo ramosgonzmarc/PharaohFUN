@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene39947:0.27376,(oropetium_thomaeum_Oropetium_20150105_08599A:0.36355,(gnetum_montanum_TnS000547295t02:0.08245,gnetum_montanum_TnS000633793t02:0.10229)n2:0.42932)n1:0.27376)n0;

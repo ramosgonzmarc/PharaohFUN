@@ -1,0 +1,1 @@
+((saponaria_officinalis_Sapof.13G037400:0.28515,saponaria_officinalis_Sapof.06G242400:0.11779)n1:0.3472,(glycine_max_Glyma.18G085800:0.03479,(phaseolus_acutifolius_Phacu.006G062500:0.09323,vigna_unguiculata_Vigun06g056300:0.0888)n3:0.17772)n2:0.3472)n0;

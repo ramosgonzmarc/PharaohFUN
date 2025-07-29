@@ -1,0 +1,1 @@
+(vigna_unguiculata_Vigun01g198400:0.2786,(cicer_arietinum_Ca_01016:0.31596,(medicago_truncatula_Medtr7g109740:0.22428,(lotus_japonicus_Lj1g0007515:0.06371,lotus_japonicus_LjContig00310g0019232:0.08154)n3:0.16569)n2:0.04212)n1:0.2786)n0;

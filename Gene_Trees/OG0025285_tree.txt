@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9465288:0.359935,((cymbomonas_tetramitiformis_KAK3265250:0.54004,(tetraselmis_striata_TSEL_027364:0.84152,tetraselmis_striata_TSEL_032832:0.408987)n3:0.045443)n2:0.17616,ostreococcus_lucimarinus_Oluc_18911:1.03498)n1:0.359935)n0;

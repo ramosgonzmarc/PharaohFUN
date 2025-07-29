@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene32647:0.180545,(quercus_rubra_Qurub.M124600:0.59814,(medicago_truncatula_Medtr3g022740:0.32367,(thlaspi_arvense_TaMN106.1G169300:0.0324,thlaspi_arvense_TaMN106.7G329100:0.06416)n3:0.23614)n2:0.16535)n1:0.180545)n0;

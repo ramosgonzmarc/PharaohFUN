@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29381925s0011:0.186475,(prunus_persica_Prupe.6G227200:0.9293,(vitis_vinifera_VIT_203s0063g01600:0.08984,corymbia_citriodora_Cocit.E2208:0.6007)n2:0.42386)n1:0.186475)n0;

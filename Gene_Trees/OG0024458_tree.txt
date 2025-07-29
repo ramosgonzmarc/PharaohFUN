@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.2338197:0.22123,(chlorella_sorokiniana_Chlso_g105:0.37012,(bryopsis_sp_Bsp_GMH45775:0.45057,(chromochloris_zofingiensis_Cz06g28120:0.33517,(raphidocelis_subcapitata_Rsub_01100:0.19106,monoraphidium_minutum_Momin.519546:0.24424)n4:0.30921)n3:0.05449)n2:0.07353)n1:0.22123)n0;

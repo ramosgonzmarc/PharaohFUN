@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_6g32461:0.54486,fragaria_vesca_FvH4_5g26980:0.36253)n1:0.497665,(linum_usitatissimum_Lus10019167:1.09101,(linum_usitatissimum_Lus10035698:0.48037,(linum_usitatissimum_Lus10003695:0.26921,(linum_usitatissimum_Lus10034430:0.65744,linum_usitatissimum_Lus10028940:0.43902)n5:0.13686)n4:0.37695)n3:0.27114)n2:0.497665)n0;

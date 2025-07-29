@@ -1,0 +1,1 @@
+((asterochloris_glomerata_Astgl_g8482:1.03836,dunaliella_salina_Dusal.1014s00002:0.58212)n1:0.11795,((isoetes_sinensis_IsiChr11g3366:0.01138,isoetes_sinensis_IsiChr12g3229:0.00055)n3:0.29622,(riccia_fluitans_R1flu_015741:0.36612,(ceratodon_purpureus_CepurR40.2G087500:0.11935,pleurozium_schreberi_Plsch.20730:0.16345)n5:0.34239)n4:0.19725)n2:0.11795)n0;

@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.19G033000:0.290545,(fragaria_vesca_FvH4_4g19290:0.738,(gossypium_hirsutum_Gohir.A01G034200:0.80937,linum_usitatissimum_Lus10016853:0.51029)n2:0.35129)n1:0.290545)n0;

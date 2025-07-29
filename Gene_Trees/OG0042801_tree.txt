@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle2c00189:0.74851,(solanum_lycopersicum_Solyc01g111470:0.16991,(coffea_arabica_Coara.073370:0.00445,coffea_arabica_Coara.075273:0.0098)n2:0.31449)n1:0.74851)n0;

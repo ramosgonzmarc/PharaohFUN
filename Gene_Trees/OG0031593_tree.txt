@@ -1,0 +1,1 @@
+(ananas_comosus_Aco026837:0.246785,(lotus_japonicus_LjContig00315g0007283:0.40275,(capsella_grandiflora_Cagra.24523s0003:0.00055,((boechera_stricta_Bostr.1025s0002:0.08891,arabidopsis_lyrata_Arlyr.AL3G44550:0.00055)n4:0.00829,(arabidopsis_thaliana_AT2G07678:0.00055,arabidopsis_thaliana_ATMG00920:0.00421)n5:0.00966)n3:0.00533)n2:1.23086)n1:0.246785)n0;

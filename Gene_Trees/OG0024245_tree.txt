@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_RMH3VT:0.03301,arachis_hypogaea_arahy_07D3V4:0.12818)n1:0.400135,(chara_braunii_CBR_g28634:0.00055,(chara_braunii_CBR_g37360:0.03371,chara_braunii_CBR_g411:0.10349)n3:0.10288)n2:0.400135)n0;

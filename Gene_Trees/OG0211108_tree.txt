@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr7g022620:1.02471,quercus_rubra_Qurub.02G375000:1.38591)n1:0.12118,(populus_trichocarpa_Potri.005G154050:0.40355,(populus_trichocarpa_Potri.006G139150:0.52846,populus_trichocarpa_Potri.006G162650:0.62364)n3:0.13392)n2:0.12118)n0;

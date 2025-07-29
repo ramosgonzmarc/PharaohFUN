@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000934523t01:0.601975,((isoetes_sinensis_IsiChr22g4712:0.00055,isoetes_sinensis_IsiChr21g4338:0.01722)n2:0.4121,(isoetes_sinensis_IsiChr22g4745:0.00054,isoetes_sinensis_IsiChr21g4355:0.00868)n3:0.46747)n1:0.601975)n0;

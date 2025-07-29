@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9808785:0.392395,(alsophila_spinulosa_Aspi01Gene22785:0.28555,(ceratopteris_richardii_Ceric.33G012800:0.38983,adiantum_capillus_Adc29414:0.17177)n2:0.16074)n1:0.392395)n0;

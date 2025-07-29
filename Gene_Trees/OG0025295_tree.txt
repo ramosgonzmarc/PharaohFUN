@@ -1,0 +1,1 @@
+(micromonas_commoda_Micom.058051:0.624895,(cymbomonas_tetramitiformis_KAK3289220:0.38517,(cymbomonas_tetramitiformis_KAK3266197:0.00055,cymbomonas_tetramitiformis_KAK3266198:0.00055)n2:0.55112)n1:0.624895)n0;

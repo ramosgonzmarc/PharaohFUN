@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.03576:0.31769,gonium_pectorale_Gopec.16096:0.44714)n1:0.17908,(alsophila_spinulosa_Aspi01Gene23136:0.30103,(theobroma_cacao_Thecc1EG017652:0.67918,(sequoia_sempervirens_SESE_097504:0.33665,sisymbrium_irio_Siiris1937g00010:0.39081)n4:0.09805)n3:0.10339)n2:0.17908)n0;

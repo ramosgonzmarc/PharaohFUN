@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH44457:0.332325,(cymbomonas_tetramitiformis_KAK3233914:0.95393,(cymbomonas_tetramitiformis_KAK3236775:0.19984,(cymbomonas_tetramitiformis_KAK3263297:0.00055,(cymbomonas_tetramitiformis_KAK3254824:0.0034,cymbomonas_tetramitiformis_KAK3263388:0.02283)n4:0.01609)n3:0.0981)n2:0.64287)n1:0.332325)n0;

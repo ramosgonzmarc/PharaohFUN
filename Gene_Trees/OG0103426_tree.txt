@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3281847:0.450875,(ostreococcus_mediterraneus_Ostme08g01090:0.56586,(ostreococcus_mediterraneus_Ostme09g00330:0.48165,ostreococcus_mediterraneus_Ostme14g00140:0.34613)n2:0.24993)n1:0.450875)n0;

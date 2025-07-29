@@ -1,0 +1,1 @@
+((oropetium_thomaeum_Oropetium_20150105_27310A:0.76192,setaria_italica_Seita.5G292900:0.73865)n1:0.272445,(brachypodium_distachyon_Bradi1g65015:0.53727,(triticum_aestivum_TraesCS3A03G0641300:0.00908,triticum_aestivum_TraesCS3B03G0720800:0.03259)n3:0.6175)n2:0.272445)n0;

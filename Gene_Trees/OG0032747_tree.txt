@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g50039:0.758755,(riccia_fluitans_R1flu_015797:0.07231,(riccia_sorocarpa_Risor.KAL3676250:0.18271,riccia_sorocarpa_Risor.KAL3689016:0.113931)n2:0.012659)n1:0.10434)n0;

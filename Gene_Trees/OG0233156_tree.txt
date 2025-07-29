@@ -1,0 +1,1 @@
+((haematococcus_lacustris_QJQ45_028727:0.06109,haematococcus_lacustris_QJQ45_028722:0.0537)n1:0.717475,(tetrabaena_socialis_Tesoc.PNH05748:0.8113,((tetrabaena_socialis_Tesoc.PNH01232:0.27573,gonium_pectorale_Gopec.00691:0.24745)n4:0.0935,(tetrabaena_socialis_Tesoc.PNH09352:0.34883,gonium_pectorale_Gopec.14773:0.761922)n5:0.084658)n3:0.07602)n2:0.717475)n0;

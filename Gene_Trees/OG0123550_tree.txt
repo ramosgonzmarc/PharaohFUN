@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr7g082780:0.52364,trifolium_pratense_Trpra.17114:0.44478)n1:0.34019,(glycine_max_Glyma.02G089650:0.13303,(phaseolus_acutifolius_Phacu.008G009200:0.08609,vigna_unguiculata_Vigun05g009500:0.08702)n3:0.08324)n2:0.34019)n0;

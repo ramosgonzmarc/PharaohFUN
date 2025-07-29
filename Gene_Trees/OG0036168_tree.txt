@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s0193.g025400:0.288865,(sequoiadendron_giganteum_SEGI_22310:0.44068,(eucalyptus_grandis_Eucgr.H04517:0.47057,corymbia_citriodora_Cocit.D0082:0.35151)n2:0.59462)n1:0.288865)n0;

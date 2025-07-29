@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH43844:0.642665,(alsophila_spinulosa_Aspi01Gene66976:0.00054,(lycopodium_clavatum_Lcl_0018566:0.69239,(gnetum_montanum_TnS000118905t05:0.88986,huperzia_asiatica_HaA54G0398:0.32539)n3:0.03693)n2:0.34137)n1:0.642665)n0;

@@ -1,0 +1,1 @@
+((carica_papaya_Capac.c00001g196:0.9172,eleusine_coracana_Elcor.6BG0491010:0.54049)n1:0.027815,((abies_alba_AALBA5B078698:0.07469,(picea_abies_Pab_290951g0010:0.53809,picea_abies_Pab_12702g0010:0.507114)n4:0.056346)n3:0.22075,ginkgo_biloba_Gb_30368:0.24145)n2:0.027815)n0;

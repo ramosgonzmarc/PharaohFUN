@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_36079:0.10937,ginkgo_biloba_Gb_36080:0.1937)n1:0.37361,(abies_alba_AALBA5B694725:0.65831,(picea_abies_Pab_1513g0010:0.07021,picea_abies_Pab_785288g0010:0.09044)n3:0.21193)n2:0.37361)n0;

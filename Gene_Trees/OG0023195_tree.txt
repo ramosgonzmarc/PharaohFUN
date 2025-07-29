@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.37389:0.33693,(hordeum_vulgare_Hvul_3HG0301260:0.80138,(sequoia_sempervirens_SESE_056779:0.55795,sequoia_sempervirens_SESE_116094:0.57216)n3:0.24272)n2:0.665)n1:0.181575,(alsophila_spinulosa_Aspi01Gene71839:0.01073,(alsophila_spinulosa_Aspi01Gene32521:0.06919,alsophila_spinulosa_Aspi01Gene51650:0.03676)n5:0.04378)n4:0.181575)n0;

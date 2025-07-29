@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr12g138:0.444415,(malus_domestica_MD16G1082500:0.3555,(welwitschia_mirabilis_Wmi_26515:0.18525,welwitschia_mirabilis_Wmi_21601:0.14218)n2:0.42377)n1:0.444415)n0;

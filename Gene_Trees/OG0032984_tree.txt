@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9822922:0.558295,((gonium_pectorale_Gopec.13000:0.38008,(volvox_carteri_Vocar.0001s0873:0.33397,(chlamydomonas_reinhardtii_Cre01.g030400_4532:0.12605,chlamydomonas_incerta_Chincg06591:0.12321)n4:0.24152)n3:0.06778)n2:0.20499,(dunaliella_salina_Dusal.0075s00012:0.75352,haematococcus_lacustris_QJQ45_004117:0.82179)n5:0.18374)n1:0.558295)n0;

@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF42991:0.290655,(micromonas_commoda_Micom.077613:0.46078,(tetraselmis_striata_TSEL_008118:0.72074,chloropicon_primus_Chlpr_g1156:0.2504)n2:0.14672)n1:0.290655)n0;

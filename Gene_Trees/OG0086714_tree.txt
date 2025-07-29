@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.418982:0.486015,(tetrabaena_socialis_Tesoc.PNH02428:0.21693,(chlamydomonas_reinhardtii_Cre12.g532327_4532:0.20197,volvox_carteri_Vocar.0017s0010:0.11916)n2:0.07028)n1:0.486015)n0;

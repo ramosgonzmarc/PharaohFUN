@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_5_132560:0.17509,((amaranthus_hypochondriacus_AH002005:0.08296,chenopodium_quinoa_AUR62011567:0.13828)n2:0.13678,(saponaria_officinalis_Sapof.11G126500:0.16176,saponaria_officinalis_Sapof.14G177700:0.151578)n3:0.016842)n1:0.03297)n0;

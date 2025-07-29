@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv21857:0.45523,(cymbomonas_tetramitiformis_KAK3247691:1.07975,(cymbomonas_tetramitiformis_KAK3266878:0.56059,(cymbomonas_tetramitiformis_KAK3234061:0.00055,cymbomonas_tetramitiformis_KAK3265156:0.01585)n3:0.76095)n2:0.30796)n1:0.45523)n0;

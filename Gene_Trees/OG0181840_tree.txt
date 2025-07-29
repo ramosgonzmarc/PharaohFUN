@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00119g009:0.650295,(solanum_lycopersicum_Solyc01g049820:0.06889,(solanum_tuberosum_Soltu.01G016030:0.02125,solanum_tuberosum_Soltu.01G012730:0.06996)n2:0.00055)n1:0.650295)n0;

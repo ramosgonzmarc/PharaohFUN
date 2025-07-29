@@ -1,0 +1,1 @@
+(lycopodium_clavatum_Lcl_0000816:0.282545,(huperzia_asiatica_HaB29G0412:0.02363,(huperzia_asiatica_HaA29G0202:0.08076,huperzia_asiatica_HaScaf0341:0.04203)n2:0.01542)n1:0.282545)n0;

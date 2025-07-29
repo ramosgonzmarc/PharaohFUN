@@ -1,0 +1,1 @@
+(ostreococcus_mediterraneus_Ostme15g02090:0.002125,(ostreococcus_lucimarinus_Oluc_30451:1.16788,(ostreococcus_tauri_ostta08g03940:0.00429,ostreococcus_tauri_ostta09g03370:0.000495)n2:5.5e-05)n1:0.00228)n0;

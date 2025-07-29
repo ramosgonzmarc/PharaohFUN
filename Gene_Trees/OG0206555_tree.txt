@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.1Z049328:0.44944,(brassica_oleracea_Bol005216:0.11255,(brassica_oleracea_Bol034899:0.84711,brassica_oleracea_Bol025621:0.30436)n2:0.13569)n1:0.44944)n0;

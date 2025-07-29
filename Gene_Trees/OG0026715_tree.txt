@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNH01588:0.59406,(oryza_sativa_Os02g29070:0.13874,(oryza_sativa_Os10g06930:0.39468,oryza_sativa_Os10g06770:0.22862)n2:0.03466)n1:0.59406)n0;

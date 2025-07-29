@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_205s0049g01450:0.152235,(solanum_lycopersicum_Solyc09g090385:0.02967,(solanum_tuberosum_Soltu.06G014510:0.43227,solanum_tuberosum_Soltu.09G027000:0.026406)n2:0.002934)n1:0.09264)n0;

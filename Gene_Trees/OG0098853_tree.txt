@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH006432:0.35537,(corymbia_citriodora_Cocit.L1588:0.00849,corymbia_citriodora_Cocit.J1700:0.00054)n2:0.38387)n1:0.20919,(cymbomonas_tetramitiformis_KAK3253743:0.35717,micromonas_commoda_Micom.064270:1.01419)n3:0.20919)n0;

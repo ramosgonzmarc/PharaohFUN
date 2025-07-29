@@ -1,0 +1,1 @@
+((ostreococcus_lucimarinus_Oluc_8154:0.10491,ostreococcus_mediterraneus_Ostme14g00100:0.38482)n1:0.47908,(tetraselmis_striata_TSEL_025661:0.00223,tetraselmis_striata_TSEL_011055:0.00908)n2:0.47908)n0;

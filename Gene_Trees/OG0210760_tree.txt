@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.09G018250:0.512495,(carya_illinoinensis_Caril.03G114200:0.39167,(quercus_rubra_Qurub.02G057300:0.54636,(quercus_rubra_Qurub.02G176500:0.32736,(quercus_rubra_Qurub.09G150800:0.15196,quercus_rubra_Qurub.04G112300:0.25541)n4:0.28115)n3:0.202059)n2:0.022451)n1:0.01405)n0;

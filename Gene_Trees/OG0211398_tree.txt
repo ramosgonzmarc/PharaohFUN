@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.2g008650:1.08965,lens_culinaris_Lecul.2g008660:0.17477)n1:0.102175,(phaseolus_acutifolius_Phacu.006G177500:0.0891,vigna_unguiculata_Vigun06g172000:0.06127)n2:0.102175)n0;

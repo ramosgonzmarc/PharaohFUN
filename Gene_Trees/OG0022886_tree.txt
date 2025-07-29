@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi4g12785:0.27558,((aegilops_tauschii_Atau_XP_020179104:0,aegilops_tauschii_Atau_XP_020179105:0)n2:0.01463,(triticum_aestivum_TraesCS1B03G0007200:0.29559,(triticum_aestivum_TraesCS3D03G1130100:0.01081,(triticum_aestivum_TraesCS3B03G1425200:0.02236,triticum_aestivum_TraesCS3B03G1428700:0.03125)n5:0.018369)n4:0.0018369)n3:0.0002041)n1:0.00214)n0;

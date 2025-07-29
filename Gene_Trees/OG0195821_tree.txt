@@ -1,0 +1,1 @@
+((asparagus_officinalis_AsparagusV1_05.3084:0.9178,medicago_truncatula_Medtr3g032950:0.72795)n1:0.13222,(thuja_plicata_Thupl.29377986s0008:0.32295,sequoiadendron_giganteum_SEGI_23379:0.5334)n2:0.13222)n0;

@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS5A03G0022900:0.49744,(olea_europaea_Oeu013214:0.11567,(corymbia_citriodora_Cocit.L3564:0.43077,(citrus_sinensis_Cisin.041389:0.39738,fragaria_vesca_FvH4_6g05061:0.26558)n3:0.08292)n2:0.50952)n1:0.49744)n0;

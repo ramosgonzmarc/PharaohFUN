@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.8BG0643660:0.133185,((panicum_hallii_Pahal.9G377400:0.15143,setaria_italica_Seita.8G096500:0.15054)n2:0.08829,(sorghum_bicolor_Sobic.008G065100:0.33552,(miscanthus_sinensis_Misin15G080500:0.27813,(miscanthus_sinensis_Misin15G080600:0.09165,miscanthus_sinensis_Misin15G080700:0.11243)n5:0.04349)n4:0.13501)n3:0.65196)n1:0.133185)n0;

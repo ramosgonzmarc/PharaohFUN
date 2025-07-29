@@ -1,0 +1,1 @@
+(capsella_grandiflora_Cagra.1696s0037:0.20235,(boechera_stricta_Bostr.7867s0477:0.14952,(boechera_stricta_Bostr.29044s0027:0.21902,boechera_stricta_Bostr.7867s0516:0.17503)n2:0.04991)n1:0.20235)n0;

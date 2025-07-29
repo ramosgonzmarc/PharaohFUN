@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_05942:0.64335,((tetrabaena_socialis_Tesoc.PNH01911:0.5619,gonium_pectorale_Gopec.03175:0.32082)n2:0.091,(volvox_carteri_Vocar.0011s0040:0.32012,(chlamydomonas_reinhardtii_Cre07.g351100_4532:0.09332,chlamydomonas_incerta_Chincg08632:0.08334)n4:0.31636)n3:0.07978)n1:0.64335)n0;

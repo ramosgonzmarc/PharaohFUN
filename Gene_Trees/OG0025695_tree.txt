@@ -1,0 +1,1 @@
+((ananas_comosus_Aco019698:0.58679,theobroma_cacao_Thecc1EG033409:0.92137)n1:0.261715,(ginkgo_biloba_Gb_38339:0.37833,(ginkgo_biloba_Gb_36964:0.09112,ginkgo_biloba_Gb_36090:0.05133)n3:0.7427)n2:0.261715)n0;

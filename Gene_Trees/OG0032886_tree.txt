@@ -1,0 +1,1 @@
+(auxenochlorella_protothecoides_APUTEX2500004380:0.55347,((raphidocelis_subcapitata_Rsub_06081:0.62219,(desmodesmus_armatus_Desar.371763:0.36983,scenedesmus_obliquus_Sobl_g11321:0.48762)n3:0.20836)n2:0.30664,(gonium_pectorale_Gopec.08045:0.41343,(chlamydomonas_reinhardtii_Cre16.g688950_4532:0.16077,chlamydomonas_incerta_Chincg04106:0.15176)n5:0.29632)n4:0.30671)n1:0.55347)n0;

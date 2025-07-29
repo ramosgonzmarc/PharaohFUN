@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_14950:0.29765,gnetum_montanum_TnS000824839t12:0.59331)n1:0.082085,(carica_papaya_Capac.c00057g029:0.50602,quercus_rubra_Qurub.11G192900:0.73189)n2:0.082085)n0;

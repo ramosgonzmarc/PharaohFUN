@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000109587t09:0.396195,(olea_europaea_Oeu045565:0.29431,(brassica_oleracea_Bol017200:0.9368,solanum_tuberosum_Soltu.02G034440:0.89295)n2:0.13615)n1:0.396195)n0;

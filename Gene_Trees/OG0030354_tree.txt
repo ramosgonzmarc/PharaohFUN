@@ -1,0 +1,1 @@
+((picea_abies_Pab_62162g0010:0.40201,(alsophila_spinulosa_Aspi01Gene19862:0.00054,alsophila_spinulosa_Aspi01Gene40831:0.192519)n2:0.021391)n1:0.23223,sequoia_sempervirens_SESE_046987:1.3202)n0;

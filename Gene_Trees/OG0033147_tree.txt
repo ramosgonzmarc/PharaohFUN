@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH37809:0.755485,((gonium_pectorale_Gopec.04418:0.24727,(chlamydomonas_reinhardtii_Cre36.g759747_4532:0.11059,chlamydomonas_incerta_Chincg02282:0.07306)n3:0.21978)n2:0.41992,(chromochloris_zofingiensis_Cz14g16100:0.63481,(desmodesmus_armatus_Desar.466828:0.30679,scenedesmus_obliquus_Sobl_g05801:0.42349)n5:0.31627)n4:0.39397)n1:0.755485)n0;

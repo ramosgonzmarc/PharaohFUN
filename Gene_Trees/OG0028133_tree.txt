@@ -1,0 +1,1 @@
+((zostera_marina_Zosma07g00610:0.80011,anthoceros_fusiformis_Anfus.S5G002600:0.5086)n1:0.356505,(tetraselmis_striata_TSEL_002196:0.2542,tetraselmis_striata_TSEL_038373:0.34768)n2:0.356505)n0;

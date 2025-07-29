@@ -1,0 +1,1 @@
+(cicer_arietinum_Ca_17406:0.000275,(cicer_arietinum_Ca_17407:0.033,(cicer_arietinum_Ca_17405:0.03341,(cicer_arietinum_Ca_17402:0.00055,(cicer_arietinum_Ca_22389:0.295,cicer_arietinum_Ca_17401:0.00903)n4:0.23136)n3:0.20069)n2:0.00054)n1:0.000275)n0;

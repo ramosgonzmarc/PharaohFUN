@@ -1,0 +1,1 @@
+(capsella_grandiflora_Cagra.8966s0001:0.335805,((malus_domestica_MD09G1030700:0.01632,malus_domestica_MD17G1032500:0.04117)n2:0.16256,(phaseolus_acutifolius_Phacu.005G182500:1.36277,(trifolium_pratense_Trpra.42048:0.15001,(lupinus_albus_Lalb_Chr02g0160421:0.14804,lupinus_albus_Lalb_Chr06g0175911:0.06499)n5:0.15613)n4:0.17417)n3:0.01611)n1:0.335805)n0;

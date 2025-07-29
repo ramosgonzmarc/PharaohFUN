@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_20633A:0.606475,(ginkgo_biloba_Gb_13952:0.19181,(picea_abies_Pab_569440g0010:0.29459,picea_abies_Pab_318389g0010:0.261252)n2:0.029028)n1:0.05867)n0;

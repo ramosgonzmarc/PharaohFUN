@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10019496:0.05031,(fragaria_vesca_FvH4_5g10171:0.71116,(medicago_truncatula_Medtr7g052370:0.19119,((medicago_truncatula_Medtr7g445860:0.08234,medicago_truncatula_Medtr7g052380:0.79465)n4:0.07596,(medicago_truncatula_Medtr7g445870:0.193,medicago_truncatula_Medtr3g005880:0.91812)n5:0.00523)n3:0.06784)n2:0.63898)n1:0.05031)n0;

@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00760_0010:0.70699,(micromonas_pusilla_Mpus_58910:0.4795,micromonas_commoda_Micom.108301:0.42593)n2:0.58725)n1:0.05985,(cymbomonas_tetramitiformis_KAK3286516:0.59359,(mesostigma_viride1140_Mesvi464S09474:0.04425,mesostigma_viride296_Mevir.Mv11114:0.0812)n4:0.78808)n3:0.05985)n0;

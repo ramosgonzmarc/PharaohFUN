@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc19780:0.68701,(alsophila_spinulosa_Aspi01Gene36652:0.05205,(alsophila_spinulosa_Aspi01Gene09221:0.36928,alsophila_spinulosa_Aspi01Gene59381:0.19406)n3:1.32263)n2:0.08184)n1:0.01756,((musa_acuminata_Muacu.1P21790_001:0.88167,asparagus_officinalis_AsparagusV1_02.1307:0.00055)n5:0.21919,oropetium_thomaeum_Oropetium_20150105_04429A:0.3839)n4:0.01756)n0;

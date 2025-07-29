@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S14g07972:0.471305,((alsophila_spinulosa_Aspi01Gene05927:0.18719,alsophila_spinulosa_Aspi01Gene42258:0.2368)n2:0.31089,(ceratopteris_richardii_Ceric.36G043600:0.45276,adiantum_capillus_Adc27230:0.32663)n3:0.47639)n1:0.471305)n0;

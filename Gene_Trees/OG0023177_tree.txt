@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_010016:0.33863,(klebsormidium_nitens_kfl00098_0370:0.64265,(alsophila_spinulosa_Aspi01Gene28415:0.46309,pleurozium_schreberi_Plsch.07701:0.40594)n2:0.32154)n1:0.33863)n0;

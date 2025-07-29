@@ -1,0 +1,1 @@
+(asterochloris_glomerata_Astgl_g3879:0.42013,(raphidocelis_subcapitata_Rsub_01588:0.48128,(desmodesmus_armatus_Desar.548680:0.583,(chlamydomonas_reinhardtii_Cre02.g108601_4532:0.20951,chlamydomonas_incerta_Chincg07692:0.23941)n3:0.42318)n2:0.26375)n1:0.42013)n0;

@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.076672:0.326335,(prunus_persica_Prupe.1G032200:0.41133,(malus_domestica_MD00G1031800:0.33684,(eutrema_salsugineum_Thhalv10001151m:1.3104,(fragaria_vesca_FvH4_5g34740:0.58274,fragaria_vesca_FvH4_3g33170:0.72826)n4:0.18362)n3:0.14283)n2:0.15473)n1:0.326335)n0;

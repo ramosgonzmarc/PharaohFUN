@@ -1,0 +1,1 @@
+(taxus_chinensis_KI387_011694:0.8456,(cinnamomum_kanehirae_CKAN_00233500:0.80994,(cinnamomum_kanehirae_CKAN_00232500:0.16787,(cinnamomum_kanehirae_CKAN_00233800:0.20401,cinnamomum_kanehirae_CKAN_00232700:0.34125)n3:0.09873)n2:0.19638)n1:0.8456)n0;

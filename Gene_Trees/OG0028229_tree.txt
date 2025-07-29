@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_037405:0.59051,tetraselmis_striata_TSEL_000787:0.18096)n1:0.071915,((zostera_marina_Zosma07g02730:0.28073,medicago_truncatula_Medtr1970s0010:0.99865)n3:0.24255,(nymphaea_colorata_Nycol.A03509:0.32531,nymphaea_colorata_Nycol.O01623:0.23086)n4:0.2305)n2:0.071915)n0;

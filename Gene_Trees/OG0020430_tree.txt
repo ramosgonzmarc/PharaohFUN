@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g5717:0.741815,(cymbomonas_tetramitiformis_KAK3267008:0.00703,(cymbomonas_tetramitiformis_KAK3267006:0.00055,cymbomonas_tetramitiformis_KAK3267007:0.00055)n2:0.00843)n1:0.741815)n0;

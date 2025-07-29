@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM000004S15030:0.03392,spirogloea_muscicola_SM000013S26502:0.03924)n1:0.202745,(chloropicon_primus_Chlpr_g7793:1.35056,myrmecia_bisecta_Mybis.KAK9816990:0.59207)n2:0.202745)n0;

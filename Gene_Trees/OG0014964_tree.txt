@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum0187s0002:0.40217,porphyra_umbilicalis_Pum0134s0032:0.29016)n1:0.74268,(gracilariopsis_chorda_PXF40126:0.21845,(gracilariopsis_chorda_PXF39860:0.06667,(gracilariopsis_chorda_PXF47981:0.00416,(gracilariopsis_chorda_PXF42731:0.00662,gracilariopsis_chorda_PXF42736:0.00207)n5:0.0021)n4:0.00054)n3:0.22078)n2:0.74268)n0;

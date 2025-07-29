@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_003610:0.02608,tetraselmis_striata_TSEL_008739:0.00675)n1:0.415955,((asterochloris_glomerata_Astgl_g8059:0.86252,picochlorum_soloecismus_NSC_00288:1.2533)n3:0.21255,(coccomyxa_subellipsoidea_Cosub_66866:0.58539,(chlorella_sorokiniana_Chlso_g6732:0.45028,auxenochlorella_protothecoides_APUTEX2500000313:0.77182)n5:0.07459)n4:0.06605)n2:0.415955)n0;

@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH019203:0.00057,beta_vulgaris_Bevul.2G016300:0.34424)n1:0.22426,(oryza_sativa_Os02g37390:1.52433,oryza_sativa_Os02g37380:0.40277)n2:0.22426)n0;

@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_23406:0.59167,((cymbomonas_tetramitiformis_KAK3237452:0.6847,(cymbomonas_tetramitiformis_KAK3237884:0.68585,cymbomonas_tetramitiformis_KAK3280864:0.87223)n3:0.29601)n2:0.21678,(cymbomonas_tetramitiformis_KAK3262845:0.15639,(cymbomonas_tetramitiformis_KAK3259721:0.1415,cymbomonas_tetramitiformis_KAK3265641:0.02131)n5:0.69152)n4:0.00057)n1:0.59167)n0;

@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.2570s0146:0.495835,(brachypodium_distachyon_Bradi2g00493:0.45058,(miscanthus_sinensis_Misin05G045800:1.12791,(miscanthus_sinensis_Misin05G045900:0.24761,miscanthus_sinensis_Misin05G070900:0.237582)n3:0.0237582)n2:0.0026398)n1:0.1381)n0;

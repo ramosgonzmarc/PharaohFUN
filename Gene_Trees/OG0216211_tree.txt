@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.01G045830:0.788695,((mimulus_guttatus_Migut.C00194:0.07359,mimulus_guttatus_Migut.C00196:0.11582)n2:0.17326,(mimulus_guttatus_Migut.N01107:1.01055,(mimulus_guttatus_Migut.C00192:0.11157,mimulus_guttatus_Migut.C00193:0.0882)n4:0.26605)n3:0.10684)n1:0.788695)n0;

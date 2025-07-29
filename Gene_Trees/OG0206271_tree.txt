@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG045144:0.23387,(gossypium_hirsutum_Gohir.D10G203950:0.41956,((gossypium_hirsutum_Gohir.D08G163080:0.03407,gossypium_raimondii_Gorai.004G169600:0.0443)n3:0.04784,(gossypium_hirsutum_Gohir.A08G142101:0.12919,gossypium_raimondii_Gorai.004G169800:0.000486)n4:5.4e-05)n2:1.04543)n1:0.23387)n0;

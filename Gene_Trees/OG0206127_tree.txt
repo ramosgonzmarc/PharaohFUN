@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.L5141:0.761825,((carica_papaya_Capac.c00016g117:0.48798,(carica_papaya_Capac.c00016g118:0.27799,carica_papaya_Capac.c00016g120:0.00055)n3:0.54045)n2:0.08835,(carica_papaya_Capac.c00016g123:0.03909,(carica_papaya_Capac.c00016g119:0.00053,carica_papaya_Capac.c00016g121:0.00889)n5:0.02284)n4:0.53049)n1:0.761825)n0;

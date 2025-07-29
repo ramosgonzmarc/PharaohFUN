@@ -1,0 +1,1 @@
+(sisymbrium_irio_Siiric181877g00010:0.55837,(alsophila_spinulosa_Aspi01Gene11043:0.00054,(alsophila_spinulosa_Aspi01Gene32300:0.0437,alsophila_spinulosa_Aspi01Gene35302:0.03339)n2:0.05484)n1:0.55837)n0;

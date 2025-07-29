@@ -1,0 +1,1 @@
+((miscanthus_sinensis_Misin11G076000:0.01316,zea_mays_Zm00001d025401:0.04648)n1:0.134945,(eleusine_coracana_Elcor.2AG0133330:0.01844,(eleusine_coracana_Elcor.2BG0188870:0.01444,(eleusine_coracana_Elcor.2AG0133340:0.03328,eleusine_coracana_Elcor.2BG0188880:0.01033)n4:0.12115)n3:0.02112)n2:0.134945)n0;

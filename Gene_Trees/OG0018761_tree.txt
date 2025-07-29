@@ -1,0 +1,1 @@
+((zostera_marina_Zosma01g42400:0.55831,asparagus_officinalis_AsparagusV1_09.729:0.64821)n1:0.622975,(selaginella_moellendorffii_Smoe_123847:0.11181,(selaginella_moellendorffii_Smoe_110121:0.00053,(selaginella_moellendorffii_Smoe_428411:0.04851,selaginella_moellendorffii_Smoe_134546:0.03405)n4:0.21135)n3:0.28252)n2:0.622975)n0;

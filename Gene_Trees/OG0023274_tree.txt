@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene56945:0.497635,(zostera_marina_Zosma43g00090:0.26533,(olea_europaea_Oeu018726:0.25658,(chenopodium_quinoa_AUR62032648:0.53822,chenopodium_quinoa_AUR62043983:0.45625)n3:0.27427)n2:0.20304)n1:0.497635)n0;

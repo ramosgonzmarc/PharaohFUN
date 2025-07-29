@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.15310:0.501055,(tetraselmis_striata_TSEL_017072:0.19283,(tetraselmis_striata_TSEL_015761:0.05562,(tetraselmis_striata_TSEL_030552:0.08316,(tetraselmis_striata_TSEL_015020:0.021,tetraselmis_striata_TSEL_026343:0.01095)n4:0.1856)n3:0.01139)n2:0.04869)n1:0.501055)n0;

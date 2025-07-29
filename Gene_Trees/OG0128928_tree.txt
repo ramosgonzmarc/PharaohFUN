@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.L1194:0.251075,(isoetes_sinensis_IsiChr5g2853:0.20811,(huperzia_asiatica_HaB05G0070:0.03716,huperzia_asiatica_HaB41G0168:0.02307)n2:0.27239)n1:0.251075)n0;

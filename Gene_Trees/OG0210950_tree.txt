@@ -1,0 +1,1 @@
+((phaseolus_acutifolius_Phacu.001G084600:0.09302,vigna_unguiculata_Vigun08g082600:0.04704)n1:0.142305,(lotus_japonicus_Lj5g0018295:0.2503,(cicer_arietinum_Ca_11001:0.11097,medicago_truncatula_Medtr1g009220:0.16483)n3:0.10902)n2:0.142305)n0;

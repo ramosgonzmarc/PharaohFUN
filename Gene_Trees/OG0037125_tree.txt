@@ -1,0 +1,1 @@
+((lupinus_albus_Lalb_Chr01g0019051:0.96255,(glycine_max_Glyma.09G026400:0.59028,glycine_max_Glyma.09G026300:0.14952)n2:0.30852)n1:0.08067,(arachis_hypogaea_arahy_8Y6YU2:0.39267,arachis_hypogaea_arahy_F7N8JA:0.38217)n3:0.08067)n0;

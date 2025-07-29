@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr08g0246051:0.419655,((aegilops_tauschii_Atau_XP_040245347:0,aegilops_tauschii_Atau_XP_040245348:0,aegilops_tauschii_Atau_XP_040245349:0,aegilops_tauschii_Atau_XP_040245350:0)n2:0.02632,dioscorea_alata_Dioal.19G176800:0.98973)n1:0.419655)n0;

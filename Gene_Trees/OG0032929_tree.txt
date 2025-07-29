@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz10g27110:0.91343,scenedesmus_obliquus_Sobl_g24486:0.5077)n1:0.17435,(gonium_pectorale_Gopec.13813:0.17194,(chlamydomonas_reinhardtii_Cre10.g442350_4532:0.03776,chlamydomonas_incerta_Chincg13215:0.12933)n3:0.41015)n2:0.17435)n0;

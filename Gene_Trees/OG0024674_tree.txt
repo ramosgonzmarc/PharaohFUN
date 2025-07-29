@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH34470:0.78024,(raphidocelis_subcapitata_Rsub_09608:0.62124,(scenedesmus_obliquus_Sobl_g08741:0.36367,(chromochloris_zofingiensis_Cz14g00120:1.58402,chromochloris_zofingiensis_Cz08g30180:0.49953)n3:0.04536)n2:0.20672)n1:0.78024)n0;

@@ -1,0 +1,1 @@
+(picochlorum_soloecismus_NSC_03621:0.54452,(tetrabaena_socialis_Tesoc.PNH04160:0.84885,(ulva_mutabilis_UM056_0067:0.37029,(scenedesmus_obliquus_Sobl_g21584:0.74408,scenedesmus_obliquus_Sobl_g04396:0.4743)n3:0.0527)n2:0.28619)n1:0.12664)n0;

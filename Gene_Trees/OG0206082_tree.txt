@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL6G44010:0.4088,capsella_grandiflora_Cagra.10293s0003:0.68678)n1:0.14265,(arabidopsis_lyrata_Arlyr.AL7G42930:1.18637,((capsella_grandiflora_Cagra.17800s0001:0.55909,thlaspi_arvense_TaMN106.6G085800:1.58415)n4:1.28275,(arabidopsis_thaliana_AT4G07325:0.74219,sisymbrium_irio_Siiris378g00190:0.59619)n5:0.82666)n3:0.151943)n2:0.0168825)n0;

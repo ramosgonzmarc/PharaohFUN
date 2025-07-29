@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_522559:0.652965,((solanum_lycopersicum_Solyc11g010530:0.01925,solanum_tuberosum_Soltu.11G003110:0.03098)n2:0.24778,(solanum_lycopersicum_Solyc11g010520:0.04588,solanum_tuberosum_Soltu.11G003120:0.032022)n3:0.003558)n1:0.652965)n0;

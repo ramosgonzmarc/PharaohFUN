@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.07602:0.25627,(isoetes_sinensis_IsiChr13g3899:0.1998,(lycopodium_clavatum_Lcl_0005791:0.04194,(zea_mays_Zm00001d019131:0.09154,zea_mays_Zm00001d002448:0.11585)n3:0.7628)n2:0.42236)n1:0.25627)n0;

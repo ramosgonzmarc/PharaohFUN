@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00007253:0.14466,(prasinoderma_coloniale_PRCOL_00004101:0.26018,(prasinoderma_coloniale_PRCOL_00002839:0.35578,(prasinoderma_coloniale_PRCOL_00002826:0.21273,prasinoderma_coloniale_PRCOL_00003922:0.23313)n3:1.04995)n2:0.29692)n1:0.14466)n0;

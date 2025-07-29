@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00000513:0.13294,((klebsormidium_nitens_kfl00009_0060:0.46973,(spirogloea_muscicola_SM000281S10741:0.03942,spirogloea_muscicola_SM000109S14133:0.12048)n3:0.56382)n2:0.22637,(chloropicon_primus_Chlpr_g1685:0.81829,(chlorokybus_atmophyticus_Chrsp32S04959:0.2975,mesostigma_viride1140_Mesvi206S04127:0.28094)n5:0.21412)n4:0.11158)n1:0.13294)n0;

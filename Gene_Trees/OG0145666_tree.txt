@@ -1,0 +1,1 @@
+((olea_europaea_Oeu011398:0.49112,lactuca_sativa_Lsat_gn_3_64341:0.57622)n1:0.069725,(vaccinium_darrowii_Vadar_g46690:0.03032,vaccinium_darrowii_Vadar_g46683:0.05647)n2:0.069725)n0;

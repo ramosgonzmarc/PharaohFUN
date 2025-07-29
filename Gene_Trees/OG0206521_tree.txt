@@ -1,0 +1,1 @@
+(arabidopsis_lyrata_Arlyr.AL8G39160:0.36998,(gossypium_hirsutum_Gohir.A08G099900:0.53408,(theobroma_cacao_Thecc1EG014949:1.05259,theobroma_cacao_Thecc1EG016043:1.05112)n2:0.116791)n1:0.15122)n0;

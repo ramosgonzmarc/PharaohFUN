@@ -1,0 +1,1 @@
+(((welwitschia_mirabilis_Wmi_26824:1.21194,azolla_filiculoides_Azfi_s0001.g000323:0.33115)n2:0.35965,(isoetes_sinensis_IsiChr13g581:0.1339,isoetes_sinensis_IsiChr14g786:0.070911)n3:0.007879)n1:0.01935,adiantum_capillus_Adc18470:1.44633)n0;

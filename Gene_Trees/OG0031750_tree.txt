@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH38871:0.5454,((coccomyxa_subellipsoidea_Cosub_62293:0.36454,elliptochloris_bilobata_Elbil.KAK9830884:0.62738)n2:0.25349,(apatococcus_lobatus_Aplob.KAK9824765:0.61249,((asterochloris_glomerata_Astgl_g1729:0.74005,trebouxia_sp_FRX49_08023:0.62023)n5:0.16362,myrmecia_bisecta_Mybis.KAK9814532:0.7832)n4:0.04275)n3:0.0978)n1:0.5454)n0;

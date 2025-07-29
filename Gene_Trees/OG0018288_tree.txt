@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc01g068110:0.435135,(ginkgo_biloba_Gb_31584:0.89794,(ginkgo_biloba_Gb_01421:0.45252,(ginkgo_biloba_Gb_24568:0.07626,ginkgo_biloba_Gb_28394:0.03131)n3:0.31062)n2:0.46173)n1:0.435135)n0;

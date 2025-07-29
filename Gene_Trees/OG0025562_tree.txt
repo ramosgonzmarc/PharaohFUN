@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_1g03700:0.10123,(malus_domestica_MD02G1036000:0.02713,medicago_truncatula_Medtr5g006590:1.02917)n2:0.17509)n1:0.145785,(eucalyptus_grandis_Eucgr.C01127:0.00576,eucalyptus_grandis_Eucgr.L00289:0.01124)n3:0.145785)n0;

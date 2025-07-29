@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr18g1514:0.63109,(azolla_filiculoides_Azfi_s0003.g007864:1.0793,(carica_papaya_Capac.c00222g025:1.28371,(ceratopteris_richardii_Ceric.1Z218900:0.4087,adiantum_capillus_Adc27685:0.57161)n3:0.03152)n2:0.17564)n1:0.63109)n0;

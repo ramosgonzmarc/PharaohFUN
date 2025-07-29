@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_Sobl_g18575:0.76942,(mesotaenium_endlicherianum_ME000050S08039:0.58195,mesotaenium_endlicherianum_ME000206S02993:0.153018)n2:0.017002)n1:0.179055,cymbomonas_tetramitiformis_KAK3260508:0.95134)n0;

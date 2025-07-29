@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0004s2594:0.505835,(arabidopsis_lyrata_Arlyr.AL1G44490:0.47144,(schrenkiella_parvula_Scpar4g30000:0.79237,brassica_rapa_Brara.I02810:0.37799)n2:0.11611)n1:0.505835)n0;

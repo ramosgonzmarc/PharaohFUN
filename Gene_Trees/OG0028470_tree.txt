@@ -1,0 +1,1 @@
+((welwitschia_mirabilis_Wmi_13986:0.29782,picea_abies_Pab_6196222g0010:1.06312)n1:0.159475,(picea_abies_Pab_2903265g0010:0.85863,(welwitschia_mirabilis_Wmi_26337:0.00113,welwitschia_mirabilis_Wmi_26338:0.000477)n3:5.3e-05)n2:0.03326)n0;

@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.D04G086301:0.00352,gossypium_raimondii_Gorai.012G096200:0.12912)n1:0.57925,(thuja_plicata_Thupl.29380350s0006:0.25254,(sequoiadendron_giganteum_SEGI_20619:0.01074,((sequoia_sempervirens_SESE_129867:0.00055,sequoia_sempervirens_SESE_142537:0.00054)n5:0.00054,sequoia_sempervirens_SESE_146055:0.01368)n4:0.00152)n3:0.00979)n2:0.57925)n0;

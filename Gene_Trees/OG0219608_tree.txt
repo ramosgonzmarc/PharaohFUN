@@ -1,0 +1,1 @@
+(setaria_italica_Seita.6G226600:0.57756,(miscanthus_sinensis_Misin09G071000:0.28571,(zea_mays_Zm00001d007212:0.07008,zea_mays_Zm00001d007744:0.00055)n2:0.2881)n1:0.57756)n0;

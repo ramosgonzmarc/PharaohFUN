@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv09057:0.654755,(chara_braunii_CBR_g50248:0.54501,(spirogloea_muscicola_SM000125S26074:0.04536,(spirogloea_muscicola_SM000319S12263:0.04243,spirogloea_muscicola_SM000065S20230:0.03117)n3:0.01165)n2:0.47362)n1:0.654755)n0;

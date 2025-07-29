@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.2622260:0.372015,(tetraselmis_striata_TSEL_027395:1.16917,(chlorella_sorokiniana_Chlso_g9076:0.67045,pedinophyceae_sp_Pesp.9462505:0.85065)n2:0.16724)n1:0.372015)n0;

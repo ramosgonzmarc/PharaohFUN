@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3695524:0.36632,(riccia_sorocarpa_Risor.KAL3700542:0.64766,((riccia_sorocarpa_Risor.KAL3686347:0.23165,riccia_sorocarpa_Risor.KAL3688882:0.14965)n3:0.73631,(riccia_sorocarpa_Risor.KAL3696430:0.63545,riccia_sorocarpa_Risor.KAL3700758:0.28005)n4:0.42555)n2:0.27001)n1:0.36632)n0;

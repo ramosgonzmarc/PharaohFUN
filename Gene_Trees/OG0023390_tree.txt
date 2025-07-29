@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_004620:0.56306,(amborella_trichopoda_AmTr00019g295:0.23695,(amborella_trichopoda_AmTr00002g330:0.00054,amborella_trichopoda_AmTr00002g331:0.13191)n2:0.32098)n1:0.56306)n0;

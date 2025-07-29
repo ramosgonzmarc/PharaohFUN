@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62000626:0.428115,(lactuca_sativa_Lsat_gn_0_520:0.63966,(mimulus_guttatus_Migut.F02038:0.26689,solanum_tuberosum_Soltu.05G026630:0.54728)n2:0.31581)n1:0.428115)n0;

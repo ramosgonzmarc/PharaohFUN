@@ -1,0 +1,1 @@
+(zostera_marina_Zosma07g02380:0.671925,((coccomyxa_subellipsoidea_Cosub_63636:0.16546,coccomyxa_subellipsoidea_Cosub_63635:0.21857)n2:0.22656,(tetraselmis_striata_TSEL_039704:0.64493,tetraselmis_striata_TSEL_002085:1.13375)n3:0.125972)n1:0.30771)n0;

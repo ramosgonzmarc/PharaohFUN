@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.005924:0.46619,coffea_arabica_Coara.007706:0.74247)n1:0.418475,(vaccinium_darrowii_Vadar_g43686:0.60232,vaccinium_darrowii_Vadar_g9702:0.32352)n2:0.418475)n0;

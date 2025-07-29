@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.10859:0.30645,(volvox_carteri_Vocar.0003s0457:0.1502,(chlamydomonas_reinhardtii_Cre05.g232100_4532:0.03642,chlamydomonas_incerta_Chincg07039:0.06922)n3:0.30679)n2:0.14575)n1:0.166435,(dunaliella_salina_Dusal.0038s00035:0.59749,(haematococcus_lacustris_QJQ45_000621:0.07742,haematococcus_lacustris_QJQ45_030236:0.0574)n5:0.30109)n4:0.166435)n0;

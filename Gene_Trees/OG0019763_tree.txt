@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr11g2761:0.69324,(zostera_marina_Zosma04g11260:0,zostera_marina_Zosma1107g00010:0)n2:1.07348)n1:0.09262,((anthoceros_agrestis_AnagrOXF.S2G418400:0.00055,anthoceros_punctatus_Anpun.S4G012900:0.25566)n4:0.20016,anthoceros_fusiformis_Anfus.S5G114500:1.10569)n3:0.09262)n0;

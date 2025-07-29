@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_015174:0.448635,(alsophila_spinulosa_Aspi01Gene39507:0.13775,(carica_papaya_Capac.c00207g012:0.69342,(daucus_carota_DCAR_310767:0.21642,lens_culinaris_Lecul.5g044640:0.16678)n3:0.12592)n2:0.13435)n1:0.448635)n0;

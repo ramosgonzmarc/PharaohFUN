@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz11g22160:0.16729,((raphidocelis_subcapitata_Rsub_12228:0.38143,monoraphidium_minutum_Momin.439716:0.44145)n2:0.23948,(desmodesmus_armatus_Desar.415579:0.30819,scenedesmus_obliquus_Sobl_g28638:0.21904)n3:0.17048)n1:0.16729)n0;

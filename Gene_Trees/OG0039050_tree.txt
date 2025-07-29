@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.9G192300:0.337385,(marchantia_paleacea_Mapa_005554:0.44385,(marchantia_polymorpha_Mp3g03350:0.35971,(riccia_fluitans_R1flu_004046:0.19582,riccia_sorocarpa_Risor.KAL3695102:0.22118)n3:0.28561)n2:1.29376)n1:0.337385)n0;

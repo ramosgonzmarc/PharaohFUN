@@ -1,0 +1,1 @@
+((paraphymatoceros_pearsonii_Papea.S2G018500:0.07171,phymatoceros_phymatodes_Phphy.S4G216600:0.25797)n1:0.694085,(selaginella_moellendorffii_Smoe_440669:0.45973,(isoetes_sinensis_IsiChr5g4839:0.13056,(isoetes_sinensis_IsiChr14g3176:0.00055,isoetes_sinensis_IsiChr13g3147:0.00676)n4:0.00054)n3:0.69954)n2:0.694085)n0;

@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM006089S19299:0.45985,(welwitschia_mirabilis_Wmi_04514:0.01773,(welwitschia_mirabilis_Wmi_25465:0.01031,welwitschia_mirabilis_Wmi_25466:0.02875)n2:0.15836)n1:0.45985)n0;

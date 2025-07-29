@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.B03693:0.14243,corymbia_citriodora_Cocit.B3192:0.18751)n1:0.316,(setaria_italica_Seita.3G133100:0.68992,(hordeum_vulgare_Hvul_7HG0749510:0.16739,(triticum_aestivum_TraesCS2D03G1027100:0.73312,triticum_aestivum_TraesCS7B03G1316100:0.146628)n4:0.016292)n3:0.22397)n2:0.72477)n0;

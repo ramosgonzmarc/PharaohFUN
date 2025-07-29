@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz02g25080:0.32652,(chromochloris_zofingiensis_Cz02g41030:0.6815,chromochloris_zofingiensis_Cz02g24210:0.12549)n2:0.4903)n1:0.13423,(coffea_arabica_Coara.021182:0.59962,medicago_truncatula_Medtr8g078220:0.35091)n3:0.13423)n0;

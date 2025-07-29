@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.12975:0.7936,(anthoceros_fusiformis_Anfus.S4G297700:0.05655,((anthoceros_punctatus_Anpun.S2G508500:0.27808,(anthoceros_agrestis_AnagrOXF.S1G245300:0.07501,anthoceros_agrestis_AnagrOXF.S1G633900:0.13505)n4:0.81779)n3:0.14793,(anthoceros_agrestis_AnagrOXF.S2G079100:0.00481,anthoceros_punctatus_Anpun.S4G301200:0.00055)n5:0.05751)n2:0.00639)n1:0.07282)n0;

@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_Sobl_g18542:0.75688,(klebsormidium_nitens_kfl00712_0080:0.59118,klebsormidium_nitens_kfl00219_0410:0.436635)n2:0.048515)n1:0.27037,(tetraselmis_striata_TSEL_034686:0.37326,(tetraselmis_striata_TSEL_041126:0.12502,tetraselmis_striata_TSEL_008938:0.24455)n4:0.5196)n3:0.41056)n0;

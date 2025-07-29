@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr5g098330:0.41231,(eleusine_coracana_Elcor.6BG0464950:0.98683,(malus_domestica_MD14G1136600:0.55222,brassica_rapa_Brara.J02280:0.28823)n3:0.35962)n2:0.28075)n1:0.243505,(isoetes_sinensis_IsiChr9g1578:0.27253,isoetes_sinensis_IsiChr19g4448:0.10221)n4:0.243505)n0;

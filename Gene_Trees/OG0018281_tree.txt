@@ -1,0 +1,1 @@
+((taxus_chinensis_KI387_043594:0.72262,(thuja_plicata_Thupl.29381472s0005:0.05031,thuja_plicata_Thupl.29382345s0003:0.02605)n2:0.3728)n1:0.44046,(ginkgo_biloba_Gb_08974:0.01118,ginkgo_biloba_Gb_08979:0.00376)n3:0.44046)n0;

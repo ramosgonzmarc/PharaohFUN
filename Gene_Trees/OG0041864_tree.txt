@@ -1,0 +1,1 @@
+((micromonas_commoda_Micom.059330:0.28992,(ostreococcus_lucimarinus_Oluc_29679:0,ostreococcus_lucimarinus_Oluc_27231:0)n2:0.48168)n1:0.082405,(tetraselmis_striata_TSEL_010948:0.25903,(raphidocelis_subcapitata_Rsub_03469:0.61415,(scenedesmus_obliquus_Sobl_g19556:0.07478,scenedesmus_obliquus_Sobl_g28499:0.00054)n5:0.12057)n4:0.12136)n3:0.082405)n0;

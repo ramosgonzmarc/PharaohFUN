@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_021467:0.420235,(chromochloris_zofingiensis_Cz11g21010:0.57366,((monoraphidium_minutum_Momin.520436:0.16171,(raphidocelis_subcapitata_Rsub_09034:0.18205,(desmodesmus_armatus_Desar.504471:0.15812,scenedesmus_obliquus_Sobl_g28459:0.1263)n5:0.32546)n4:0.06189)n3:0.18656,haematococcus_lacustris_QJQ45_003322:1.28343)n2:0.2089)n1:0.420235)n0;

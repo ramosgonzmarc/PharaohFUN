@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Smoe_409695:0.887725,((diphasiastrum_complanatum_Dicom.12G080000:0.15323,lycopodium_clavatum_Lcl_0002662:0.14424)n2:0.19465,(huperzia_asiatica_HaA21G0033:0.01235,(huperzia_asiatica_HaB21G0048:0.01727,(huperzia_asiatica_HaB21G0049:0.00303,huperzia_asiatica_HaB21G0243:0.0006)n5:0.01376)n4:0.01567)n3:0.4387)n1:0.887725)n0;

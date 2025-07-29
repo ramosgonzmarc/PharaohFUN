@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM007560S21905:0.33656,(picea_abies_Pab_836008g0010:0.17157,(abies_alba_AALBA5B744760:0.16315,abies_alba_AALBA5B136091:0.000495)n3:5.5e-05)n2:0.05055)n1:0.15032,(physcomitrium_patens_Pp6c16_13330V6:0.63331,mesotaenium_kramstae_Mekra.0476407:0.30773)n4:0.15032)n0;

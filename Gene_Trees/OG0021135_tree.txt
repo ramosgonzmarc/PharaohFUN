@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g26351:0.371345,(vigna_unguiculata_Vigun01g224800:0.55193,(glycine_max_Glyma.11G173200:0.03795,(glycine_max_Glyma.11G173500:0.05561,(glycine_max_Glyma.11G173400:0.03028,glycine_max_Glyma.11G173300:0.01217)n4:0.03246)n3:0.01823)n2:0.18944)n1:0.371345)n0;

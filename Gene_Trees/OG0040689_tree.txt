@@ -1,0 +1,1 @@
+(hordeum_vulgare_Hvul_3HG0292430:0.345115,((eleusine_coracana_Elcor.1AG0034990:0.36127,(panicum_hallii_Pahal.5G142100:0.00164,panicum_hallii_Pahal.5G141500:0.03505)n3:0.36553)n2:0.13877,(setaria_italica_Seita.5G334200:0.53274,setaria_italica_Seita.5G335200:1.1229)n4:0.04927)n1:0.345115)n0;

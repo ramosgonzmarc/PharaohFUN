@@ -1,0 +1,1 @@
+(((coffea_arabica_Coara.023081:0.33274,solanum_tuberosum_Soltu.10G013710:0.3139)n2:0.05762,(((amaranthus_hypochondriacus_AH014629:0.91541,amaranthus_hypochondriacus_AH014630:0.61157)n5:0.17363,chenopodium_quinoa_AUR62034090:0.48933)n4:0.06835,amaranthus_hypochondriacus_AH008395:0.828576)n3:0.092064)n1:0.0714,lactuca_sativa_Lsat_gn_1_15180:1.1518)n0;

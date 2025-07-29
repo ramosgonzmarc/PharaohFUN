@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.0124s0155:0.144615,(thlaspi_arvense_TaMN106.1G242700:0.30836,(schrenkiella_parvula_Scpar1g40130:0.11062,(brassica_oleracea_Bol006000:0.0087,brassica_rapa_Brara.E01480:0.03599)n3:0.07607)n2:0.02357)n1:0.144615)n0;

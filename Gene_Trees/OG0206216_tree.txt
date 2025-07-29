@@ -1,0 +1,1 @@
+(brassica_oleracea_Bol040028:0.392275,((gossypium_hirsutum_Gohir.D06G180500:0,gossypium_raimondii_Gorai.010G212000:0)n2:0.00055,((gossypium_hirsutum_Gohir.A06G171700:0.00055,gossypium_hirsutum_Gohir.D06G179100:0.16432)n4:0.00749,gossypium_raimondii_Gorai.010G209600:0.027018)n3:0.003002)n1:0.392275)n0;

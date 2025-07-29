@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62040480:0.69691,(cinnamomum_kanehirae_CKAN_00612600:0.26291,(cinnamomum_kanehirae_CKAN_00612800:0.08313,(cinnamomum_kanehirae_CKAN_00612700:0.05062,cinnamomum_kanehirae_CKAN_00612900:0.21619)n3:0.05378)n2:0.09311)n1:0.69691)n0;

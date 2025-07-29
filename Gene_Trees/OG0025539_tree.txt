@@ -1,0 +1,1 @@
+((micromonas_pusilla_Mpus_8385:0.17274,micromonas_commoda_Micom.108468:0.34302)n1:0.09618,(bryopsis_sp_Bsp_GMH40166:0.51252,(pedinophyceae_sp_Pesp.9467365:0.72783,(tetraselmis_striata_TSEL_025989:0.57451,dunaliella_salina_Dusal.0521s00020:0.853)n4:0.13583)n3:0.18704)n2:0.09618)n0;

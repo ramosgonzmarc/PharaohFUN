@@ -1,0 +1,1 @@
+(((selaginella_moellendorffii_Smoe_100825:0.01733,selaginella_moellendorffii_Smoe_91015:0.05259)n2:0.59934,(isoetes_sinensis_IsiChr17g1723:0.79391,huperzia_asiatica_HaB01G1274:0.46699)n3:0.16192)n1:0.279315,(sequoia_sempervirens_SESE_136564:0.00874,(sequoia_sempervirens_SESE_143839:0.13185,sequoia_sempervirens_SESE_146443:0.04292)n5:0.01731)n4:0.279315)n0;

@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum0087s0050:0.93943,(gracilariopsis_chorda_PXF44822:0.5298,gracilariopsis_chorda_PXF44823:0.37323)n2:0.13651)n1:0.254705,(chlorella_sorokiniana_Chlso_g7714:0.97624,(bryopsis_sp_Bsp_GMH45570:0.7108,myrmecia_bisecta_Mybis.KAK9820255:0.76308)n4:0.24492)n3:0.254705)n0;

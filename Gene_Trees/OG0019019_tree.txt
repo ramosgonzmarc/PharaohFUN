@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_011848:0.20768,((corylus_avellana_Corav.g16941:0.48345,(malus_domestica_MD10G1241800:0.11863,malus_domestica_MD05G1263900:0.01923)n3:0.12604)n2:0.19145,(abies_alba_AALBA5B020663:0.4569,ginkgo_biloba_Gb_40541:0.3195)n4:0.09983)n1:0.20768)n0;

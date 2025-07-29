@@ -1,0 +1,1 @@
+(((quercus_rubra_Qurub.03G165800:0.2288,quercus_rubra_Qurub.08G135900:0.1434)n2:0.27288,corylus_avellana_Corav.g12669:0.56537)n1:0.020195,(corylus_avellana_Corav.g23344:1.03119,((quercus_rubra_Qurub.05G150300:0.05362,quercus_rubra_Qurub.06G109400:0.04529)n5:0.00988,(quercus_rubra_Qurub.02G060800:0.01852,quercus_rubra_Qurub.12G059500:0.00943)n6:0.01514)n4:0.61337)n3:0.020195)n0;

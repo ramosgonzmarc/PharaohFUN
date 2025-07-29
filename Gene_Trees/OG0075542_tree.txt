@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_Q6YAD3:0.09077,(arachis_hypogaea_arahy_U7YZMT:0.23049,arachis_hypogaea_arahy_D13GZM:0.1933)n2:0.15948)n1:0.398245,(brachypodium_distachyon_Bradi1g47518:0.06387,(setaria_italica_Seita.J005900:0.00055,setaria_italica_Seita.1G140700:0.059598)n4:0.006622)n3:0.00054)n0;

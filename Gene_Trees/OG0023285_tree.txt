@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr0050s0050:0.76675,(alsophila_spinulosa_Aspi01Gene61208:0.00885,(alsophila_spinulosa_Aspi01Gene61212:0.00055,alsophila_spinulosa_Aspi01Gene61213:0.00055)n2:0.02025)n1:0.76675)n0;

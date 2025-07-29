@@ -1,0 +1,1 @@
+(schrenkiella_parvula_Scpar3g25690:0.00027,(capsella_grandiflora_Cagra.0259s0007:0.01271,(arabidopsis_thaliana_AT2G07672:0.00629,arabidopsis_thaliana_ATMG01050:0.00055)n2:0.0063)n1:0.00027)n0;

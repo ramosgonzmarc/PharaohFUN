@@ -1,0 +1,1 @@
+((eutrema_salsugineum_Thhalv10009793m:0.52515,(brassica_rapa_Brara.I05259:0.9331,thlaspi_arvense_TaMN106.1G445000:0.43871)n2:0.30551)n1:0.086035,(boechera_stricta_Bostr.8705s0011:0.09435,boechera_stricta_Bostr.29827s0144:0.06812)n3:0.086035)n0;

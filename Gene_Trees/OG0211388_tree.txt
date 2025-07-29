@@ -1,0 +1,1 @@
+(lens_culinaris_Lecul.4g056000:0.40745,(trifolium_pratense_Trpra.07297:0.38564,(medicago_truncatula_Medtr3g466230:0.58883,medicago_truncatula_Medtr2g437280:0.43227)n2:0.38903)n1:0.40745)n0;

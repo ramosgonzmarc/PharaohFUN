@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S11g14131:0.261745,(((sequoiadendron_giganteum_SEGI_01967:0.48578,sequoiadendron_giganteum_SEGI_18437:0.24641)n3:0.8795,ginkgo_biloba_Gb_38025:0.23169)n2:0.01453,(ginkgo_biloba_Gb_01679:0.04212,sequoiadendron_giganteum_SEGI_07710:0.299169)n4:0.033241)n1:0.261745)n0;

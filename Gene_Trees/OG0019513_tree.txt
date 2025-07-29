@@ -1,0 +1,1 @@
+((beta_vulgaris_Bevul.4G106100:0.99137,vaccinium_darrowii_Vadar_g44660:1.22994)n1:0.174735,(alsophila_spinulosa_Aspi01Gene38911:0.90574,(alsophila_spinulosa_Aspi01Gene54240:0.0323,(alsophila_spinulosa_Aspi01Gene02366:0.0359,alsophila_spinulosa_Aspi01Gene05582:0.03419)n4:0.06552)n3:0.20986)n2:0.174735)n0;

@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00003618:0.2044,(micromonas_pusilla_Mpus_123260:0.51817,(mesostigma_viride1140_Mesvi420S05938:0.05694,mesostigma_viride296_Mevir.Mv06005:0.11322)n2:0.54547)n1:0.2044)n0;

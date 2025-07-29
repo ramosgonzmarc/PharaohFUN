@@ -1,0 +1,1 @@
+(glycine_max_Glyma.11G171146:0.749425,(vigna_unguiculata_Vigun04g039350:0.01095,(vigna_unguiculata_Vigun10g098825:0.02763,vigna_unguiculata_Vigun01g179350:0.03721)n2:0.04937)n1:0.749425)n0;

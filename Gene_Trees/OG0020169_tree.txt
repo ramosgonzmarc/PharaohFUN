@@ -1,0 +1,1 @@
+((spirodela_polyrhiza_Spipo6G0077200:0.65312,(phymatoceros_phymatodes_Phphy.S1G731700:0.18107,phymatoceros_phymatodes_Phphy.S2G225700:0.10454)n2:1.15799)n1:0.09231,(chara_braunii_CBR_g66680:0.06261,(chara_braunii_CBR_g27805:0.05731,(chara_braunii_CBR_g46002:0.05609,chara_braunii_CBR_g37616:0.04813)n5:0.00634)n4:0.00716)n3:0.09231)n0;

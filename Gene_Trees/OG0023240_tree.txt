@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene46109:0.09694,(eucalyptus_grandis_Eucgr.E00202:1.27819,((prunus_persica_Prupe.2G022600:0.20334,vaccinium_darrowii_Vadar_g1472:0.20423)n3:0.00121,(malus_domestica_MD17G1156300:0.27839,musa_acuminata_Muacu.2P07980_001:0.2561)n4:0.05772)n2:0.18972)n1:0.09694)n0;

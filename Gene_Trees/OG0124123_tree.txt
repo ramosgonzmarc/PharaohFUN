@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.O01324:0.728275,(lens_culinaris_Lecul.3g040340:0.1825,(glycine_max_Glyma.10G108000:0.21759,(salix_purpurea_Sapur.15WG053000:0.00054,(salix_purpurea_Sapur.012G007500:0.00054,salix_purpurea_Sapur.005G118300:0.00055)n4:0.02152)n3:0.42824)n2:0.35527)n1:0.728275)n0;

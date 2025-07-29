@@ -1,0 +1,1 @@
+((anthoceros_fusiformis_Anfus.S4G285700:0.14548,anthoceros_punctatus_Anpun.S4G290000:0.04336)n1:0.121525,(phaeomegaceros_chiloensis_Phchi.S5G077200:0.05642,(notothylas_orbicularis_Noorb.S3G120700:0.22268,phymatoceros_phymatodes_Phphy.S3G399200:0.20886)n3:0.07945)n2:0.121525)n0;

@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc03g063370:0.09172,solanum_lycopersicum_Solyc03g058310:0.13541)n1:0.24432,(glycine_max_Glyma.11G065333:0.14687,cicer_arietinum_Ca_05420:0.09297)n2:0.24432)n0;

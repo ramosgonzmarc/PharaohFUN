@@ -1,0 +1,1 @@
+((triticum_aestivum_TraesCS7D03G1278500:0.64691,((aegilops_tauschii_Atau_XP_020154516:0.10357,hordeum_vulgare_Hvul_6HG0632830:0.13191)n3:0.12831,eleusine_coracana_Elcor.2AG0108390:0.38064)n2:0.01248)n1:0.03791,(zea_mays_Zm00001d023311:0.43365,(sorghum_bicolor_Sobic.006G021250:0.40715,brachypodium_distachyon_Bradi5g00755:0.67122)n5:0.12056)n4:0.03791)n0;

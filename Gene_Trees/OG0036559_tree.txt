@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_12975:0.21781,ginkgo_biloba_Gb_19340:0.23791)n1:0.12067,(marchantia_paleacea_Mapa_010094:1.25609,marchantia_paleacea_Mapa_000819:0.4262)n2:0.12067)n0;

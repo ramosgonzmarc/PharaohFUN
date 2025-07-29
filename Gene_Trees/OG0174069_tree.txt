@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S1G008400:0.14155,(pleurozium_schreberi_Plsch.09661:0.42304,(riccia_fluitans_R1flu_016071:0.55733,riccia_sorocarpa_Risor.KAL3689220:0.2282)n2:0.35999)n1:0.14155)n0;

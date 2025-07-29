@@ -1,0 +1,1 @@
+(picea_abies_Pab_9896021g0010:0.22223,(brassica_oleracea_Bol004690:0.72626,(arachis_hypogaea_arahy_39PNEV:0.68975,(oryza_sativa_Os05g34390:0.42685,(linum_usitatissimum_Lus10026391:0.61139,musa_acuminata_Muacu.2P03000_001:0.20271)n4:0.19247)n3:0.06421)n2:0.08527)n1:0.22223)n0;

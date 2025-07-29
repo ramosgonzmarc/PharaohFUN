@@ -1,0 +1,1 @@
+((vaccinium_darrowii_Vadar_g43249:0.68345,(solanum_lycopersicum_Solyc02g068220:0.15637,solanum_tuberosum_Soltu.02G011010:0.21974)n2:0.39319)n1:0.070885,((citrus_sinensis_Cisin.047142:0.04809,poncirus_trifoliata_Ptrif.0008s2783:0.24585)n4:0.57702,(vitis_vinifera_VIT_206s0004g07300:0.48255,quercus_rubra_Qurub.02G137200:0.088)n5:0.12565)n3:0.070885)n0;

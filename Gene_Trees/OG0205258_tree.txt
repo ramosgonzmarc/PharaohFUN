@@ -1,0 +1,1 @@
+((corylus_avellana_Corav.g29126:0.21982,(brassica_oleracea_Bol026026:0.00051,brassica_oleracea_Bol014215:0.1654)n2:0.78289)n1:0.171195,(zostera_marina_Zosma05g26950:0.67174,spirodela_polyrhiza_Spipo12G0053100:0.55096)n3:0.171195)n0;

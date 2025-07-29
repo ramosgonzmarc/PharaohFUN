@@ -1,0 +1,1 @@
+((schrenkiella_parvula_Scpar4g09890:0.49521,(sisymbrium_irio_Siiris791g00160:0.0957,sisymbrium_irio_Siiris802g00070:0.00931)n2:0.65594)n1:0.259105,(schrenkiella_parvula_ScparUn1024_0020:0.26808,sisymbrium_irio_Siiric216615g00010:0.27279)n3:0.259105)n0;

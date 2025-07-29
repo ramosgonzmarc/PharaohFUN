@@ -1,0 +1,1 @@
+(zea_mays_Zm00001d044698:0.44224,((aegilops_tauschii_Atau_XP_040248969:0.00054,aegilops_tauschii_Atau_XP_020146382:0.06453)n2:0.05626,((aegilops_tauschii_Atau_XP_020195070:0.00054,aegilops_tauschii_Atau_XP_040249883:0.05541)n4:0.00053,aegilops_tauschii_Atau_XP_040248970:0.00055)n3:0.09688)n1:0.44224)n0;

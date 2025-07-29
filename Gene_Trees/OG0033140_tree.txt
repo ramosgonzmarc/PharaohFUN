@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp64S07162:0.302315,((chlamydomonas_reinhardtii_Cre05.g246900_4532:0.04021,chlamydomonas_incerta_Chincg01225:0.05718)n2:0.20953,(tetrabaena_socialis_Tesoc.PNH01899:0.43069,(gonium_pectorale_Gopec.10887:0.22991,volvox_carteri_Vocar.0026s0060:0.31535)n4:0.09271)n3:0.28466)n1:0.302315)n0;

@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum1559_ZcUTEX1559_15683:0.44212,(solanum_tuberosum_Soltu.02G014750:0.67759,(aegilops_tauschii_Atau_XP_040253136:0.28879,(huperzia_asiatica_HaB64G0124:0.43954,sequoiadendron_giganteum_SEGI_10154:1.08115)n3:0.26958)n2:0.42282)n1:0.44212)n0;

@@ -1,0 +1,1 @@
+(setaria_italica_Seita.7G266600:0.30041,(oropetium_thomaeum_Oropetium_20150105_03720A:0.65267,(oropetium_thomaeum_Oropetium_20150105_11261A:0.00055,oropetium_thomaeum_Oropetium_20150105_11259A:0.00055)n2:0.36352)n1:0.30041)n0;

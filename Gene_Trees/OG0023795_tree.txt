@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz06g06160:0.37756,(chlamydomonas_reinhardtii_Cre02.g091650_4532:0.12752,chlamydomonas_incerta_Chincg08175:0.20238)n2:0.42652)n1:0.15858,(myrmecia_bisecta_Mybis.KAK9828749:0.26298,(asterochloris_glomerata_Astgl_g7673:0.22915,trebouxia_sp_FRX49_09995:0.2556)n4:0.17062)n3:0.15858)n0;

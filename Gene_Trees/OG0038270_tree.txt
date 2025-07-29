@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr4g820:0.66578,(phaeomegaceros_chiloensis_Phchi.S1G242600:0.2905,(megaceros_flagellaris_Mefla.S1G650900:0.09336,phaeoceros_sp_Phsp.C2G181000:0.8448)n2:0.08957)n1:0.66578)n0;

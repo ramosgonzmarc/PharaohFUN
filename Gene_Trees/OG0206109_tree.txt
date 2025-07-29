@@ -1,0 +1,1 @@
+((schrenkiella_parvula_Scpar7g11090:0.51394,(schrenkiella_parvula_Scpar6g11210:0.04013,schrenkiella_parvula_Scpar1g31100:0.46979)n2:0.17117)n1:0.5893,(brassica_oleracea_Bol041458:0.2469,(brassica_oleracea_Bol035868:0.05776,(brassica_oleracea_Bol041354:0.0601,brassica_oleracea_Bol031990:0.02928)n5:0.00054)n4:0.10627)n3:0.5893)n0;

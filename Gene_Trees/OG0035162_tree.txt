@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3263601:0.0715,cymbomonas_tetramitiformis_KAK3283201:0.13425)n1:0.301155,(scenedesmus_obliquus_Sobl_g04429:0.94192,(myrmecia_bisecta_Mybis.KAK9808912:0.99798,myrmecia_bisecta_Mybis.KAK9808627:0.820971)n3:0.091219)n2:0.08702)n0;

@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr10g408:0,isoetes_sinensis_IsiChr10g406:0)n1:0.31968,(adiantum_capillus_Adc03852:0.45485,(salvinia_cucullata_Sacu_s0936.g027854:0.13546,azolla_filiculoides_Azfi_s0003.g007753:0.56822)n3:0.1945)n2:0.31968)n0;

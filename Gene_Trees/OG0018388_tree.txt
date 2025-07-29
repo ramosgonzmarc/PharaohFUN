@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr9g456:0.529605,(((taxus_chinensis_KI387_040117:0.00195,taxus_chinensis_KI387_043714:0.1311)n3:0.02868,(taxus_chinensis_KI387_041388:0.04814,taxus_chinensis_KI387_024463:0.21545)n4:0.08928)n2:0.61512,(picea_abies_Pab_10346860g0010:0.042,(picea_abies_Pab_8565g0010:0.24447,picea_abies_Pab_78038g0010:0.12319)n6:0.0306)n5:0.66458)n1:0.529605)n0;

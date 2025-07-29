@@ -1,0 +1,1 @@
+(brassica_oleracea_Bol042822:0.269395,(picea_abies_Pab_7686836g0010:0.17757,(thuja_plicata_Thupl.29379793s0008:0.11065,thuja_plicata_Thupl.29379023s0014:0.88959)n2:0.2839)n1:0.269395)n0;

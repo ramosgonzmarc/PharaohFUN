@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc07g025110:0.2563,saponaria_officinalis_Sapof.02G215400:0.89765)n1:0.076735,(chenopodium_quinoa_AUR62044117:1.28706,vaccinium_darrowii_Vadar_g31267:0.71978)n2:0.076735)n0;

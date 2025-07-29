@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.08810:0.375275,(haematococcus_lacustris_QJQ45_023671:0.14942,(haematococcus_lacustris_QJQ45_023903:0.01479,(haematococcus_lacustris_QJQ45_023654:0.0311,haematococcus_lacustris_QJQ45_019890:0.03472)n3:0.01118)n2:0.23208)n1:0.375275)n0;

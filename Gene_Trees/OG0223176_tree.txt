@@ -1,0 +1,1 @@
+(picea_abies_Pab_10269897g0010:0.17292,(picea_abies_Pab_7861696g0010:0.14706,(picea_abies_Pab_3974050g0010:0.09189,picea_abies_Pab_127704g0010:0.22524)n2:0.02028)n1:0.17292)n0;

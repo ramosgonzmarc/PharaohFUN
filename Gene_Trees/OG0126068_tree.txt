@@ -1,0 +1,1 @@
+((glycine_max_Glyma.06G224900:0.0219,(vigna_unguiculata_VigunL048080:0,vigna_unguiculata_VigunL050001:0)n2:0.04966)n1:0.11892,(arachis_hypogaea_arahy_QER9M9:0.00776,(arachis_hypogaea_arahy_KA0YEF:0.00269,arachis_hypogaea_arahy_MHL9FJ:0.01278)n4:0.01262)n3:0.11892)n0;

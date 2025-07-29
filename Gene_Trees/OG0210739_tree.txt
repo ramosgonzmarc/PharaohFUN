@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_EQS1ID:0.639455,((trifolium_pratense_Trpra.24221:0.55797,trifolium_pratense_Trpra.33617:0.2729)n2:0.14415,(trifolium_pratense_Trpra.24212:0.10456,(trifolium_pratense_Trpra.14306:0.00054,trifolium_pratense_Trpra.14302:0.01378)n4:0.38982)n3:0.51977)n1:0.639455)n0;

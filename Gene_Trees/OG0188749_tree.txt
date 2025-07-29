@@ -1,0 +1,1 @@
+((phymatoceros_phymatodes_Phphy.S3G066600:0.56045,((azolla_filiculoides_Azfi_s0132.g049237:1.08258,takakia_lepidozioides_Tle2c06976:0.20289)n3:0.0439,azolla_filiculoides_Azfi_s0801.g087540:0.320112)n2:0.035568)n1:0.04167,gossypium_hirsutum_Gohir.A01G108650:0.74459)n0;

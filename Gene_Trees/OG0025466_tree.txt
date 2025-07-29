@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA03G0251:0.00746,huperzia_asiatica_HaB03G0794:0.0053)n1:0.132685,((diphasiastrum_complanatum_Dicom.12G091300:0.09094,(diphasiastrum_complanatum_Dicom.12G091200:0.00054,diphasiastrum_complanatum_Dicom.Y022200:0.00735)n4:0.06639)n3:0.11374,(lycopodium_clavatum_Lcl_0001573:0.2549,lycopodium_clavatum_Lcl_0016020:0.134793)n5:0.014977)n2:0.30349)n0;

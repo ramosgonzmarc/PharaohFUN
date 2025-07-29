@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B340508:0.25676,((arachis_hypogaea_arahy_XJ773B:0.11438,arachis_hypogaea_arahy_22APIL:0.00053)n2:0.48981,(trifolium_pratense_Trpra.41813:0.47057,(glycine_max_Glyma.08G323500:0.04231,glycine_max_Glyma.14G118000:0.217989)n4:0.024221)n3:1.44586)n1:0.35276)n0;

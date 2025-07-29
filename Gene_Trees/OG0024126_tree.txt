@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.16G063900:0.51033,(((diphasiastrum_complanatum_Dicom.08G003700:0,diphasiastrum_complanatum_Dicom.08G003500:0)n4:0.20288,huperzia_asiatica_HaB21G0671:0.13521)n3:0.20305,huperzia_asiatica_HaA62G0287:0.472311)n2:0.052479)n1:0.01701,(marsilea_vestita_Mvestita_S11g13417:0.6675,sequoiadendron_giganteum_SEGI_13719:1.04489)n5:0.03828)n0;

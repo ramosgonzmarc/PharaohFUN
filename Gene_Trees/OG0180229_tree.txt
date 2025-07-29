@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc04g053147:0.02675,solanum_tuberosum_Soltu.04G022930:0.04753)n1:0.793985,(carya_illinoinensis_Caril.03G128800:0.07677,quercus_rubra_Qurub.06G115800:0.33003)n2:0.793985)n0;

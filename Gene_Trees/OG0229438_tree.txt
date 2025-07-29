@@ -1,0 +1,1 @@
+((phymatoceros_phymatodes_Phphy.S1G666100:0.23564,(phymatoceros_phymatodes_Phphy.S1G674500:0.11592,phymatoceros_phymatodes_Phphy.S4G279200:0.00053)n2:0.39573)n1:0.167305,(paraphymatoceros_pearsonii_Papea.S1G934100:0.31268,(notothylas_orbicularis_Noorb.S1G087700:1.08771,notothylas_orbicularis_Noorb.S1G577300:0.65436)n4:0.34414)n3:0.167305)n0;

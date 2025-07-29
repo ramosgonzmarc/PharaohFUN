@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene66227:0.072985,(abies_alba_AALBA5B548450:0.00055,(abies_alba_AALBA5B1006901:0.13508,abies_alba_AALBA5B221353:0.27329)n2:0.03541)n1:0.072985)n0;

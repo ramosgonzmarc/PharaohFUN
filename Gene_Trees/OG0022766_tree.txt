@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00211g030:0.622155,(ginkgo_biloba_Gb_09489:0.37417,(abies_alba_AALBA5B717608:0.0123,abies_alba_AALBA5B830306:0.00055)n2:0.2062)n1:0.622155)n0;

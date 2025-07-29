@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.A09G158733:0.08288,(solanum_lycopersicum_Solyc06g005340:0.27833,(olea_europaea_Oeu042959:0.00586,olea_europaea_Oeu026491:0.12848)n2:0.20121)n1:0.08288)n0;

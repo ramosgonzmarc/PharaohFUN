@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.S3G017900:0.474865,(isoetes_sinensis_IsiChr11g2946:0.00055,(isoetes_sinensis_IsiChr19g4063:0.00657,isoetes_sinensis_IsiChr18g18:0.00657)n2:0.02393)n1:0.474865)n0;

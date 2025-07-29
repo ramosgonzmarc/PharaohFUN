@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF44271:0.80255,(gracilariopsis_chorda_PXF44312:0.02326,gracilariopsis_chorda_PXF44272:0.105)n2:0.93344)n1:0.4819,(ceratopteris_richardii_Ceric.1Z112200:0.58408,adiantum_capillus_Adc23739:0.47928)n3:0.4819)n0;

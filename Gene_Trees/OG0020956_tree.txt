@@ -1,0 +1,1 @@
+((diphasiastrum_complanatum_Dicom.Y383800:0.47193,lycopodium_clavatum_Lcl_0024975:0.26679)n1:0.038,(lycopodium_clavatum_Lcl_0020777:0.55903,((diphasiastrum_complanatum_Dicom.03G111200:0,diphasiastrum_complanatum_Dicom.03G111300:0)n4:0.00055,diphasiastrum_complanatum_Dicom.03G111100:0.00055)n3:0.36512)n2:0.038)n0;

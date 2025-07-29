@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00007241:0.346425,(desmodesmus_armatus_Desar.284081:0.728,(isoetes_sinensis_IsiChr13g3234:0.65928,gonium_pectorale_Gopec.13884:0.64889)n2:0.07027)n1:0.346425)n0;

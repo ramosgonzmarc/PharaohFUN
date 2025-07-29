@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00237_0190:0.711935,((tetraselmis_striata_TSEL_037628:0.52536,tetraselmis_striata_TSEL_042885:0.37878)n2:0.39894,(tetraselmis_striata_TSEL_038624:0.67589,tetraselmis_striata_TSEL_000809:0.52479)n3:0.20553)n1:0.711935)n0;

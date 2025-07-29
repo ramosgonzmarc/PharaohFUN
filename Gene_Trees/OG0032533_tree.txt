@@ -1,0 +1,1 @@
+((picea_abies_Pab_422961g0010:0.69501,populus_trichocarpa_Potri.015G142100:0.77235)n1:0.05464,(marsilea_vestita_Mvestita_C78g20069:0.45218,(ceratopteris_richardii_Ceric.07G091100:0.0014,ceratopteris_richardii_Ceric.07G091200:0.0047)n3:0.69148)n2:0.05464)n0;

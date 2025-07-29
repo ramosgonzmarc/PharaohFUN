@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9837726:0.367145,(linum_usitatissimum_Lus10034537:1.00376,(spirogloea_muscicola_SM000058S18541:0.0506,spirogloea_muscicola_SM000155S01647:0.07307)n2:0.64864)n1:0.367145)n0;

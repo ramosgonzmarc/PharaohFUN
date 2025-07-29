@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_206341:0.1224,(prunus_persica_Prupe.5G034800:0.57592,(vitis_vinifera_VIT_202s0012g01350:0.24626,((carya_illinoinensis_Caril.11G091700:0.18502,corylus_avellana_Corav.g13143:0.12635)n4:0.09995,(lotus_japonicus_Lj2g0020441:0.28081,theobroma_cacao_Thecc1EG015708:0.2734)n5:0.03289)n3:0.05046)n2:0.10263)n1:0.1224)n0;

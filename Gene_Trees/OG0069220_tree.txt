@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe3G166800:0.52391,(chenopodium_quinoa_AUR62038937:0.38583,(amaranthus_hypochondriacus_AH020801:0.091,amaranthus_hypochondriacus_AH010121:0.01447)n2:0.2177)n1:0.52391)n0;

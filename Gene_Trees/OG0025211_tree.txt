@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3255562:0.00614,cymbomonas_tetramitiformis_KAK3255563:0.05711)n1:0.561895,(huperzia_asiatica_HaB08G0659:0.94432,(isoetes_sinensis_IsiChr12g673:0.00054,(riccia_sorocarpa_Risor.KAL3681098:0.27789,riccia_sorocarpa_Risor.KAL3692994:0.05477)n4:0.484)n3:0.37136)n2:0.561895)n0;

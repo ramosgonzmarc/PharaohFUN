@@ -1,0 +1,1 @@
+((olea_europaea_Oeu008592:0.32258,solanum_lycopersicum_Solyc07g019500:0.00054)n1:0.283605,(daucus_carota_DCAR_100171:0.00055,(daucus_carota_DCAR_521088:0.28935,daucus_carota_DCAR_100162:0.09682)n3:0.06461)n2:0.283605)n0;

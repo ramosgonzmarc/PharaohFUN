@@ -1,0 +1,1 @@
+((takakia_lepidozioides_Tle4c03938:0.20936,(huperzia_asiatica_HaA66G0366:0.91459,(sequoia_sempervirens_SESE_137232:0.11721,sequoia_sempervirens_SESE_130164:0.12071)n3:0.38227)n2:0.18162)n1:0.03615,(phaeoceros_carolinianus_Phcar.S2G194600:1.06064,(asparagus_officinalis_AsparagusV1_04.1465:0.44014,citrus_sinensis_Cisin.048799:0.57064)n5:0.07589)n4:0.03615)n0;

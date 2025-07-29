@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g21500:0.320305,(lactuca_sativa_Lsat_gn_9_33980:1.20223,(daucus_carota_DCAR_518961:0.63845,((daucus_carota_DCAR_206914:0.0234,daucus_carota_DCAR_206910:0.00052)n4:0.11799,(daucus_carota_DCAR_206912:0.00987,(daucus_carota_DCAR_206911:0.00889,daucus_carota_DCAR_206915:0.00298)n6:0.01113)n5:0.06415)n3:0.36622)n2:0.67759)n1:0.320305)n0;

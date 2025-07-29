@@ -1,0 +1,1 @@
+((sequoiadendron_giganteum_SEGI_35481:0.32664,(oropetium_thomaeum_Oropetium_20150105_12782A:1.03971,(lens_culinaris_Lecul.7g076980:0.04174,lens_culinaris_Lecul.7g076930:0.03768)n3:0.73329)n2:0.2328)n1:0.026145,(trifolium_pratense_Trpra.01331:0.38264,(cycas_panzhihuaensis_CYCAS_030824:0.02787,cycas_panzhihuaensis_CYCAS_030825:0.02979)n5:0.35964)n4:0.026145)n0;

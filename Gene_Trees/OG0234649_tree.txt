@@ -1,0 +1,1 @@
+(monoraphidium_minutum_Momin.017272:0.212015,(monoraphidium_minutum_Momin.422443:0.83451,(monoraphidium_minutum_Momin.235312:0.29396,monoraphidium_minutum_Momin.447295:0.15594)n2:0.2637)n1:0.212015)n0;

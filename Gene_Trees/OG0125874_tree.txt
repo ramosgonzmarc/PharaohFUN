@@ -1,0 +1,1 @@
+(thlaspi_arvense_TaMN106.3G145000:0.65799,(glycine_max_Glyma.14G125200:0.02818,((phaseolus_acutifolius_Phacu.001G054100:0.02765,vigna_unguiculata_Vigun08g057000:0.03736)n3:0.05545,(phaseolus_acutifolius_Phacu.001G054000:0.11293,(vigna_unguiculata_Vigun08g056800:0.09206,vigna_unguiculata_Vigun08g056900:0.063027)n5:0.007003)n4:0.05618)n2:0.12859)n1:0.65799)n0;

@@ -1,0 +1,1 @@
+(sisymbrium_irio_Siiris2377g00010:0.115165,((arabidopsis_thaliana_AT2G07701:0,arabidopsis_thaliana_ATMG01150:0,arabidopsis_thaliana_ATMG00430:0)n2:0.00055,capsella_grandiflora_Cagra.11254s0001:0.02137)n1:0.115165)n0;

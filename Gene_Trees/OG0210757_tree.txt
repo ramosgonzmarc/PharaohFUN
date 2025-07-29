@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10024341:0.392735,((medicago_truncatula_Medtr0648s0020:0.42722,trifolium_pratense_Trpra.26515:0.59999)n2:0.44813,(corylus_avellana_Corav.g33730:1.09656,(carya_illinoinensis_Caril.04G154300:0.28845,quercus_rubra_Qurub.02G106600:0.22343)n4:0.00054)n3:0.24335)n1:0.392735)n0;

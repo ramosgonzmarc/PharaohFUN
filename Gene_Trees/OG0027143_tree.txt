@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle3c01875:0.21347,((sphagnum_magellanicum_Sphmag03G088100:0.00054,sphagnum_fallax_Sphfalx03G092400:0.01548)n2:0.38713,(physcomitrium_patens_Pp6c11_12590V6:0.28511,ceratodon_purpureus_CepurR40.VG263000:0.26976)n3:0.41212)n1:0.21347)n0;

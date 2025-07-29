@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.034756:0.262135,(gossypium_hirsutum_Gohir.D05G232500:0,(gossypium_raimondii_Gorai.009G240800:0.10252,gossypium_raimondii_Gorai.009G240700:0)n2:0)n1:0.21852)n0;

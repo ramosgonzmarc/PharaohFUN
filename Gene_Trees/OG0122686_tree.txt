@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_17739:0.234,(miscanthus_sinensis_Misin07G129100:0.06373,(miscanthus_sinensis_Misin08G293900:0.01613,miscanthus_sinensis_Misin02G261100:0.00055)n2:0.00305)n1:0.234)n0;

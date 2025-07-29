@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe7G220800:0.359825,(sequoia_sempervirens_SESE_132756:0.32506,(ginkgo_biloba_Gb_37652:0.55634,(ginkgo_biloba_Gb_07448:0.52492,(ginkgo_biloba_Gb_31100:0.00055,ginkgo_biloba_Gb_31105:0.29098)n4:0.48166)n3:0.33187)n2:0.53715)n1:0.359825)n0;

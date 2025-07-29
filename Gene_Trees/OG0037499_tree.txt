@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0352.g066621:0.6147,lens_culinaris_Lecul.7g021060:1.04998)n1:0.272445,(isoetes_sinensis_IsiChr7g4104:0.00974,isoetes_sinensis_IsiChr8g3936:0.00053)n2:0.272445)n0;

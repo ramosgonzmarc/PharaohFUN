@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_CmerSOOS_G2991:0.13531,(cyanidioschyzon_merolae_CmerSOOS_G2990:0.2072,(cyanidioschyzon_merolae_CmerSOOS_G2988:0.65137,cyanidioschyzon_merolae_CmerSOOS_G2974:0.84777)n2:0.19706)n1:0.13531)n0;

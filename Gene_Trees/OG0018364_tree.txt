@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_17921:0.528165,((isoetes_sinensis_IsiChr14g796:0.01139,isoetes_sinensis_IsiChr13g114:0.00055)n2:0.2688,(isoetes_sinensis_IsiChr1g2560:0.52594,isoetes_sinensis_IsiChr9g3224:0.00995)n3:0.16296)n1:0.528165)n0;

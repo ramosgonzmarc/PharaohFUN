@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00110_0310:0.330035,((spirogloea_muscicola_SM000402S15220:0.12976,spirogloea_muscicola_SM000429S16080:0.10412)n2:0.50464,(mesotaenium_endlicherianum_ME000013S00868:0.75429,mesotaenium_kramstae_Mekra.2797703:0.42166)n3:0.58029)n1:0.330035)n0;

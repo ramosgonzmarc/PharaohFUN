@@ -1,0 +1,1 @@
+(kalanchoe_fedtschenkoi_Kaladp0824s0022:0.43086,((sequoiadendron_giganteum_SEGI_09399:0,sequoiadendron_giganteum_SEGI_13210:0)n2:0.69696,(ginkgo_biloba_Gb_26661:0.11999,ginkgo_biloba_Gb_07486:0.21211)n3:0.01149)n1:0.43086)n0;

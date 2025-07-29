@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_XM_007514377:0.67036,micromonas_commoda_Micom.058628:0.50147)n1:0.173335,(cymbomonas_tetramitiformis_KAK3265425:0.55635,(cymbomonas_tetramitiformis_KAK3258657:0.72074,(cymbomonas_tetramitiformis_KAK3273025:0.50003,(cymbomonas_tetramitiformis_KAK3273816:0.31527,cymbomonas_tetramitiformis_KAK3277361:0.57739)n5:0.11957)n4:0.34531)n3:0.99469)n2:0.173335)n0;

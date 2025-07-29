@@ -1,0 +1,1 @@
+((picea_abies_Pab_49129g0010:0.09152,(corymbia_citriodora_Cocit.F2511:0.98597,sequoia_sempervirens_SESE_065728:0.31243)n2:0.11822)n1:0.147345,(isoetes_sinensis_IsiChr3g3397:0.06578,(huperzia_asiatica_HaA52G0305:0.04833,huperzia_asiatica_HaB17G0212:0.05503)n4:0.0063)n3:0.147345)n0;

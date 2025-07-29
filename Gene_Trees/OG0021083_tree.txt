@@ -1,0 +1,1 @@
+((megaceros_flagellaris_Mefla.S1G595000:0.28376,(sphagnum_magellanicum_Sphmag11G055200:0.06765,sphagnum_fallax_Sphfalx11G052500:0.02757)n2:0.44166)n1:0.45134,(ginkgo_biloba_Gb_09008:0.02158,ginkgo_biloba_Gb_01159:0.01841)n3:0.45134)n0;

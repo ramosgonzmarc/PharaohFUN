@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin16G056200:0.277705,(eucalyptus_grandis_Eucgr.H02648:0.84393,(solanum_lycopersicum_Solyc01g079700:0.33416,carica_papaya_Capac.c45714g001:0.50205)n2:0.42514)n1:0.277705)n0;

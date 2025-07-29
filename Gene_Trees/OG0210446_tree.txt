@@ -1,0 +1,1 @@
+((cucumis_sativus_Cucsa.c399780g01:0.41634,cucumis_sativus_Cucsa.c328850g01:0.09243)n1:0.02894,((lotus_japonicus_Lj5g0010546:0,lotus_japonicus_LjContig00006g0002090:0,lotus_japonicus_Lj2g0006924:0,lotus_japonicus_Lj6g0009622:0,lotus_japonicus_Lj6g0012831:0)n3:0.49937,(arachis_hypogaea_arahy_IRG5VS:0.02575,arachis_hypogaea_arahy_GR42S7:0.011421)n4:0.001269)n2:0.00356)n0;

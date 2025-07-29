@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF43823:0.57972,((mesostigma_viride1140_Mesvi467S09477:0.02803,mesostigma_viride296_Mevir.Mv22041:0.15764)n2:0.5173,(chlorokybus_atmophyticus_Chrsp57S06842:0.96089,chlorokybus_atmophyticus_Chrsp145S02205:0.76791)n3:0.08494)n1:0.57972)n0;

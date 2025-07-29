@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00028_0450:0.319185,(aegilops_tauschii_Atau_XP_020195356:0.26284,((panicum_hallii_Pahal.1G371600:0.39281,sorghum_bicolor_Sobic.004G260900:0.3673)n3:0.31589,(brachypodium_distachyon_Bradi2g23136:0.49706,(oryza_sativa_Os09g03500:0.97014,oryza_sativa_Os02g48500:0.429885)n5:0.047765)n4:0.39189)n2:0.34783)n1:0.319185)n0;

@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_29762:0.228305,(malus_domestica_MD15G1379000:0.19208,(citrus_sinensis_Cisin.047457:0.79549,citrus_sinensis_Cisin.039773:0.337158)n2:0.037462)n1:0.15631)n0;

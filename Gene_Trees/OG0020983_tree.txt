@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0049s00033:0.495705,(selaginella_moellendorffii_Smoe_98255:0.00054,(selaginella_moellendorffii_Smoe_98413:0.01451,selaginella_moellendorffii_Smoe_423152:0.05403)n2:0.03288)n1:0.495705)n0;

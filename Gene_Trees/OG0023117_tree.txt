@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene13551:0.654995,((marchantia_polymorpha_Mp7g15480:0.06567,marchantia_paleacea_Mapa_016172:0.0499)n2:0.27116,(riccia_fluitans_R1flu_024871:0.14545,riccia_sorocarpa_Risor.KAL3679893:0.22795)n3:0.09372)n1:0.654995)n0;

@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C2G076800:0.64922,(isoetes_sinensis_IsiChr5g1541:0.00055,(thuja_plicata_Thupl.29363199s0001:0.75134,(vitis_vinifera_VIT_210s0042g00310:0.03338,(vitis_vinifera_VIT_219s0027g00046:0.01094,vitis_vinifera_VIT_218s0075g00100:0.00055)n4:0.0093)n3:0.45794)n2:0.35856)n1:0.64922)n0;

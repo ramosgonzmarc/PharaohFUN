@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene15709:0.16465,(sisymbrium_irio_Siiris156g00020:1.04462,(chenopodium_quinoa_AUR62042781:0.25351,nymphaea_colorata_Nycol.M00887:0.34087)n2:0.69427)n1:0.16465)n0;

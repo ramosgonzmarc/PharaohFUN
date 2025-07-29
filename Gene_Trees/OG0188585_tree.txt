@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle2c03690:0.113375,(huperzia_asiatica_HaB56G0091:0.58009,(azolla_filiculoides_Azfi_s0054.g033830:0.79091,(gnetum_montanum_TnS000956069t03:0.74047,medicago_truncatula_Medtr5g025940:0.89083)n3:0.31878)n2:0.10796)n1:0.113375)n0;

@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.033459:0.00055,coffea_arabica_Coara.036412:0.02677)n1:0.512015,(saponaria_officinalis_Sapof.14G030200:0.49095,(beta_vulgaris_Bevul.3G152700:0.75665,amaranthus_hypochondriacus_AH020171:0.38012)n3:0.30354)n2:0.512015)n0;

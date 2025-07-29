@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_4g07411:0.543635,(manihot_esculenta_Manes.18G104166:0.22615,(manihot_esculenta_Manes.18G104132:0.08061,manihot_esculenta_Manes.18G104182:0.1082)n2:0.06442)n1:0.543635)n0;

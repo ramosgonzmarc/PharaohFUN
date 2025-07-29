@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH35640:0.694905,(trebouxia_sp_FRX49_05128:0.5749,(myrmecia_bisecta_Mybis.KAK9824265:0.51191,asterochloris_glomerata_Astgl_g6258:0.73061)n2:0.12754)n1:0.694905)n0;

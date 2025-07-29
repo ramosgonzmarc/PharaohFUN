@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.0597s0105:0.08542,(carica_papaya_Capac.c00008g287:0.30228,(brassica_oleracea_Bol028315:0.46629,brassica_oleracea_Bol013290:0.030699)n2:0.003411)n1:0.00054)n0;

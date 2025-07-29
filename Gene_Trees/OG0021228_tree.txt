@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv09139:0.65758,(isoetes_sinensis_IsiChr22g971:0.22952,(isoetes_sinensis_IsiChr21g2055:0.0063,(isoetes_sinensis_IsiChr22g2373:0.00055,isoetes_sinensis_IsiChr21g2056:0.01568)n3:0.05831)n2:0.14412)n1:0.65758)n0;

@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpAzora_G42:0.00812,(galdieria_sulphuraria_GsulpAzora_G3077:0.02453,(galdieria_sulphuraria_GsulpAzora_G253:0.01392,galdieria_sulphuraria_GsulpAzora_G2108:1.88439)n2:0.01871)n1:0.00812)n0;

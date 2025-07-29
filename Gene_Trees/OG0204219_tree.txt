@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62013275:0.49895,(sequoia_sempervirens_SESE_060629:0.36882,(welwitschia_mirabilis_Wmi_18594:0.65433,(gnetum_montanum_TnS000176351t01:0.00055,gnetum_montanum_TnS000880731t01:0.00055)n3:0.48487)n2:0.15548)n1:0.49895)n0;

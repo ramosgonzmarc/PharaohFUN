@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.G02916:0.60593,(asparagus_officinalis_AsparagusV1_07.1896:0.62476,triticum_aestivum_TraesCS5D03G1042700:0.07516)n2:0.16447)n1:0.06663,(ananas_comosus_Aco019943:0.15135,linum_usitatissimum_Lus10025164:1.05409)n3:0.06663)n0;

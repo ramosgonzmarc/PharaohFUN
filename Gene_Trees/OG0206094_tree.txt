@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0003s2023:0.840605,((eutrema_salsugineum_Thhalv10028201m:0.0387,eutrema_salsugineum_Thhalv10029417m:0.16934)n2:0.00563,(arabidopsis_lyrata_Arlyr.AL7G47620:0.33073,(gossypium_hirsutum_Gohir.D03G018166:1.19661,(boechera_stricta_Bostr.23515s0001:0.20445,brassica_rapa_Brara.B01424:0.26927)n5:0.44849)n4:0.16122)n3:0.15826)n1:0.840605)n0;

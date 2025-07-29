@@ -1,0 +1,1 @@
+(setaria_italica_Seita.9G427000:0.23945,(miscanthus_sinensis_Misin17G156300:0.00055,((miscanthus_sinensis_Misin15G194500:0.00055,miscanthus_sinensis_Misin13G126000:0.01866)n3:0.53357,(miscanthus_sinensis_Misin13G127300:0.25116,miscanthus_sinensis_Misin07G311900:0.11999)n4:0.00056)n2:1.08989)n1:0.23945)n0;

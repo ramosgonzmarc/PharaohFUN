@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_UNPLg00405:0,chromochloris_zofingiensis_UNPLg00374:0)n1:0.50504,(chlamydomonas_incerta_Chincg10626:0.67136,(tetrabaena_socialis_Tesoc.PNH12572:0.1601,(tetrabaena_socialis_Tesoc.PNH00919:0.00964,tetrabaena_socialis_Tesoc.PNH01356:0.00515)n4:0.09933)n3:0.57133)n2:0.50504)n0;

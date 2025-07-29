@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc09929:0.20184,((abies_alba_AALBA5B861993:0.09662,abies_alba_AALBA5B967323:0.023)n2:0.02972,(picea_abies_Pab_187587g0010:0.59049,picea_abies_Pab_4675713g0010:0.16239)n3:0.00906)n1:0.20184)n0;

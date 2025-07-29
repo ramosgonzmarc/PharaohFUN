@@ -1,0 +1,1 @@
+(arabidopsis_lyrata_Arlyr.AL364U10020:0.549495,(picea_abies_Pab_8645729g0010:0.00055,(abies_alba_AALBA5B545454:1.08422,abies_alba_AALBA5B942930:0.00826)n2:0.24977)n1:0.549495)n0;

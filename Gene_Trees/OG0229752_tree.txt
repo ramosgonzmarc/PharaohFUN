@@ -1,0 +1,1 @@
+(paraphymatoceros_pearsonii_Papea.S1G146400:0.19509,(phaeoceros_sp_Phsp.C3G098100:0.06999,(phaeoceros_carolinianus_Phcar.S3G257800:0.52411,phaeoceros_carolinianus_Phcar.S3G306000:0.022563)n2:0.002507)n1:0.11803)n0;

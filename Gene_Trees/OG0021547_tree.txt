@@ -1,0 +1,1 @@
+(asparagus_officinalis_AsparagusV1_07.2011:0.336025,(vitis_vinifera_VIT_218s0001g03440:0.56987,(olea_europaea_Oeu019683:0.05757,(olea_europaea_Oeu019684:0.02473,olea_europaea_Oeu019685:0.00055)n3:0.01213)n2:0.38694)n1:0.336025)n0;

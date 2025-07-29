@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AnagrOXF.S1G216500:0.0583,anthoceros_agrestis_AnagrOXF.S2G459500:0.03296)n1:0.13797,((phaeoceros_sp_Phsp.C25G001900:0.02307,phaeoceros_sp_Phsp.C4G033000:0.12702)n3:0.9793,(megaceros_flagellaris_Mefla.S3G448900:0.36808,(phymatoceros_phymatodes_Phphy.S3G107300:0.12197,phymatoceros_phymatodes_Phphy.S2G691600:0.210168)n5:0.023352)n4:0.15517)n2:0.38888)n0;

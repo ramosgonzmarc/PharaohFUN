@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S1G580500:0.27938,(phaeoceros_sp_Phsp.C14G045500:0.32212,(megaceros_flagellaris_Mefla.S2G167500:0.4446,phaeomegaceros_chiloensis_Phchi.S1G292100:0.1106)n2:0.16803)n1:0.27938)n0;

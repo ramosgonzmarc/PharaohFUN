@@ -1,0 +1,1 @@
+(cucumis_sativus_Cucsa.c040370g01:0.609265,(fragaria_vesca_FvH4_6g24054:0.81072,(fragaria_vesca_FvH4_2g00083:0.0327,fragaria_vesca_FvH4_3g31632:0.15479)n2:0.32378)n1:0.609265)n0;

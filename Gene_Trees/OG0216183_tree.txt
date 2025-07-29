@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.053417:0.398975,((saponaria_officinalis_Sapof.07G204000:0.04489,saponaria_officinalis_Sapof.09G103900:0.07522)n2:0.7409,((chenopodium_quinoa_AUR62032649:0.00053,chenopodium_quinoa_AUR62030492:0.24812)n4:1.11959,chenopodium_quinoa_AUR62031236:0.384516)n3:0.042724)n1:0.39858)n0;

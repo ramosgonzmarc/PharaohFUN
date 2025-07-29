@@ -1,0 +1,1 @@
+(picea_abies_Pab_10377811g0010:0.453515,(takakia_lepidozioides_Tle1c03958:0.01894,(takakia_lepidozioides_Tle1c01986:0.24972,takakia_lepidozioides_Tle2c04380:0.24012)n2:0.10636)n1:0.453515)n0;

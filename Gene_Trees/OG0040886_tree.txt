@@ -1,0 +1,1 @@
+((triticum_aestivum_TraesCS4A03G0113000:0.04732,triticum_aestivum_TraesCS4B03G0668700:0.04149)n1:0.675965,(physcomitrium_patens_Pp6c1_11330V6:0.37081,physcomitrium_patens_Pp6c1_11360V6:0.23422)n2:0.675965)n0;

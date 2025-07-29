@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.09G205000:0.38711,((vitis_vinifera_VIT_200s0358g00010:0.00055,vitis_vinifera_VIT_207s0104g00030:0.03924)n2:0.13834,(vitis_vinifera_VIT_200s1057g00010:0.02145,(vitis_vinifera_VIT_200s0358g00020:0.01582,(vitis_vinifera_VIT_200s0193g00010:0.05515,vitis_vinifera_VIT_207s0104g00070:0.64141)n5:0.45317)n4:0.00053)n3:0.28099)n1:0.38711)n0;

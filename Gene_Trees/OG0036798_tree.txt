@@ -1,0 +1,1 @@
+(volvox_carteri_Vocar.0001s0274:0.122305,(fragaria_vesca_FvH4_5g05381:0.47637,(physcomitrium_patens_Pp6c11_1720V6:0.12491,(picea_abies_Pab_934975g0010:0.70073,ginkgo_biloba_Gb_07355:0.02834)n3:0.09261)n2:0.05361)n1:0.122305)n0;

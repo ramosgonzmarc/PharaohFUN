@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62018400:0.592935,(daucus_carota_DCAR_830641:0.2211,(daucus_carota_DCAR_311733:0.1663,(daucus_carota_DCAR_206319:0.03218,daucus_carota_DCAR_206316:0.00055)n3:0.57071)n2:0.0812)n1:0.592935)n0;

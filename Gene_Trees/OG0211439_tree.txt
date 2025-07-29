@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr01g0009721:0.076915,(lupinus_albus_Lalb_Chr01g0009701:0.03776,(lupinus_albus_Lalb_Chr01g0009711:0.05788,lupinus_albus_Lalb_Chr01g0009731:0.53238)n2:0.05089)n1:0.076915)n0;

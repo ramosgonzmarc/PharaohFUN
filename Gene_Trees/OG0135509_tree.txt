@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g44884:0.209985,((malus_domestica_MD17G1125300:0.25721,prunus_persica_Prupe.1G055700:0.51181)n2:0.0703,(trifolium_pratense_Trpra.41757:0.58771,(fragaria_vesca_FvH4_6g39841:0.37309,(corylus_avellana_Corav.g16545:0.54104,poncirus_trifoliata_Ptrif.0006s2506:0.35782)n5:0.19868)n4:0.02924)n3:0.10109)n1:0.209985)n0;

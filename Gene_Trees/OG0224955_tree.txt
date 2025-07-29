@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene51058:0.51137,(ceratopteris_richardii_Ceric.15G053300:0.06745,ceratopteris_richardii_Ceric.15G052800:0.13483)n2:1.52917)n1:0.013505,(alsophila_spinulosa_Aspi01Gene46218:0.44189,ceratopteris_richardii_Ceric.15G072800:0.74911)n3:0.013505)n0;

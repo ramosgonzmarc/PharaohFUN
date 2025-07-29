@@ -1,0 +1,1 @@
+(capsella_grandiflora_Cagra.0402s0081:0.347995,((brassica_oleracea_Bol032513:0.15341,(brassica_oleracea_Bol028566:0.74806,brassica_oleracea_Bol015185:0.31757)n3:0.02633)n2:0.42795,(brassica_oleracea_Bol030739:0.26974,brassica_oleracea_Bol030741:0.0961)n4:0.61639)n1:0.347995)n0;

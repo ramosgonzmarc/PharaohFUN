@@ -1,0 +1,1 @@
+(lens_culinaris_Lecul.6g039180:0.868505,(ginkgo_biloba_Gb_37469:1.0192,(ginkgo_biloba_Gb_26941:0.82394,(ginkgo_biloba_Gb_30278:0.05325,ginkgo_biloba_Gb_30279:0.04637)n3:0.5283)n2:0.36892)n1:0.868505)n0;

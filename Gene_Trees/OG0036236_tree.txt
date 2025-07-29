@@ -1,0 +1,1 @@
+((corymbia_citriodora_Cocit.G2255:0.01223,corymbia_citriodora_Cocit.D0177:0.00055)n1:0.164615,(eucalyptus_grandis_Eucgr.G01895:0.00055,eucalyptus_grandis_Eucgr.G00471:0.03181)n2:0.164615)n0;

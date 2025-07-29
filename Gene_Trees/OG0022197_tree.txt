@@ -1,0 +1,1 @@
+(chlamydomonas_incerta_Chincg10679:0.164365,(tetraselmis_striata_TSEL_040343:0.66635,(tetraselmis_striata_TSEL_034717:0.51827,(tetraselmis_striata_TSEL_006966:0.15666,tetraselmis_striata_TSEL_008825:0.12361)n3:0.24784)n2:0.97034)n1:0.164365)n0;

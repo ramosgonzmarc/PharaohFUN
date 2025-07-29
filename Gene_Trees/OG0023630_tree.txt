@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe2G325500:0.416785,(manihot_esculenta_Manes.05G072500:0.97419,(prunus_persica_Prupe.8G247000:0.81833,(vitis_vinifera_VIT_207s0104g00640:0.47619,vitis_vinifera_VIT_207s0104g00650:0.37236)n3:0.38115)n2:0.01884)n1:0.416785)n0;

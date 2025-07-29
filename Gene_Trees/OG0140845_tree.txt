@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.09792:0.45365,(paraphymatoceros_pearsonii_Papea.S1G788400:0.15768,(anthoceros_fusiformis_Anfus.S3G255600:0.30433,(megaceros_flagellaris_Mefla.S2G446200:0.08372,phaeomegaceros_chiloensis_Phchi.S1G701000:0.13824)n3:0.13954)n2:0.00054)n1:0.45365)n0;

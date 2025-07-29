@@ -1,0 +1,1 @@
+(glycine_max_Glyma.05G083550:0.41907,(lens_culinaris_Lecul.2g021580:0.85113,(medicago_truncatula_Medtr3g008990:0.48446,(medicago_truncatula_Medtr2g449760:0.42512,(medicago_truncatula_Medtr7g086540:0.19739,medicago_truncatula_Medtr1g052980:0.43698)n4:0.23369)n3:0.21953)n2:0.23371)n1:0.41907)n0;

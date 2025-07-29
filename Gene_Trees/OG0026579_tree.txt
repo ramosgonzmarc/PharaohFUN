@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM000122S25754:0.01582,spirogloea_muscicola_SM000017S02818:0.05017)n1:0.15526,(mesotaenium_endlicherianum_ME000246S04156:0.67805,((mesotaenium_kramstae_Mekra.2284302:0.8887,mesotaenium_kramstae_Mekra.3120514:0.59028)n4:0.79448,mesotaenium_kramstae_Mekra.3120516:0.89055)n3:0.09895)n2:0.12671)n0;

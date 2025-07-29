@@ -1,0 +1,1 @@
+((carya_illinoinensis_Caril.10G162200:0.78526,manihot_esculenta_Manes.09G114000:0.2778)n1:0.115775,(vigna_unguiculata_Vigun10g093750:1.07549,populus_trichocarpa_Potri.006G106300:0.79818)n2:0.115775)n0;

@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr12g0203581:0.44369,(arachis_hypogaea_arahy_PL6VNF:0.03387,(arachis_hypogaea_arahy_PFH739:0.02933,(arachis_hypogaea_arahy_E9WDF1:0.31321,(arachis_hypogaea_arahy_RJV3W7:0.00055,(arachis_hypogaea_arahy_X4R883:0.23007,arachis_hypogaea_arahy_02EUR6:0.24828)n5:0.02888)n4:0.00054)n3:0.05597)n2:0.00054)n1:0.44369)n0;

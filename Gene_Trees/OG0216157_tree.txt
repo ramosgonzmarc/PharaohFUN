@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH019426:0.08766,beta_vulgaris_Bevul.3G092900:0.09568)n1:0.03055,(solanum_tuberosum_Soltu.05G026760:0.16199,((coffea_arabica_Coara.053384:0.00053,coffea_arabica_Coara.057737:0.01619)n4:0.12069,mimulus_guttatus_Migut.K00305:0.18544)n3:0.08987)n2:0.03055)n0;

@@ -1,0 +1,1 @@
+((trebouxia_sp_FRX49_06804:0.13909,trebouxia_sp_FRX49_03266:0.03119)n1:0.28094,(myrmecia_bisecta_Mybis.KAK9806150:0.82191,myrmecia_bisecta_Mybis.KAK9823215:0.34149)n2:0.28094)n0;

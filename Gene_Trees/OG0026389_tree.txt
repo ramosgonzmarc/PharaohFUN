@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c15_12080V6:0.2113,(solanum_tuberosum_Soltu.10G015350:0.74104,(vitis_vinifera_VIT_212s0034g01625:0.74366,(malus_domestica_MD15G1261500:0.39191,daucus_carota_DCAR_415600:0.69416)n3:0.0962)n2:0.23238)n1:0.2113)n0;

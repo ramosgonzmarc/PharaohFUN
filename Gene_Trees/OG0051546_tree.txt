@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNG68772:0.434835,(abies_alba_AALBA5B535268:0.11239,(phaseolus_acutifolius_Phacu.L019670:0.97332,sequoia_sempervirens_SESE_079779:0.23648)n2:0.38631)n1:0.434835)n0;

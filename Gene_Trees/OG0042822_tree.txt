@@ -1,0 +1,1 @@
+(beta_vulgaris_Bevul.3G119100:0.848355,(solanum_tuberosum_Soltu.12G007230:0.68017,((solanum_lycopersicum_Solyc03g098680:0.0655,solanum_tuberosum_Soltu.03G018680:0.016)n3:0.38508,(solanum_lycopersicum_Solyc03g098720:0.26731,(solanum_tuberosum_Soltu.03G018500:0.90912,solanum_tuberosum_Soltu.03G018450:0.13077)n5:0.02819)n4:0.03363)n2:0.35457)n1:0.848355)n0;

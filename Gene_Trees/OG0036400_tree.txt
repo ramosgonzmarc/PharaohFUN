@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_36448:0.050405,(sequoiadendron_giganteum_SEGI_36792:0.76697,(sequoia_sempervirens_SESE_043340:0.67839,taxus_chinensis_KI387_006714:0.03285)n2:0.20862)n1:0.050405)n0;

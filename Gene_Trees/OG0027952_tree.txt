@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0363.g066925:0.495545,(takakia_lepidozioides_Tle1c07682:0.00056,(takakia_lepidozioides_Tle4c00196:0.024,takakia_lepidozioides_Tle4c00892:0.04652)n2:0.05925)n1:0.495545)n0;

@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_4g03500:0.35368,prunus_persica_Prupe.1G038000:0.26021)n1:0.4261,(salix_purpurea_Sapur.010G040400:0.24698,(salix_purpurea_Sapur.010G040600:0.06663,salix_purpurea_Sapur.010G040500:0.05692)n3:0.09681)n2:0.4261)n0;

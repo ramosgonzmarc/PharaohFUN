@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNH04755:0.242875,(volvox_carteri_Vocar.0001s0516:0.73955,(gonium_pectorale_Gopec.01730:0.50944,gonium_pectorale_Gopec.01734:0.342783)n2:0.038087)n1:0.207)n0;

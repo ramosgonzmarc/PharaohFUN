@@ -1,0 +1,1 @@
+(carya_illinoinensis_Caril.05G206700:0.16606,(carya_illinoinensis_Caril.05G250800:0.67366,(carya_illinoinensis_Caril.14G063800:0.05758,carya_illinoinensis_Caril.07G101700:0.04552)n2:0.36987)n1:0.16606)n0;

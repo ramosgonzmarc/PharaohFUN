@@ -1,0 +1,1 @@
+(paraphymatoceros_pearsonii_Papea.S4G237800:0.495615,(phaeomegaceros_chiloensis_Phchi.S5G143100:0.12445,(phaeomegaceros_chiloensis_Phchi.C121G000100:0.02485,phaeomegaceros_chiloensis_Phchi.S3G252600:0.00055)n2:0.0874)n1:0.495615)n0;

@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH35354:0.48804,(myrmecia_bisecta_Mybis.KAK9806787:0.18887,(elliptochloris_bilobata_Elbil.KAK9839231:0.19008,(chlorella_sorokiniana_Chlso_g4977:0.71376,apatococcus_lobatus_Aplob.KAK9822734:0.51663)n3:0.23314)n2:0.1844)n1:0.48804)n0;

@@ -1,0 +1,1 @@
+((triticum_aestivum_TraesCS5B03G0463800:0.01918,triticum_aestivum_TraesCS5D03G0432500:0.00054)n1:0.7023,(chromochloris_zofingiensis_Cz01g36200:0.11736,scenedesmus_obliquus_Sobl_g05527:0.79449)n2:0.7023)n0;

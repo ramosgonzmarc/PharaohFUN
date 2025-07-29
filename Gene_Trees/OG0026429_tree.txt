@@ -1,0 +1,1 @@
+(malus_domestica_MD17G1014300:0.526785,(panicum_hallii_Pahal.7G211800:0.10857,((ananas_comosus_Aco018891:0.23057,asparagus_officinalis_AsparagusV1_03.3183:0.54525)n3:0.2257,oryza_sativa_Os11g33990:0.89725)n2:0.12597)n1:0.526785)n0;

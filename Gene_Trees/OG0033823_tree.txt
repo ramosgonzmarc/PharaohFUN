@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_026685:0.471045,((coccomyxa_subellipsoidea_Cosub_53702:0.21505,coccomyxa_subellipsoidea_Cosub_47745:0.29138)n2:0.5808,(trebouxia_sp_FRX49_01482:0.51125,(myrmecia_bisecta_Mybis.KAK9817932:0.14251,myrmecia_bisecta_Mybis.KAK9818044:0.1653)n4:0.59132)n3:0.20453)n1:0.471045)n0;

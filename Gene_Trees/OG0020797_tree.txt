@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF43450:0.545355,(mesostigma_viride296_Mevir.Mv16481:0.72658,(bryopsis_sp_Bsp_GMH37198:0.92538,(micromonas_commoda_Micom.099323:0.90692,(micromonas_pusilla_Mpus_20210:0.47424,(cymbomonas_tetramitiformis_KAK3250571:0.00055,cymbomonas_tetramitiformis_KAK3250575:0.00055)n5:0.35347)n4:0.07044)n3:0.2746)n2:0.06539)n1:0.545355)n0;

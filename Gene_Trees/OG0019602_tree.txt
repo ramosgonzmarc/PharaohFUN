@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene44117:0.05515,(alsophila_spinulosa_Aspi01Gene28888:0.06313,(alsophila_spinulosa_Aspi01Gene54931:0.1467,alsophila_spinulosa_Aspi01Gene56124:0.02277)n3:0.12195)n2:0.606)n1:0.17595,(theobroma_cacao_Thecc1EG026078:0.76217,(sisymbrium_irio_Siiris1435g00010:0.57947,sisymbrium_irio_Siiris223g00020:0.666306)n5:0.074034)n4:0.16799)n0;

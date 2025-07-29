@@ -1,0 +1,1 @@
+(((brassica_oleracea_Bol020180:0.34569,brassica_oleracea_Bol028139:0.30492)n2:0.33158,(arabidopsis_lyrata_Arlyr.AL7G43700:0.81134,arabidopsis_lyrata_Arlyr.AL3G44690:0.961983)n3:0.106887)n1:0.08768,schrenkiella_parvula_Scpar4g06330:1.57901)n0;

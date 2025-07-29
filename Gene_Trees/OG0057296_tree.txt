@@ -1,0 +1,1 @@
+((eleusine_coracana_Elcor.9BG0713120:0.48613,eleusine_coracana_Elcor.6AG0507530:0.62519)n1:0.05515,(aegilops_tauschii_Atau_XP_045089173:0.43427,triticum_aestivum_TraesCS1B03G1094000:0.34869)n2:0.05515)n0;

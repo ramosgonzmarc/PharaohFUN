@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz13g10070:0.44621,raphidocelis_subcapitata_Rsub_08411:0.44624)n1:0.28467,(ostreobium_quekettii_CAD7700250:0.22861,(caulerpa_lentillifera_Caule_g3956:0.55869,bryopsis_sp_Bsp_GMH38151:0.40889)n3:0.11478)n2:0.28467)n0;

@@ -1,0 +1,1 @@
+(beta_vulgaris_Bevul.1G107800:0.40878,((lactuca_sativa_Lsat_gn_9_73380:0.18962,lactuca_sativa_Lsat_gn_9_73501:0.25566)n2:0.52537,(coffea_arabica_Coara.065158:0.52859,(daucus_carota_DCAR_103675:1.36517,mimulus_guttatus_Migut.H02321:0.421)n4:0.16897)n3:0.41081)n1:0.40878)n0;

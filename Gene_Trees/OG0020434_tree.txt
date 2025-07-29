@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00003061:0.25486,((cymbomonas_tetramitiformis_KAK3276158:0.58708,(myrmecia_bisecta_Mybis.KAK9811391:0.51876,pedinophyceae_sp_Pesp.9461111:0.6548)n3:0.44046)n2:0.1284,(chloropicon_primus_Chlpr_g6666:0.885,micromonas_pusilla_Mpus_53565:0.58364)n4:0.20918)n1:0.25486)n0;

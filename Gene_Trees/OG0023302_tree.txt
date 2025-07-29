@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00168_0110:0.74547,(adiantum_capillus_Adc25364:0.34162,(alsophila_spinulosa_Aspi01Gene69628:0.00749,alsophila_spinulosa_Aspi01Gene71838:0.45489)n2:0.25709)n1:0.74547)n0;

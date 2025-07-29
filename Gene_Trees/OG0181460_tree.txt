@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0006s2174:0.397505,((daucus_carota_DCAR_729933:0.07394,daucus_carota_DCAR_729934:0.10257)n2:0.65705,(coffea_arabica_Coara.044713:0.63471,(solanum_lycopersicum_Solyc06g069740:0.09341,(solanum_tuberosum_Soltu.06G025830:0.00055,solanum_tuberosum_Soltu.06G013340:0.108963)n5:0.012107)n4:0.02497)n3:0.16158)n1:0.397505)n0;

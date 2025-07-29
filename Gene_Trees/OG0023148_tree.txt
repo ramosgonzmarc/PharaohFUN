@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_001273:0.481545,(alsophila_spinulosa_Aspi01Gene70866:0.03784,(alsophila_spinulosa_Aspi01Gene21185:0.03698,alsophila_spinulosa_Aspi01Gene37375:0.15409)n2:0.06371)n1:0.481545)n0;

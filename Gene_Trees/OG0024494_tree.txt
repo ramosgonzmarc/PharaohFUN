@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_038239:0.324145,(chlorokybus_atmophyticus_Chrsp134S08686:0.31254,(mesostigma_viride1140_Mesvi954S08869:0.08414,mesostigma_viride296_Mevir.Mv15431:0.0715)n2:0.35507)n1:0.324145)n0;

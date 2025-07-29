@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.6G098100:0.19931,(manihot_esculenta_Manes.04G024000:0.44422,(populus_trichocarpa_Potri.014G035900:0.0636,salix_purpurea_Sapur.014G025800:0.18728)n2:0.33762)n1:0.19931)n0;

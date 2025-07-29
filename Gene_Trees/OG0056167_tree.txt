@@ -1,0 +1,1 @@
+(aegilops_tauschii_Atau_XP_020188265:0.25272,(setaria_italica_Seita.6G175000:0.87898,(miscanthus_sinensis_Misin05G188300:0.27415,zea_mays_Zm00001d044386:0.15864)n2:0.52337)n1:0.25272)n0;

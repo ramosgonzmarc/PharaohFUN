@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3261504:0.29885,(chloropicon_primus_Chlpr_g7551:0.79847,(tetraselmis_striata_TSEL_038836:0.36897,(tetraselmis_striata_TSEL_002220:0.14758,tetraselmis_striata_TSEL_038835:0.38961)n3:0.61922)n2:0.5736)n1:0.29885)n0;

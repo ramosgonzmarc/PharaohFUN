@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S4G313200:0.40922,(linum_usitatissimum_Lus10016450:0.64033,(cycas_panzhihuaensis_CYCAS_014220:0.22707,sequoia_sempervirens_SESE_091381:0.29458)n2:0.09207)n1:0.40922)n0;

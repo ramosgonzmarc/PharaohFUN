@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol006765:0.33621,((boechera_stricta_Bostr.9638s0007:0.51911,(arabidopsis_lyrata_Arlyr.AL7G50000:0.54809,arabidopsis_lyrata_Arlyr.AL7G50020:0.23794)n4:0.48216)n3:0.93896,(eutrema_salsugineum_Thhalv10027859m:0.64832,arabidopsis_lyrata_Arlyr.AL4G25090:0.23672)n5:0.06597)n2:0.00733)n1:0.05194,schrenkiella_parvula_Scpar7g02010:0.12659)n0;

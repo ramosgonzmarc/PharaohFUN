@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpAzora_G3370:0.57871,(ulva_mutabilis_UM071_0006:0.62461,(ulva_mutabilis_UM120_0020:0.32163,ulva_mutabilis_UM002_0012:0.71585)n2:0.25157)n1:0.57871)n0;

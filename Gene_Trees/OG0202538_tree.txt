@@ -1,0 +1,1 @@
+(kalanchoe_fedtschenkoi_Kaladp0008s0479:0.344945,(corylus_avellana_Corav.g18326:0.7887,(vitis_vinifera_VIT_204s0023g00660:0.54768,(linum_usitatissimum_Lus10033371:0.21974,linum_usitatissimum_Lus10042791:0.15517)n3:0.89488)n2:0.15234)n1:0.344945)n0;

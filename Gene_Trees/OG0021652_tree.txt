@@ -1,0 +1,1 @@
+(((panicum_hallii_Pahal.3G459400:0.64023,sorghum_bicolor_Sobic.009G252100:0.38383)n2:0.81791,(oryza_sativa_Os06g20900:0.79991,oryza_sativa_Os11g44230:0.34581)n3:0.2533)n1:0.061575,(hordeum_vulgare_Hvul_5HG0419950:0.63866,(eleusine_coracana_Elcor.9BG0715970:0.57397,(setaria_italica_Seita.8G236000:0.02842,setaria_italica_Seita.8G235300:0.02406)n6:0.26302)n5:0.08177)n4:0.061575)n0;

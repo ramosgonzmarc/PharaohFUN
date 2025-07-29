@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.O02487:0.216545,(musa_acuminata_Muacu.Un_randomP21770_001:0.05526,(mimulus_guttatus_Migut.M00268:0.60614,(aquilegia_coerulea_Aqcoe2G193100:0.18532,aquilegia_coerulea_Aqcoe2G210200:0.00054)n3:0.28718)n2:0.2371)n1:0.216545)n0;

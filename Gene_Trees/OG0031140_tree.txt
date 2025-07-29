@@ -1,0 +1,1 @@
+((paraphymatoceros_pearsonii_Papea.S1G876100:0.61895,((anthoceros_agrestis_AnagrOXF.S2G217400:0.04687,anthoceros_fusiformis_Anfus.S4G188100:0.09377)n3:0.56527,anthoceros_agrestis_AnagrOXF.S2G542000:0.428139)n2:0.047571)n1:0.0596,phaeoceros_carolinianus_Phcar.S3G183100:1.17852)n0;

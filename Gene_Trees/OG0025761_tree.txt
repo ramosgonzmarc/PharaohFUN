@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_04455:0,ginkgo_biloba_Gb_00038:0)n1:0.472805,(thuja_plicata_Thupl.29379218s0002:0.19262,sequoiadendron_giganteum_SEGI_22982:0.08183)n2:0.472805)n0;

@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9805587:0.48577,(apatococcus_lobatus_Aplob.KAK9822312:0.69747,(apatococcus_lobatus_Aplob.KAK9819024:0.67094,apatococcus_lobatus_Aplob.KAK9817320:0.72992)n2:0.28101)n1:0.48577)n0;

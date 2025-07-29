@@ -1,0 +1,1 @@
+((phaeomegaceros_chiloensis_Phchi.S3G035000:0.30415,((anthoceros_agrestis_AnagrOXF.S4G008100:0.00074,(anthoceros_fusiformis_Anfus.S1G636500:0.06995,anthoceros_punctatus_Anpun.S1G222100:0.03599)n4:0.02266)n3:0.37414,anthoceros_fusiformis_Anfus.S5G074300:0.22365)n2:0.02485)n1:0.12322,phymatoceros_phymatodes_Phphy.S4G511200:0.68971)n0;

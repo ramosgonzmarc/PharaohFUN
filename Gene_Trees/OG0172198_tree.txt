@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g5810:0.68938,(raphidocelis_subcapitata_Rsub_00009:0.40216,(monoraphidium_minutum_Momin.371625:0.00055,monoraphidium_minutum_Momin.522461:0.13366)n2:0.449)n1:0.68938)n0;

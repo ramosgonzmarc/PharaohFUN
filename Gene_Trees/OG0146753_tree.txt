@@ -1,0 +1,1 @@
+((olea_europaea_Oeu049813:0.22114,solanum_tuberosum_Soltu.10G008110:0.28955)n1:0.031405,(prunus_persica_Prupe.6G004300:0.04891,prunus_persica_Prupe.5G099300:0.09674)n2:0.031405)n0;

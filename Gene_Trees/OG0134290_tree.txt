@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_4g29220:0.54576,(malus_domestica_MD16G1055000:0.27658,prunus_persica_Prupe.1G294400:0.19711)n2:0.27168)n1:0.398145,(salix_purpurea_Sapur.008G089800:0.14398,(populus_trichocarpa_Potri.010G137500:0.16664,populus_trichocarpa_Potri.008G112066:0.064908)n4:0.007212)n3:0.18999)n0;

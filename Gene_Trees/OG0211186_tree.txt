@@ -1,0 +1,1 @@
+(phaseolus_acutifolius_Phacu.008G200200:0.44756,(arachis_hypogaea_arahy_EJ3Z7E:0.0771,(arachis_hypogaea_arahy_KD2LLZ:0.93628,arachis_hypogaea_arahy_902IIH:0.00055)n2:0.27373)n1:0.44756)n0;

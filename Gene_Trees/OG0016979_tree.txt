@@ -1,0 +1,1 @@
+((sequoia_sempervirens_SESE_003722:0.22755,(taxus_chinensis_KI387_035011:0.00054,(taxus_chinensis_KI387_034546:0.00055,taxus_chinensis_KI387_040994:1.08804)n3:0.31792)n2:0.22494)n1:0.165475,(gnetum_montanum_TnS000562421t01:0.89624,(picea_abies_Pab_53307g0010:0.15176,(abies_alba_AALBA5B139897:0.08104,abies_alba_AALBA5B715696:0.05976)n6:0.07504)n5:0.55705)n4:0.165475)n0;

@@ -1,0 +1,1 @@
+(micromonas_pusilla_Mpus_187796:0.402375,(tetraselmis_striata_TSEL_021391:0.34562,(volvox_carteri_Vocar.0031s0016:0.30839,(gonium_pectorale_Gopec.07200:0.50385,(chlamydomonas_incerta_Chincg04899:0.1003,(chlamydomonas_reinhardtii_Cre12.g493900_4532:0.00055,chlamydomonas_reinhardtii_Cre12.g801349_4532:0.5603)n5:0.08182)n4:0.25329)n3:0.06432)n2:0.56805)n1:0.402375)n0;

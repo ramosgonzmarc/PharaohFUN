@@ -1,0 +1,1 @@
+(dioscorea_alata_Dioal.04G026700:0.54148,(aegilops_tauschii_Atau_XP_020200425:0.03688,(triticum_aestivum_TraesCS3B03G0062200:0.0472,triticum_aestivum_TraesCS3D03G0030300:0.003726)n2:0.000414)n1:0.00847)n0;

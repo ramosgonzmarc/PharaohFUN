@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.41792:0.433715,(salvinia_cucullata_Sacu_s0028.g009824:0.44034,(azolla_filiculoides_Azfi_s0030.g024252:0.00055,azolla_filiculoides_Azfi_s2368.g110994:0.00564)n2:0.70252)n1:0.433715)n0;

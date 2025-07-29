@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000736051t01:0.09549,(gnetum_montanum_TnS000160341t03:0.61759,((gnetum_montanum_TnS000710173t01:0,gnetum_montanum_TnS000851995t01:0)n3:0.00055,gnetum_montanum_TnS000851995t02:0.00054)n2:0.1144)n1:0.09549)n0;

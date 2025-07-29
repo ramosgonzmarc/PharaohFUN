@@ -1,0 +1,1 @@
+((chlamydomonas_incerta_Chincg01078:0.70397,(chlamydomonas_reinhardtii_Cre03.g181550_4532:0.1659,chlamydomonas_reinhardtii_Cre12.g501700_4532:0.06223)n2:0.08977)n1:0.10008,(tetrabaena_socialis_Tesoc.PNH07819:0.81125,tetrabaena_socialis_Tesoc.PNH06716:0.48314)n3:0.10008)n0;

@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA24G0387:0.55037,huperzia_asiatica_HaB12G0084:0.67919)n1:0.08964,(phaseolus_acutifolius_Phacu.009G011400:0.7938,(alsophila_spinulosa_Aspi01Gene17556:0.66087,azolla_filiculoides_Azfi_s0001.g000606:0.2226)n3:0.66534)n2:0.08964)n0;

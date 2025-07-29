@@ -1,0 +1,1 @@
+(brassica_oleracea_Bol011422:0.25743,((brassica_oleracea_Bol030659:1.31011,brassica_oleracea_Bol013359:0.21424)n2:0.246,(brassica_oleracea_Bol041587:0.31638,(brassica_oleracea_Bol008731:0.85358,(brassica_oleracea_Bol022218:0.84974,brassica_oleracea_Bol019632:0.30948)n5:0.13088)n4:0.26489)n3:0.0327)n1:0.25743)n0;

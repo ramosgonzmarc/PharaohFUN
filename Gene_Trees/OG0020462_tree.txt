@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0026s00022:0.787785,(chromochloris_zofingiensis_UNPLg00350:0.48403,(chromochloris_zofingiensis_UNPLg00349:0.73921,chromochloris_zofingiensis_Cz02g10120:0.25716)n2:0.01446)n1:0.787785)n0;

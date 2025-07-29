@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.009G149000:0.46296,(linum_usitatissimum_Lus10017792:0.14802,(linum_usitatissimum_Lus10009395:0.04715,linum_usitatissimum_Lus10020547:0.05862)n2:0.03557)n1:0.46296)n0;

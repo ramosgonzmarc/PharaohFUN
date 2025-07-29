@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr9g844:0.17356,(zea_mays_Zm00001d018774:1.11431,(alsophila_spinulosa_Aspi01Gene36960:0.75303,(alsophila_spinulosa_Aspi01Gene05700:0.06323,alsophila_spinulosa_Aspi01Gene26013:0.17441)n3:0.20372)n2:0.67557)n1:0.17356)n0;

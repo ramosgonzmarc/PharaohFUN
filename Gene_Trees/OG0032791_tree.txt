@@ -1,0 +1,1 @@
+(((chlamydomonas_incerta_Chincg02485:1.50762,(desmodesmus_armatus_Desar.417820:1.09055,gonium_pectorale_Gopec.14909:0.7229)n3:0.16593)n2:0.46141,chlamydomonas_reinhardtii_Cre14.g801620_4532:0.21168)n1:0.21781,(chlamydomonas_reinhardtii_Cre03.g800317_4532:0.47304,(chlamydomonas_incerta_Chincg05946:0.695,scenedesmus_obliquus_Sobl_g12874:0.75291)n5:0.15147)n4:0.01683)n0;

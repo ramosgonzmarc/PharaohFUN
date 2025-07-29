@@ -1,0 +1,1 @@
+((ulva_mutabilis_UM175_0011:0.35593,ulva_mutabilis_UM007_0138:0.44103)n1:0.53228,((trebouxia_sp_FRX49_11899:0.54034,(apatococcus_lobatus_Aplob.KAK9822582:0.37845,myrmecia_bisecta_Mybis.KAK9812800:0.47653)n4:0.20797)n3:0.18426,(coccomyxa_subellipsoidea_Cosub_61912:0.57937,elliptochloris_bilobata_Elbil.KAK9846018:0.42978)n5:0.19719)n2:0.53228)n0;

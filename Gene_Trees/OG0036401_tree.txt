@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNH08783:0.28144,(triticum_aestivum_TraesCS4A03G0206800:0.49394,(ginkgo_biloba_Gb_39946:0.42579,ginkgo_biloba_Gb_07069:0.57095)n2:1.09926)n1:0.28144)n0;

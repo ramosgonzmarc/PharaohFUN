@@ -1,0 +1,1 @@
+((desmodesmus_armatus_Desar.403969:0.00053,(desmodesmus_armatus_Desar.403967:0.06884,desmodesmus_armatus_Desar.553918:0.01244)n2:0.03375)n1:0.6821,(raphidocelis_subcapitata_Rsub_02604:0.157,(raphidocelis_subcapitata_Rsub_02603:0.21405,raphidocelis_subcapitata_Rsub_02602:0.11736)n4:0.07521)n3:0.6821)n0;

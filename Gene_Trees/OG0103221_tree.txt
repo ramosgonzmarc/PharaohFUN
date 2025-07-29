@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3280415:0.51524,((pleurozium_schreberi_Plsch.14119:0,pleurozium_schreberi_Plsch.14120:0)n2:0.20522,(ceratodon_purpureus_CepurR40.10G008100:0.18822,ceratodon_purpureus_CepurR40.9G124300:0.2106)n3:0.0926)n1:0.51524)n0;

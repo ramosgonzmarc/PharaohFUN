@@ -1,0 +1,1 @@
+((phaeoceros_carolinianus_Phcar.S2G174400:0.00411,phaeoceros_sp_Phsp.C6G116000:0.00418)n1:0.255845,(anthoceros_fusiformis_Anfus.S1G131100:0.10684,(anthoceros_agrestis_AnagrOXF.S5G168400:0.0036,anthoceros_punctatus_Anpun.S3G501000:0.00055)n3:0.02808)n2:0.255845)n0;

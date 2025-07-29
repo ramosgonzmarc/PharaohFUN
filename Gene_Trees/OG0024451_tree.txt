@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_024600:0.00387,tetraselmis_striata_TSEL_033174:0.00243)n1:0.74404,(volvox_carteri_Vocar.0031s0054:0.27163,(tetrabaena_socialis_Tesoc.PNH07860:0.27687,(chlamydomonas_reinhardtii_Cre12.g495950_4532:0.12299,chlamydomonas_incerta_Chincg04852:0.10511)n4:0.2679)n3:0.08894)n2:0.74404)n0;

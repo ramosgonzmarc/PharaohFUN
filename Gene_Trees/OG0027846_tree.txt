@@ -1,0 +1,1 @@
+(cicer_arietinum_Ca_19027:0.75425,(spirogloea_muscicola_SM000007S20896:0.00597,(spirogloea_muscicola_SM000004S14927:0.02659,spirogloea_muscicola_SM000001S04635:0.02293)n2:0.03303)n1:0.75425)n0;

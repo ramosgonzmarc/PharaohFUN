@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle2c03300:0.550145,(micromonas_commoda_Micom.104193:0.44374,(ostreococcus_tauri_ostta09g00760:0.2114,(ostreococcus_lucimarinus_Oluc_33373:0.10616,ostreococcus_mediterraneus_Ostme10g00740:0.13954)n3:0.10898)n2:0.16854)n1:0.550145)n0;

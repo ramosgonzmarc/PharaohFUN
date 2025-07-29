@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_104814:1.24432,vaccinium_darrowii_Vadar_g15244:0.8067)n1:0.20623,((isoetes_sinensis_IsiChr1g1894:0.01768,isoetes_sinensis_IsiChr2g1701:0.00851)n3:0.21203,(isoetes_sinensis_IsiChr1g1895:0.04788,isoetes_sinensis_IsiChr2g1702:0.00579)n4:0.12295)n2:0.20623)n0;

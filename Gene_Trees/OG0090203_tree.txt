@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz08g28110:0.533425,(scenedesmus_obliquus_Sobl_g07967:0.55896,(desmodesmus_armatus_Desar.383371:0.32793,desmodesmus_armatus_Desar.427594:0.44964)n2:0.41124)n1:0.533425)n0;

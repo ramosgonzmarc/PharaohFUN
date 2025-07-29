@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.075832:0.686515,(abies_alba_AALBA5B551368:0.4595,(ginkgo_biloba_Gb_37893:1.16874,ginkgo_biloba_Gb_10381:0.00054)n2:0.70261)n1:0.686515)n0;

@@ -1,0 +1,1 @@
+((picea_abies_Pab_10311934g0010:0.66011,(huperzia_asiatica_HaA27G0037:0.86846,sequoia_sempervirens_SESE_011918:0.13416)n2:0.28591)n1:0.118885,(takakia_lepidozioides_Tle1c04744:0.21672,phymatoceros_phymatodes_Phphy.S3G525400:1.01938)n3:0.118885)n0;

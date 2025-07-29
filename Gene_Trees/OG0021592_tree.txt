@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin07G123300:0.46416,(oryza_sativa_Os08g08440:0.70879,(oryza_sativa_Os08g08340:0.08337,(oryza_sativa_Os08g08430:0.36476,oryza_sativa_Os08g08420:0.49149)n3:0.13208)n2:0.16736)n1:0.46416)n0;

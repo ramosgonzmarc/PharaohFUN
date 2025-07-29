@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_027368:0.34094,(asterochloris_glomerata_Astgl_g4225:0.59409,(bryopsis_sp_Bsp_GMH33058:1.13226,myrmecia_bisecta_Mybis.KAK9828830:0.47534)n2:0.09364)n1:0.34094)n0;

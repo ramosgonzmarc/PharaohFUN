@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_01246:0.14112,(phaeoceros_sp_Phsp.C8G075500:0.63214,phaeoceros_sp_Phsp.C8G079900:0.13294)n2:1.3669)n1:0.0554,(picea_abies_Pab_223158g0010:0.28722,((anthoceros_punctatus_Anpun.S3G437600:0.53791,sequoiadendron_giganteum_SEGI_11544:0.25915)n5:0.06541,quercus_rubra_Qurub.04G027600:0.7205)n4:0.07814)n3:0.0554)n0;

@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AnagrOXF.S2G571000:0.00055,paraphymatoceros_pearsonii_Papea.S1G620700:1.22319)n1:0.74746,(malus_domestica_MD05G1251100:0.28466,citrus_sinensis_Cisin.036275:0.00055)n2:0.74746)n0;

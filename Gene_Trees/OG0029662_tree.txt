@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA15G0684:0.305045,(sequoiadendron_giganteum_SEGI_10439:0.95722,(ginkgo_biloba_Gb_05680:0.74375,(trifolium_pratense_Trpra.01329:0.77963,abies_alba_AALBA5B837941:0.20237)n3:0.05085)n2:0.38651)n1:0.305045)n0;

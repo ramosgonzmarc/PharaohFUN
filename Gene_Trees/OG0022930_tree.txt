@@ -1,0 +1,1 @@
+((oropetium_thomaeum_Oropetium_20150105_12264A:0.29645,(panicum_hallii_Pahal.7G239100:0.08105,setaria_italica_Seita.7G186300:0.14736)n2:0.15305)n1:0.05493,(brachypodium_distachyon_Bradi5g17336:0.11566,(aegilops_tauschii_Atau_XP_020196960:0.00055,(triticum_aestivum_TraesCS2A03G0940900:0.03956,triticum_aestivum_TraesCS2D03G0885500:0.000495)n5:5.5e-05)n4:0.00054)n3:0.05493)n0;

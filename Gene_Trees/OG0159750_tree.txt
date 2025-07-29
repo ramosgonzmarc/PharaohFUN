@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c2_870V6:0.28025,((pleurozium_schreberi_Plsch.15008:0,pleurozium_schreberi_Plsch.15014:0)n2:0.03038,(pleurozium_schreberi_Plsch.15009:0,pleurozium_schreberi_Plsch.15015:0)n3:0.00055)n1:0.28025)n0;

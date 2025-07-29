@@ -1,0 +1,1 @@
+((ostreobium_quekettii_CAD7705194:0.00055,ostreobium_quekettii_CAD7698516:0.00055)n1:0.339865,((bryopsis_sp_Bsp_GMH44043:0.77724,caulerpa_lentillifera_Caule_g306:1.02109)n3:0.71427,(caulerpa_lentillifera_Caule_g4819:0.75033,bryopsis_sp_Bsp_GMH43761:0.418914)n4:0.046546)n2:0.339865)n0;

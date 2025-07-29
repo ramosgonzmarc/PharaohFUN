@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g32749:0.540145,((salix_purpurea_Sapur.006G042600:0.01013,salix_purpurea_Sapur.006G042800:0.0477)n2:0.04736,(populus_trichocarpa_Potri.016G052901:0.60977,populus_trichocarpa_Potri.006G055100:0.115668)n3:0.012852)n1:0.19463)n0;

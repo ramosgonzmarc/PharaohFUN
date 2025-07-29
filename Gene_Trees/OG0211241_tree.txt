@@ -1,0 +1,1 @@
+(vigna_unguiculata_Vigun04g189800:0.301205,(arachis_hypogaea_arahy_J3JJ0R:0.96457,(arachis_hypogaea_arahy_2B8KCU:0.20487,arachis_hypogaea_arahy_UT54WJ:0.23285)n2:0.24698)n1:0.301205)n0;

@@ -1,0 +1,1 @@
+((mimulus_guttatus_Migut.M00449:0.39871,quercus_rubra_Qurub.10G230300:0.36037)n1:0.090365,((arachis_hypogaea_arahy_HL40H4:0.64514,corymbia_citriodora_Cocit.C2478:0.28346)n3:0.16379,(solanum_lycopersicum_Solyc07g054130:0.05516,capsella_grandiflora_Cagra.0993s0003:0.78039)n4:0.04899)n2:0.090365)n0;

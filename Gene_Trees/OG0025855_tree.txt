@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr8g2424:0.250295,(solanum_lycopersicum_Solyc05g017770:0.73801,(arachis_hypogaea_arahy_NM9F9A:0.39586,(glycine_max_Glyma.08G167400:0.25034,lactuca_sativa_Lsat_gn_5_58461:0.63977)n3:0.09982)n2:0.65403)n1:0.250295)n0;

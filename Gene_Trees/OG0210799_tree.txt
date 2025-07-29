@@ -1,0 +1,1 @@
+(lotus_japonicus_Lj4g0006114:0.573805,((fragaria_vesca_FvH4_4g03328:0.36154,fragaria_vesca_FvH4_4g07722:0.03282)n2:0.3787,(fragaria_vesca_FvH4_2g09450:0.29049,(fragaria_vesca_FvH4_7g10250:0.30477,fragaria_vesca_FvH4_4g09500:0.74163)n4:1.13177)n3:0.45661)n1:0.573805)n0;

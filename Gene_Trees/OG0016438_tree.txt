@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr21g2176:0.01462,isoetes_sinensis_IsiChr17g2011:0.0274)n1:0.161715,(welwitschia_mirabilis_Wmi_14378:0.79561,(oryza_sativa_Os12g07690:0.24329,(oryza_sativa_Os10g36972:0.69745,oryza_sativa_Os05g41645:0.31374)n4:0.06147)n3:0.46949)n2:0.161715)n0;

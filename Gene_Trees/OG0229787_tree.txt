@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.C30G001500:0,(phaeoceros_carolinianus_Phcar.S4G312400:0,phaeoceros_carolinianus_Phcar.S4G334500:0,phaeoceros_carolinianus_Phcar.S2G280600:0.82774)n1:0)n0;

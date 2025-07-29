@@ -1,0 +1,1 @@
+((monoraphidium_minutum_Momin.402742:0.38638,(scenedesmus_obliquus_Sobl_g22218:0.2906,(desmodesmus_armatus_Desar.435785:0.13913,chromochloris_zofingiensis_Cz04g04020:0.84685)n3:0.07922)n2:0.27449)n1:0.17824,(chlorella_sorokiniana_Chlso_g3006:0.58496,picochlorum_soloecismus_NSC_05082:0.76427)n4:0.17824)n0;

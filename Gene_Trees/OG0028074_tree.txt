@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_020128:0.697565,(tetraselmis_striata_TSEL_000170:0.00054,(tetraselmis_striata_TSEL_013715:0.01892,tetraselmis_striata_TSEL_000171:0.00358)n2:0.00147)n1:0.697565)n0;

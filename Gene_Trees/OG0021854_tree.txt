@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_021475:0.56192,(tetraselmis_striata_TSEL_032359:0.1054,tetraselmis_striata_TSEL_032360:0.12223)n2:0.25825)n1:0.233525,((raphidocelis_subcapitata_Rsub_12849:0.44264,monoraphidium_minutum_Momin.438853:0.3731)n4:0.15239,(desmodesmus_armatus_Desar.411595:0.30607,scenedesmus_obliquus_Sobl_g17839:0.44631)n5:0.20743)n3:0.233525)n0;

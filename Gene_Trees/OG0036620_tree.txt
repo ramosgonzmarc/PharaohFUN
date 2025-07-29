@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_006505:0.32959,(ginkgo_biloba_Gb_10331:0.16439,(selaginella_moellendorffii_Smoe_124157:0.1694,((ananas_comosus_Aco024249:0,ananas_comosus_Aco007633:0)n4:0.71307,lactuca_sativa_Lsat_gn_6_82840:0.79078)n3:0.10234)n2:0.08858)n1:0.32959)n0;

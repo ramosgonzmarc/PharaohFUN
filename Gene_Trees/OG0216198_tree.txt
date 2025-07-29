@@ -1,0 +1,1 @@
+(((daucus_carota_DCAR_519186:0.10605,daucus_carota_DCAR_522154:0.38147)n2:0.33094,(daucus_carota_DCAR_101869:0.091,daucus_carota_DCAR_414964:0.20399)n3:0.17196)n1:0.35728,(vaccinium_darrowii_Vadar_g20956:0.76273,vaccinium_darrowii_Vadar_g9410:0.10542)n4:0.35728)n0;

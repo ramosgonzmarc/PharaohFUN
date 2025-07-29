@@ -1,0 +1,1 @@
+((bryopsis_sp_Bsp_GMH41449:1.41584,caulerpa_lentillifera_Caule_g3208:1.06943)n1:0.26308,(marsilea_vestita_Mvestita_S10g02167:0.81398,(ceratopteris_richardii_Ceric.31G060600:0.4823,(salvinia_cucullata_Sacu_s0174.g024530:0.34326,(azolla_filiculoides_Azfi_s0001.g000324:1.02497,azolla_filiculoides_Azfi_s0004.g008767:0.274437)n5:0.030493)n4:0.12576)n3:0.14537)n2:0.26308)n0;

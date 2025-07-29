@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF47223:0.46176,porphyra_umbilicalis_Pum0296s0005:0.60006)n1:0.122975,(cyanidioschyzon_merolae_CmerSOOS_G3058:1.21605,galdieria_sulphuraria_GsulpAzora_G5370:0.69222)n2:0.122975)n0;

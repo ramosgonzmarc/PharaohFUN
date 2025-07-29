@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c25_1530V6:0.26296,(picea_abies_Pab_9534403g0010:0.05854,(corylus_avellana_Corav.g12242:1.13876,(fragaria_vesca_FvH4_6g54251:0.09923,fragaria_vesca_FvH4_6g29780:0.0372)n3:0.38441)n2:0.11745)n1:0.26296)n0;

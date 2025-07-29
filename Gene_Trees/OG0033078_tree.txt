@@ -1,0 +1,1 @@
+(ostreococcus_mediterraneus_Ostme22g00030:0.633905,(bryopsis_sp_Bsp_BEI31697:0.79434,(chlamydomonas_reinhardtii_CreCp.g802324_4532:0.38842,chromochloris_zofingiensis_CzCPg00500:0.42703)n2:0.33472)n1:0.633905)n0;

@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.2400930:0.395065,((zygnema_circumcarinatum1559_ZcUTEX1559_08242:0.00863,(zygnema_circumcarinatum_Zci_06379:0.91873,zygnema_circumcarinatum_Zci_06380:0.000495)n3:5.5e-05)n2:0.47167,(zygnema_cylindricum_Zci1a_27837:0.04913,zygnema_cylindricum_Zci1a_00353:0.01689)n4:0.71632)n1:0.395065)n0;

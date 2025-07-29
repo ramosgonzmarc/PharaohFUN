@@ -1,0 +1,1 @@
+(volvox_carteri_Vocar.1099s0001:0.84937,((diphasiastrum_complanatum_Dicom.Y299000:0,diphasiastrum_complanatum_Dicom.23G044500:0)n2:0.00055,((marchantia_polymorpha_Mp5g10450:0.04127,marchantia_paleacea_Mapa_012617:0.03566)n4:0.04393,(riccia_sorocarpa_Risor.KAL3684880:0.11675,riccia_fluitans_R1flu_007135:0.39799)n5:0.14394)n3:0.35354)n1:0.84937)n0;

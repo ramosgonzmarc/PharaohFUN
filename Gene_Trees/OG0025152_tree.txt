@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00004198:0.170855,(tetraselmis_striata_TSEL_029975:0.78665,(cymbomonas_tetramitiformis_KAK3249716:0.83653,huperzia_asiatica_HaScaf5216:1.083)n2:0.33141)n1:0.170855)n0;

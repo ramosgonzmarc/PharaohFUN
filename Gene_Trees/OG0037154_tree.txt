@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29382290s0004:0.09289,(glycine_max_Glyma.06G286000:0.46283,(mimulus_guttatus_Migut.D01081:0.26073,(capsella_grandiflora_Cagra.1725s0132:0.07553,thlaspi_arvense_TaMN106.7G276700:0.28319)n3:0.14061)n2:0.10292)n1:0.09289)n0;

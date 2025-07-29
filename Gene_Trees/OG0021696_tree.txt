@@ -1,0 +1,1 @@
+(panicum_hallii_Pahal.9G209200:0.31484,(kalanchoe_fedtschenkoi_Kaladp0040s0242:0.27599,(corymbia_citriodora_Cocit.I1581:0.3163,(vitis_vinifera_VIT_203s0091g00120:0.2858,(vitis_vinifera_VIT_203s0091g00090:0.3576,vitis_vinifera_VIT_203s0091g00110:0.21428)n4:0.491193)n3:0.054577)n2:0.19167)n1:0.31484)n0;

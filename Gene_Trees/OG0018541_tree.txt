@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_011864:0.10882,tetraselmis_striata_TSEL_001131:0.16903)n1:0.497105,((micromonas_commoda_Micom.061610:0.43098,(micromonas_pusilla_Mpus_53877:1.01229,micromonas_pusilla_Mpus_54583:0.188145)n4:0.020905)n3:0.39767,(micromonas_pusilla_Mpus_52948:0.40972,micromonas_commoda_Micom.064603:0.528354)n5:0.058706)n2:0.497105)n0;

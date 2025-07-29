@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_023875:0.26303,(picea_abies_Pab_183759g0010:0.00055,(picea_abies_Pab_10428049g0030:0.00055,picea_abies_Pab_236671g0020:0.01487)n2:0.03045)n1:0.26303)n0;

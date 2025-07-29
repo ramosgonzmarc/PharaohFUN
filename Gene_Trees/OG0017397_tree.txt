@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S1G299500:0.38209,((alsophila_spinulosa_Aspi01Gene44154:0.44839,(selaginella_moellendorffii_Smoe_416539:0.40886,selaginella_moellendorffii_Smoe_412300:0.39623)n3:0.54248)n2:0.12449,(isoetes_sinensis_IsiChr17g3130:0.01893,isoetes_sinensis_IsiChr18g3185:0.00805)n4:0.37589)n1:0.38209)n0;

@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi1g52120:0.2991,((aegilops_tauschii_Atau_XP_040252979:0.12004,((triticum_aestivum_TraesCS4B03G0917500:0.02515,triticum_aestivum_TraesCS5A03G1220100:0.03142)n4:0.53078,triticum_aestivum_TraesCS7A03G0034600:0.030312)n3:0.003368)n2:0.37888,hordeum_vulgare_Hvul_7HG0636230:0.666)n1:0.2991)n0;

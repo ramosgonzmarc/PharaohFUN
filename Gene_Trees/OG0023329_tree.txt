@@ -1,0 +1,1 @@
+(ananas_comosus_Aco022239:0.460245,(amborella_trichopoda_AmTr00199g12:0.21986,(amborella_trichopoda_AmTr00037g36:0.13233,amborella_trichopoda_AmTr00022g239:0.35648)n2:0.05341)n1:0.460245)n0;

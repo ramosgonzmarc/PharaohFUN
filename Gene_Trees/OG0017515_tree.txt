@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr2g3126:0.75657,((aquilegia_coerulea_Aqcoe7G201300:0.00053,aquilegia_coerulea_Aqcoe7G201900:0.03254)n2:0.07787,(aquilegia_coerulea_Aqcoe4G177000:0.0178,aquilegia_coerulea_Aqcoe6G237700:0.00814)n3:0.02228)n1:0.75657)n0;

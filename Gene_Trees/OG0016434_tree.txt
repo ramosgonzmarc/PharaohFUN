@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3677295:0.49914,(huperzia_asiatica_HaA40G0259:0.49115,(isoetes_sinensis_IsiChr10g609:0.48579,(isoetes_sinensis_IsiChr15g385:0.4709,(isoetes_sinensis_IsiChr2g1922:0.45109,(isoetes_sinensis_IsiChr21g2275:0.08107,(isoetes_sinensis_IsiChr2g348:0.24426,isoetes_sinensis_IsiChr16g3287:0.37065)n6:0.21653)n5:0.16136)n4:0.30226)n3:0.1119)n2:0.08546)n1:0.49914)n0;

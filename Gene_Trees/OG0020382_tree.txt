@@ -1,0 +1,1 @@
+(micromonas_pusilla_Mpus_191953:0.37692,(tetraselmis_striata_TSEL_044466:0.91885,((apatococcus_lobatus_Aplob.KAK9818591:1.02413,myrmecia_bisecta_Mybis.KAK9806817:0.6569)n3:0.13034,((coccomyxa_subellipsoidea_Cosub_55803:0.86086,auxenochlorella_protothecoides_APUTEX2500000005:0.74581)n5:0.24867,chlorella_sorokiniana_Chlso_g4833:0.53465)n4:0.04035)n2:0.16261)n1:0.37692)n0;

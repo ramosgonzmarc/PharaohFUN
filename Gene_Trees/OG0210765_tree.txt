@@ -1,0 +1,1 @@
+((cicer_arietinum_Ca_23727:0.26069,(lens_culinaris_Lecul.6g025490:0.06415,medicago_truncatula_Medtr7g063540:0.12829)n2:0.07614)n1:0.03989,(lens_culinaris_Lecul.6g025600:0.09634,(cicer_arietinum_Ca_26390:0.0862,cicer_arietinum_Ca_26392:0.01484)n4:0.15503)n3:0.03989)n0;

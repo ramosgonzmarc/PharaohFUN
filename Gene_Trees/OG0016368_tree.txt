@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr1g3003:0.247,((welwitschia_mirabilis_Wmi_03260:0.12517,welwitschia_mirabilis_Wmi_08158:0.19175)n2:0.8402,(ginkgo_biloba_Gb_12487:0.6826,(glycine_max_Glyma.02G011600:0.51785,taxus_chinensis_KI387_017476:0.42978)n4:0.70097)n3:0.29521)n1:0.247)n0;

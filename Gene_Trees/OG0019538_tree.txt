@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_001140:0.373345,(lycopodium_clavatum_Lcl_0014836:0.78399,(alsophila_spinulosa_Aspi01Gene08478:0.04593,((alsophila_spinulosa_Aspi01Gene52980:0.03245,alsophila_spinulosa_Aspi01Gene52873:0.02659)n4:0.01307,alsophila_spinulosa_Aspi01Gene27229:0.08124)n3:0.00054)n2:0.36854)n1:0.373345)n0;

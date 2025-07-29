@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_011531:0.29847,(asterochloris_glomerata_Astgl_g7009:0.36375,(apatococcus_lobatus_Aplob.KAK9841412:1.01789,myrmecia_bisecta_Mybis.KAK9806233:0.62623)n2:0.14731)n1:0.29847)n0;

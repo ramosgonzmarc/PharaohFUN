@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi4g12015:0.537335,(triticum_aestivum_TraesCS7D03G0142000:0.39228,(triticum_aestivum_TraesCS4A03G1041500:0.00055,triticum_aestivum_TraesCS4A03G1041600:0.00055)n2:0.02728)n1:0.537335)n0;

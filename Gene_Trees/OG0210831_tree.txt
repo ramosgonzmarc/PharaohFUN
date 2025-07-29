@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr00c43g0412561:0.28099,(quercus_rubra_Qurub.M141800:0.25521,((quercus_rubra_Qurub.03G172700:0.08013,quercus_rubra_Qurub.06G025800:0.07894)n3:0.14145,(quercus_rubra_Qurub.02G106200:0.21643,quercus_rubra_Qurub.10G189600:0.00054)n4:0.44992)n2:0.07483)n1:0.28099)n0;

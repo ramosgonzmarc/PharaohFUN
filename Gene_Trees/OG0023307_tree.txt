@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_2g25820:0.603675,(salvinia_cucullata_Sacu_s0039.g012094:0.31795,((alsophila_spinulosa_Aspi01Gene72635:0.19681,marsilea_vestita_Mvestita_S5g09552:0.70974)n3:0.04541,(ceratopteris_richardii_Ceric.35G037400:0.46153,adiantum_capillus_Adc31180:0.18799)n4:0.2273)n2:0.23341)n1:0.603675)n0;

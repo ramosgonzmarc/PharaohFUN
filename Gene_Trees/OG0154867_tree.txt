@@ -1,0 +1,1 @@
+(panicum_hallii_Pahal.3G172400:0.482575,(triticum_aestivum_TraesCS7B03G0445800:0.20523,(triticum_aestivum_TraesCS7B03G0060000:0.03327,triticum_aestivum_TraesCS7A03G0292000:0.06123)n2:0.18246)n1:0.482575)n0;

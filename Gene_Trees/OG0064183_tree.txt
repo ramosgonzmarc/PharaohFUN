@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S3G300400:1.36028,phymatoceros_phymatodes_Phphy.S1G158300:1.10668)n1:0.02332,(anthoceros_agrestis_AnagrOXF.S1G030300:0.00054,(anthoceros_punctatus_Anpun.S2G552800:0.02944,(anthoceros_fusiformis_Anfus.S3G368700:0.27978,anthoceros_fusiformis_Anfus.S2G431800:0.077904)n4:0.008656)n3:0.13403)n2:0.20424)n0;

@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S1G222300:0.49936,(phaeoceros_carolinianus_Phcar.S2G489900:0.00055,phaeoceros_sp_Phsp.C4G092000:0.00688)n2:0.37571)n1:0.415445,(anthoceros_fusiformis_Anfus.S1G353500:0.18702,(anthoceros_agrestis_AnagrOXF.S4G364600:0.00709,anthoceros_punctatus_Anpun.S3G282400:0.01243)n4:0.16988)n3:0.415445)n0;

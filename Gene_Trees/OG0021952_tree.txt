@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc31337:1.02982,(selaginella_moellendorffii_Smoe_95815:0.88721,triticum_aestivum_TraesCS1B03G0343200:0.54539)n2:0.40594)n1:0.075725,(takakia_lepidozioides_Tle1c07508:0.12533,(takakia_lepidozioides_Tle2c00585:0.06373,takakia_lepidozioides_Tle2c05368:0.00901)n4:0.05337)n3:0.075725)n0;

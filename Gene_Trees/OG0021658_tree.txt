@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c8_11970V6:0.11232,(thuja_plicata_Thupl.29336856s0001:0.10641,(oryza_sativa_Os05g08100:0.28905,vitis_vinifera_VIT_206s0009g02250:0.28287)n2:0.27129)n1:0.11232)n0;

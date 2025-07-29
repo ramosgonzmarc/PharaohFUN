@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AnagrOXF.S2G539700:0.44685,anthoceros_agrestis_AnagrOXF.S5G204800:1.28665)n1:0.24839,(paraphymatoceros_pearsonii_Papea.S2G127900:0.58367,paraphymatoceros_pearsonii_Papea.S3G303000:0.54886)n2:0.24839)n0;

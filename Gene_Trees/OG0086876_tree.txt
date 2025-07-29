@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx01G127400:0.68105,(chlamydomonas_incerta_Chincg09659:0.24451,(chlamydomonas_reinhardtii_Cre04.g218350_4532:0.22573,(gonium_pectorale_Gopec.04525:0.47322,(tetrabaena_socialis_Tesoc.PNH02249:0.11576,tetrabaena_socialis_Tesoc.PNH10630:0.365886)n4:0.040654)n3:0.16794)n2:0.12801)n1:0.68105)n0;

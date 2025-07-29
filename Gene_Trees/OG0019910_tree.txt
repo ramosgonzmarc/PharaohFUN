@@ -1,0 +1,1 @@
+(asterochloris_glomerata_Astgl_g7949:0.333965,((dunaliella_salina_Dusal.0868s00003:0.31521,tetrabaena_socialis_Tesoc.PNH09977:0.3692)n2:0.6336,(raphidocelis_subcapitata_Rsub_03634:0.00054,raphidocelis_subcapitata_Rsub_06493:0.00055)n3:0.46947)n1:0.333965)n0;

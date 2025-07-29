@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.33711:0.16001,trifolium_pratense_Trpra.29998:0.1765)n1:0.293575,(linum_usitatissimum_Lus10035642:0.02532,linum_usitatissimum_Lus10010752:0.04949)n2:0.293575)n0;

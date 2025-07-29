@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaScaf0320:0.47877,(phaeoceros_carolinianus_Phcar.S3G426900:0.53576,(sphagnum_magellanicum_Sphmag03G029400:0.09479,sphagnum_magellanicum_Sphmag18G092800:0.01142)n2:0.44119)n1:0.47877)n0;

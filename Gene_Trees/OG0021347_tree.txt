@@ -1,0 +1,1 @@
+((mesotaenium_kramstae_Mekra.2455514:0.64647,(mesotaenium_kramstae_Mekra.2156827:0.03509,mesotaenium_kramstae_Mekra.3113963:0.05609)n2:0.64773)n1:0.33747,((klebsormidium_nitens_kfl01176_0010:0.21764,klebsormidium_nitens_kfl00634_0140:0.1531)n4:0.82337,(klebsormidium_nitens_kfl00556_0170:0.07762,klebsormidium_nitens_kfl01522_0010:0.0513)n5:0.38133)n3:0.33747)n0;

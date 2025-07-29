@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3281942:0.637025,(asterochloris_glomerata_Astgl_g9988:0.76786,(apatococcus_lobatus_Aplob.KAK9836822:0.79442,apatococcus_lobatus_Aplob.KAK9836740:0.30086)n2:0.36727)n1:0.637025)n0;

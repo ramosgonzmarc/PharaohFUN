@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene24647:0.09949,alsophila_spinulosa_Aspi01Gene41570:0.00719)n1:0.408735,((physcomitrium_patens_Pp6c1_9850V6:0.01304,physcomitrium_patens_Pp6c1_9890V6:0.01603)n3:0.16585,(physcomitrium_patens_Pp6c1_9460V6:0.33538,(physcomitrium_patens_Pp6c23_5660V6:0.06643,physcomitrium_patens_Pp6c23_5580V6:0.27977)n5:0.21612)n4:0.03572)n2:0.408735)n0;

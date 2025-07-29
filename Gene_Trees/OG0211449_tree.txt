@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.6G112500:0.301415,(lupinus_albus_Lalb_Chr14g0374421:0.48993,(trifolium_pratense_Trpra.04394:0.00055,trifolium_pratense_Trpra.21752:0.05321)n2:0.20976)n1:0.301415)n0;

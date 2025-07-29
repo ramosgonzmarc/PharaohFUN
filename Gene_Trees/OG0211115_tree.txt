@@ -1,0 +1,1 @@
+(phaseolus_acutifolius_Phacu.002G128600:0.1088,(phaseolus_acutifolius_Phacu.002G149300:0.97055,(phaseolus_acutifolius_Phacu.001G136500:0.06842,(phaseolus_acutifolius_Phacu.011G135200:1.78786,phaseolus_acutifolius_Phacu.011G174000:0.0434)n3:0.00709)n2:0.0763)n1:0.1088)n0;

@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g3811:0.304105,(chloropicon_primus_Chlpr_g8375:0.81882,(chloropicon_primus_Chlpr_g3171:1.20385,chloropicon_primus_Chlpr_g3686:0.97331)n2:0.31204)n1:0.304105)n0;

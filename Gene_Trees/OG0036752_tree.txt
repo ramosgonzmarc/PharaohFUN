@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_05249:0.33949,ginkgo_biloba_Gb_05252:1.38346)n1:0.128025,((ananas_comosus_Aco002490:0.5384,linum_usitatissimum_Lus10027555:0.42099)n3:0.11298,(dioscorea_alata_Dioal.18G074100:0.45932,kalanchoe_fedtschenkoi_Kaladp0096s0111:0.5927)n4:0.2688)n2:0.128025)n0;

@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.8G053800:0.27884,(funaria_hygrometrica_Fuhyg.16138:0.00055,funaria_hygrometrica_Fuhyg.16139:0.00055)n2:0.59983)n1:0.56253,(ceratodon_purpureus_CepurR40.1G134100:0.4264,funaria_hygrometrica_Fuhyg.08756:0.44942)n3:0.56253)n0;

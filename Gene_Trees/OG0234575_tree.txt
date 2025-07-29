@@ -1,0 +1,1 @@
+(monoraphidium_minutum_Momin.446894:0.435805,(scenedesmus_obliquus_Sobl_g19979:0.3329,(scenedesmus_obliquus_Sobl_g05133:0.11845,(scenedesmus_obliquus_Sobl_g08210:0.10295,scenedesmus_obliquus_Sobl_g12879:0.2225)n3:0.11959)n2:0.47778)n1:0.435805)n0;

@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.045502:0.20706,(carica_papaya_Capac.c00097g059:0.62764,((gossypium_hirsutum_Gohir.D01G062500:0.00678,gossypium_raimondii_Gorai.002G083200:0.00055)n3:0.01351,(gossypium_hirsutum_Gohir.A01G075200:0.00055,gossypium_raimondii_Gorai.009G426800:0.459369)n4:0.051041)n2:0.36971)n1:0.20706)n0;

@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene08067:0.36279,(ginkgo_biloba_Gb_21320:0.10312,(ginkgo_biloba_Gb_12713:0.00979,ginkgo_biloba_Gb_01157:0.06021)n2:0.07108)n1:0.36279)n0;

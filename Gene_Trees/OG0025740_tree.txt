@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_00391:0.51875,((salvinia_cucullata_Sacu_s0042.g012719:0,salvinia_cucullata_Sacu_s0042.g012721:0)n2:0.36735,(marsilea_vestita_Mvestita_S4g08443:0.15629,marsilea_vestita_Mvestita_S4g08453:0.15102)n3:0.35296)n1:0.51875)n0;

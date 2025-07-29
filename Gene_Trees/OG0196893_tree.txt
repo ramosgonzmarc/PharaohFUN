@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C9G063700:0.378425,(huperzia_asiatica_HaA13G0400:0.52287,(thuja_plicata_Thupl.29378523s0002:0.29791,sequoia_sempervirens_SESE_111808:0.15146)n2:0.12334)n1:0.378425)n0;

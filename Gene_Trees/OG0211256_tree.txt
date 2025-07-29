@@ -1,0 +1,1 @@
+((carya_illinoinensis_Caril.03G087000:1.05136,fragaria_vesca_FvH4_7g27580:0.93141)n1:0.1698,(lotus_japonicus_Lj3g0027764:0.38128,medicago_truncatula_Medtr8g446520:0.26168)n2:0.1698)n0;

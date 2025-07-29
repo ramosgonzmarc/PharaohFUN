@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_Q4KWH2:0.00053,arachis_hypogaea_arahy_756W5Z:0.33853)n1:0.46255,(lotus_japonicus_Lj3g0007469:0.97339,vigna_unguiculata_Vigun06g034066:0.46608)n2:0.46255)n0;

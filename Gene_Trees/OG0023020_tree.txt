@@ -1,0 +1,1 @@
+((panicum_hallii_Pahal.7G034800:0.15811,miscanthus_sinensis_Misin09G073100:0.39054)n1:0.125825,(oryza_sativa_Os12g10220:0.34457,(aegilops_tauschii_Atau_XP_045086085:0.00055,(triticum_aestivum_TraesCS6A03G0972000:0.00054,(triticum_aestivum_TraesCS6B03G1188700:0.03261,triticum_aestivum_TraesCS6D03G0852800:0.000495)n5:4.95e-05)n4:5.5e-06)n3:0.07497)n2:0.125825)n0;

@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.9928s0006:0.44256,(citrus_sinensis_Cisin.036822:0.24933,(citrus_sinensis_Cisin.036881:0.95086,citrus_sinensis_Cisin.048395:0.00055)n2:0.62417)n1:0.44256)n0;

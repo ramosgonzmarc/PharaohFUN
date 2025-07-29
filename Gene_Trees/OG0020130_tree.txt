@@ -1,0 +1,1 @@
+((diphasiastrum_complanatum_Dicom.Y347300:0.21859,diphasiastrum_complanatum_Dicom.Y574400:0.00053)n1:0.190385,(ceratopteris_richardii_Ceric.14G028500:0.1756,(brassica_rapa_Brara.E01932:1.23608,ginkgo_biloba_Gb_14288:0.32435)n3:0.07867)n2:0.190385)n0;

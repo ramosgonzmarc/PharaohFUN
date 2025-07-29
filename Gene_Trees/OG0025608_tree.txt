@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.K02442:0.45936,(ginkgo_biloba_Gb_04756:0.00054,ginkgo_biloba_Gb_41717:0.617148)n2:0.068572)n1:0.34176,corylus_avellana_Corav.g31656:1.13574)n0;

@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr05g0223971:0.38956,((medicago_truncatula_Medtr1199s0010:0.25264,(medicago_truncatula_Medtr0043s0030:0.00291,medicago_truncatula_Medtr0043s0060:0.00055)n3:0.29041)n2:1.43737,(lotus_japonicus_Lj1g0028207:0.83878,(lotus_japonicus_Lj1g0017065:0.18615,lotus_japonicus_Lj1g0026653:0.14978)n5:0.0852)n4:0.44219)n1:0.38956)n0;

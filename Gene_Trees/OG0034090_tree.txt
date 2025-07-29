@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c28770g001:0.244125,(sequoiadendron_giganteum_SEGI_12936:0.2182,(picea_abies_Pab_8316350g0010:0.45396,(cycas_panzhihuaensis_CYCAS_031575:0.0292,cycas_panzhihuaensis_CYCAS_025749:0.316341)n3:0.035149)n2:0.06562)n1:0.244125)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv18148:0.47408,(cymbomonas_tetramitiformis_KAK3249376:1.10424,(scenedesmus_obliquus_Sobl_g24394:0.68646,(chromochloris_zofingiensis_Cz16g15100:0.28711,chromochloris_zofingiensis_Cz16g15090:0.23815)n3:0.33601)n2:0.18541)n1:0.47408)n0;

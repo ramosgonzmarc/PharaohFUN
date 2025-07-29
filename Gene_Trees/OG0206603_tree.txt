@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00157g066:0.290455,(gossypium_raimondii_Gorai.009G075000:0.00055,(gossypium_hirsutum_Gohir.D05G073900:0.00055,gossypium_hirsutum_Gohir.A05G071000:0.009378)n2:0.001042)n1:0.01001)n0;

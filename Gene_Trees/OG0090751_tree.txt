@@ -1,0 +1,1 @@
+(cinnamomum_kanehirae_CKAN_01509500:0.17578,(medicago_truncatula_Medtr1g028540:0.8947,(lupinus_albus_Lalb_Chr10g0103831:0.20871,lupinus_albus_Lalb_Chr04g0251711:0.04195)n2:0.19357)n1:0.17578)n0;

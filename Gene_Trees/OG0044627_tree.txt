@@ -1,0 +1,1 @@
+((thuja_plicata_Thupl.29379213s0001:0.8796,thuja_plicata_Thupl.28991478s0001:0.28816)n1:0.121715,(setaria_italica_Seita.5G062600:0.52563,vaccinium_darrowii_Vadar_g23811:0.40317)n2:0.121715)n0;

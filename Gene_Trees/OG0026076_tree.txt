@@ -1,0 +1,1 @@
+(spirodela_polyrhiza_Spipo2G0058700:0.471845,(isoetes_sinensis_IsiChr21g1584:0.00381,(isoetes_sinensis_IsiChr22g1737:0.02198,isoetes_sinensis_IsiScaffold3538g63:0.00986)n2:0.00052)n1:0.471845)n0;

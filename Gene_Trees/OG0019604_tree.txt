@@ -1,0 +1,1 @@
+(((lens_culinaris_Lecul.5g031950:0.39492,(taxus_chinensis_KI387_044683:0.04496,taxus_chinensis_KI387_022703:0.00054)n3:0.19542)n2:0.71091,(alsophila_spinulosa_Aspi01Gene29789:0.35333,alsophila_spinulosa_Aspi01Gene66939:0.000486)n4:5.4e-05)n1:0.13204,picea_abies_Pab_10429134g0010:1.02929)n0;

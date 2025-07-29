@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0024.g009076:0.40794,marsilea_vestita_Mvestita_C40g19503:0.57444)n1:0.266615,(ceratopteris_richardii_Ceric.35G003800:0.34903,adiantum_capillus_Adc31759:0.28116)n2:0.266615)n0;

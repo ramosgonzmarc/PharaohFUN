@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_TZ9KYP:0.04427,(arachis_hypogaea_arahy_W1U8EQ:0.06028,(arachis_hypogaea_arahy_VQQ1GD:0.09983,((arachis_hypogaea_arahy_PQM0WH:0.27592,arachis_hypogaea_arahy_TYHT8X:0.19005)n4:0.14126,(arachis_hypogaea_arahy_DSS5B2:0.13355,(arachis_hypogaea_arahy_7GJ0XV:0.00053,arachis_hypogaea_arahy_8KM1NQ:0.06855)n6:0.06696)n5:0.06423)n3:0.08043)n2:0.03627)n1:0.04427)n0;

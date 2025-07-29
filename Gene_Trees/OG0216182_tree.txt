@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_310833:0.59883,(daucus_carota_DCAR_415295:0.12417,daucus_carota_DCAR_415282:0.02114)n2:0.67097)n1:0.34229,(saponaria_officinalis_Sapof.04G211100:0.73032,(chenopodium_quinoa_AUR62000516:0.10793,chenopodium_quinoa_AUR62006859:0.04745)n4:0.32905)n3:0.34229)n0;

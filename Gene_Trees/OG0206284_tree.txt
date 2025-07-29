@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0006s2455:0.204945,((gossypium_raimondii_Gorai.006G157600:0.0005,(gossypium_hirsutum_Gohir.A09G136000:0.06713,gossypium_hirsutum_Gohir.D09G137300:0.00055)n3:0.02112)n2:0.38819,(theobroma_cacao_Thecc1EG022470:0.41279,theobroma_cacao_Thecc1EG022468:0.093582)n4:0.010398)n1:0.90334)n0;

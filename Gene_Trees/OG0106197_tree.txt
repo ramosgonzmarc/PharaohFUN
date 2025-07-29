@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc24139:0.00055,adiantum_capillus_Adc24140:0.00055)n1:0.29045,(diphasiastrum_complanatum_Dicom.04G056300:0.17062,(huperzia_asiatica_HaA16G0510:0.0143,huperzia_asiatica_HaB16G0261:0.01486)n3:0.21226)n2:0.29045)n0;

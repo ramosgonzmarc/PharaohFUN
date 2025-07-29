@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0256s00021:0.58966,(ostreococcus_tauri_ostta06g01540:0.14724,(ostreococcus_mediterraneus_Ostme05g01470:0.36858,((micromonas_pusilla_Mpus_186894:0.17398,micromonas_commoda_Micom.057997:0.32644)n4:0.27598,cymbomonas_tetramitiformis_KAK3273410:0.86366)n3:0.31568)n2:0.17197)n1:0.58966)n0;

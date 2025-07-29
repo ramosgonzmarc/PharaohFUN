@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.1460s0216:0.370745,(brassica_rapa_Brara.I05001:0.01146,(brassica_oleracea_Bol031327:0.71205,(brassica_oleracea_Bol031502:0.30961,brassica_oleracea_Bol031488:0.056403)n3:0.0056403)n2:0.0006267)n1:0.24778)n0;

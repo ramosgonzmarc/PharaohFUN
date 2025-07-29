@@ -1,0 +1,1 @@
+((saponaria_officinalis_Sapof.14G183600:0.17801,saponaria_officinalis_Sapof.09G193500:0.18749)n1:0.685945,(beta_vulgaris_Bevul.9G113300:0.0346,beta_vulgaris_Bevul.9G065300:0.1229)n2:0.685945)n0;

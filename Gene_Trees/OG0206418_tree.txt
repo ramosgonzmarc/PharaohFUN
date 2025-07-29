@@ -1,0 +1,1 @@
+((thlaspi_arvense_TaMN106.2G281500:0.03648,thlaspi_arvense_TaMN106.3G075200:0.10159)n1:0.4191,(gossypium_raimondii_Gorai.001G161600:0.0157,(gossypium_hirsutum_Gohir.D07G179450:0.03896,gossypium_hirsutum_Gohir.D07G179475:0.000495)n3:5.5e-05)n2:0.07341)n0;

@@ -1,0 +1,1 @@
+((setaria_italica_Seita.3G262000:0.15069,(miscanthus_sinensis_Misin09G068500:0.02325,miscanthus_sinensis_Misin09G068400:0.04437)n2:0.15319)n1:0.10388,(brachypodium_distachyon_Bradi3g14976:0.8398,(oryza_sativa_Os12g33150:0.09609,(oryza_sativa_Os12g33130:0.06357,oryza_sativa_Os12g33120:0.10563)n5:0.03937)n4:0.14628)n3:0.10388)n0;

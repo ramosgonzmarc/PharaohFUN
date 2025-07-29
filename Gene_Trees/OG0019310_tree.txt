@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B954461:0.2426,huperzia_asiatica_HaA59G0292:0.38196)n1:0.119145,(malus_domestica_MD08G1141200:0.69519,(isoetes_sinensis_IsiChr1g4522:0.01358,isoetes_sinensis_IsiChr4g3911:0.03033)n3:0.48039)n2:0.119145)n0;

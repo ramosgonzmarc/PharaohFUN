@@ -1,0 +1,1 @@
+((pleurozium_schreberi_Plsch.10933:0,pleurozium_schreberi_Plsch.10936:0)n1:0.11794,((isoetes_sinensis_IsiChr14g2280:0.38504,thlaspi_arvense_TaMN106.2G312000:0.56227)n3:0.11709,(huperzia_asiatica_HaB57G0035:0.30056,sequoiadendron_giganteum_SEGI_11172:0.51927)n4:0.14352)n2:0.11794)n0;

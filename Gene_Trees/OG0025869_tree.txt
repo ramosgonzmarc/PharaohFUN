@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_65MGYN:0.0017,arachis_hypogaea_arahy_EQGF9T:0.05317)n1:0.44836,(lotus_japonicus_Lj3g0010389:0.57238,(vigna_unguiculata_Vigun06g079400:0.6523,(glycine_max_Glyma.11G167400:0.51086,(glycine_max_Glyma.11G167900:0.08302,glycine_max_Glyma.11G168000:0.07618)n5:0.222696)n4:0.024744)n3:0.10469)n2:0.44836)n0;

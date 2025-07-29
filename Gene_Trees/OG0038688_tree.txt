@@ -1,0 +1,1 @@
+(malus_domestica_MD10G1103800:0.18657,(oryza_sativa_Os08g44080:0.5652,(ananas_comosus_Aco004948:0.41399,oropetium_thomaeum_Oropetium_20150105_02520A:0.28903)n2:0.20113)n1:0.18657)n0;

@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C10G071700:0.86456,(ceratodon_purpureus_CepurR40.3G078200:0.27114,(physcomitrium_patens_Pp6c23_130V6:0.40141,(physcomitrium_patens_Pp6c14_3080V6:0.02543,physcomitrium_patens_Pp6c17_4550V6:0.02386)n3:0.112014)n2:0.012446)n1:0.11987)n0;

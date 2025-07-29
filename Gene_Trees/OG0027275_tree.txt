@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum0093s0023:0.27662,porphyra_umbilicalis_Pum0717s0002:0.2827)n1:0.29812,(tetraselmis_striata_TSEL_009711:0.67568,(elliptochloris_bilobata_Elbil.KAK9825670:0.30741,myrmecia_bisecta_Mybis.KAK9807674:0.63992)n3:0.72217)n2:0.29812)n0;

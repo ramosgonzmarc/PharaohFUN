@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c6_8650V6:0.16373,ananas_comosus_Aco013032:0.69078)n1:0.142135,(miscanthus_sinensis_Misin16G038500:0.5888,funaria_hygrometrica_Fuhyg.00785:1.03835)n2:0.142135)n0;

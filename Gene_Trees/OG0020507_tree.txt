@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c19_6730V6:0.079325,(welwitschia_mirabilis_Wmi_09364:0.34022,(huperzia_asiatica_HaA41G0006:0.36363,(cinnamomum_kanehirae_CKAN_00105800:0.70817,salvinia_cucullata_Sacu_s1161.g027958:0.49166)n3:0.46813)n2:0.1123)n1:0.079325)n0;

@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi1g61121:0.139835,(hordeum_vulgare_Hvul_5HG0516220:0.08272,((triticum_aestivum_TraesCS5A03G0999700:0.03023,triticum_aestivum_TraesCS5D03G0947500:0.02581)n3:0.02089,triticum_aestivum_TraesCS5B03G1046500:0.052515)n2:0.005835)n1:0.0068)n0;

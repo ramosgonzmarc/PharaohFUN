@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL3G52510:0.34397,capsella_grandiflora_Cagra.0808s0006:0.19431)n1:0.083215,(eutrema_salsugineum_Thhalv10022908m:0.38239,((sisymbrium_irio_Siiris197g00020:0.16419,sisymbrium_irio_Siiris1459g00010:0.18969)n4:0.22856,sisymbrium_irio_Siiris197g00150:0.423315)n3:0.047035)n2:0.1378)n0;

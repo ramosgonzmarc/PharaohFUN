@@ -1,0 +1,1 @@
+(lotus_japonicus_Lj1g0012709:0.50047,(lactuca_sativa_Lsat_gn_1_108720:0.7264,(olea_europaea_Oeu054803:0.01545,olea_europaea_Oeu054810:0.043425)n2:0.004825)n1:0.01559)n0;

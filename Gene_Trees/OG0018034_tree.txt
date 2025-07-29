@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_033168:0.62873,cycas_panzhihuaensis_CYCAS_033169:0.6323)n1:0.3433,(cymbomonas_tetramitiformis_KAK3253448:0.03347,(cymbomonas_tetramitiformis_KAK3277030:0.00513,cymbomonas_tetramitiformis_KAK3277031:0.01024)n3:0.03098)n2:0.3433)n0;

@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.3G104400:0.64125,(setaria_italica_Seita.6G147100:0.24915,((panicum_hallii_Pahal.3G516000:0.00053,panicum_hallii_Pahal.2G481500:0.28494)n3:0.13356,(panicum_hallii_Pahal.1G248000:0.27094,(panicum_hallii_Pahal.3G058800:0.11692,panicum_hallii_Pahal.3G176700:0.0986)n5:0.30407)n4:0.462663)n2:0.051407)n1:0.02816)n0;

@@ -1,0 +1,1 @@
+((thuja_plicata_Thupl.29380148s0013:0.22403,sequoiadendron_giganteum_SEGI_39281:0.30276)n1:0.12638,(boechera_stricta_Bostr.14018s0001:0.1112,(arachis_hypogaea_arahy_41YVYJ:0.46237,arachis_hypogaea_arahy_XUX2EX:0.312147)n3:0.034683)n2:0.09355)n0;

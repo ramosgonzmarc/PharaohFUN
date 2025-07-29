@@ -1,0 +1,1 @@
+((cyanidioschyzon_merolae_CmerSOOS_G638:0.32781,galdieria_sulphuraria_GsulpAzora_G1951:0.46297)n1:0.45325,((cymbomonas_tetramitiformis_KAK3244782:0.58556,ostreococcus_mediterraneus_Ostme21g00240:0.37228)n3:0.20226,(tetraselmis_striata_TSEL_025831:0.72469,(tetraselmis_striata_TSEL_026274:0.00054,tetraselmis_striata_TSEL_026908:0.02256)n5:0.682065)n4:0.075785)n2:0.16801)n0;

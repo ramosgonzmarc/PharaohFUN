@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.E0179:0.32543,((olea_europaea_Oeu033908:0.31317,mimulus_guttatus_Migut.M01134:0.1858)n2:0.20136,(daucus_carota_DCAR_209081:0.67057,solanum_tuberosum_Soltu.02G017530:0.49594)n3:0.0132)n1:0.32543)n0;

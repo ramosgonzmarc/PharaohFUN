@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.346264:0.22816,(scenedesmus_obliquus_Sobl_g04804:0.40769,(scenedesmus_obliquus_Sobl_g05203:0.60045,scenedesmus_obliquus_Sobl_g04805:0.70862)n2:0.18195)n1:0.22816)n0;

@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_026785:0.25503,(chlamydomonas_reinhardtii_Cre06.g274994_4532:0.54203,(chromochloris_zofingiensis_Cz09g25130:0.59801,raphidocelis_subcapitata_Rsub_05368:0.25035)n2:0.32406)n1:0.25503)n0;

@@ -1,0 +1,1 @@
+((myrmecia_bisecta_Mybis.KAK9829159:0.8045,(caulerpa_lentillifera_Caule_g5441:1.04085,(bryopsis_sp_Bsp_GMH42740:0.7155,(ostreobium_quekettii_CAD7703571:0.3726,ostreobium_quekettii_CAD7695010:0.46573)n4:0.44902)n3:0.0357)n2:0.63898)n1:0.061945,(chlorella_sorokiniana_Chlso_g9885:0.72879,chromochloris_zofingiensis_Cz03g27280:0.63241)n5:0.061945)n0;

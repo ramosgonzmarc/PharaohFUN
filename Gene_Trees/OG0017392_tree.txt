@@ -1,0 +1,1 @@
+((olea_europaea_Oeu013754:0.12364,olea_europaea_Oeu058321:0.01124)n1:0.536835,(alsophila_spinulosa_Aspi01Gene67923:0.04219,(alsophila_spinulosa_Aspi01Gene40743:0.11941,alsophila_spinulosa_Aspi01Gene70248:0.07071)n3:0.04847)n2:0.536835)n0;

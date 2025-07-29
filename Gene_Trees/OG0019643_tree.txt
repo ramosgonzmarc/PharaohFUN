@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene56993:0.58804,(isoetes_sinensis_IsiChr2g2053:0.00582,(isoetes_sinensis_IsiChr1g2305:0.00054,isoetes_sinensis_IsiChr22g2289:0.08781)n2:0.00252)n1:0.58804)n0;

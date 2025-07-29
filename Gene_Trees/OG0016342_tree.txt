@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_DY6DE5:0.39779,(sequoia_sempervirens_SESE_118801:0.54728,((ginkgo_biloba_Gb_35049:0.14627,(ginkgo_biloba_Gb_35846:0.06422,ginkgo_biloba_Gb_22289:0.08008)n4:0.01074)n3:0.07308,(ginkgo_biloba_Gb_39231:0.07969,(ginkgo_biloba_Gb_21306:0.04764,ginkgo_biloba_Gb_19787:0.000486)n6:4.86e-05)n5:4.86e-06)n2:5.4e-07)n1:0.07732)n0;

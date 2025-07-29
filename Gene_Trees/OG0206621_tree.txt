@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.048555:0.12626,(citrus_sinensis_Cisin.036773:0.1668,(citrus_sinensis_Cisin.035208:0.05206,citrus_sinensis_Cisin.038286:0.00865)n2:0.41958)n1:0.12626)n0;

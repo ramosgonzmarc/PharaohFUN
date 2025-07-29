@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00539_0050:0.166995,(chromochloris_zofingiensis_Cz11g23060:0.39063,(cymbomonas_tetramitiformis_KAK3238222:1.31868,desmodesmus_armatus_Desar.536114:0.66648)n2:0.18155)n1:0.166995)n0;

@@ -1,0 +1,1 @@
+((bryopsis_sp_Bsp_GMH39215:1.20874,(raphidocelis_subcapitata_Rsub_06262:0.48573,monoraphidium_minutum_Momin.191956:0.39489)n2:0.1966)n1:0.48007,(gracilariopsis_chorda_PXF46625:0.61525,(gracilariopsis_chorda_PXF46387:0.77798,(gracilariopsis_chorda_PXF49860:0.71469,gracilariopsis_chorda_PXF46097:0.50096)n5:0.18001)n4:0.57056)n3:0.48007)n0;

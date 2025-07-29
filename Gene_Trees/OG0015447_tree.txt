@@ -1,0 +1,1 @@
+(((abies_alba_AALBA5B718041:0.04444,(abies_alba_AALBA5B409557:0.00054,abies_alba_AALBA5B663763:0.43715)n3:0.03523)n2:0.79449,((ginkgo_biloba_Gb_07377:0.00674,ginkgo_biloba_Gb_03720:0.0077)n5:0.33817,ginkgo_biloba_Gb_10966:0.08658)n4:0.00962)n1:0.11214,gnetum_montanum_TnS000757319t01:0.95634)n0;

@@ -1,0 +1,1 @@
+((mesostigma_viride1140_Mesvi530S06691:0.04572,mesostigma_viride296_Mevir.Mv21557:0.04586)n1:0.273785,(chloropicon_primus_Chlpr_g2638:0.71318,(cymbomonas_tetramitiformis_KAK3236162:0.68019,(pedinophyceae_sp_Pesp.9465885:1.05963,(tetraselmis_striata_TSEL_026227:0.01162,tetraselmis_striata_TSEL_007612:0.00055)n5:0.65211)n4:0.15546)n3:0.24896)n2:0.273785)n0;

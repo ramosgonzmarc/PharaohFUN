@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00005047:0.2485,((micromonas_pusilla_Mpus_165335:0.14372,micromonas_commoda_Micom.099795:0.21352)n2:0.07686,(ostreococcus_mediterraneus_Ostme18g00180:0.07857,(ostreococcus_tauri_ostta18g01870:0.09304,ostreococcus_lucimarinus_Oluc_47858:0.05507)n4:0.03582)n3:0.26736)n1:0.2485)n0;

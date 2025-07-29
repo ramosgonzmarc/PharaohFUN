@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_040976:0.06409,tetraselmis_striata_TSEL_008916:0.23482)n1:0.62969,(chlamydomonas_incerta_Chincg10663:0.66266,(tetrabaena_socialis_Tesoc.PNH00397:0.00174,(tetrabaena_socialis_Tesoc.PNH01611:0.00941,tetrabaena_socialis_Tesoc.PNH00998:0.01636)n4:0.01313)n3:0.42143)n2:0.62969)n0;

@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0024.g009200:0.26184,arachis_hypogaea_arahy_C5UPG1:1.28217)n1:0.32268,(isoetes_sinensis_IsiChr6g5016:0.00055,isoetes_sinensis_IsiChr5g4960:0.00054)n2:0.32268)n0;

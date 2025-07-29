@@ -1,0 +1,1 @@
+(lens_culinaris_Lecul.5g062790:0.000275,(lens_culinaris_Lecul.5g044920:0.26114,(lens_culinaris_Lecul.5g062770:0.00053,lens_culinaris_Lecul.6g038670:0.37464)n2:0.47558)n1:0.000275)n0;

@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe2G199000:0.17176,(mimulus_guttatus_Migut.J01258:0.0677,(chenopodium_quinoa_AUR62026430:0.94254,(olea_europaea_Oeu030614:0.01365,olea_europaea_Oeu041254:0.000486)n3:5.4e-05)n2:0.12941)n1:0.17176)n0;

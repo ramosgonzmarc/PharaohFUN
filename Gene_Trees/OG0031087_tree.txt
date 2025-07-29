@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C2G029900:0.52398,(anthoceros_punctatus_Anpun.S2G182300:0.15622,(anthoceros_agrestis_AnagrOXF.S1G465900:0.55843,anthoceros_agrestis_AnagrOXF.S1G466000:0.000486)n2:5.4e-05)n1:0.19462)n0;

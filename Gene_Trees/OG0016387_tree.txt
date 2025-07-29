@@ -1,0 +1,1 @@
+((mesotaenium_endlicherianum_ME000264S04319:0.15048,(mesotaenium_endlicherianum_ME000036S06254:0.06017,mesotaenium_endlicherianum_ME000036S06261:0.11839)n2:0.10164)n1:0.704365,(gracilariopsis_chorda_PXF43515:0.17135,(gracilariopsis_chorda_PXF43517:0.11787,gracilariopsis_chorda_PXF40219:0.15676)n4:0.10374)n3:0.704365)n0;

@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AnagrOXF.S4G278900:0.439235,(isoetes_sinensis_IsiChr19g2847:0.51296,(malus_domestica_MD09G1160900:0.02494,malus_domestica_MD03G1248800:0.07542)n2:0.93774)n1:0.439235)n0;

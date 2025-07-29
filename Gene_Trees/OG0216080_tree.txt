@@ -1,0 +1,1 @@
+(olea_europaea_Oeu062580:0.131,(saponaria_officinalis_Sapof.09G045100:0.14457,((chenopodium_quinoa_AUR62020406:0.01679,chenopodium_quinoa_AUR62015812:0.01061)n3:0.05604,(beta_vulgaris_Bevul.4G028200:0.04608,(amaranthus_hypochondriacus_AH009914:0.0835,amaranthus_hypochondriacus_AH009915:0.112257)n5:0.012473)n4:0.00996)n2:0.03961)n1:0.131)n0;

@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g47031:0.90083,((beta_vulgaris_Bevul.5G070200:0.26039,beta_vulgaris_Bevul.5G069900:0.21914)n2:0.0668,(chenopodium_quinoa_AUR62019864:0.12334,(chenopodium_quinoa_AUR62019865:0.81666,chenopodium_quinoa_AUR62019982:0.2925)n4:0.02925)n3:0.00325)n1:0.69559)n0;

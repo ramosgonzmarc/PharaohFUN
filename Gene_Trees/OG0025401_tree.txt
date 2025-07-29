@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C1G258200:0.308675,((diphasiastrum_complanatum_Dicom.02G040000:0,diphasiastrum_complanatum_Dicom.02G040100:0,diphasiastrum_complanatum_Dicom.Y249800:0)n2:0.34801,sequoiadendron_giganteum_SEGI_21986:0.90476)n1:0.308675)n0;

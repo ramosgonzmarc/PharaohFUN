@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin16G097100:0.483275,(diphasiastrum_complanatum_Dicom.04G140800:0.00056,(diphasiastrum_complanatum_Dicom.01G059100:0.0994,(diphasiastrum_complanatum_Dicom.16G079200:0.0348,diphasiastrum_complanatum_Dicom.01G075400:0.09078)n3:0.20123)n2:0.07523)n1:0.483275)n0;

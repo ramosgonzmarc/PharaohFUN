@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00299_0110:0.396085,(mesotaenium_endlicherianum_ME000266S04515:0.62465,(chara_braunii_CBR_g11161:1.23992,(spirogloea_muscicola_SM000157S02050:0.00493,(spirogloea_muscicola_SM000059S18680:0.00844,spirogloea_muscicola_SM000148S01036:0.04012)n4:0.02818)n3:0.51065)n2:0.10534)n1:0.396085)n0;

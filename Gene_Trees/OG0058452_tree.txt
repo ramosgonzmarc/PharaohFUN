@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.08711:0.29322,haematococcus_lacustris_QJQ45_013945:0.38491)n1:0.11678,(phaeoceros_sp_Phsp.C9G084200:0.34722,((dioscorea_alata_Dioal.04G052700:1.37764,sequoia_sempervirens_SESE_081104:0.46299)n4:0.13925,(sisymbrium_irio_Siiris2067g00030:0.63995,alsophila_spinulosa_Aspi01Gene23494:0.31958)n5:0.07233)n3:0.11728)n2:0.11678)n0;

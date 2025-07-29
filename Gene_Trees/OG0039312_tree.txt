@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaB06G0571:0.01621,(huperzia_asiatica_HaA06G0685:0.00615,(huperzia_asiatica_HaB40G0111:0,huperzia_asiatica_HaB40G0115:0)n3:0.05142)n2:0.06455)n1:0.714545,(riccia_sorocarpa_Risor.KAL3690392:0.04885,(riccia_fluitans_R1flu_029125:0.05121,(marchantia_polymorpha_Mp8g17180:0.04823,marchantia_paleacea_Mapa_013079:0.05396)n6:0.1228)n5:0.0005)n4:0.714545)n0;

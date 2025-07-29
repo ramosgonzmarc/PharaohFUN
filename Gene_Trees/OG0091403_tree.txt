@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_01156:0.479155,(cinnamomum_kanehirae_CKAN_00156200:0.39692,(arachis_hypogaea_arahy_BRJ78C:0.08419,arachis_hypogaea_arahy_DF37R6:0.0538)n2:0.68861)n1:0.479155)n0;

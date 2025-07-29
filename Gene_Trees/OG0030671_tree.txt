@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene68186:0.18852,(sequoia_sempervirens_SESE_049868:0.60997,(malus_domestica_MD01G1044800:0.07171,fragaria_vesca_FvH4_6g18903:0.6082)n2:0.54838)n1:0.18852)n0;

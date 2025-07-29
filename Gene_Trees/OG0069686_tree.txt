@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10001754m:0.372225,(capsella_grandiflora_Cagra.0239s0066:0.32622,(arabidopsis_thaliana_AT2G45135:0.23621,arabidopsis_lyrata_Arlyr.AL4G44240:0.97248)n2:0.23572)n1:0.372225)n0;

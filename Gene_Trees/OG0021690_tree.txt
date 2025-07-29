@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle4c04381:0.931005,(panicum_hallii_Pahal.3G496300:0.00054,(panicum_hallii_Pahal.J043200:0.00055,panicum_hallii_Pahal.5G495400:0.00053)n2:0.04724)n1:0.931005)n0;

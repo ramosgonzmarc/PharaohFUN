@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_041523:0.56497,((haematococcus_lacustris_QJQ45_020683:0.04389,haematococcus_lacustris_QJQ45_020787:0.02801)n2:0.53424,(chlamydomonas_reinhardtii_Cre02.g111750_4532:0.31797,volvox_carteri_Vocar.0001s1656:0.39721)n3:0.22019)n1:0.56497)n0;

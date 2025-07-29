@@ -1,0 +1,1 @@
+(thlaspi_arvense_TaMN106.6G035300:0.238485,(schrenkiella_parvula_Scpar6g20530:0.21297,(brassica_oleracea_Bol016852:0.09337,brassica_rapa_Brara.J01264:0.00055)n2:0.27213)n1:0.238485)n0;

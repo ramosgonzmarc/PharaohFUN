@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaB61G0474:0.15048,lycopodium_clavatum_Lcl_0008486:0.23944)n1:0.34206,(alsophila_spinulosa_Aspi01Gene25467:0.31591,(adiantum_capillus_Adc13170:0.3117,(adiantum_capillus_Adc21071:0.10111,adiantum_capillus_Adc00230:0.18008)n4:0.12063)n3:0.32348)n2:0.34206)n0;

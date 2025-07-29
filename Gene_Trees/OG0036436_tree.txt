@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.004022:0.64434,(sequoiadendron_giganteum_SEGI_21014:0.89082,(ginkgo_biloba_Gb_20885:0.50005,ginkgo_biloba_Gb_20887:0.000702)n2:7.8e-05)n1:0.20638)n0;

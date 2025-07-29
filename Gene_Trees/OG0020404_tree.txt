@@ -1,0 +1,1 @@
+((galdieria_sulphuraria_GsulpAzora_G2017:0.2791,(cyanidioschyzon_merolae_CmerSOOS_G772:0.38113,gracilariopsis_chorda_PXF46383:0.4056)n2:0.18093)n1:0.351485,(chlorokybus_atmophyticus_Chrsp51S06543:0.56188,(zygnema_circumcarinatum1559_ZcUTEX1559_11661:0.3079,zygnema_cylindricum_Zci1a_03195:0.38609)n4:0.37071)n3:0.351485)n0;

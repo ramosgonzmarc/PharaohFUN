@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.I01317:0.04805,(nymphaea_colorata_Nycol.I01316:0.03446,(nymphaea_colorata_Nycol.A03083:0.59213,nymphaea_colorata_Nycol.I01318:0.2862)n2:0.33429)n1:0.04805)n0;

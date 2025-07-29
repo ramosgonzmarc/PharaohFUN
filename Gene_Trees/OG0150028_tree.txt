@@ -1,0 +1,1 @@
+(oryza_sativa_Os03g41280:0.52626,((vaccinium_darrowii_Vadar_g20832:0.00054,vaccinium_darrowii_Vadar_g20844:0.04854)n2:0.93417,(vaccinium_darrowii_Vadar_g12435:0.20314,vaccinium_darrowii_Vadar_g1075:0.29917)n3:0.55853)n1:0.52626)n0;

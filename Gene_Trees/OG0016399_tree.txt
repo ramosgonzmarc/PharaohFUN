@@ -1,0 +1,1 @@
+(((ostreobium_quekettii_CAD7696158:0.23508,(ostreobium_quekettii_CAD7696156:0.25579,ostreobium_quekettii_CAD7696157:0.11588)n3:0.26279)n2:0.26687,(bryopsis_sp_Bsp_GMH43142:0.27316,bryopsis_sp_Bsp_GMH43144:0.58204)n4:0.56418)n1:0.130965,(porphyra_umbilicalis_Pum0103s0042:0.86543,(gracilariopsis_chorda_PXF49284:0.361,gracilariopsis_chorda_PXF44563:0.47249)n6:0.55736)n5:0.130965)n0;

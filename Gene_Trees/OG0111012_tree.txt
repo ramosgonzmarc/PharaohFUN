@@ -1,0 +1,1 @@
+(eucalyptus_grandis_Eucgr.E01630:0.41673,((corymbia_citriodora_Cocit.E1162:0.59763,corymbia_citriodora_Cocit.L0471:0.77082)n2:0.46452,(corymbia_citriodora_Cocit.E1203:0.14068,(corymbia_citriodora_Cocit.E1160:0.30007,corymbia_citriodora_Cocit.E1204:0.19171)n4:0.08454)n3:0.80341)n1:0.41673)n0;

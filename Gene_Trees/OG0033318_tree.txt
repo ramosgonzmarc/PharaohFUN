@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp91S08178:0.60816,klebsormidium_nitens_kfl00035_0120:0.64391)n1:0.049895,((desmodesmus_armatus_Desar.360585:0.55244,gonium_pectorale_Gopec.15285:0.81095)n3:0.76019,(apatococcus_lobatus_Aplob.KAK9827034:0.41383,apatococcus_lobatus_Aplob.KAK9841122:0.32099)n4:0.58794)n2:0.049895)n0;

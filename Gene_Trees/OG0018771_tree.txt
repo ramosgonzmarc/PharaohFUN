@@ -1,0 +1,1 @@
+((sorghum_bicolor_Sobic.001G276000:0.16133,setaria_italica_Seita.7G324300:0.34594)n1:0.30815,(selaginella_moellendorffii_Smoe_92183:0.24826,(selaginella_moellendorffii_Smoe_170934:0.02773,(selaginella_moellendorffii_Smoe_114255:0.10337,selaginella_moellendorffii_Smoe_92333:0.04641)n4:0.01855)n3:0.06457)n2:0.30815)n0;

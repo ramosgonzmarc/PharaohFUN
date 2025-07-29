@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr15g0079241:0.21234,(glycine_max_Glyma.19G196551:0.09186,(phaseolus_acutifolius_Phacu.L002840:0.6127,trifolium_pratense_Trpra.16930:0.63761)n2:0.24434)n1:0.21234)n0;

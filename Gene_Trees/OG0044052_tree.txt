@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaScaf0570:0.256135,((tetraselmis_striata_TSEL_024194:0.09836,tetraselmis_striata_TSEL_039802:0.28383)n2:0.3411,((desmodesmus_armatus_Desar.380424:0.37569,scenedesmus_obliquus_Sobl_g00805:0.21252)n4:0.226,(monoraphidium_minutum_Momin.414361:0.4758,monoraphidium_minutum_Momin.142247:0.611487)n5:0.067943)n3:0.06358)n1:0.256135)n0;

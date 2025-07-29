@@ -1,0 +1,1 @@
+((funaria_hygrometrica_Fuhyg.23507:0.25802,(takakia_lepidozioides_Tle4c01962:0.39353,sphagnum_fallax_Sphfalx04G129800:0.37097)n2:0.19226)n1:0.4535,(isoetes_sinensis_IsiChr13g1661:0.39025,(isoetes_sinensis_IsiChr4g4172:0.01416,(isoetes_sinensis_IsiChr15g6:0.00476,isoetes_sinensis_IsiChr16g12:0.00529)n5:0.03065)n4:0.74821)n3:0.4535)n0;

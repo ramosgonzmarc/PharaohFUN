@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10041164:0.46688,((carya_illinoinensis_Caril.04G182500:0.09803,carya_illinoinensis_Caril.04G182300:0.00832)n2:0.32011,(fragaria_vesca_FvH4_2g22140:0.12195,(fragaria_vesca_FvH4_2g22090:0.17873,(fragaria_vesca_FvH4_2g21981:0.01035,fragaria_vesca_FvH4_2g22110:0.0087)n5:0.35906)n4:0.27689)n3:0.46436)n1:0.46688)n0;

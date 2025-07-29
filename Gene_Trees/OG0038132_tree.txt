@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr17g2215:0.00335,isoetes_sinensis_IsiChr18g1922:0.01998)n1:0.20191,(trifolium_pratense_Trpra.29730:1.71649,(azolla_filiculoides_Azfi_s0123.g048358:0.58457,azolla_filiculoides_Azfi_s0626.g079975:0.67241)n3:0.18791)n2:0.20191)n0;

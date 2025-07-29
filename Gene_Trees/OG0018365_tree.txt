@@ -1,0 +1,1 @@
+((setaria_italica_Seita.5G282600:0.44303,spirodela_polyrhiza_Spipo9G0040400:0.49124)n1:0.398415,((isoetes_sinensis_IsiChr9g3750:0.02625,isoetes_sinensis_IsiChr10g3215:0.02289)n3:0.14161,(isoetes_sinensis_IsiChr2g1705:0.01652,(isoetes_sinensis_IsiChr10g1250:0.41363,isoetes_sinensis_IsiChr1g1898:0.00055)n5:0.01878)n4:0.13351)n2:0.398415)n0;

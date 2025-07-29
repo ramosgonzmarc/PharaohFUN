@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g65:0.53657,(myrmecia_bisecta_Mybis.KAK9824176:0.44224,(asterochloris_glomerata_Astgl_g3747:0.2894,(ulva_mutabilis_UM066_0034:0.97496,(tetraselmis_striata_TSEL_030570:0.0114,tetraselmis_striata_TSEL_032656:0.00054)n4:0.5493)n3:0.27223)n2:0.29186)n1:0.53657)n0;

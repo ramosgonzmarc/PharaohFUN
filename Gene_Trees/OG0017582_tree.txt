@@ -1,0 +1,1 @@
+((trebouxia_sp_FRX49_11972:1.07412,trebouxia_sp_FRX49_06130:0.86173)n1:0.001105,((asterochloris_glomerata_Astgl_g8743:0.07287,asterochloris_glomerata_Astgl_g8744:0.0299)n3:0.13095,(asterochloris_glomerata_Astgl_g4170:0.0006,(asterochloris_glomerata_Astgl_g4169:0.00051,asterochloris_glomerata_Astgl_g4171:0.00054)n5:0.00053)n4:0.18638)n2:0.001105)n0;

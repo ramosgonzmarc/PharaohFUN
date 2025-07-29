@@ -1,0 +1,1 @@
+(picochlorum_soloecismus_NSC_04549:1.10655,((salvinia_cucullata_Sacu_s0077.g017626:0.556,(adiantum_capillus_Adc14838:0.2544,(ceratopteris_richardii_Ceric.35G008600:0.00055,ceratopteris_richardii_Ceric.35G005000:0.00237)n4:0.30913)n3:0.22618)n2:0.1836,(marsilea_vestita_Mvestita_S14g07632:0.71792,marsilea_vestita_Mvestita_S3g04283:0.740916)n5:0.082324)n1:0.0024)n0;

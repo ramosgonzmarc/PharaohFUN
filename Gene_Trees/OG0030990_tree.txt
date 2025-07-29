@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00010g307:0.233875,(dioscorea_alata_Dioal.05G215200:0.61701,(cinnamomum_kanehirae_CKAN_02230600:0.79553,(prunus_persica_Prupe.6G173900:0.53889,(lens_culinaris_Lecul.3g055870:0.09779,(medicago_truncatula_Medtr3g094790:0.03623,trifolium_pratense_Trpra.24540:0.01101)n5:0.01626)n4:0.45465)n3:0.42088)n2:0.14288)n1:0.233875)n0;

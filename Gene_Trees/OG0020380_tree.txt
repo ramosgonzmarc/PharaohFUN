@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3233439:0.128355,(tetraselmis_striata_TSEL_038345:1.20073,(chloropicon_primus_Chlpr_g7418:0.55648,(chlorella_sorokiniana_Chlso_g3136:0.26147,(auxenochlorella_protothecoides_APUTEX2500000289:0.21943,helicosporidium_sp_Helsp_g1809:0.2363)n4:0.08697)n3:0.15688)n2:0.09788)n1:0.128355)n0;

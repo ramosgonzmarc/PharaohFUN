@@ -1,0 +1,1 @@
+((phaseolus_acutifolius_Phacu.001G171000:0.30431,vigna_unguiculata_Vigun01g126700:0.12091)n1:0.17144,(glycine_max_Glyma.03G146800:0.67701,(glycine_max_Glyma.03G146850:0.11668,glycine_max_Glyma.19G150250:0.26849)n3:0.38009)n2:0.17144)n0;

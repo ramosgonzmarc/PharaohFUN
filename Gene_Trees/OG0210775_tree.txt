@@ -1,0 +1,1 @@
+((corylus_avellana_Corav.g20022:0.92243,(prunus_persica_Prupe.2G218900:0.13237,prunus_persica_Prupe.7G097300:0.00739)n2:0.39751)n1:0.086585,(salix_purpurea_Sapur.016G065700:0.50819,(linum_usitatissimum_Lus10016964:0.00055,linum_usitatissimum_Lus10021290:0.0276)n4:0.29854)n3:0.086585)n0;

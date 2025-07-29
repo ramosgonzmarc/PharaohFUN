@@ -1,0 +1,1 @@
+(((schrenkiella_parvula_Scpar5g33360:0.00053,schrenkiella_parvula_ScparUn0091_0010:0.00055)n2:0.16727,(brassica_oleracea_Bol027497:0.06072,brassica_rapa_Brara.G03569:0.01455)n3:0.17805)n1:0.06368,(arabidopsis_thaliana_AT1G78220:0.13007,(boechera_stricta_Bostr.20129s0258:0.05779,capsella_grandiflora_Cagra.0096s0015:0.18374)n5:0.05856)n4:0.06368)n0;

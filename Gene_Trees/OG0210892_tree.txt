@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_D4FP70:0.12574,(medicago_truncatula_Medtr0212s0010:0.03308,(vigna_unguiculata_VigunL075300:0,vigna_unguiculata_VigunL075900:0,vigna_unguiculata_VigunL019600:0)n2:0.01122)n1:0.12574)n0;

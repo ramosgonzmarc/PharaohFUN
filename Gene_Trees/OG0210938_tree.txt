@@ -1,0 +1,1 @@
+(carya_illinoinensis_Caril.11G018900:0.0741,(manihot_esculenta_Manes.01G169950:1.06421,(salix_purpurea_Sapur.T026200:1.25677,(salix_purpurea_Sapur.011G091200:0.27755,salix_purpurea_Sapur.010G061300:0.32854)n3:0.140922)n2:0.015658)n1:0.34236)n0;

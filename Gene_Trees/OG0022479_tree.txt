@@ -1,0 +1,1 @@
+(((corymbia_citriodora_Cocit.L1082:1.7164,medicago_truncatula_Medtr4g120350:0.42656)n2:0.33423,(abies_alba_AALBA5B1049631:0.0338,abies_alba_AALBA5B303679:0.069822)n3:0.007758)n1:0.075525,eucalyptus_grandis_Eucgr.E02131:0.4549)n0;

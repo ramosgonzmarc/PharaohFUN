@@ -1,0 +1,1 @@
+(lens_culinaris_Lecul.2g013990:0.41634,(sequoiadendron_giganteum_SEGI_18677:0.70162,(sequoia_sempervirens_SESE_081843:0.16712,(thuja_plicata_Thupl.29382038s0009:0.0204,thuja_plicata_Thupl.29382038s0007:0.129915)n3:0.014435)n2:0.04542)n1:0.41634)n0;

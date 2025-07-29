@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_1g05892:0.780385,((lotus_japonicus_Lj2g0017574:0.45658,(lens_culinaris_Lecul.1g072500:0.69218,trifolium_pratense_Trpra.40640:0.38137)n3:0.17723)n2:0.00746,(medicago_truncatula_Medtr6g023955:0.58035,medicago_truncatula_Medtr7g076130:0.690759)n4:0.076751)n1:0.14717)n0;

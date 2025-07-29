@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc09741:0.30247,miscanthus_sinensis_Misin07G081500:1.38917)n1:0.267145,(isoetes_sinensis_IsiChr2g1774:0.03109,(isoetes_sinensis_IsiChr19g967:0.00054,isoetes_sinensis_IsiChr19g968:0.00055)n3:0.19165)n2:0.267145)n0;

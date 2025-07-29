@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_015280:0.00056,tetraselmis_striata_TSEL_017201:0.16681)n1:0.273875,(bryopsis_sp_Bsp_GMH36620:0.39423,(raphidocelis_subcapitata_Rsub_10239:0.6427,ulva_mutabilis_UM004_0308:0.49228)n3:0.19178)n2:0.273875)n0;

@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000135173t12:0.43975,((picea_abies_Pab_63417g0010:0.11451,picea_abies_Pab_9929g0010:0.15101)n2:0.16995,(picea_abies_Pab_197833g0010:0.0896,picea_abies_Pab_80748g0010:0.06621)n3:0.16512)n1:0.43975)n0;

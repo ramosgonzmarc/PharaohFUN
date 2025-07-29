@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_40296:0.51852,(welwitschia_mirabilis_Wmi_07223:0,welwitschia_mirabilis_Wmi_07224:0)n2:0.54195)n1:0.42445,(amborella_trichopoda_AmTr00244g2:0.06698,trifolium_pratense_Trpra.18442:0.47019)n3:0.42445)n0;

@@ -1,0 +1,1 @@
+((micromonas_pusilla_Mpus_199166:0.07741,micromonas_pusilla_Mpus_51300:0.06751)n1:0.36358,((chloropicon_primus_Chlpr_g8611:0.81013,myrmecia_bisecta_Mybis.KAK9830375:0.4791)n3:0.2777,(trebouxia_sp_FRX49_04696:0.21097,trebouxia_sp_FRX49_09079:0.28517)n4:0.24801)n2:0.36358)n0;

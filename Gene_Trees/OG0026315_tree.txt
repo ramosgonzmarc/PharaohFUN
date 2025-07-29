@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00004925:0.268525,((mesostigma_viride1140_Mesvi386S00526:0.07314,mesostigma_viride296_Mevir.Mv09415:0.11569)n2:0.5145,(klebsormidium_nitens_kfl00128_0160:0.58357,(mesotaenium_kramstae_Mekra.3060312:1.07745,(myrmecia_bisecta_Mybis.KAK9804841:0.84694,trebouxia_sp_FRX49_08539:0.40137)n5:0.34908)n4:0.16549)n3:0.61654)n1:0.268525)n0;

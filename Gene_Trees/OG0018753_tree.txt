@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S3G423700:0.685865,((selaginella_moellendorffii_Smoe_419593:0.24916,selaginella_moellendorffii_Smoe_419758:0.11783)n2:0.27201,(selaginella_moellendorffii_Smoe_425039:0.1522,(selaginella_moellendorffii_Smoe_431854:0.03026,selaginella_moellendorffii_Smoe_419773:0.17043)n4:0.10878)n3:0.29412)n1:0.685865)n0;

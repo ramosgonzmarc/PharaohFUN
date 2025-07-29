@@ -1,0 +1,1 @@
+(((brassica_oleracea_Bol008854:0.03651,brassica_rapa_Brara.C00303:0.05616)n2:0.07969,(brassica_oleracea_Bol008852:0.00726,brassica_rapa_Brara.J02524:0.722421)n3:0.080269)n1:0.053465,(capsella_grandiflora_Cagra.19658s0001:0.16326,(arabidopsis_thaliana_AT5G07572:0.09312,arabidopsis_lyrata_Arlyr.AL6G17880:0.04955)n5:0.02696)n4:0.053465)n0;

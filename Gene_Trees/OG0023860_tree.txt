@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.0628937:0.68341,((bathycoccus_prasinos_XM_007508400:0.62176,ostreococcus_mediterraneus_Ostme06g02590:0.6141)n2:0.26241,(picochlorum_soloecismus_NSC_01158:0.89337,(chlorella_sorokiniana_Chlso_g49:0.2724,chlorella_sorokiniana_Chlso_g3558:0.26562)n4:0.55319)n3:0.46857)n1:0.68341)n0;

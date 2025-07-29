@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s0166.g024161:0.294415,((welwitschia_mirabilis_Wmi_14009:0.05258,(welwitschia_mirabilis_Wmi_14011:0.00055,welwitschia_mirabilis_Wmi_16117:0.00054)n3:0.04904)n2:0.63092,((abies_alba_AALBA5B076546:0.11,abies_alba_AALBA5B809552:0.00056)n5:0.11408,(picea_abies_Pab_10320110g0010:0.06265,picea_abies_Pab_107676g0010:0.20835)n6:0.22868)n4:0.52716)n1:0.294415)n0;

@@ -1,0 +1,1 @@
+((desmodesmus_armatus_Desar.528001:0.79931,trebouxia_sp_FRX49_05381:1.08814)n1:0.137425,((physcomitrium_patens_Pp6c1_17880V6:0.07814,(funaria_hygrometrica_Fuhyg.15104:0,funaria_hygrometrica_Fuhyg.15105:0)n4:0.11795)n3:0.3747,(ceratodon_purpureus_CepurR40.5G114500:0.2825,ceratodon_purpureus_CepurR40.10G163600:0.525)n5:0.1126)n2:0.137425)n0;

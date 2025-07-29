@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0004s2474:0.229915,(olea_europaea_Oeu003278:0.17276,((solanum_lycopersicum_Solyc01g009750:0.02213,solanum_tuberosum_Soltu.01G007230:0.00055)n3:0.27918,(solanum_lycopersicum_Solyc05g023995:0.0361,solanum_tuberosum_Soltu.05G012580:0.04863)n4:0.17673)n2:0.10039)n1:0.229915)n0;

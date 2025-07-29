@@ -1,0 +1,1 @@
+(asparagus_officinalis_AsparagusV1_04.114:0.34919,(aquilegia_coerulea_Aqcoe6G228900:0.30209,(capsella_grandiflora_Cagra.10290s0004:1.04128,kalanchoe_fedtschenkoi_Kaladp0085s0133:0.64787)n2:0.49202)n1:0.34919)n0;

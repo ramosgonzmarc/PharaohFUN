@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.13G005700:0.10338,((mimulus_guttatus_Migut.C00724:0.59932,mimulus_guttatus_Migut.C00723:0.21391)n2:0.82735,(mimulus_guttatus_Migut.C00719:0.43003,mimulus_guttatus_Migut.C00718:0.18001)n3:0.39944)n1:0.10338)n0;

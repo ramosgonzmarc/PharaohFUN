@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00114g033:0.3296,(brassica_oleracea_Bol010090:0.02849,(brassica_rapa_Brara.J02857:0.00606,brassica_rapa_Brara.B00062:0.104913)n2:0.011657)n1:0.02435)n0;

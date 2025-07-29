@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_04082:0.17199,(kalanchoe_fedtschenkoi_Kaladp0068s0227:0.60118,(sorghum_bicolor_Sobic.003G358500:0.90341,(miscanthus_sinensis_Misin08G083900:0.45749,miscanthus_sinensis_Misin04G400500:0.22031)n3:0.25789)n2:0.25034)n1:0.17199)n0;

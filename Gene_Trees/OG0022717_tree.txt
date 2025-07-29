@@ -1,0 +1,1 @@
+((malus_domestica_MD07G1260200:0.62826,welwitschia_mirabilis_Wmi_19664:0.4791)n1:0.211495,(abies_alba_AALBA5B488524:0.34353,(asparagus_officinalis_AsparagusV1_07.1344:0.57387,(linum_usitatissimum_Lus10015021:0.34457,(amaranthus_hypochondriacus_AH012312:0.07403,amaranthus_hypochondriacus_AH012315:0.01981)n5:0.22781)n4:0.09113)n3:0.18331)n2:0.211495)n0;

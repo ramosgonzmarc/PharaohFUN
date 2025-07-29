@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNH07161:0.018,((aegilops_tauschii_Atau_XP_045088187:0.00055,(picea_abies_Pab_10428555g0010:0.03644,picea_abies_Pab_2559098g0010:0.006552)n3:0.000728)n2:0.09919,(azolla_filiculoides_Azfi_s0007.g010920:0.00053,miscanthus_sinensis_Misin03G177400:0.00055)n4:0.05463)n1:0.00117)n0;

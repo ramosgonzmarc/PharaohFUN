@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_C44g19914:0.76719,((huperzia_asiatica_HaA48G0504:0.01643,huperzia_asiatica_HaB48G0097:0.01212)n2:0.28343,(diphasiastrum_complanatum_Dicom.04G103400:0.06074,lycopodium_clavatum_Lcl_0011848:0.04304)n3:0.09091)n1:0.76719)n0;

@@ -1,0 +1,1 @@
+((carica_papaya_Capac.c00073g025:0.38133,brassica_rapa_Brara.C00777:0.21635)n1:0.010705,(citrus_sinensis_Cisin.030557:0.26721,citrus_sinensis_Cisin.030338:0.23812)n2:0.010705)n0;

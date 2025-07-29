@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S1G353700:0.6746,((ceratopteris_richardii_Ceric.08G036100:0.09151,adiantum_capillus_Adc09461:0.21125)n2:0.40488,(selaginella_moellendorffii_Smoe_115449:1.01811,(triticum_aestivum_TraesCS1D03G0152200:0.99133,triticum_aestivum_TraesCS1D03G0151700:0.538695)n4:0.059855)n3:0.2853)n1:0.6746)n0;

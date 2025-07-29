@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT1G67635:0.23476,((brassica_oleracea_Bol014914:0.00055,brassica_rapa_Brara.A01361:0.02032)n2:0.10304,(brassica_oleracea_Bol014924:0.18771,(brassica_rapa_Brara.J01526:0.61965,eutrema_salsugineum_Thhalv10002798m:0.66371)n4:0.047691)n3:0.005299)n1:0.23476)n0;

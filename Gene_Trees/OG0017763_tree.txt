@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g38535:0.3048,(huperzia_asiatica_HaB05G0037:0.57182,(ginkgo_biloba_Gb_33002:0.72199,(isoetes_sinensis_IsiChr8g1679:0.62342,(isoetes_sinensis_IsiChr7g1936:0.01038,isoetes_sinensis_IsiChr8g1680:0.02346)n4:0.38088)n3:0.73538)n2:0.14921)n1:0.3048)n0;

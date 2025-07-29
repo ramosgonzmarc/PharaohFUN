@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.073135:0.00055,coffea_arabica_Coara.075048:0.02944)n1:0.679555,(amborella_trichopoda_AmTr00174g21:0.31768,(amborella_trichopoda_AmTr00174g19:0.33013,(amborella_trichopoda_AmTr00174g20:0.07298,amborella_trichopoda_AmTr00174g22:0.05302)n4:0.05376)n3:0.37584)n2:0.679555)n0;

@@ -1,0 +1,1 @@
+(hordeum_vulgare_Hvul_4HG0371240:0.08461,((hordeum_vulgare_Hvul_4HG0352840:0.13699,hordeum_vulgare_Hvul_3HG0259910:0.08233)n2:0.01437,(hordeum_vulgare_Hvul_2HG0165420:0.08913,hordeum_vulgare_Hvul_3HG0273530:0.05546)n3:0.00479)n1:0.08461)n0;

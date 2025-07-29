@@ -1,0 +1,1 @@
+((mesostigma_viride1140_Mesvi18S00334:0.12789,mesostigma_viride296_Mevir.Mv10688:0.0657)n1:0.41517,(bathycoccus_prasinos_XM_007512230:0.99589,(cymbomonas_tetramitiformis_KAK3241323:0.96295,(cymbomonas_tetramitiformis_KAK3239162:0.68049,cymbomonas_tetramitiformis_KAK3232706:0.521055)n4:0.0521055)n3:0.0057895)n2:0.1287)n0;

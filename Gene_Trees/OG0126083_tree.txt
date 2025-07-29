@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0003s4662:0.311035,(medicago_truncatula_Medtr0170s0030:0.33262,((arachis_hypogaea_arahy_PV2LDA:0.03904,arachis_hypogaea_arahy_MEA9HI:0.00321)n3:0.50652,(glycine_max_Glyma.06G209800:0.11913,(phaseolus_acutifolius_Phacu.009G239400:0.08129,vigna_unguiculata_Vigun09g061900:0.10076)n5:0.17628)n4:0.17863)n2:0.08118)n1:0.311035)n0;

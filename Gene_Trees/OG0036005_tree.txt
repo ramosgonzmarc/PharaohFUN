@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.1099s00001:0.59971,(chenopodium_quinoa_AUR62025822:1.05184,(malus_domestica_MD07G1014400:0.14159,daucus_carota_DCAR_101226:0.5014)n2:0.28482)n1:0.59971)n0;

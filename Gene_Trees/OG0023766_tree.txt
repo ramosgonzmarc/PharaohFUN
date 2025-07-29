@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_022441:0.7131,(coccomyxa_subellipsoidea_Cosub_60158:0.47778,(asterochloris_glomerata_Astgl_g1950:0.54808,(myrmecia_bisecta_Mybis.KAK9823830:0.2752,trebouxia_sp_FRX49_02566:0.32816)n3:0.03202)n2:0.2838)n1:0.7131)n0;

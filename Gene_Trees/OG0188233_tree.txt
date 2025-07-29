@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0007.g010788:0.63576,notothylas_orbicularis_Noorb.S5G115000:1.02853)n1:0.06126,(takakia_lepidozioides_Tle1c03550:0.20144,(lens_culinaris_Lecul.3g013980:1.09055,(eutrema_salsugineum_Thhalv10000473m:0.51722,(citrus_sinensis_Cisin.044945:0.14372,poncirus_trifoliata_Ptrif.0006s0336:0.35138)n5:0.59051)n4:0.18518)n3:0.07969)n2:0.06126)n0;

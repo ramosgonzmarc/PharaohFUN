@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_206s0004g08130:0.220355,(gossypium_hirsutum_Gohir.1Z049434:0.75549,(citrus_sinensis_Cisin.040884:0.62725,malus_domestica_MD11G1053200:0.82308)n2:0.03482)n1:0.220355)n0;

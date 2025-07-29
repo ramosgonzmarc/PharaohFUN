@@ -1,0 +1,1 @@
+((miscanthus_sinensis_Misin13G121800:0.12145,(setaria_italica_Seita.J018700:0.00054,(brachypodium_distachyon_Bradi1g39191:0.09845,triticum_aestivum_TraesCS1D03G0159900:0.01376)n3:0.08658)n2:0.0652)n1:0.09724,(arachis_hypogaea_arahy_VTN9DR:0.02731,(arachis_hypogaea_arahy_RX3X4C:0.02241,arachis_hypogaea_arahy_XRY5UR:0.05475)n5:0.11957)n4:0.09724)n0;

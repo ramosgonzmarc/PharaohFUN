@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.22793:0.308675,(ceratodon_purpureus_CepurR40.10G070000:0.00055,(ceratodon_purpureus_CepurR40.1G298700:0.06534,(ceratodon_purpureus_CepurR40.9G121600:0.06682,(ceratodon_purpureus_CepurR40.12G066800:0,ceratodon_purpureus_CepurR40.12G066400:0)n4:0.02085)n3:0.00054)n2:0.02088)n1:0.308675)n0;

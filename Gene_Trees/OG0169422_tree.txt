@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0048s0026:0.566445,(monoraphidium_minutum_Momin.358043:0.22501,(micromonas_commoda_Micom.075917:0.25758,(ostreococcus_lucimarinus_Oluc_29499:0.17586,ostreococcus_mediterraneus_Ostme10g02360:0.15489)n3:0.13099)n2:0.11665)n1:0.566445)n0;

@@ -1,0 +1,1 @@
+((takakia_lepidozioides_Tle1c01770:0.36656,anthoceros_fusiformis_Anfus.S1G213300:1.51147)n1:0.007985,(lotus_japonicus_Lj1g0004145:0.7461,(vaccinium_darrowii_Vadar_g35473:0.69912,(prunus_persica_Prupe.8G045500:0.50773,solanum_tuberosum_Soltu.03G030120:0.6301)n4:0.0703)n3:0.14903)n2:0.007985)n0;

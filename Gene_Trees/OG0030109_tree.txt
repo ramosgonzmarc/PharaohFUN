@@ -1,0 +1,1 @@
+((aegilops_tauschii_Atau_XP_040256168:0,aegilops_tauschii_Atau_XP_045089441:0)n1:0.22738,(eleusine_coracana_Elcor.1AG0003190:0.5701,miscanthus_sinensis_MisinT142400:0.8779)n2:0.22738)n0;

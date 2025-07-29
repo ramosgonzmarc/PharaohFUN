@@ -1,0 +1,1 @@
+((picea_abies_Pab_9119408g0010:0.05635,picea_abies_Pab_8198780g0010:0.00053)n1:0.16986,(thuja_plicata_Thupl.29380980s0014:0.30099,(sequoia_sempervirens_SESE_128019:0.1512,(sequoia_sempervirens_SESE_048303:0.00055,(sequoia_sempervirens_SESE_055953:0.03149,sequoia_sempervirens_SESE_142335:0.00054)n5:0.00053)n4:0.06768)n3:0.40525)n2:0.16986)n0;

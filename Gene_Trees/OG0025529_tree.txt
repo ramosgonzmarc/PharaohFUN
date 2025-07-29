@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0356s00006:0.37105,(dunaliella_salina_Dusal.0356s00005:0.04111,dunaliella_salina_Dusal.0356s00007:0.36488)n2:0.20208)n1:0.64851,(haematococcus_lacustris_QJQ45_030398:0.02098,haematococcus_lacustris_QJQ45_008727:0.0294)n3:0.64851)n0;

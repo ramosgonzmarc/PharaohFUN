@@ -1,0 +1,1 @@
+((glycine_max_Glyma.18G126951:0.18393,medicago_truncatula_Medtr1325s0020:0.62846)n1:0.70352,(lactuca_sativa_Lsat_gn_3_69101:0.00053,(lactuca_sativa_Lsat_gn_7_44680:0.07219,lactuca_sativa_Lsat_gn_8_156041:0.1002)n3:0.0924)n2:0.70352)n0;

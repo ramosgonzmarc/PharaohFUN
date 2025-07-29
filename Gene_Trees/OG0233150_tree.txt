@@ -1,0 +1,1 @@
+(volvox_carteri_Vocar.0079s0003:0.346865,(gonium_pectorale_Gopec.07642:0.31284,((gonium_pectorale_Gopec.04788:0.56001,(gonium_pectorale_Gopec.10428:0.16116,gonium_pectorale_Gopec.04787:0.24607)n4:0.36265)n3:0.40152,(gonium_pectorale_Gopec.10755:0.30227,gonium_pectorale_Gopec.10758:0.5786)n5:0.1565)n2:0.12798)n1:0.346865)n0;

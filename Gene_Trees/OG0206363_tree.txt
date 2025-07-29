@@ -1,0 +1,1 @@
+(brassica_rapa_Brara.B02175:0.208175,(brassica_oleracea_Bol024157:0.68151,(brassica_oleracea_Bol012259:0.69449,(brassica_oleracea_Bol016862:0.00055,brassica_oleracea_Bol013770:0.09189)n3:0.00054)n2:0.39628)n1:0.208175)n0;

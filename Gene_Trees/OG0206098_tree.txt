@@ -1,0 +1,1 @@
+(gossypium_raimondii_Gorai.006G265400:0.44905,(schrenkiella_parvula_Scpar7g14820:0.32024,((eutrema_salsugineum_Thhalv10021463m:0.05479,thlaspi_arvense_TaMN106.3G226700:0.05489)n3:0.01625,(boechera_stricta_Bostr.19424s0955:0.02756,(arabidopsis_lyrata_Arlyr.AL3G30100:0.02671,capsella_grandiflora_Cagra.4396s0017:0.06286)n5:0.00865)n4:0.03604)n2:0.21268)n1:0.44905)n0;

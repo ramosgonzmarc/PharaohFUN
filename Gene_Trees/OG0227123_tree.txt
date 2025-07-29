@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.17537:0.15851,((pleurozium_schreberi_Plsch.00015:0.00055,pleurozium_schreberi_Plsch.00019:0.00054)n2:0.26765,(ceratodon_purpureus_CepurR40.4G147000:0.20807,ceratodon_purpureus_CepurR40.1G190800:0.069993)n3:0.007777)n1:0.28318)n0;

@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaB02G0142:0.269765,((taxus_chinensis_KI387_024589:0.03458,(sequoia_sempervirens_SESE_037210:0.66764,sequoia_sempervirens_SESE_034417:0.700209)n3:0.077801)n2:0.03787,(alsophila_spinulosa_Aspi01Gene61934:0.2107,adiantum_capillus_Adc07720:1.94093)n4:0.26656)n1:0.05095)n0;

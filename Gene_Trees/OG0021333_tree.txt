@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00004225:0.3704,(dioscorea_alata_Dioal.11G096900:1.2097,((isoetes_sinensis_IsiChr15g126:0.00055,isoetes_sinensis_IsiChr16g135:0.00573)n3:0.64105,(thuja_plicata_Thupl.29381665s0017:0.15965,sequoia_sempervirens_SESE_091449:0.45658)n4:0.35597)n2:0.59088)n1:0.3704)n0;

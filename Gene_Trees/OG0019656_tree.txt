@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_000227:0.14295,(malus_domestica_MD02G1074600:0.37217,asparagus_officinalis_AsparagusV1_08.3135:0.35642)n2:0.19078)n1:0.208845,(alsophila_spinulosa_Aspi01Gene70774:0.26711,salvinia_cucullata_Sacu_s0144.g022971:0.50478)n3:0.208845)n0;

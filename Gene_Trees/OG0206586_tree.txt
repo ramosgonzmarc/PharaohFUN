@@ -1,0 +1,1 @@
+(schrenkiella_parvula_Scpar3g24870:0.43616,(capsella_grandiflora_Cagra.7290s0002:0.31724,(capsella_grandiflora_Cagra.10324s0001:0.3659,capsella_grandiflora_Cagra.0327s0006:0.32313)n2:0.71443)n1:0.43616)n0;

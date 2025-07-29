@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr12g0204571:0.32689,(vigna_unguiculata_Vigun03g088400:0.53892,(glycine_max_Glyma.05G167000:0.20971,(lotus_japonicus_Lj4g0003990:0.60379,(lens_culinaris_Lecul.4g069810:0.21782,medicago_truncatula_Medtr2g034125:0.41193)n4:0.35617)n3:0.18759)n2:0.08324)n1:0.32689)n0;

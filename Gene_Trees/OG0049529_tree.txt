@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B295546:0.16002,picea_abies_Pab_10436242g0020:0.09506)n1:0.42019,(sequoiadendron_giganteum_SEGI_10619:0.02884,(sequoia_sempervirens_SESE_080570:0.00253,sequoia_sempervirens_SESE_071759:0.0049)n3:0.03392)n2:0.42019)n0;

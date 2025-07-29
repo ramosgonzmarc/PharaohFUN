@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g4498:0.4032,(haematococcus_lacustris_QJQ45_015189:0.31508,(chromochloris_zofingiensis_UNPLg00057:0.57709,chromochloris_zofingiensis_UNPLg00052:0.387486)n2:0.043054)n1:0.21381)n0;

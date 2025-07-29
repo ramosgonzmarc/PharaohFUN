@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S1G539700:0.380105,(phaeomegaceros_chiloensis_Phchi.S1G531400:0.27281,(phaeoceros_sp_Phsp.C3G014800:0.01432,(phaeoceros_carolinianus_Phcar.S1G354800:0.00055,phaeoceros_carolinianus_Phcar.S1G368900:0.01609)n3:0.04305)n2:0.23557)n1:0.380105)n0;

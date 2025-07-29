@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B694853:0.28595,sequoia_sempervirens_SESE_038208:1.08353)n1:0.531255,(aquilegia_coerulea_Aqcoe0109s0001:0.12169,aquilegia_coerulea_Aqcoe0352s0001:0.00053)n2:0.531255)n0;

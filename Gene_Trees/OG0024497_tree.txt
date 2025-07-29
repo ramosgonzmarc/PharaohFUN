@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp17S02777:0.48667,mesostigma_viride296_Mevir.Mv05472:0.40286)n1:0.05714,(gracilariopsis_chorda_PXF48034:0.53032,porphyra_umbilicalis_Pum0483s0008:0.33941)n2:0.05714)n0;

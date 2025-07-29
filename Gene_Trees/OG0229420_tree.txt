@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S2G075400:0.104125,(anthoceros_fusiformis_Anfus.S3G049500:0.13419,(anthoceros_fusiformis_Anfus.S3G046400:0.27034,(anthoceros_fusiformis_Anfus.S3G049400:0.1821,(anthoceros_fusiformis_Anfus.S2G078500:0.40305,anthoceros_fusiformis_Anfus.S1G249100:0.71159)n4:0.16912)n3:1.22645)n2:0.15687)n1:0.104125)n0;

@@ -1,0 +1,1 @@
+((thlaspi_arvense_TaMN106.1G008500:0.10793,(brassica_oleracea_Bol013332:0.00055,brassica_rapa_Brara.E01459:0.04984)n2:0.3994)n1:0.11724,(boechera_stricta_Bostr.6758s0026:0.09197,capsella_grandiflora_Cagra.0001s0027:0.12023)n3:0.11724)n0;

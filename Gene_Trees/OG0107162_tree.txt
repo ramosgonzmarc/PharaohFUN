@@ -1,0 +1,1 @@
+((chlamydomonas_incerta_Chincg08098:0.30821,tetrabaena_socialis_Tesoc.PNH08517:0.55742)n1:0.113855,(dunaliella_salina_Dusal.0405s00013:0.77643,(haematococcus_lacustris_QJQ45_015258:0.01635,(haematococcus_lacustris_QJQ45_027126:0.02273,haematococcus_lacustris_QJQ45_027378:0.04117)n4:0.01552)n3:0.54434)n2:0.113855)n0;

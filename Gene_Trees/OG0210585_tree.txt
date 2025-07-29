@@ -1,0 +1,1 @@
+(salix_purpurea_Sapur.012G035800:0.007535,(salix_purpurea_Sapur.008G103900:0.37204,((salix_purpurea_Sapur.012G075900:0,salix_purpurea_Sapur.016G213300:0,salix_purpurea_Sapur.019G003000:0,salix_purpurea_Sapur.006G158100:0)n3:0.00055,(salix_purpurea_Sapur.T115800:0.09336,salix_purpurea_Sapur.T139500:0.01439)n4:0.11726)n2:0.00055)n1:0.007535)n0;

@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00129g15:0.00054,(amborella_trichopoda_AmTr00095g106:0.14151,amborella_trichopoda_AmTr00150g8:0.11465)n2:0.18981)n1:0.54313,(ginkgo_biloba_Gb_18211:0.00056,(ginkgo_biloba_Gb_00866:0.06215,ginkgo_biloba_Gb_39747:0.32566)n4:0.19126)n3:0.54313)n0;

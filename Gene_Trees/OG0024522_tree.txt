@@ -1,0 +1,1 @@
+((caulerpa_lentillifera_Caule_g2655:0.63349,caulerpa_lentillifera_Caule_g2656:0.76311)n1:0.56295,(chlorokybus_atmophyticus_Chrsp51S00509:0.22229,(chlorokybus_atmophyticus_Chrsp51S06531:0.0303,chlorokybus_atmophyticus_Chrsp51S06565:0.20881)n3:0.29111)n2:0.56295)n0;

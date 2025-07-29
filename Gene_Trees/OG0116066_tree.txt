@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_09508:0.158785,(asparagus_officinalis_AsparagusV1_06.479:0.93539,(triticum_aestivum_TraesCS7D03G0016400:0.20369,triticum_aestivum_TraesCS7A03G0010400:0.00055)n2:0.88682)n1:0.158785)n0;

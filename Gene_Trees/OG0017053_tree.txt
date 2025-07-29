@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B918382:0.271305,(cycas_panzhihuaensis_CYCAS_009087:0.03987,(cycas_panzhihuaensis_CYCAS_009124:0.00054,(cycas_panzhihuaensis_CYCAS_009085:0.02738,cycas_panzhihuaensis_CYCAS_026265:1.29827)n3:0.07605)n2:0.1378)n1:0.271305)n0;

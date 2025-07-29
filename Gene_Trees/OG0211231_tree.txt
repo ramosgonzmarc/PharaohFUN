@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_GI5PFL:0.385455,(trifolium_pratense_Trpra.23647:0.20557,(medicago_truncatula_Medtr5g085490:0.13524,medicago_truncatula_Medtr5g085440:0.498717)n2:0.055413)n1:0.10146)n0;

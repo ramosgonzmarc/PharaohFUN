@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0009s1552:0.187035,(schrenkiella_parvula_Scpar3g26790:1.03915,(gossypium_hirsutum_Gohir.D08G132950:0.00055,gossypium_raimondii_Gorai.004G135800:0.02651)n2:0.78961)n1:0.187035)n0;

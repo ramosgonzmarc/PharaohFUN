@@ -1,0 +1,1 @@
+(spirodela_polyrhiza_Spipo21G0041100:0.120915,((spirodela_polyrhiza_Spipo5G0034400:0.24163,spirodela_polyrhiza_Spipo11G0006600:0.55707)n2:0.98516,(spirodela_polyrhiza_Spipo25G0002800:1.20525,spirodela_polyrhiza_Spipo2G0024900:0.22266)n3:0.4831)n1:0.120915)n0;

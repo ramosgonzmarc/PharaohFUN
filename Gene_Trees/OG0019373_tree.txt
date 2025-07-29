@@ -1,0 +1,1 @@
+(ananas_comosus_Aco019555:0.402315,(brachypodium_distachyon_Bradi4g33785:0.21627,((oryza_sativa_Os06g34990:0.20611,miscanthus_sinensis_Misin05G013500:0.53971)n3:0.26078,(aegilops_tauschii_Atau_XP_020164515:0.05014,aegilops_tauschii_Atau_XP_020177595:0.03251)n4:0.1881)n2:0.01551)n1:0.402315)n0;

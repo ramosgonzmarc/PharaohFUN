@@ -1,0 +1,1 @@
+((sisymbrium_irio_Siiris174g00090:0.24615,(sisymbrium_irio_Siiric192237g00010:0.06492,sisymbrium_irio_Siiric195183g00010:0.04196)n2:0.05557)n1:0.25729,(brassica_oleracea_Bol035591:0.25584,((brassica_oleracea_Bol016492:0.02583,brassica_oleracea_Bol031989:0.35837)n5:0.00054,(brassica_oleracea_Bol037269:0.00054,brassica_oleracea_Bol022728:0.24253)n6:0.08197)n4:0.02972)n3:0.25729)n0;

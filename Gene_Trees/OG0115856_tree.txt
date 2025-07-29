@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0030.g024338:0.5727,(picea_abies_Pab_552516g0010:0.62726,(ginkgo_biloba_Gb_31696:0.40883,(cucumis_sativus_Cucsa.c005010g01:0.50968,spirodela_polyrhiza_Spipo7G0018100:0.37717)n3:0.33594)n2:0.10412)n1:0.5727)n0;

@@ -1,0 +1,1 @@
+((panicum_hallii_Pahal.5G232500:0.24117,setaria_italica_Seita.5G238700:0.1738)n1:0.131225,(zea_mays_Zm00001d044112:0.15874,(miscanthus_sinensis_Misin06G211100:0.06518,(sorghum_bicolor_Sobic.003G183400:0.48944,sorghum_bicolor_Sobic.003G232100:0.156204)n4:0.017356)n3:0.07694)n2:0.0386)n0;

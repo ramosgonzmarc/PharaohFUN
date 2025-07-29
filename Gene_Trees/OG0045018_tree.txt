@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.10G013970:0.533885,(kalanchoe_fedtschenkoi_Kaladp0008s0628:0.73128,(vitis_vinifera_VIT_212s0035g00540:0.74252,vitis_vinifera_VIT_212s0035g00440:0.12082)n2:0.48184)n1:0.533885)n0;

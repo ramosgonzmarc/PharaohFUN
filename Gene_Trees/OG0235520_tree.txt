@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g1602:0.72289,(bryopsis_sp_Bsp_GMH41648:0.67252,(bryopsis_sp_Bsp_GMH44827:0.80044,(bryopsis_sp_Bsp_GMH41474:0.03968,((bryopsis_sp_Bsp_GMH40860:0,bryopsis_sp_Bsp_GMH41141:0,bryopsis_sp_Bsp_GMH41847:0)n5:0.01192,bryopsis_sp_Bsp_GMH44767:0.03818)n4:0.33589)n3:0.54812)n2:0.04968)n1:0.72289)n0;

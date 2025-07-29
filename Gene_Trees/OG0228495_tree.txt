@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_006476:0.24884,(marchantia_paleacea_Mapa_004416:0.04272,(marchantia_paleacea_Mapa_004417:0.01984,marchantia_paleacea_Mapa_000994:0.23503)n2:0.00055)n1:0.24884)n0;

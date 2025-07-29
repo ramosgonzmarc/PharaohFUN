@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.17G050800:0.415985,(alsophila_spinulosa_Aspi01Gene20204:0.24003,((alsophila_spinulosa_Aspi01Gene24056:0,alsophila_spinulosa_Aspi01Gene24057:0)n3:1.1113,(alsophila_spinulosa_Aspi01Gene24041:0.06824,(alsophila_spinulosa_Aspi01Gene24046:0,alsophila_spinulosa_Aspi01Gene24047:0)n5:0.05712)n4:0.20778)n2:0.05784)n1:0.415985)n0;

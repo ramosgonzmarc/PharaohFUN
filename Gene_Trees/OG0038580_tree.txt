@@ -1,0 +1,1 @@
+((apatococcus_lobatus_Aplob.KAK9839051:0.48083,(volvox_carteri_Vocar.0016s0144:0.07087,(gonium_pectorale_Gopec.06944:1.17895,gonium_pectorale_Gopec.05071:0.149022)n3:0.016558)n2:0.6061)n1:0.346965,(klebsormidium_nitens_kfl01326_0015:0.00053,klebsormidium_nitens_kfl00039_0020:0.18211)n4:0.346965)n0;

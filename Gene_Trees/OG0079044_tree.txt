@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.12G081200:0.000275,(amaranthus_hypochondriacus_AH020279:0.01482,(lens_culinaris_Lecul.2g004140:0.31061,sequoia_sempervirens_SESE_031766:0.10786)n2:0.00054)n1:0.000275)n0;

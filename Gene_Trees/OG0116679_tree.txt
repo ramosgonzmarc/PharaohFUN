@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_35522:0.12557,(trifolium_pratense_Trpra.37781:0.14756,(arachis_hypogaea_arahy_3TR3AL:0.37618,(arachis_hypogaea_arahy_T6IDAJ:0.04109,(arachis_hypogaea_arahy_46W7S4:0.07709,(arachis_hypogaea_arahy_EG32KL:0.2521,arachis_hypogaea_arahy_HQG6CK:0.05675)n5:0.09968)n4:0.26735)n3:0.09517)n2:0.03615)n1:0.12557)n0;

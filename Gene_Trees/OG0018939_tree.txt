@@ -1,0 +1,1 @@
+((sequoia_sempervirens_SESE_009577:0.23807,sequoiadendron_giganteum_SEGI_13195:0.13314)n1:0.106615,(thuja_plicata_Thupl.29378857s0009:0.02902,(thuja_plicata_Thupl.29378857s0010:0.04051,(thuja_plicata_Thupl.29378857s0008:0.11588,(thuja_plicata_Thupl.29378857s0011:0.03526,thuja_plicata_Thupl.29377137s0006:0.14043)n5:0.03306)n4:0.00055)n3:0.01087)n2:0.106615)n0;

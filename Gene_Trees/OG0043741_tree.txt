@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_013380:0.00306,tetraselmis_striata_TSEL_041391:0.00165)n1:0.492755,(myrmecia_bisecta_Mybis.KAK9816867:0.36636,(trebouxia_sp_FRX49_07791:0.329,trebouxia_sp_FRX49_01205:0.155394)n3:0.017266)n2:0.06786)n0;

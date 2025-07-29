@@ -1,0 +1,1 @@
+(sisymbrium_irio_Siiris776g00300:0.1976,(arabidopsis_thaliana_AT1G53633:0.17233,(boechera_stricta_Bostr.0124s0157:0.27343,capsella_grandiflora_Cagra.12113s0008:0.1405)n2:0.26251)n1:0.1976)n0;

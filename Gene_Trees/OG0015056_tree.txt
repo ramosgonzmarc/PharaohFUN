@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000037S06506:0.514095,((spirogloea_muscicola_SM000662S20132:0.0309,(spirogloea_muscicola_SM000087S23357:0.0343,spirogloea_muscicola_SM000177S03187:0.03411)n3:0.00774)n2:1.0073,(spirogloea_muscicola_SM000096S24887:0.00599,(spirogloea_muscicola_SM000020S06019:0.02042,spirogloea_muscicola_SM000006S19525:0.01356)n5:0.00761)n4:0.47096)n1:0.514095)n0;

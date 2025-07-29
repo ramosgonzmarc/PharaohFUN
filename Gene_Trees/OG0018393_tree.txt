@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c1_6250V6:0.44086,(taxus_chinensis_KI387_028843:0.29611,(huperzia_asiatica_HaB54G0059:0.25178,(isoetes_sinensis_IsiChr8g6:0.12093,(isoetes_sinensis_IsiChr9g2981:0.01944,isoetes_sinensis_IsiChr19g3546:0.036)n4:0.17261)n3:0.57829)n2:0.23535)n1:0.44086)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv24039:0.511715,(scenedesmus_obliquus_Sobl_g08465:0.41198,(raphidocelis_subcapitata_Rsub_07463:0.49757,monoraphidium_minutum_Momin.507361:0.50248)n2:0.24689)n1:0.511715)n0;

@@ -1,0 +1,1 @@
+((chlamydomonas_incerta_Chincg16739:0.45364,scenedesmus_obliquus_Sobl_g06259:0.82422)n1:0.537165,(coccomyxa_subellipsoidea_Cosub_61880:0.28804,(myrmecia_bisecta_Mybis.KAK9815743:0.12917,(trebouxia_sp_FRX49_11122:0.9644,(trebouxia_sp_FRX49_03265:0.00296,(trebouxia_sp_FRX49_11142:0.02283,trebouxia_sp_FRX49_11573:0.04529)n6:0.20266)n5:0.231237)n4:0.025693)n3:0.00819)n2:0.537165)n0;

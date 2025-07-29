@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9465266:0.78344,(((desmodesmus_armatus_Desar.349876:0.2063,scenedesmus_obliquus_Sobl_g05766:0.25659)n3:0.2643,(chromochloris_zofingiensis_Cz13g11340:0.94209,chromochloris_zofingiensis_Cz07g00130:0.41683)n4:0.09964)n2:0.17327,(raphidocelis_subcapitata_Rsub_06989:0.44842,raphidocelis_subcapitata_Rsub_08924:0.235827)n5:0.026203)n1:0.17928)n0;

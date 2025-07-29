@@ -1,0 +1,1 @@
+((zygnema_circumcarinatum1559_ZcUTEX1559_09795:0.02954,zygnema_circumcarinatum1559_ZcUTEX1559_12458:0.05201)n1:0.68878,(adiantum_capillus_Adc23726:0.28748,(alsophila_spinulosa_Aspi01Gene06471:0.13572,alsophila_spinulosa_Aspi01Gene11789:0.12086)n3:0.20937)n2:0.68878)n0;

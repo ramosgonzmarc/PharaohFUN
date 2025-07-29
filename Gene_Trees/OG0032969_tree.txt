@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_011114:0.476565,(gonium_pectorale_Gopec.08231:0.16988,(volvox_carteri_Vocar.0007s0454:0.22907,(tetrabaena_socialis_Tesoc.PNH03261:0.65563,(chlamydomonas_reinhardtii_Cre01.g018450_4532:0.09463,chlamydomonas_incerta_Chincg06329:0.05365)n4:0.20496)n3:0.01073)n2:0.09972)n1:0.476565)n0;

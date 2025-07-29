@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S1G054500:0.20171,(anthoceros_agrestis_AnagrOXF.S5G123000:0.13023,(anthoceros_agrestis_AnagrOXF.S6G011400:0.05046,anthoceros_agrestis_AnagrOXF.S6G091700:0.04155)n2:0.14472)n1:0.20171)n0;

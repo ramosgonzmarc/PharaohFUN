@@ -1,0 +1,1 @@
+((caulerpa_lentillifera_Caule_g4015:0.88753,caulerpa_lentillifera_Caule_g5185:1.11035)n1:0.12565,(ostreobium_quekettii_CAD7701488:0.37533,ostreobium_quekettii_CAD7704998:0.22458)n2:0.12565)n0;

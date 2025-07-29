@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29181956s0001:0.402375,((abies_alba_AALBA5B222327:0.37023,abies_alba_AALBA5B703282:0.00055)n2:0.34653,(picea_abies_Pab_785811g0010:0.50173,picea_abies_Pab_156523g0010:0.364338)n3:0.040482)n1:0.20103)n0;

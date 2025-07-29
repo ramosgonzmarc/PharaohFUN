@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi2g14101:0.29166,((eleusine_coracana_Elcor.5BG0409120:0.02626,eleusine_coracana_Elcor.5AG0360660:0.03161)n2:0.38962,(setaria_italica_Seita.4G083400:0.2217,(zea_mays_Zm00001d037159:0.10715,(miscanthus_sinensis_Misin19G086900:0.02991,miscanthus_sinensis_Misin18G088300:0.02794)n5:0.05902)n4:0.16616)n3:0.17225)n1:0.29166)n0;

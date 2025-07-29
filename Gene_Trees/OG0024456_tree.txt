@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g6585:0.64342,(chlamydomonas_reinhardtii_Cre06.g252750_4532:1.07676,((haematococcus_lacustris_QJQ45_024042:0.9161,(scenedesmus_obliquus_Sobl_g02166:1.33111,(dunaliella_salina_Dusal.0042s00016:0.50147,scenedesmus_obliquus_Sobl_g02165:0.36143)n5:0.141822)n4:0.015758)n3:0.16278,chromochloris_zofingiensis_Cz15g17120:0.52166)n2:0.11966)n1:0.64342)n0;

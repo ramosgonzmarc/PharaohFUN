@@ -1,0 +1,1 @@
+(gossypium_raimondii_Gorai.008G058400:0.58746,((arabidopsis_lyrata_Arlyr.AL288U10030:0.08367,(boechera_stricta_Bostr.19046s0051:0.05401,boechera_stricta_Bostr.19046s0001:0.05494)n3:0.07201)n2:0.04165,(brassica_rapa_Brara.C03020:0.19387,eutrema_salsugineum_Thhalv10021775m:0.11143)n4:0.09439)n1:0.58746)n0;

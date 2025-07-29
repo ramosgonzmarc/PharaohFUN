@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S3G197300:0.35593,(alsophila_spinulosa_Aspi01Gene25969:0.39197,(sequoiadendron_giganteum_SEGI_27504:1.1827,sequoia_sempervirens_SESE_058557:0.87169)n2:0.17695)n1:0.35593)n0;

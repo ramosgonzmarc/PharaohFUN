@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH020648:0.09124,amaranthus_hypochondriacus_AH006059:0.01789)n1:0.11717,(daucus_carota_DCAR_101585:0.53706,(lactuca_sativa_Lsat_gn_7_98321:0.10636,(lactuca_sativa_Lsat_gn_4_102681:0.00054,(lactuca_sativa_Lsat_gn_4_69480:0.39957,lactuca_sativa_Lsat_gn_2_70561:0.09)n5:0.00825)n4:0.03441)n3:0.37806)n2:0.11717)n0;

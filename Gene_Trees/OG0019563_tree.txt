@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.E00908:0.403255,(alsophila_spinulosa_Aspi01Gene61795:0.07554,(alsophila_spinulosa_Aspi01Gene16337:0.08446,(alsophila_spinulosa_Aspi01Gene65482:0.02971,alsophila_spinulosa_Aspi01Gene67608:0.02888)n3:0.01268)n2:0.00956)n1:0.403255)n0;

@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_013049:0.261315,(brassica_oleracea_Bol044644:0.81207,(welwitschia_mirabilis_Wmi_25602:0.44834,vaccinium_darrowii_Vadar_g25312:1.01837)n2:0.16597)n1:0.261315)n0;

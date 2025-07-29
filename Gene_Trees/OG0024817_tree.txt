@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.Un_randomP26220_001:0.14942,(cycas_panzhihuaensis_CYCAS_002142:0.02914,(thuja_plicata_Thupl.29349553s0002:0.0319,thuja_plicata_Thupl.28562679s0003:0.04356)n2:0.09115)n1:0.14942)n0;

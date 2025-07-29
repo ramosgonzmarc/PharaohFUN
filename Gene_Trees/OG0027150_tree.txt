@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c5_5960V6:0.76264,sphagnum_magellanicum_Sphmag02G207500:0.25131)n1:0.30387,(sorghum_bicolor_Sobic.003G249050:0.5253,(miscanthus_sinensis_Misin19G053200:0.12522,miscanthus_sinensis_Misin18G043400:0.21328)n3:0.2857)n2:0.30387)n0;

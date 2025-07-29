@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.11G096200:0.63995,((adiantum_capillus_Adc12911:0.07931,adiantum_capillus_Adc12912:0.2302)n2:0.61348,(thuja_plicata_Thupl.29379176s0015:0.06422,thuja_plicata_Thupl.29377194s0021:0.09304)n3:0.18563)n1:0.63995)n0;

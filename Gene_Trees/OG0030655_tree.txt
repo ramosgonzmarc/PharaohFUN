@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c05456:0.281415,(alsophila_spinulosa_Aspi01Gene65317:0.32731,(sequoia_sempervirens_SESE_120283:0.37739,sisymbrium_irio_Siiris959g00010:0.43711)n2:0.40534)n1:0.281415)n0;

@@ -1,0 +1,1 @@
+((aquilegia_coerulea_Aqcoe2G188000:0.11756,aquilegia_coerulea_Aqcoe7G230700:0.14621)n1:0.09214,(mimulus_guttatus_Migut.J01362:0.25082,(amaranthus_hypochondriacus_AH015293:0.07897,beta_vulgaris_Bevul.7G081500:0.04593)n3:0.04921)n2:0.09214)n0;

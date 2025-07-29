@@ -1,0 +1,1 @@
+(megaceros_flagellaris_Mefla.S3G193000:0.14063,(welwitschia_mirabilis_Wmi_18270:0.15295,(amborella_trichopoda_AmTr00055g15:0.00055,zea_mays_Zm00001d034938:0.16363)n2:0.54068)n1:0.14063)n0;

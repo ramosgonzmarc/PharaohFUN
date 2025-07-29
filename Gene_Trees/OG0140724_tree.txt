@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S3G040200:0.296365,(megaceros_flagellaris_Mefla.S2G320000:0.32316,(phymatoceros_phymatodes_Phphy.S1G534100:0.35898,phaeomegaceros_chiloensis_Phchi.S1G568600:0.24697)n2:0.08798)n1:0.296365)n0;

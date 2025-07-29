@@ -1,0 +1,1 @@
+((panicum_hallii_Pahal.1G046800:0.32235,setaria_italica_Seita.1G077900:0.21025)n1:0.20143,(theobroma_cacao_Thecc1EG030856:0.97425,(cicer_arietinum_Ca_10215:0.38005,medicago_truncatula_Medtr6g013135:0.96656)n3:0.20011)n2:0.20143)n0;

@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_210s0003g01180:0.10935,(carya_illinoinensis_Caril.11G165900:0.15201,(vigna_unguiculata_Vigun11g091566:0.01604,vigna_unguiculata_Vigun11g091150:0.00053)n2:0.70366)n1:0.10935)n0;

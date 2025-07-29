@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000507135t01:0.535155,(isoetes_sinensis_IsiChr20g3161:1.26422,(selaginella_moellendorffii_Smoe_416213:0.5469,(selaginella_moellendorffii_Smoe_416210:0.19969,(selaginella_moellendorffii_Smoe_413343:0.119,selaginella_moellendorffii_Smoe_416207:0.11431)n4:0.17681)n3:0.24971)n2:0.0727)n1:0.535155)n0;

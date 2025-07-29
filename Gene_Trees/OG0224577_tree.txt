@@ -1,0 +1,1 @@
+(((azolla_filiculoides_Azfi_s0150.g053325:0.08889,azolla_filiculoides_Azfi_s0004.g008582:0.32862)n2:0.00054,(azolla_filiculoides_Azfi_s0150.g053294:0.23555,azolla_filiculoides_Azfi_s0068.g036345:0.15455)n3:0.02319)n1:0.03303,(marsilea_vestita_Mvestita_S6g00975:0.35999,(marsilea_vestita_Mvestita_S11g13634:0.16585,marsilea_vestita_Mvestita_S6g00570:0.46534)n5:0.0212)n4:0.03303)n0;

@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_3g10241:0.62385,(quercus_rubra_Qurub.05G101100:0.28243,(quercus_rubra_Qurub.05G014700:0.09266,(quercus_rubra_Qurub.05G014500:0.0091,quercus_rubra_Qurub.05G014600:0.01473)n3:0.27091)n2:0.71974)n1:0.62385)n0;

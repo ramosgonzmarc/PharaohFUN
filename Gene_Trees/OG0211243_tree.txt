@@ -1,0 +1,1 @@
+((salix_purpurea_Sapur.005G102600:0.19743,salix_purpurea_Sapur.005G102800:0.08434)n1:0.219315,(carya_illinoinensis_Caril.10G151200:0.14847,carya_illinoinensis_Caril.10G151300:0.0813)n2:0.219315)n0;

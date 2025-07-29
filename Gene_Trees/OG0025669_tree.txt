@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv22355:0.66344,((taxus_chinensis_KI387_000552:0.21644,picea_abies_Pab_131659g0010:0.29302)n2:0.24005,(ginkgo_biloba_Gb_34176:0.00055,ginkgo_biloba_Gb_35739:0.089604)n3:0.009956)n1:0.00536)n0;

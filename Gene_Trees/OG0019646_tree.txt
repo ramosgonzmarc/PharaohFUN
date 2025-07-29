@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00080g54:0.43094,amborella_trichopoda_AmTr00005g235:0.16738)n1:0.276355,(alsophila_spinulosa_Aspi01Gene60592:0.60302,ceratopteris_richardii_Ceric.02G072500:0.63086)n2:0.276355)n0;

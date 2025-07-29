@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.7G052600:0.170175,((pleurozium_schreberi_Plsch.05519:0,pleurozium_schreberi_Plsch.05522:0)n2:0.06605,(pleurozium_schreberi_Plsch.05520:0,pleurozium_schreberi_Plsch.05523:0)n3:0.0811)n1:0.170175)n0;

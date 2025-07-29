@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr13g1485:0.395745,((cycas_panzhihuaensis_CYCAS_010484:0.00054,cycas_panzhihuaensis_CYCAS_006718:0.24938)n2:0.58189,(sequoiadendron_giganteum_SEGI_41480:1.08855,(taxus_chinensis_KI387_021988:0.41037,(sorghum_bicolor_Sobic.009G019301:0.55517,miscanthus_sinensis_MisinT411200:0.41764)n5:0.17815)n4:0.40275)n3:1.0008)n1:0.395745)n0;

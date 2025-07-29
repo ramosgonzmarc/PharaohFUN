@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.042500:0.169125,(poncirus_trifoliata_Ptrif.0002s1757:0.04275,(poncirus_trifoliata_Ptrif.0002s1753:0.09907,poncirus_trifoliata_Ptrif.0002s1754:0.02231)n2:0.00051)n1:0.169125)n0;

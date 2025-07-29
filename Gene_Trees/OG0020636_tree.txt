@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH34158:0.74494,(cycas_panzhihuaensis_CYCAS_007784:0.28463,(cycas_panzhihuaensis_CYCAS_007783:0.20841,(cycas_panzhihuaensis_CYCAS_007780:0.31511,cycas_panzhihuaensis_CYCAS_007781:0.38384)n3:0.08284)n2:0.17412)n1:0.74494)n0;

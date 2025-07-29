@@ -1,0 +1,1 @@
+(volvox_carteri_Vocar.0046s0016:0.00084,(volvox_carteri_Vocar.0044s0076:0.00418,(volvox_carteri_Vocar.0004s0123:0.19819,(volvox_carteri_Vocar.0136s0001:0.00055,volvox_carteri_Vocar.0076s0015:0.00268)n3:0.71755)n2:0.02427)n1:0.00084)n0;

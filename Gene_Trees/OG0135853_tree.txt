@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_2_129141:0.44244,(quercus_rubra_Qurub.09G101600:0.42377,((malus_domestica_MD07G1254200:0.16187,prunus_persica_Prupe.2G277500:0.21467)n3:0.33106,(manihot_esculenta_Manes.14G035700:0.32812,populus_trichocarpa_Potri.003G109601:0.53358)n4:0.25228)n2:0.083)n1:0.44244)n0;

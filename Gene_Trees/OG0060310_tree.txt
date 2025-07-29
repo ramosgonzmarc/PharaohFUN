@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene68034:0.574175,(picocystis_sp_Picml_g2340:0.03189,(picocystis_sp_Picml_g1691:0.03262,picocystis_sp_Picml_g1676:0.02111)n2:0.00706)n1:0.574175)n0;

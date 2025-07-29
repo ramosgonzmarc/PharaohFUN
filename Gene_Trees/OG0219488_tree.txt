@@ -1,0 +1,1 @@
+((oropetium_thomaeum_Oropetium_20150105_06173A:0.68211,oropetium_thomaeum_Oropetium_20150105_06174A:0.22343)n1:0.319405,(setaria_italica_Seita.3G120100:0.1442,(miscanthus_sinensis_Misin17G268500:0.07686,miscanthus_sinensis_MisinT199100:0.59956)n3:0.22772)n2:0.319405)n0;

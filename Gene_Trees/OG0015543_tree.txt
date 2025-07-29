@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_521995:0.749355,(aegilops_tauschii_Atau_XP_020186586:0.44258,((aegilops_tauschii_Atau_XP_020168741:0.02228,aegilops_tauschii_Atau_XP_020168742:0.02571)n3:0.04415,(aegilops_tauschii_Atau_XP_040252098:0.34129,(aegilops_tauschii_Atau_XP_020167806:0.02882,aegilops_tauschii_Atau_XP_020167809:0.05746)n5:0.0345)n4:0.04654)n2:0.2628)n1:0.749355)n0;

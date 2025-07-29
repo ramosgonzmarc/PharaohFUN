@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0326s00005:0.59209,(((klebsormidium_nitens_kfl00154_0040:0.31868,klebsormidium_nitens_kfl00154_0050:0.55266)n3:0.37643,(mesostigma_viride296_Mevir.Mv09460:0.18428,mesostigma_viride296_Mevir.Mv09462:0.17178)n4:0.75396)n2:0.31542,(chlorokybus_atmophyticus_Chrsp94S09267:0.13244,chlorokybus_atmophyticus_Chrsp4S06323:0.237168)n5:0.026352)n1:0.18505)n0;

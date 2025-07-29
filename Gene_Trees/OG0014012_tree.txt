@@ -1,0 +1,1 @@
+(olea_europaea_Oeu030404:0,(olea_europaea_Oeu012080:0,olea_europaea_Oeu043748:0,olea_europaea_Oeu033670:0,olea_europaea_Oeu047656:0,olea_europaea_Oeu053227:0,(olea_europaea_Oeu052490:0.00055,olea_europaea_Oeu002817:0.01011)n2:0.04741)n1:0)n0;

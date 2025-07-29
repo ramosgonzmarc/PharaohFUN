@@ -1,0 +1,1 @@
+(malus_domestica_MD16G1260300:0.463165,(glycine_max_Glyma.09G170900:0.0131,(glycine_max_Glyma.14G122100:0.00055,glycine_max_Glyma.02G170800:0.02428)n2:0.00054)n1:0.463165)n0;

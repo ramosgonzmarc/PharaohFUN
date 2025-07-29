@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0075.g037617:0.54288,(chara_braunii_CBR_g18844:0.05606,(chara_braunii_CBR_g54817:0.16229,(chara_braunii_CBR_g40534:0.74635,(chara_braunii_CBR_g24238:0.11103,chara_braunii_CBR_g34504:0.11557)n4:0.16055)n3:0.19067)n2:0.02676)n1:0.54288)n0;

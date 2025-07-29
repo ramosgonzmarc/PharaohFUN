@@ -1,0 +1,1 @@
+(((cymbomonas_tetramitiformis_KAK3245076:0,cymbomonas_tetramitiformis_KAK3246802:0)n2:0.48235,tetraselmis_striata_TSEL_038419:0.59984)n1:0.312135,(cyanidioschyzon_merolae_CmerSOOS_G455:0.88725,galdieria_sulphuraria_GsulpAzora_G4253:0.34223)n3:0.312135)n0;

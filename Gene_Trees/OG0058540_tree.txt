@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene25133:0.06771,(miscanthus_sinensis_Misin12G036400:0.05959,(linum_usitatissimum_Lus10012339:0.01097,(medicago_truncatula_Medtr4g085930:0.16689,medicago_truncatula_Medtr8g015270:0.71607)n3:0.0738)n2:0.07807)n1:0.06771)n0;

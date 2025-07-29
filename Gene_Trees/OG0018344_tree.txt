@@ -1,0 +1,1 @@
+((prasinoderma_coloniale_PRCOL_00001889:1.44744,raphidocelis_subcapitata_Rsub_06121:1.06894)n1:0.246665,(gracilariopsis_chorda_PXF40559:0.01165,(gracilariopsis_chorda_PXF45554:0.01792,gracilariopsis_chorda_PXF40352:0.01784)n3:0.0013)n2:0.246665)n0;

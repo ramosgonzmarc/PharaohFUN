@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B925907:0.33142,(malus_domestica_MD10G1255100:0.29216,(solanum_lycopersicum_Solyc05g014500:0.00499,solanum_tuberosum_Soltu.05G010850:0.2488)n2:0.92679)n1:0.33142)n0;

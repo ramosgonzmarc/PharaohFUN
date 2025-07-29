@@ -1,0 +1,1 @@
+((sequoiadendron_giganteum_SEGI_07927:0.55682,(picea_abies_Pab_10432168g0010:0.2174,picea_abies_Pab_219828g0010:0.00055)n2:0.02666)n1:0.084995,(kalanchoe_fedtschenkoi_Kaladp0081s0079:0.20831,(vitis_vinifera_VIT_216s0100g00950:0.01914,vitis_vinifera_VIT_210s0042g00860:0.09246)n4:0.10146)n3:0.084995)n0;

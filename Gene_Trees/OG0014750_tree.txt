@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp77S07680:0.42986,(chloropicon_primus_Chlpr_g7732:1.71062,((cymbomonas_tetramitiformis_KAK3281459:0.00055,cymbomonas_tetramitiformis_KAK3281460:0.00054)n3:0.00051,(cymbomonas_tetramitiformis_KAK3279765:0.00357,(cymbomonas_tetramitiformis_KAK3267103:0.00819,cymbomonas_tetramitiformis_KAK3266451:0.00407)n5:0.00054)n4:0.288675)n2:0.032075)n1:0.57433)n0;

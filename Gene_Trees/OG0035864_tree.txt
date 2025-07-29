@@ -1,0 +1,1 @@
+((asparagus_officinalis_AsparagusV1_08.1682:0.25972,lactuca_sativa_Lsat_gn_8_148240:0.46074)n1:0.22847,(diphasiastrum_complanatum_Dicom.Y395100:0.25647,isoetes_sinensis_IsiChr16g1872:0.48748)n2:0.22847)n0;

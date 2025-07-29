@@ -1,0 +1,1 @@
+((cucumis_sativus_Cucsa.c050540g01:0.7101,(corylus_avellana_Corav.g7294:0.51935,corylus_avellana_Corav.g15654:0.46205)n2:1.65445)n1:0.02075,(manihot_esculenta_Manes.13G105340:0.04893,manihot_esculenta_Manes.16G035125:0.36829)n3:0.02075)n0;

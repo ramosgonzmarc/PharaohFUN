@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00001938:0.257805,(ostreobium_quekettii_CAD7696940:1.41373,(micromonas_pusilla_Mpus_193120:0.06217,micromonas_commoda_Micom.082249:0.21619)n2:0.46912)n1:0.257805)n0;

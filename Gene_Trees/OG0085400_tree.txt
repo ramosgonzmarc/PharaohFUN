@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g00570:0.84611,(gonium_pectorale_Gopec.05775:0.1664,(volvox_carteri_Vocar.0003s0503:0.36226,(tetrabaena_socialis_Tesoc.PNH12021:0.27962,(chlamydomonas_reinhardtii_Cre09.g393469_4532:0.03379,chlamydomonas_incerta_Chincg08804:0.01402)n4:0.21339)n3:0.05462)n2:0.13475)n1:0.84611)n0;

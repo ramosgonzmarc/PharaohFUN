@@ -1,0 +1,1 @@
+(hordeum_vulgare_Hvul_2HG0151500:0.4211,(mesotaenium_kramstae_Mekra.2620284:0.70908,(mesotaenium_endlicherianum_ME000178S02149:0.32444,zygnema_cylindricum_Zci1a_19333:0.8843)n2:0.02623)n1:0.4211)n0;

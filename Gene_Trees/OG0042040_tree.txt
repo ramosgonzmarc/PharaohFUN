@@ -1,0 +1,1 @@
+((riccia_fluitans_R1flu_025338:0.04549,riccia_fluitans_R1flu_010403:0.07031)n1:0.549045,(lactuca_sativa_Lsat_gn_6_98681:0.73937,(saponaria_officinalis_Sapof.13G166600:0.14467,saponaria_officinalis_Sapof.10G081900:0.08267)n3:0.46553)n2:0.549045)n0;

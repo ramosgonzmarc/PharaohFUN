@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g3956:0.99485,cymbomonas_tetramitiformis_KAK3232934:0.21858)n1:0.20935,((mesostigma_viride1140_Mesvi1162S01940:0.13435,(mesostigma_viride296_Mevir.Mv22747:0.33545,mesostigma_viride296_Mevir.Mv19729:0.116226)n4:0.012914)n3:0.77449,chara_braunii_CBR_g38275:0.95026)n2:0.20935)n0;

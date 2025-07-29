@@ -1,0 +1,1 @@
+((beta_vulgaris_Bevul.6G078900:0.87008,saponaria_officinalis_Sapof.08G203000:0.58891)n1:0.135955,(lactuca_sativa_Lsat_gn_6_18640:0.47355,(coffea_arabica_Coara.066880:0.026,coffea_arabica_Coara.069906:0.02293)n3:0.31528)n2:0.135955)n0;

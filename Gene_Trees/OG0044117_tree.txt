@@ -1,0 +1,1 @@
+((chlamydomonas_incerta_Chincg09028:0.7999,(desmodesmus_armatus_Desar.280708:0.06524,desmodesmus_armatus_Desar.282459:0.00053)n2:0.26776)n1:0.28389,(tetraselmis_striata_TSEL_026259:0.00419,tetraselmis_striata_TSEL_007560:0.0307)n3:0.28389)n0;

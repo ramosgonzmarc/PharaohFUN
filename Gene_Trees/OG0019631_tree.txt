@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c6_9000V6:0.268515,(chenopodium_quinoa_AUR62033123:0.45901,(alsophila_spinulosa_Aspi01Gene42491:0.06573,(alsophila_spinulosa_Aspi01Gene69023:0.07568,alsophila_spinulosa_Aspi01Gene69966:0.01819)n3:0.00547)n2:0.42374)n1:0.268515)n0;

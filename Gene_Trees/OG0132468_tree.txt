@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S2G117100:0.474195,(notothylas_orbicularis_Noorb.S2G300500:0.13023,(phaeoceros_sp_Phsp.C1G201800:0.00054,phaeoceros_carolinianus_Phcar.S1G424000:0.07464)n2:0.08335)n1:0.474195)n0;

@@ -1,0 +1,1 @@
+((lupinus_albus_Lalb_Chr11g0065261:0.19162,lupinus_albus_Lalb_Chr23g0270341:0.12716)n1:0.12018,(lotus_japonicus_Lj1g0010140:0.17536,(lens_culinaris_Lecul.3g059970:0.27233,(cicer_arietinum_Ca_01448:0.25016,medicago_truncatula_Medtr3g099520:0.13106)n4:0.03221)n3:0.23355)n2:0.12018)n0;

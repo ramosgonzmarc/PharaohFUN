@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g3123:0.80482,(klebsormidium_nitens_kfl00430_0130:0.41389,(klebsormidium_nitens_kfl00430_0120:0.31031,klebsormidium_nitens_kfl00357_0060:0.405)n2:0.27795)n1:0.80482)n0;

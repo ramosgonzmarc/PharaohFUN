@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_11436A:0.217545,(sorghum_bicolor_Sobic.003G351100:0.55735,(setaria_italica_Seita.1G173700:0.0498,(setaria_italica_Seita.1G173500:0.09868,(setaria_italica_Seita.9G578400:0.00055,setaria_italica_Seita.9G578800:0.01156)n4:0.04307)n3:0.094023)n2:0.010447)n1:0.04781)n0;

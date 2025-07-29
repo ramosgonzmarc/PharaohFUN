@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr10g0092791:0.415515,(lens_culinaris_Lecul.6g004400:0.42288,(medicago_truncatula_Medtr7g015700:0.30542,(medicago_truncatula_Medtr7g015340:0.1385,medicago_truncatula_Medtr7g015520:0.408555)n3:0.0408555)n2:0.0045395)n1:0.08334)n0;

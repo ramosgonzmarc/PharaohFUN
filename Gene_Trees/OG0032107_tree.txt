@@ -1,0 +1,1 @@
+(ananas_comosus_Aco002661:0.657085,(zea_mays_Zm00001d051779:0.93238,(brachypodium_distachyon_Bradi4g12160:0.22488,brachypodium_distachyon_Bradi3g61060:0.44505)n2:0.2436)n1:0.657085)n0;

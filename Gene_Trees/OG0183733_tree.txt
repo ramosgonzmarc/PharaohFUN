@@ -1,0 +1,1 @@
+((musa_acuminata_Muacu.5P10930_001:0.11003,musa_acuminata_Muacu.5P10920_001:0.05866)n1:0.55068,((sorghum_bicolor_Sobic.009G161500:0.02247,miscanthus_sinensis_Misin17G164400:0.08006)n3:0.63812,(ananas_comosus_Aco014000:0.0902,ananas_comosus_Aco013999:0.11878)n4:0.48612)n2:0.55068)n0;

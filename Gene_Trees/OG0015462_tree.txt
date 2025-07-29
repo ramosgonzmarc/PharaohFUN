@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g39954:0.49091,(riccia_fluitans_R1flu_029153:0.95288,(abies_alba_AALBA5B860250:0.43897,(leiosporoceros_dussii_Ledus.S1G182600:0.22824,(leiosporoceros_dussii_Ledus.S1G182500:0.38227,leiosporoceros_dussii_Ledus.S1G182700:0.1951)n4:0.55858)n3:0.37345)n2:0.26057)n1:0.49091)n0;

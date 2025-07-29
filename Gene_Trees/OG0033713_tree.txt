@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9825050:0.46332,((raphidocelis_subcapitata_Rsub_01199:0.46511,desmodesmus_armatus_Desar.441267:0.4593)n2:0.18563,(chromochloris_zofingiensis_Cz06g19240:0.57727,bryopsis_sp_Bsp_GMH42863:1.11147)n3:0.32692)n1:0.46332)n0;

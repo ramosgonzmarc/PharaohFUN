@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx07G059300:0.05248,(lens_culinaris_Lecul.5g013800:0.35905,(taxus_chinensis_KI387_022011:0.28261,(glycine_max_Glyma.03G058400:0.43778,(abies_alba_AALBA5B078994:0.00055,abies_alba_AALBA5B829852:0.046152)n4:0.005128)n3:0.21639)n2:0.00054)n1:0.05248)n0;

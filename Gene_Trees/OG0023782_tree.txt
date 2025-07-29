@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_016421:0.01795,tetraselmis_striata_TSEL_027450:0.00054)n1:0.3181,(gonium_pectorale_Gopec.09782:0.75158,(caulerpa_lentillifera_Caule_g553:1.26573,(myrmecia_bisecta_Mybis.KAK9811917:0.79864,(asterochloris_glomerata_Astgl_g4638:0.73068,trebouxia_sp_FRX49_04635:0.69896)n5:0.29813)n4:0.39337)n3:0.52719)n2:0.3181)n0;

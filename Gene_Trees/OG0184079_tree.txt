@@ -1,0 +1,1 @@
+(setaria_italica_Seita.3G365600:0.2408,(sorghum_bicolor_Sobic.005G010300:0.03682,(miscanthus_sinensis_MisinT041100:0.49391,(miscanthus_sinensis_MisinT115000:0.31534,(miscanthus_sinensis_MisinT172200:0.65845,(miscanthus_sinensis_MisinT041200:0.35451,miscanthus_sinensis_MisinT172600:0.046449)n5:0.0046449)n4:0.00046449)n3:4.6449e-05)n2:5.161e-06)n1:0.17114)n0;

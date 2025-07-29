@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c24_9970V6:0.24229,(pleurozium_schreberi_Plsch.02853:0.22715,(ceratodon_purpureus_CepurR40.3G024300:0.50393,ceratodon_purpureus_CepurR40.12G134700:0.336672)n2:0.037408)n1:0.31822)n0;

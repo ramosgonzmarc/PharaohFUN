@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62041398:0.550615,(adiantum_capillus_Adc30976:0.66315,(ceratopteris_richardii_Ceric.34G048800:0.46743,ceratopteris_richardii_Ceric.13G065300:0.145305)n2:0.016145)n1:0.1742)n0;

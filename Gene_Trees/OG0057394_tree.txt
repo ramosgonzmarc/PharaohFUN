@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C9G018600:0.275685,(arachis_hypogaea_arahy_TUSV03:0.66464,(alsophila_spinulosa_Aspi01Gene00535:0.15932,eutrema_salsugineum_Thhalv10026911m:0.6736)n2:0.3748)n1:0.275685)n0;

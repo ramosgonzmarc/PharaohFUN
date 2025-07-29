@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000975099t05:0.31204,(brassica_oleracea_Bol043278:0.59033,(populus_trichocarpa_Potri.005G222601:0.72533,(fragaria_vesca_FvH4_7g21440:1.01693,(arabidopsis_thaliana_AT4G24980:0.09367,arabidopsis_lyrata_Arlyr.AL7G28200:0.2265)n4:0.32458)n3:0.16743)n2:0.06863)n1:0.31204)n0;

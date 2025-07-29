@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10008857:0.18539,(((gnetum_montanum_TnS000396681t01:0.00809,gnetum_montanum_TnS000736399t01:0.00055)n3:0.02452,(gnetum_montanum_TnS000586333t01:0.02933,(gnetum_montanum_TnS000794879t02:0.01052,gnetum_montanum_TnS000420927t06:0.03932)n5:0.05527)n4:0.05064)n2:0.52773,(ginkgo_biloba_Gb_40976:1.14457,ginkgo_biloba_Gb_33133:0.18099)n6:0.02011)n1:0.68508)n0;

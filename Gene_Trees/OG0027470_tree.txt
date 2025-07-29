@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000752331t02:0.64252,(selaginella_moellendorffii_Smoe_131509:0.00125,(selaginella_moellendorffii_Smoe_30677:0.10005,selaginella_moellendorffii_Smoe_20562:0.00055)n2:0.00051)n1:0.64252)n0;

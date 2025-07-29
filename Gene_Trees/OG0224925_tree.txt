@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc18651:0.000275,((adiantum_capillus_Adc17692:0.18822,(adiantum_capillus_Adc18566:0.00055,adiantum_capillus_Adc18650:0.38754)n3:0.81243)n2:0.45708,(adiantum_capillus_Adc18572:0.01943,(adiantum_capillus_Adc18575:0.00055,adiantum_capillus_Adc18563:0.00052)n5:0.00055)n4:0.38)n1:0.000275)n0;

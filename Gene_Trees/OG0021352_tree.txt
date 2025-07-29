@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9826989:0.633975,((klebsormidium_nitens_kfl01176_0020:0.15622,klebsormidium_nitens_kfl00652_g2:0.04725)n2:0.44861,(klebsormidium_nitens_kfl01312_0020:0.0412,klebsormidium_nitens_kfl01621_0010:0.054)n3:0.74247)n1:0.633975)n0;

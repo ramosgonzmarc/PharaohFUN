@@ -1,0 +1,1 @@
+((glycine_max_Glyma.02G060600:0,glycine_max_Glyma.01G049800:0)n1:0.35173,(sequoia_sempervirens_SESE_048348:0.25841,sequoia_sempervirens_SESE_034412:0.39107)n2:0.35173)n0;

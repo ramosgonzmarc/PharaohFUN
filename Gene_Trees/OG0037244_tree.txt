@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaScaf5050:1.08647,ostreococcus_lucimarinus_Oluc_38300:1.0807)n1:0.12943,(gracilariopsis_chorda_PXF43013:0.02002,gracilariopsis_chorda_PXF49810:0.01938)n2:0.12943)n0;

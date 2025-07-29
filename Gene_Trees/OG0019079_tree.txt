@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.0233316:0.67063,((nymphaea_colorata_Nycol.A02219:1.24521,picea_abies_Pab_10431704g0010:0.05944)n2:0.03863,((abies_alba_AALBA5B1104293:0.0773,(abies_alba_AALBA5B998610:0.20592,abies_alba_AALBA5B697587:0.03177)n5:0.52027)n4:0.34491,abies_alba_AALBA5B075398:0.03762)n3:0.00418)n1:0.00054)n0;

@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_41839:0.204175,((abies_alba_AALBA5B1027725:0.08112,picea_abies_Pab_9366590g0010:0.05554)n2:0.15181,(sequoia_sempervirens_SESE_009192:0.00054,(sequoia_sempervirens_SESE_090626:0.01436,(sequoia_sempervirens_SESE_037757:0.00055,sequoia_sempervirens_SESE_093888:0.00289)n5:0.00054)n4:0.04513)n3:0.3715)n1:0.204175)n0;

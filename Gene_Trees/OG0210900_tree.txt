@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10003285:0.57542,(lupinus_albus_Lalb_Chr04g0257901:0.32386,(arachis_hypogaea_arahy_9M6L8G:0.47516,(trifolium_pratense_Trpra.09584:0.7085,trifolium_pratense_Trpra.16027:0.265797)n3:0.029533)n2:0.44438)n1:0.57542)n0;

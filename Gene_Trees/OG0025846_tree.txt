@@ -1,0 +1,1 @@
+((picea_abies_Pab_95163g0010:0.21004,sequoiadendron_giganteum_SEGI_02746:0.1934)n1:0.281465,((vitis_vinifera_VIT_214s0060g02520:0.03371,vitis_vinifera_VIT_214s0060g02450:0.04269)n3:0.29438,(lotus_japonicus_Lj2g0009100:0.11674,(arachis_hypogaea_arahy_HQ8LD6:0.19881,glycine_max_Glyma.02G116567:0.14307)n5:0.06667)n4:0.21806)n2:0.281465)n0;

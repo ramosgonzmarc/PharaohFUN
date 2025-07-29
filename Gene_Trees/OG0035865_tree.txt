@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF39672:0.455425,(diphasiastrum_complanatum_Dicom.Y506600:0.14846,((lycopodium_clavatum_Lcl_0024218:0.40107,lycopodium_clavatum_Lcl_0021429:0.11728)n3:0.07144,lycopodium_clavatum_Lcl_0002913:0.231255)n2:0.025695)n1:0.02749)n0;

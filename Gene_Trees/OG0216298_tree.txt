@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_727436:0.14022,daucus_carota_DCAR_831997:0.2799)n1:0.72834,(solanum_tuberosum_Soltu.09G005760:0.01055,(solanum_tuberosum_Soltu.09G005780:0.01806,solanum_tuberosum_Soltu.09G005770:0.02346)n3:0.02665)n2:0.72834)n0;

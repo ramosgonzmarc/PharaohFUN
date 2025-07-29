@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g32488:0.302475,(lens_culinaris_Lecul.2g014390:0.5876,(lupinus_albus_Lalb_Chr22g0355571:0.61601,(arachis_hypogaea_arahy_DEMJ59:0.26092,(arachis_hypogaea_arahy_W2H6XW:0.01362,(arachis_hypogaea_arahy_CWP81L:0.00055,arachis_hypogaea_arahy_M057FR:0.39197)n5:0.174663)n4:0.0174663)n3:0.0019407)n2:1.20874)n1:0.302475)n0;

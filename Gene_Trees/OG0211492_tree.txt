@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr8g468290:0.08381,medicago_truncatula_Medtr7g055787:0.16666)n1:0.896265,(trifolium_pratense_Trpra.31726:0.15586,trifolium_pratense_Trpra.12552:0.16663)n2:0.896265)n0;

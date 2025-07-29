@@ -1,0 +1,1 @@
+((vaccinium_darrowii_Vadar_g34766:0.26815,vaccinium_darrowii_Vadar_g14785:0.13821)n1:0.07391,(vitis_vinifera_VIT_219s0015g00120:0.31596,(medicago_truncatula_Medtr8g015420:0.8671,(lens_culinaris_Lecul.3g016800:0.42906,lens_culinaris_Lecul.5g074770:0.09907)n4:0.19189)n3:0.39616)n2:0.07391)n0;

@@ -1,0 +1,1 @@
+((cucumis_sativus_Cucsa.c079690g01:0.47027,lens_culinaris_Lecul.3g036400:0.49506)n1:0.25235,(alsophila_spinulosa_Aspi01Gene51634:0.04625,(alsophila_spinulosa_Aspi01Gene32639:0.06545,alsophila_spinulosa_Aspi01Gene34563:0.09502)n3:0.08533)n2:0.25235)n0;

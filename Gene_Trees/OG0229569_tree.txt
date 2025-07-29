@@ -1,0 +1,1 @@
+((phaeomegaceros_chiloensis_Phchi.S1G150500:0.15142,phymatoceros_phymatodes_Phphy.S1G109700:0.12731)n1:0.103475,(notothylas_orbicularis_Noorb.S3G452800:0.25818,(paraphymatoceros_pearsonii_Papea.S3G326300:0.07201,phaeoceros_carolinianus_Phcar.S3G517400:0.08613)n3:0.04702)n2:0.103475)n0;

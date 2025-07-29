@@ -1,0 +1,1 @@
+((micromonas_pusilla_Mpus_60236:0.98934,(micromonas_commoda_Micom.064378:0.23602,micromonas_commoda_Micom.059365:0.50814)n2:0.80849)n1:0.17938,(micromonas_pusilla_Mpus_50858:0.56762,(micromonas_commoda_Micom.059565:1.2041,micromonas_commoda_Micom.062398:0.52229)n4:0.15602)n3:0.17938)n0;

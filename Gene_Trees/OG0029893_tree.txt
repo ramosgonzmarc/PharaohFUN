@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene61134:0.137575,(sequoia_sempervirens_SESE_127027:0.64786,(aegilops_tauschii_Atau_XP_020177599:0.22203,nymphaea_colorata_Nycol.K01555:0.9626)n2:0.71072)n1:0.137575)n0;

@@ -1,0 +1,1 @@
+(asparagus_officinalis_AsparagusV1_02.1314:0.71299,((isoetes_sinensis_IsiChr6g4723:0.05285,isoetes_sinensis_IsiChr11g905:0.06898)n2:0.06849,(isoetes_sinensis_IsiScaffold1997g6:0.00055,isoetes_sinensis_IsiChr15g3002:0.00236)n3:0.06263)n1:0.71299)n0;

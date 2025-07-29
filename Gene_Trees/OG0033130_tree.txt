@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.1509s00001:0.67821,(tetrabaena_socialis_Tesoc.PNH06643:0.37327,((volvox_carteri_Vocar.0006s0208:0.30873,gonium_pectorale_Gopec.08963:0.27349)n3:0.03014,(chlamydomonas_reinhardtii_Cre12.g502150_4532:0.05954,chlamydomonas_incerta_Chincg11933:0.03763)n4:0.24701)n2:0.13738)n1:0.67821)n0;

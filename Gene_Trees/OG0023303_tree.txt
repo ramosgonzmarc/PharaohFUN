@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr18g0051001:0.6437,((alsophila_spinulosa_Aspi01Gene70226:0,alsophila_spinulosa_Aspi01Gene70228:0)n2:0.00055,alsophila_spinulosa_Aspi01Gene70227:0.00055)n1:0.6437)n0;

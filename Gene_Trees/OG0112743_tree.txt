@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.000459:0.38451,coffea_arabica_Coara.037424:0.26459)n1:0.107955,(eucalyptus_grandis_Eucgr.A00156:0.26107,corymbia_citriodora_Cocit.L3743:0.47329)n2:0.107955)n0;

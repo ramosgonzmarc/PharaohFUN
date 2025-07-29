@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g22034:0.54635,(gonium_pectorale_Gopec.05745:0.5785,((chlamydomonas_reinhardtii_Cre07.g351825_4532:0.25488,chlamydomonas_reinhardtii_Cre07.g351900_4532:0.06791)n3:0.07433,(chlamydomonas_incerta_Chincg03705:0.66144,(chlamydomonas_incerta_Chincg08614:0.19231,chlamydomonas_incerta_Chincg08612:0.101718)n5:0.0101718)n4:0.0011302)n2:0.07259)n1:0.16723)n0;

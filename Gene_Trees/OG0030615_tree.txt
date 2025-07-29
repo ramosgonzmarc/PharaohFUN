@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c13_3740V6:0.27178,(gossypium_hirsutum_Gohir.D03G156150:0.42744,(alsophila_spinulosa_Aspi01Gene58760:0.09115,trifolium_pratense_Trpra.22232:0.90577)n2:0.16931)n1:0.27178)n0;

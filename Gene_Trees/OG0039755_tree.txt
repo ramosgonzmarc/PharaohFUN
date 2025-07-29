@@ -1,0 +1,1 @@
+(((arachis_hypogaea_arahy_9YHY30:0.0189,arachis_hypogaea_arahy_11DZ0Y:0.00053)n2:0.14044,(chenopodium_quinoa_AUR62043874:0.17214,(solanum_lycopersicum_Solyc00g244300:0.00055,daucus_carota_DCAR_100241:0.06283)n4:0.02873)n3:0.18116)n1:0.001535,(olea_europaea_Oeu025163:0.91666,phaseolus_acutifolius_Phacu.007G309000:0.09287)n5:0.001535)n0;

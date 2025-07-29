@@ -1,0 +1,1 @@
+(ananas_comosus_Aco031848:0.70632,((tetraselmis_striata_TSEL_012896:0.00054,(tetraselmis_striata_TSEL_001608:0,tetraselmis_striata_TSEL_033054:0,tetraselmis_striata_TSEL_036515:0)n3:0.00055)n2:0.15595,(tetraselmis_striata_TSEL_033089:0.00408,tetraselmis_striata_TSEL_033112:0.07236)n4:0.40527)n1:0.70632)n0;

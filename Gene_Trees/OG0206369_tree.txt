@@ -1,0 +1,1 @@
+(thlaspi_arvense_TaMN106.5G074000:0.21648,(brassica_oleracea_Bol014778:0.26123,((brassica_oleracea_Bol035939:0.00051,brassica_oleracea_Bol004584:0.11975)n3:1.20578,brassica_oleracea_Bol014780:0.34439)n2:0.02644)n1:0.21648)n0;

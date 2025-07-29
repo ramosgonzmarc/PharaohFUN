@@ -1,0 +1,1 @@
+((ulva_mutabilis_UM025_0019:0.21103,ulva_mutabilis_UM003_0233:0.23327)n1:0.266345,((mesostigma_viride296_Mevir.Mv12442:0.17646,mesostigma_viride296_Mevir.Mv02048:0.03197)n3:0.60851,(chlorokybus_atmophyticus_Chrsp3S05618:1.24168,huperzia_asiatica_HaScaf5214:0.77142)n4:0.13567)n2:0.266345)n0;

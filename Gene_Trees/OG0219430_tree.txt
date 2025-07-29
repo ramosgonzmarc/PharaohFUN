@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin05G105200:0.01997,(miscanthus_sinensis_MisinT192100:0.04808,((miscanthus_sinensis_Misin05G059200:0.37959,miscanthus_sinensis_MisinT462500:0.73059)n3:1.91384,(miscanthus_sinensis_Misin18G240600:0.03322,miscanthus_sinensis_Misin18G169700:0.00055)n4:0.85535)n2:0.14329)n1:0.01997)n0;

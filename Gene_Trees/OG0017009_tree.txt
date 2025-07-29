@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3254226:0.44941,(mesostigma_viride1140_Mesvi73S07906:0.78252,(spirogloea_muscicola_SM005600S18736:0.3807,(abies_alba_AALBA5B326591:0.35666,malus_domestica_MD14G1075700:0.07623)n3:0.61437)n2:0.14576)n1:0.44941)n0;

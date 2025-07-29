@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3235413:0.04339,cymbomonas_tetramitiformis_KAK3235414:0.06482)n1:0.452715,(helicosporidium_sp_Helsp_g3718:0.68882,(apatococcus_lobatus_Aplob.KAK9834744:0.43866,auxenochlorella_protothecoides_APUTEX2500001236:0.51774)n3:0.14341)n2:0.452715)n0;

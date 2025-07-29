@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_032986:0.39967,(raphidocelis_subcapitata_Rsub_03075:0.31068,(monoraphidium_minutum_Momin.473277:0.11601,monoraphidium_minutum_Momin.473278:0.3012)n2:0.18235)n1:0.39967)n0;

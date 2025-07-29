@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_36478:0.22452,(abies_alba_AALBA5B1032274:0.47883,thuja_plicata_Thupl.29378263s0001:0.22204)n2:0.07578)n1:0.038565,(diphasiastrum_complanatum_Dicom.16G011900:0.18853,huperzia_asiatica_HaScaf1119:1.20003)n3:0.038565)n0;

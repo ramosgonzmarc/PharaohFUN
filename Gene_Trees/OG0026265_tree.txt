@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr13g4094:0.61119,selaginella_moellendorffii_Smoe_4907:0.69424)n1:0.46948,(ceratodon_purpureus_CepurR40.3G219700:0.67343,(sphagnum_magellanicum_Sphmag02G169900:0.00054,sphagnum_fallax_Sphfalx02G162900:0.0388)n3:0.19002)n2:0.46948)n0;

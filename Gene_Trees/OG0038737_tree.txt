@@ -1,0 +1,1 @@
+((carica_papaya_Capac.c00173g028:0,carica_papaya_Capac.c00173g038:0)n1:0.429555,(malus_domestica_MD06G1056400:0.08126,malus_domestica_MD16G1198600:0.09098)n2:0.429555)n0;

@@ -1,0 +1,1 @@
+(((thuja_plicata_Thupl.29378523s0003:0.26157,gnetum_montanum_TnS001005453t01:0.45587)n2:0.1703,((isoetes_sinensis_IsiChr22g1927:0.07152,isoetes_sinensis_IsiScaffold3544g63:0.01751)n4:0.6374,(isoetes_sinensis_IsiChr4g240:0.65741,selaginella_moellendorffii_Smoe_94807:0.60056)n5:0.230247)n3:0.025583)n1:0.0433,amborella_trichopoda_AmTr00095g79:0.71357)n0;

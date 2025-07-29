@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c14_3670V6:0.28152,(isoetes_sinensis_IsiChr16g188:0.98011,(isoetes_sinensis_IsiChr18g1673:0.00055,(isoetes_sinensis_IsiChr18g1675:0.07123,(isoetes_sinensis_IsiChr17g1968:0.00233,isoetes_sinensis_IsiChr18g1674:0.00384)n4:0.01684)n3:0.068)n2:0.37916)n1:0.28152)n0;

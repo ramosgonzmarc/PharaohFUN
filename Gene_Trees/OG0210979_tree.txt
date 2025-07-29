@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.L020800:0.4264,trifolium_pratense_Trpra.21466:0.00054)n1:0.403465,(cucumis_sativus_Cucsa.c013930g01:0.38318,(cucumis_sativus_Cucsa.c027480g01:0.33141,cucumis_sativus_Cucsa.c334150g01:0.81376)n3:0.24043)n2:0.403465)n0;

@@ -1,0 +1,1 @@
+(brassica_rapa_Brara.I05438:0.26684,(arabidopsis_lyrata_Arlyr.AL5G41900:0.96313,(capsella_grandiflora_Cagra.3373s0057:0.95176,capsella_grandiflora_Cagra.3675s0014:0.92606)n2:0.32168)n1:0.26684)n0;

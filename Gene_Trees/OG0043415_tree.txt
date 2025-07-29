@@ -1,0 +1,1 @@
+((takakia_lepidozioides_Tle2c03800:0.33232,takakia_lepidozioides_Tle4c04994:0.41873)n1:0.186555,(ceratodon_purpureus_CepurR40.9G089100:1.23554,ceratodon_purpureus_CepurR40.11G119400:0.70868)n2:0.186555)n0;

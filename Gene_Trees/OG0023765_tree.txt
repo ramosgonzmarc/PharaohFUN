@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp99S09296:0.45776,(mesotaenium_endlicherianum_ME000637S08958:0.56013,zygnema_circumcarinatum_Zci_10228:0.58484)n2:0.41851)n1:0.179775,(myrmecia_bisecta_Mybis.KAK9829571:0.38697,(trebouxia_sp_FRX49_02249:0.56047,(asterochloris_glomerata_Astgl_g1888:0.47276,apatococcus_lobatus_Aplob.KAK9818738:0.30001)n5:0.17544)n4:0.1896)n3:0.179775)n0;

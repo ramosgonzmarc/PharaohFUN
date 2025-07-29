@@ -1,0 +1,1 @@
+(phaseolus_acutifolius_Phacu.008G018700:0.195165,((arabidopsis_thaliana_AT2G07779:0,capsella_grandiflora_Cagra.0259s0005:0)n2:0.01044,boechera_stricta_Bostr.7603s0002:0.00055)n1:0.195165)n0;

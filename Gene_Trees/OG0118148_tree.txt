@@ -1,0 +1,1 @@
+(amaranthus_hypochondriacus_AH004679:0.38299,(ginkgo_biloba_Gb_13606:0.14697,(picea_abies_Pab_4190g0010:0.32755,sequoia_sempervirens_SESE_125350:0.46003)n2:0.07079)n1:0.38299)n0;

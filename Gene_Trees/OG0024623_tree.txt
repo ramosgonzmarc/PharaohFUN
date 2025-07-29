@@ -1,0 +1,1 @@
+(micromonas_pusilla_Mpus_190849:0.683495,((raphidocelis_subcapitata_Rsub_05450:0.22158,monoraphidium_minutum_Momin.520630:0.28456)n2:0.41753,(picochlorum_soloecismus_NSC_05452:1.04273,chromochloris_zofingiensis_Cz09g15140:0.32678)n3:0.12746)n1:0.683495)n0;

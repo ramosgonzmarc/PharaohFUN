@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr1489s0010:0.533835,(tetraselmis_striata_TSEL_006965:0.83906,(tetraselmis_striata_TSEL_041177:0.23108,tetraselmis_striata_TSEL_008798:0.32947)n2:0.36032)n1:0.533835)n0;

@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9820333:0.53161,((micromonas_pusilla_Mpus_52243:0.50259,micromonas_commoda_Micom.057750:0.41476)n2:0.25796,(ostreococcus_mediterraneus_Ostme09g01350:0.47542,(ostreococcus_tauri_ostta03g01250:0.39739,ostreococcus_lucimarinus_Oluc_14501:0.32481)n4:0.10335)n3:0.40056)n1:0.53161)n0;

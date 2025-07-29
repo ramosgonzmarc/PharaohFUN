@@ -1,0 +1,1 @@
+((vitis_vinifera_VIT_206s0080g00630:0.44367,manihot_esculenta_Manes.11G163000:0.49418)n1:0.301135,(solanum_lycopersicum_Solyc11g068560:0.10041,solanum_tuberosum_Soltu.11G021980:0.07846)n2:0.301135)n0;

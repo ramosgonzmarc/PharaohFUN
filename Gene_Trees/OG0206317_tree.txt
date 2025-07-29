@@ -1,0 +1,1 @@
+((brassica_rapa_Brara.H02262:0.17334,(arabidopsis_lyrata_Arlyr.AL1G35160:0.40848,(arabidopsis_lyrata_Arlyr.AL264U10020:0.21785,arabidopsis_lyrata_Arlyr.AL1G35360:0.00818)n3:1.08169)n2:0.120188)n1:0.094085,thlaspi_arvense_TaMN106.1G021900:0.34677)n0;

@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10024987:0.076575,(cicer_arietinum_Ca_10080:0.78074,(corylus_avellana_Corav.g21812:0.56323,lupinus_albus_Lalb_Chr08g0245061:0.22947)n2:0.15904)n1:0.076575)n0;

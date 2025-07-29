@@ -1,0 +1,1 @@
+(aegilops_tauschii_Atau_XP_045089700:0.679475,(miscanthus_sinensis_MisinT381300:0.176,(sorghum_bicolor_Sobic.004G231850:0.40211,(sorghum_bicolor_Sobic.003G244850:0.05221,sorghum_bicolor_Sobic.002G212500:0.00055)n3:0.00055)n2:0.08512)n1:0.679475)n0;

@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_010788:0.462375,((huperzia_asiatica_HaB44G0241:0.02598,huperzia_asiatica_HaB44G0242:0.0276)n2:0.30535,(picea_abies_Pab_10357g0010:0.59763,(alsophila_spinulosa_Aspi01Gene20132:0.13268,(alsophila_spinulosa_Aspi01Gene12464:0.04844,alsophila_spinulosa_Aspi01Gene17751:0.05864)n5:0.10386)n4:0.06886)n3:0.20259)n1:0.462375)n0;

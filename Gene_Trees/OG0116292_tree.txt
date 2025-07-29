@@ -1,0 +1,1 @@
+((sequoiadendron_giganteum_SEGI_25875:0.28318,(ginkgo_biloba_Gb_29466:0.12464,picea_abies_Pab_3449g0010:0.31049)n2:0.08358)n1:0.020115,((fragaria_vesca_FvH4_5g25030:0.55788,trifolium_pratense_Trpra.30463:0.48945)n4:0.12543,(amaranthus_hypochondriacus_AH017613:0.74692,amaranthus_hypochondriacus_AH012017:0.42426)n5:0.04714)n3:0.00665)n0;

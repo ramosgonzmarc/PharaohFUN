@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub_43024:0.253495,(apatococcus_lobatus_Aplob.KAK9828301:0.33485,(trebouxia_sp_FRX49_07219:0.73823,trebouxia_sp_FRX49_05562:0.306792)n2:0.034088)n1:0.08186)n0;

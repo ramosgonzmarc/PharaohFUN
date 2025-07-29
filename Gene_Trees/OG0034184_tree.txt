@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_FW7LVJ:0.345685,((picea_abies_Pab_6487296g0010:0.40054,cycas_panzhihuaensis_CYCAS_008597:0.12949)n2:0.0549,(cycas_panzhihuaensis_CYCAS_008594:0.12562,(picea_abies_Pab_10094952g0010:0.10808,picea_abies_Pab_444051g0010:0.16899)n4:0.76302)n3:0.08478)n1:0.345685)n0;

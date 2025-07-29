@@ -1,0 +1,1 @@
+(olea_europaea_Oeu053094:0.446775,(vitis_vinifera_VIT_208s0007g00565:0.31889,(malus_domestica_MD12G1144000:0.6552,corylus_avellana_Corav.g31828:0.55497)n2:0.0355)n1:0.446775)n0;

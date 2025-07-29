@@ -1,0 +1,1 @@
+((musa_acuminata_Muacu.9P20340_001:0.27044,triticum_aestivum_TraesCSU03G0048000:0.329)n1:0.02912,(malus_domestica_MD14G1079500:0.00054,(corylus_avellana_Corav.g33048:0.26079,vitis_vinifera_VIT_214s0030g00920:0.63503)n3:0.09096)n2:0.02912)n0;

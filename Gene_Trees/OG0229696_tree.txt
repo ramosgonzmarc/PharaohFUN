@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S1G166200:0.04402,(anthoceros_punctatus_Anpun.S2G179200:0.04727,(anthoceros_punctatus_Anpun.S2G444100:0.00054,anthoceros_punctatus_Anpun.S4G340800:0.77608)n2:0.07706)n1:0.04402)n0;

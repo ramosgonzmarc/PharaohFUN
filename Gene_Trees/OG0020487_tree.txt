@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_UNPLg00558:0.86377,tetraselmis_striata_TSEL_034684:0.79623)n1:0.49462,(sorghum_bicolor_Sobic.004G240100:0.29322,sorghum_bicolor_Sobic.004G240000:0.19838)n2:0.49462)n0;

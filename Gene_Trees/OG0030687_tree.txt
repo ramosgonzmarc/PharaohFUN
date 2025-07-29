@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaB37G0285:0.46727,(alsophila_spinulosa_Aspi01Gene72747:0.01917,alsophila_spinulosa_Aspi01Gene72748:0.00728)n2:0.62284)n1:0.10558,(phaeoceros_sp_Phsp.C2G277500:0.12576,(phaeomegaceros_chiloensis_Phchi.S1G460400:0.14148,phaeomegaceros_chiloensis_Phchi.S2G039600:0.09223)n4:0.15168)n3:0.10558)n0;

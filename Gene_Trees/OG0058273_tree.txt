@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S2G035000:0.242565,(lycopodium_clavatum_Lcl_0008588:0.63741,(alsophila_spinulosa_Aspi01Gene19225:0.12456,(trifolium_pratense_Trpra.33108:0.15349,trifolium_pratense_Trpra.32030:0.01494)n3:0.72499)n2:0.22546)n1:0.242565)n0;

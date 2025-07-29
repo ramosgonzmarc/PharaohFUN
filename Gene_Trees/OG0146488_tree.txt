@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.09G000890:0.43768,(olea_europaea_Oeu029611:0.42735,(mimulus_guttatus_Migut.G01237:0.13863,(mimulus_guttatus_Migut.G01236:0.09871,mimulus_guttatus_Migut.G01017:0.20855)n3:0.03974)n2:1.13055)n1:0.43768)n0;

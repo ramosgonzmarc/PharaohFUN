@@ -1,0 +1,1 @@
+(ananas_comosus_Aco021886:0.225535,(vitis_vinifera_VIT_207s0031g01060:0.19495,(populus_trichocarpa_Potri.007G062162:0,populus_trichocarpa_Potri.013G162900:0)n2:0.06031)n1:0.225535)n0;

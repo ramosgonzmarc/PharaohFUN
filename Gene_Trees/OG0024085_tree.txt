@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3257160:0.54644,(adiantum_capillus_Adc26722:0.05682,(ceratopteris_richardii_Ceric.20G092100:0.00055,ceratopteris_richardii_Ceric.1Z254100:0.00055)n2:0.46421)n1:0.54644)n0;

@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g29395:0.58608,(triticum_aestivum_TraesCS7A03G1262000:0.46757,(aegilops_tauschii_Atau_XP_020173245:0.13332,((aegilops_tauschii_Atau_XP_040243625:0.00055,aegilops_tauschii_Atau_XP_040243567:0.00055)n4:0.00054,(aegilops_tauschii_Atau_XP_040243662:0.02645,aegilops_tauschii_Atau_XP_020173242:0.043254)n5:0.0043254)n3:0.00043254)n2:4.806e-05)n1:0.02629)n0;

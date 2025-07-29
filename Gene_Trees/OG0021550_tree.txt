@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_4_28500:0.29563,(vitis_vinifera_VIT_216s0022g01150:0.00055,(vitis_vinifera_VIT_218s0001g00780:0.00055,vitis_vinifera_VIT_200s0144g00290:0.05949)n3:0.02817)n2:0.64219)n1:0.079755,(olea_europaea_Oeu038268:0.151,(lens_culinaris_Lecul.6g032960:0.12237,lens_culinaris_Lecul.6g032980:0.13294)n5:0.26648)n4:0.079755)n0;

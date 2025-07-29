@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00559_0040:0.43039,(zygnema_cylindricum_Zci1a_15621:0.18776,(zygnema_circumcarinatum_Zci_13634:0.01963,zygnema_circumcarinatum1559_ZcUTEX1559_12839:0.00055)n2:0.21634)n1:0.43039)n0;

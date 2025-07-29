@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_212s0028g02120:0.14205,(quercus_rubra_Qurub.08G166400:0.33611,(populus_trichocarpa_Potri.002G214450:0.09142,(salix_purpurea_Sapur.002G133200:0.00054,salix_purpurea_Sapur.014G115800:0.241794)n3:0.026866)n2:0.08683)n1:0.14205)n0;

@@ -1,0 +1,1 @@
+(salix_purpurea_Sapur.018G076000:0.062405,(lupinus_albus_Lalb_Chr13g0300601:0.18666,(fragaria_vesca_FvH4_2g18220:0.10929,(cucumis_sativus_Cucsa.c170420g01:0.32264,(medicago_truncatula_Medtr4g129780:0.04866,trifolium_pratense_Trpra.25696:0.10398)n4:0.29265)n3:0.07709)n2:0.08681)n1:0.062405)n0;

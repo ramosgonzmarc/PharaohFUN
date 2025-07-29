@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaB06G0602:0.724005,((miscanthus_sinensis_Misin17G192500:0.07267,miscanthus_sinensis_MisinT267200:0.07404)n2:0.99293,(oryza_sativa_Os10g28870:0.14779,oryza_sativa_Os10g28970:0.007389)n3:0.000821)n1:0.03487)n0;

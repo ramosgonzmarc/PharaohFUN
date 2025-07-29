@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle3c04602:0.503665,(chlamydomonas_incerta_Chincg01596:0.07995,(volvox_carteri_Vocar.0082s0023:0.12366,gonium_pectorale_Gopec.15903:0.15623)n2:0.0421)n1:0.503665)n0;

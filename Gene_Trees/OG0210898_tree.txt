@@ -1,0 +1,1 @@
+(((arachis_hypogaea_arahy_2U5QAW:0,arachis_hypogaea_arahy_A11EGF:0)n2:0.57838,cucumis_sativus_Cucsa.c219070g01:0.76674)n1:0.12544,(populus_trichocarpa_Potri.001G292100:0.15575,salix_purpurea_Sapur.016G174100:0.10882)n3:0.12544)n0;

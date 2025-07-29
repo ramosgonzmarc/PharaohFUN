@@ -1,0 +1,1 @@
+((quercus_rubra_Qurub.08G233300:0.55282,((salix_purpurea_Sapur.004G160300:0.12775,(medicago_truncatula_Medtr2g094890:0.13961,vigna_unguiculata_Vigun05g247200:0.16096)n4:0.09612)n3:0.07161,(populus_trichocarpa_Potri.010G223733:0.00054,salix_purpurea_Sapur.010G179100:0.11973)n5:0.332415)n2:0.036935)n1:0.1987,prunus_persica_Prupe.6G104300:0.29784)n0;

@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL5G17440:0.60835,arabidopsis_lyrata_Arlyr.AL7G49570:0.42201)n1:0.626495,(gossypium_raimondii_Gorai.011G174000:0.1556,(gossypium_hirsutum_Gohir.D05G322350:0.21715,gossypium_hirsutum_Gohir.A10G111502:0.121734)n3:0.013526)n2:0.13536)n0;

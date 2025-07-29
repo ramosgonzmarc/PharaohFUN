@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S4G028200:0.33709,(notothylas_orbicularis_Noorb.S3G121600:0.34501,(paraphymatoceros_pearsonii_Papea.S4G111100:0.0451,(phaeoceros_carolinianus_Phcar.S4G134600:0.01062,phaeoceros_sp_Phsp.C5G147300:0.00055)n3:0.14256)n2:0.05727)n1:0.33709)n0;

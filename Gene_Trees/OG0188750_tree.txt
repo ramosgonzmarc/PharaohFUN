@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle2c06986:0.23407,(sequoia_sempervirens_SESE_130658:0.19529,(kalanchoe_fedtschenkoi_Kaladp0048s0914:1.15679,trifolium_pratense_Trpra.25028:0.9659)n2:0.21729)n1:0.23407)n0;

@@ -1,0 +1,1 @@
+((asterochloris_glomerata_Astgl_g6247:0.4192,(tetraselmis_striata_TSEL_038361:1.30209,tetraselmis_striata_TSEL_038595:0.25476)n2:0.26962)n1:0.14659,((marchantia_polymorpha_Mp4g08920:0.08096,marchantia_paleacea_Mapa_005644:0.03017)n4:0.16468,(riccia_fluitans_R1flu_014946:0.09174,riccia_sorocarpa_Risor.KAL3688171:0.08958)n5:0.11503)n3:0.14659)n0;

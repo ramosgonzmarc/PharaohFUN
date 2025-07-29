@@ -1,0 +1,1 @@
+(((mesostigma_viride1140_Mesvi840S08371:0.03473,mesostigma_viride296_Mevir.Mv22836:0.33432)n2:0.37132,((cymbomonas_tetramitiformis_KAK3285645:0.75388,ostreococcus_mediterraneus_Ostme03g01760:1.10883)n4:0.26385,cymbomonas_tetramitiformis_KAK3283333:0.263826)n3:0.029314)n1:0.16959,klebsormidium_nitens_kfl00002_0740:0.42309)n0;

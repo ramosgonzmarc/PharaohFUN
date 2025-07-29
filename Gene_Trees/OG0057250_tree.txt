@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.D04G020766:0.786465,((aegilops_tauschii_Atau_XP_045087821:0.00055,triticum_aestivum_TraesCS7D03G1145900:0.00055)n2:0.00055,(hordeum_vulgare_Hvul_7HG0740540:0.5029,hordeum_vulgare_Hvul_7HG0740530:0.085383)n3:0.009487)n1:0.00054)n0;

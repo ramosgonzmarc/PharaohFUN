@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.N00751:0.422535,(saponaria_officinalis_Sapof.03G241300:0.24435,(amaranthus_hypochondriacus_AH013212:0.12215,(beta_vulgaris_Bevul.7G221800:0.09539,chenopodium_quinoa_AUR62009715:0.12848)n3:0.09978)n2:0.2019)n1:0.422535)n0;

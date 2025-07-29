@@ -1,0 +1,1 @@
+((corymbia_citriodora_Cocit.D1084:1.15028,quercus_rubra_Qurub.07G037900:0.96924)n1:0.2984,(oryza_sativa_Os07g08650:0.10249,oryza_sativa_Os07g08510:0.24259)n2:0.2984)n0;

@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0328s0003:0.148685,(tetrabaena_socialis_Tesoc.PNG99447:0.48291,((chara_braunii_CBR_g49668:0.19938,klebsormidium_nitens_kfl00261_0120:0.23104)n3:0.38506,(cymbomonas_tetramitiformis_KAK3265322:0.60036,gonium_pectorale_Gopec.14145:0.98757)n4:0.20014)n2:0.35723)n1:0.148685)n0;

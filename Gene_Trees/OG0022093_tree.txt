@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.18860:0.30988,zea_mays_Zm00001d035622:0.15512)n1:0.0504,(sequoia_sempervirens_SESE_057624:0.41497,((taxus_chinensis_KI387_034162:0.03151,taxus_chinensis_KI387_035895:0.00055)n4:0.00054,(taxus_chinensis_KI387_004995:0.00835,taxus_chinensis_KI387_038781:0.00054)n5:0.01045)n3:0.12337)n2:0.0504)n0;

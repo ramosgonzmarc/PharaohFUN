@@ -1,0 +1,1 @@
+((phaeoceros_sp_Phsp.C11G072100:0.46187,phymatoceros_phymatodes_Phphy.S1G583700:0.28323)n1:0.390155,(adiantum_capillus_Adc16705:0.70358,(alsophila_spinulosa_Aspi01Gene58429:0.1275,(alsophila_spinulosa_Aspi01Gene58430:0.02075,alsophila_spinulosa_Aspi01Gene58431:0.02108)n4:0.07091)n3:0.39893)n2:0.390155)n0;

@@ -1,0 +1,1 @@
+(amaranthus_hypochondriacus_AH011248:0.024725,(amaranthus_hypochondriacus_AH011262:1.28012,(amaranthus_hypochondriacus_AH020656:0.12712,amaranthus_hypochondriacus_AH010130:0.09594)n2:0.05276)n1:0.024725)n0;

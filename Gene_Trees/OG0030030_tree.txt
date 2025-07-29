@@ -1,0 +1,1 @@
+(setaria_italica_Seita.3G378700:0.382315,(triticum_aestivum_TraesCS4D03G0296500:0.08994,(aegilops_tauschii_Atau_XP_040242799:0.08931,aegilops_tauschii_Atau_XP_040242800:0.00055)n2:0.06967)n1:0.382315)n0;

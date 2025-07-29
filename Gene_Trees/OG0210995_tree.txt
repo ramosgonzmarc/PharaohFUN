@@ -1,0 +1,1 @@
+((linum_usitatissimum_Lus10012760:0.96061,(linum_usitatissimum_Lus10027419:0.10205,linum_usitatissimum_Lus10005775:0.0152)n2:0.11186)n1:0.35196,(fragaria_vesca_FvH4_6g03562:0.422,medicago_truncatula_Medtr6g035155:0.43357)n3:0.35196)n0;

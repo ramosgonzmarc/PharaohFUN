@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.01376:0.19935,volvox_carteri_Vocar.0058s0015:0.25603)n1:0.05955,(tetrabaena_socialis_Tesoc.PNG99443:0.15148,tetrabaena_socialis_Tesoc.PNH03695:0.37404)n2:0.05955)n0;

@@ -1,0 +1,1 @@
+((linum_usitatissimum_Lus10012783:0.30484,linum_usitatissimum_Lus10033992:0.10618)n1:0.19849,(lens_culinaris_Lecul.7g068810:0.16814,phaseolus_acutifolius_Phacu.003G121300:0.04463)n2:0.19849)n0;

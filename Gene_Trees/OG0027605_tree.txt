@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc10g079100:0.193615,(gossypium_hirsutum_Gohir.D09G121266:0.58745,(vitis_vinifera_VIT_208s0007g08030:0.11656,vitis_vinifera_VIT_208s0007g08040:0.17917)n2:0.29091)n1:0.193615)n0;

@@ -1,0 +1,1 @@
+(picea_abies_Pab_746195g0010:0.882615,(alsophila_spinulosa_Aspi01Gene64576:0.56174,((alsophila_spinulosa_Aspi01Gene20228:0.05294,alsophila_spinulosa_Aspi01Gene38794:0.06913)n3:0.20269,(alsophila_spinulosa_Aspi01Gene14663:0.25838,alsophila_spinulosa_Aspi01Gene21322:0.19044)n4:0.185)n2:0.36309)n1:0.882615)n0;

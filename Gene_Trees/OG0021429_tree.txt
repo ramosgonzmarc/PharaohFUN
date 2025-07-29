@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_004669:0.582535,(sphagnum_magellanicum_Sphmag08G121300:0.23617,(sphagnum_fallax_Sphfalx09G056800:0.37966,(marchantia_polymorpha_Mp1g20170:1.85159,(marchantia_polymorpha_Mp8g02000:0.53647,marchantia_polymorpha_Mp8g01890:0.2146)n4:0.149382)n3:0.016598)n2:0.14123)n1:0.29181)n0;

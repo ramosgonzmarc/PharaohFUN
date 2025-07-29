@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g3724:0.47228,pedinophyceae_sp_Pesp.9460989:0.91245)n1:0.516145,(chlorokybus_atmophyticus_Chrsp32S08948:0.40731,(chlorokybus_atmophyticus_Chrsp32S08949:0.20818,chlorokybus_atmophyticus_Chrsp32S04979:0.15814)n3:0.22218)n2:0.516145)n0;

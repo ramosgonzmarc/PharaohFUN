@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum_Zci_09235:0.70251,(ceratodon_purpureus_CepurR40.11G157900:0.68283,((lycopodium_clavatum_Lcl_0006096:0.15125,(lycopodium_clavatum_Lcl_0002687:0.0408,lycopodium_clavatum_Lcl_0004500:0.01287)n4:0.08117)n3:0.16851,(diphasiastrum_complanatum_Dicom.02G015800:0.17047,diphasiastrum_complanatum_Dicom.15G030500:0.236835)n5:0.026315)n2:0.07885)n1:0.70251)n0;

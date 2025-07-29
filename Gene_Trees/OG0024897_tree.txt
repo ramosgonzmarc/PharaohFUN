@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.30053:0.00054,trifolium_pratense_Trpra.15497:0.05809)n1:0.728815,(cycas_panzhihuaensis_CYCAS_004244:0.00057,(ginkgo_biloba_Gb_28856:0.85244,ginkgo_biloba_Gb_05185:0.77274)n3:1.25031)n2:0.728815)n0;

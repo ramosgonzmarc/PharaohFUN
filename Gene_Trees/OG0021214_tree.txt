@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc05489:0.20276,(adiantum_capillus_Adc01951:0.31568,(adiantum_capillus_Adc02397:0.22852,adiantum_capillus_Adc12499:0.48314)n3:0.13577)n2:0.92375)n1:0.265865,((isoetes_sinensis_IsiChr1g1278:0.0134,isoetes_sinensis_IsiChr2g1163:0.02565)n5:0.14703,(isoetes_sinensis_IsiChr4g1553:0.0131,isoetes_sinensis_IsiChr3g1562:0.00053)n6:0.0858)n4:0.265865)n0;

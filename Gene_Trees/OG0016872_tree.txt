@@ -1,0 +1,1 @@
+(((abies_alba_AALBA5B054831:0.08418,picea_abies_Pab_10437202g0020:0.06703)n2:0.07906,(abies_alba_AALBA5B1073654:0.13735,picea_abies_Pab_6872690g0010:0.1293)n3:0.07343)n1:0.10101,(taxus_chinensis_KI387_012074:0.20184,(thuja_plicata_Thupl.29381801s0014:0.40982,thuja_plicata_Thupl.29381801s0013:0.279387)n5:0.031043)n4:0.46008)n0;

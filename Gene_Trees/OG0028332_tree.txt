@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr7g109660:0.200635,(thuja_plicata_Thupl.29377962s0003:0.02852,(welwitschia_mirabilis_Wmi_19389:0.0082,welwitschia_mirabilis_Wmi_25983:0.00055)n2:0.25309)n1:0.200635)n0;

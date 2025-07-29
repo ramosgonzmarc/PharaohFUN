@@ -1,0 +1,1 @@
+((pleurozium_schreberi_Plsch.20181:0,pleurozium_schreberi_Plsch.20187:0)n1:0.350825,((huperzia_asiatica_HaA06G0840:0.74903,lycopodium_clavatum_Lcl_0020372:0.29439)n3:0.24603,((arachis_hypogaea_arahy_6UJ539:0.16521,arachis_hypogaea_arahy_ASP6QS:0.22557)n5:1.08952,(isoetes_sinensis_IsiChr17g2336:0.00113,isoetes_sinensis_IsiChr18g2049:0.00069)n6:0.25195)n4:0.21553)n2:0.350825)n0;

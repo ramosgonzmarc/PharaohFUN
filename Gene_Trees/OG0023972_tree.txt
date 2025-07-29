@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00006294:0.31362,(bathycoccus_prasinos_XM_007510554:0.60726,(micromonas_pusilla_Mpus_160793:0.24021,micromonas_commoda_Micom.063040:0.2142)n2:0.27913)n1:0.31362)n0;

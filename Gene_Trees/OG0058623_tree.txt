@@ -1,0 +1,1 @@
+((lycopodium_clavatum_Lcl_0016313:0.02179,lycopodium_clavatum_Lcl_0016570:0.12192)n1:0.151205,(alsophila_spinulosa_Aspi01Gene26924:0.36464,sequoia_sempervirens_SESE_121801:0.90911)n2:0.151205)n0;

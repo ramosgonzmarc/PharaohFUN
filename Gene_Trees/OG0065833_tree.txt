@@ -1,0 +1,1 @@
+((phaeoceros_carolinianus_Phcar.S1G571200:0.53521,((anthoceros_agrestis_AnagrOXF.S4G005700:0.01649,anthoceros_punctatus_Anpun.S1G223700:0.19175)n3:0.68123,anthoceros_punctatus_Anpun.S4G037700:0.208395)n2:0.023155)n1:0.118415,phymatoceros_phymatodes_Phphy.S1G636700:0.09152)n0;

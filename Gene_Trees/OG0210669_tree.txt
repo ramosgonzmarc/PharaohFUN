@@ -1,0 +1,1 @@
+(lotus_japonicus_Lj1g0010298:0.20713,((lotus_japonicus_Lj1g0016474:0.87485,lotus_japonicus_Lj3g0007288:0.14705)n2:0.43609,((lotus_japonicus_Lj6g0008470:1.78774,(lotus_japonicus_Lj5g0025262:0.02919,lotus_japonicus_Lj2g0025594:0.77617)n5:0.57921)n4:0.21711,lotus_japonicus_Lj4g0005820:0.00053)n3:0.20844)n1:0.20713)n0;

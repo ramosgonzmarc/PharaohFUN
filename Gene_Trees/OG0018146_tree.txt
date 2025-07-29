@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF42789:0.74918,(cymbomonas_tetramitiformis_KAK3250597:0.01072,((cymbomonas_tetramitiformis_KAK3250596:0,cymbomonas_tetramitiformis_KAK3250604:0)n3:0.00055,cymbomonas_tetramitiformis_KAK3285433:0.00054)n2:0.12172)n1:0.74918)n0;

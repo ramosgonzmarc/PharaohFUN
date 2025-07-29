@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_5_143901:0.43164,((amaranthus_hypochondriacus_AH014486:0.00511,amaranthus_hypochondriacus_AH014487:0.06777)n2:0.78597,(saponaria_officinalis_Sapof.08G048900:0.31089,saponaria_officinalis_Sapof.07G089900:0.4869)n3:0.22992)n1:0.43164)n0;

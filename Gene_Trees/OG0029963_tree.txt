@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_1_105160:0.583845,((ananas_comosus_Aco010488:0.75928,(miscanthus_sinensis_MisinT049200:0.4959,oropetium_thomaeum_Oropetium_20150105_28168A:1.38108)n3:0.11618)n2:0.03752,((aegilops_tauschii_Atau_XP_020189921:0.22588,oryza_sativa_Os09g20030:0.10593)n5:0.33956,triticum_aestivum_TraesCS7A03G0003000:0.79869)n4:0.09581)n1:0.583845)n0;

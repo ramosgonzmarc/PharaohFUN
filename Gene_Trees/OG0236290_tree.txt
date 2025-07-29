@@ -1,0 +1,1 @@
+((myrmecia_bisecta_Mybis.KAK9829814:0.3223,myrmecia_bisecta_Mybis.KAK9829568:0.2131)n1:0.66615,(apatococcus_lobatus_Aplob.KAK9824914:0.1132,apatococcus_lobatus_Aplob.KAK9818935:0.10509)n2:0.66615)n0;

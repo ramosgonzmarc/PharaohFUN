@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9812870:0.648485,((gonium_pectorale_Gopec.13837:0.30424,volvox_carteri_Vocar.0030s0176:0.35575)n2:0.26685,(chlamydomonas_reinhardtii_Cre11.g467737_4532:0.1599,chlamydomonas_incerta_Chincg16811:0.1612)n3:0.32344)n1:0.648485)n0;

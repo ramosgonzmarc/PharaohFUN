@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.09G260700:0.30206,((amaranthus_hypochondriacus_AH007684:0.00054,amaranthus_hypochondriacus_AH007683:0.20414)n2:1.22794,(amaranthus_hypochondriacus_AH000970:0.28124,(amaranthus_hypochondriacus_AH022943:0.01182,amaranthus_hypochondriacus_AH022944:0.00055)n4:1.10783)n3:0.17163)n1:0.30206)n0;

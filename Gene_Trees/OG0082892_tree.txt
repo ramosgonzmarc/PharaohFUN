@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g34442:0.45103,(lycopodium_clavatum_Lcl_0024331:0.62468,(azolla_filiculoides_Azfi_s0006.g009869:0.50838,(gnetum_montanum_TnS000236519t01:0.58663,medicago_truncatula_Medtr1g058800:0.97084)n3:0.13954)n2:0.08749)n1:0.45103)n0;

@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62040962:0.23133,(taxus_chinensis_KI387_014804:0.28623,(sequoia_sempervirens_SESE_132990:1.0039,sequoia_sempervirens_SESE_136183:0.591552)n2:0.065728)n1:0.12394)n0;

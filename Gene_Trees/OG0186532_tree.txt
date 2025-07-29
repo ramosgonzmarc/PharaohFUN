@@ -1,0 +1,1 @@
+((picea_abies_Pab_423678g0010:0.01137,(picea_abies_Pab_7054309g0010:0.08459,picea_abies_Pab_8598g0010:0.03706)n2:0.12777)n1:0.8584,(setaria_italica_Seita.2G023200:0.19497,(zea_mays_Zm00001d018727:0.05807,(sorghum_bicolor_Sobic.002G021132:0.25467,(miscanthus_sinensis_Misin03G024100:0.30646,miscanthus_sinensis_Misin04G036200:0.143667)n6:0.015963)n5:0.06991)n4:0.02839)n3:0.8584)n0;

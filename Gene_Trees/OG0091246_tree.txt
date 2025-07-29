@@ -1,0 +1,1 @@
+((miscanthus_sinensis_Misin15G109000:0.3971,(phymatoceros_phymatodes_Phphy.S4G406600:0.12956,phymatoceros_phymatodes_Phphy.S4G063000:0.0486)n2:0.0054)n1:0.068735,(huperzia_asiatica_HaA16G0330:0.19753,cinnamomum_kanehirae_CKAN_01342000:0.07674)n3:0.09369)n0;

@@ -1,0 +1,1 @@
+(ostreobium_quekettii_CAD7698199:0.423885,(mesostigma_viride1140_Mesvi108S01678:0.16726,(mesostigma_viride296_Mevir.Mv22121:0.53604,(mesostigma_viride296_Mevir.Mv00271:0.52973,mesostigma_viride296_Mevir.Mv00655:0.167922)n3:0.0167922)n2:0.0018658)n1:0.16249)n0;

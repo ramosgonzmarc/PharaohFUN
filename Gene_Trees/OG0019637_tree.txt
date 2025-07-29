@@ -1,0 +1,1 @@
+((welwitschia_mirabilis_Wmi_07696:0.00055,welwitschia_mirabilis_Wmi_07697:0.09499)n1:0.62628,(alsophila_spinulosa_Aspi01Gene52185:0.01381,alsophila_spinulosa_Aspi01Gene52192:0.00055)n2:0.62628)n0;

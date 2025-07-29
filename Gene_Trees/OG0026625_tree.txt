@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_416567:0.53545,(olea_europaea_Oeu047173:1.25299,(olea_europaea_Oeu064299:0.47271,olea_europaea_Oeu064296:0.00055)n2:0.33186)n1:0.53545)n0;

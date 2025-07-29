@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF41886:0.03665,gracilariopsis_chorda_PXF41895:0.11034)n1:0.641345,(tetraselmis_striata_TSEL_010132:1.03162,(chlamydomonas_reinhardtii_Cre23.g802173_4532:0.61375,scenedesmus_obliquus_Sobl_g08038:0.75789)n3:0.15539)n2:0.641345)n0;

@@ -1,0 +1,1 @@
+(chlorella_sorokiniana_Chlso_g5639:0.460335,((myrmecia_bisecta_Mybis.KAK9814835:0.5675,(elliptochloris_bilobata_Elbil.KAK9832078:0.41127,coccomyxa_subellipsoidea_Cosub_68112:0.69047)n3:0.08992)n2:0.21557,(asterochloris_glomerata_Astgl_g5165:0.84029,trebouxia_sp_FRX49_10557:1.03989)n4:0.15125)n1:0.460335)n0;

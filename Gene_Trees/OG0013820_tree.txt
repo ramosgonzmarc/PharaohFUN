@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29379957s0006:0.282705,(cycas_panzhihuaensis_CYCAS_024488:0.74928,(ginkgo_biloba_Gb_19328:0.16915,(ginkgo_biloba_Gb_00893:0.23098,(ginkgo_biloba_Gb_00892:0.93237,(ginkgo_biloba_Gb_00891:0.05929,(ginkgo_biloba_Gb_19327:0.02624,ginkgo_biloba_Gb_19330:0.00055)n6:0.50412)n5:0.10183)n4:0.4117)n3:0.11203)n2:0.61637)n1:0.282705)n0;

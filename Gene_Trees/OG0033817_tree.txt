@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.387885:0.30618,((myrmecia_bisecta_Mybis.KAK9828952:0.60207,(elliptochloris_bilobata_Elbil.KAK9827254:0.94708,elliptochloris_bilobata_Elbil.KAK9822208:0.27016)n3:0.22344)n2:0.14446,(coccomyxa_subellipsoidea_Cosub_45216:0.3404,coccomyxa_subellipsoidea_Cosub_45215:0.29628)n4:0.41383)n1:0.30618)n0;

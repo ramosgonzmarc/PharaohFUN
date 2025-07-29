@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.D10G042600:0.611815,((lotus_japonicus_Lj3g0006113:0.21997,lotus_japonicus_Lj6g0013594:0.2629)n2:0.55952,(glycine_max_Glyma.09G034100:0.26248,(glycine_max_Glyma.04G119800:0.06404,glycine_max_Glyma.13G218900:0.04129)n4:0.18644)n3:0.16184)n1:0.611815)n0;

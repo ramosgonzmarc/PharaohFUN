@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi2g11288:0.35526,(hordeum_vulgare_Hvul_3HG0321880:0.19085,(aegilops_tauschii_Atau_XP_020182346:0.00055,aegilops_tauschii_Atau_XP_040241833:0.0026)n2:0.25225)n1:0.35526)n0;

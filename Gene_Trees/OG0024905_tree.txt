@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3256815:0.00055,cymbomonas_tetramitiformis_KAK3260126:0.00055)n1:0.4805,(mesotaenium_kramstae_Mekra.3023009:0.88034,(cycas_panzhihuaensis_CYCAS_007385:0.11882,asparagus_officinalis_AsparagusV1_03.2983:0.54211)n3:0.08269)n2:0.4805)n0;

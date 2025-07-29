@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.A10G069432:0.30252,(ginkgo_biloba_Gb_38817:0.21146,(picea_abies_Pab_547597g0010:0.287,picea_abies_Pab_83662g0010:0.237078)n2:0.026342)n1:0.10367)n0;

@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9464437:0.24583,(tetraselmis_striata_TSEL_040783:0.45142,(volvox_carteri_Vocar.0006s0086:0.08606,(tetrabaena_socialis_Tesoc.PNH10316:0.13283,(chlamydomonas_reinhardtii_Cre16.g657650_4532:0.03046,chlamydomonas_incerta_Chincg00943:0.07471)n4:0.04637)n3:0.05208)n2:0.16421)n1:0.24583)n0;

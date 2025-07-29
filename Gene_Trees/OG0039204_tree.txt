@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp6g01520:0.27317,(raphidocelis_subcapitata_Rsub_13281:0.19976,monoraphidium_minutum_Momin.410533:0.24991)n2:0.12074)n1:0.028185,(ceratodon_purpureus_CepurR40.9G057600:0.17812,desmodesmus_armatus_Desar.519199:0.22848)n3:0.028185)n0;

@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL8G17950:0.56697,boechera_stricta_Bostr.18473s0360:0.61633)n1:0.188215,(thlaspi_arvense_TaMN106.6G354600:0.4009,(schrenkiella_parvula_Scpar6g32310:0.00055,sisymbrium_irio_Siiris197g00180:1.04311)n3:0.06238)n2:0.188215)n0;

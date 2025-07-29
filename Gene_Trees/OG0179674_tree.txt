@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.21822:0.25244,((coffea_arabica_Coara.009380:0.01919,coffea_arabica_Coara.012410:0.00953)n2:0.57656,(solanum_lycopersicum_Solyc05g005320:0.02261,solanum_tuberosum_Soltu.05G008820:0.02119)n3:0.19344)n1:0.25244)n0;

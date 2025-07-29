@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_205s0029g00900:0.585125,(isoetes_sinensis_IsiChr1g3392:0.02782,(isoetes_sinensis_IsiChr5g3331:0,isoetes_sinensis_IsiChr16g3383:0)n2:0.00055)n1:0.585125)n0;

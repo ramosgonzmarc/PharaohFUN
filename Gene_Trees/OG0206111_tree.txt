@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.L4336:0.139865,((gossypium_hirsutum_Gohir.A06G050200:0.00054,gossypium_raimondii_Gorai.010G056400:0.05287)n2:0.36782,((brassica_oleracea_Bol042620:0.11952,brassica_rapa_Brara.C04122:0.01584)n4:0.01116,(brassica_rapa_Brara.C04121:0.0175,brassica_oleracea_Bol042619:0.000495)n5:5.5e-05)n3:0.3643)n1:0.139865)n0;

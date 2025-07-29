@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.35G005900:0.34497,(alsophila_spinulosa_Aspi01Gene01964:0.2571,alsophila_spinulosa_Aspi01Gene38511:0.13307)n2:0.14619)n1:0.007795,(chenopodium_quinoa_AUR62044594:0.38731,(trifolium_pratense_Trpra.19576:0.22517,trifolium_pratense_Trpra.34914:0.35964)n4:0.53839)n3:0.007795)n0;

@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C3G034100:0.01172,(phaeoceros_carolinianus_Phcar.S3G258200:0.03365,(phaeoceros_carolinianus_Phcar.S1G365700:1.65487,phaeoceros_carolinianus_Phcar.S3G429400:0.36682)n2:0.07514)n1:0.01172)n0;

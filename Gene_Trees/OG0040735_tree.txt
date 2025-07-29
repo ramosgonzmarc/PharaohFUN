@@ -1,0 +1,1 @@
+((oropetium_thomaeum_Oropetium_20150105_23486A:0.68057,(panicum_hallii_Pahal.4G240700:0.44018,sorghum_bicolor_Sobic.010G133275:0.4068)n2:0.09966)n1:0.36122,(triticum_aestivum_TraesCS7D03G0506300:0.00055,(triticum_aestivum_TraesCS7A03G0526800:0.0593,triticum_aestivum_TraesCS7B03G0345000:0.05283)n4:0.02986)n3:0.36122)n0;

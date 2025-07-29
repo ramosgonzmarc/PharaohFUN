@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3265292:0.2859,(elliptochloris_bilobata_Elbil.KAK9831514:0.28311,(myrmecia_bisecta_Mybis.KAK9828972:0.14176,apatococcus_lobatus_Aplob.KAK9834422:0.7365)n2:0.11255)n1:0.2859)n0;

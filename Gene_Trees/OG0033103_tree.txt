@@ -1,0 +1,1 @@
+((desmodesmus_armatus_Desar.126573:0.29388,haematococcus_lacustris_QJQ45_002793:0.58965)n1:0.025025,(chromochloris_zofingiensis_UNPLg00495:0.24377,(chlamydomonas_reinhardtii_Cre02.g142246_4532:0.0474,(gonium_pectorale_Gopec.12955:0.0835,volvox_carteri_Vocar.0014s0273:0.15092)n4:0.16305)n3:0.3825)n2:0.025025)n0;

@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene35095:0.44198,(adiantum_capillus_Adc24855:0.95426,(ceratopteris_richardii_Ceric.04G044600:0.15585,((ceratopteris_richardii_Ceric.1Z090100:0,ceratopteris_richardii_Ceric.1Z088800:0,ceratopteris_richardii_Ceric.1Z121000:0)n4:0.00055,ceratopteris_richardii_Ceric.1Z088700:0.00055)n3:0.08436)n2:0.33927)n1:0.44198)n0;

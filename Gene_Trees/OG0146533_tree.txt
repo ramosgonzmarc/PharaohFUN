@@ -1,0 +1,1 @@
+((saponaria_officinalis_Sapof.06G120300:0.32535,(carya_illinoinensis_Caril.10G113100:0.21579,corylus_avellana_Corav.g8887:0.19511)n2:0.10934)n1:0.024565,(olea_europaea_Oeu050587:0.32315,(phaseolus_acutifolius_Phacu.008G140100:0.29737,trifolium_pratense_Trpra.21410:0.2199)n4:0.0755)n3:0.024565)n0;

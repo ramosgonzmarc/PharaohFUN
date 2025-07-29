@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10015565:0.36892,(prunus_persica_Prupe.5G133000:0.54416,(fragaria_vesca_FvH4_7g32870:0.44747,(arachis_hypogaea_arahy_XTE2M1:0.45074,phaseolus_acutifolius_Phacu.009G087700:0.2203)n3:0.21376)n2:0.32085)n1:0.36892)n0;

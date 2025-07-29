@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene60438:0.11766,(sisymbrium_irio_Siiris763g00060:0.85872,(sequoia_sempervirens_SESE_025754:0.6475,(theobroma_cacao_Thecc1EG045138:0.52125,theobroma_cacao_Thecc1EG039592:0.596385)n3:0.066265)n2:0.1145)n1:0.05909)n0;

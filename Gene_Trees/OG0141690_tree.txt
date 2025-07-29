@@ -1,0 +1,1 @@
+(megaceros_flagellaris_Mefla.S4G349000:0.2017,(notothylas_orbicularis_Noorb.S5G081600:0.10087,(notothylas_orbicularis_Noorb.S1G400800:0.08022,notothylas_orbicularis_Noorb.S2G164200:0.25359)n2:0.63826)n1:0.2017)n0;

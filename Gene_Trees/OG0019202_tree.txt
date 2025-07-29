@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B1157266:0.39587,(aegilops_tauschii_Atau_XP_040255851:0.06369,(aegilops_tauschii_Atau_XP_045089287:0.00055,aegilops_tauschii_Atau_XP_045089288:0.00055)n2:0.00055)n1:0.39587)n0;

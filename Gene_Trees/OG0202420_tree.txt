@@ -1,0 +1,1 @@
+(ananas_comosus_Aco016383:0.69993,(vitis_vinifera_VIT_211s0016g02780:0.09063,(corymbia_citriodora_Cocit.C2191:0.46043,(trifolium_pratense_Trpra.11490:0.98458,(coffea_arabica_Coara.052835:0.00055,coffea_arabica_Coara.057213:0.0182)n4:0.63105)n3:0.26492)n2:0.1966)n1:0.69993)n0;

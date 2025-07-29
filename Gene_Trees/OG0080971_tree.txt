@@ -1,0 +1,1 @@
+((phaseolus_acutifolius_Phacu.002G300000:0.0135,(tetrabaena_socialis_Tesoc.PNH11009:0.04078,tetrabaena_socialis_Tesoc.PNH10536:0.442161)n2:0.049129)n1:0.01274,((ceratopteris_richardii_Ceric.1Z209000:0.07083,(chenopodium_quinoa_AUR62006157:0.31378,corylus_avellana_Corav.g21371:0.00054)n5:0.02955)n4:0.00052,vaccinium_darrowii_Vadar_g45446:0.93333)n3:0.00752)n0;

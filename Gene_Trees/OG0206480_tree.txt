@@ -1,0 +1,1 @@
+((schrenkiella_parvula_Scpar4g09200:0.66651,schrenkiella_parvula_Scpar2g05260:0.9564)n1:0.477495,(theobroma_cacao_Thecc1EG045593:0.77051,(theobroma_cacao_Thecc1EG020241:0.38248,theobroma_cacao_Thecc1EG034397:0.40391)n3:0.12645)n2:0.477495)n0;

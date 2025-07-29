@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g32376:0.09474,(chara_braunii_CBR_g64832:0.18567,(chara_braunii_CBR_g28885:0.24747,chara_braunii_CBR_g49100:0.67414)n2:0.03706)n1:0.09474)n0;

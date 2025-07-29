@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_25493:0.13978,(olea_europaea_Oeu054504:0.12451,(vitis_vinifera_VIT_216s0098g00910:0.47223,quercus_rubra_Qurub.01G068400:0.49128)n2:0.10132)n1:0.13978)n0;

@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B868089:0.3877,myrmecia_bisecta_Mybis.KAK9811350:0.44229)n1:0.13333,(mesotaenium_endlicherianum_ME000108S10776:0.57687,(cymbomonas_tetramitiformis_KAK3285483:0.00055,cymbomonas_tetramitiformis_KAK3285484:0.00055)n3:0.87724)n2:0.13333)n0;

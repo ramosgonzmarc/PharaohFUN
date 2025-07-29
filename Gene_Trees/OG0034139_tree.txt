@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_030296:0.092315,(quercus_rubra_Qurub.M045500:0.39194,(glycine_max_Glyma.06G088700:0.16814,carica_papaya_Capac.c01868g004:0.00055)n2:0.25448)n1:0.092315)n0;

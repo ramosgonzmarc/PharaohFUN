@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF41756:0.76466,(gracilariopsis_chorda_PXF41745:0.02839,gracilariopsis_chorda_PXF45771:0.28494)n2:0.62249)n1:0.2737,((prasinoderma_coloniale_PRCOL_00000139:0.53969,tetraselmis_striata_TSEL_027162:0.63981)n4:0.32241,(cymbomonas_tetramitiformis_KAK3250949:0.47343,cymbomonas_tetramitiformis_KAK3266093:0.61159)n5:0.29667)n3:0.2737)n0;

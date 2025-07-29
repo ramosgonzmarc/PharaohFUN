@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_3g44271:0.570905,(((trifolium_pratense_Trpra.03791:0.55381,medicago_truncatula_Medtr5g035850:0.30242)n3:0.08633,(lens_culinaris_Lecul.1g046800:0.81091,lens_culinaris_Lecul.3g015600:0.034227)n4:0.003803)n2:1.10529,(phaseolus_acutifolius_Phacu.006G027300:0.12457,vigna_unguiculata_Vigun06g024300:0.17409)n5:0.32966)n1:0.15539)n0;

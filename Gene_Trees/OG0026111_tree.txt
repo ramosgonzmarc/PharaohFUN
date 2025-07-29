@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.15697s0263:0.720615,(isoetes_sinensis_IsiChr11g3554:0.00055,(isoetes_sinensis_IsiChr4g3782:0.18086,isoetes_sinensis_IsiChr12g3406:0.00463)n2:0.00262)n1:0.720615)n0;

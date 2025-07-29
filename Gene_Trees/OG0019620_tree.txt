@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr7g2890:0.05136,isoetes_sinensis_IsiChr8g2579:0.02252)n1:0.6754,(marsilea_vestita_Mvestita_S2g11840:0.28186,(alsophila_spinulosa_Aspi01Gene35122:0.09903,salvinia_cucullata_Sacu_s0035.g011363:0.50001)n3:0.33115)n2:0.6754)n0;

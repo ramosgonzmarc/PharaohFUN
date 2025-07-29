@@ -1,0 +1,1 @@
+((vaccinium_darrowii_Vadar_g45570:1.39236,(prunus_persica_Prupe.4G269000:0.05885,prunus_persica_Prupe.4G270200:0.13845)n2:1.2588)n1:0.064005,(vitis_vinifera_VIT_219s0138g00100:0.62022,saponaria_officinalis_Sapof.03G029800:0.8961)n3:0.064005)n0;

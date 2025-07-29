@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0003s4499:0.35358,(theobroma_cacao_Thecc1EG012184:0.32355,(theobroma_cacao_Thecc1EG012181:0.18194,theobroma_cacao_Thecc1EG012182:0.03543)n2:0.17431)n1:0.35358)n0;

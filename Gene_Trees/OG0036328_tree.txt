@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM005535S18181:0.097745,(azolla_filiculoides_Azfi_s0006.g010357:0.46014,(ginkgo_biloba_Gb_10642:0.74042,vaccinium_darrowii_Vadar_g10455:0.49208)n2:0.2376)n1:0.097745)n0;

@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_020741:0.37864,(klebsormidium_nitens_kfl00055_0300:0.42029,(spirogloea_muscicola_SM000193S05176:0.05059,(spirogloea_muscicola_SM000102S09180:0.05373,spirogloea_muscicola_SM000296S11293:0.17407)n3:0.01114)n2:0.78085)n1:0.37864)n0;

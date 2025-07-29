@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S2G182900:0.34452,(phaeomegaceros_chiloensis_Phchi.S1G437800:0.84149,(phaeoceros_carolinianus_Phcar.S1G422000:0.00054,phaeoceros_sp_Phsp.C1G199800:0.00055)n2:0.38242)n1:0.34452)n0;

@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr1g4876:0.3225,(notothylas_orbicularis_Noorb.S2G104700:0.47322,(anthoceros_agrestis_AnagrOXF.S5G073500:0.15502,anthoceros_punctatus_Anpun.S3G411100:0.17162)n2:0.14364)n1:0.3225)n0;

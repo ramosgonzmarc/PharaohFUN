@@ -1,0 +1,1 @@
+((megaceros_flagellaris_Mefla.S1G027700:0.38485,auxenochlorella_protothecoides_APUTEX2500005301:1.21016)n1:0.44361,((isoetes_sinensis_IsiChr6g986:0.46976,welwitschia_mirabilis_Wmi_09081:0.34655)n3:0.308,(cymbomonas_tetramitiformis_KAK3276376:0.22025,tetrabaena_socialis_Tesoc.PNH12783:0.75519)n4:0.22243)n2:0.44361)n0;

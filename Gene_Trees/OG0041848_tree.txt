@@ -1,0 +1,1 @@
+(picocystis_sp_Picml_g1639:0.659695,((raphidocelis_subcapitata_Rsub_11852:0.44371,raphidocelis_subcapitata_Rsub_04868:0.39293)n2:0.26364,((desmodesmus_armatus_Desar.369381:0.20894,desmodesmus_armatus_Desar.387730:0.10121)n4:0.73075,(desmodesmus_armatus_Desar.371054:0.96601,desmodesmus_armatus_Desar.373859:0.424323)n5:0.0424323)n3:0.0047147)n1:0.07878)n0;

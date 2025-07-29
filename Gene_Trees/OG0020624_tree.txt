@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_025378:0.32171,ginkgo_biloba_Gb_11084:0.81327)n1:0.383775,(sequoiadendron_giganteum_SEGI_22257:0.1862,(thuja_plicata_Thupl.29380897s0006:0.02083,thuja_plicata_Thupl.29380897s0007:0.055107)n3:0.006123)n2:0.0204)n0;

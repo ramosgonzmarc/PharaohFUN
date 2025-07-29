@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S1G548500:0.34141,(notothylas_orbicularis_Noorb.S3G451500:0.69186,(paraphymatoceros_pearsonii_Papea.S1G821800:0.01493,paraphymatoceros_pearsonii_Papea.S3G384100:0.00055)n2:1.22142)n1:0.34141)n0;

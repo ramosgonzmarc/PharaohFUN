@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG016764:0.198765,(theobroma_cacao_Thecc1EG010897:0.83092,(theobroma_cacao_Thecc1EG012800:0.47778,(theobroma_cacao_Thecc1EG011924:0.34654,theobroma_cacao_Thecc1EG024577:0.51287)n3:0.252)n2:0.04591)n1:0.198765)n0;

@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_068688:0.300555,(dioscorea_alata_Dioal.08G163800:0.29614,(olea_europaea_Oeu060968:0.39332,coffea_arabica_Coara.030027:0.18513)n2:0.34978)n1:0.300555)n0;

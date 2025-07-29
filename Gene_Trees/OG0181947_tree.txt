@@ -1,0 +1,1 @@
+((citrus_sinensis_Cisin.025571:0.39411,salix_purpurea_Sapur.013G036800:0.50509)n1:0.113855,(coffea_arabica_Coara.025379:0.85722,(mimulus_guttatus_Migut.B01077:0.53466,(solanum_lycopersicum_Solyc01g097490:0.03011,solanum_tuberosum_Soltu.01G036650:0.01611)n4:0.35315)n3:0.28013)n2:0.113855)n0;

@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr5g086290:1.02504,schrenkiella_parvula_ScparUn0004_0170:1.14066)n1:0.200905,(alsophila_spinulosa_Aspi01Gene02337:0.18397,(alsophila_spinulosa_Aspi01Gene25563:0.06543,alsophila_spinulosa_Aspi01Gene55053:0.03297)n3:0.03822)n2:0.200905)n0;

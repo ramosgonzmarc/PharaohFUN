@@ -1,0 +1,1 @@
+(paraphymatoceros_pearsonii_Papea.S2G576000:0.565295,(marchantia_paleacea_Mapa_014863:0.78357,(riccia_fluitans_R1flu_027678:0.37704,(riccia_sorocarpa_Risor.KAL3677400:1.64514,riccia_sorocarpa_Risor.KAL3677399:0.288522)n3:0.032058)n2:0.03238)n1:0.20142)n0;

@@ -1,0 +1,1 @@
+((kalanchoe_fedtschenkoi_Kaladp0095s0284:1.08089,vaccinium_darrowii_Vadar_g10925:0.76554)n1:0.067745,((taxus_chinensis_KI387_035889:0.39916,(taxus_chinensis_KI387_002658:0.2349,taxus_chinensis_KI387_002662:0.10467)n4:0.76805)n3:0.36932,(sequoia_sempervirens_SESE_135079:0.00053,sequoia_sempervirens_SESE_130389:0.06922)n5:1.04057)n2:0.067745)n0;

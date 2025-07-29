@@ -1,0 +1,1 @@
+((hordeum_vulgare_Hvul_5HG0535970:0.66833,miscanthus_sinensis_MisinT366400:0.70586)n1:0.23714,(eleusine_coracana_Elcor.1AG0022220:0.92655,(oryza_sativa_Os11g32410:0.33478,triticum_aestivum_TraesCS5A03G0104100:0.51357)n3:0.2142)n2:0.23714)n0;

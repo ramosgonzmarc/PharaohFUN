@@ -1,0 +1,1 @@
+((sequoiadendron_giganteum_SEGI_12435:0.3797,(gnetum_montanum_TnS001002589t08:0.75073,(thuja_plicata_Thupl.29377456s0012:0.39397,(picea_abies_Pab_7850772g0010:0.10371,picea_abies_Pab_25253g0010:0.270666)n4:0.030074)n3:0.43603)n2:0.41174)n1:0.104725,(cycas_panzhihuaensis_CYCAS_015117:0.19565,ginkgo_biloba_Gb_01938:0.15312)n5:0.104725)n0;

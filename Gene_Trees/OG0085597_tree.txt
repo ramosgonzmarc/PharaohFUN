@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_010197:0.945875,(tetrabaena_socialis_Tesoc.PNH07220:0.16677,(gonium_pectorale_Gopec.12866:0.17433,((chlamydomonas_reinhardtii_Cre01.g027700_4532:0.03552,chlamydomonas_incerta_Chincg06533:0.07458)n4:0.27496,volvox_carteri_Vocar.0001s0886:0.23472)n3:0.08607)n2:0.08784)n1:0.945875)n0;

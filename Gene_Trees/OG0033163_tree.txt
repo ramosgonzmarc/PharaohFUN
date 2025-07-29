@@ -1,0 +1,1 @@
+((chlorella_sorokiniana_Chlso_g489:0.47178,chlorella_sorokiniana_Chlso_g8357:0.27546)n1:0.157635,(scenedesmus_obliquus_Sobl_g02007:0.87959,(desmodesmus_armatus_Desar.282227:0.60677,desmodesmus_armatus_Desar.320209:0.397215)n3:0.044135)n2:0.06979)n0;

@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S4g08502:0.36045,(alsophila_spinulosa_Aspi01Gene67074:0.2118,(adiantum_capillus_Adc01147:1.27662,(adiantum_capillus_Adc10347:0.78597,adiantum_capillus_Adc30881:0.38439)n3:0.10822)n2:0.05546)n1:0.36045)n0;

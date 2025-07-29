@@ -1,0 +1,1 @@
+((gnetum_montanum_TnS000159015t01:1.47852,((ginkgo_biloba_Gb_09828:0.05367,ginkgo_biloba_Gb_05740:0.184374)n3:0.020486,(ginkgo_biloba_Gb_38834:0.61599,ginkgo_biloba_Gb_05738:0.00891)n4:0.23076)n2:0.02564)n1:0.07331,(picea_abies_Pab_10433822g0010:0.11898,picea_abies_Pab_407864g0010:0.37266)n5:0.37243)n0;

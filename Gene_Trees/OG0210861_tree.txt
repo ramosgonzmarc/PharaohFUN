@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.012G018900:0.63823,(quercus_rubra_Qurub.08G040000:0.42292,(quercus_rubra_Qurub.08G040100:0.35823,(quercus_rubra_Qurub.08G040200:0.27095,(quercus_rubra_Qurub.08G040300:0.12779,quercus_rubra_Qurub.08G040500:0.11559)n4:0.13324)n3:0.20712)n2:0.05686)n1:0.63823)n0;

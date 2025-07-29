@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00004_0180:0.37172,(ostreococcus_tauri_ostta08g03140:0.18502,((tetraselmis_striata_TSEL_028122:1.12889,(cymbomonas_tetramitiformis_KAK3278840:0.78822,cymbomonas_tetramitiformis_KAK3287897:0.91643)n4:0.32061)n3:0.13751,(ostreococcus_lucimarinus_Oluc_16530:0.31315,ostreococcus_mediterraneus_Ostme16g01650:0.52943)n5:0.11)n2:0.16316)n1:0.37172)n0;

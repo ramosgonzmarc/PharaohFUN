@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.007866:0.828665,(vitis_vinifera_VIT_219s0015g00490:0.17643,(gossypium_raimondii_Gorai.009G450200:0.49812,((quercus_rubra_Qurub.08G022000:0.00055,quercus_rubra_Qurub.M162500:0.00753)n4:0.48508,lens_culinaris_Lecul.3g024860:0.4885)n3:0.10746)n2:0.10506)n1:0.828665)n0;

@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.02G277200:0.280045,(corylus_avellana_Corav.g19563:0.59694,(carya_illinoinensis_Caril.04G002800:0.02116,carya_illinoinensis_Caril.08G152400:0.22711)n2:0.58307)n1:0.280045)n0;

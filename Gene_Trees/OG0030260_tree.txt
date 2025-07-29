@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene08548:0.06709,alsophila_spinulosa_Aspi01Gene09146:0.13491)n1:0.1565,(corylus_avellana_Corav.g21347:0.58494,(sequoia_sempervirens_SESE_147158:1.22552,(sequoia_sempervirens_SESE_136115:0.00843,sequoia_sempervirens_SESE_141849:0.00054)n4:0.607392)n3:0.067488)n2:0.16468)n0;

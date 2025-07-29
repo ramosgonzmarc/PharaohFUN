@@ -1,0 +1,1 @@
+((zygnema_circumcarinatum_Zci_13801:0,zygnema_circumcarinatum1559_ZcUTEX1559_04429:0)n1:0.49383,(isoetes_sinensis_IsiChr22g3750:0.01775,isoetes_sinensis_IsiChr21g3450:0.02489)n2:0.49383)n0;

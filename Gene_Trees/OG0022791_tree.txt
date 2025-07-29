@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_09804:0.197545,((selaginella_moellendorffii_Smoe_124258:0.42682,(vitis_vinifera_VIT_205s0049g02270:1.07193,medicago_truncatula_Medtr1g086410:0.2625)n3:0.30978)n2:0.13399,(ananas_comosus_Aco019902:0.19577,(abies_alba_AALBA5B945243:0.00055,picea_abies_Pab_6875111g0010:0.15582)n5:0.29923)n4:0.17091)n1:0.197545)n0;

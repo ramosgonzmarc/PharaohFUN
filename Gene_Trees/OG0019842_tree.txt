@@ -1,0 +1,1 @@
+(((physcomitrium_patens_Pp6c11_6620V6:0,physcomitrium_patens_Pp6c11_6610V6:0)n2:0.22939,arabidopsis_lyrata_Arlyr.AL3G13730:0.42336)n1:0.117385,(aquilegia_coerulea_Aqcoe3G243700:0.37914,((medicago_truncatula_Medtr4g131890:0.3742,mimulus_guttatus_Migut.L00086:0.16987)n5:0.33831,sphagnum_magellanicum_Sphmag07G095400:0.42668)n4:0.23743)n3:0.117385)n0;

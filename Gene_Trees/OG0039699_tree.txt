@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_1g19422:0.25791,populus_trichocarpa_Potri.016G001950:1.68979)n1:0.22074,(olea_europaea_Oeu031703:0.08587,olea_europaea_Oeu057545:0.03869)n2:0.22074)n0;

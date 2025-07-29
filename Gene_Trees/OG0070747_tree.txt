@@ -1,0 +1,1 @@
+(brassica_rapa_Brara.B02874:0.130525,(boechera_stricta_Bostr.8819s0148:0.17693,(arabidopsis_lyrata_Arlyr.AL8G12370:0.39968,arabidopsis_thaliana_AT5G46115:0.07894)n2:0.03705)n1:0.130525)n0;

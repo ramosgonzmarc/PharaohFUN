@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_11310:0.43211,(marchantia_polymorpha_Mp7g17350:0.34277,(riccia_sorocarpa_Risor.KAL3679421:0.21154,(riccia_fluitans_R1flu_025176:0.27884,riccia_fluitans_R1flu_025175:0.152937)n3:0.016993)n2:0.06337)n1:0.43211)n0;

@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_24896:0.25889,((picea_abies_Pab_10447g0010:0.11595,(abies_alba_AALBA5B031404:0.01809,(abies_alba_AALBA5B291244:0.0851,abies_alba_AALBA5B485342:0.01604)n4:0.01458)n3:0.12906)n2:0.38201,(sequoiadendron_giganteum_SEGI_00931:0.12029,(thuja_plicata_Thupl.29380523s0019:0.2118,thuja_plicata_Thupl.29378370s0004:0.177165)n6:0.019685)n5:0.02922)n1:0.25889)n0;

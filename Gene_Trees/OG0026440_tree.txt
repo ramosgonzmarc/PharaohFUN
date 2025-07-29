@@ -1,0 +1,1 @@
+(kalanchoe_fedtschenkoi_Kaladp0098s0108:0.47388,(riccia_sorocarpa_Risor.KAL3685878:0.20887,((marchantia_polymorpha_Mp1g17810:0.03255,marchantia_paleacea_Mapa_016399:0.08492)n3:0.41371,(riccia_fluitans_R1flu_024266:0.28119,riccia_fluitans_R1flu_022087:0.06532)n4:0.0533)n2:0.02942)n1:0.47388)n0;

@@ -1,0 +1,1 @@
+(cucumis_sativus_Cucsa.c381080g01:0.094235,(medicago_truncatula_Medtr1g035240:0.36638,(vigna_unguiculata_VigunL059727:0.5776,(trifolium_pratense_Trpra.41531:0.00548,trifolium_pratense_Trpra.33564:0.170226)n3:0.018914)n2:0.35499)n1:0.094235)n0;

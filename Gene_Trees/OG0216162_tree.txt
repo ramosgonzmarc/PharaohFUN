@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g14471:0.310295,(saponaria_officinalis_Sapof.13G137100:0.35427,((chenopodium_quinoa_AUR62028725:0.04318,chenopodium_quinoa_AUR62008143:0.03975)n3:0.15746,(amaranthus_hypochondriacus_AH002535:0.36564,beta_vulgaris_Bevul.5G220700:0.11059)n4:0.05779)n2:0.23731)n1:0.310295)n0;

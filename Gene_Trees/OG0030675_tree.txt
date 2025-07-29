@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_35672:0.37286,(huperzia_asiatica_HaB16G0381:0.51852,(alsophila_spinulosa_Aspi01Gene69348:0.05891,alsophila_spinulosa_Aspi01Gene69349:0.02188)n2:0.13466)n1:0.37286)n0;

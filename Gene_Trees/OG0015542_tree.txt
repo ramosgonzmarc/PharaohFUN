@@ -1,0 +1,1 @@
+(aegilops_tauschii_Atau_XP_020167634:0.83824,((chara_braunii_CBR_g23427:0.26452,chara_braunii_CBR_g40590:0.10808)n2:0.04783,(chara_braunii_CBR_g11023:0.69112,(chara_braunii_CBR_g61060:0.71815,chara_braunii_CBR_g52179:0.24149)n4:0.21905)n3:0.75355)n1:0.83824)n0;

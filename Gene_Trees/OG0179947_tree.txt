@@ -1,0 +1,1 @@
+(zea_mays_Zm00001d041923:0.33804,((trifolium_pratense_Trpra.21216:0.95346,(chenopodium_quinoa_AUR62040033:0.34201,(beta_vulgaris_Bevul.3G099500:0.89027,beta_vulgaris_Bevul.4G111500:0.347544)n4:0.038616)n3:0.23541)n2:0.14437,(solanum_lycopersicum_Solyc09g020120:0.63499,citrus_sinensis_Cisin.036997:0.82236)n5:0.08596)n1:0.33804)n0;

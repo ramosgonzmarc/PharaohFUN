@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_521957:0.1554,daucus_carota_DCAR_518878:0.17143)n1:0.734105,(marchantia_polymorpha_Mp7g10970:0.08139,(riccia_fluitans_R1flu_023725:0.85499,marchantia_paleacea_Mapa_014750:0.00054)n3:0.05492)n2:0.734105)n0;

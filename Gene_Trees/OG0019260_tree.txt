@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene65194:0.298175,(fragaria_vesca_FvH4_5g29632:0.91833,(ginkgo_biloba_Gb_39781:0.87032,(picea_abies_Pab_2993441g0010:0.16649,(abies_alba_AALBA5B352915:0.06596,abies_alba_AALBA5B311008:1.11467)n4:0.04319)n3:0.51961)n2:0.11145)n1:0.298175)n0;

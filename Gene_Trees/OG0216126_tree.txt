@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_9_43280:0.13722,lactuca_sativa_Lsat_gn_9_43300:0.26132)n1:0.2348,(solanum_tuberosum_Soltu.12G007210:1.23285,(solanum_tuberosum_Soltu.04G028770:0.36794,(solanum_tuberosum_Soltu.04G028750:0.28827,(solanum_tuberosum_Soltu.04G028740:0.01779,solanum_tuberosum_Soltu.04G028760:0.03294)n5:0.07709)n4:0.25198)n3:0.46606)n2:0.2348)n0;

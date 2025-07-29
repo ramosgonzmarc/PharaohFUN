@@ -1,0 +1,1 @@
+(malus_domestica_MD01G1019900:0.260205,(gnetum_montanum_TnS000562541t04:0.24721,(gnetum_montanum_TnS000687099t01:0.03036,gnetum_montanum_TnS000355333t01:0.03027)n2:0.03338)n1:0.260205)n0;

@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr4g1878:0.216765,(asparagus_officinalis_AsparagusV1_08.2433:1.23098,(ginkgo_biloba_Gb_06087:0.13921,picea_abies_Pab_903516g0010:0.15949)n2:0.29963)n1:0.216765)n0;

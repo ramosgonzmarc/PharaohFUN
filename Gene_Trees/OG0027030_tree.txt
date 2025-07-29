@@ -1,0 +1,1 @@
+((sphagnum_magellanicum_Sphmag02G049500:0.00055,sphagnum_fallax_Sphfalx02G048600:0.05005)n1:0.49456,(ceratodon_purpureus_CepurR40.9G179200:0.27469,((physcomitrium_patens_Pp6c1_5720V6:0.10337,funaria_hygrometrica_Fuhyg.22681:0.35524)n4:0.27626,(physcomitrium_patens_Pp6c11_4750V6:0.15509,funaria_hygrometrica_Fuhyg.23031:0.1528)n5:0.357246)n3:0.039694)n2:0.10887)n0;

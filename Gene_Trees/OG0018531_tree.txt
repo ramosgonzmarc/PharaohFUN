@@ -1,0 +1,1 @@
+(megaceros_flagellaris_Mefla.S4G196500:0.05069,((megaceros_flagellaris_Mefla.S4G199000:0.27268,megaceros_flagellaris_Mefla.S4G205300:0.01845)n2:0.1197,(megaceros_flagellaris_Mefla.S4G200000:0.00055,megaceros_flagellaris_Mefla.S4G203700:0.02658)n3:0.04906)n1:0.05069)n0;

@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.F02775:0.95545,corymbia_citriodora_Cocit.F3124:0.40787)n1:0.15994,(carica_papaya_Capac.c00026g063:0.6269,((citrus_sinensis_Cisin.045426:0.02693,poncirus_trifoliata_Ptrif.0005s2171:0.00054)n4:0.4631,theobroma_cacao_Thecc1EG035281:0.53772)n3:0.40936)n2:0.15994)n0;

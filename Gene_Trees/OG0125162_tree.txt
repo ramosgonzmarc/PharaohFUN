@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.B1959:0.409745,((phaseolus_acutifolius_Phacu.011G106600:0.00571,(glycine_max_Glyma.11G181800:0.06159,vigna_unguiculata_Vigun11g125300:0.10315)n3:0.0339)n2:0.1796,(arachis_hypogaea_arahy_N3DIQ1:0.43369,(arachis_hypogaea_arahy_9G9Q3I:0.06233,arachis_hypogaea_arahy_HHR0D8:0.05324)n5:0.311085)n4:0.034565)n1:0.12403)n0;

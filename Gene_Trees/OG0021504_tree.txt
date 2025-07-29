@@ -1,0 +1,1 @@
+((mesotaenium_endlicherianum_ME000030S05169:0.43331,zygnema_circumcarinatum1559_ZcUTEX1559_11946:0.60398)n1:0.55841,(spirogloea_muscicola_SM000076S21861:0.00054,(spirogloea_muscicola_SM000027S09626:0.01778,spirogloea_muscicola_SM000028S10104:0.01043)n3:0.01355)n2:0.55841)n0;

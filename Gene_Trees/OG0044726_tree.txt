@@ -1,0 +1,1 @@
+((thuja_plicata_Thupl.29379897s0014:0.04047,thuja_plicata_Thupl.29379898s0003:0.1463)n1:0.44096,(asparagus_officinalis_AsparagusV1_Unassigned.911:0.62752,(fragaria_vesca_FvH4_3g23710:1.03991,trifolium_pratense_Trpra.19220:0.68294)n3:0.1803)n2:0.44096)n0;

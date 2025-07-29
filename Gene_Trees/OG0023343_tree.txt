@@ -1,0 +1,1 @@
+(diphasiastrum_complanatum_Dicom.21G053600:0.37258,(marsilea_vestita_Mvestita_S1g06796:0.5911,(amborella_trichopoda_AmTr00036g139:1.02251,ceratopteris_richardii_Ceric.08G071400:0.54699)n2:0.00606)n1:0.37258)n0;

@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_ZRA2QP:1.14968,(vigna_unguiculata_Vigun03g223500:0.05636,vigna_unguiculata_Vigun03g315600:0.08288)n2:1.04519)n1:0.114225,(linum_usitatissimum_Lus10003404:0.14936,linum_usitatissimum_Lus10001494:0.07666)n3:0.114225)n0;

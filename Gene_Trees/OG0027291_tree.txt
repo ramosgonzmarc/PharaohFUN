@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0107s0032:0.092545,(desmodesmus_armatus_Desar.393683:1.34835,(tetraselmis_striata_TSEL_002213:0.22623,tetraselmis_striata_TSEL_032972:0.83364)n2:0.39584)n1:0.092545)n0;

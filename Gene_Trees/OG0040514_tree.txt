@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Smoe_75478:0.8419,(micromonas_commoda_Micom.102475:0.50868,(ostreococcus_mediterraneus_Ostme02g00580:0.08904,(ostreococcus_tauri_ostta04g00570:0.12086,ostreococcus_lucimarinus_Oluc_30981:0.05829)n3:0.05573)n2:0.26225)n1:0.8419)n0;

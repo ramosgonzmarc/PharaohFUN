@@ -1,0 +1,1 @@
+((funaria_hygrometrica_Fuhyg.20218:0.35039,(sphagnum_fallax_Sphfalx02G012800:0.51101,sphagnum_fallax_Sphfalx02G205000:0.163845)n2:0.018205)n1:0.15565,ceratodon_purpureus_CepurR40.7G110500:0.82227)n0;

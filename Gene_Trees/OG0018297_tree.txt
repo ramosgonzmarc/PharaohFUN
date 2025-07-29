@@ -1,0 +1,1 @@
+(((ginkgo_biloba_Gb_10604:0,ginkgo_biloba_Gb_10605:0)n2:0.67712,huperzia_asiatica_HaA19G0232:0.00055)n1:0.062875,(oropetium_thomaeum_Oropetium_20150105_27210A:0.71946,(isoetes_sinensis_IsiChr8g2708:0.00055,(isoetes_sinensis_IsiChr2g841:0.24387,isoetes_sinensis_IsiChr19g1722:0.04394)n5:0.00053)n4:0.11747)n3:0.062875)n0;

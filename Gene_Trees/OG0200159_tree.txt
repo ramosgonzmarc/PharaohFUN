@@ -1,0 +1,1 @@
+(dioscorea_alata_Dioal.14G013300:0.417585,(quercus_rubra_Qurub.07G178200:0.41192,(vitis_vinifera_VIT_208s0007g04810:0.21422,(coffea_arabica_Coara.056348:1.02456,(manihot_esculenta_Manes.08G012500:0.36133,populus_trichocarpa_Potri.016G098300:0.33281)n4:0.27701)n3:0.11705)n2:0.09502)n1:0.417585)n0;

@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr6g1209:0.27744,(marsilea_vestita_Mvestita_C1376g22370:1.05827,(taxus_chinensis_KI387_023147:0.17216,(gnetum_montanum_TnS001031591t03:0.11934,sequoia_sempervirens_SESE_113993:0.3658)n3:0.15735)n2:0.29079)n1:0.27744)n0;

@@ -1,0 +1,1 @@
+((bryopsis_sp_Bsp_GMH33574:0.41213,(ostreobium_quekettii_CAD7701132:0.41947,caulerpa_lentillifera_Caule_g2198:0.43419)n2:0.05932)n1:0.482555,(myrmecia_bisecta_Mybis.KAK9810260:0.58644,trebouxia_sp_FRX49_02259:0.48248)n3:0.482555)n0;

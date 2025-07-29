@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S13g01599:0.322015,((glycine_max_Glyma.01G177132:0.01713,(glycine_max_Glyma.07G172100:0.00055,(glycine_max_Glyma.12G160600:0.00055,(glycine_max_Glyma.15G156000:0.00508,glycine_max_Glyma.07G164400:0.00508)n5:0.00055)n4:0.00509)n3:0.2723)n2:0.1861,(trifolium_pratense_Trpra.03701:0.14418,trifolium_pratense_Trpra.31598:0.650214)n6:0.072246)n1:0.18129)n0;

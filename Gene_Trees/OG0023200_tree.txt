@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C2G305800:0.52611,(picea_abies_Pab_128728g0010:0.34814,(alsophila_spinulosa_Aspi01Gene33205:0.11065,(alsophila_spinulosa_Aspi01Gene52373:0,alsophila_spinulosa_Aspi01Gene52375:0)n3:0.10074)n2:0.38854)n1:0.52611)n0;

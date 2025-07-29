@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx11G057700:0,(sphagnum_fallax_Sphfalx11G057100:0,(sphagnum_fallax_Sphfalx11G057600:0,sphagnum_fallax_Sphfalx11G057200:0)n2:0.02618)n1:0)n0;

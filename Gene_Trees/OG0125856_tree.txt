@@ -1,0 +1,1 @@
+((glycine_max_Glyma.05G171466:0.54003,vigna_unguiculata_Vigun03g083500:0.42426)n1:0.14024,(cicer_arietinum_Ca_16329:0.20115,medicago_truncatula_Medtr8g089500:0.43293)n2:0.14024)n0;

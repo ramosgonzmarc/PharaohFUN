@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.043034:0.397275,(lactuca_sativa_Lsat_gn_4_89000:0.7208,(olea_europaea_Oeu058857:0.06607,(olea_europaea_Oeu011954:0.00055,olea_europaea_Oeu011955:0.00054)n3:0.11862)n2:0.01318)n1:0.1505)n0;

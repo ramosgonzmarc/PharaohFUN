@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz01g28230:0.2434,(raphidocelis_subcapitata_Rsub_01303:0.38095,((raphidocelis_subcapitata_Rsub_08296:0.28943,monoraphidium_minutum_Momin.516893:0.39503)n3:0.19285,(monoraphidium_minutum_Momin.521006:0.32646,raphidocelis_subcapitata_Rsub_06871:0.273888)n4:0.030432)n2:0.94318)n1:0.2434)n0;

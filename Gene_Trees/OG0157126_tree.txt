@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin08G204800:0.16762,(panicum_hallii_Pahal.1G311500:0.0616,(setaria_italica_Seita.1G238100:0.35135,setaria_italica_Seita.1G238200:0.161397)n2:0.017933)n1:0.09191)n0;

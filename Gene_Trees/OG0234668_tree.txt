@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g07984:0.250775,(scenedesmus_obliquus_Sobl_g18263:0.4082,(scenedesmus_obliquus_Sobl_g08051:0.81694,scenedesmus_obliquus_Sobl_g02118:0.85226)n2:0.24904)n1:0.250775)n0;

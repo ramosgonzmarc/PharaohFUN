@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.E02845:0.2574,corymbia_citriodora_Cocit.L1473:0.27493)n1:0.20835,(amaranthus_hypochondriacus_AH020775:0.87942,(solanum_lycopersicum_Solyc03g044700:0.09229,(solanum_lycopersicum_Solyc05g014900:0.23475,solanum_lycopersicum_Solyc03g063530:0.10205)n4:0.11772)n3:0.3178)n2:0.20835)n0;

@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00000368:0.215875,((mesostigma_viride1140_Mesvi20668S04111:0.11048,mesostigma_viride296_Mevir.Mv11020:0.00055)n2:0.0651,((mesostigma_viride1140_Mesvi250S04578:0.00054,mesostigma_viride1140_Mesvi260S01126:0.06717)n4:0.03164,mesostigma_viride296_Mevir.Mv11019:1.25915)n3:0.139906)n1:0.215875)n0;

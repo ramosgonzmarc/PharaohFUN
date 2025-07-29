@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0052s0014:0.418815,(picochlorum_soloecismus_NSC_01546:1.13114,(bryopsis_sp_Bsp_GMH44612:0.4404,bryopsis_sp_Bsp_GMH36574:0.398655)n2:0.044295)n1:0.1226)n0;

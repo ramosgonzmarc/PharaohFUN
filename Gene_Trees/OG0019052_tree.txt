@@ -1,0 +1,1 @@
+((nymphaea_colorata_Nycol.G00618:0.13389,salix_purpurea_Sapur.017G059200:0.15348)n1:0.13346,(sequoiadendron_giganteum_SEGI_07777:1.38054,(abies_alba_AALBA5B696117:0.00992,(abies_alba_AALBA5B1027089:0.14784,(abies_alba_AALBA5B046214:0.0324,abies_alba_AALBA5B571749:0.02517)n5:0.06172)n4:0.07353)n3:0.00817)n2:0.00054)n0;

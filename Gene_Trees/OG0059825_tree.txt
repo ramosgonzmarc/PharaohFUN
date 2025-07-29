@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum_Zci_00689:0.328905,(picea_abies_Pab_396911g0010:0.65987,(alsophila_spinulosa_Aspi01Gene56281:0.24832,(adiantum_capillus_Adc21582:0.34287,adiantum_capillus_Adc10380:0.193419)n3:0.021491)n2:0.19771)n1:0.20945)n0;

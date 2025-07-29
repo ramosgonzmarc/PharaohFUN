@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.2AG0127140:0.19238,((triticum_aestivum_TraesCS5B03G0414900:1.01344,triticum_aestivum_TraesCS2B03G0546700:0.98403)n2:0.4271,(brachypodium_distachyon_Bradi1g69460:0.62828,oryza_sativa_Os12g34400:0.56364)n3:0.12421)n1:0.19238)n0;

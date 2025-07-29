@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.25230:0.550485,(zygnema_cylindricum_Zci1a_31722:0.55007,(spirogloea_muscicola_SM000144S00700:0.01095,spirogloea_muscicola_SM000015S01196:0.03799)n2:0.45225)n1:0.550485)n0;

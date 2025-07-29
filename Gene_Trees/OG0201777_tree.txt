@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_213s0047g01090:0.14804,(vigna_unguiculata_Vigun04g095250:0.5931,(prunus_persica_Prupe.3G161800:0.17562,(gossypium_hirsutum_Gohir.D07G000435:0.06109,gossypium_raimondii_Gorai.005G000100:0.00053)n3:0.06343)n2:0.24984)n1:0.14804)n0;

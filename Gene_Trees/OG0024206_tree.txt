@@ -1,0 +1,1 @@
+(picocystis_sp_Picml_g3099:0.48566,(sequoia_sempervirens_SESE_127463:0.55199,(chara_braunii_CBR_g55005:0.07404,(chara_braunii_CBR_g18835:0.38672,chara_braunii_CBR_g18668:0.01734)n3:0.01643)n2:0.26897)n1:0.48566)n0;

@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.28706:0.3749,(oropetium_thomaeum_Oropetium_20150105_16819A:0.45607,(aegilops_tauschii_Atau_XP_045088860:0.02073,(triticum_aestivum_TraesCS2B03G0346600:0.0292,(triticum_aestivum_TraesCS2D03G0260800:0.11729,triticum_aestivum_TraesCS2D03G0262000:0.000495)n4:4.95e-05)n3:5.5e-06)n2:0.01346)n1:0.3749)n0;

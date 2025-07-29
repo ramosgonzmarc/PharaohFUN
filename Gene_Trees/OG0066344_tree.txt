@@ -1,0 +1,1 @@
+((phymatoceros_phymatodes_Phphy.S3G065200:0.47281,(anthoceros_agrestis_AnagrOXF.S5G094700:0.01851,anthoceros_punctatus_Anpun.S3G431500:0.06176)n2:0.08061)n1:0.01314,(anthoceros_fusiformis_Anfus.S1G199400:0.08917,(phaeoceros_carolinianus_Phcar.S2G639400:0.02092,(phaeoceros_sp_Phsp.C4G218000:0.02938,phaeoceros_sp_Phsp.C4G222900:0.01396)n5:0.01549)n4:0.24186)n3:0.01314)n0;

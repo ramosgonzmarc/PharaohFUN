@@ -1,0 +1,1 @@
+(cicer_arietinum_Ca_13447:0.651,(ginkgo_biloba_Gb_39173:0.03811,(ginkgo_biloba_Gb_10765:0.14537,(ginkgo_biloba_Gb_41339:0.09711,ginkgo_biloba_Gb_14494:0.09499)n3:0.03594)n2:0.20657)n1:0.651)n0;

@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g28673:0.425425,(ananas_comosus_Aco010602:0.47229,(sorghum_bicolor_Sobic.008G059300:0.35696,(zea_mays_Zm00001d052365:0.12185,(miscanthus_sinensis_MisinT156700:0.04856,miscanthus_sinensis_MisinT301200:0.04041)n4:0.01316)n3:0.32682)n2:0.57802)n1:0.425425)n0;

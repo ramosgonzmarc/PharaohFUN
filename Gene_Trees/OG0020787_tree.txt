@@ -1,0 +1,1 @@
+((((cymbomonas_tetramitiformis_KAK3249095:0.09591,cymbomonas_tetramitiformis_KAK3258557:0.05375)n3:0.08791,cymbomonas_tetramitiformis_KAK3249094:0.06435)n2:0.04791,cymbomonas_tetramitiformis_KAK3249093:0.17105)n1:0.519235,(mesotaenium_kramstae_Mekra.3165129:0.01051,(mesotaenium_kramstae_Mekra.2619080:0.00555,mesotaenium_kramstae_Mekra.2273115:0.06708)n5:0.0093)n4:0.519235)n0;

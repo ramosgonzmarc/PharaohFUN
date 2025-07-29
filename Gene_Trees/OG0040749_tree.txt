@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS6D03G0409200:0.07041,(zea_mays_GRMZM5G850100:0.00405,(setaria_italica_Seita.J011000:0.06468,(sorghum_bicolor_Sobic.K031900:0.00055,panicum_hallii_Pahal.4G164900:0.04699)n3:0.00053)n2:0.11377)n1:0.07041)n0;

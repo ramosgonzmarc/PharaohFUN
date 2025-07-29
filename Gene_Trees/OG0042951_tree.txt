@@ -1,0 +1,1 @@
+((sorghum_bicolor_Sobic.K030200:0.0515,sorghum_bicolor_Sobic.005G203200:0.00055)n1:0.31029,(setaria_italica_Seita.8G217300:0.50894,(setaria_italica_Seita.8G217000:0.02547,setaria_italica_Seita.8G217400:0.05775)n3:0.6862)n2:0.31029)n0;

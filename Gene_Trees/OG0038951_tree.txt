@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG007386:0.24096,((prunus_persica_Prupe.8G068800:0.10617,prunus_persica_Prupe.8G069600:0.12119)n2:0.02536,(malus_domestica_MD11G1279500:0.06821,malus_domestica_MD11G1279600:0.09204)n3:0.11175)n1:0.24096)n0;

@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B1034319:0.12162,picea_abies_Pab_9768039g0010:0.49463)n1:0.250115,(miscanthus_sinensis_Misin12G260900:0.17839,(brachypodium_distachyon_Bradi5g25021:0.49258,setaria_italica_Seita.3G026700:0.32502)n3:0.19074)n2:0.250115)n0;

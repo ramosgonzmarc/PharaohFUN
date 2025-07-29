@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag07G004800:0.186385,(bryopsis_sp_Bsp_BEI31737:0.31388,(bathycoccus_prasinos_rna7869:0.10495,chloropicon_primus_Chlpr_g3535:0.50236)n2:0.14093)n1:0.186385)n0;

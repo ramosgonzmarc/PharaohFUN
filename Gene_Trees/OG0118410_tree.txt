@@ -1,0 +1,1 @@
+((triticum_aestivum_TraesCS3B03G0716800:0.42285,(chenopodium_quinoa_AUR62003257:0.29531,phaseolus_acutifolius_Phacu.002G291500:0.31103)n2:0.11683)n1:0.250685,(ginkgo_biloba_Gb_30090:0.15599,(picea_abies_Pab_8451g0010:0.27381,(picea_abies_Pab_449966g0010:0.43479,picea_abies_Pab_192667g0010:0.321885)n5:0.0321885)n4:0.0035765)n3:0.09458)n0;

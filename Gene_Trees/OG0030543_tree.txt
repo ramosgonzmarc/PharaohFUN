@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_003162:0.49564,(((cucumis_sativus_Cucsa.c079670g01:0.5186,sequoia_sempervirens_SESE_072347:0.97401)n3:0.15086,(sisymbrium_irio_Siiris1838g00060:0.55513,sisymbrium_irio_Siiris2663g00020:0.420192)n4:0.046688)n2:0.26871,(alsophila_spinulosa_Aspi01Gene47678:0.54429,alsophila_spinulosa_Aspi01Gene62662:0.04902)n5:0.28965)n1:0.49564)n0;

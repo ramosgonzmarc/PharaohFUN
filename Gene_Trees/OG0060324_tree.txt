@@ -1,0 +1,1 @@
+((riccia_sorocarpa_Risor.KAL3686773:0.95328,(chenopodium_quinoa_AUR62027377:0.42363,chenopodium_quinoa_AUR62035402:1.04106)n2:0.115673)n1:0.013545,(theobroma_cacao_Thecc1EG040338:0.70801,((alsophila_spinulosa_Aspi01Gene68328:0.18557,phymatoceros_phymatodes_Phphy.S1G281000:0.42517)n5:0.19372,sequoia_sempervirens_SESE_057655:1.03464)n4:0.11918)n3:0.13016)n0;

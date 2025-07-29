@@ -1,0 +1,1 @@
+((boechera_stricta_Bostr.19424s0960:0.39122,boechera_stricta_Bostr.19424s0972:0.16779)n1:0.67406,(capsella_grandiflora_Cagra.0686s0003:0.32082,capsella_grandiflora_Cagra.0210s0013:0.30747)n2:0.67406)n0;

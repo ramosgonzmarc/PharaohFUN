@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g18762:0.26898,(chlorokybus_atmophyticus_Chrsp369S05407:0.78479,(mesostigma_viride1140_Mesvi1111S01774:0.11672,mesostigma_viride296_Mevir.Mv20684:0.02872)n2:0.49981)n1:0.26898)n0;

@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AnagrOXF.S5G179900:0.288695,(eucalyptus_grandis_Eucgr.E00987:0.23424,(carica_papaya_Capac.c00017g036:0.46607,gossypium_raimondii_Gorai.007G005100:0.15956)n2:0.15342)n1:0.288695)n0;

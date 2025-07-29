@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_39672:0.06561,(marchantia_paleacea_Mapa_013452:0.05827,marchantia_paleacea_Mapa_018677:0.173835)n2:0.019315)n1:0.000275,glycine_max_Glyma.19G061800:1.18722)n0;

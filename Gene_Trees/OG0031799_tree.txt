@@ -1,0 +1,1 @@
+((apatococcus_lobatus_Aplob.KAK9825331:0.64581,huperzia_asiatica_HaScaf1800:1.14309)n1:0.05497,((mesotaenium_endlicherianum_ME000058S08619:0.26854,mesotaenium_kramstae_Mekra.2538066:0.28062)n3:0.16917,(asterochloris_glomerata_Astgl_g6418:0.38159,trebouxia_sp_FRX49_09778:0.43786)n4:0.11244)n2:0.05497)n0;

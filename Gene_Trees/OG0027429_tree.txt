@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_03711:0.188275,(phymatoceros_phymatodes_Phphy.S2G616700:0.58901,(riccia_sorocarpa_Risor.KAL3692896:0.16107,(riccia_fluitans_R1flu_006411:0.08523,riccia_fluitans_R1flu_012768:0.0438)n3:0.22623)n2:0.61463)n1:0.188275)n0;

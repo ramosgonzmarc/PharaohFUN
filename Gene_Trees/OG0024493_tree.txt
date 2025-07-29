@@ -1,0 +1,1 @@
+(((manihot_esculenta_Manes.03G026100:0,manihot_esculenta_Manes.03G026200:0)n2:0.44407,miscanthus_sinensis_MisinT044600:0.5985)n1:0.22985,(chlorokybus_atmophyticus_Chrsp32S04988:0.10374,(chlorokybus_atmophyticus_Chrsp13S02156:1.48245,chlorokybus_atmophyticus_Chrsp32S04936:0.13198)n4:0.03584)n3:0.22985)n0;

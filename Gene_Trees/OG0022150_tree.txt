@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH41303:0.76614,(tetraselmis_striata_TSEL_021685:0.00486,(tetraselmis_striata_TSEL_022909:0.01241,(tetraselmis_striata_TSEL_016404:0.01058,tetraselmis_striata_TSEL_003980:0.54703)n3:0.00052)n2:0.00054)n1:0.76614)n0;

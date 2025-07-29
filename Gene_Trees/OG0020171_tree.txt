@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g31760:0.313325,((diphasiastrum_complanatum_Dicom.14G027700:0.63326,(huperzia_asiatica_HaA02G0369:0.45463,(huperzia_asiatica_HaA02G0370:0.1473,huperzia_asiatica_HaB02G0437:0.04751)n4:0.166419)n3:0.018491)n2:1.02161,(isoetes_sinensis_IsiChr15g4504:0.00055,isoetes_sinensis_IsiChr16g4254:0.00412)n5:0.56323)n1:0.313325)n0;

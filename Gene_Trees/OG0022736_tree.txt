@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.11G060800:0.81091,(abies_alba_AALBA5B851645:0.11046,(abies_alba_AALBA5B798730:0.19591,abies_alba_AALBA5B540140:0.00054)n2:0.00055)n1:0.81091)n0;

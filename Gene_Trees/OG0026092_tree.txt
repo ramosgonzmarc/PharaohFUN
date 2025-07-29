@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C5G160300:0.0807,(marsilea_vestita_Mvestita_S18g14562:0.71347,(picea_abies_Pab_8711945g0010:1.04511,(isoetes_sinensis_IsiChr5g1742:0.37569,(isoetes_sinensis_IsiChr9g402:0.00165,isoetes_sinensis_IsiChr10g53:0.00271)n4:0.30113)n3:0.13803)n2:0.11197)n1:0.0807)n0;

@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_007522:0.544925,(mesostigma_viride296_Mevir.Mv00853:1.19487,(mesotaenium_endlicherianum_ME000034S06093:0.31021,(mesotaenium_kramstae_Mekra.0275230:0.2648,(zygnema_cylindricum_Zci1a_40196:0.21255,(zygnema_circumcarinatum_Zci_00045:0.00054,zygnema_circumcarinatum1559_ZcUTEX1559_02142:0.00055)n5:0.17649)n4:0.2613)n3:0.27584)n2:0.29436)n1:0.544925)n0;

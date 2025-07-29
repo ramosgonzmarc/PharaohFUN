@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g4385:0.503865,(tetraselmis_striata_TSEL_004411:0.43699,(tetraselmis_striata_TSEL_022845:0.00751,tetraselmis_striata_TSEL_031973:0.00054)n2:0.53692)n1:0.503865)n0;

@@ -1,0 +1,1 @@
+(picochlorum_soloecismus_NSC_06482:0.46144,((chlorella_sorokiniana_Chlso_g3535:0.56823,chlorella_sorokiniana_Chlso_g3538:0.03181)n2:1.21802,(chlorella_sorokiniana_Chlso_g2984:0.2959,chlorella_sorokiniana_Chlso_g8722:0.39804)n3:0.08435)n1:0.46144)n0;

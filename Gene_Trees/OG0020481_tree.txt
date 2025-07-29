@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM000031S11551:0.00524,spirogloea_muscicola_SM000014S00385:0.03405)n1:0.476165,(bryopsis_sp_Bsp_GMH35305:0.85348,(cymbomonas_tetramitiformis_KAK3245314:0.68192,(chromochloris_zofingiensis_Cz10g08030:0.38815,(desmodesmus_armatus_Desar.381314:0.29496,scenedesmus_obliquus_Sobl_g24567:0.18611)n5:0.34507)n4:0.12546)n3:0.19533)n2:0.476165)n0;

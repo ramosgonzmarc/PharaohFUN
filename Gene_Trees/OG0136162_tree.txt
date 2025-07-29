@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaB40G0186:0.363915,((malus_domestica_MD11G1092300:0.11747,(lactuca_sativa_Lsat_gn_9_59541:0.47516,miscanthus_sinensis_Misin06G336900:0.16603)n3:0.07088)n2:0.08197,(sequoia_sempervirens_SESE_088958:0.50584,(gnetum_montanum_TnS000041023t01:0.64437,gnetum_montanum_TnS000423555t09:0.67487)n5:0.02513)n4:0.04289)n1:0.363915)n0;

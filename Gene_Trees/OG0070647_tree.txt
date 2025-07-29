@@ -1,0 +1,1 @@
+(brassica_rapa_Brara.G03710:0.450055,(arabidopsis_thaliana_AT3G11160:0.51463,(boechera_stricta_Bostr.19424s1050:0.24004,(arabidopsis_lyrata_Arlyr.AL3G22680:0.3987,capsella_grandiflora_Cagra.1655s0055:0.13442)n3:0.1676)n2:0.17798)n1:0.450055)n0;

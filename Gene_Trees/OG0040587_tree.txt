@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol013288:0.55649,fragaria_vesca_FvH4_1g22321:0.55895)n1:0.26913,((setaria_italica_Seita.3G193200:0.06986,(panicum_hallii_Pahal.4G157800:0.07076,panicum_hallii_Pahal.3G229800:0.103878)n4:0.011542)n3:0.0441,(miscanthus_sinensis_Misin11G221300:0.00593,miscanthus_sinensis_Misin12G199600:0.15496)n5:0.0941)n2:0.01915)n0;

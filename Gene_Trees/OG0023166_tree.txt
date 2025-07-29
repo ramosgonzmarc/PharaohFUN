@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_086559:0.325345,(alsophila_spinulosa_Aspi01Gene69594:0.07434,(alsophila_spinulosa_Aspi01Gene25618:0.05969,alsophila_spinulosa_Aspi01Gene25617:0.02983)n2:0.01912)n1:0.325345)n0;

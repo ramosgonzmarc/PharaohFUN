@@ -1,0 +1,1 @@
+((desmodesmus_armatus_Desar.411636:0.33651,(desmodesmus_armatus_Desar.381104:0.03048,desmodesmus_armatus_Desar.411632:0.54003)n2:0.86357)n1:0.198295,(monoraphidium_minutum_Momin.456420:0.87995,monoraphidium_minutum_Momin.502233:0.24289)n3:0.198295)n0;

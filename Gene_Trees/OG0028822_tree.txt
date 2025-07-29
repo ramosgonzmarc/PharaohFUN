@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g5903:0.455405,(ginkgo_biloba_Gb_02886:0.39189,(abies_alba_AALBA5B1056953:0.19902,picea_abies_Pab_8297468g0010:0.15723)n2:0.36716)n1:0.455405)n0;

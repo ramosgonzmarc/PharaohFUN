@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_2g01090:0.30421,prunus_persica_Prupe.8G048400:0.5902)n1:0.568335,(populus_trichocarpa_Potri.011G165300:0.12008,salix_purpurea_Sapur.011G122200:0.10947)n2:0.568335)n0;

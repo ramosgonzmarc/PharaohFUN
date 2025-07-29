@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.0556s0483:0.09947,(capsella_grandiflora_Cagra.4627s0002:0.07293,(arabidopsis_thaliana_AT3G28190:0.03968,arabidopsis_lyrata_Arlyr.AL5G17680:0.05746)n2:0.12901)n1:0.09947)n0;

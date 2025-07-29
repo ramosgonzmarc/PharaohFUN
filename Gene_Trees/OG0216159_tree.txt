@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_624380:1.10228,(coffea_arabica_Coara.062069:0.05547,coffea_arabica_Coara.065498:0.00055)n2:0.97674)n1:0.15287,(saponaria_officinalis_Sapof.13G208600:0.32304,(amaranthus_hypochondriacus_AH005674:0.13977,amaranthus_hypochondriacus_AH003681:0.37962)n4:0.25543)n3:0.15287)n0;

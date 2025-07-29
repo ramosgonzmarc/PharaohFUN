@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9808738:0.55785,((desmodesmus_armatus_Desar.505973:0.43011,scenedesmus_obliquus_Sobl_g18124:0.24271)n2:0.07853,(chromochloris_zofingiensis_Cz02g16040:0.65252,(raphidocelis_subcapitata_Rsub_12483:0.23324,monoraphidium_minutum_Momin.523843:0.16113)n4:0.24458)n3:0.24636)n1:0.55785)n0;

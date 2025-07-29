@@ -1,0 +1,1 @@
+((brassica_rapa_Brara.I04300:1.42318,ananas_comosus_Aco003182:1.55561)n1:0.014725,((chlamydomonas_reinhardtii_Cre01.g022400_4532:0.5962,tetrabaena_socialis_Tesoc.PNH03722:0.40236)n3:0.07833,(gonium_pectorale_Gopec.03682:0.26796,volvox_carteri_Vocar.0007s0284:0.4555)n4:0.10404)n2:0.014725)n0;

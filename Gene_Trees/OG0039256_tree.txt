@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv02507:0.580885,(marchantia_polymorpha_Mp7g07230:0.64382,(sphagnum_magellanicum_Sphmag01G177200:0.04671,(sphagnum_fallax_Sphfalx15G069500:0.22813,(sphagnum_fallax_Sphfalx01G127000:0.12788,sphagnum_fallax_Sphfalx16G054400:0.097245)n4:0.0097245)n3:0.0010805)n2:0.01737)n1:0.580885)n0;

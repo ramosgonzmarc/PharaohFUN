@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.B2151:0.153945,(poncirus_trifoliata_Ptrif.0008s1968:0.3184,(gossypium_hirsutum_Gohir.A05G104700:0.10222,theobroma_cacao_Thecc1EG042084:0.17125)n2:0.21444)n1:0.153945)n0;

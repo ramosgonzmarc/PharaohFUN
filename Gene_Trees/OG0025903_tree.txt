@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF48562:0.42341,porphyra_umbilicalis_Pum0142s0005:0.63984)n1:0.390825,(mesostigma_viride1140_Mesvi1151S01906:0.02178,mesostigma_viride296_Mevir.Mv16373:0.02107)n2:0.390825)n0;

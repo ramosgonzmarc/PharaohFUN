@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3266477:0.88778,tetraselmis_striata_TSEL_006858:0.59531)n1:0.380485,(sequoiadendron_giganteum_SEGI_37515:0.59295,(selaginella_moellendorffii_Smoe_124927:0.04077,selaginella_moellendorffii_Smoe_30946:0.03616)n3:0.58335)n2:0.380485)n0;

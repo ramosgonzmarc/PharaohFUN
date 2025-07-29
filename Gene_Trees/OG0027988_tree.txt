@@ -1,0 +1,1 @@
+((sequoia_sempervirens_SESE_060967:0.51668,sequoia_sempervirens_SESE_123634:0.61049)n1:0.02542,(taxus_chinensis_KI387_030432:0.00054,(taxus_chinensis_KI387_044667:0.09485,taxus_chinensis_KI387_028061:0.03696)n3:0.03497)n2:0.02542)n0;

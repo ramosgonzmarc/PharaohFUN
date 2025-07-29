@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_UNPLg00324:1.05499,(dunaliella_salina_Dusal.0580s00002:0.57321,haematococcus_lacustris_QJQ45_024317:0.69808)n2:0.61397)n1:0.07661,(desmodesmus_armatus_Desar.436404:0.94737,(gonium_pectorale_Gopec.06340:0.93374,(raphidocelis_subcapitata_Rsub_06573:0.49138,monoraphidium_minutum_Momin.456188:0.42134)n5:0.21956)n4:0.16069)n3:0.07661)n0;

@@ -1,0 +1,1 @@
+(paraphymatoceros_pearsonii_Papea.S2G598000:0.460525,((alsophila_spinulosa_Aspi01Gene33874:0.09636,alsophila_spinulosa_Aspi01Gene33876:0.00055)n2:0.30845,(adiantum_capillus_Adc31972:0.46249,adiantum_capillus_Adc31973:0.84528)n3:0.09392)n1:0.19848)n0;

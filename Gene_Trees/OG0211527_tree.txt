@@ -1,0 +1,1 @@
+(vigna_unguiculata_Vigun07g046700:0.16448,(phaseolus_acutifolius_Phacu.007G283800:0.34663,(phaseolus_acutifolius_Phacu.007G287500:0.07564,phaseolus_acutifolius_Phacu.007G287400:0.03359)n2:0.20265)n1:0.16448)n0;

@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B529356:0.23278,((aquilegia_coerulea_Aqcoe6G279900:0.00054,asparagus_officinalis_AsparagusV1_02.545:0.9066)n2:0.87787,(medicago_truncatula_Medtr6g079610:0.71421,(glycine_max_Glyma.02G118132:0.00579,(glycine_max_Glyma.02G130832:0.00054,(glycine_max_Glyma.02G130880:0,glycine_max_Glyma.02G117816:0)n6:0.00467)n5:0.0031)n4:0.16868)n3:0.15031)n1:0.23278)n0;

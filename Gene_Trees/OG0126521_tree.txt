@@ -1,0 +1,1 @@
+((populus_trichocarpa_Potri.001G137100:0.00054,salix_purpurea_Sapur.001G112900:0.1603)n1:0.45275,(glycine_max_Glyma.19G067600:0.10578,(medicago_truncatula_Medtr6g026830:0.12746,(trifolium_pratense_Trpra.35087:0.15647,trifolium_pratense_Trpra.35091:0.04664)n4:0.10436)n3:0.14193)n2:0.45275)n0;

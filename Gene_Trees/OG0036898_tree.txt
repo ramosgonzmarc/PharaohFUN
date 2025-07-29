@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr8g012155:0.469255,(phaseolus_acutifolius_Phacu.010G015800:0.34275,(glycine_max_Glyma.08G349300:0.71025,glycine_max_Glyma.16G090800:0.354564)n2:0.039396)n1:0.10234)n0;

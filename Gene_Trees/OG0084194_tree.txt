@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g2877:0.61486,(gossypium_hirsutum_Gohir.D10G160100:0.30037,(carica_papaya_Capac.c02204g001:0.0802,(asparagus_officinalis_AsparagusV1_05.660:0.19509,(musa_acuminata_Muacu.2P14400_001:0.05687,musa_acuminata_Muacu.2P14470_001:0.03201)n4:0.14095)n3:0.07022)n2:0.19382)n1:0.61486)n0;

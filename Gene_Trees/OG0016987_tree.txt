@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_10896:0.49669,(welwitschia_mirabilis_Wmi_14250:0.43674,(picea_abies_Pab_2194842g0010:0.24578,((abies_alba_AALBA5B853436:0.02242,abies_alba_AALBA5B974934:0.12306)n4:0.65593,(abies_alba_AALBA5B180390:0.05314,abies_alba_AALBA5B896909:0.32887)n5:0.28361)n3:0.10327)n2:0.20559)n1:0.49669)n0;

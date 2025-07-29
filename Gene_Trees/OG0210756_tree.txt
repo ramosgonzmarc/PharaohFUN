@@ -1,0 +1,1 @@
+((carya_illinoinensis_Caril.15G145300:0.32546,carya_illinoinensis_Caril.16G107400:0.53737)n1:0.383195,((salix_purpurea_Sapur.018G077600:0.42438,populus_trichocarpa_Potri.018G101800:0.08496)n3:0.05515,(salix_purpurea_Sapur.006G143300:0.4898,populus_trichocarpa_Potri.006G179001:0.129105)n4:0.014345)n2:0.383195)n0;

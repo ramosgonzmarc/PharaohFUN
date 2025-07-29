@@ -1,0 +1,1 @@
+((myrmecia_bisecta_Mybis.KAK9814379:0.68188,trebouxia_sp_FRX49_09633:0.6984)n1:0.06426,(picochlorum_soloecismus_NSC_02049:1.01474,(chlorella_sorokiniana_Chlso_g8895:0.2287,auxenochlorella_protothecoides_APUTEX2500003391:0.51414)n3:0.25483)n2:0.06426)n0;

@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g361:0.60553,(takakia_lepidozioides_Tle1c00324:0.33397,(sequoia_sempervirens_SESE_148562:0.06374,sequoia_sempervirens_SESE_131191:0.06553)n2:0.46518)n1:0.60553)n0;

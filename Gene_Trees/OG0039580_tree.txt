@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc04299:0.309725,(haematococcus_lacustris_QJQ45_027799:0.42292,(micromonas_pusilla_Mpus_51945:0.83883,micromonas_pusilla_Mpus_54330:0.278019)n2:0.030891)n1:0.13393)n0;

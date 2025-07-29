@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.065119:0.23927,((solanum_lycopersicum_Solyc04g014350:0.06318,solanum_lycopersicum_Solyc04g014300:0.21526)n2:0.07393,(solanum_lycopersicum_Solyc01g068520:0.17667,(solanum_lycopersicum_Solyc04g014310:0.20424,solanum_lycopersicum_Solyc04g014340:0.13664)n4:0.04812)n3:0.02584)n1:0.23927)n0;

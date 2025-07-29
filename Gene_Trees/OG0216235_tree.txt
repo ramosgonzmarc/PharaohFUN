@@ -1,0 +1,1 @@
+(((amaranthus_hypochondriacus_AH015575:0,amaranthus_hypochondriacus_AH003438:0)n2:0.00055,amaranthus_hypochondriacus_AH015499:0.0287)n1:0.158315,(daucus_carota_DCAR_100037:0.02248,daucus_carota_DCAR_933879:0.00367)n3:0.158315)n0;

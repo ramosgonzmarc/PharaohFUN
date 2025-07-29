@@ -1,0 +1,1 @@
+((ananas_comosus_Aco029721:0,ananas_comosus_Aco019162:0)n1:0.662365,((cycas_panzhihuaensis_CYCAS_019576:0.00055,((cycas_panzhihuaensis_CYCAS_019199:0,cycas_panzhihuaensis_CYCAS_032356:0)n5:0.00055,cycas_panzhihuaensis_CYCAS_032245:0.18216)n4:0.415)n3:0.40277,(cycas_panzhihuaensis_CYCAS_019563:0.00055,cycas_panzhihuaensis_CYCAS_019578:0.41158)n6:0.13661)n2:0.662365)n0;

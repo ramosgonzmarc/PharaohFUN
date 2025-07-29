@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv13767:0.38081,(ulva_mutabilis_UM002_0095:0.55731,(chlorella_sorokiniana_Chlso_g2428:0.77705,(picochlorum_soloecismus_NSC_01792:0.74653,(picochlorum_soloecismus_NSC_03276:0.75027,(picochlorum_soloecismus_NSC_01920:0.37491,picochlorum_soloecismus_NSC_00531:0.44734)n5:0.315675)n4:0.0315675)n3:0.0035075)n2:0.19281)n1:0.30982)n0;

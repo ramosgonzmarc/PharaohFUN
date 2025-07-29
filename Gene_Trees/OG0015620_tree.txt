@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_36854:0.450835,(alsophila_spinulosa_Aspi01Gene64354:0.00054,((alsophila_spinulosa_Aspi01Gene25188:0,alsophila_spinulosa_Aspi01Gene25189:0)n3:0.00055,(alsophila_spinulosa_Aspi01Gene04093:0.03307,(alsophila_spinulosa_Aspi01Gene06303:0.30063,alsophila_spinulosa_Aspi01Gene05869:0.99771)n5:0.15668)n4:0.14231)n2:0.0154)n1:0.450835)n0;

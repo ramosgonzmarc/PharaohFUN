@@ -1,0 +1,1 @@
+(capsella_grandiflora_Cagra.5478s0002:0.21423,(arabidopsis_thaliana_AT1G36230:0.38253,(arabidopsis_lyrata_Arlyr.AL4G19890:0.65537,arabidopsis_lyrata_Arlyr.AL3G21260:0.143244)n2:0.015916)n1:0.24724)n0;

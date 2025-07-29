@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_01713300:0.60492,cinnamomum_kanehirae_CKAN_01009600:0.28029)n1:0.56576,(carya_illinoinensis_Caril.01G112300:0.04352,carya_illinoinensis_Caril.01G112500:0.00054)n2:0.56576)n0;

@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_29093:0.4261,(isoetes_sinensis_IsiChr6g2365:0.00054,(isoetes_sinensis_IsiChr15g1215:0.00055,isoetes_sinensis_IsiChr16g1159:0.01268)n2:0.17682)n1:0.4261)n0;

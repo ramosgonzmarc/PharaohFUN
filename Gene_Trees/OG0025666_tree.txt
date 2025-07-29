@@ -1,0 +1,1 @@
+(((picea_abies_Pab_10436583g0030:0.5117,picea_abies_Pab_6842g0010:0.36409)n2:0.2714,(taxus_chinensis_KI387_009569:0.00058,corylus_avellana_Corav.g2312:0.3287)n3:0.17444)n1:0.04495,(ginkgo_biloba_Gb_04860:0.62938,(malus_domestica_MD05G1077900:0.87489,corymbia_citriodora_Cocit.G1012:0.11023)n5:0.34166)n4:0.04495)n0;

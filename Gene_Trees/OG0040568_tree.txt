@@ -1,0 +1,1 @@
+((eleusine_coracana_Elcor.5BG0442960:0.02983,eleusine_coracana_Elcor.5AG0394710:0.10113)n1:0.29811,(panicum_hallii_Pahal.3G468500:0.12904,(zea_mays_Zm00001d041544:0.11373,(sorghum_bicolor_Sobic.008G136400:0.03991,(miscanthus_sinensis_Misin14G110100:0.03007,miscanthus_sinensis_Misin15G144000:0.03837)n5:0.0139)n4:0.03155)n3:0.21849)n2:0.29811)n0;

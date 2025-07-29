@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.3088244:0.23305,(lens_culinaris_Lecul.2g006670:0.5666,(alsophila_spinulosa_Aspi01Gene30936:0.17127,(lactuca_sativa_Lsat_gn_7_48881:0.27737,lactuca_sativa_Lsat_gn_4_128701:0.50425)n3:0.38473)n2:0.0407)n1:0.23305)n0;

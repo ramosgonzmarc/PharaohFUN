@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr1g894:0.39666,isoetes_sinensis_IsiChr5g2670:0.10035)n1:0.58509,(abies_alba_AALBA5B031304:0.00055,(abies_alba_AALBA5B277883:0.17215,(abies_alba_AALBA5B014551:0.24892,abies_alba_AALBA5B552089:0.04954)n4:0.02031)n3:0.01414)n2:0.58509)n0;

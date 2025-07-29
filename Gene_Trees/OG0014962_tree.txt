@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF41901:0.05816,(gracilariopsis_chorda_PXF41902:0.22046,(gracilariopsis_chorda_PXF42824:0.5273,(gracilariopsis_chorda_PXF46061:0.27317,(gracilariopsis_chorda_PXF49497:0.55213,(gracilariopsis_chorda_PXF42690:0.41332,gracilariopsis_chorda_PXF49498:0.68203)n5:0.09534)n4:1.12308)n3:0.11152)n2:0.05127)n1:0.05816)n0;

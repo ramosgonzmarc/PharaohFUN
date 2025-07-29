@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.11G091374:0.51736,((chenopodium_quinoa_AUR62038664:1.62431,(solanum_lycopersicum_Solyc08g045730:1.02284,solanum_tuberosum_Soltu.07G010870:0.61032)n3:0.44846)n2:0.21051,((solanum_lycopersicum_Solyc01g016980:0.87542,solanum_lycopersicum_Solyc01g056950:0.59355)n5:0.17126,solanum_tuberosum_Soltu.08G020400:0.608418)n4:0.067602)n1:0.51736)n0;

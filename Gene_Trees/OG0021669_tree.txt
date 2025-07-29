@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g05744:0.69663,(((ostreobium_quekettii_CAD7701873:0.04413,(ostreobium_quekettii_CAD7700641:0.00175,ostreobium_quekettii_CAD7701872:0.00054)n4:0.05551)n3:0.65553,(bryopsis_sp_Bsp_GMH44655:0.90713,bryopsis_sp_Bsp_GMH35206:0.567621)n5:0.063069)n2:0.19865,(bryopsis_sp_Bsp_GMH33653:0.84569,ostreobium_quekettii_CAD7705432:0.674523)n6:0.074947)n1:0.69663)n0;

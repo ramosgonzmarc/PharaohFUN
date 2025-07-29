@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_015887:0.64877,ulva_mutabilis_UM002_0212:1.00016)n1:0.225485,(gracilariopsis_chorda_PXF42967:0.01239,gracilariopsis_chorda_PXF40292:0.00357)n2:0.225485)n0;

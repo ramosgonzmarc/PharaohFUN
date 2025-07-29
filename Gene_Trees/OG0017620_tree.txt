@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_040215:1.09554,(bathycoccus_prasinos_XM_007514993:0.65384,cymbomonas_tetramitiformis_KAK3246035:0.5375)n2:0.24629)n1:0.186625,(cymbomonas_tetramitiformis_KAK3284564:0.58908,tetraselmis_striata_TSEL_044222:0.44711)n3:0.186625)n0;

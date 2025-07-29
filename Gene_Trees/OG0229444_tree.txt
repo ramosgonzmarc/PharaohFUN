@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S2G358900:0.68582,((notothylas_orbicularis_Noorb.S3G212200:0.48093,notothylas_orbicularis_Noorb.S5G089800:0.40759)n2:0.12485,(notothylas_orbicularis_Noorb.S5G060800:0.18407,(notothylas_orbicularis_Noorb.S1G343500:0.33667,notothylas_orbicularis_Noorb.S5G096600:0.50376)n4:0.29234)n3:0.10246)n1:0.68582)n0;

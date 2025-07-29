@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_033595:0.33968,(klebsormidium_nitens_kfl00583_0060:0.47384,klebsormidium_nitens_kfl00610_0060:0.280368)n2:0.031152)n1:0.094155,(apatococcus_lobatus_Aplob.KAK9816110:0.40606,trebouxia_sp_FRX49_03284:1.12404)n3:0.19709)n0;

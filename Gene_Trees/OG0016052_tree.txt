@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz06g30130:0.563925,(chlorella_sorokiniana_Chlso_g2518:0.2056,(chlorella_sorokiniana_Chlso_g2517:0.44088,(chlorella_sorokiniana_Chlso_g9964:0.82674,(chlorella_sorokiniana_Chlso_g8305:0.00055,chlorella_sorokiniana_Chlso_g8306:0.01502)n4:0.91572)n3:0.30542)n2:0.14456)n1:0.563925)n0;

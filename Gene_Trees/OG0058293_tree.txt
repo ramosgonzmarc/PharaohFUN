@@ -1,0 +1,1 @@
+((phaeoceros_carolinianus_Phcar.C5G000300:0,phaeoceros_carolinianus_Phcar.S4G000800:0)n1:0.07375,(lens_culinaris_Lecul.7g069090:0.96217,(alsophila_spinulosa_Aspi01Gene19873:0.13429,medicago_truncatula_Medtr2g074910:0.63695)n3:0.2778)n2:0.07375)n0;

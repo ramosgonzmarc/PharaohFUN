@@ -1,0 +1,1 @@
+(mesostigma_viride1140_Mesvi26S04782:0.35503,((aegilops_tauschii_Atau_XP_045084264:0.46252,glycine_max_Glyma.07G137400:0.09138)n2:0.22256,(vitis_vinifera_VIT_207s0289g00100:0.31452,(isoetes_sinensis_IsiChr12g2658:0.0345,isoetes_sinensis_IsiChr3g3963:0.40587)n4:0.13039)n3:0.16367)n1:0.35503)n0;

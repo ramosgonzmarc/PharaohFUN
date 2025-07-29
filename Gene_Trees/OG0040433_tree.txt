@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_013005:0.489745,(ostreobium_quekettii_CAD7702898:0.48116,(bryopsis_sp_Bsp_GMH38402:0.53034,caulerpa_lentillifera_Caule_g9291:0.90831)n2:0.84293)n1:0.489745)n0;

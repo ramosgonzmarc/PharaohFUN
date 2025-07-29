@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp23S03833:0.528835,(tetraselmis_striata_TSEL_000399:0.61144,(chlorella_sorokiniana_Chlso_g3733:0.53118,myrmecia_bisecta_Mybis.KAK9817246:0.59323)n2:0.18331)n1:0.528835)n0;

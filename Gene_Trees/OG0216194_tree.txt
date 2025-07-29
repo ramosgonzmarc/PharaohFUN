@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_103367:0.065555,((daucus_carota_DCAR_103373:0.09645,daucus_carota_DCAR_103372:0.00581)n2:0.03676,((daucus_carota_DCAR_729539:1.26931,daucus_carota_DCAR_103371:0.00054)n4:0.04945,daucus_carota_DCAR_103370:0.0418)n3:0.02181)n1:0.065555)n0;

@@ -1,0 +1,1 @@
+((auxenochlorella_protothecoides_APUTEX2500002301:0.83045,(elliptochloris_bilobata_Elbil.KAK9845752:0.77274,myrmecia_bisecta_Mybis.KAK9830098:0.62173)n2:0.15876)n1:0.08491,(chlorella_sorokiniana_Chlso_g7346:0.42134,coccomyxa_subellipsoidea_Cosub_58709:0.66868)n3:0.08491)n0;

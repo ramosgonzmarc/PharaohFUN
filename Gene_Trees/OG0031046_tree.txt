@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S1G272700:0.23182,((anthoceros_agrestis_AnagrOXF.S1G199200:0.00055,anthoceros_fusiformis_Anfus.S4G092600:1.65113)n2:0.06475,(anthoceros_agrestis_AnagrOXF.S5G126800:0.02881,anthoceros_fusiformis_Anfus.S1G213900:0.431127)n3:0.047903)n1:0.23182)n0;

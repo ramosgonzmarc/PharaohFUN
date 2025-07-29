@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3250742:0.2931,((takakia_lepidozioides_Tle1c05808:0.10472,takakia_lepidozioides_Tle4c05148:0.04825)n2:0.53717,(notothylas_orbicularis_Noorb.S2G122000:0.84178,notothylas_orbicularis_Noorb.S3G190400:0.53715)n3:0.24773)n1:0.2931)n0;

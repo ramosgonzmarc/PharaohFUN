@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS5D03G0446600:0.654135,(diphasiastrum_complanatum_Dicom.22G032600:0.14721,(huperzia_asiatica_HaA62G0073:0.01827,huperzia_asiatica_HaB62G0438:0.01029)n2:0.18117)n1:0.654135)n0;

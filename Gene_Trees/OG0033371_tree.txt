@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00005950:0.284365,(chloropicon_primus_Chlpr_g5391:0.60749,(picocystis_sp_Picml_g189:0.00055,picocystis_sp_Picml_g2854:0.00055)n2:0.42151)n1:0.284365)n0;

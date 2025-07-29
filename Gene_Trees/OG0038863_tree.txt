@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g17283:0.463735,(fragaria_vesca_FvH4_3g39581:0.35963,(malus_domestica_MD02G1252500:0.00054,malus_domestica_MD02G1250700:0.37782)n2:0.79923)n1:0.463735)n0;

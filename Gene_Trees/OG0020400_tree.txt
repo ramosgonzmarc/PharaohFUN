@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp26S04075:0.71355,chloropicon_primus_Chlpr_g8101:0.69814)n1:0.07472,(cymbomonas_tetramitiformis_KAK3238872:0.47074,(mesostigma_viride1140_Mesvi2017S04035:0.01064,(mesostigma_viride296_Mevir.Mv00844:0.6805,mesostigma_viride296_Mevir.Mv14695:0.008442)n4:0.000938)n3:0.58865)n2:0.07546)n0;

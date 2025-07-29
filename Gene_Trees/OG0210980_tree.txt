@@ -1,0 +1,1 @@
+((manihot_esculenta_Manes.17G033400:0.38454,(linum_usitatissimum_Lus10018421:0.1105,linum_usitatissimum_Lus10002596:0.06337)n2:0.49943)n1:0.261675,(cucumis_sativus_Cucsa.c126240g01:0.59526,prunus_persica_Prupe.4G035600:0.39536)n3:0.261675)n0;

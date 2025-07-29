@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.L0224:0.54508,((cyanidioschyzon_merolae_CmerSOOS_G4244:0.30279,(galdieria_sulphuraria_GsulpAzora_G2137:0.53313,galdieria_sulphuraria_GsulpAzora_G2313:0.402858)n3:0.044762)n2:0.13272,(porphyra_umbilicalis_Pum2131s0002:0.4699,(gracilariopsis_chorda_PXF42319:0.19508,gracilariopsis_chorda_PXF49128:0.20414)n5:0.72545)n4:0.1407)n1:0.01788)n0;

@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene55867:0.00055,alsophila_spinulosa_Aspi01Gene55877:0.01365)n1:0.257215,(miscanthus_sinensis_Misin12G097500:0.98319,(solanum_tuberosum_Soltu.07G001630:0.76125,(kalanchoe_fedtschenkoi_Kaladp0972s0006:0.9257,poncirus_trifoliata_Ptrif.0001s1297:1.41501)n4:0.12936)n3:0.10083)n2:0.257215)n0;

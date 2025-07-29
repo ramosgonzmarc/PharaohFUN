@@ -1,0 +1,1 @@
+((mesotaenium_kramstae_Mekra.3081308:1.28768,(apatococcus_lobatus_Aplob.KAK9826584:1.01239,apatococcus_lobatus_Aplob.KAK9844362:1.08967)n2:0.121074)n1:0.08633,(klebsormidium_nitens_kfl00040_0160:0.63293,(klebsormidium_nitens_kfl00135_0050:0.52086,klebsormidium_nitens_kfl00018_0450:0.329)n4:0.27048)n3:0.33319)n0;

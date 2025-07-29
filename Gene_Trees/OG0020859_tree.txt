@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00005645:0.230115,((raphidocelis_subcapitata_Rsub_12173:0.24656,monoraphidium_minutum_Momin.520125:0.38409)n2:0.89051,(cymbomonas_tetramitiformis_KAK3268546:0.37854,tetraselmis_striata_TSEL_027379:0.35581)n3:0.121)n1:0.230115)n0;

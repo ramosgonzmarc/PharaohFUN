@@ -1,0 +1,1 @@
+(ostreococcus_lucimarinus_Oluc_26594:0.730715,(chlamydomonas_incerta_Chincg17388:0.51145,(bryopsis_sp_Bsp_GMH33123:0.39789,(ostreobium_quekettii_CAD7701027:0.44378,(ostreobium_quekettii_CAD7704023:0.52043,ostreobium_quekettii_CAD7696657:0.54476)n4:0.087687)n3:0.009743)n2:0.40772)n1:0.730715)n0;

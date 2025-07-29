@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3263407:0.38392,mesostigma_viride296_Mevir.Mv19181:0.82368)n1:0.27986,((adiantum_capillus_Adc20691:0.57852,(isoetes_sinensis_IsiChr18g312:0.58323,picea_abies_Pab_307296g0010:0.36357)n4:0.10816)n3:0.3645,(raphidocelis_subcapitata_Rsub_05303:0.37231,monoraphidium_minutum_Momin.215737:0.42612)n5:0.36891)n2:0.27986)n0;

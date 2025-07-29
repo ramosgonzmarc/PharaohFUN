@@ -1,0 +1,1 @@
+(ostreococcus_lucimarinus_Oluc_19207:0,(ostreococcus_lucimarinus_Oluc_27212:0,((ostreococcus_lucimarinus_Oluc_93992:0.02961,ostreococcus_lucimarinus_Oluc_93707:0.0545)n3:0.00581,(ostreococcus_lucimarinus_Oluc_93712:0.15939,(ostreococcus_lucimarinus_Oluc_18135:0.04143,ostreococcus_lucimarinus_Oluc_18809:0.02336)n5:0.00055)n4:0.00576)n2:0.01758)n1:0)n0;

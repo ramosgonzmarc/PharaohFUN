@@ -1,0 +1,1 @@
+((mesostigma_viride296_Mevir.Mv04826:0.66971,mesostigma_viride296_Mevir.Mv04827:0.33898)n1:0.384615,(chara_braunii_CBR_g21804:0.71473,klebsormidium_nitens_kfl00020_0340:0.35518)n2:0.384615)n0;

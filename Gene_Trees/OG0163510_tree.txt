@@ -1,0 +1,1 @@
+((marchantia_paleacea_Mapa_000430:0.16035,riccia_sorocarpa_Risor.KAL3688096:0.14117)n1:0.12689,(sphagnum_fallax_Sphfalx04G002200:0.19043,((physcomitrium_patens_Pp6c6_14410V6:0.08799,funaria_hygrometrica_Fuhyg.06007:0.11805)n4:0.12977,(ceratodon_purpureus_CepurR40.VG170500:0.20885,pleurozium_schreberi_Plsch.08968:0.11824)n5:0.05869)n3:0.18775)n2:0.12689)n0;

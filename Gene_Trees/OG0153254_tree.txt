@@ -1,0 +1,1 @@
+((bryopsis_sp_Bsp_GMH45974:0.51171,(ostreobium_quekettii_CAD7703085:0.79353,caulerpa_lentillifera_Caule_g2518:0.69919)n2:0.2228)n1:0.48056,(picochlorum_soloecismus_NSC_04741:1.07992,(apatococcus_lobatus_Aplob.KAK9818465:0.62203,(myrmecia_bisecta_Mybis.KAK9810263:0.50082,trebouxia_sp_FRX49_02646:0.6456)n5:0.25367)n4:0.23309)n3:0.48056)n0;

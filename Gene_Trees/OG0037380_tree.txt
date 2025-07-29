@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF46282:0.87783,(mesostigma_viride1140_Mesvi253S04615:0.12503,(mesostigma_viride296_Mevir.Mv05503:0.14649,mesostigma_viride296_Mevir.Mv03351:0.161667)n2:0.017963)n1:0.06723)n0;

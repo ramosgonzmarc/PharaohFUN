@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM000025S08337:0.0786,spirogloea_muscicola_SM000031S11515:0.05141)n1:0.622455,(zygnema_circumcarinatum_Zci_00578:0.00054,zygnema_circumcarinatum1559_ZcUTEX1559_01555:0.00055)n2:0.622455)n0;

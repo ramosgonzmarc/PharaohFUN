@@ -1,0 +1,1 @@
+(picea_abies_Pab_347362g0010:0.227585,(vitis_vinifera_VIT_216s0039g02880:0.01441,(vitis_vinifera_VIT_200s0671g00010:0.09011,(vitis_vinifera_VIT_215s0024g00370:0.24615,vitis_vinifera_VIT_202s0236g00080:0.07484)n3:0.14936)n2:0.0015)n1:0.227585)n0;

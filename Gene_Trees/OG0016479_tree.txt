@@ -1,0 +1,1 @@
+(olea_europaea_Oeu020673:0.135355,(malus_domestica_MD00G1151700:2.55673,((vitis_vinifera_VIT_219s0014g04330:0.37746,(malus_domestica_MD00G1151400:0.04589,malus_domestica_MD05G1220300:0.25943)n4:0.59358)n3:0.11983,(corylus_avellana_Corav.g15037:0.32499,(malus_domestica_MD03G1185500:0.34059,theobroma_cacao_Thecc1EG031190:0.44127)n6:0.10882)n5:0.11209)n2:0.09001)n1:0.135355)n0;

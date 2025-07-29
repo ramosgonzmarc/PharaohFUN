@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.L3512:0.475765,(cycas_panzhihuaensis_CYCAS_023540:0.07846,(sequoiadendron_giganteum_SEGI_16089:0.44903,sequoiadendron_giganteum_SEGI_37002:0.859509)n2:0.095501)n1:0.22267)n0;

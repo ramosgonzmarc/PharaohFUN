@@ -1,0 +1,1 @@
+((mesostigma_viride296_Mevir.Mv06632:0.13413,mesostigma_viride296_Mevir.Mv06633:0.11317)n1:0.32805,(elliptochloris_bilobata_Elbil.KAK9827985:0.87348,(bathycoccus_prasinos_XM_007508030:0.59858,((cymbomonas_tetramitiformis_KAK3233106:0.72911,cymbomonas_tetramitiformis_KAK3250084:0.58477)n5:0.73239,cymbomonas_tetramitiformis_KAK3275403:0.606384)n4:0.067376)n3:0.16821)n2:0.03056)n0;

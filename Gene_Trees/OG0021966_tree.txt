@@ -1,0 +1,1 @@
+((corymbia_citriodora_Cocit.E1171:0.00054,corymbia_citriodora_Cocit.E1166:0.01055)n1:0.504395,(mimulus_guttatus_Migut.C01344:0.68964,(solanum_lycopersicum_Solyc07g054635:0.39448,(solanum_lycopersicum_Solyc11g062420:0.13956,(solanum_lycopersicum_Solyc06g005385:0.20476,solanum_lycopersicum_Solyc04g071295:0.06439)n5:0.0005)n4:0.1978)n3:0.51127)n2:0.504395)n0;

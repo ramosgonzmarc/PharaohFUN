@@ -1,0 +1,1 @@
+(((arachis_hypogaea_arahy_C0MLUI:0.12333,arachis_hypogaea_arahy_22UERI:0.52898)n2:1.45749,((prunus_persica_Prupe.3G225000:0.72802,salix_purpurea_Sapur.019G105700:0.32892)n4:0.44423,salix_purpurea_Sapur.010G009900:0.242028)n3:0.026892)n1:0.164575,carya_illinoinensis_Caril.10G112900:0.57955)n0;

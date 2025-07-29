@@ -1,0 +1,1 @@
+(auxenochlorella_protothecoides_APUTEX2500003293:0.339115,(chlorella_sorokiniana_Chlso_g7452:0.47348,(chlorella_sorokiniana_Chlso_g2258:0.93085,chlorella_sorokiniana_Chlso_g3222:0.59883)n2:0.5326)n1:0.339115)n0;

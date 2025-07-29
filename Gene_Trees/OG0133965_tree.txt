@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol039188:0.00055,sisymbrium_irio_Siiris1727g00400:0.10083)n1:0.28038,(malus_domestica_MD09G1221300:0.08921,(prunus_persica_Prupe.7G000200:0.02547,prunus_persica_Prupe.3G079800:0.02143)n3:0.05814)n2:0.28038)n0;

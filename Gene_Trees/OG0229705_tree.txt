@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S3G092600:0.147325,(notothylas_orbicularis_Noorb.S3G093300:0.09528,(notothylas_orbicularis_Noorb.C10G000500:0.00054,notothylas_orbicularis_Noorb.S3G093800:0.00055)n2:0.10672)n1:0.147325)n0;

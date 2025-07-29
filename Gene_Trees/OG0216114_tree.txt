@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_3_9000:0.18593,lactuca_sativa_Lsat_gn_3_8980:0.66943)n1:0.210115,(daucus_carota_DCAR_100415:0.2826,(daucus_carota_DCAR_105002:0.26533,(daucus_carota_DCAR_105005:0.09381,(daucus_carota_DCAR_105003:0.11139,daucus_carota_DCAR_105004:0.0573)n5:0.04004)n4:0.12027)n3:0.13731)n2:0.210115)n0;

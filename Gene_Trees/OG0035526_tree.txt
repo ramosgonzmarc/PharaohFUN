@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_028076:0.63979,gonium_pectorale_Gopec.15887:1.39408)n1:0.007995,(cymbomonas_tetramitiformis_KAK3282307:0.27173,micromonas_commoda_Micom.060819:0.4654)n2:0.007995)n0;

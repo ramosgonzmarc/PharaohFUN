@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_034723:0.76078,(tetrabaena_socialis_Tesoc.PNH12563:0.18037,(tetrabaena_socialis_Tesoc.PNH00381:0.01392,(tetrabaena_socialis_Tesoc.PNH01744:0.01931,(tetrabaena_socialis_Tesoc.PNH06460:0.01389,tetrabaena_socialis_Tesoc.PNH02046:0.03129)n4:0.02429)n3:0.03827)n2:0.12903)n1:0.76078)n0;

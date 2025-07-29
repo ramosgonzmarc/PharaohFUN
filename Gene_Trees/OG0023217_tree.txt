@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c2_16490V6:0.266785,(medicago_truncatula_Medtr5g029790:1.22886,(alsophila_spinulosa_Aspi01Gene35424:0.04751,alsophila_spinulosa_Aspi01Gene70418:0.05807)n2:0.21481)n1:0.266785)n0;

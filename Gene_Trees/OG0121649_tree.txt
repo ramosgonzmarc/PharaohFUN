@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_518902:0.60423,ginkgo_biloba_Gb_11000:0.18269)n1:0.04056,(trifolium_pratense_Trpra.32695:0.98168,sequoiadendron_giganteum_SEGI_19559:0.27469)n2:0.04056)n0;

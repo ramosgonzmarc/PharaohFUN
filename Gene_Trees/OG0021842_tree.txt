@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM020_0080:0.524725,(bryopsis_sp_Bsp_GMH44277:1.38301,((raphidocelis_subcapitata_Rsub_10588:0.23223,(raphidocelis_subcapitata_Rsub_10590:0.01058,raphidocelis_subcapitata_Rsub_10603:0.0114)n4:0.2034)n3:0.08214,(monoraphidium_minutum_Momin.429253:0.62704,monoraphidium_minutum_Momin.117327:0.53871)n5:0.08871)n2:0.24621)n1:0.524725)n0;

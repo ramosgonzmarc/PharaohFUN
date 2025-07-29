@@ -1,0 +1,1 @@
+(taxus_chinensis_KI387_020541:0.041,(sorghum_bicolor_Sobic.002G012350:0.89777,(boechera_stricta_Bostr.0556s0129:0.10931,(malus_domestica_MD02G1101900:0.1958,trifolium_pratense_Trpra.13096:0.16655)n3:0.10613)n2:0.28548)n1:0.041)n0;

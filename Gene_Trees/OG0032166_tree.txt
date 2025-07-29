@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi1g53077:0.276105,(oropetium_thomaeum_Oropetium_20150105_10102A:0.22954,(setaria_italica_Seita.2G444700:0.13186,(panicum_hallii_Pahal.2G501000:0.15065,miscanthus_sinensis_MisinT014000:0.18526)n3:0.06036)n2:0.21975)n1:0.276105)n0;

@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp104S01225:0.446495,((elliptochloris_bilobata_Elbil.KAK9836120:0.3209,(tetraselmis_striata_TSEL_011463:0.00156,tetraselmis_striata_TSEL_001756:0.00535)n3:0.92669)n2:0.14399,(cymbomonas_tetramitiformis_KAK3243415:0.4287,ulva_mutabilis_UM004_0145:0.53711)n4:0.23284)n1:0.446495)n0;

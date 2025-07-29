@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9467612:0.330135,(bryopsis_sp_Bsp_GMH40820:0.81568,(chlorella_sorokiniana_Chlso_g1318:0.61306,(auxenochlorella_protothecoides_APUTEX2500004052:0.72517,helicosporidium_sp_Helsp_g3902:1.45101)n3:0.29827)n2:0.53265)n1:0.330135)n0;

@@ -1,0 +1,1 @@
+(micromonas_pusilla_Mpus_42613:0.24381,((ostreococcus_mediterraneus_Ostme07g00920:0.07062,ostreococcus_mediterraneus_Ostme13g03487:0.13181)n2:0.68987,(ostreococcus_tauri_ostta12g00960:0.69827,ostreococcus_lucimarinus_Oluc_26755:0.30553)n3:0.17436)n1:0.24381)n0;

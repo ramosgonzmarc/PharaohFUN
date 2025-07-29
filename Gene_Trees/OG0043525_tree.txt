@@ -1,0 +1,1 @@
+((gnetum_montanum_TnS001019065t03:0.00866,gnetum_montanum_TnS000623735t01:0.03125)n1:0.386605,(taxus_chinensis_KI387_038941:0.11417,taxus_chinensis_KI387_019066:0.06508)n2:0.386605)n0;

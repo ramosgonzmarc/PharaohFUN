@@ -1,0 +1,1 @@
+((lycopodium_clavatum_Lcl_0008618:2.00133,(caulerpa_lentillifera_Caule_g6419:0.29546,caulerpa_lentillifera_Caule_g8450:0.42875)n2:0.69734)n1:0.18946,(tetraselmis_striata_TSEL_013664:0.28461,ceratodon_purpureus_CepurR40.7G141200:0.42243)n3:0.18946)n0;

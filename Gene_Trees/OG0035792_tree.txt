@@ -1,0 +1,1 @@
+(ostreococcus_lucimarinus_Oluc_33472:0.360425,(pleurozium_schreberi_Plsch.15333:0.92557,(diphasiastrum_complanatum_Dicom.10G074400:0.00055,diphasiastrum_complanatum_Dicom.10G074500:0.00055)n2:0.30674)n1:0.360425)n0;

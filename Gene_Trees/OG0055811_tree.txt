@@ -1,0 +1,1 @@
+((myrmecia_bisecta_Mybis.KAK9817219:0.53504,trebouxia_sp_FRX49_09839:0.54402)n1:0.111855,(fragaria_vesca_FvH4_5g35255:1.33138,(aegilops_tauschii_Atau_XP_020168812:0.00055,((triticum_aestivum_TraesCS2A03G0425200:0.00055,triticum_aestivum_TraesCS2B03G0553400:0.00054)n5:0.03913,triticum_aestivum_TraesCS2D03G0445000:0.000495)n4:5.5e-05)n3:0.00053)n2:0.111855)n0;

@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10023435:0.388765,(cicer_arietinum_Ca_02594:0.23903,(medicago_truncatula_Medtr2g096475:0.25638,phaseolus_acutifolius_Phacu.005G182800:0.2545)n2:0.2843)n1:0.388765)n0;

@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNH06549:0.645485,((raphidocelis_subcapitata_Rsub_11549:0.37781,raphidocelis_subcapitata_Rsub_01156:0.42867)n2:0.272,(monoraphidium_minutum_Momin.523995:0.37516,(monoraphidium_minutum_Momin.483025:0.03736,monoraphidium_minutum_Momin.514730:0.01658)n4:0.51889)n3:0.18516)n1:0.645485)n0;

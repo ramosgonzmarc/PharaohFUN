@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3272649:0.32924,(ulva_mutabilis_UM010_0166:1.30313,(tetraselmis_striata_TSEL_044571:0.63511,tetraselmis_striata_TSEL_006642:0.42586)n2:0.18916)n1:0.32924)n0;

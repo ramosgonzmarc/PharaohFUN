@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0065.g035795:0.45697,lupinus_albus_Lalb_Chr13g0296141:1.0414)n1:0.097205,((huperzia_asiatica_HaA11G0171:0.03458,huperzia_asiatica_HaB14G0897:0.02178)n3:0.54156,(isoetes_sinensis_IsiChr9g4206:0.00055,isoetes_sinensis_IsiChr10g3655:0.02529)n4:0.43285)n2:0.097205)n0;

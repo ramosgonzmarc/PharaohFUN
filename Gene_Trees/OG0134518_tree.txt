@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_831209:0.441945,(malus_domestica_MD02G1111500:0.34924,(prunus_persica_Prupe.8G006200:0.34981,prunus_persica_Prupe.4G050000:0.49213)n2:0.14023)n1:0.441945)n0;

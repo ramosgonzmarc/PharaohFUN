@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Smoe_403909:0.60855,(ginkgo_biloba_Gb_12009:0.1844,(taxus_chinensis_KI387_022495:0.55926,sequoiadendron_giganteum_SEGI_08958:0.2525)n2:0.32631)n1:0.60855)n0;

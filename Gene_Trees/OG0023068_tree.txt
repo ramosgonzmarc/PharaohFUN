@@ -1,0 +1,1 @@
+((marsilea_vestita_Mvestita_S6g00861:0.4136,marsilea_vestita_Mvestita_S6g00879:0.53905)n1:0.137905,(alsophila_spinulosa_Aspi01Gene05310:0.0022,(alsophila_spinulosa_Aspi01Gene05309:0.0034,alsophila_spinulosa_Aspi01Gene05311:0.00257)n3:0.00055)n2:0.137905)n0;

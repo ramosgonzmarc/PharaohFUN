@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S1G165800:0.469265,(alsophila_spinulosa_Aspi01Gene07994:0.37584,(lupinus_albus_Lalb_Chr07g0191251:0.61836,(sequoia_sempervirens_SESE_044681:0.686,((sequoia_sempervirens_SESE_049992:0.00055,sequoia_sempervirens_SESE_048752:0.00055)n5:0.51793,sequoia_sempervirens_SESE_104091:0.245331)n4:0.0245331)n3:0.0027259)n2:0.40301)n1:0.469265)n0;

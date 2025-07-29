@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub_62946:0.34399,((myrmecia_bisecta_Mybis.KAK9807029:0.80495,myrmecia_bisecta_Mybis.KAK9805193:1.02001)n2:0.06238,(apatococcus_lobatus_Aplob.KAK9819523:0.69668,apatococcus_lobatus_Aplob.KAK9817427:0.668592)n3:0.074288)n1:0.17705)n0;

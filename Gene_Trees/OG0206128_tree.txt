@@ -1,0 +1,1 @@
+((poncirus_trifoliata_Ptrif.0003s4521:0.38601,poncirus_trifoliata_Ptrif.0007s2855:0.09588)n1:0.075985,(theobroma_cacao_Thecc1EG044548:1.27122,((schrenkiella_parvula_Scpar7g09400:1.31483,thlaspi_arvense_TaMN106.3G068100:0.62063)n4:0.23065,(carica_papaya_Capac.c45946g001:0.68912,carica_papaya_Capac.c00190g018:0.8424)n5:0.0936)n3:0.08084)n2:0.075985)n0;

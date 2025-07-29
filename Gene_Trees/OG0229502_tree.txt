@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C67G000100:0.0022,((phaeoceros_sp_Phsp.C38G000200:0.00595,(phaeoceros_sp_Phsp.C57G000100:0,phaeoceros_sp_Phsp.C57G000200:0)n3:0.01141)n2:0.2084,(phaeoceros_sp_Phsp.C38G000100:0.00054,phaeoceros_sp_Phsp.C68G000100:0.05167)n4:0.00847)n1:0.0022)n0;

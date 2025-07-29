@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_4g27470:0.40148,sequoiadendron_giganteum_SEGI_31317:0.72959)n1:0.15695,(malus_domestica_MD04G1006000:0.66753,(ginkgo_biloba_Gb_17595:0.35306,zea_mays_Zm00001d036152:1.05608)n3:0.24157)n2:0.15695)n0;

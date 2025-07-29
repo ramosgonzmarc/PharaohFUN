@@ -1,0 +1,1 @@
+(ostreococcus_mediterraneus_Ostme21g00050:0.767865,(chlamydomonas_reinhardtii_Cre07.g334400_4532:0.57622,(tetrabaena_socialis_Tesoc.PNH02620:0.19569,tetrabaena_socialis_Tesoc.PNH02619:0.26431)n2:0.3559)n1:0.767865)n0;

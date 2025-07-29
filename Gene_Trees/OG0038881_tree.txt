@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000582741t01:0.40342,((arachis_hypogaea_arahy_LHF88D:0.33452,brassica_rapa_Brara.I00091:0.6907)n2:0.29032,((malus_domestica_MD01G1098100:0.26343,malus_domestica_MD01G1096800:0.00055)n4:0.37713,(amaranthus_hypochondriacus_AH019620:0.33164,chenopodium_quinoa_AUR62030150:0.96843)n5:0.20377)n3:0.48483)n1:0.40342)n0;

@@ -1,0 +1,1 @@
+((mesostigma_viride1140_Mesvi59S07086:0.05158,mesostigma_viride296_Mevir.Mv20155:0.03718)n1:0.538745,(chlorella_sorokiniana_Chlso_g7535:0.38256,(coccomyxa_subellipsoidea_Cosub_67562:0.27829,apatococcus_lobatus_Aplob.KAK9831583:0.36392)n3:0.16662)n2:0.538745)n0;

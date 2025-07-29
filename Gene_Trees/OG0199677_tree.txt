@@ -1,0 +1,1 @@
+((mesostigma_viride296_Mevir.Mv07042:0.06518,mesostigma_viride296_Mevir.Mv06227:0.04956)n1:0.213735,(ulva_mutabilis_UM073_0025:0.89651,(haematococcus_lacustris_QJQ45_005071:0.01204,haematococcus_lacustris_QJQ45_019691:0.01831)n3:0.26773)n2:0.213735)n0;

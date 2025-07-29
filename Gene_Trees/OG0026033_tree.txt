@@ -1,0 +1,1 @@
+((asparagus_officinalis_AsparagusV1_06.819:0.85755,beta_vulgaris_Bevul.9G124500:0.38305)n1:0.17688,(isoetes_sinensis_IsiChr2g122:0.0039,(isoetes_sinensis_IsiChr2g110:0.02381,isoetes_sinensis_IsiChr1g165:0.00518)n3:0.00057)n2:0.17688)n0;

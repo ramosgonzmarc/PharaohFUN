@@ -1,0 +1,1 @@
+(ostreococcus_mediterraneus_Ostme20g00680:0.78493,(tetraselmis_striata_TSEL_040855:0.30901,(tetraselmis_striata_TSEL_022696:0.23517,tetraselmis_striata_TSEL_008832:1.07051)n2:0.34514)n1:0.78493)n0;

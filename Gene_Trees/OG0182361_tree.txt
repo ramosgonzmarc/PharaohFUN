@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc03g093750:0.039025,(solanum_tuberosum_Soltu.04G026840:0.03219,(solanum_tuberosum_Soltu.10G000150:0.05281,(solanum_tuberosum_Soltu.08G011430:0.07649,(solanum_tuberosum_Soltu.12G020440:0.09365,(solanum_tuberosum_Soltu.09G007460:0.13416,solanum_tuberosum_Soltu.10G023410:0.12068)n5:0.07097)n4:0.04367)n3:0.00823)n2:0.01871)n1:0.039025)n0;

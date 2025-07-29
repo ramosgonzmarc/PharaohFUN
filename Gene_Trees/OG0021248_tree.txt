@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0006.g010163:0.468,(isoetes_sinensis_IsiChr4g3773:1.26683,(isoetes_sinensis_IsiChr9g1564:0.04925,(isoetes_sinensis_IsiChr9g3221:0.15599,isoetes_sinensis_IsiChr10g2763:0.00055)n3:0.00053)n2:0.34968)n1:0.468)n0;

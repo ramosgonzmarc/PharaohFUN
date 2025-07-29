@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr07g0193581:0.092355,(lotus_japonicus_Lj3g0003671:0.15685,((glycine_max_Glyma.01G121800:0.09754,phaseolus_acutifolius_Phacu.010G000300:0.18357)n3:0.09731,(lens_culinaris_Lecul.4g006310:0.20894,trifolium_pratense_Trpra.13781:0.23053)n4:0.02983)n2:0.05234)n1:0.092355)n0;

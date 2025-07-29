@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx06G055100:0.01771,(sphagnum_magellanicum_Sphmag06G049800:0.08331,(sphagnum_magellanicum_Sphmag06G050600:0.0176,sphagnum_magellanicum_Sphmag06G051400:0.04008)n2:0.00054)n1:0.01771)n0;

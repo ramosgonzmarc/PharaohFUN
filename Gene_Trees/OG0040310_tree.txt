@@ -1,0 +1,1 @@
+(oryza_sativa_Os12g40270:0.235785,((sorghum_bicolor_Sobic.002G392900:0.09641,miscanthus_sinensis_Misin03G361900:0.06396)n2:0.30216,(setaria_italica_Seita.5G221000:0.24434,setaria_italica_Seita.2G408700:0.475794)n3:0.052866)n1:0.1298)n0;

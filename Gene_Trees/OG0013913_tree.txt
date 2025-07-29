@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.A06G028300:0.219875,(ginkgo_biloba_Gb_31113:0.28302,(ginkgo_biloba_Gb_22694:0.35078,((ginkgo_biloba_Gb_05376:0.16464,ginkgo_biloba_Gb_08020:0.1256)n4:0.00813,(ginkgo_biloba_Gb_36017:0.23312,(ginkgo_biloba_Gb_10858:0.08354,(ginkgo_biloba_Gb_23676:0.12111,ginkgo_biloba_Gb_15918:0.16837)n7:0.01857)n6:0.04612)n5:0.01503)n3:0.03454)n2:0.19378)n1:0.219875)n0;

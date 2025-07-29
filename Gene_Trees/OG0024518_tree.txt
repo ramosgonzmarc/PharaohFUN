@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g1293:0.46696,((mesostigma_viride1140_Mesvi791S08180:0.56569,(mesostigma_viride296_Mevir.Mv22083:0.53028,mesostigma_viride296_Mevir.Mv22082:0.743913)n3:0.082657)n2:0.57963,chlorokybus_atmophyticus_Chrsp44S05751:0.3609)n1:0.46696)n0;

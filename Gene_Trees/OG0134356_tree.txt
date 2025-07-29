@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.06G187600:0.254225,((malus_domestica_MD16G1151900:0.19125,(fragaria_vesca_FvH4_4g20300:0.0079,fragaria_vesca_FvH4_4g20030:0.07397)n3:0.49765)n2:0.05707,(prunus_persica_Prupe.1G115300:0.43657,prunus_persica_Prupe.1G115400:0.18207)n4:0.02023)n1:0.45558)n0;

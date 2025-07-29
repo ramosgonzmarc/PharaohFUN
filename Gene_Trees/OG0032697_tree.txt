@@ -1,0 +1,1 @@
+((chara_braunii_CBR_g34228:0.26452,chara_braunii_CBR_g38755:0.52915)n1:0.51142,(haematococcus_lacustris_QJQ45_006634:0.00052,(haematococcus_lacustris_QJQ45_005146:0.25882,haematococcus_lacustris_QJQ45_000533:0.0496)n3:0.06965)n2:0.51142)n0;

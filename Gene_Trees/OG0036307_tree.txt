@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA10G0207:0.15905,((azolla_filiculoides_Azfi_s0271.g061235:0.49517,vaccinium_darrowii_Vadar_g39079:0.42771)n2:0.23671,(ginkgo_biloba_Gb_01172:0.87812,ginkgo_biloba_Gb_29532:0.17511)n3:0.49381)n1:0.15905)n0;

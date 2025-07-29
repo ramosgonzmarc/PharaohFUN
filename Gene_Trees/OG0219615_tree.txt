@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin12G041600:0.1515,(zea_mays_Zm00001d030874:0.00844,(zea_mays_Zm00001d005552:0.00055,zea_mays_Zm00001d015689:0.04388)n2:0.00055)n1:0.1515)n0;

@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00022g230:0.38485,gnetum_montanum_TnS000992391t01:0.42184)n1:0.070575,(klebsormidium_nitens_kfl00022_0520:1.02599,klebsormidium_nitens_kfl00407_0050:0.88317)n2:0.070575)n0;

@@ -1,0 +1,1 @@
+((eutrema_salsugineum_Thhalv10017703m:0.10508,schrenkiella_parvula_Scpar4g18110:0.1269)n1:0.372525,(gossypium_hirsutum_Gohir.A09G132200:0.07929,gossypium_raimondii_Gorai.006G147100:0.00055)n2:0.372525)n0;

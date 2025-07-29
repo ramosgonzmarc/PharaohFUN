@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.C00722:0.244355,(populus_trichocarpa_Potri.007G026200:1.04461,(eucalyptus_grandis_Eucgr.I02449:0.45781,kalanchoe_fedtschenkoi_Kaladp0060s0083:0.89942)n2:0.10717)n1:0.244355)n0;

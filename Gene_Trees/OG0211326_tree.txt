@@ -1,0 +1,1 @@
+(cucumis_sativus_Cucsa.c356190g01:0.167615,(cucumis_sativus_Cucsa.c356220g01:0.42019,(cucumis_sativus_Cucsa.c369180g01:0.7414,cucumis_sativus_Cucsa.c398070g01:0.56579)n2:0.38284)n1:0.167615)n0;

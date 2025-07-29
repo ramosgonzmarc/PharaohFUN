@@ -1,0 +1,1 @@
+(salix_purpurea_Sapur.004G096300:0.79189,((zostera_marina_Zosma02g17950:0.00055,(zostera_marina_Zosma18g00190:0,zostera_marina_Zosma04g11300:0)n3:0.00054)n2:0.44446,(zostera_marina_Zosma02g12540:0.46251,(zostera_marina_Zosma01g12310:0.64891,zostera_marina_Zosma05g07460:0.3527)n5:0.47114)n4:0.39695)n1:0.79189)n0;

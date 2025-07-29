@@ -1,0 +1,1 @@
+(((coffea_arabica_Coara.039816:0,coffea_arabica_Coara.076028:0)n2:1.03541,((aquilegia_coerulea_Aqcoe7G317000:0.50544,selaginella_moellendorffii_Smoe_12814:0.64065)n4:0.18924,selaginella_moellendorffii_Smoe_111350:0.989217)n3:0.109913)n1:0.13302,lactuca_sativa_Lsat_gn_9_103540:0.66789)n0;

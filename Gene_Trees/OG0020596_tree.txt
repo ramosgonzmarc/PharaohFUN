@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA68G0497:0.05875,huperzia_asiatica_HaB59G0288:0.03412)n1:0.40063,(cycas_panzhihuaensis_CYCAS_010192:0.82578,(prunus_persica_Prupe.6G154500:0.66506,(malus_domestica_MD11G1161600:0.02256,(malus_domestica_MD11G1249100:0.03836,malus_domestica_MD07G1129100:0.02285)n5:0.00054)n4:0.36043)n3:0.11534)n2:0.40063)n0;

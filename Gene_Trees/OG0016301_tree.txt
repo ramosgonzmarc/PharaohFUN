@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_01213:0.897675,((diphasiastrum_complanatum_Dicom.06G070800:0.02903,(diphasiastrum_complanatum_Dicom.12G014500:0.04107,diphasiastrum_complanatum_Dicom.14G035600:0.41276)n3:0.04376)n2:0.00626,(diphasiastrum_complanatum_Dicom.24G004000:0.21662,diphasiastrum_complanatum_Dicom.06G074600:0.06475)n4:0.08858)n1:0.897675)n0;

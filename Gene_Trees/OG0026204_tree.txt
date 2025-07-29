@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S15g12841:0.546765,(isoetes_sinensis_IsiChr3g741:0.51361,(isoetes_sinensis_IsiChr17g4866:0.03463,isoetes_sinensis_IsiChr18g4943:0.00053)n2:0.4183)n1:0.546765)n0;

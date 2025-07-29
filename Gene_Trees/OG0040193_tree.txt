@@ -1,0 +1,1 @@
+(oryza_sativa_Os02g06970:0.396475,((panicum_hallii_Pahal.1G047700:0.05258,setaria_italica_Seita.1G076700:0.10174)n2:0.25531,(miscanthus_sinensis_Misin07G051000:0.67347,miscanthus_sinensis_Misin07G050900:0.171864)n3:0.019096)n1:0.22729)n0;

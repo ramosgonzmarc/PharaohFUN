@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH42192:0.596785,(helicosporidium_sp_Helsp_g5434:0.57125,(chlorella_sorokiniana_Chlso_g10083:0.59351,auxenochlorella_protothecoides_APUTEX2500003657:0.3757)n2:0.17578)n1:0.596785)n0;

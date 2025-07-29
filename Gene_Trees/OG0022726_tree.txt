@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA41G0127:0.13338,((abies_alba_AALBA5B503707:0.14822,abies_alba_AALBA5B770091:0.00055)n2:0.69852,(vitis_vinifera_VIT_209s0018g01470:0.45389,(coffea_arabica_Coara.048204:0.54846,coffea_arabica_Coara.067154:0.397881)n4:0.044209)n3:0.55165)n1:0.13338)n0;

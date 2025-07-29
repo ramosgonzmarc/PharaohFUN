@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00184_0140:0.143515,(klebsormidium_nitens_kfl00184_0160:0.21973,(klebsormidium_nitens_kfl00650_0060:0.42506,klebsormidium_nitens_kfl00650_0070:0.73177)n2:0.31258)n1:0.143515)n0;

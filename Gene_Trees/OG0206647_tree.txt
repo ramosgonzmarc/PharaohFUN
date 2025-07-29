@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG020660:0.498315,(thlaspi_arvense_TaMN106.7G283900:0.00054,(eutrema_salsugineum_Thhalv10027383m:0.11993,sisymbrium_irio_Siiris1102g00040:0.14186)n2:0.11758)n1:0.498315)n0;

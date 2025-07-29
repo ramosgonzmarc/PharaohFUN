@@ -1,0 +1,1 @@
+((ostreobium_quekettii_CAD7702821:0.44329,((caulerpa_lentillifera_Caule_g6032:0.9476,haematococcus_lacustris_QJQ45_012733:1.27789)n3:0.17786,haematococcus_lacustris_QJQ45_022946:0.567)n2:0.063)n1:0.021125,chromochloris_zofingiensis_Cz08g16010:0.48735)n0;

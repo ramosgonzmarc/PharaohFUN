@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00049g252:0.56427,(panicum_hallii_Pahal.1G391800:0.20503,miscanthus_sinensis_Misin19G085600:0.10678)n2:0.78052)n1:0.168375,(picea_abies_Pab_103312g0010:0.10999,(abies_alba_AALBA5B356175:0.05182,(abies_alba_AALBA5B1023112:0.0164,(abies_alba_AALBA5B460334:0.62211,abies_alba_AALBA5B134441:0.00054)n6:0.00557)n5:0.0204)n4:0.08966)n3:0.168375)n0;

@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr6g560:0.107505,(phaseolus_acutifolius_Phacu.009G069400:0.96871,(alsophila_spinulosa_Aspi01Gene65602:0.23902,azolla_filiculoides_Azfi_s0006.g009794:0.64539)n2:0.30937)n1:0.107505)n0;

@@ -1,0 +1,1 @@
+((eleusine_coracana_Elcor.9AG0693160:0.12597,eleusine_coracana_Elcor.9BG0718940:0.00054)n1:0.202355,((miscanthus_sinensis_Misin07G422600:0.73427,(setaria_italica_Seita.4G008600:0.34997,setaria_italica_Seita.2G061200:0.438264)n4:0.048696)n3:0.22445,panicum_hallii_Pahal.4G352800:0.122)n2:0.202355)n0;

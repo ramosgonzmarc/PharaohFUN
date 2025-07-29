@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp26S04202:0.672535,((mesotaenium_kramstae_Mekra.3112152:0.4731,(zygnema_cylindricum_Zci1a_03117:0.30445,zygnema_cylindricum_Zci1a_26001:0.370638)n3:0.041182)n2:0.32694,(zygnema_circumcarinatum_Zci_00245:0.00055,zygnema_circumcarinatum1559_ZcUTEX1559_01871:0.00055)n4:0.31102)n1:0.672535)n0;

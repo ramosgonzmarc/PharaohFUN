@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c21_7040V6:0.00054,pleurozium_schreberi_Plsch.12245:0.39797)n1:0.0698,(ceratodon_purpureus_CepurR40.8G193300:0.17983,(funaria_hygrometrica_Fuhyg.21322:0.00055,funaria_hygrometrica_Fuhyg.21323:0.00053)n3:0.13062)n2:0.0698)n0;

@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10019063m:0.10005,(sisymbrium_irio_Siiris427g00130:0.08414,(brassica_oleracea_Bol016153:0.05153,brassica_rapa_Brara.G03030:0.03541)n2:0.06136)n1:0.10005)n0;

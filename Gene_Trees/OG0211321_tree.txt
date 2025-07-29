@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr5g022370:0.378225,(cucumis_sativus_Cucsa.c038550g01:0.00055,(cucumis_sativus_Cucsa.c213370g01:0.166,cucumis_sativus_Cucsa.c292800g01:0.07226)n2:0.78477)n1:0.378225)n0;

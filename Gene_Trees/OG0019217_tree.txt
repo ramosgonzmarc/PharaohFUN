@@ -1,0 +1,1 @@
+(mesostigma_viride1140_Mesvi1090S01692:0.162215,(diphasiastrum_complanatum_Dicom.Y108300:0.73775,(abies_alba_AALBA5B145518:0.16319,abies_alba_AALBA5B173585:0.22263)n2:0.37701)n1:0.162215)n0;

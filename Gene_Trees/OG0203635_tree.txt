@@ -1,0 +1,1 @@
+((picea_abies_Pab_10232726g0010:0.64011,picea_abies_Pab_1170g0010:0.29025)n1:0.299025,(welwitschia_mirabilis_Wmi_16097:0.20516,((gnetum_montanum_TnS000266583t20:0.09829,gnetum_montanum_TnS000149325t01:0.00055)n4:0.63222,gnetum_montanum_TnS000220241t01:0.32168)n3:0.28063)n2:0.299025)n0;

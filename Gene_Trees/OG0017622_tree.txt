@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3247242:0.65305,(bathycoccus_prasinos_XM_007514631:0.42704,micromonas_commoda_Micom.056730:0.30017)n2:0.63692)n1:0.120975,(ostreobium_quekettii_CAD7700422:0.61498,(tetraselmis_striata_TSEL_014253:0.00121,tetraselmis_striata_TSEL_023416:0.00197)n4:0.71375)n3:0.120975)n0;

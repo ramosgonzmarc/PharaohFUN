@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene49987:0.279975,(sequoia_sempervirens_SESE_109578:0.45334,(saponaria_officinalis_Sapof.01G104600:0.35725,(gossypium_hirsutum_Gohir.A05G320708:0.11684,(gossypium_hirsutum_Gohir.A06G117302:0.13812,gossypium_hirsutum_Gohir.A09G043001:0.09435)n4:0.06117)n3:0.25579)n2:0.23349)n1:0.279975)n0;

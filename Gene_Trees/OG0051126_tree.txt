@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B482997:0.41475,(gnetum_montanum_TnS000550571t01:0.00054,(gnetum_montanum_TnS000604789t01:0.0623,gnetum_montanum_TnS000715323t01:0.01685)n2:0.06149)n1:0.41475)n0;

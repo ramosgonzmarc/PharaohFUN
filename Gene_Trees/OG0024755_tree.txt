@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_024052:0.02005,tetraselmis_striata_TSEL_027845:0.00055)n1:0.4436,(myrmecia_bisecta_Mybis.KAK9806908:0.50538,(coccomyxa_subellipsoidea_Cosub_54871:0.5749,elliptochloris_bilobata_Elbil.KAK9831001:0.42629)n3:0.26271)n2:0.4436)n0;

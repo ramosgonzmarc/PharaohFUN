@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum2681s0001:0.277245,((welwitschia_mirabilis_Wmi_17680:0.19807,(taxus_chinensis_KI387_040827:0.15708,taxus_chinensis_KI387_008673:0.00055)n3:0.1712)n2:0.24847,(abies_alba_AALBA5B976430:0.179,(abies_alba_AALBA5B113639:0.02676,abies_alba_AALBA5B580102:0.01525)n5:0.06958)n4:0.33679)n1:0.277245)n0;

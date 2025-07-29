@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle2c07151:0.19265,((fragaria_vesca_FvH4_3g24431:0.90226,mimulus_guttatus_Migut.I00334:0.94741)n2:0.1079,(triticum_aestivum_TraesCS6B03G0077400:0.77485,(spirodela_polyrhiza_Spipo27G0010300:0.84408,(arachis_hypogaea_arahy_X2XDI9:0.00358,arachis_hypogaea_arahy_0MS3JL:0.00695)n5:0.64714)n4:0.0677)n3:0.0943)n1:0.19265)n0;

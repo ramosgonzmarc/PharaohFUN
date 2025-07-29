@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum0658s0002:0.11212,(porphyra_umbilicalis_Pum0223s0024:0.02344,porphyra_umbilicalis_Pum0025s0027:0.05218)n2:0.13236)n1:0.7326,(bryopsis_sp_Bsp_GMH32484:0.98494,((riccia_fluitans_R1flu_024158:0.17852,riccia_fluitans_R1flu_023327:0.03477)n5:0.02849,(riccia_fluitans_R1flu_014956:0.04205,riccia_fluitans_R1flu_012614:0.06532)n6:0.0005)n4:0.47696)n3:0.7326)n0;

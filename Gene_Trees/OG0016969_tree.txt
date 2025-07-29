@@ -1,0 +1,1 @@
+((olea_europaea_Oeu063112:0.67369,linum_usitatissimum_Lus10035228:0.6344)n1:0.098435,(taxus_chinensis_KI387_007297:0.28329,(ginkgo_biloba_Gb_04029:0.17984,(abies_alba_AALBA5B1156421:0.18841,abies_alba_AALBA5B910591:0.46719)n4:0.05191)n3:0.07696)n2:0.23162)n0;

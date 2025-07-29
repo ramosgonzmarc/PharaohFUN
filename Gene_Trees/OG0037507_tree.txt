@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C1G079400:0.54501,(azolla_filiculoides_Azfi_s0037.g025910:0.76361,(isoetes_sinensis_IsiChr7g929:0.0052,isoetes_sinensis_IsiChr8g747:0.00054)n2:0.51089)n1:0.54501)n0;

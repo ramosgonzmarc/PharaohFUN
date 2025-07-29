@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g01899:0.32888,((myrmecia_bisecta_Mybis.KAK9804354:0.38059,(myrmecia_bisecta_Mybis.KAK9805571:0.18309,(myrmecia_bisecta_Mybis.KAK9823123:0.10522,myrmecia_bisecta_Mybis.KAK9813225:0.09368)n4:0.33066)n3:0.149)n2:0.22933,(coccomyxa_subellipsoidea_Cosub_39310:0.47471,auxenochlorella_protothecoides_APUTEX2500001112:0.99954)n5:0.12862)n1:0.32888)n0;

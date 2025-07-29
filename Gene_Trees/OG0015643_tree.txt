@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c21_7870V6:0.09915,(physcomitrium_patens_Pp6c4_2990V6:0.31587,physcomitrium_patens_Pp6c5_7780V6:0.28773)n2:0.37703)n1:0.344015,(sequoiadendron_giganteum_SEGI_13612:0.25671,(alsophila_spinulosa_Aspi01Gene22370:0.36675,(taxus_chinensis_KI387_028764:0.15927,thuja_plicata_Thupl.29377710s0005:0.61923)n5:0.12)n4:0.07009)n3:0.344015)n0;

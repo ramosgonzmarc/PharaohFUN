@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_007909:0.416675,((bryopsis_sp_Bsp_GMH34354:0.40806,caulerpa_lentillifera_Caule_g603:0.76569)n2:0.74221,(gonium_pectorale_Gopec.12862:0.482,(volvox_carteri_Vocar.0028s0002:0.57208,(chlamydomonas_reinhardtii_Cre12.g533600_4532:0.16691,chlamydomonas_incerta_Chincg04703:0.1277)n5:0.30131)n4:0.16952)n3:0.25854)n1:0.416675)n0;

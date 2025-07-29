@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00109_0250:0.116315,(mesotaenium_kramstae_Mekra.2994927:0.47136,(zygnema_circumcarinatum_Zci_01194:0,zygnema_circumcarinatum1559_ZcUTEX1559_00795:0)n2:0.27868)n1:0.116315)n0;

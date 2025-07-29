@@ -1,0 +1,1 @@
+((volvox_carteri_Vocar.0006s0091:0.8442,volvox_carteri_Vocar.0025s0050:0.85386)n1:0.222145,(chlamydomonas_incerta_Chincg05728:0.29683,(chlamydomonas_incerta_Chincg05730:0.38851,chlamydomonas_incerta_Chincg04974:0.10869)n3:0.27129)n2:0.222145)n0;

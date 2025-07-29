@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_7_13760:0.49565,(quercus_rubra_Qurub.05G012100:1.2908,(vitis_vinifera_VIT_218s0041g00370:0.57524,((vitis_vinifera_VIT_200s0187g00060:0,vitis_vinifera_VIT_200s1240g00010:0)n4:0.51537,(vitis_vinifera_VIT_200s0187g00090:0.05684,vitis_vinifera_VIT_200s0187g00080:0.15168)n5:0.23349)n3:0.155313)n2:0.017257)n1:0.30109)n0;

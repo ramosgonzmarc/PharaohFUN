@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene02799:0.41922,(lycopodium_clavatum_Lcl_0006041:0.29013,((huperzia_asiatica_HaA16G0621:0.14666,huperzia_asiatica_HaA58G0186:0.147)n3:1.09711,(huperzia_asiatica_HaA11G0665:0.39494,(huperzia_asiatica_HaB60G0225:0.11145,huperzia_asiatica_HaB34G0521:0.055872)n5:0.0055872)n4:0.00055872)n2:6.208e-05)n1:0.02508)n0;

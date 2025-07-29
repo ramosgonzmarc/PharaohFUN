@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene02135:0,alsophila_spinulosa_Aspi01Gene02139:0,alsophila_spinulosa_Aspi01Gene02144:0)n1:0.49728,salvinia_cucullata_Sacu_s0057.g014753:0.49728)n0;

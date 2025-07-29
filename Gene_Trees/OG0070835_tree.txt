@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT5G55507:0.14966,arabidopsis_lyrata_Arlyr.AL8G31050:0.04195)n1:0.122825,(schrenkiella_parvula_Scpar6g17390:0.15445,(brassica_oleracea_Bol018197:0.01075,brassica_rapa_Brara.B01319:0.02828)n3:0.20997)n2:0.122825)n0;

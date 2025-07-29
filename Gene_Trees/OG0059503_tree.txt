@@ -1,0 +1,1 @@
+((ostreococcus_mediterraneus_Ostme30g02490:0.00055,ostreococcus_mediterraneus_Ostme30g02732:0.00055)n1:0.493475,(huperzia_asiatica_HaB02G0254:0.68515,(alsophila_spinulosa_Aspi01Gene48181:0.29881,(sequoia_sempervirens_SESE_050091:0.36663,(sequoia_sempervirens_SESE_029691:0.49893,sequoia_sempervirens_SESE_035232:0.11498)n5:0.28953)n4:0.14671)n3:0.20707)n2:0.493475)n0;

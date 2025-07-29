@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_CmerSOOS_G2408:0.575425,(gracilariopsis_chorda_PXF44338:0.12143,(gracilariopsis_chorda_PXF40608:0.13996,((gracilariopsis_chorda_PXF40839:0.00593,gracilariopsis_chorda_PXF40607:0.11253)n4:0.04428,(gracilariopsis_chorda_PXF41515:0.02045,gracilariopsis_chorda_PXF39736:0.05386)n5:0.21449)n3:0.08111)n2:0.24923)n1:0.575425)n0;

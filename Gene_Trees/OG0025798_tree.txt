@@ -1,0 +1,1 @@
+((sequoiadendron_giganteum_SEGI_03696:1.29784,vaccinium_darrowii_Vadar_g38986:0.88574)n1:0.041645,((ginkgo_biloba_Gb_13414:0.86331,(ginkgo_biloba_Gb_12196:0.1846,ginkgo_biloba_Gb_34334:0.22406)n4:0.24281)n3:0.34698,(dioscorea_alata_Dioal.13G056800:0.71076,spirodela_polyrhiza_Spipo29G0012300:0.55653)n5:0.11509)n2:0.041645)n0;

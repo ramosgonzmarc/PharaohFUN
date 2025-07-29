@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaB43G0235:0.40439,(zygnema_circumcarinatum1559_ZcUTEX1559_01314:1.24371,(mesotaenium_endlicherianum_ME000056S08398:0.80034,zygnema_circumcarinatum_Zci_13097:0.35895)n2:0.26291)n1:0.40439)n0;

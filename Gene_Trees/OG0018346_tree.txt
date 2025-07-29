@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF46401:0.447685,(tetraselmis_striata_TSEL_038297:0.61566,(klebsormidium_nitens_kfl00218_0165:0.53829,(klebsormidium_nitens_kfl00218_0110:0.15575,klebsormidium_nitens_kfl00218_0160:0.06371)n3:0.22216)n2:0.84392)n1:0.447685)n0;

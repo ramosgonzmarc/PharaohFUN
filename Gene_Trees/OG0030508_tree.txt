@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA64G0333:0.37516,(corylus_avellana_Corav.g34336:0.62885,((alsophila_spinulosa_Aspi01Gene40967:0.02919,alsophila_spinulosa_Aspi01Gene66502:0.3376)n3:0.31291,(sequoiadendron_giganteum_SEGI_39031:0.82508,(sequoia_sempervirens_SESE_092984:0.11768,sequoia_sempervirens_SESE_117307:0.34168)n5:0.0489)n4:0.3337)n2:0.09971)n1:0.37516)n0;

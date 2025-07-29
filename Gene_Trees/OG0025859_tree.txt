@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_201s0010g02510:0.097085,(malus_domestica_MD17G1016800:0.82442,(glycine_max_Glyma.08G101901:0.59174,gossypium_hirsutum_Gohir.A05G341050:0.43017)n2:0.00932)n1:0.097085)n0;

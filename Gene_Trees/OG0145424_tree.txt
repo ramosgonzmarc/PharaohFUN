@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000033779t04:0.59132,(olea_europaea_Oeu048307:0.0842,(fragaria_vesca_FvH4_7g00213:0.78959,miscanthus_sinensis_Misin15G088300:0.38636)n2:0.17153)n1:0.59132)n0;

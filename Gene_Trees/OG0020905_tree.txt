@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_035847:0.00054,tetraselmis_striata_TSEL_007413:0.02065)n1:0.589975,(cymbomonas_tetramitiformis_KAK3285872:1.11874,(ostreococcus_mediterraneus_Ostme05g04550:0.26822,(ostreococcus_tauri_ostta06g04470:0.35995,ostreococcus_lucimarinus_Oluc_32386:0.28862)n4:0.28315)n3:0.35673)n2:0.589975)n0;

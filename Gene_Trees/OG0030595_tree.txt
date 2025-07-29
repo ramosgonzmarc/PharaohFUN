@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3687877:0.42871,(alsophila_spinulosa_Aspi01Gene56427:0.49895,(ceratopteris_richardii_Ceric.38G049000:0.28601,sequoiadendron_giganteum_SEGI_17513:0.54976)n2:0.29615)n1:0.42871)n0;

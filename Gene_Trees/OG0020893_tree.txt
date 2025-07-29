@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3278314:0.310435,(fragaria_vesca_FvH4_3g03090:0.91504,(isoetes_sinensis_IsiChr18g4986:0.00055,(isoetes_sinensis_IsiChr17g4907:0.00413,isoetes_sinensis_IsiChr17g4906:0.03825)n3:0.00329)n2:0.86582)n1:0.310435)n0;

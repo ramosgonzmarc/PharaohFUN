@@ -1,0 +1,1 @@
+(beta_vulgaris_Bevul.1G107200:0.20471,(saponaria_officinalis_Sapof.03G188800:0.26746,(saponaria_officinalis_Sapof.02G095900:0.17338,saponaria_officinalis_Sapof.01G176300:0.17348)n2:0.05599)n1:0.20471)n0;

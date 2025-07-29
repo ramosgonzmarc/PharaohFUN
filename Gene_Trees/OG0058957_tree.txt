@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S2G408000:0.368515,((huperzia_asiatica_HaB18G0473:0.70864,sisymbrium_irio_Siiris1480g00150:0.66712)n2:0.49028,(alsophila_spinulosa_Aspi01Gene34920:0.23658,adiantum_capillus_Adc17259:0.42133)n3:0.06572)n1:0.368515)n0;

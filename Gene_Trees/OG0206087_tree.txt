@@ -1,0 +1,1 @@
+((thlaspi_arvense_TaMN106.6G158300:0.6244,(thlaspi_arvense_TaMN106.5G210900:0.05641,thlaspi_arvense_TaMN106.6G117900:0.20426)n2:0.09651)n1:0.360755,((arabidopsis_lyrata_Arlyr.AL6G36800:0.15485,arabidopsis_lyrata_Arlyr.AL8G15760:0.00055)n4:0.78428,(arabidopsis_lyrata_Arlyr.AL4G28270:0.09223,arabidopsis_lyrata_Arlyr.AL2G22950:0.17257)n5:0.72471)n3:0.360755)n0;

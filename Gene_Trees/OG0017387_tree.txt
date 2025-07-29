@@ -1,0 +1,1 @@
+((leiosporoceros_dussii_Ledus.S5G126300:0.31403,(leiosporoceros_dussii_Ledus.S1G295700:0.47499,leiosporoceros_dussii_Ledus.S5G046400:0.69712)n2:0.10715)n1:0.08485,((alsophila_spinulosa_Aspi01Gene35247:0.29238,adiantum_capillus_Adc28618:0.88937)n4:0.37483,(adiantum_capillus_Adc13715:1.57464,alsophila_spinulosa_Aspi01Gene68468:1.34092)n5:0.148991)n3:0.08485)n0;

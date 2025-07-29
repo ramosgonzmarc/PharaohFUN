@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3286092:0.03912,(cymbomonas_tetramitiformis_KAK3286091:0.00055,cymbomonas_tetramitiformis_KAK3243893:0.12614)n2:0.00055)n1:0.44204,(chara_braunii_CBR_g31720:0.41844,(chara_braunii_CBR_g39721:0.56482,chara_braunii_CBR_g39722:0.58583)n4:0.74585)n3:0.44204)n0;

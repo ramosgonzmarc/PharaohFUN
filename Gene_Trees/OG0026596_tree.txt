@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM000105S13880:0.00055,spirogloea_muscicola_SM000289S10412:0.1145)n1:0.617255,((ostreococcus_lucimarinus_Oluc_29572:0.18449,ostreococcus_mediterraneus_Ostme13g00540:0.18749)n3:0.42812,(micromonas_pusilla_Mpus_139283:0.2233,micromonas_commoda_Micom.063488:0.18096)n4:0.48293)n2:0.617255)n0;

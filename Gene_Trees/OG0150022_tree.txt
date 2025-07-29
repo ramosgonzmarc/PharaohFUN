@@ -1,0 +1,1 @@
+((brassica_rapa_Brara.G01611:1.43848,manihot_esculenta_Manes.15G185366:0.64318)n1:0.059005,(oryza_sativa_Os03g22460:0.4953,zea_mays_Zm00001d004641:0.86176)n2:0.059005)n0;

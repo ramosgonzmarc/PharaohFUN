@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.07G200900:0.198525,((ginkgo_biloba_Gb_35287:0.26506,ginkgo_biloba_Gb_01339:0.13876)n2:0.05057,(ginkgo_biloba_Gb_16847:1.09936,(ginkgo_biloba_Gb_02410:0.64251,(ginkgo_biloba_Gb_18235:1.05082,ginkgo_biloba_Gb_20188:1.31535)n5:0.10134)n4:0.13588)n3:0.3683)n1:0.198525)n0;

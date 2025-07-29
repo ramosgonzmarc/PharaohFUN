@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_211s0016g00120:0.117955,(eucalyptus_grandis_Eucgr.C02571:0.00054,(corymbia_citriodora_Cocit.C1584:0.07724,(corymbia_citriodora_Cocit.C1738:0.00055,corymbia_citriodora_Cocit.G1497:0.01093)n3:0.00846)n2:0.23503)n1:0.117955)n0;

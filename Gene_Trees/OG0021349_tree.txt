@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00117_0050:0.5097,((zygnema_circumcarinatum_Zci_13409:0.02141,zygnema_circumcarinatum1559_ZcUTEX1559_11800:0.02804)n2:0.76817,(spirogloea_muscicola_SM000190S04876:0.02512,(spirogloea_muscicola_SM000001S04691:0.05864,spirogloea_muscicola_SM000010S04349:0.02307)n4:0.01029)n3:0.76789)n1:0.5097)n0;

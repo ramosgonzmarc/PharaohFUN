@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Smoe_101384:0.2526,(malus_domestica_MD07G1230800:0.60499,((amborella_trichopoda_AmTr00023g56:0.54784,(amborella_trichopoda_AmTr00342g1:0.05755,amborella_trichopoda_AmTr00339g4:0.0266)n4:0.30034)n3:0.11178,(abies_alba_AALBA5B242528:0.31734,picea_abies_Pab_746078g0010:0.07805)n5:0.57503)n2:0.17355)n1:0.2526)n0;

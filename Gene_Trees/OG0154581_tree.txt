@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS5D03G0033600:0.17006,(miscanthus_sinensis_Misin14G150200:0.1999,(panicum_hallii_Pahal.3G511100:0.08261,setaria_italica_Seita.3G404500:0.03959)n2:0.05723)n1:0.17006)n0;

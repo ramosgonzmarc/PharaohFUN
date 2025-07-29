@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv07355:0.42216,(cymbomonas_tetramitiformis_KAK3285884:0.62411,(micromonas_pusilla_Mpus_46543:0.45911,micromonas_commoda_Micom.098599:0.89637)n2:0.51232)n1:0.42216)n0;

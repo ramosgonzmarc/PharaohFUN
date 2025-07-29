@@ -1,0 +1,1 @@
+((oryza_sativa_Os03g50260:0.20197,(triticum_aestivum_TraesCS4D03G0080200:0.00054,triticum_aestivum_TraesCS4B03G0097600:0.03856)n2:0.19969)n1:0.14053,(setaria_italica_Seita.9G120200:0.07094,(oropetium_thomaeum_Oropetium_20150105_08031A:0.28593,(sorghum_bicolor_Sobic.001G118500:0.15465,miscanthus_sinensis_Misin02G096300:0.1062)n5:0.03813)n4:0.0307)n3:0.14053)n0;

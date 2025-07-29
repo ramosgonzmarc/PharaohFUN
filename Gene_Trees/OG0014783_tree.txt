@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpAzora_G2736:0.40404,(malus_domestica_MD16G1192400:0.44015,(vitis_vinifera_VIT_200s1682g00010:0.00054,(cinnamomum_kanehirae_CKAN_00933100:0.1731,(ginkgo_biloba_Gb_24538:0.0279,(ginkgo_biloba_Gb_24537:0.01668,ginkgo_biloba_Gb_24539:0.00055)n5:0.00054)n4:1.12208)n3:0.26542)n2:0.45671)n1:0.40404)n0;

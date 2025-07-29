@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr14g4182:0.359725,((welwitschia_mirabilis_Wmi_16455:0.16886,(cycas_panzhihuaensis_CYCAS_001624:0.59636,cycas_panzhihuaensis_CYCAS_001636:0.37582)n3:0.37102)n2:0.21432,(alsophila_spinulosa_Aspi01Gene47231:0.03921,alsophila_spinulosa_Aspi01Gene47232:0.00053)n4:0.4814)n1:0.359725)n0;

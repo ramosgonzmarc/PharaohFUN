@@ -1,0 +1,1 @@
+((desmodesmus_armatus_Desar.472897:1.26324,(ostreobium_quekettii_CAD7704907:0.82108,bryopsis_sp_Bsp_GMH39460:0.63575)n2:0.19709)n1:0.362105,((cymbomonas_tetramitiformis_KAK3271603:0.0257,cymbomonas_tetramitiformis_KAK3285174:0.00055)n4:0.00054,(cymbomonas_tetramitiformis_KAK3248726:0.00239,cymbomonas_tetramitiformis_KAK3249788:0.00238)n5:0.01193)n3:0.362105)n0;

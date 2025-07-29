@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle3c04200:0.42104,((taxus_chinensis_KI387_025401:0.00697,taxus_chinensis_KI387_019444:0.00886)n2:0.26229,(abies_alba_AALBA5B088481:0.12036,setaria_italica_Seita.8G129000:1.02345)n3:0.06534)n1:0.42104)n0;

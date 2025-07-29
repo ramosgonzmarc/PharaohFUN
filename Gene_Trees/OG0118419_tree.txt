@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_00359:0.21531,(phaseolus_acutifolius_Phacu.009G009200:0.51744,(asparagus_officinalis_AsparagusV1_10.582:0.89396,ananas_comosus_Aco008344:0.28989)n2:0.19008)n1:0.21531)n0;

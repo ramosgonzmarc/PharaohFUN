@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_ChrspC216753S00727:0.00055,chlorokybus_atmophyticus_ChrspC216775S00728:0.06798)n1:0.3021,(amaranthus_hypochondriacus_AH023774:0.56672,(ceratopteris_richardii_Ceric.1Z317800:0.44913,zygnema_circumcarinatum1559_ZcUTEX1559_09833:1.25748)n3:0.17112)n2:0.3021)n0;

@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr20g53:0.1134,(sequoia_sempervirens_SESE_042008:0.27797,(gossypium_hirsutum_Gohir.A04G133350:0.62441,saponaria_officinalis_Sapof.01G097200:0.54458)n2:0.07913)n1:0.1134)n0;

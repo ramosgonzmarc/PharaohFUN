@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_12939:0.660235,((selaginella_moellendorffii_Smoe_418596:0.03625,selaginella_moellendorffii_Smoe_415618:0.00353)n2:0.89151,(marchantia_polymorpha_Mp1g01570:0.04898,marchantia_paleacea_Mapa_008665:0.05301)n3:0.55134)n1:0.660235)n0;

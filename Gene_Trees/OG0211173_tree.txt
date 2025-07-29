@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.32064:0.10351,(arachis_hypogaea_arahy_HG9IL5:0.56859,arachis_hypogaea_arahy_3B7DKZ:0.053631)n2:0.005959)n1:0.017215,cicer_arietinum_Ca_13735:0.57189)n0;

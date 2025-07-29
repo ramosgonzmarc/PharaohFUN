@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA65G0232:0.53229,(huperzia_asiatica_HaB08G0493:0.0268,huperzia_asiatica_HaB28G0691:0.02888)n2:0.53193)n1:0.207555,(isoetes_sinensis_IsiChr5g2420:0.11113,(isoetes_sinensis_IsiChr3g317:0.1346,isoetes_sinensis_IsiChr18g5019:0.01408)n4:0.00246)n3:0.207555)n0;

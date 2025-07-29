@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.31G035800:0.70525,(adiantum_capillus_Adc28445:0.06411,adiantum_capillus_Adc26140:0.09696)n2:0.21589)n1:0.126165,(alsophila_spinulosa_Aspi01Gene41121:0.0667,alsophila_spinulosa_Aspi01Gene41123:0.07911)n3:0.126165)n0;

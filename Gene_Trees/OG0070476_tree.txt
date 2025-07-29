@@ -1,0 +1,1 @@
+(thlaspi_arvense_TaMN106.3G176800:0.409945,(capsella_grandiflora_Cagra.1954s0013:0.2395,(boechera_stricta_Bostr.19424s0506:0.07851,(arabidopsis_thaliana_AT3G21450:0.18732,(arabidopsis_lyrata_Arlyr.AL3G35520:0.13333,arabidopsis_lyrata_Arlyr.AL4G16750:0.092277)n4:0.010253)n3:0.03195)n2:0.02521)n1:0.409945)n0;

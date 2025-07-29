@@ -1,0 +1,1 @@
+(olea_europaea_Oeu028504:0.2126,(eucalyptus_grandis_Eucgr.H05083:0.16063,(arachis_hypogaea_arahy_7HGL4D:0.22378,cucumis_sativus_Cucsa.c318880g01:0.23894)n2:0.57567)n1:0.2126)n0;

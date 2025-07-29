@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM052_0082:0.40787,(medicago_truncatula_Medtr0022s0360:0.93189,((vaccinium_darrowii_Vadar_g45270:0.26185,vaccinium_darrowii_Vadar_g24995:0.06244)n3:0.34402,(vaccinium_darrowii_Vadar_g28436:0.20397,vaccinium_darrowii_Vadar_g15697:0.45712)n4:0.39365)n2:0.47297)n1:0.40787)n0;

@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_PJJG56:0.39596,((eucalyptus_grandis_Eucgr.K03440:0.49643,corymbia_citriodora_Cocit.K0785:0.20007)n2:0.4238,(gossypium_raimondii_Gorai.004G053400:0.00055,(gossypium_hirsutum_Gohir.A08G043750:0.00054,gossypium_hirsutum_Gohir.D08G053366:0.044208)n4:0.004912)n3:0.04671)n1:0.39596)n0;

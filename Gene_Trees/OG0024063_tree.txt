@@ -1,0 +1,1 @@
+((zea_mays_Zm00001d008181:0.92412,(panicum_hallii_Pahal.5G402800:0.26421,miscanthus_sinensis_Misin02G405500:0.90918)n2:0.34863)n1:0.07814,(brachypodium_distachyon_Bradi1g69048:0.90336,oryza_sativa_Os03g12670:0.40535)n3:0.07814)n0;

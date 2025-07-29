@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00049_0160:0.84041,picochlorum_soloecismus_NSC_00499:0.75599)n1:0.080835,((mesotaenium_endlicherianum_ME000129S00339:0.41159,mesostigma_viride296_Mevir.Mv16922:0.6768)n3:0.25301,(pedinophyceae_sp_Pesp.9460514:0.94251,(myrmecia_bisecta_Mybis.KAK9816594:0.36492,trebouxia_sp_FRX49_03052:0.55231)n5:0.16868)n4:0.10357)n2:0.080835)n0;

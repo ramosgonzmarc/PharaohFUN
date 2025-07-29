@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g32470:0.397085,(saponaria_officinalis_Sapof.01G085800:0.97327,(saponaria_officinalis_Sapof.09G101200:0.01327,(saponaria_officinalis_Sapof.04G168600:0.02132,(saponaria_officinalis_Sapof.08G061800:0.014,(saponaria_officinalis_Sapof.06G028800:0,saponaria_officinalis_Sapof.09G187600:0)n5:0.00055)n4:0.00054)n3:0.00071)n2:0.69003)n1:0.397085)n0;

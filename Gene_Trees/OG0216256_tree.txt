@@ -1,0 +1,1 @@
+((solanum_tuberosum_Soltu.12G017340:0.07901,solanum_tuberosum_Soltu.12G017330:0.09305)n1:0.38322,(amaranthus_hypochondriacus_AH007491:1.01648,(amaranthus_hypochondriacus_AH012419:0.19832,amaranthus_hypochondriacus_AH007493:0.40272)n3:0.37681)n2:0.38322)n0;

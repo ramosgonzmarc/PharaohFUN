@@ -1,0 +1,1 @@
+((sequoia_sempervirens_SESE_074725:0.6221,(fragaria_vesca_FvH4_6g36271:0.53051,manihot_esculenta_Manes.10G094466:1.03147)n2:0.2382)n1:0.061375,(alsophila_spinulosa_Aspi01Gene42810:0.00054,alsophila_spinulosa_Aspi01Gene56688:0.04844)n3:0.061375)n0;

@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.014G059701:0.285235,(carya_illinoinensis_Caril.13G032500:0.38665,(prunus_persica_Prupe.2G139800:0.27837,prunus_persica_Prupe.2G139700:0.42319)n2:0.40903)n1:0.285235)n0;

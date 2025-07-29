@@ -1,0 +1,1 @@
+(setaria_italica_Seita.7G301900:0.457915,(alsophila_spinulosa_Aspi01Gene20199:0.08543,((alsophila_spinulosa_Aspi01Gene20193:0,alsophila_spinulosa_Aspi01Gene20195:0)n3:0.00952,alsophila_spinulosa_Aspi01Gene20200:0.01304)n2:0.08997)n1:0.457915)n0;

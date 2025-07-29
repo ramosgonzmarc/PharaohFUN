@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3259411:0.52554,(asterochloris_glomerata_Astgl_g9532:0.38759,(helicosporidium_sp_Helsp_g3101:0.99215,trebouxia_sp_FRX49_03804:0.29977)n2:0.23468)n1:0.52554)n0;

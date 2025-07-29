@@ -1,0 +1,1 @@
+(micromonas_commoda_Micom.065007:0.04332,(micromonas_commoda_Micom.059735:0.00055,((micromonas_commoda_Micom.065015:0.08998,micromonas_commoda_Micom.055436:1.43611)n3:0.06437,micromonas_commoda_Micom.055435:0.84007)n2:0.00053)n1:0.04332)n0;

@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_028767:0.517435,(solanum_lycopersicum_Solyc07g053110:0.37783,((malus_domestica_MD10G1207900:0.17919,fragaria_vesca_FvH4_3g43370:0.47365)n3:0.3681,(arabidopsis_thaliana_AT1G61475:0.05801,(boechera_stricta_Bostr.10040s0048:0.51609,boechera_stricta_Bostr.10040s0040:0.350163)n5:0.038907)n4:0.1622)n2:0.43496)n1:0.517435)n0;

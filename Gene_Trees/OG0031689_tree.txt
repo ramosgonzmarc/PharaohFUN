@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_27650:0.28084,(arabidopsis_thaliana_AT3G63255:0.47109,(ananas_comosus_Aco005411:0.40837,ananas_comosus_Aco005203:0.21087)n2:0.02343)n1:0.13396)n0;

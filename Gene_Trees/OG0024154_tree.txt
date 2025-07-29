@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr4g1085:0.23071,isoetes_sinensis_IsiChr3g1102:0.01122)n1:1.02377,(azolla_filiculoides_Azfi_s0111.g045664:0.21026,(ceratopteris_richardii_Ceric.30G033300:0.10924,adiantum_capillus_Adc08354:0.14766)n3:0.08633)n2:1.02377)n0;

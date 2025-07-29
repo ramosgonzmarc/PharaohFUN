@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9462236:0.58814,(raphidocelis_subcapitata_Rsub_08505:0.55527,(desmodesmus_armatus_Desar.436303:0.78541,(volvox_carteri_Vocar.0009s0251:0.4579,(gonium_pectorale_Gopec.09403:0.27569,(chlamydomonas_reinhardtii_Cre09.g395473_4532:0.09565,chlamydomonas_incerta_Chincg07528:0.09384)n5:0.2894)n4:0.05172)n3:0.41438)n2:0.11016)n1:0.58814)n0;

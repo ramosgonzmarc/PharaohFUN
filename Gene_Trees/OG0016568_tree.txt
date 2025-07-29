@@ -1,0 +1,1 @@
+(((vitis_vinifera_VIT_214s0060g02612:0.16255,vitis_vinifera_VIT_214s0060g02596:0.04961)n2:0.54712,(trifolium_pratense_Trpra.32337:0.02436,trifolium_pratense_Trpra.20350:0.41976)n3:0.49037)n1:0.53793,(oryza_sativa_Os06g08760:0.37344,(oryza_sativa_Os12g13370:0.03311,(oryza_sativa_Os12g12870:0.03277,oryza_sativa_Os11g17490:0.02756)n6:0.02138)n5:0.40379)n4:0.53793)n0;

@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.A12G006300:1.36423,miscanthus_sinensis_Misin08G307000:0.74412)n1:0.159375,(triticum_aestivum_TraesCS6B03G1305400:0.35904,(amaranthus_hypochondriacus_AH004810:0.36614,((aquilegia_coerulea_Aqcoe3G383800:0.10759,aquilegia_coerulea_Aqcoe3G383700:0.11907)n5:0.46284,lactuca_sativa_Lsat_gn_8_67941:0.57432)n4:0.17205)n3:0.08302)n2:0.159375)n0;

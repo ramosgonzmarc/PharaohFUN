@@ -1,0 +1,1 @@
+((triticum_aestivum_TraesCS2B03G0474400:0.53433,(((sorghum_bicolor_Sobic.002G264900:0.04526,(miscanthus_sinensis_Misin04G247900:0.01542,miscanthus_sinensis_Misin03G226700:0.09331)n5:0.01482)n4:0.29346,oryza_sativa_Os05g23800:0.22633)n3:0.0406,miscanthus_sinensis_Misin04G159200:0.422325)n2:0.046925)n1:0.08737,eleusine_coracana_Elcor.6AG0529800:0.23402)n0;

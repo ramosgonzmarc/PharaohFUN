@@ -1,0 +1,1 @@
+(riccia_fluitans_R1flu_010834:0.204415,(salvinia_cucullata_Sacu_s0004.g002377:0.77257,(isoetes_sinensis_IsiChr22g823:0.40949,(sequoia_sempervirens_SESE_033586:0.03148,sequoiadendron_giganteum_SEGI_34408:0.00054)n3:0.57561)n2:0.18537)n1:0.204415)n0;

@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9808886:0.534185,(cymbomonas_tetramitiformis_KAK3246964:0.51833,(cymbomonas_tetramitiformis_KAK3274029:0.02783,cymbomonas_tetramitiformis_KAK3275321:0.00055)n2:1.17704)n1:0.534185)n0;

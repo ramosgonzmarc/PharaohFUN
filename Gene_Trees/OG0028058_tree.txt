@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.2241963:0.55627,(tetraselmis_striata_TSEL_003112:0.66741,(tetraselmis_striata_TSEL_000141:0.00892,tetraselmis_striata_TSEL_015447:0.01141)n2:0.29218)n1:0.55627)n0;

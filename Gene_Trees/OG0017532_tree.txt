@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe3G095900:0,(aquilegia_coerulea_Aqcoe3G095200:0,(aquilegia_coerulea_Aqcoe3G093900:0.57136,(aquilegia_coerulea_Aqcoe3G090500:0.63886,aquilegia_coerulea_Aqcoe3G095000:0.28238)n3:0.6215)n2:0.27423)n1:0)n0;

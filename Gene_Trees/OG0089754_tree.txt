@@ -1,0 +1,1 @@
+((elliptochloris_bilobata_Elbil.KAK9840966:0.70648,myrmecia_bisecta_Mybis.KAK9808966:0.63608)n1:0.407065,(chromochloris_zofingiensis_Cz03g34240:0.19892,(desmodesmus_armatus_Desar.138650:0.30078,scenedesmus_obliquus_Sobl_g05653:0.20697)n3:0.14629)n2:0.407065)n0;

@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_001371:0.158835,(picea_abies_Pab_645231g0040:0.40509,(gnetum_montanum_TnS000355203t05:1.36333,sequoiadendron_giganteum_SEGI_39299:0.34377)n2:0.08966)n1:0.158835)n0;

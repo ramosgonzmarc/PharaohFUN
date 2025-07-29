@@ -1,0 +1,1 @@
+(((funaria_hygrometrica_Fuhyg.18291:0.20064,pleurozium_schreberi_Plsch.02877:0.25292)n2:0.33438,((sphagnum_fallax_Sphfalx17G104500:0.10531,sphagnum_fallax_Sphfalx06G058300:0.152145)n4:0.016905,sphagnum_fallax_Sphfalx10G069400:0.440523)n3:0.048947)n1:0.140695,ceratodon_purpureus_CepurR40.12G132200:2.17606)n0;

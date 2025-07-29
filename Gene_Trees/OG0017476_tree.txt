@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S6G024400:0.172315,(anthoceros_agrestis_AnagrOXF.S1G654100:0.21294,(anthoceros_agrestis_AnagrOXF.S6G170500:0.00053,(anthoceros_agrestis_AnagrOXF.S5G112800:0.66501,(anthoceros_agrestis_AnagrOXF.S3G410800:0.89194,anthoceros_agrestis_AnagrOXF.S6G149100:0.04384)n4:0.64079)n3:0.11913)n2:0.29582)n1:0.172315)n0;

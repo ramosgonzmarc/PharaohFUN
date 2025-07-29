@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM078_0026:0.805305,((cymbomonas_tetramitiformis_KAK3266334:0.00055,cymbomonas_tetramitiformis_KAK3280698:0.00055)n2:0.01592,(cymbomonas_tetramitiformis_KAK3280699:0.00055,cymbomonas_tetramitiformis_KAK3266335:0.00054)n3:0.00054)n1:0.805305)n0;

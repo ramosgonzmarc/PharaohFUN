@@ -1,0 +1,1 @@
+(picea_abies_Pab_23113g0010:0.205725,(sequoiadendron_giganteum_SEGI_27363:0.18987,(taxus_chinensis_KI387_015338:0.017,(taxus_chinensis_KI387_028525:0.00055,taxus_chinensis_KI387_025210:0.00055)n3:0.00055)n2:1.20895)n1:0.205725)n0;

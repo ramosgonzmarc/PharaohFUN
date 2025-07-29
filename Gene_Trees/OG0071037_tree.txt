@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaScaf0634:0.455445,(trebouxia_sp_FRX49_00648:0.56244,(asterochloris_glomerata_Astgl_g571:0.71329,(apatococcus_lobatus_Aplob.KAK9816349:0.34567,myrmecia_bisecta_Mybis.KAK9830573:0.45463)n3:0.29569)n2:0.12612)n1:0.455445)n0;

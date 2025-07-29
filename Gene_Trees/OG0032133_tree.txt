@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi1g64350:0.061385,(setaria_italica_Seita.9G427700:0.04442,(zea_mays_Zm00001d047625:0.07932,(sorghum_bicolor_Sobic.001G394250:0.04264,miscanthus_sinensis_Misin02G366800:0.0397)n3:0.02346)n2:0.07613)n1:0.061385)n0;

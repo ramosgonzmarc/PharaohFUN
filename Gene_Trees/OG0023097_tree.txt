@@ -1,0 +1,1 @@
+(chlamydomonas_incerta_Chincg10890:0.376915,((eleusine_coracana_Elcor.7AG0570140:0.95304,schrenkiella_parvula_Scpar6g03510:1.02557)n2:0.26395,(alsophila_spinulosa_Aspi01Gene56216:0.11561,(alsophila_spinulosa_Aspi01Gene10585:0.2746,alsophila_spinulosa_Aspi01Gene50767:0.2018)n4:0.52912)n3:0.13975)n1:0.376915)n0;

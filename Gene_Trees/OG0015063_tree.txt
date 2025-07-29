@@ -1,0 +1,1 @@
+(micromonas_pusilla_Mpus_53887:0.217365,((micromonas_pusilla_Mpus_184019:0.71432,(micromonas_pusilla_Mpus_191269:0.50696,micromonas_pusilla_Mpus_191302:0.72561)n3:0.38528)n2:0.79536,(micromonas_pusilla_Mpus_57483:0.5054,(micromonas_pusilla_Mpus_53888:0.88973,micromonas_pusilla_Mpus_122105:0.16133)n5:0.14973)n4:0.18993)n1:0.217365)n0;

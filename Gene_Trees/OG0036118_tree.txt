@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr11g1356:0.42683,(eucalyptus_grandis_Eucgr.J02063:0.15405,(miscanthus_sinensis_Misin16G165000:0.52554,zea_mays_Zm00001d047788:0.28606)n2:0.14961)n1:0.42683)n0;

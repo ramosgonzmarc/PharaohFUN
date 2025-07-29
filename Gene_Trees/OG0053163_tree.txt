@@ -1,0 +1,1 @@
+(brassica_rapa_Brara.K01894:0.51155,(abies_alba_AALBA5B729015:0.07975,(picea_abies_Pab_14950g0010:0.02747,picea_abies_Pab_15269g0010:0.11057)n2:0.1202)n1:0.51155)n0;

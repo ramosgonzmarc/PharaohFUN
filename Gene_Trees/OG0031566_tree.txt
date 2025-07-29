@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Smoe_402414:0.39312,((arabidopsis_thaliana_AT2G33705:0.24674,saponaria_officinalis_Sapof.14G044000:0.88574)n2:0.12018,(arabidopsis_lyrata_Arlyr.AL3G48110:0.93498,arabidopsis_lyrata_Arlyr.AL4G24010:0.726471)n3:0.080719)n1:0.25498)n0;

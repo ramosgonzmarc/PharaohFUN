@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe6G109900:0.25769,(vaccinium_darrowii_Vadar_g46225:0.83763,(malus_domestica_MD05G1233400:0.16053,(malus_domestica_MD05G1233100:0.02752,malus_domestica_MD05G1233300:0.01311)n3:0.40568)n2:0.32142)n1:0.25769)n0;

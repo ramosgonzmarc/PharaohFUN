@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.04886:0.184665,(gonium_pectorale_Gopec.14568:0.41794,(gonium_pectorale_Gopec.13230:0.21401,gonium_pectorale_Gopec.13233:0.56412)n2:0.06752)n1:0.184665)n0;

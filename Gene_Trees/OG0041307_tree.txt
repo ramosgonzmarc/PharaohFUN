@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle3c05103:0.038,(ceratodon_purpureus_CepurR40.3G233200:0.14958,(pleurozium_schreberi_Plsch.17533:0.12927,(physcomitrium_patens_Pp6c24_1040V6:0.13729,funaria_hygrometrica_Fuhyg.01152:0.11834)n3:0.41629)n2:0.05697)n1:0.038)n0;

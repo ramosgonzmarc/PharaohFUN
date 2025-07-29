@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_30807:0.12784,ginkgo_biloba_Gb_19017:0.46763)n1:0.243975,(populus_trichocarpa_Potri.002G116750:0.36973,(malus_domestica_MD02G1207700:0.33051,ananas_comosus_Aco013862:0.42172)n3:0.41205)n2:0.243975)n0;

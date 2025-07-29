@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00080g058:0.46435,(theobroma_cacao_Thecc1EG031496:0.35041,(gossypium_raimondii_Gorai.013G168200:0.01342,(gossypium_hirsutum_Gohir.A13G145500:0.03924,gossypium_hirsutum_Gohir.D13G150500:0.000495)n3:5.5e-05)n2:0.063)n1:0.46435)n0;

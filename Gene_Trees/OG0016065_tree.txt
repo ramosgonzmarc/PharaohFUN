@@ -1,0 +1,1 @@
+(((chloropicon_primus_Chlpr_g394:0.50661,(chloropicon_primus_Chlpr_g4026:0,chloropicon_primus_Chlpr_g4027:0)n3:0.36882)n2:0.57761,(prasinoderma_coloniale_PRCOL_00003171:0.29001,(prasinoderma_coloniale_PRCOL_00005384:0.11663,prasinoderma_coloniale_PRCOL_00004827:0.31353)n5:0.170973)n4:0.018997)n1:0.133205,micromonas_commoda_Micom.109117:0.88305)n0;

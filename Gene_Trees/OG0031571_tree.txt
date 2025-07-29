@@ -1,0 +1,1 @@
+((capsella_grandiflora_Cagra.2194s0002:0.06897,capsella_grandiflora_Cagra.19032s0001:0.14685)n1:0.265965,(arabidopsis_thaliana_AT2G12945:0.31563,arabidopsis_thaliana_AT3G42160:0.31878)n2:0.265965)n0;

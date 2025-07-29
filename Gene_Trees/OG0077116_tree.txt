@@ -1,0 +1,1 @@
+(dioscorea_alata_Dioal.10G084200:0.46679,(brachypodium_distachyon_Bradi3g45245:0.30349,(miscanthus_sinensis_Misin08G157500:0.08332,(zea_mays_Zm00001d050672:0.20415,setaria_italica_Seita.1G186000:0.30453)n3:0.0528)n2:0.30269)n1:0.46679)n0;

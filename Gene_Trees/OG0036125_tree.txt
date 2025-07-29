@@ -1,0 +1,1 @@
+(cucumis_sativus_Cucsa.c056150g01:0.530955,(corymbia_citriodora_Cocit.K0358:0.0524,(eucalyptus_grandis_Eucgr.C03614:0.13565,eucalyptus_grandis_Eucgr.C03367:0.06292)n2:0.10545)n1:0.530955)n0;

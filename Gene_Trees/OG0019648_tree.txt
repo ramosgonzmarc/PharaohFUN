@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene63720:0.42176,(((physcomitrium_patens_Pp6c3_7370V6:0.47755,marchantia_paleacea_Mapa_015014:1.00425)n3:0.24359,(takakia_lepidozioides_Tle4c01574:0.2692,takakia_lepidozioides_Tle3c01859:0.154305)n4:0.017145)n2:0.08754,(sphagnum_fallax_Sphfalx05G120700:0.64236,sphagnum_fallax_Sphfalx01G139700:0.41182)n5:0.22602)n1:0.42176)n0;

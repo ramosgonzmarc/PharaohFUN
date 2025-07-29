@@ -1,0 +1,1 @@
+((phymatoceros_phymatodes_Phphy.S1G674100:0.69573,(arachis_hypogaea_arahy_TRD1UF:0.06434,arachis_hypogaea_arahy_IP5VZQ:0.00055)n2:0.52896)n1:0.31422,(taxus_chinensis_KI387_022413:0.08723,(eucalyptus_grandis_Eucgr.D01157:0.43259,(phaeomegaceros_chiloensis_Phchi.S2G036100:0.64219,picea_abies_Pab_10434601g0010:0.18404)n5:0.04634)n4:0.02675)n3:0.31422)n0;

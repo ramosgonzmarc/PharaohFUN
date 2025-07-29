@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene01707:0.01771,alsophila_spinulosa_Aspi01Gene47057:0.01526)n1:0.118535,(corylus_avellana_Corav.g21673:0.86473,nymphaea_colorata_Nycol.M00070:0.56347)n2:0.118535)n0;

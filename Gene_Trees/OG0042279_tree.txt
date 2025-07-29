@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0023.g008799:0.09895,salvinia_cucullata_Sacu_s0059.g015068:0.78427)n1:0.404515,(marsilea_vestita_Mvestita_S11g13406:0.23219,(marsilea_vestita_Mvestita_S3g03901:0.00055,marsilea_vestita_Mvestita_S3g03903:0.01316)n3:0.27548)n2:0.404515)n0;

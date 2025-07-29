@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000157S01559:0.393765,(klebsormidium_nitens_kfl00009_0360:0.90909,(klebsormidium_nitens_kfl00058_g44:1.58723,klebsormidium_nitens_kfl00653_0110:0.83939)n2:0.58845)n1:0.393765)n0;

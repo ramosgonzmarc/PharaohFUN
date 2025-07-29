@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp3g00980:0.18984,riccia_fluitans_R1flu_007631:0.19008)n1:0.45264,(cycas_panzhihuaensis_CYCAS_010787:0.00055,cycas_panzhihuaensis_CYCAS_022074:0.01346)n2:0.45264)n0;

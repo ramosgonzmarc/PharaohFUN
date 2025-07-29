@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_08710:0.39375,(bryopsis_sp_Bsp_GMH37050:0.59897,(ostreobium_quekettii_CAD7702770:0.57742,(caulerpa_lentillifera_Caule_g103:0.27633,caulerpa_lentillifera_Caule_g3592:0.22914)n3:0.77253)n2:0.22059)n1:0.39375)n0;

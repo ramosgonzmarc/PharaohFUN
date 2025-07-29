@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.506244:0.612205,((cymbomonas_tetramitiformis_KAK3259143:0,cymbomonas_tetramitiformis_KAK3259184:0)n2:0.94351,((cymbomonas_tetramitiformis_KAK3245839:0,cymbomonas_tetramitiformis_KAK3248882:0)n4:0.27046,(cymbomonas_tetramitiformis_KAK3234616:0.27479,cymbomonas_tetramitiformis_KAK3281159:0.58607)n5:0.01809)n3:0.1951)n1:0.612205)n0;

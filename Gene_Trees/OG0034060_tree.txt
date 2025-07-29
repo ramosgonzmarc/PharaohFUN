@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.30917:1.19339,((picea_abies_Pab_58624g0010:0.51711,picea_abies_Pab_10436819g0010:0.532053)n3:0.059117,(picea_abies_Pab_417722g0010:0.45446,(cycas_panzhihuaensis_CYCAS_021480:0.19879,ginkgo_biloba_Gb_23525:0.20139)n5:0.23464)n4:0.288009)n2:0.032001)n1:0.0528,prunus_persica_Prupe.2G051600:0.89402)n0;

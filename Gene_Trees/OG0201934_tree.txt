@@ -1,0 +1,1 @@
+(asparagus_officinalis_AsparagusV1_04.347:0.233505,(phaseolus_acutifolius_Phacu.001G071400:0.24673,(gossypium_raimondii_Gorai.009G252000:0.44767,(vitis_vinifera_VIT_210s0042g00910:0.08625,chenopodium_quinoa_AUR62002383:1.01654)n3:0.02586)n2:0.10919)n1:0.233505)n0;

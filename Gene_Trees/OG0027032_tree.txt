@@ -1,0 +1,1 @@
+((sphagnum_magellanicum_Sphmag17G061700:0.65222,medicago_truncatula_Medtr7g110630:0.93999)n1:0.124355,((trifolium_pratense_Trpra.11693:0.22519,(physcomitrium_patens_Pp6c20_6390V6:0.4635,physcomitrium_patens_Pp6c1_10270V6:0.72666)n4:0.08074)n3:0.37974,kalanchoe_fedtschenkoi_Kaladp0101s0121:0.44901)n2:0.124355)n0;

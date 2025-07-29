@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.J1756:0.26799,(fragaria_vesca_FvH4_5g26050:0.36313,(malus_domestica_MD05G1342700:0.33674,trifolium_pratense_Trpra.34886:0.46662)n2:0.041)n1:0.26799)n0;

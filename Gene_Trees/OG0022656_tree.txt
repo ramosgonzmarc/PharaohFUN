@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc18724:0.410935,(miscanthus_sinensis_Misin01G471200:0.7057,((chenopodium_quinoa_AUR62016777:0.03306,chenopodium_quinoa_AUR62011280:0.00656)n3:0.65049,(sisymbrium_irio_Siiris2286g00480:1.0209,(ginkgo_biloba_Gb_25425:0.53973,(taxus_chinensis_KI387_014040:0.3008,abies_alba_AALBA5B331279:0.30631)n6:0.03325)n5:0.24944)n4:0.64621)n2:0.11861)n1:0.410935)n0;

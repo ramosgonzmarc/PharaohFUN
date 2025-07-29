@@ -1,0 +1,1 @@
+(schrenkiella_parvula_ScparUn0040_0003:0.481285,(chara_braunii_CBR_g31360:0.057,(chara_braunii_CBR_g56886:0.74147,(chara_braunii_CBR_g11946:0.10799,(chara_braunii_CBR_g13056:0.07229,chara_braunii_CBR_g30146:0.26513)n4:0.04)n3:0.03378)n2:0.03537)n1:0.481285)n0;

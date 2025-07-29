@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00007069:0.44844,(cymbomonas_tetramitiformis_KAK3252461:0.7756,(micromonas_pusilla_Mpus_58130:0.19903,micromonas_commoda_Micom.059298:0.24945)n2:0.24507)n1:0.44844)n0;

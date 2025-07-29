@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10005127m:0.06146,(schrenkiella_parvula_Scpar2g15960:0.04505,(brassica_rapa_Brara.F03251:0.18101,sisymbrium_irio_Siiris27g00540:0.02505)n2:0.03613)n1:0.06146)n0;

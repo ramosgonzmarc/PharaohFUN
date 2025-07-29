@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C3G079700:0.56501,((oryza_sativa_Os07g19020:0.23756,sequoia_sempervirens_SESE_130131:0.35778)n2:0.16733,(huperzia_asiatica_HaA35G0319:0.40952,(lycopodium_clavatum_Lcl_0012655:0.42205,(alsophila_spinulosa_Aspi01Gene31081:0.01833,alsophila_spinulosa_Aspi01Gene72798:0.08158)n5:0.11078)n4:0.05841)n3:0.2441)n1:0.56501)n0;

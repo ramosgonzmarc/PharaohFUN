@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9828614:0.415895,(chromochloris_zofingiensis_Cz15g16030:0.99875,(tetrabaena_socialis_Tesoc.PNH12968:0.48337,(gonium_pectorale_Gopec.09464:0.34915,(chlamydomonas_reinhardtii_Cre10.g447950_4532:0.14011,chlamydomonas_incerta_Chincg02993:0.09226)n4:0.2552)n3:0.14766)n2:0.41218)n1:0.415895)n0;

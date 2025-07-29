@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_010386:0.081385,((amaranthus_hypochondriacus_AH006229:0.65424,(picea_abies_Pab_9929427g0010:0.64777,picea_abies_Pab_2206600g0010:0.088281)n3:0.009809)n2:0.06816,solanum_tuberosum_Soltu.09G021890:0.87117)n1:0.081385)n0;

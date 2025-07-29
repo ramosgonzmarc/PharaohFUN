@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG028021:0.605955,((alsophila_spinulosa_Aspi01Gene71998:0.012,alsophila_spinulosa_Aspi01Gene72000:0.01858)n2:0.05049,(alsophila_spinulosa_Aspi01Gene72018:0.02099,(alsophila_spinulosa_Aspi01Gene72002:0.00792,alsophila_spinulosa_Aspi01Gene72017:0.00055)n4:0.04212)n3:0.03516)n1:0.605955)n0;

@@ -1,0 +1,1 @@
+((olea_europaea_Oeu038575:0.32666,mimulus_guttatus_Migut.A00670:0.67827)n1:0.20247,(coffea_arabica_Coara.069706:0.01028,coffea_arabica_Coara.072833:0.00055)n2:0.20247)n0;

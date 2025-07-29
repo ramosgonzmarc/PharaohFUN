@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz09g23030:0,(chromochloris_zofingiensis_Cz03g14090:0,(chromochloris_zofingiensis_Cz05g07060:1.03691,(chromochloris_zofingiensis_Cz16g06060:0.35102,chromochloris_zofingiensis_Cz19g07180:0.16214)n3:0.04979)n2:0.22612)n1:0)n0;

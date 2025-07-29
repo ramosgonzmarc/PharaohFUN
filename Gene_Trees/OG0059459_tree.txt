@@ -1,0 +1,1 @@
+((lotus_japonicus_Lj2g0015355:0.1542,sisymbrium_irio_Siiris2439g00040:0.33722)n1:0.69246,(alsophila_spinulosa_Aspi01Gene46965:0.14057,(marsilea_vestita_Mvestita_S15g12437:0.89578,(adiantum_capillus_Adc24608:0.31936,azolla_filiculoides_Azfi_s0004.g008617:0.2736)n4:0.23119)n3:0.07241)n2:0.69246)n0;

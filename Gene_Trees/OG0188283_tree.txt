@@ -1,0 +1,1 @@
+((phaeomegaceros_chiloensis_Phchi.S3G169500:0.64272,spirodela_polyrhiza_Spipo28G0009300:0.20524)n1:0.05292,(takakia_lepidozioides_Tle1c04473:0.33181,(solanum_tuberosum_Soltu.02G002990:0.63619,(chenopodium_quinoa_AUR62041120:0.50703,huperzia_asiatica_HaA06G0137:0.78739)n4:0.25922)n3:0.02316)n2:0.05292)n0;

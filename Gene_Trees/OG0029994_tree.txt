@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_08635A:0.14793,(brachypodium_distachyon_Bradi5g09790:0.09632,(aegilops_tauschii_Atau_XP_020195750:0.02358,hordeum_vulgare_Hvul_2HG0167500:0.02584)n2:0.17638)n1:0.14793)n0;

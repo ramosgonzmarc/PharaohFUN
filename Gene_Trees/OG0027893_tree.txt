@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv20798:0.685465,(mesotaenium_kramstae_Mekra.3149038:0.84253,(spirogloea_muscicola_SM000660S20146:0.03157,(spirogloea_muscicola_SM000088S23761:0.05247,spirogloea_muscicola_SM000674S20126:0.03875)n3:0.02955)n2:0.39401)n1:0.685465)n0;

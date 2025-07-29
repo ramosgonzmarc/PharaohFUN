@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL6G49570:0.34299,(arabidopsis_lyrata_Arlyr.AL6G49980:0.13599,arabidopsis_lyrata_Arlyr.AL6G49550:0.20475)n2:0.24557)n1:0.562585,((thlaspi_arvense_TaMN106.6G224200:0.1656,thlaspi_arvense_TaMN106.6G224400:0.14607)n4:0.11378,(schrenkiella_parvula_Scpar6g03400:0.29994,schrenkiella_parvula_Scpar6g03380:0.109854)n5:0.012206)n3:0.0417)n0;

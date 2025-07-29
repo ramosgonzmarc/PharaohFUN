@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.529582:0.557645,((gonium_pectorale_Gopec.06713:0.34593,volvox_carteri_Vocar.0025s0052:0.38004)n2:0.10384,(chlamydomonas_reinhardtii_Cre04.g220000_4532:0.10483,chlamydomonas_incerta_Chincg04799:0.10601)n3:0.20951)n1:0.557645)n0;

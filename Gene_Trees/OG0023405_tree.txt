@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00025g326:0.362935,(sequoiadendron_giganteum_SEGI_40536:0.9085,(ginkgo_biloba_Gb_32809:0.03627,ginkgo_biloba_Gb_18379:0.04949)n2:0.41625)n1:0.362935)n0;

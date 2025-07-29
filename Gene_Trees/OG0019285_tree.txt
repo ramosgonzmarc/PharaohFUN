@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0066s0044:0.27924,(miscanthus_sinensis_Misin01G483800:0.1728,(chromochloris_zofingiensis_Cz16g19210:0.78378,(kalanchoe_fedtschenkoi_Kaladp0102s0108:0.25647,(abies_alba_AALBA5B463619:0.22455,(picea_abies_Pab_19653g0010:0.8901,ginkgo_biloba_Gb_13386:0.19625)n5:0.18155)n4:0.22064)n3:0.29444)n2:0.23673)n1:0.27924)n0;

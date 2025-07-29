@@ -1,0 +1,1 @@
+(diphasiastrum_complanatum_Dicom.20G021500:0.396045,(oropetium_thomaeum_Oropetium_20150105_14155A:0.47972,((corylus_avellana_Corav.g20922:0.18025,kalanchoe_fedtschenkoi_Kaladp0070s0146:0.18574)n3:0.14958,(ananas_comosus_Aco010644:0.27864,ananas_comosus_Aco013982:0.231894)n4:0.025766)n2:0.16407)n1:0.396045)n0;

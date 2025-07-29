@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.044434:0.210505,((eucalyptus_grandis_Eucgr.C01578:1.40328,corymbia_citriodora_Cocit.J0650:0.22451)n2:0.25538,(citrus_sinensis_Cisin.038109:0.02875,poncirus_trifoliata_Ptrif.0004s2673:0.02282)n3:0.29236)n1:0.210505)n0;

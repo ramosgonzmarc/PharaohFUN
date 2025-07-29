@@ -1,0 +1,1 @@
+((ulva_mutabilis_UM014_0071:0.51278,(aquilegia_coerulea_Aqcoe3G072600:0.00675,aquilegia_coerulea_Aqcoe3G072700:0.21035)n2:0.76551)n1:0.04262,(salvinia_cucullata_Sacu_s0030.g010300:0.53604,tetrabaena_socialis_Tesoc.PNH10527:1.25344)n3:0.04262)n0;

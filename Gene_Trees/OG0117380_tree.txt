@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_014849:0.15038,(picea_abies_Pab_98284g0010:0.61653,(ginkgo_biloba_Gb_32779:0.21686,miscanthus_sinensis_Misin16G246100:0.92375)n2:0.43794)n1:0.15038)n0;

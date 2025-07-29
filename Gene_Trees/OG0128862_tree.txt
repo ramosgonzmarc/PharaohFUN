@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr2g1247:0.29657,(boechera_stricta_Bostr.20505s0081:0.50273,(sequoia_sempervirens_SESE_136100:0.03543,sequoiadendron_giganteum_SEGI_00505:0.00054)n2:1.3239)n1:0.29657)n0;

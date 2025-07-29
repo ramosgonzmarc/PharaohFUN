@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g18188:0.552635,(coffea_arabica_Coara.056647:0.2432,(solanum_tuberosum_Soltu.11G021550:0.20263,solanum_tuberosum_Soltu.04G002400:0.13219)n2:1.00882)n1:0.552635)n0;

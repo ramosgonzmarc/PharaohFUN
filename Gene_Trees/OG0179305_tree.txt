@@ -1,0 +1,1 @@
+((citrus_sinensis_Cisin.036805:0.01957,citrus_sinensis_Cisin.041498:0.00055)n1:0.187935,(solanum_lycopersicum_Solyc07g053493:0.3156,(coffea_arabica_Coara.059619:0.76895,(coffea_arabica_Coara.059595:0.05003,coffea_arabica_Coara.059602:0.05268)n4:0.50676)n3:0.06602)n2:0.187935)n0;

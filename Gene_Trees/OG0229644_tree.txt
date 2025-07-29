@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.C81G000400:0,(phaeomegaceros_chiloensis_Phchi.S1G321200:0,(phaeomegaceros_chiloensis_Phchi.S1G320900:0.01146,(phaeomegaceros_chiloensis_Phchi.C81G000100:0.00921,phaeomegaceros_chiloensis_Phchi.S1G320600:0.13708)n3:0.00463)n2:0.00956)n1:0)n0;

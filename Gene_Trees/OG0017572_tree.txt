@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3274712:0.502655,(elliptochloris_bilobata_Elbil.KAK9833428:0.42529,((tetraselmis_striata_TSEL_029565:0.18597,tetraselmis_striata_TSEL_029568:0.09072)n3:0.59837,(chlorella_sorokiniana_Chlso_g7936:0.48945,(asterochloris_glomerata_Astgl_g2046:0.70742,myrmecia_bisecta_Mybis.KAK9814064:0.40164)n5:0.15833)n4:0.10431)n2:0.03877)n1:0.502655)n0;

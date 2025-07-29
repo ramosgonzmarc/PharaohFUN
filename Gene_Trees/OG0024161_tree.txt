@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S6G079700:0.52131,(salvinia_cucullata_Sacu_s0101.g019749:0.4671,(ceratopteris_richardii_Ceric.10G081600:0.29206,ceratopteris_richardii_Ceric.10G081300:0.12799)n2:0.65328)n1:0.52131)n0;

@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00003942:0.491775,(chloropicon_primus_Chlpr_g1831:0.39948,(chlorokybus_atmophyticus_Chrsp32S04978:1.36513,cymbomonas_tetramitiformis_KAK3277214:0.55262)n2:0.2975)n1:0.491775)n0;

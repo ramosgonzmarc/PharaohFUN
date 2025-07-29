@@ -1,0 +1,1 @@
+(((cymbomonas_tetramitiformis_KAK3253814:0,cymbomonas_tetramitiformis_KAK3273121:0)n2:0.00055,(cymbomonas_tetramitiformis_KAK3253815:0,cymbomonas_tetramitiformis_KAK3273122:0)n3:0.05751)n1:0.346645,(pedinophyceae_sp_Pesp.9461132:1.03179,(chloropicon_primus_Chlpr_g6139:0.77235,tetraselmis_striata_TSEL_006385:0.6516)n5:0.1486)n4:0.346645)n0;

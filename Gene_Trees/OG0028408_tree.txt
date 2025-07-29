@@ -1,0 +1,1 @@
+(spirodela_polyrhiza_Spipo10G0024800:0.07776,(vitis_vinifera_VIT_213s0019g03110:0.17429,(vitis_vinifera_VIT_213s0019g03140:0.10912,vitis_vinifera_VIT_213s0019g03080:0.03264)n2:0.01237)n1:0.07776)n0;

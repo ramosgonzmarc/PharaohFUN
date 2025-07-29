@@ -1,0 +1,1 @@
+((vitis_vinifera_VIT_213s0106g00335:0.70683,(oryza_sativa_Os10g02870:0.52894,solanum_lycopersicum_Solyc11g006330:0.39975)n2:0.21003)n1:0.107415,(picea_abies_Pab_325975g0010:0.39893,(ginkgo_biloba_Gb_29346:1.36531,ginkgo_biloba_Gb_15376:0.504513)n4:0.056057)n3:0.21329)n0;

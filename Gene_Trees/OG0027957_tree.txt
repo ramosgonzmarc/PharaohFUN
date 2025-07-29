@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C2G265700:0.62445,(takakia_lepidozioides_Tle2c03777:0.04884,(takakia_lepidozioides_Tle3c01485:0.04489,takakia_lepidozioides_Tle2c00033:0.09704)n2:0.02437)n1:0.62445)n0;

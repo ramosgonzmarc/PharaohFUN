@@ -1,0 +1,1 @@
+(lycopodium_clavatum_Lcl_0000274:0.341425,(alsophila_spinulosa_Aspi01Gene58719:0.33834,(ceratopteris_richardii_Ceric.05G030600:0.462,((corylus_avellana_Corav.g29032:0.3666,(lens_culinaris_Lecul.4g016050:0.49603,medicago_truncatula_Medtr4g115020:0.67209)n5:0.23765)n4:0.12868,manihot_esculenta_Manes.02G218860:1.1866)n3:0.14357)n2:0.10477)n1:0.341425)n0;

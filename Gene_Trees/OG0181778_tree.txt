@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.K01090:0.671345,(solanum_lycopersicum_Solyc01g102320:0.18604,(solanum_tuberosum_Soltu.01G041170:0.5321,(solanum_tuberosum_Soltu.02G002810:0.17755,solanum_tuberosum_Soltu.01G041180:0.03043)n3:0.253917)n2:0.028213)n1:0.10122)n0;

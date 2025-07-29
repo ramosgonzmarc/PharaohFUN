@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.010484:0.40594,coffea_arabica_Coara.044426:0.42193)n1:0.787,(isoetes_sinensis_IsiChr6g3022:0.18142,(isoetes_sinensis_IsiChr3g3602:0.00054,isoetes_sinensis_IsiChr3g3600:0.00055)n3:0.39415)n2:0.787)n0;

@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_025613:0.2089,(abies_alba_AALBA5B156700:0.29684,(sequoia_sempervirens_SESE_116793:0.10975,sequoiadendron_giganteum_SEGI_10564:0.02563)n2:0.43614)n1:0.2089)n0;

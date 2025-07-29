@@ -1,0 +1,1 @@
+(((cycas_panzhihuaensis_CYCAS_019178:0,cycas_panzhihuaensis_CYCAS_019226:0)n2:1.15771,ginkgo_biloba_Gb_02495:0.1338)n1:0.30508,(medicago_truncatula_Medtr2g040760:0.03344,vigna_unguiculata_VigunL073080:0.03001)n3:0.30508)n0;

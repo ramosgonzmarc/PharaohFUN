@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene63532:0.347795,(arabidopsis_lyrata_Arlyr.AL5G10660:0.34809,(ginkgo_biloba_Gb_29321:0.39274,((arachis_hypogaea_arahy_HQFH2P:0,arachis_hypogaea_arahy_RQR7YQ:0)n4:0.41364,musa_acuminata_Muacu.8P19140_001:0.45341)n3:0.13119)n2:0.20527)n1:0.347795)n0;

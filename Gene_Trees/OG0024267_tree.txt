@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00058_0230:0.271385,(chara_braunii_CBR_g49696:0.93032,(mesotaenium_endlicherianum_ME000039S06683:0.58689,(zygnema_cylindricum_Zci1a_40318:0.51771,(zygnema_circumcarinatum_Zci_12503:0.00055,zygnema_circumcarinatum1559_ZcUTEX1559_12480:0.00055)n4:0.29285)n3:0.47808)n2:0.56751)n1:0.271385)n0;

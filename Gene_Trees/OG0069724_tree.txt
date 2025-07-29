@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.016240:0.18142,((arachis_hypogaea_arahy_V4R66N:0.76765,corylus_avellana_Corav.g6257:0.24252)n2:0.22429,(carica_papaya_Capac.c00009g165:0.7336,(arabidopsis_thaliana_AT2G47935:0.16714,sisymbrium_irio_Siiris1717g03200:0.04014)n4:0.47843)n3:0.03104)n1:0.18142)n0;

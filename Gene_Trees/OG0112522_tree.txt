@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.A00598:0.16924,corymbia_citriodora_Cocit.A0555:0.26366)n1:0.64173,(salix_purpurea_Sapur.016G106300:0.11712,(populus_trichocarpa_Potri.006G102900:0.08997,populus_trichocarpa_Potri.016G121650:0.085923)n3:0.009547)n2:0.20511)n0;

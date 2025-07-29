@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene02401:0.107,salvinia_cucullata_Sacu_s0005.g002642:0.56051)n1:0.13275,((isoetes_sinensis_IsiChr7g3516:0.32654,isoetes_sinensis_IsiChr21g2793:0.1995)n3:0.2164,(huperzia_asiatica_HaB16G0342:0.16575,(huperzia_asiatica_HaA06G0003:0.09821,huperzia_asiatica_HaA24G0666:0.08538)n5:1.17798)n4:0.11369)n2:0.13275)n0;

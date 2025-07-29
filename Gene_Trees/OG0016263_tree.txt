@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.2G060000:0.48435,(physcomitrium_patens_Pp6c14_1070V6:0.62767,physcomitrium_patens_Pp6c10_930V6:0.24131)n2:0.14434)n1:0.238785,(cymbomonas_tetramitiformis_KAK3272327:1.49227,(cymbomonas_tetramitiformis_KAK3277989:0.12263,(cymbomonas_tetramitiformis_KAK3250736:0.14028,cymbomonas_tetramitiformis_KAK3252253:0.1352)n5:0.07756)n4:0.63419)n3:0.238785)n0;

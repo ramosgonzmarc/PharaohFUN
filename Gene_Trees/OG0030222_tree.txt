@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.S1G019800:0.38877,((alsophila_spinulosa_Aspi01Gene04755:0.03765,alsophila_spinulosa_Aspi01Gene20001:0.0866)n2:0.32418,(chenopodium_quinoa_AUR62026655:0.52014,sisymbrium_irio_Siiris1261g00010:1.18761)n3:0.11212)n1:0.38877)n0;

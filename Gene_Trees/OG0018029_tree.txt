@@ -1,0 +1,1 @@
+(diphasiastrum_complanatum_Dicom.03G010100:0.46232,(ginkgo_biloba_Gb_35608:0.52784,((cycas_panzhihuaensis_CYCAS_031159:0.02791,cycas_panzhihuaensis_CYCAS_031160:0.05548)n3:0.29241,(sequoiadendron_giganteum_SEGI_34623:0.08076,(sequoia_sempervirens_SESE_000009:0.11545,taxus_chinensis_KI387_002416:0.21191)n5:0.04507)n4:0.29435)n2:0.08305)n1:0.46232)n0;

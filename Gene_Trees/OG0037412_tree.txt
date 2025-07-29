@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF49209:0.3755,(desmodesmus_armatus_Desar.551410:0.69156,(caulerpa_lentillifera_Caule_g3683:0.43282,(ostreobium_quekettii_CAD7697109:0.42599,bryopsis_sp_Bsp_GMH36600:0.3354)n3:0.16513)n2:1.39411)n1:0.3755)n0;

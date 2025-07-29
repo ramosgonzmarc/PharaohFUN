@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g3031:0.86247,(asterochloris_glomerata_Astgl_g9141:0.72197,myrmecia_bisecta_Mybis.KAK9812746:0.94079)n2:0.3936)n1:0.18462,(micromonas_pusilla_Mpus_193905:0.449,micromonas_commoda_Micom.056746:0.53035)n3:0.18462)n0;

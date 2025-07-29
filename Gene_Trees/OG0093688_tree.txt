@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0002s3265:0.30119,(cycas_panzhihuaensis_CYCAS_010186:0.23176,((sequoiadendron_giganteum_SEGI_25754:0.67867,((picea_abies_Pab_10210452g0010:0.02968,picea_abies_Pab_1081639g0010:0.03327)n5:0.24793,picea_abies_Pab_763639g0010:0.474021)n4:0.052669)n3:0.23834,sequoia_sempervirens_SESE_051148:0.45003)n2:0.00546)n1:0.30119)n0;

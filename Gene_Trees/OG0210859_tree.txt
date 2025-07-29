@@ -1,0 +1,1 @@
+((prunus_persica_Prupe.4G060400:0.47069,quercus_rubra_Qurub.05G155000:0.28005)n1:0.116185,(populus_trichocarpa_Potri.019G090900:0.00071,((salix_purpurea_Sapur.011G043900:0.00055,salix_purpurea_Sapur.011G043800:0.03668)n4:0.38759,salix_purpurea_Sapur.019G086400:0.154251)n3:0.017139)n2:0.95079)n0;

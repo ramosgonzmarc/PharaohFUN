@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.S3G058100:0.496605,(phaeomegaceros_chiloensis_Phchi.S6G047100:0.11863,(megaceros_flagellaris_Mefla.S4G052700:0.77142,megaceros_flagellaris_Mefla.S4G053000:0.17598)n2:0.06839)n1:0.496605)n0;

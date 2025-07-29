@@ -1,0 +1,1 @@
+((brassica_rapa_Brara.B02183:0.62583,brassica_rapa_Brara.A03155:0.19368)n1:0.055475,(boechera_stricta_Bostr.12302s0131:0.01499,(boechera_stricta_Bostr.12659s0255:0.06405,boechera_stricta_Bostr.3148s0233:0.29174)n3:0.02694)n2:0.055475)n0;

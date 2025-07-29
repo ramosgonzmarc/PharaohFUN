@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62036390:0.412535,(taxus_chinensis_KI387_039031:0.05193,(ginkgo_biloba_Gb_28947:0.00054,sequoia_sempervirens_SESE_032252:0.38235)n2:0.25966)n1:0.412535)n0;

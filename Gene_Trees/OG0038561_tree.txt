@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.1g024900:0.63397,(ostreobium_quekettii_CAD7700343:0.77429,bryopsis_sp_Bsp_GMH37808:0.63644)n2:0.74337)n1:0.09579,(klebsormidium_nitens_kfl00088_0180:0.48499,trebouxia_sp_FRX49_05294:0.79)n3:0.09579)n0;

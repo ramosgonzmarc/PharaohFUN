@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00638_0090:0.615095,(chloropicon_primus_Chlpr_g8522:0.86112,(tetraselmis_striata_TSEL_021646:0.61567,pedinophyceae_sp_Pesp.9463886:0.83418)n2:0.19877)n1:0.615095)n0;

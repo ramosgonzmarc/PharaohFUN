@@ -1,0 +1,1 @@
+(malus_domestica_MD02G1038600:0.46113,(lens_culinaris_Lecul.4g008790:0.18878,(vigna_unguiculata_Vigun10g038266:0.95949,medicago_truncatula_Medtr3g104215:0.31812)n2:0.08837)n1:0.46113)n0;

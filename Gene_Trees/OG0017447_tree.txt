@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00131g51:0.274005,(solanum_lycopersicum_Solyc12g016000:0.00764,(solanum_lycopersicum_Solyc12g009370:0.01718,(solanum_lycopersicum_Solyc12g016040:0.2859,solanum_lycopersicum_Solyc12g016120:0.04902)n3:0.03029)n2:0.09706)n1:0.274005)n0;

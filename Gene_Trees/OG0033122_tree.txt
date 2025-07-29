@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz07g22140:0.15205,(monoraphidium_minutum_Momin.421827:0.52859,desmodesmus_armatus_Desar.535283:0.63273)n2:0.29718)n1:0.55645,((volvox_carteri_Vocar.0016s0170:0.6371,gonium_pectorale_Gopec.01622:0.13394)n4:0.03957,(chlamydomonas_reinhardtii_Cre12.g499301_4532:0.10371,chlamydomonas_incerta_Chincg12154:0.25609)n5:0.3564)n3:0.55645)n0;

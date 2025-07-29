@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_0_40440:0.182415,(isoetes_sinensis_IsiScaffold325g1:0.19606,(huperzia_asiatica_HaA34G0690:0.00055,huperzia_asiatica_HaScaf1248:0.00055)n2:0.23717)n1:0.182415)n0;

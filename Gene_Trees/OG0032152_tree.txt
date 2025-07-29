@@ -1,0 +1,1 @@
+(olea_europaea_Oeu022566:0.226305,((miscanthus_sinensis_Misin18G154200:0.02999,triticum_aestivum_TraesCS7D03G0581400:0.00054)n2:0.11695,(brachypodium_distachyon_Bradi1g63372:0.02732,setaria_italica_Seita.4G174300:0.08823)n3:0.00054)n1:0.226305)n0;

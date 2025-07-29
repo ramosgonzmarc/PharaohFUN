@@ -1,0 +1,1 @@
+((panicum_hallii_Pahal.3G097100:0.1917,(setaria_italica_Seita.3G060200:0,setaria_italica_Seita.3G041000:0)n2:0.00055)n1:0.12644,(sorghum_bicolor_Sobic.004G326700:0.08027,(miscanthus_sinensis_Misin08G322600:0.03925,miscanthus_sinensis_Misin07G521400:0.0571)n4:0.08581)n3:0.12644)n0;

@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr6g1178:0.00287,isoetes_sinensis_IsiChr5g1214:0.00599)n1:0.799625,((malus_domestica_MD04G1014500:0.42734,((panicum_hallii_Pahal.3G082100:0.06739,setaria_italica_Seita.3G074000:0.0702)n5:0.65463,panicum_hallii_Pahal.2G279900:0.696789)n4:0.077421)n3:0.16431,sisymbrium_irio_Siiris843g01710:1.02573)n2:0.799625)n0;

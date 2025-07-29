@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c10_5570V6:0.01988,funaria_hygrometrica_Fuhyg.21980:0.01245)n1:0.29442,(sphagnum_magellanicum_Sphmag05G016900:0.00714,sphagnum_fallax_Sphfalx05G012800:0.00842)n2:0.29442)n0;

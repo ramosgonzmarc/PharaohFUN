@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3270679:0.387145,((asterochloris_glomerata_Astgl_g6858:0.30519,asterochloris_glomerata_Astgl_g6872:0.2548)n2:0.89937,(asterochloris_glomerata_Astgl_g6867:0.34471,(asterochloris_glomerata_Astgl_g6862:0.19825,asterochloris_glomerata_Astgl_g6865:0.01742)n4:0.46906)n3:0.12197)n1:0.387145)n0;

@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_5g16741:0.65454,((marchantia_polymorpha_Mp1g19760:0.03882,marchantia_paleacea_Mapa_011082:0.01268)n2:0.09036,(riccia_fluitans_R1flu_017357:0.15895,riccia_sorocarpa_Risor.KAL3702530:0.19733)n3:0.23105)n1:0.65454)n0;

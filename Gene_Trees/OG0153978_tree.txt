@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv20945:0.65055,(ostreococcus_mediterraneus_Ostme17g00020:0.81906,(ostreococcus_tauri_ostta15g01570:0.52853,ostreococcus_lucimarinus_Oluc_29440:0.60156)n2:0.22152)n1:0.65055)n0;

@@ -1,0 +1,1 @@
+((vitis_vinifera_VIT_200s2526g00010:0.48476,((abies_alba_AALBA5B821272:0.05005,abies_alba_AALBA5B020044:0.026496)n3:0.002944,abies_alba_AALBA5B012563:0.013176)n2:0.001464)n1:0.018425,(welwitschia_mirabilis_Wmi_03262:0.93524,solanum_tuberosum_Soltu.04G026040:0.96724)n4:0.15569)n0;

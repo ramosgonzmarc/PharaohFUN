@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c12_8700V6:0.24543,(zea_mays_Zm00001d045367:0.78937,(ananas_comosus_Aco000202:0.31142,capsella_grandiflora_Cagra.1695s0008:0.17963)n2:0.5086)n1:0.24543)n0;

@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9811316:0.193875,(trebouxia_sp_FRX49_10049:0.72288,(asterochloris_glomerata_Astgl_g7659:0.11379,asterochloris_glomerata_Astgl_g7667:0.02698)n2:0.53221)n1:0.193875)n0;

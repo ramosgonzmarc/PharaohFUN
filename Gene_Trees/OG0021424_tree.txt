@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_214s0083g00050:0.59224,(malus_domestica_MD07G1055900:0.00054,(malus_domestica_MD07G1055700:0.10279,malus_domestica_MD07G1056500:0.55011)n2:0.33485)n1:0.59224)n0;

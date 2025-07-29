@@ -1,0 +1,1 @@
+((ananas_comosus_Aco003575:0.86137,marchantia_paleacea_Mapa_008776:0.33518)n1:0.04809,((ananas_comosus_Aco004831:0.41399,ananas_comosus_Aco018373:0.19097)n3:0.39536,(marchantia_polymorpha_Mp2g04480:0.10863,marchantia_paleacea_Mapa_003189:0.25996)n4:0.4192)n2:0.04809)n0;

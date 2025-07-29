@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr1g822:0.285885,(corymbia_citriodora_Cocit.C0458:0.40965,(vitis_vinifera_VIT_210s0116g00120:0.97374,(setaria_italica_Seita.1G234100:0.92202,(abies_alba_AALBA5B175089:0.65648,ananas_comosus_Aco028552:0.93899)n4:0.20995)n3:0.13486)n2:0.13377)n1:0.285885)n0;

@@ -1,0 +1,1 @@
+((riccia_fluitans_R1flu_023434:0.22798,riccia_fluitans_R1flu_024817:0.06766)n1:0.395305,(selaginella_moellendorffii_Smoe_417644:0.12113,(selaginella_moellendorffii_Smoe_429427:0.00054,selaginella_moellendorffii_Smoe_429948:0.07485)n3:0.09429)n2:0.395305)n0;

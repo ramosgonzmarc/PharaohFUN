@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr7g116410:0.484125,(funaria_hygrometrica_Fuhyg.07926:0.13324,(physcomitrium_patens_Pp6c8_8800V6:0.06035,(ceratodon_purpureus_CepurR40.3G135900:0.22216,pleurozium_schreberi_Plsch.12095:0.15167)n3:0.23129)n2:0.05676)n1:0.484125)n0;

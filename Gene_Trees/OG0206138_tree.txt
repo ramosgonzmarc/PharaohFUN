@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.A09G098101:0.43045,theobroma_cacao_Thecc1EG041273:0.62195)n1:0.485825,((corymbia_citriodora_Cocit.J0560:0.07009,(corymbia_citriodora_Cocit.E0791:0.03267,corymbia_citriodora_Cocit.J0561:0.04327)n4:0.07893)n3:0.08622,(corymbia_citriodora_Cocit.H3292:0.1465,corymbia_citriodora_Cocit.J0558:0.17033)n5:0.05645)n2:0.485825)n0;

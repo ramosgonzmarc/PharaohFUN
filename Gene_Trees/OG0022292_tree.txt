@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_12932:0.41498,(welwitschia_mirabilis_Wmi_15678:0.11019,(welwitschia_mirabilis_Wmi_19364:0.39683,welwitschia_mirabilis_Wmi_19437:0.42433)n2:0.0652)n1:0.41498)n0;

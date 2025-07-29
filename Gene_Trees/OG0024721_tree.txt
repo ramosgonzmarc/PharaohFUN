@@ -1,0 +1,1 @@
+(picea_abies_Pab_1129886g0010:0.578845,(cinnamomum_kanehirae_CKAN_01290500:0.17623,(cinnamomum_kanehirae_CKAN_01292800:0.62188,cinnamomum_kanehirae_CKAN_01907500:0.29103)n2:0.1985)n1:0.578845)n0;

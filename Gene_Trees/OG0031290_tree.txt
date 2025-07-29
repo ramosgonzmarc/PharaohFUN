@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AnagrOXF.S6G133700:0,anthoceros_agrestis_AnagrOXF.S6G212100:0)n1:0.3701,(phaeoceros_sp_Phsp.C7G135900:0.59518,(notothylas_orbicularis_Noorb.S5G090200:0.63926,notothylas_orbicularis_Noorb.S5G062900:0.565911)n3:0.062879)n2:0.75052)n0;

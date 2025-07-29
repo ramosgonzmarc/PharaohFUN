@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.052656:0.281955,(chenopodium_quinoa_AUR62033435:0.54855,(chenopodium_quinoa_AUR62033436:0.3068,chenopodium_quinoa_AUR62011057:0.05011)n2:0.28003)n1:0.281955)n0;

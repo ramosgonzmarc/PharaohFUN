@@ -1,0 +1,1 @@
+(setaria_italica_Seita.7G029600:0.340425,(sorghum_bicolor_Sobic.006G031000:0.16053,(zea_mays_Zm00001d004130:0.32974,zea_mays_Zm00001d004129:0.303426)n2:0.033714)n1:0.09082)n0;

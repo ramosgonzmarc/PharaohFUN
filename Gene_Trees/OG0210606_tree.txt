@@ -1,0 +1,1 @@
+((manihot_esculenta_Manes.14G011501:0.14908,trifolium_pratense_Trpra.34877:0.98114)n1:0.251535,(quercus_rubra_Qurub.09G204900:0.56335,((linum_usitatissimum_Lus10023134:0.42829,phaseolus_acutifolius_Phacu.011G060900:0.08769)n4:0.30613,(arachis_hypogaea_arahy_SFNX64:0.28479,arachis_hypogaea_arahy_R6QTEJ:0.25686)n5:0.21075)n3:0.72452)n2:0.251535)n0;

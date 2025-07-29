@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AnagrOXF.S2G115000:0.004835,(vitis_vinifera_VIT_210s0092g00320:0.5124,(isoetes_sinensis_IsiChr3g824:0.20044,(alsophila_spinulosa_Aspi01Gene60275:0.1211,lens_culinaris_Lecul.3g067290:1.20941)n3:0.5946)n2:0.86852)n1:0.004835)n0;

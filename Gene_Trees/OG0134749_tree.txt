@@ -1,0 +1,1 @@
+(phaseolus_acutifolius_Phacu.008G023800:0.67676,(malus_domestica_MD01G1127300:0.24176,(fragaria_vesca_FvH4_4g22920:0.09049,((fragaria_vesca_FvH4_7g22260:0.17647,(fragaria_vesca_FvH4_7g17151:0.194,fragaria_vesca_FvH4_7g17120:0.25005)n5:0.14872)n4:0.04624,fragaria_vesca_FvH4_5g36780:0.2673)n3:0.02673)n2:0.00297)n1:0.01669)n0;

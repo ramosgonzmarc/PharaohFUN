@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_025337:0.337175,(abies_alba_AALBA5B152316:0.1115,(picea_abies_Pab_73540g0010:0.12615,((picea_abies_Pab_329530g0010:0.19629,(picea_abies_Pab_10434161g0010:0.05306,picea_abies_Pab_99297g0010:0.13986)n5:0.10021)n4:0.04682,(picea_abies_Pab_89694g0010:0.10532,picea_abies_Pab_89936g0010:0.149877)n6:0.0149877)n3:0.00149877)n2:0.00016653)n1:0.06299)n0;

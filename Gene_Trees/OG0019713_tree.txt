@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00099g16:0.99125,((selaginella_moellendorffii_Smoe_42426:0.67257,arachis_hypogaea_arahy_UMMP57:0.89847)n3:0.10021,(selaginella_moellendorffii_Smoe_413375:0.06808,selaginella_moellendorffii_Smoe_423528:0.00054)n4:1.1687)n2:0.129855)n1:0.229805,quercus_rubra_Qurub.11G052900:1.20957)n0;

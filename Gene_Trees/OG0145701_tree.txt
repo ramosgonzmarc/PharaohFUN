@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.S1G331100:0.602345,(olea_europaea_Oeu050319:0.00055,(gnetum_montanum_TnS000033869t06:0.26074,picea_abies_Pab_146382g0010:0.81799)n2:0.01612)n1:0.602345)n0;

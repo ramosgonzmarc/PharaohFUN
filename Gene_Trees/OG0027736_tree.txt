@@ -1,0 +1,1 @@
+(hordeum_vulgare_Hvul_6HG0552580:0.50792,(spirogloea_muscicola_SM000065S20155:0.00054,(spirogloea_muscicola_SM000227S07438:0.04903,spirogloea_muscicola_SM000243S08589:0.0497)n2:0.05972)n1:0.50792)n0;

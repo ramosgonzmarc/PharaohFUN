@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.1Z003600:0.72469,(picea_abies_Pab_939384g0010:0.42174,(abies_alba_AALBA5B1082076:0.21907,amaranthus_hypochondriacus_AH017692:0.39349)n2:0.29278)n1:0.72469)n0;

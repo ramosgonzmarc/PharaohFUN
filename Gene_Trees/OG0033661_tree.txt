@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_08712:0.446665,(gonium_pectorale_Gopec.03709:0.6981,(chromochloris_zofingiensis_Cz07g12060:0.53209,(dunaliella_salina_Dusal.0418s00008:0.85992,(monoraphidium_minutum_Momin.520549:0.50622,scenedesmus_obliquus_Sobl_g05647:0.40622)n4:0.07339)n3:0.13796)n2:0.12483)n1:0.446665)n0;

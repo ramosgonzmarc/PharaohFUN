@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B557721:0.20999,(malus_domestica_MD11G1202900:0.18051,(lens_culinaris_Lecul.3g075760:0.31123,zea_mays_Zm00001d000444:1.19419)n2:0.10681)n1:0.20999)n0;

@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_204s0043g00660:0.20843,(aquilegia_coerulea_Aqcoe1G306800:0.00054,(aquilegia_coerulea_Aqcoe5G186600:0.05676,aquilegia_coerulea_Aqcoe3G120900:0.05886)n2:0.30181)n1:0.20843)n0;

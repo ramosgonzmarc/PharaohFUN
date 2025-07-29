@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta01g02200:0.24693,(micromonas_commoda_Micom.058352:0.55078,(micromonas_commoda_Micom.098698:0.78238,micromonas_commoda_Micom.101975:0.81879)n2:0.06817)n1:0.24693)n0;

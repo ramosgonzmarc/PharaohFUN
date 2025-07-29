@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_36031:0.242845,(vaccinium_darrowii_Vadar_g41574:0.49308,(corylus_avellana_Corav.g25885:0.79609,(brachypodium_distachyon_Bradi2g22787:0.1465,(brachypodium_distachyon_Bradi4g37338:0.17769,brachypodium_distachyon_Bradi1g05996:0.19505)n4:0.1047)n3:0.34642)n2:0.0406)n1:0.242845)n0;

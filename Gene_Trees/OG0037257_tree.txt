@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF42656:0.42672,gracilariopsis_chorda_PXF40522:0.43712)n1:0.649795,(gonium_pectorale_Gopec.10244:0.04723,(gonium_pectorale_Gopec.15997:0.21192,gonium_pectorale_Gopec.05746:0.07645)n3:0.06518)n2:0.649795)n0;

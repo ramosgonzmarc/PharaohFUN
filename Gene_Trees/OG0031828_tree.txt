@@ -1,0 +1,1 @@
+(elliptochloris_bilobata_Elbil.KAK9837137:0.19909,(myrmecia_bisecta_Mybis.KAK9824531:0.38805,(trebouxia_sp_FRX49_07430:0.47218,(asterochloris_glomerata_Astgl_g8651:0.00055,asterochloris_glomerata_Astgl_g8652:0.00053)n3:0.26544)n2:0.73601)n1:0.19909)n0;

@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub_58722:0.487505,(gonium_pectorale_Gopec.08160:0.47363,(dunaliella_salina_Dusal.0925s00003:0.95535,(chlamydomonas_reinhardtii_Cre17.g715801_4532:0.1971,chlamydomonas_incerta_Chincg03420:0.19596)n3:0.23783)n2:0.14361)n1:0.487505)n0;

@@ -1,0 +1,1 @@
+(eucalyptus_grandis_Eucgr.A01403:0.3479,(ginkgo_biloba_Gb_26960:0.15041,(cycas_panzhihuaensis_CYCAS_019533:0.24604,(cycas_panzhihuaensis_CYCAS_029600:0.62422,cycas_panzhihuaensis_CYCAS_029825:0.00054)n3:0.13081)n2:0.68165)n1:0.3479)n0;

@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene56932:0.11598,adiantum_capillus_Adc29780:0.56545)n1:0.19276,(arachis_hypogaea_arahy_52UZQ5:0.6268,(sequoiadendron_giganteum_SEGI_11397:0.333,(cycas_panzhihuaensis_CYCAS_010071:0.92813,ginkgo_biloba_Gb_17801:0.10663)n4:0.11457)n3:0.3703)n2:0.19276)n0;

@@ -1,0 +1,1 @@
+(chlorella_sorokiniana_Chlso_g5319:0.59202,(spirogloea_muscicola_SM000233S07971:0.52509,(mesotaenium_kramstae_Mekra.2550056:0.44095,(zygnema_circumcarinatum_Zci_02823:0.34592,zygnema_cylindricum_Zci1a_23506:0.35765)n3:0.18589)n2:0.20014)n1:0.59202)n0;

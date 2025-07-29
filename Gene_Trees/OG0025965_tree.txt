@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF46051:0.12093,(gracilariopsis_chorda_PXF39604:0.18097,gracilariopsis_chorda_PXF39556:0.03739)n2:0.177)n1:0.49758,(chlamydomonas_incerta_Chincg02592:0.30816,((gonium_pectorale_Gopec.04333:0.1075,gonium_pectorale_Gopec.04334:0.2229)n5:0.414,gonium_pectorale_Gopec.09836:0.390879)n4:0.043431)n3:0.57521)n0;

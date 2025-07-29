@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene46272:0.62419,(huperzia_asiatica_HaB63G0473:0.02674,(huperzia_asiatica_HaA17G0506:0.04227,(huperzia_asiatica_HaA66G0081:0.03512,(huperzia_asiatica_HaA51G0474:0.14841,huperzia_asiatica_HaA36G0398:0.0408)n4:0.01624)n3:0.02287)n2:0.07421)n1:0.62419)n0;

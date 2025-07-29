@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00407_0060:0.55355,mesostigma_viride296_Mevir.Mv04674:0.80751)n1:0.103125,(cymbomonas_tetramitiformis_KAK3259980:0.75784,(tetraselmis_striata_TSEL_018824:0.72591,(myrmecia_bisecta_Mybis.KAK9816779:1.10815,myrmecia_bisecta_Mybis.KAK9817142:0.733113)n4:0.081457)n3:0.14682)n2:0.28119)n0;

@@ -1,0 +1,1 @@
+((cucumis_sativus_Cucsa.c311360g01:0.53484,lotus_japonicus_Lj1g0008618:0.34466)n1:0.66114,(isoetes_sinensis_IsiChr22g4112:0.04642,isoetes_sinensis_IsiChr21g3742:0.01017)n2:0.66114)n0;

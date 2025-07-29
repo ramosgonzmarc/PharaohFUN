@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.08334:0.18041,(gnetum_montanum_TnS000787549t01:0.11253,(welwitschia_mirabilis_Wmi_16444:0.14414,welwitschia_mirabilis_Wmi_18960:0.20454)n2:0.45278)n1:0.18041)n0;

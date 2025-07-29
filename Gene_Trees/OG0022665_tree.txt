@@ -1,0 +1,1 @@
+(ananas_comosus_Aco015380:0.3836,(sequoiadendron_giganteum_SEGI_01943:0.55958,(ginkgo_biloba_Gb_41149:0.70686,(abies_alba_AALBA5B347019:0.11338,abies_alba_AALBA5B688396:0.32035)n3:0.63009)n2:0.13295)n1:0.3836)n0;

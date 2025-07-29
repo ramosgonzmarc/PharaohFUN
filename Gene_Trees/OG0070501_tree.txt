@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT3G44703:0.34119,(boechera_stricta_Bostr.0556s0756:0.18261,boechera_stricta_Bostr.0556s0757:0.10287)n2:0.06334)n1:0.26352,(schrenkiella_parvula_Scpar5g16500:0.37842,(schrenkiella_parvula_Scpar5g16490:0.27019,schrenkiella_parvula_Scpar5g16510:0.56853)n4:0.14313)n3:0.26352)n0;

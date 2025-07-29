@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c04717:0.42438,(alsophila_spinulosa_Aspi01Gene06673:0.18636,(huperzia_asiatica_HaB63G0542:0.65055,(trifolium_pratense_Trpra.07472:0.43367,(corylus_avellana_Corav.g28521:0.03141,corylus_avellana_Corav.g28016:0.03249)n4:0.22591)n3:0.18115)n2:0.17545)n1:0.42438)n0;

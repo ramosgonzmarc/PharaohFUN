@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaScaf3923:0.202855,(caulerpa_lentillifera_Caule_g8374:0.66246,(tetraselmis_striata_TSEL_033062:0.45348,tetraselmis_striata_TSEL_039265:0.714717)n2:0.079413)n1:0.23823)n0;

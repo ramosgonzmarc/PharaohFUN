@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL3G17650:0.06059,capsella_grandiflora_Cagra.0133s0007:0.10807)n1:0.076365,((schrenkiella_parvula_Scpar3g05530:0.0992,sisymbrium_irio_Siiris1313g00870:0.08008)n3:0.00166,(brassica_rapa_Brara.E03268:0.02085,(brassica_oleracea_Bol008111:0.13627,brassica_oleracea_Bol007612:0.030096)n5:0.003344)n4:0.1967)n2:0.076365)n0;

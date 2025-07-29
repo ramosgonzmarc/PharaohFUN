@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_A2DWY9:0.011745,(trifolium_pratense_Trpra.07695:0.02188,(lens_culinaris_Lecul.L009300:0.11865,lens_culinaris_Lecul.L023420:0.00054)n2:0.14696)n1:0.011745)n0;

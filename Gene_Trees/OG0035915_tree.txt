@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S1G220300:0.360475,((huperzia_asiatica_HaB45G0499:0.58105,(diphasiastrum_complanatum_Dicom.Y520800:0.18201,oropetium_thomaeum_Oropetium_20150105_25186A:0.84983)n3:0.07445)n2:0.13681,(selaginella_moellendorffii_Smoe_16806:0.63579,(adiantum_capillus_Adc22605:1.05453,adiantum_capillus_Adc17306:0.587277)n5:0.065253)n4:0.10545)n1:0.360475)n0;

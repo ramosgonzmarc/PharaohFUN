@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c6_9020V6:0.00055,takakia_lepidozioides_Tle4c02483:0.80831)n1:0.31719,(theobroma_cacao_Thecc1EG012329:1.0472,(alsophila_spinulosa_Aspi01Gene53951:0.16758,(alsophila_spinulosa_Aspi01Gene47955:0.06645,alsophila_spinulosa_Aspi01Gene62492:0.00986)n4:0.04023)n3:0.21543)n2:0.31719)n0;

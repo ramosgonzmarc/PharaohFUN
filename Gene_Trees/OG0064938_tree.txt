@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AnagrOXF.S2G063700:0.508955,(paraphymatoceros_pearsonii_Papea.S2G396200:0.14066,(notothylas_orbicularis_Noorb.S2G260300:0.22034,phaeomegaceros_chiloensis_Phchi.S1G089100:0.21325)n2:0.04709)n1:0.508955)n0;

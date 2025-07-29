@@ -1,0 +1,1 @@
+((chenopodium_quinoa_AUR62006197:0.68558,((malus_domestica_MD10G1128200:0,malus_domestica_MD17G1242000:0)n3:0.03229,malus_domestica_MD12G1133700:0.06169)n2:0.74469)n1:0.16851,(anthoceros_agrestis_AnagrOXF.S2G242400:0.0227,anthoceros_punctatus_Anpun.S4G158200:0.09293)n4:0.16851)n0;

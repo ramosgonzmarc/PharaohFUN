@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00858g005:0.49178,(schrenkiella_parvula_Scpar5g00050:1.39824,(brassica_oleracea_Bol029428:0.47485,sisymbrium_irio_Siiris394g00020:0.31755)n2:0.41907)n1:0.49178)n0;

@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s0087.g018528:0.002395,(thuja_plicata_Thupl.29379857s0011:0.70151,(amborella_trichopoda_AmTr00070g77:0.08955,solanum_lycopersicum_Solyc11g022450:0.11411)n2:0.45934)n1:0.002395)n0;

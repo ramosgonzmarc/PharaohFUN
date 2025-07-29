@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG004410:0.180405,(corymbia_citriodora_Cocit.B2083:0.74318,(corymbia_citriodora_Cocit.E0127:0.92872,corymbia_citriodora_Cocit.L5253:0.80161)n2:0.54197)n1:0.180405)n0;

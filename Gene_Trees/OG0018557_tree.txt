@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00020g023:0.786675,(olea_europaea_Oeu023051:0.05518,((olea_europaea_Oeu008942:0.11247,olea_europaea_Oeu031848:0.07957)n3:0.04167,(olea_europaea_Oeu003751:0.06979,olea_europaea_Oeu014165:0.02047)n4:0.03934)n2:0.06499)n1:0.786675)n0;

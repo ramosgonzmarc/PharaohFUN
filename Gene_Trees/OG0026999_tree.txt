@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.11G100600:0.758685,(panicum_hallii_Pahal.8G259000:0.56956,(panicum_hallii_Pahal.8G189900:0.05577,panicum_hallii_Pahal.8G258700:0.00054)n2:0.82038)n1:0.758685)n0;

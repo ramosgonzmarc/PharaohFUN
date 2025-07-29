@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_24143:0.623155,(vaccinium_darrowii_Vadar_g652:0.7798,(vitis_vinifera_VIT_216s0039g01758:0.04153,vitis_vinifera_VIT_216s0039g01740:0.02783)n2:0.52458)n1:0.623155)n0;

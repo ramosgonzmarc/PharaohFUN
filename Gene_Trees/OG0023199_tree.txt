@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_002119:0.437175,(schrenkiella_parvula_Scpar4g08820:0.88798,(dioscorea_alata_Dioal.13G039800:1.15197,(alsophila_spinulosa_Aspi01Gene32939:1.00685,(chara_braunii_CBR_g31242:0.00055,chara_braunii_CBR_g17866:0.020223)n4:0.002247)n3:0.0734)n2:0.07861)n1:0.437175)n0;

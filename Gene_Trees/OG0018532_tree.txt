@@ -1,0 +1,1 @@
+((mesostigma_viride1140_Mesvi208S04150:0.06577,mesostigma_viride296_Mevir.Mv22746:0.04978)n1:0.407285,((tetraselmis_striata_TSEL_018832:0.0203,tetraselmis_striata_TSEL_022578:0.01457)n3:1.08024,(tetraselmis_striata_TSEL_012986:0.47204,tetraselmis_striata_TSEL_016317:0.64337)n4:0.27936)n2:0.407285)n0;

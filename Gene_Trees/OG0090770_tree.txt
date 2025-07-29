@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.N00293:0.29795,(solanum_tuberosum_Soltu.02G021130:0.20016,(cinnamomum_kanehirae_CKAN_01580600:0.15592,daucus_carota_DCAR_831933:0.24844)n2:0.02389)n1:0.29795)n0;

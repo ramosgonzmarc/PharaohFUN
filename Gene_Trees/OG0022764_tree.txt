@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.K02972:0.10951,corymbia_citriodora_Cocit.D1059:0.13178)n1:0.762545,(picea_abies_Pab_9459582g0010:0.17901,(abies_alba_AALBA5B845960:0.20276,abies_alba_AALBA5B706847:0.059913)n3:0.006657)n2:0.13536)n0;

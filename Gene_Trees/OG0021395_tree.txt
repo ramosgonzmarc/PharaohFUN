@@ -1,0 +1,1 @@
+(ananas_comosus_Aco017961:0.269695,(populus_trichocarpa_Potri.007G062462:0.66394,(olea_europaea_Oeu015112:0.25867,((malus_domestica_MD11G1205300:0.05879,(malus_domestica_MD10G1019600:0.17634,malus_domestica_MD01G1162800:0.28461)n5:0.09717)n4:0.35048,(trifolium_pratense_Trpra.08014:0.74636,trifolium_pratense_Trpra.08004:0.06383)n6:0.2639)n3:0.13984)n2:0.04807)n1:0.269695)n0;

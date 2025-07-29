@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_029336:0.47821,(alsophila_spinulosa_Aspi01Gene21397:0.2638,(medicago_truncatula_Medtr0044s0290:0.81529,(sisymbrium_irio_Siiris118g00110:0.36071,(sisymbrium_irio_Siiris466g00020:0.25901,sisymbrium_irio_Siiris270g00030:0.17894)n4:0.12434)n3:0.15408)n2:0.3259)n1:0.47821)n0;

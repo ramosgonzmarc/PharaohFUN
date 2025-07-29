@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_UNPLg00237:0.538855,(tetraselmis_striata_TSEL_009751:0.72456,(tetraselmis_striata_TSEL_041194:0.36208,tetraselmis_striata_TSEL_008866:0.27609)n2:0.24418)n1:0.538855)n0;

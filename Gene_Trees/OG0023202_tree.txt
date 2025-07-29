@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9811491:0.715615,((alsophila_spinulosa_Aspi01Gene33569:0,alsophila_spinulosa_Aspi01Gene33570:0)n2:0.04185,alsophila_spinulosa_Aspi01Gene72252:0.24721)n1:0.715615)n0;

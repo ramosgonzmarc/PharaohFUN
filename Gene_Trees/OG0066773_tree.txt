@@ -1,0 +1,1 @@
+((aquilegia_coerulea_Aqcoe2G318200:0.22642,oropetium_thomaeum_Oropetium_20150105_09644A:0.72788)n1:0.04871,(musa_acuminata_Muacu.9P28660_001:0.45333,(mimulus_guttatus_Migut.G00225:0.36507,(arachis_hypogaea_arahy_RWP9GU:0.62113,vaccinium_darrowii_Vadar_g31212:0.07312)n4:0.05122)n3:0.0261)n2:0.04871)n0;

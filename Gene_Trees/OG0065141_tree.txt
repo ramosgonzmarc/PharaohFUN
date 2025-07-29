@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AnagrOXF.S2G270000:0.03214,anthoceros_punctatus_Anpun.S4G136400:0.02971)n1:0.40646,(notothylas_orbicularis_Noorb.S4G275600:0.40009,phaeomegaceros_chiloensis_Phchi.S1G005400:0.20347)n2:0.40646)n0;

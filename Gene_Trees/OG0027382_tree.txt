@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_023169:0.59388,(riccia_fluitans_R1flu_011154:0.49116,(riccia_fluitans_R1flu_011165:0.20488,riccia_fluitans_R1flu_024962:0.22097)n2:0.0681)n1:0.59388)n0;

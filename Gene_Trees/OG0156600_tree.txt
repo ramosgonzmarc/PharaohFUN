@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C1G326600:0.566465,(oropetium_thomaeum_Oropetium_20150105_15822A:0.7113,(panicum_hallii_Pahal.4G074300:0.05997,setaria_italica_Seita.4G206700:0.20461)n2:0.24134)n1:0.566465)n0;

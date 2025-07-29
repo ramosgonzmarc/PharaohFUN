@@ -1,0 +1,1 @@
+((haematococcus_lacustris_QJQ45_029091:0.034,haematococcus_lacustris_QJQ45_029503:0.00055)n1:0.486025,(desmodesmus_armatus_Desar.404215:0.38981,(raphidocelis_subcapitata_Rsub_10574:0.88714,raphidocelis_subcapitata_Rsub_00039:0.36132)n3:0.41565)n2:0.486025)n0;

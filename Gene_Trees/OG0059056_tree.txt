@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene37296:0.069855,(trifolium_pratense_Trpra.42168:0.59337,(sequoia_sempervirens_SESE_065477:0.59812,cicer_arietinum_Ca_19493:0.4158)n2:0.07878)n1:0.069855)n0;

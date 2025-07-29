@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c03657:0.212795,((alsophila_spinulosa_Aspi01Gene33811:0.05693,alsophila_spinulosa_Aspi01Gene39260:0.04953)n2:0.44786,(gossypium_hirsutum_Gohir.D01G112233:0.54376,(hordeum_vulgare_Hvul_6HG0582790:0.00121,hordeum_vulgare_Hvul_5HG0430700:0.0363)n4:0.85831)n3:0.20504)n1:0.212795)n0;

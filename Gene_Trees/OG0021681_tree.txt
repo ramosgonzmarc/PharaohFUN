@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0512s0006:0.610065,(ostreobium_quekettii_CAD7697401:0.44838,(ostreobium_quekettii_CAD7697817:0.11791,ostreobium_quekettii_CAD7697818:0.09958)n2:0.32619)n1:0.610065)n0;

@@ -1,0 +1,1 @@
+((myrmecia_bisecta_Mybis.KAK9814630:1.02913,(elliptochloris_bilobata_Elbil.KAK9819391:1.0707,(elliptochloris_bilobata_Elbil.KAK9821454:0.35216,elliptochloris_bilobata_Elbil.KAK9822180:0.74568)n3:0.353151)n2:0.039239)n1:0.03578,(trebouxia_sp_FRX49_10764:0.56407,trebouxia_sp_FRX49_10810:0.5704)n4:0.49563)n0;

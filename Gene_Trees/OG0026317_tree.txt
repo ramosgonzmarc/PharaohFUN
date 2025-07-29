@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9817794:0.573595,(klebsormidium_nitens_kfl00164_0190:0.5389,(klebsormidium_nitens_kfl01291_0030:0.12345,klebsormidium_nitens_kfl01039_0030:0.15693)n2:0.63747)n1:0.573595)n0;

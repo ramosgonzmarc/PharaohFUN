@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene13576:0.52505,(chenopodium_quinoa_AUR62034248:0,chenopodium_quinoa_AUR62034251:0,chenopodium_quinoa_AUR62044364:0)n1:0.52505)n0;

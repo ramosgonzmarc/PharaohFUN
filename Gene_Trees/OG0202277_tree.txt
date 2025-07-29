@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.5P27840_001:0.34624,(vitis_vinifera_VIT_206s0004g08330:0.24039,(carya_illinoinensis_Caril.13G058800:0.68354,lupinus_albus_Lalb_Chr14g0370661:0.85624)n2:0.10983)n1:0.34624)n0;

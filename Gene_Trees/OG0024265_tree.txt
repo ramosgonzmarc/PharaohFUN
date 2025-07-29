@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3276619:0.39458,(chara_braunii_CBR_g48188:1.19441,(mesostigma_viride1140_Mesvi36S05518:0.15311,mesostigma_viride296_Mevir.Mv06106:0.04513)n2:0.73068)n1:0.39458)n0;

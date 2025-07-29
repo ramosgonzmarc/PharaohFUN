@@ -1,0 +1,1 @@
+(beta_vulgaris_Bevul.5G026200:0.11965,(beta_vulgaris_Bevul.6G133000:0.09619,(beta_vulgaris_Bevul.5G155600:0.20147,(beta_vulgaris_Bevul.9G108000:1.24443,beta_vulgaris_Bevul.1G050400:0.00055)n3:0.66174)n2:0.21588)n1:0.11965)n0;

@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_730048:0.12536,daucus_carota_DCAR_728247:0.05969)n1:0.25596,((mimulus_guttatus_Migut.D02003:0.0527,mimulus_guttatus_Migut.D02001:0.04201)n3:0.62894,(solanum_lycopersicum_Solyc03g112200:0.10149,solanum_tuberosum_Soltu.03G025830:0.00626)n4:0.52978)n2:0.25596)n0;

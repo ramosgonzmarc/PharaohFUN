@@ -1,0 +1,1 @@
+(picocystis_sp_Picml_g244:0.20375,(tetraselmis_striata_TSEL_018703:0.85245,(tetraselmis_striata_TSEL_018702:0.96613,(tetraselmis_striata_TSEL_033485:0.00054,tetraselmis_striata_TSEL_036242:0.01069)n3:0.18)n2:0.10216)n1:0.20375)n0;

@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3242756:0.57013,(cymbomonas_tetramitiformis_KAK3245408:0.15845,cymbomonas_tetramitiformis_KAK3267077:0.09063)n2:0.31899)n1:0.41977,(haematococcus_lacustris_QJQ45_017863:0.64636,myrmecia_bisecta_Mybis.KAK9828591:0.48039)n3:0.41977)n0;

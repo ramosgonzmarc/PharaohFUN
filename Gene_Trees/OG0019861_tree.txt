@@ -1,0 +1,1 @@
+(cinnamomum_kanehirae_CKAN_01661600:0.15947,((arabidopsis_thaliana_AT4G00883:0.92476,corylus_avellana_Corav.g4484:0.61095)n2:0.14756,(mimulus_guttatus_Migut.I00560:0.50024,(eucalyptus_grandis_Eucgr.K00420:0.27539,eucalyptus_grandis_Eucgr.A02650:0.461313)n4:0.051257)n3:0.58502)n1:0.15947)n0;

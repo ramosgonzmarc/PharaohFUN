@@ -1,0 +1,1 @@
+(oryza_sativa_Os04g46110:0.201955,(brachypodium_distachyon_Bradi5g17419:0.16532,(triticum_aestivum_TraesCS2B03G1044800:0.02155,(triticum_aestivum_TraesCS2D03G0887800:0.03763,triticum_aestivum_TraesCS2A03G0946600:0.06166)n3:0.01827)n2:0.10197)n1:0.201955)n0;

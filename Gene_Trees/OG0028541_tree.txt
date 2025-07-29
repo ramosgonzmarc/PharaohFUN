@@ -1,0 +1,1 @@
+(spirodela_polyrhiza_Spipo8G0065600:0.679135,(zostera_marina_Zosma05g32940:0.45119,(zostera_marina_Zosma06g29840:0.30464,zostera_marina_Zosma05g03300:0.28686)n2:0.17651)n1:0.679135)n0;

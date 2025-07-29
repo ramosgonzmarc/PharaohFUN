@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00042g094:0.496325,(cycas_panzhihuaensis_CYCAS_006603:0.00055,(cycas_panzhihuaensis_CYCAS_010773:0.28768,cycas_panzhihuaensis_CYCAS_017832:0.16103)n2:0.09271)n1:0.496325)n0;

@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3268926:0.04143,cymbomonas_tetramitiformis_KAK3268927:0.04926)n1:0.46077,((dunaliella_salina_Dusal.0041s00016:0.5362,(haematococcus_lacustris_QJQ45_025417:0.01187,haematococcus_lacustris_QJQ45_025693:0.00055)n4:0.37365)n3:0.32143,(dunaliella_salina_Dusal.0041s00017:0.5506,haematococcus_lacustris_QJQ45_025694:0.49831)n5:0.1665)n2:0.46077)n0;

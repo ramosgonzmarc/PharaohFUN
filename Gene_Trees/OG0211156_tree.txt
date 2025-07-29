@@ -1,0 +1,1 @@
+(glycine_max_Glyma.12G213800:0.40592,(glycine_max_Glyma.13G287800:0.16438,(glycine_max_Glyma.12G213900:0.00055,glycine_max_Glyma.13G287900:0.55978)n2:0.70689)n1:0.40592)n0;

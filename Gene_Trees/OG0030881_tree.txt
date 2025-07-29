@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00168g4:0.20043,amborella_trichopoda_AmTr00044g244:0.36963)n1:0.332165,(fragaria_vesca_FvH4_6g28681:0.78154,vaccinium_darrowii_Vadar_g17067:0.86044)n2:0.332165)n0;

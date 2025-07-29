@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9466267:0.541415,(porphyra_umbilicalis_Pum0219s0017:0.61466,(porphyra_umbilicalis_Pum0032s0071:0.35532,porphyra_umbilicalis_Pum2108s0001:0.2521)n2:0.14673)n1:0.541415)n0;

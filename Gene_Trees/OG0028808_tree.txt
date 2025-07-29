@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B1048538:0.00054,lactuca_sativa_Lsat_gn_1_65601:0.58234)n1:0.01287,(malus_domestica_MD13G1227200:0.29548,picea_abies_Pab_428615g0010:0.00054)n2:0.01287)n0;

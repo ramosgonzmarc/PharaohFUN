@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv04789:0.60985,(chloropicon_primus_Chlpr_g8234:0.54921,(((cymbomonas_tetramitiformis_KAK3286178:0.04987,cymbomonas_tetramitiformis_KAK3286241:0.01842)n4:0.77205,(cymbomonas_tetramitiformis_KAK3266925:0.76244,cymbomonas_tetramitiformis_KAK3266926:0.47658)n5:0.27974)n3:0.12758,cymbomonas_tetramitiformis_KAK3275641:0.483021)n2:0.053669)n1:0.2306)n0;

@@ -1,0 +1,1 @@
+(picocystis_sp_Picml_g81:0.79388,(lens_culinaris_Lecul.2g006730:0.56987,(ceratopteris_richardii_Ceric.37G031800:0.13344,sequoia_sempervirens_SESE_080981:0.92332)n2:0.06509)n1:0.79388)n0;

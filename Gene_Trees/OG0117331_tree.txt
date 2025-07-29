@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_24673:0.09158,(asparagus_officinalis_AsparagusV1_08.573:0.38342,carya_illinoinensis_Caril.10G045600:0.89743)n2:0.6951)n1:0.027755,(gnetum_montanum_TnS000723455t03:0.45557,((arachis_hypogaea_arahy_FPB3IR:0,arachis_hypogaea_arahy_UW4T3J:0)n5:0.63681,vaccinium_darrowii_Vadar_g38925:0.77212)n4:0.28352)n3:0.027755)n0;

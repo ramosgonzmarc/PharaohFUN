@@ -1,0 +1,1 @@
+(elliptochloris_bilobata_Elbil.KAK9827963:0.056675,(elliptochloris_bilobata_Elbil.KAK9822452:0.95923,(elliptochloris_bilobata_Elbil.KAK9840823:0.01906,elliptochloris_bilobata_Elbil.KAK9840756:0.13149)n2:0.17056)n1:0.056675)n0;

@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.004G011000:0.49479,(aegilops_tauschii_Atau_XP_020176311:0.00193,(triticum_aestivum_TraesCS6A03G1002100:0.64992,(triticum_aestivum_TraesCS6B03G1228800:0.01865,triticum_aestivum_TraesCS6D03G0883300:0.000486)n3:4.86e-05)n2:5.4e-06)n1:0.03785)n0;

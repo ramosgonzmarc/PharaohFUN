@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.013072:0.05,coffea_arabica_Coara.016697:0.16317)n1:0.15498,(glycine_max_Glyma.08G350100:0.46434,(vigna_unguiculata_Vigun05g132700:0.69931,phaseolus_acutifolius_Phacu.008G143500:0.16598)n3:0.0573)n2:0.15498)n0;

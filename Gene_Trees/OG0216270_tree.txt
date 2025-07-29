@@ -1,0 +1,1 @@
+(beta_vulgaris_Bevul.8G069900:0.505975,(vaccinium_darrowii_Vadar_g39928:0.13323,((daucus_carota_DCAR_727359:0.29377,daucus_carota_DCAR_830940:0.14319)n3:0.17886,daucus_carota_DCAR_934595:0.699768)n2:0.077752)n1:0.19606)n0;

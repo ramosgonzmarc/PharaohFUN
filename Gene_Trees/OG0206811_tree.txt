@@ -1,0 +1,1 @@
+(sisymbrium_irio_Siiris1371g00040:0.30256,(thlaspi_arvense_TaMN106.5G120500:1.50089,(thlaspi_arvense_TaMN106.3G299800:0.07458,thlaspi_arvense_TaMN106.3G334400:0.05752)n2:0.37076)n1:0.30256)n0;

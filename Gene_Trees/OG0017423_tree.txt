@@ -1,0 +1,1 @@
+(((arachis_hypogaea_arahy_PU9WMU:0.04446,cucumis_sativus_Cucsa.c376280g01:0.0205)n2:0.31283,cinnamomum_kanehirae_CKAN_02758300:0.00054)n1:0.063605,(amborella_trichopoda_AmTr00004g209:0.08249,(amborella_trichopoda_AmTr00001g549:0.09602,(amborella_trichopoda_AmTr00062g105:0.30868,amborella_trichopoda_AmTr00002g125:0.02414)n5:0.016)n4:1.71499)n3:0.063605)n0;

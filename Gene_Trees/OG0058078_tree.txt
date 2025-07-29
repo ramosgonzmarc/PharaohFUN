@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C2G204300:0.48142,(alsophila_spinulosa_Aspi01Gene14894:0.41083,(gnetum_montanum_TnS000100807t05:0.37182,(gnetum_montanum_TnS000544375t01:0.02837,gnetum_montanum_TnS000768131t01:0.05567)n3:0.20555)n2:0.03743)n1:0.48142)n0;

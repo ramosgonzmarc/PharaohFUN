@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_6g01781:0.59921,(lens_culinaris_Lecul.6g055520:0.24457,(medicago_truncatula_Medtr5g019390:0.19363,medicago_truncatula_Medtr1g087470:0.39236)n2:0.1788)n1:0.59921)n0;

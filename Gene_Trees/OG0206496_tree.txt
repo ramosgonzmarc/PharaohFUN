@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.K1175:0.74936,(sisymbrium_irio_Siiris27g02490:0.43387,(arabidopsis_lyrata_Arlyr.AL5G19400:0.14059,boechera_stricta_Bostr.0556s0588:0.19251)n2:0.10307)n1:0.74936)n0;

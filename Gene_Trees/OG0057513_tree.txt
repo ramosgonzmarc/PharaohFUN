@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene03428:0.64596,(paraphymatoceros_pearsonii_Papea.S4G133700:0.09126,(phaeoceros_carolinianus_Phcar.S4G108300:0,phaeoceros_sp_Phsp.C5G172500:0)n2:0.1256)n1:0.64596)n0;

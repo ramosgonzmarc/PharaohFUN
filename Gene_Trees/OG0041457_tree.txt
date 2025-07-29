@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c22_3900V6:0,physcomitrium_patens_Pp6c22_3910V6:0)n1:0.2716,(trifolium_pratense_Trpra.27875:0.43747,trifolium_pratense_Trpra.23395:0.2681)n2:0.2716)n0;

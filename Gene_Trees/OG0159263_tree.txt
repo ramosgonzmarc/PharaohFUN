@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.11G040632:0.59253,((ceratodon_purpureus_CepurR40.6G086500:0.20152,(funaria_hygrometrica_Fuhyg.13002:0.35044,pleurozium_schreberi_Plsch.17748:0.09609)n3:0.02773)n2:0.09898,(ceratodon_purpureus_CepurR40.2G106000:0.24403,(physcomitrium_patens_Pp6c14_6520V6:0.11318,funaria_hygrometrica_Fuhyg.07525:0.08843)n5:0.254511)n4:0.028279)n1:0.59253)n0;

@@ -1,0 +1,1 @@
+(sisymbrium_irio_Siiris1035g00040:0.244505,((abies_alba_AALBA5B084044:0.29977,abies_alba_AALBA5B416296:0.14646)n2:0.88617,(sequoia_sempervirens_SESE_042958:0.82319,(sequoiadendron_giganteum_SEGI_12875:0.28488,(thuja_plicata_Thupl.29378620s0008:0.21746,taxus_chinensis_KI387_012555:0.59273)n5:0.04931)n4:0.37813)n3:0.31036)n1:0.244505)n0;

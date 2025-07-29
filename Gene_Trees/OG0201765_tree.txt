@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000500167t08:0.5025,(linum_usitatissimum_Lus10026153:0.3711,(vitis_vinifera_VIT_213s0064g00340:0.35425,(citrus_sinensis_Cisin.045620:0.64718,(coffea_arabica_Coara.017415:0.28707,coffea_arabica_Coara.024307:0.19038)n4:0.15593)n3:0.00056)n2:0.13795)n1:0.5025)n0;

@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp26S08860:0.4285,(cymbomonas_tetramitiformis_KAK3258910:1.31223,(ostreococcus_mediterraneus_Ostme11g01990:0.84019,(micromonas_pusilla_Mpus_160479:0.45176,micromonas_commoda_Micom.063134:0.39631)n4:0.10283)n3:0.03013)n2:0.19538)n1:0.09368,(mesostigma_viride296_Mevir.Mv00600:0.79989,tetraselmis_striata_TSEL_001223:0.86226)n5:0.09368)n0;

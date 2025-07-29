@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chrsp3S05620:0.35452,chlorokybus_atmophyticus_Chrsp3S05648:0.42604)n1:0.124195,((chloropicon_primus_Chlpr_g3209:0.73729,micromonas_pusilla_Mpus_40759:1.72282)n3:0.19209,(myrmecia_bisecta_Mybis.KAK9813182:0.3859,(coccomyxa_subellipsoidea_Cosub_68066:0.38,elliptochloris_bilobata_Elbil.KAK9826210:0.41434)n5:0.12129)n4:0.18688)n2:0.124195)n0;

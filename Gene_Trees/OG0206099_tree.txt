@@ -1,0 +1,1 @@
+((capsella_grandiflora_Cagra.0027s0012:0.1621,(arabidopsis_lyrata_Arlyr.AL3G51300:0.14222,boechera_stricta_Bostr.18351s0280:0.01155)n2:0.0058)n1:0.088215,(thlaspi_arvense_TaMN106.3G029300:0.10428,(schrenkiella_parvula_Scpar3g31550:0.08351,(brassica_oleracea_Bol012471:0.02273,brassica_rapa_Brara.F02511:0.14253)n5:0.12439)n4:0.055)n3:0.088215)n0;

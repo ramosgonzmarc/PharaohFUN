@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_014710:0.70485,sequoiadendron_giganteum_SEGI_15433:0.06428)n1:0.22813,(eucalyptus_grandis_Eucgr.B03618:0.00055,oryza_sativa_Os12g41634:0.64957)n2:0.22813)n0;

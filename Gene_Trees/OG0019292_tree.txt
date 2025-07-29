@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B546194:0.36988,(isoetes_sinensis_IsiChr13g3675:0.10271,isoetes_sinensis_IsiChr19g2626:0.000495)n2:5.5e-05)n1:0.03107,olea_europaea_Oeu056773:0.24773)n0;

@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_013623:0.2284,(((ginkgo_biloba_Gb_22343:0.02496,ginkgo_biloba_Gb_22344:0.09617)n3:0.58059,(ananas_comosus_Aco017776:0.6788,ananas_comosus_Aco018885:0.757359)n4:0.084151)n2:0.13714,ceratopteris_richardii_Ceric.11G011800:0.67024)n1:0.2284)n0;

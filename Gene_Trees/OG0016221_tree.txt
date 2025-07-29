@@ -1,0 +1,1 @@
+(((cymbomonas_tetramitiformis_KAK3240581:0.62836,cymbomonas_tetramitiformis_KAK3251858:0.44856)n2:1.05944,(tetraselmis_striata_TSEL_041566:0.40367,tetraselmis_striata_TSEL_043745:0.45463)n3:0.59407)n1:0.24027,(prasinoderma_coloniale_PRCOL_00003350:0.19238,prasinoderma_coloniale_PRCOL_00003353:0.35311)n4:0.24027)n0;

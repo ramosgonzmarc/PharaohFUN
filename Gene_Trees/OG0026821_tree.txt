@@ -1,0 +1,1 @@
+(thlaspi_arvense_TaMN106.3G284900:0.668625,(oryza_sativa_Os11g28184:0.56779,(oryza_sativa_Os01g25170:0.1302,oryza_sativa_Os09g07790:0.19443)n2:0.63255)n1:0.668625)n0;

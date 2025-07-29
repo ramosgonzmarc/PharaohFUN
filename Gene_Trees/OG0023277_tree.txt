@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.15571:0.37903,(alsophila_spinulosa_Aspi01Gene58139:0.08791,(alsophila_spinulosa_Aspi01Gene58143:0.02254,alsophila_spinulosa_Aspi01Gene58137:0.02978)n2:0.02225)n1:0.37903)n0;

@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.1G209600:0.50315,funaria_hygrometrica_Fuhyg.11888:0.85702)n1:0.10696,((sorghum_bicolor_Sobic.001G068901:0.08104,miscanthus_sinensis_Misin02G046200:0.02752)n3:0.19337,manihot_esculenta_Manes.06G170450:0.47809)n2:0.10696)n0;

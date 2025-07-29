@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_201s0011g01810:0.31001,(populus_trichocarpa_Potri.015G120800:0.10118,(salix_purpurea_Sapur.15ZG114300:0,salix_purpurea_Sapur.15WG132100:0)n2:0.01542)n1:0.31001)n0;

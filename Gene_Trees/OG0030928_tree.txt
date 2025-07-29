@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00066g41:0.36739,cinnamomum_kanehirae_CKAN_00466000:1.35877)n1:0.27183,(sequoia_sempervirens_SESE_026816:0.03074,sequoiadendron_giganteum_SEGI_15733:0.00507)n2:0.27183)n0;

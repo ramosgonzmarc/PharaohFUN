@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol026720:0.02104,brassica_rapa_Brara.E01470:0.04494)n1:0.110315,(arabidopsis_lyrata_Arlyr.AL1G61580:0.08442,(boechera_stricta_Bostr.0124s0111:0.0285,capsella_grandiflora_Cagra.1472s0011:0.07257)n3:0.03192)n2:0.110315)n0;

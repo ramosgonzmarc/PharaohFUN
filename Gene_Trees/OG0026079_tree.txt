@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr22g5287:0,isoetes_sinensis_IsiChr6g4063:0)n1:0.48941,(sorghum_bicolor_Sobic.005G150250:0.37224,lens_culinaris_Lecul.1g042740:0.3898)n2:0.48941)n0;

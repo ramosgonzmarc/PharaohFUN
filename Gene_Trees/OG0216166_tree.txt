@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_8_133700:0.71177,(daucus_carota_DCAR_415744:0.22178,daucus_carota_DCAR_625047:0.35994)n2:0.78369)n1:0.09016,(beta_vulgaris_Bevul.9G079900:0.3775,(amaranthus_hypochondriacus_AH000306:0.09914,chenopodium_quinoa_AUR62036053:0.2509)n4:0.11541)n3:0.09016)n0;

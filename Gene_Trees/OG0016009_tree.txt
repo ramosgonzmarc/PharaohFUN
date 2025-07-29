@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre09.g404503_4532:0.84238,bryopsis_sp_Bsp_GMH36150:0.38365)n1:0.20955,(takakia_lepidozioides_Tle3c02929:0.07803,(takakia_lepidozioides_Tle4c03028:0.01741,(takakia_lepidozioides_Tle2c04883:0.19754,(takakia_lepidozioides_Tle4c01896:0.04381,takakia_lepidozioides_Tle1c00649:0.05184)n5:0.0016)n4:0.03958)n3:0.02751)n2:0.20955)n0;

@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_09342:0.44239,((apatococcus_lobatus_Aplob.KAK9837809:0.08947,apatococcus_lobatus_Aplob.KAK9835589:0.721)n2:0.94913,(apatococcus_lobatus_Aplob.KAK9825112:0.20326,(apatococcus_lobatus_Aplob.KAK9833679:0.11222,(apatococcus_lobatus_Aplob.KAK9832347:0.30243,apatococcus_lobatus_Aplob.KAK9832248:0.08338)n5:0.20371)n4:0.16455)n3:0.35063)n1:0.44239)n0;

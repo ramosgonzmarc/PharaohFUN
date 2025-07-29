@@ -1,0 +1,1 @@
+(phaseolus_acutifolius_Phacu.009G252600:0.459865,(isoetes_sinensis_IsiChr14g740:0.59722,(isoetes_sinensis_IsiChr14g2363:0.35914,(isoetes_sinensis_IsiChr3g571:0.01437,(isoetes_sinensis_IsiChr4g555:0.15559,(isoetes_sinensis_IsiChr22g3192:0.48217,isoetes_sinensis_IsiChr8g1005:0.19775)n5:0.04488)n4:0.01887)n3:0.1387)n2:0.13459)n1:0.459865)n0;

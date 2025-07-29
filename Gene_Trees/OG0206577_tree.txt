@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.J1031:0.640995,(capsella_grandiflora_Cagra.18595s0001:0.5834,(brassica_rapa_Brara.B01904:0.05269,brassica_rapa_Brara.B02451:0.107253)n2:0.011917)n1:0.30609)n0;

@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.3P23860_001:0.37083,(cinnamomum_kanehirae_CKAN_02762700:0.40494,(cinnamomum_kanehirae_CKAN_02757300:0.00708,cinnamomum_kanehirae_CKAN_01260000:0.00787)n2:0.87487)n1:0.37083)n0;

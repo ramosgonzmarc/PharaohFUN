@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.8BG0650100:0.466925,(aegilops_tauschii_Atau_XP_020198872:0,aegilops_tauschii_Atau_XP_020198873:0,aegilops_tauschii_Atau_XP_040247607:0,(triticum_aestivum_TraesCS2B03G0279800:0.46587,(triticum_aestivum_TraesCS6B03G0095300:0.02281,triticum_aestivum_TraesCS6D03G0064900:0)n3:0)n2:0)n1:0.03684)n0;

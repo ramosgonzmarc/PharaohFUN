@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g6501:0.355305,(riccia_fluitans_R1flu_009256:0.55518,(mimulus_guttatus_Migut.E00669:0.62844,mimulus_guttatus_Migut.N01149:0.61692)n2:1.01863)n1:0.355305)n0;

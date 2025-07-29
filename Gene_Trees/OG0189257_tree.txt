@@ -1,0 +1,1 @@
+((pleurozium_schreberi_Plsch.21074:0.28166,amaranthus_hypochondriacus_AH015811:1.19659)n1:0.02952,(takakia_lepidozioides_Tle4c04806:0.27422,(sequoia_sempervirens_SESE_136342:0.06735,sequoia_sempervirens_SESE_132091:0.07306)n3:0.52385)n2:0.02952)n0;

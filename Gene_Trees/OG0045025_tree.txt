@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62032247:0.6633,(theobroma_cacao_Thecc1EG001886:0.87865,(vitis_vinifera_VIT_201s0155g00016:0.04849,vitis_vinifera_VIT_219s0027g00665:0.01772)n2:0.44698)n1:0.6633)n0;

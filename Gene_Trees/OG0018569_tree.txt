@@ -1,0 +1,1 @@
+(((oryza_sativa_Os10g21388:0,oryza_sativa_Os04g16726:0)n2:0.01641,triticum_aestivum_TraesCS7B03G0243200:0.09203)n1:0.032045,(panicum_hallii_Pahal.9G197200:0.08214,(eleusine_coracana_Elcor.6AG0510700:0.0325,(miscanthus_sinensis_Misin13G080300:0.04877,(sorghum_bicolor_Sobic.005G110493:0,sorghum_bicolor_Sobic.K023600:0)n6:0.13597)n5:0.00054)n4:0.00053)n3:0.032045)n0;

@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g39902:0.639025,((gonium_pectorale_Gopec.00500:0.11487,(tetrabaena_socialis_Tesoc.PNH09085:0.63602,(tetrabaena_socialis_Tesoc.PNG98999:0.15976,volvox_carteri_Vocar.0005s0285:0.2699)n4:0.014175)n3:0.001575)n2:0.13469,(chlamydomonas_reinhardtii_Cre03.g160350_4532:0.0897,chlamydomonas_incerta_Chincg11189:0.07861)n5:0.30756)n1:0.12802)n0;

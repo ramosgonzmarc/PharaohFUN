@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr6g055200:0.33897,(marsilea_vestita_Mvestita_S6g00386:0.41523,(alsophila_spinulosa_Aspi01Gene31368:0.12791,alsophila_spinulosa_Aspi01Gene52649:1.05525)n2:0.11725)n1:0.27162)n0;

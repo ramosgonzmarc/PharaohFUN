@@ -1,0 +1,1 @@
+((helicosporidium_sp_Helsp_g487:0.36388,chlorella_sorokiniana_Chlso_g3312:1.13165)n1:0.00748,(picochlorum_soloecismus_NSC_00679:0.57537,picochlorum_soloecismus_NSC_05334:0.92953)n2:0.00748)n0;

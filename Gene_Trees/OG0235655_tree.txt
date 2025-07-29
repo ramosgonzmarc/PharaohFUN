@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g7113:0.062165,(caulerpa_lentillifera_Caule_g7117:0.08561,(caulerpa_lentillifera_Caule_g7112:0.35024,caulerpa_lentillifera_Caule_g7116:0.18245)n2:0.87139)n1:0.062165)n0;

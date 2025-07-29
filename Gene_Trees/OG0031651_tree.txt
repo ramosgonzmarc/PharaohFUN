@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_007373:0.319075,(adiantum_capillus_Adc24408:0.56339,(ginkgo_biloba_Gb_29776:0.30921,(quercus_rubra_Qurub.08G001900:0.27038,(gossypium_hirsutum_Gohir.D05G388501:0.15158,(arabidopsis_thaliana_AT1G55673:0.55087,theobroma_cacao_Thecc1EG030512:0.1002)n5:0.01897)n4:0.11622)n3:0.10182)n2:0.33225)n1:0.319075)n0;

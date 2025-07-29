@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.048774:0.67291,(vitis_vinifera_VIT_213s0067g03350:0.00053,brassica_rapa_Brara.I03316:0.63534)n2:0.1136)n1:0.09482,((picea_abies_Pab_10434860g0020:0.1119,picea_abies_Pab_20299g0010:0.16273)n4:0.02428,(picea_abies_Pab_5608101g0010:0.11059,picea_abies_Pab_9991417g0010:0.00054)n5:0.01287)n3:0.09482)n0;

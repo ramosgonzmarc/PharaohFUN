@@ -1,0 +1,1 @@
+((diphasiastrum_complanatum_Dicom.06G058400:0.05997,lycopodium_clavatum_Lcl_0012355:0.32088)n1:0.48241,(adiantum_capillus_Adc19334:0.75618,(adiantum_capillus_Adc24202:0.05749,adiantum_capillus_Adc14765:0.0487)n3:0.71345)n2:0.48241)n0;

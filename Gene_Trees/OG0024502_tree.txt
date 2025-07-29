@@ -1,0 +1,1 @@
+(volvox_carteri_Vocar.0027s0015:0.7207,(chlorokybus_atmophyticus_Chrsp57S06781:0.33287,(chlorokybus_atmophyticus_Chrsp21S03389:0.08662,chlorokybus_atmophyticus_Chrsp73S07523:0.03659)n2:0.18466)n1:0.7207)n0;

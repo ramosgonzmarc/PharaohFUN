@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g42159:0.38357,(eucalyptus_grandis_Eucgr.A01356:0.12759,(corymbia_citriodora_Cocit.A0290:0.15961,(corymbia_citriodora_Cocit.B0276:0.36737,corymbia_citriodora_Cocit.L2153:0.0697)n3:0.010476)n2:0.001164)n1:0.05653)n0;

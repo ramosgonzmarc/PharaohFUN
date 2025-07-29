@@ -1,0 +1,1 @@
+(taxus_chinensis_KI387_029358:0.01801,((olea_europaea_Oeu035547:0.50906,(vitis_vinifera_VIT_213s0073g00525:0.31605,phaseolus_acutifolius_Phacu.011G115300:0.58885)n3:0.40369)n2:0.33844,(citrus_sinensis_Cisin.046331:0.496,daucus_carota_DCAR_832153:0.35472)n4:0.25853)n1:0.01801)n0;

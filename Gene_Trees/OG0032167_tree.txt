@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi1g20313:0.546225,(eleusine_coracana_Elcor.7AG0578060:0.79018,(panicum_hallii_Pahal.2G454600:0.26477,((oropetium_thomaeum_Oropetium_20150105_23786A:0.36387,setaria_italica_Seita.2G397900:0.5705)n4:0.19402,(oropetium_thomaeum_Oropetium_20150105_25876A:1.00105,setaria_italica_Seita.2G396700:0.317979)n5:0.035331)n3:0.109548)n2:0.012172)n1:0.546225)n0;

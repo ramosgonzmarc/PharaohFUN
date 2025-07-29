@@ -1,0 +1,1 @@
+((linum_usitatissimum_Lus10035810:0.00051,linum_usitatissimum_Lus10036593:0.30387)n1:0.56021,(manihot_esculenta_Manes.14G145400:0.48544,(manihot_esculenta_Manes.14G145300:0.28921,manihot_esculenta_Manes.06G033500:0.25489)n3:0.31632)n2:0.56021)n0;

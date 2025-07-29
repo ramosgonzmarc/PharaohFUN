@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.441897:0.646125,(micromonas_commoda_Micom.050273:1.30493,(ostreococcus_mediterraneus_Ostme17g00700:0.50596,(ostreococcus_tauri_ostta17g00560:0.51022,ostreococcus_lucimarinus_Oluc_93844:0.40233)n3:0.23364)n2:0.19815)n1:0.646125)n0;

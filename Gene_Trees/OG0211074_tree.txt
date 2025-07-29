@@ -1,0 +1,1 @@
+((salix_purpurea_Sapur.006G138800:1.5497,((medicago_truncatula_Medtr1g070300:0.6072,medicago_truncatula_Medtr2g023110:0.355221)n3:0.039469,medicago_truncatula_Medtr3g051000:0.498924)n2:0.055436)n1:0.07272,manihot_esculenta_Manes.08G060602:0.53156)n0;

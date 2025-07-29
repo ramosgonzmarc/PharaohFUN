@@ -1,0 +1,1 @@
+((megaceros_flagellaris_Mefla.S4G096400:0.06615,megaceros_flagellaris_Mefla.S4G308600:0.31746)n1:0.449555,(phaeoceros_sp_Phsp.C2G070400:0.33235,(paraphymatoceros_pearsonii_Papea.S1G597000:0.25863,paraphymatoceros_pearsonii_Papea.S4G044400:0.17681)n3:0.09413)n2:0.449555)n0;

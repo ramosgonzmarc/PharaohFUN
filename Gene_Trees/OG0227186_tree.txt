@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.00066:0.000275,(funaria_hygrometrica_Fuhyg.02297:0.00055,(funaria_hygrometrica_Fuhyg.02298:0.00055,funaria_hygrometrica_Fuhyg.12900:0.00055)n2:0.00055)n1:0.000275)n0;

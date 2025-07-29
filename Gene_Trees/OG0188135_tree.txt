@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_UVTI1U:0.81182,paraphymatoceros_pearsonii_Papea.S2G324700:0.38729)n1:0.157095,(picea_abies_Pab_389613g0010:0.23045,(takakia_lepidozioides_Tle1c01483:0.09702,(lens_culinaris_Lecul.2g082530:0.03015,lens_culinaris_Lecul.1g015370:0.05419)n4:0.62767)n3:0.20239)n2:0.157095)n0;

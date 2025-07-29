@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9813105:0.350015,(cymbomonas_tetramitiformis_KAK3263913:1.07272,(bathycoccus_prasinos_XM_007515211:0.77411,(ostreococcus_mediterraneus_Ostme01g05430:0.24664,(ostreococcus_tauri_ostta01g01540:0.45116,ostreococcus_lucimarinus_Oluc_13657:0.13414)n4:0.06166)n3:0.15335)n2:0.49627)n1:0.350015)n0;

@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_Rsub_10055:0.011375,(raphidocelis_subcapitata_Rsub_10072:0.02393,(raphidocelis_subcapitata_Rsub_09922:0.37165,raphidocelis_subcapitata_Rsub_05366:0.32493)n2:0.36151)n1:0.011375)n0;

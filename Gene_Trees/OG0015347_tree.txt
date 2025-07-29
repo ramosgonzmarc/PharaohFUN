@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_38745:0.21793,(taxus_chinensis_KI387_037197:0.22509,(abies_alba_AALBA5B065705:0.74966,(gnetum_montanum_TnS001039999t04:0.44796,(welwitschia_mirabilis_Wmi_02798:0.09104,(welwitschia_mirabilis_Wmi_10456:0.00055,welwitschia_mirabilis_Wmi_10457:0.00054)n5:0.55885)n4:0.22342)n3:0.38395)n2:0.35226)n1:0.21793)n0;

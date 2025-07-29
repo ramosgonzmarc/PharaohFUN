@@ -1,0 +1,1 @@
+(asterochloris_glomerata_Astgl_g4315:0.398805,(marchantia_paleacea_Mapa_003778:0.23404,(ginkgo_biloba_Gb_01287:0.06307,ginkgo_biloba_Gb_01288:0.017)n2:0.48147)n1:0.398805)n0;

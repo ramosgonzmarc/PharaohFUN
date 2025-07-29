@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S4G148600:0.21194,(gnetum_montanum_TnS000733151t05:0.62045,(ginkgo_biloba_Gb_21328:0.06803,picea_abies_Pab_10428183g0010:0.29934)n2:0.37479)n1:0.21194)n0;

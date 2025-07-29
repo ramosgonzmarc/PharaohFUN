@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_26074:0.2747,(carya_illinoinensis_Caril.13G132100:0.24641,((malus_domestica_MD10G1177300:0.08238,malus_domestica_MD10G1177400:0.04409)n3:0.68893,(dioscorea_alata_Dioal.01G065400:0.61599,lactuca_sativa_Lsat_gn_2_76081:0.29241)n4:0.20402)n2:0.20845)n1:0.2747)n0;

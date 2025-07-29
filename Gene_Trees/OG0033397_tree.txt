@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3242537:0.376335,(bryopsis_sp_Bsp_GMH39399:0.37487,(chloropicon_primus_Chlpr_g7695:0.66887,helicosporidium_sp_Helsp_g980:0.6168)n2:0.46054)n1:0.376335)n0;

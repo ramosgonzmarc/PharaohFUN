@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3247513:0.44122,cymbomonas_tetramitiformis_KAK3276615:0.34845)n1:0.61583,(spirogloea_muscicola_SM000176S03148:0.0428,(spirogloea_muscicola_SM000104S09326:0.08183,spirogloea_muscicola_SM000110S18877:0.08507)n3:0.01765)n2:0.61583)n0;

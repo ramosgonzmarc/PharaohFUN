@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g19519:0.106915,((cycas_panzhihuaensis_CYCAS_014585:0.52806,mesotaenium_endlicherianum_ME000540S08420:0.20678)n2:0.13763,(takakia_lepidozioides_Tle2c05080:0.52315,(spirogloea_muscicola_SM000037S13559:0.0476,(spirogloea_muscicola_SM000098S25117:0.01309,spirogloea_muscicola_SM000130S27104:0.05401)n5:0.01023)n4:0.38747)n3:0.13355)n1:0.106915)n0;

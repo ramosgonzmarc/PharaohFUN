@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr21g4751:0.606035,((zostera_marina_Zosma03g12090:0.0584,zostera_marina_Zosma03g12200:0.01171)n2:0.31548,(vitis_vinifera_VIT_212s0055g00600:0.39837,sequoia_sempervirens_SESE_080846:0.27208)n3:0.25954)n1:0.606035)n0;

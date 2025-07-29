@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_7_94181:0.01187,lactuca_sativa_Lsat_gn_7_94141:0.00054)n1:0.54631,(beta_vulgaris_Bevul.9G025800:0.14476,((saponaria_officinalis_Sapof.11G086700:0.18338,saponaria_officinalis_Sapof.05G014100:0.14673)n4:0.47703,saponaria_officinalis_Sapof.09G189100:0.29002)n3:0.1871)n2:0.54631)n0;

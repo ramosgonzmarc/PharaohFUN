@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10027025:0.658765,(lupinus_albus_Lalb_Chr17g0337131:0.00055,(lupinus_albus_Lalb_Chr07g0193411:0.18131,(lupinus_albus_Lalb_Chr24g0401191:0.0937,lupinus_albus_Lalb_Chr02g0154491:0.09117)n3:0.00247)n2:0.2416)n1:0.658765)n0;

@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_014451:0.38752,tetraselmis_striata_TSEL_038752:0.23238)n1:0.270215,(chara_braunii_CBR_g23116:0.73617,(chlorokybus_atmophyticus_Chrsp76S07653:0.51228,(mesostigma_viride296_Mevir.Mv08764:0.44198,(mesostigma_viride1140_Mesvi958S08883:0.09261,mesostigma_viride296_Mevir.Mv00601:0.08503)n5:0.387594)n4:0.043066)n3:0.47214)n2:0.29871)n0;

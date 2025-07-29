@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B431436:1.07332,(vitis_vinifera_VIT_203s0017g01090:0.00054,(vitis_vinifera_VIT_212s0034g01200:0.35804,vitis_vinifera_VIT_206s0004g08030:0.10345)n2:0.02913)n1:1.07332)n0;

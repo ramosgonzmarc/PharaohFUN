@@ -1,0 +1,1 @@
+((marsilea_vestita_Mvestita_S3g03331:0.06668,marsilea_vestita_Mvestita_S3g03332:0.03518)n1:0.20834,((salvinia_cucullata_Sacu_s0050.g013780:0.08951,salvinia_cucullata_Sacu_s0096.g019356:0.00055)n3:0.38744,(azolla_filiculoides_Azfi_s0159.g053985:0.29656,azolla_filiculoides_Azfi_s0159.g053986:0.667413)n4:0.074157)n2:0.20635)n0;

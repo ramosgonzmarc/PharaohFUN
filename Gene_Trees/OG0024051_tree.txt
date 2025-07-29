@@ -1,0 +1,1 @@
+((brachypodium_distachyon_Bradi1g63110:0.44728,oryza_sativa_Os03g21880:0.18282)n1:0.073925,(eleusine_coracana_Elcor.3BG0280780:0.26867,(setaria_italica_Seita.9G412100:0.19609,(miscanthus_sinensis_Misin02G340900:0.00053,(zea_mays_Zm00001d029071:0.08929,sorghum_bicolor_Sobic.001G380000:0.0386)n5:0.02801)n4:0.14469)n3:0.09931)n2:0.073925)n0;

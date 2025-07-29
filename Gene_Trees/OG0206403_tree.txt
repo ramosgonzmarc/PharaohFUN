@@ -1,0 +1,1 @@
+((citrus_sinensis_Cisin.030446:0.02614,poncirus_trifoliata_Ptrif.0003s3525:0.00055)n1:0.44381,(theobroma_cacao_Thecc1EG004442:0.48708,(gossypium_hirsutum_Gohir.D08G079150:0.00053,gossypium_hirsutum_Gohir.A08G069700:0.03103)n3:0.3444)n2:0.44381)n0;

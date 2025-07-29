@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.014735:0.31297,(coffea_arabica_Coara.014734:0.02237,coffea_arabica_Coara.018508:0.01157)n2:0.33673)n1:0.538705,(daucus_carota_DCAR_520909:0.78029,(daucus_carota_DCAR_520918:0.59833,daucus_carota_DCAR_104236:0.52049)n4:0.51896)n3:0.538705)n0;

@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_101318:0.49726,solanum_tuberosum_Soltu.03G009400:0.99152)n1:0.18717,(glycine_max_Glyma.04G068751:0.56608,(lotus_japonicus_Lj3g0007232:0.48591,(trifolium_pratense_Trpra.21042:0.00055,trifolium_pratense_Trpra.41052:0.00055)n4:0.54287)n3:0.1312)n2:0.18717)n0;

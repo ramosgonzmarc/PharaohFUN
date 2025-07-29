@@ -1,0 +1,1 @@
+(glycine_max_Glyma.08G352400:0.08675,(trifolium_pratense_Trpra.41044:0.25934,(medicago_truncatula_Medtr7g056677:0.71983,medicago_truncatula_Medtr4g091560:0.762021)n2:0.084669)n1:0.16416)n0;

@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_00627A:0.485525,((ceratopteris_richardii_Ceric.05G061200:0.03747,ceratopteris_richardii_Ceric.1Z286400:0.12744)n2:0.1947,(alsophila_spinulosa_Aspi01Gene00731:0.40048,adiantum_capillus_Adc13080:0.30013)n3:0.16369)n1:0.485525)n0;

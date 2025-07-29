@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaB28G0438:0.61339,(isoetes_sinensis_IsiChr17g11:0.00904,isoetes_sinensis_IsiChr17g86:0.00264)n2:0.33861)n1:0.09482,(marsilea_vestita_Mvestita_S3g03707:0.76961,(azolla_filiculoides_Azfi_s0005.g009069:0.83879,azolla_filiculoides_Azfi_s0359.g066829:0.531495)n4:0.059055)n3:0.04227)n0;

@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g6360:1.04444,(picocystis_sp_Picml_g2893:0.01289,picocystis_sp_Picml_g4202:0.00055)n2:0.57846)n1:0.125965,(ostreococcus_tauri_ostta02g02260:0.48076,(micromonas_pusilla_Mpus_60229:0.4795,micromonas_commoda_Micom.062431:0.29002)n4:0.10646)n3:0.125965)n0;

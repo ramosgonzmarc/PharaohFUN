@@ -1,0 +1,1 @@
+((taxus_chinensis_KI387_035963:0.59542,(sequoia_sempervirens_SESE_007528:0.04384,sequoiadendron_giganteum_SEGI_21167:0.08215)n2:0.73318)n1:0.38861,((corymbia_citriodora_Cocit.F1851:0.02303,corymbia_citriodora_Cocit.F1816:0.25033)n4:0.49731,(brassica_oleracea_Bol044741:0.21608,quercus_rubra_Qurub.11G144700:0.37256)n5:0.15829)n3:0.38861)n0;

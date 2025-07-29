@@ -1,0 +1,1 @@
+((welwitschia_mirabilis_Wmi_26702:0.18122,picea_abies_Pab_321186g0010:1.24752)n1:0.31868,(isoetes_sinensis_IsiChr6g5125:0.26507,((isoetes_sinensis_IsiChr6g5130:0,isoetes_sinensis_IsiChr6g5109:0)n4:0.00055,isoetes_sinensis_IsiChr6g5124:0.00054)n3:0.19516)n2:0.31868)n0;

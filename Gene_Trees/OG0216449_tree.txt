@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_936155:0.12342,(solanum_tuberosum_Soltu.06G002000:0.17843,(coffea_arabica_Coara.009484:0.00985,coffea_arabica_Coara.012517:0.00757)n2:0.22092)n1:0.12342)n0;

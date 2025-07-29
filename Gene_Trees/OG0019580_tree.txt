@@ -1,0 +1,1 @@
+((asterochloris_glomerata_Astgl_g9534:0.89575,auxenochlorella_protothecoides_APUTEX2500002618:0.8397)n1:0.08292,(spirogloea_muscicola_SM001967S05341:0.59063,((alsophila_spinulosa_Aspi01Gene20231:0.109,alsophila_spinulosa_Aspi01Gene24031:0.08569)n4:0.32854,(mesotaenium_kramstae_Mekra.1085408:0.60714,pleurozium_schreberi_Plsch.15728:0.40774)n5:0.10043)n3:0.22081)n2:0.08292)n0;

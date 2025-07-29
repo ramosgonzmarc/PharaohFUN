@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g7913:0.60737,(cymbomonas_tetramitiformis_KAK3239349:0.54973,(micromonas_commoda_Micom.060153:0.65767,((ostreococcus_mediterraneus_Ostme15g02000:0.28,(ostreococcus_tauri_ostta16g00840:0.23229,ostreococcus_lucimarinus_Oluc_27740:0.21929)n5:0.21461)n4:0.51613,bathycoccus_prasinos_XM_007512068:1.47034)n3:0.16197)n2:0.14553)n1:0.60737)n0;

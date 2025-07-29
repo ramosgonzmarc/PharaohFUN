@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_3_115200:0.83655,(marsilea_vestita_Mvestita_S5g10177:0.87622,((adiantum_capillus_Adc26807:0,adiantum_capillus_Adc14293:0)n3:0.26332,(ceratopteris_richardii_Ceric.11G093900:0.12559,(ceratopteris_richardii_Ceric.27G063600:0.03249,ceratopteris_richardii_Ceric.33G001700:0.16106)n5:0.15122)n4:0.17791)n2:0.36724)n1:0.83655)n0;

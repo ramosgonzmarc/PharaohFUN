@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc12g042850:0.42821,solanum_tuberosum_Soltu.06G023680:0.26192)n1:0.077765,(daucus_carota_DCAR_518601:0.24828,lactuca_sativa_Lsat_gn_4_105961:0.41031)n2:0.077765)n0;

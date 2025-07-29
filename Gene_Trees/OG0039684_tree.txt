@@ -1,0 +1,1 @@
+(olea_europaea_Oeu003981:0.47034,(arachis_hypogaea_arahy_SYZ79T:0.26458,(vitis_vinifera_VIT_209s0002g07390:1.08805,(corymbia_citriodora_Cocit.L3533:0.03483,corymbia_citriodora_Cocit.C1872:0.02369)n3:0.35708)n2:0.20967)n1:0.47034)n0;

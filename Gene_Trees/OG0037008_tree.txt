@@ -1,0 +1,1 @@
+(setaria_italica_Seita.5G112900:0.347575,(vitis_vinifera_VIT_208s0040g02040:0.5533,((lens_culinaris_Lecul.2g090100:0.05634,lens_culinaris_Lecul.2g090070:0.0005)n3:0.88694,(glycine_max_Glyma.12G069301:0.12968,phaseolus_acutifolius_Phacu.005G175600:0.12204)n4:0.11744)n2:0.28536)n1:0.347575)n0;

@@ -1,0 +1,1 @@
+((beta_vulgaris_Bevul.7G016600:0.25317,saponaria_officinalis_Sapof.01G027600:0.28059)n1:0.22575,(daucus_carota_DCAR_519349:0.74342,lactuca_sativa_Lsat_gn_1_57140:0.55206)n2:0.22575)n0;

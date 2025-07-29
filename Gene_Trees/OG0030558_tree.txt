@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene49869:0.33549,((solanum_lycopersicum_Solyc05g150149:0.21385,solanum_tuberosum_Soltu.08G000810:0.42562)n2:0.18773,(beta_vulgaris_Bevul.2G050900:0.63194,(chenopodium_quinoa_AUR62038990:0.44962,(sisymbrium_irio_Siiris474g00180:0.57705,sisymbrium_irio_Siiric185019g00010:0.527589)n5:0.058621)n4:0.163)n3:0.14872)n1:0.33549)n0;

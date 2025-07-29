@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr8g041130:0.510945,(arachis_hypogaea_arahy_JVHY6E:0.11521,(arachis_hypogaea_arahy_Q9P3VR:0.70679,arachis_hypogaea_arahy_23RGIP:0.00353)n2:0.13277)n1:0.510945)n0;

@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9830420:0.24585,(apatococcus_lobatus_Aplob.KAK9822430:0.87764,(asterochloris_glomerata_Astgl_g4682:0.64918,trebouxia_sp_FRX49_06661:0.72715)n2:0.10415)n1:0.24585)n0;

@@ -1,0 +1,1 @@
+((corymbia_citriodora_Cocit.L5238:0.31799,huperzia_asiatica_HaScaf1062:0.54676)n1:0.107125,(cyanidioschyzon_merolae_CmerSOOS_G414:0.84346,(galdieria_sulphuraria_GsulpAzora_G1024:0.47308,(gracilariopsis_chorda_PXF47798:0.22324,porphyra_umbilicalis_Pum0070s0020:0.65651)n4:0.29252)n3:0.20142)n2:0.107125)n0;

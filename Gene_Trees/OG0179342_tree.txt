@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc07g043040:0.54029,(coffea_arabica_Coara.054691:0,coffea_arabica_Coara.059032:0)n2:0.70917)n1:0.152635,(capsella_grandiflora_Cagra.2622s0033:0.53187,linum_usitatissimum_Lus10010474:0.93349)n3:0.152635)n0;

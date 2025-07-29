@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.009G080100:0.076415,(quercus_rubra_Qurub.11G135500:0.12357,((arachis_hypogaea_arahy_FEP1JN:0,arachis_hypogaea_arahy_G8AKQI:0)n3:0.08491,cucumis_sativus_Cucsa.c218750g01:0.00865)n2:0.08663)n1:0.076415)n0;

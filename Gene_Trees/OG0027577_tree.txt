@@ -1,0 +1,1 @@
+(carya_illinoinensis_Caril.03G133200:0.319745,(chenopodium_quinoa_AUR62042703:0.23013,(solanum_lycopersicum_Solyc09g064245:0.72499,(solanum_lycopersicum_Solyc02g062957:0.03288,solanum_lycopersicum_Solyc01g014377:0.46052)n3:0.11707)n2:1.26703)n1:0.319745)n0;

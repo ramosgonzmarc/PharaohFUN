@@ -1,0 +1,1 @@
+((olea_europaea_Oeu029106:0.16016,mimulus_guttatus_Migut.K00754:0.91362)n1:0.1189,(picea_abies_Pab_282129g0010:0.13282,(picea_abies_Pab_19967g0010:0.19617,picea_abies_Pab_8582842g0010:0.29477)n3:0.20092)n2:0.1189)n0;

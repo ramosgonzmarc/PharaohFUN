@@ -1,0 +1,1 @@
+((haematococcus_lacustris_QJQ45_024068:0.33483,(haematococcus_lacustris_QJQ45_008398:0.09011,haematococcus_lacustris_QJQ45_024069:0.3464)n2:0.48519)n1:0.109315,(gonium_pectorale_Gopec.03596:0.77124,gonium_pectorale_Gopec.11325:0.09868)n3:0.109315)n0;

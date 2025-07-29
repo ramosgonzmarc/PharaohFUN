@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S2G571100:0.90146,(salvinia_cucullata_Sacu_s2491.g028334:0.61066,(alsophila_spinulosa_Aspi01Gene02343:0.40102,huperzia_asiatica_HaB09G0512:0.48268)n2:0.14198)n1:0.90146)n0;

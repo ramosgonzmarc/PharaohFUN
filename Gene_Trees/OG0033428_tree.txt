@@ -1,0 +1,1 @@
+((haematococcus_lacustris_QJQ45_019871:0.0297,haematococcus_lacustris_QJQ45_023892:0.0235)n1:0.59124,(chromochloris_zofingiensis_Cz04g20150:0.8431,(desmodesmus_armatus_Desar.546708:0.82993,(raphidocelis_subcapitata_Rsub_04438:0.33978,monoraphidium_minutum_Momin.459398:0.35299)n4:0.38034)n3:0.16905)n2:0.59124)n0;

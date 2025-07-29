@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene11425:0.19082,(sequoia_sempervirens_SESE_137413:0.81059,sisymbrium_irio_Siiris95g00050:0.97337)n2:0.13606)n1:0.07501,(phaeoceros_sp_Phsp.C22G006900:0.02615,phaeoceros_sp_Phsp.C2G077300:0.02605)n3:0.07501)n0;

@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10043052:0.44317,(medicago_truncatula_Medtr7g033970:0.5504,(medicago_truncatula_Medtr4g133530:0.00055,(medicago_truncatula_Medtr5g009540:0.00055,(medicago_truncatula_Medtr7g114630:0.03753,medicago_truncatula_Medtr7g116880:0.01886)n4:0.01823)n3:0.00054)n2:0.34426)n1:0.44317)n0;

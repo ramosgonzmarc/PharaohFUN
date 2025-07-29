@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.A10G185332:0.328945,(capsella_grandiflora_Cagra.8346s0001:0.07787,(brassica_rapa_Brara.K01101:0.00283,boechera_stricta_Bostr.6885s0001:0.0098)n2:0.00472)n1:0.328945)n0;

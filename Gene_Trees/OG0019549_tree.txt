@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene11909:0.296475,(ceratodon_purpureus_CepurR40.VG263300:0.14047,(sphagnum_magellanicum_Sphmag06G042100:0.3996,(physcomitrium_patens_Pp6c5_4750V6:0.71592,physcomitrium_patens_Pp6c8_10250V6:0.18117)n3:0.02013)n2:0.09114)n1:0.36976)n0;

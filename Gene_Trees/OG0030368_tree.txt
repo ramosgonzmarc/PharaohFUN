@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene20922:0.288315,(anthoceros_agrestis_AnagrOXF.S5G154800:0.31664,(anthoceros_fusiformis_Anfus.S2G452400:0.93237,anthoceros_fusiformis_Anfus.S2G299500:0.102303)n2:0.011367)n1:0.24759)n0;

@@ -1,0 +1,1 @@
+(olea_europaea_Oeu052670:0.553295,(solanum_tuberosum_Soltu.02G011640:0.07587,(solanum_lycopersicum_Solyc10g082068:0.02601,(solanum_lycopersicum_Solyc02g068793:0.07921,solanum_lycopersicum_Solyc02g068780:0.00847)n3:0.009306)n2:0.001034)n1:0.04322)n0;

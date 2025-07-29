@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B1002837:0.00491,(glycine_max_Glyma.03G037609:0.80094,(arachis_hypogaea_arahy_W47R9J:0.08728,arachis_hypogaea_arahy_T3XMJ8:0.04614)n2:0.30925)n1:0.00491)n0;

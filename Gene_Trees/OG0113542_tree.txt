@@ -1,0 +1,1 @@
+((ananas_comosus_Aco019184:0.04049,dioscorea_alata_Dioal.08G040000:0.07946)n1:0.041705,(eucalyptus_grandis_Eucgr.B01531:0.00055,populus_trichocarpa_Potri.004G104101:0.94308)n2:0.041705)n0;

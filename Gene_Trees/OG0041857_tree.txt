@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.M252600:0.487545,(caulerpa_lentillifera_Caule_g9193:0.87041,(raphidocelis_subcapitata_Rsub_00321:0.51612,raphidocelis_subcapitata_Rsub_12201:0.29276)n2:0.46151)n1:0.487545)n0;

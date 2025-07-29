@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.6g060010:0.32663,phaseolus_acutifolius_Phacu.001G222200:0.39463)n1:0.454905,(corylus_avellana_Corav.g31060:0.09985,(corylus_avellana_Corav.g31058:0.09462,(corylus_avellana_Corav.g31030:0.04017,(corylus_avellana_Corav.g31029:0.02267,corylus_avellana_Corav.g31037:0.03351)n5:0.00557)n4:0.01912)n3:0.05642)n2:0.454905)n0;

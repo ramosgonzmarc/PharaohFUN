@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr7g039480:0.71587,(aquilegia_coerulea_Aqcoe6G298400:0.29256,(aquilegia_coerulea_Aqcoe0143s0003:0.30905,aquilegia_coerulea_Aqcoe3G051800:0.13601)n3:0.568404)n2:0.063156)n1:0.16647,fragaria_vesca_FvH4_1g11472:0.82516)n0;

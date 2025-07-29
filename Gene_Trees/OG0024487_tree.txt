@@ -1,0 +1,1 @@
+((picochlorum_soloecismus_NSC_03809:1.10278,(chlorella_sorokiniana_Chlso_g9271:0.42283,auxenochlorella_protothecoides_APUTEX2500005504:0.3405)n2:0.32215)n1:0.323585,(caulerpa_lentillifera_Caule_g6444:0.73992,(bryopsis_sp_Bsp_GMH43503:0.56936,(ostreobium_quekettii_CAD7698644:0.34474,ostreobium_quekettii_CAD7699041:0.22591)n5:0.43118)n4:0.15195)n3:0.323585)n0;

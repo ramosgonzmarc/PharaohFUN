@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA20G0693:1.02329,(isoetes_sinensis_IsiChr4g1902:0.08031,isoetes_sinensis_IsiChr3g1828:0.00055)n2:0.33674)n1:0.12188,((abies_alba_AALBA5B966765:0.6177,oropetium_thomaeum_Oropetium_20150105_12276A:0.46723)n4:0.52842,(glycine_max_Glyma.19G071032:0.29452,carica_papaya_Capac.c00171g029:0.37905)n5:0.09709)n3:0.12188)n0;

@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9462826:0.39435,(bryopsis_sp_Bsp_GMH45098:0.77469,(ostreobium_quekettii_CAD7699976:1.26405,(ostreobium_quekettii_CAD7705340:0.35441,ostreobium_quekettii_CAD7699977:0.43443)n3:0.47626)n2:0.24085)n1:0.39435)n0;

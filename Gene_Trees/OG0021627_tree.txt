@@ -1,0 +1,1 @@
+((oryza_sativa_Os09g39250:0.45516,(oryza_sativa_Os01g34450:0.63289,oryza_sativa_Os09g39240:0.03069)n2:0.4836)n1:0.065485,(panicum_hallii_Pahal.5G222200:0.18894,setaria_italica_Seita.5G249500:0.17386)n3:0.065485)n0;

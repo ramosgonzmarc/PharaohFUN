@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_014795:0.462025,(lens_culinaris_Lecul.6g059820:0.32575,(cycas_panzhihuaensis_CYCAS_008918:0.55406,ginkgo_biloba_Gb_33383:0.15292)n2:0.13471)n1:0.462025)n0;

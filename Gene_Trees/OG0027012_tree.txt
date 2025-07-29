@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.3BG0262050:0.447065,(setaria_italica_Seita.2G063100:1.05465,(sorghum_bicolor_Sobic.004G062900:0.72579,(panicum_hallii_Pahal.1G059600:0.60745,panicum_hallii_Pahal.1G445600:0.61129)n3:0.25152)n2:0.42791)n1:0.447065)n0;

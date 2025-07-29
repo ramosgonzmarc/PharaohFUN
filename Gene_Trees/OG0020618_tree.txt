@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_020586:0.05196,cycas_panzhihuaensis_CYCAS_020589:0.04053)n1:0.60846,(taxus_chinensis_KI387_002674:0.14258,taxus_chinensis_KI387_002676:0.04944)n2:0.60846)n0;

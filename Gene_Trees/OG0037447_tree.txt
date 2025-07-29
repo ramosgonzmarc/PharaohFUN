@@ -1,0 +1,1 @@
+((chenopodium_quinoa_AUR62017351:1.36649,sequoia_sempervirens_SESE_016523:1.36436)n1:0.000275,(isoetes_sinensis_IsiChr7g4197:0.54837,isoetes_sinensis_IsiChr22g3571:0.00054)n2:0.000275)n0;

@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.053727:0.11405,lactuca_sativa_Lsat_gn_9_27681:0.57889)n1:0.198665,(amaranthus_hypochondriacus_AH006805:0.33627,(saponaria_officinalis_Sapof.05G167000:0.13995,(saponaria_officinalis_Sapof.05G166900:0.04769,saponaria_officinalis_Sapof.05G166800:0.10083)n4:0.19819)n3:0.11092)n2:0.198665)n0;

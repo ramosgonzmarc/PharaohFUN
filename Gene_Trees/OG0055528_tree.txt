@@ -1,0 +1,1 @@
+((setaria_italica_Seita.4G241100:0.15089,(triticum_aestivum_TraesCS4A03G0948700:0.22233,(aegilops_tauschii_Atau_XP_020152882:0.00267,(triticum_aestivum_TraesCS1A03G0211700:0.07731,triticum_aestivum_TraesCS1D03G0205200:0.000486)n4:5.4e-05)n3:0.058482)n2:0.006498)n1:0.05043,miscanthus_sinensis_Misin19G236700:0.22286)n0;

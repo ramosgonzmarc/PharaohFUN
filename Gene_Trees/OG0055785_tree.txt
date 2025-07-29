@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9465496:0.42337,(carya_illinoinensis_Caril.01G276700:0.24566,(corylus_avellana_Corav.g25958:0.30631,(aegilops_tauschii_Atau_XP_020166659:0.02261,riccia_sorocarpa_Risor.KAL3691040:0.21023)n3:0.12317)n2:0.00875)n1:0.42337)n0;

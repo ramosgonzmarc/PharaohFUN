@@ -1,0 +1,1 @@
+((zygnema_circumcarinatum_Zci_03233:0,zygnema_circumcarinatum1559_ZcUTEX1559_03679:0)n1:0.28675,(apatococcus_lobatus_Aplob.KAK9832469:0.72338,(coccomyxa_subellipsoidea_Cosub_61356:0.06109,coccomyxa_subellipsoidea_Cosub_57614:0.00054)n3:0.45182)n2:0.28675)n0;

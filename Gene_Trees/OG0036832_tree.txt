@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr04g0254491:0.115125,((ginkgo_biloba_Gb_15003:0.31945,ginkgo_biloba_Gb_11108:0.00055)n2:0.45157,(sequoia_sempervirens_SESE_116540:0.33746,sequoia_sempervirens_SESE_040268:0.664623)n3:0.073847)n1:0.21705)n0;

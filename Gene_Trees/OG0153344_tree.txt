@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_12118:0.04543,(tetrabaena_socialis_Tesoc.PNH00634:0.81731,(ostreobium_quekettii_CAD7704014:0.17196,desmodesmus_armatus_Desar.403649:0.23485)n2:0.16122)n1:0.04543)n0;

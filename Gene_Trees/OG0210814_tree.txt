@@ -1,0 +1,1 @@
+((manihot_esculenta_Manes.09G014980:0.00055,manihot_esculenta_Manes.09G011853:0.02488)n1:0.122775,(quercus_rubra_Qurub.04G041100:0.5693,((lens_culinaris_Lecul.3g048300:0.09563,lens_culinaris_Lecul.L006560:0.00055)n4:0.85516,lens_culinaris_Lecul.5g026520:0.317808)n3:0.035312)n2:0.71945)n0;

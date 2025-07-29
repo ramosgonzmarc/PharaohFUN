@@ -1,0 +1,1 @@
+((lotus_japonicus_Lj1g0002540:0.00054,lotus_japonicus_Lj6g0015175:0.57169)n1:0.434575,(arachis_hypogaea_arahy_M77YIN:0.05696,arachis_hypogaea_arahy_1I6CDC:0.52945)n2:0.434575)n0;

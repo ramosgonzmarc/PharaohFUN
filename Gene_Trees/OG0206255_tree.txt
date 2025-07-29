@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.A1066:0.4894,((gossypium_hirsutum_Gohir.A04G072966:0.25895,gossypium_raimondii_Gorai.009G415800:0.05691)n2:0.5383,(gossypium_raimondii_Gorai.002G247900:0.00055,(gossypium_hirsutum_Gohir.A01G214700:0.02611,gossypium_hirsutum_Gohir.D01G203200:0.168939)n4:0.018771)n3:0.04613)n1:0.4894)n0;

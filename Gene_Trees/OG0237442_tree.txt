@@ -1,0 +1,1 @@
+(ostreococcus_mediterraneus_Ostme25g00100:0,(ostreococcus_mediterraneus_Ostme30g00680:0,(ostreococcus_mediterraneus_Ostme26g00040:0.00055,ostreococcus_mediterraneus_Ostme30g00860:0.00055)n2:0.31099)n1:0)n0;

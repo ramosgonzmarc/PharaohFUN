@@ -1,0 +1,1 @@
+((micromonas_pusilla_Mpus_49794:0.69952,(tetraselmis_striata_TSEL_000608:0.60728,(tetraselmis_striata_TSEL_034779:0.66418,myrmecia_bisecta_Mybis.KAK9817677:0.67146)n3:0.387081)n2:0.043009)n1:0.065135,cymbomonas_tetramitiformis_KAK3247689:0.65604)n0;

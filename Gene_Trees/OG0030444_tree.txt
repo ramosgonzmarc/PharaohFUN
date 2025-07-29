@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0255.g026823:0.56784,setaria_italica_Seita.2G257900:0.54628)n1:0.16928,(alsophila_spinulosa_Aspi01Gene30865:0.57698,(ananas_comosus_Aco023816:0.77508,(azolla_filiculoides_Azfi_s0215.g058410:0.49146,marsilea_vestita_Mvestita_S5g09423:0.61058)n4:0.13557)n3:0.14848)n2:0.16928)n0;

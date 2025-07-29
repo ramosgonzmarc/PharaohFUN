@@ -1,0 +1,1 @@
+(beta_vulgaris_Bevul.9G064900:0.733265,(setaria_italica_Seita.3G178800:0.38931,(panicum_hallii_Pahal.3G264000:0.00592,panicum_hallii_Pahal.3G263100:0.00563)n2:0.44982)n1:0.733265)n0;

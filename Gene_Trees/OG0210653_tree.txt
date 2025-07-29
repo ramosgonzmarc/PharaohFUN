@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.012G053400:0.094275,(fragaria_vesca_FvH4_5g16750:0.64965,((medicago_truncatula_Medtr7g082725:0.04293,(lens_culinaris_Lecul.6g041370:0.07666,lens_culinaris_Lecul.6g041360:0.07491)n4:0.02769)n3:0.25597,(lens_culinaris_Lecul.6g041390:0.30076,medicago_truncatula_Medtr3g100640:0.222534)n5:0.024726)n2:0.58549)n1:0.094275)n0;

@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaB41G0685:0.3152,(asparagus_officinalis_AsparagusV1_07.3834:0.71083,(ginkgo_biloba_Gb_20102:0.01562,ginkgo_biloba_Gb_20103:0.03787)n2:0.25031)n1:0.3152)n0;

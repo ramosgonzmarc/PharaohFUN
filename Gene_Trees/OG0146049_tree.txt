@@ -1,0 +1,1 @@
+((olea_europaea_Oeu037750:0.54247,coffea_arabica_Coara.033507:0.20341)n1:0.09213,(cicer_arietinum_Ca_02945:0.71614,thlaspi_arvense_TaMN106.2G267800:1.12893)n2:0.09213)n0;

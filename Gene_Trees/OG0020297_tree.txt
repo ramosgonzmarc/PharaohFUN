@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3244543:0.5223,(tetraselmis_striata_TSEL_016583:0.51388,((dunaliella_salina_Dusal.0186s00022:1.05005,pedinophyceae_sp_Pesp.9464734:0.68977)n3:0.30177,(volvox_carteri_Vocar.0004s0196:0.55024,(chlamydomonas_reinhardtii_Cre17.g704650_4532:0.18557,chlamydomonas_incerta_Chincg03653:0.14006)n5:0.38264)n4:0.19485)n2:0.13193)n1:0.5223)n0;

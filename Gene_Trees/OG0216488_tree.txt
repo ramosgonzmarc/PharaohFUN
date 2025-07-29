@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.05G149300:0.43917,(vaccinium_darrowii_Vadar_g31456:0.39425,(lactuca_sativa_Lsat_gn_9_80381:0.55748,daucus_carota_DCAR_832320:0.7479)n2:0.1142)n1:0.43917)n0;

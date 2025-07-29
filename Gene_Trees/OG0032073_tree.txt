@@ -1,0 +1,1 @@
+(picea_abies_Pab_4573863g0010:0.31033,(miscanthus_sinensis_Misin10G197100:1.05322,(oryza_sativa_Os12g31160:0.43494,(brachypodium_distachyon_Bradi4g07017:0.44071,triticum_aestivum_TraesCS5A03G0173800:0.4181)n3:0.05695)n2:0.4287)n1:0.31033)n0;

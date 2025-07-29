@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S3G079400:0.32299,(leiosporoceros_dussii_Ledus.S6G021200:0.21643,(leiosporoceros_dussii_Ledus.S6G021100:0.00813,(leiosporoceros_dussii_Ledus.S6G015500:0.04337,(leiosporoceros_dussii_Ledus.S2G147900:0.05971,leiosporoceros_dussii_Ledus.S4G139400:0.06821)n4:0.07376)n3:0.00778)n2:0.25849)n1:0.32299)n0;

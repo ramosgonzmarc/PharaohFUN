@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_014557:0.60851,((desmodesmus_armatus_Desar.384256:0.26979,scenedesmus_obliquus_Sobl_g04610:0.36385)n2:0.41131,((monoraphidium_minutum_Momin.526436:0.62528,raphidocelis_subcapitata_Rsub_00697:0.30159)n4:0.14277,(raphidocelis_subcapitata_Rsub_00379:0.37326,monoraphidium_minutum_Momin.519025:0.31022)n5:0.1132)n3:0.44031)n1:0.60851)n0;

@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNH00214:0.017905,(tetrabaena_socialis_Tesoc.PNH01582:0.01716,(tetrabaena_socialis_Tesoc.PNH01585:0.01515,(tetrabaena_socialis_Tesoc.PNH01527:0.00053,tetrabaena_socialis_Tesoc.PNH01532:0.01478)n3:0.03026)n2:0.02059)n1:0.017905)n0;

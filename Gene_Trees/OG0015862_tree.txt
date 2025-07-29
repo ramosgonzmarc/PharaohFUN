@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00001309:0.273185,((tetraselmis_striata_TSEL_021556:0.00447,tetraselmis_striata_TSEL_043929:0.00492)n2:0.67995,(micromonas_commoda_Micom.059280:0.45642,(cymbomonas_tetramitiformis_KAK3236988:0.70919,(bathycoccus_prasinos_XM_007513828:0.60075,cymbomonas_tetramitiformis_KAK3258791:0.35839)n5:0.096903)n4:0.010767)n3:0.09879)n1:0.09296)n0;

@@ -1,0 +1,1 @@
+((oryza_sativa_Os10g12290:0.83581,hordeum_vulgare_Hvul_5HG0430370:0.61855)n1:0.048385,(sorghum_bicolor_Sobic.007G018550:0.70516,oropetium_thomaeum_Oropetium_20150105_20569A:0.95531)n2:0.048385)n0;

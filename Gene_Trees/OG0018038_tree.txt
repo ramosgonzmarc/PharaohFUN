@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00002143:0.29269,((mesostigma_viride296_Mevir.Mv07520:0.77824,(cymbomonas_tetramitiformis_KAK3275258:0.70893,(cymbomonas_tetramitiformis_KAK3232674:0.62868,tetraselmis_striata_TSEL_040097:0.91095)n4:0.227241)n3:0.025249)n2:0.48753,(micromonas_pusilla_Mpus_42080:0.41863,micromonas_commoda_Micom.069150:0.36621)n5:0.23487)n1:0.29269)n0;

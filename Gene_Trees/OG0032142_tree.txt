@@ -1,0 +1,1 @@
+(setaria_italica_Seita.5G192300:0.26261,(oryza_sativa_Os05g15020:0.32985,(brachypodium_distachyon_Bradi1g38974:0.24265,triticum_aestivum_TraesCS2D03G0539900:0.15499)n2:0.63142)n1:0.26261)n0;

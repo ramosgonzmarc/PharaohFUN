@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_028545:0.570285,(takakia_lepidozioides_Tle1c06011:0.74968,(ceratodon_purpureus_CepurR40.2G069500:0.29934,(physcomitrium_patens_Pp6c14_13750V6:0.12469,funaria_hygrometrica_Fuhyg.01737:0.19661)n3:0.22052)n2:0.45073)n1:0.570285)n0;

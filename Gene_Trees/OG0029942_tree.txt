@@ -1,0 +1,1 @@
+(lens_culinaris_Lecul.5g025730:0.60171,((miscanthus_sinensis_Misin19G236300:0.06833,zea_mays_Zm00001d014687:0.08331)n2:0.62226,((aegilops_tauschii_Atau_XP_020185325:0.00055,aegilops_tauschii_Atau_XP_020185326:0.00374)n4:0.00234,(triticum_aestivum_TraesCS7A03G0312200:0.02224,triticum_aestivum_TraesCS7D03G0294500:0.002628)n5:0.000292)n3:0.014)n1:0.60171)n0;

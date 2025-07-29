@@ -1,0 +1,1 @@
+((elliptochloris_bilobata_Elbil.KAK9827317:0.69619,coccomyxa_subellipsoidea_Cosub_63960:0.40437)n1:0.060305,(myrmecia_bisecta_Mybis.KAK9812695:0.59599,trebouxia_sp_FRX49_12883:0.45524)n2:0.060305)n0;

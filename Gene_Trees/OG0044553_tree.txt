@@ -1,0 +1,1 @@
+((bryopsis_sp_Bsp_GMH37609:0.47268,elliptochloris_bilobata_Elbil.KAK9843472:1.10373)n1:0.243445,(tetraselmis_striata_TSEL_044913:0.00596,tetraselmis_striata_TSEL_005211:0.00831)n2:0.243445)n0;

@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00002882:0.35665,((micromonas_pusilla_Mpus_70857:0.20781,micromonas_commoda_Micom.063383:0.23943)n2:0.2804,(gonium_pectorale_Gopec.14555:0.62529,(tetrabaena_socialis_Tesoc.PNH05399:0.21073,(tetrabaena_socialis_Tesoc.PNH07523:0.13474,tetrabaena_socialis_Tesoc.PNG99793:0.40382)n5:0.090198)n4:0.010022)n3:0.17497)n1:0.35665)n0;

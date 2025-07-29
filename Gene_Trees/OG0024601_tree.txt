@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_041577:0.645925,(raphidocelis_subcapitata_Rsub_12465:0.2132,((chromochloris_zofingiensis_Cz01g07190:0.50556,(desmodesmus_armatus_Desar.380831:0.61633,scenedesmus_obliquus_Sobl_g21568:0.38752)n4:0.22583)n3:0.11087,monoraphidium_minutum_Momin.047535:0.35956)n2:0.09024)n1:0.645925)n0;

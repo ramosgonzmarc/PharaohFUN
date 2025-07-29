@@ -1,0 +1,1 @@
+((asterochloris_glomerata_Astgl_g617:0.5944,asterochloris_glomerata_Astgl_g4984:0.35391)n1:0.101095,(myrmecia_bisecta_Mybis.KAK9806215:1.20032,myrmecia_bisecta_Mybis.KAK9823669:1.00897)n2:0.101095)n0;

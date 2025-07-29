@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe5G268000:0.312635,(olea_europaea_Oeu029876:0.57581,(corymbia_citriodora_Cocit.H2830:0.53892,fragaria_vesca_FvH4_4g20720:0.49681)n2:0.15621)n1:0.312635)n0;

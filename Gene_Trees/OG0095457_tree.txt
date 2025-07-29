@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_028978:0.121545,(coffea_arabica_Coara.045251:0.61968,(lens_culinaris_Lecul.5g013510:0.56406,(asparagus_officinalis_AsparagusV1_01.1249:0.74013,carica_papaya_Capac.c03513g001:0.79628)n3:0.13504)n2:0.05855)n1:0.121545)n0;

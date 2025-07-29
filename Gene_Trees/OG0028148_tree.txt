@@ -1,0 +1,1 @@
+(elliptochloris_bilobata_Elbil.KAK9832859:0.54823,(tetraselmis_striata_TSEL_039318:0.71182,(tetraselmis_striata_TSEL_000214:0.19354,tetraselmis_striata_TSEL_038683:0.22703)n2:0.08656)n1:0.54823)n0;

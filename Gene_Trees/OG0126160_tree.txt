@@ -1,0 +1,1 @@
+(dioscorea_alata_Dioal.12G086600:0.13313,(coffea_arabica_Coara.004256:1.02161,(glycine_max_Glyma.06G254600:0.02306,medicago_truncatula_Medtr1g021860:0.83574)n2:0.34599)n1:0.13313)n0;

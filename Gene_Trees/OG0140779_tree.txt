@@ -1,0 +1,1 @@
+(megaceros_flagellaris_Mefla.S2G369400:0.176265,(anthoceros_fusiformis_Anfus.S4G174100:0.1604,(anthoceros_fusiformis_Anfus.S4G207400:0.31724,anthoceros_fusiformis_Anfus.S4G346100:0.17524)n2:0.44835)n1:0.176265)n0;

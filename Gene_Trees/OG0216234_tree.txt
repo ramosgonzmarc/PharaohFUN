@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH015529:0.29553,chenopodium_quinoa_AUR62042327:0.12392)n1:0.593915,(solanum_tuberosum_Soltu.03G002840:0.63939,(lactuca_sativa_Lsat_gn_7_96720:0.31522,lactuca_sativa_Lsat_gn_0_35241:0.53461)n3:0.3409)n2:0.593915)n0;

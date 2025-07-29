@@ -1,0 +1,1 @@
+(ostreobium_quekettii_CAD7704557:0.37057,(cymbomonas_tetramitiformis_KAK3276462:0.9254,(cymbomonas_tetramitiformis_KAK3282587:0.55173,cymbomonas_tetramitiformis_KAK3241173:0.821)n2:0.2218)n1:0.37057)n0;

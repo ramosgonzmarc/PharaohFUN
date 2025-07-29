@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_034649:0.58793,tetraselmis_striata_TSEL_041004:0.52068)n1:0.318335,(chromochloris_zofingiensis_UNPLg00224:0.50155,(tetrabaena_socialis_Tesoc.PNH08594:0.09403,(tetrabaena_socialis_Tesoc.PNH00910:0.11534,tetrabaena_socialis_Tesoc.PNH12517:0.16687)n4:0.11588)n3:0.55167)n2:0.318335)n0;

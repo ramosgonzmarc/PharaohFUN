@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.F0812:0.00295,(corymbia_citriodora_Cocit.L2053:0.00055,(corymbia_citriodora_Cocit.F1671:0.11602,corymbia_citriodora_Cocit.D1178:0.31917)n2:1.1298)n1:0.00295)n0;

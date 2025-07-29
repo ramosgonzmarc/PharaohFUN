@@ -1,0 +1,1 @@
+((vitis_vinifera_VIT_214s0030g00560:0.1007,vitis_vinifera_VIT_214s0030g00575:0.27639)n1:0.17185,(malus_domestica_MD12G1228100:0.61603,corylus_avellana_Corav.g5634:1.44976)n2:0.17185)n0;

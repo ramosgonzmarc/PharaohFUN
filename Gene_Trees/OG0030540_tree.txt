@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene46749:0.370345,(thuja_plicata_Thupl.3300868s0001:0.20788,((sequoia_sempervirens_SESE_041092:0.04501,sequoia_sempervirens_SESE_038246:0.24656)n3:0.05064,sequoia_sempervirens_SESE_033226:0.803583)n2:0.089287)n1:0.00053)n0;

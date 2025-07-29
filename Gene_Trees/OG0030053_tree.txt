@@ -1,0 +1,1 @@
+((theobroma_cacao_Thecc1EG017849:0.42736,dioscorea_alata_Dioal.19G062400:0.77006)n1:0.1435,((trifolium_pratense_Trpra.36370:0.36028,vaccinium_darrowii_Vadar_g25123:0.65761)n3:0.0951,(eleusine_coracana_Elcor.5AG0392600:0.19962,(aegilops_tauschii_Atau_XP_040246624:0.00055,aegilops_tauschii_Atau_XP_040246625:0.40438)n5:0.1808)n4:0.12765)n2:0.1435)n0;

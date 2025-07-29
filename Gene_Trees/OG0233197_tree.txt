@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNH12664:0.536735,(gonium_pectorale_Gopec.15177:0.15564,((gonium_pectorale_Gopec.15839:0.03594,gonium_pectorale_Gopec.16128:0.0334)n3:0.16127,(gonium_pectorale_Gopec.15457:0.05506,gonium_pectorale_Gopec.15421:0.00054)n4:0.00055)n2:0.21451)n1:0.536735)n0;

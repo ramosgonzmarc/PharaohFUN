@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr03g0043111:0.20835,(glycine_max_Glyma.07G147100:0.03523,(phaseolus_acutifolius_Phacu.008G108000:0.04736,vigna_unguiculata_Vigun05g104000:0.02539)n2:0.1085)n1:0.20835)n0;

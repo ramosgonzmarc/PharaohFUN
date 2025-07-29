@@ -1,0 +1,1 @@
+((panicum_hallii_Pahal.2G307600:0.23188,(oropetium_thomaeum_Oropetium_20150105_05556A:0.48902,(setaria_italica_Seita.2G247800:0.2436,zea_mays_Zm00001d020875:0.26334)n3:0.05977)n2:0.06429)n1:0.1619,(hordeum_vulgare_Hvul_5HG0489630:0.04719,(triticum_aestivum_TraesCS5D03G0608100:0.0124,triticum_aestivum_TraesCS5B03G0665300:0.141093)n5:0.015677)n4:0.00435)n0;

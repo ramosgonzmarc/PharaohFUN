@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_01098900:0.20569,(vaccinium_darrowii_Vadar_g9983:0.47491,musa_acuminata_Muacu.6P34330_001:0.3995)n2:0.21921)n1:0.481285,(alsophila_spinulosa_Aspi01Gene42066:0.01931,alsophila_spinulosa_Aspi01Gene43069:0.86661)n3:0.481285)n0;

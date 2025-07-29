@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_012222:0.12248,(beta_vulgaris_Bevul.7G081000:0.23923,(hordeum_vulgare_Hvul_5HG0506570:0.04002,hordeum_vulgare_Hvul_7HG0670660:0.05923)n2:0.29007)n1:0.12248)n0;

@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_075386:0.00993,(sequoia_sempervirens_SESE_057040:0.00966,(sequoia_sempervirens_SESE_047293:0.35094,sequoia_sempervirens_SESE_033632:0.3781)n2:1.55747)n1:0.00993)n0;

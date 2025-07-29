@@ -1,0 +1,1 @@
+(cucumis_sativus_Cucsa.c254370g01:0.49295,((thuja_plicata_Thupl.29379043s0002:0.08384,(sequoiadendron_giganteum_SEGI_10099:0.00445,sequoiadendron_giganteum_SEGI_05885:0.01845)n3:0.00205)n2:0.00265,(sequoia_sempervirens_SESE_131120:0.00944,(sequoia_sempervirens_SESE_097338:0.01124,sequoia_sempervirens_SESE_134968:0.00544)n5:0.00145)n4:0.01286)n1:0.0058)n0;

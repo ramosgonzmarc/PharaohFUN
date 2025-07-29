@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g5886:0.709215,((asterochloris_glomerata_Astgl_g4287:0.00071,asterochloris_glomerata_Astgl_g4288:0.00055)n2:0.55155,(apatococcus_lobatus_Aplob.KAK9835759:1.12132,(trebouxia_sp_FRX49_06860:0.57386,myrmecia_bisecta_Mybis.KAK9829276:0.57342)n4:0.06392)n3:0.10507)n1:0.709215)n0;

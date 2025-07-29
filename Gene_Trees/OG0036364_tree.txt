@@ -1,0 +1,1 @@
+((asparagus_officinalis_AsparagusV1_09.397:0.3945,(ginkgo_biloba_Gb_33391:1.1793,ginkgo_biloba_Gb_15777:0.399348)n2:0.044372)n1:0.08006,kalanchoe_fedtschenkoi_Kaladp0019s0050:0.50775)n0;

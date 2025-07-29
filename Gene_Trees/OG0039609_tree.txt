@@ -1,0 +1,1 @@
+((ostreococcus_tauri_ostta06g02870:0.24876,ostreococcus_lucimarinus_Oluc_32220:0.38752)n1:0.285665,(micromonas_pusilla_Mpus_156482:0.06755,micromonas_commoda_Micom.107890:0.39943)n2:0.285665)n0;

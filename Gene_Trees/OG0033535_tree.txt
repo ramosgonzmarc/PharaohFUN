@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9813114:0.412225,(bryopsis_sp_Bsp_GMH33534:1.07134,((chromochloris_zofingiensis_Cz16g09230:0.39375,desmodesmus_armatus_Desar.552631:0.34469)n3:0.2928,(raphidocelis_subcapitata_Rsub_06874:0.32202,monoraphidium_minutum_Momin.521010:0.34449)n4:0.29887)n2:0.28441)n1:0.412225)n0;

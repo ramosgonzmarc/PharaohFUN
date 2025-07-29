@@ -1,0 +1,1 @@
+((theobroma_cacao_Thecc1EG029197:0.54781,(alsophila_spinulosa_Aspi01Gene51775:0.21824,huperzia_asiatica_HaB47G0538:0.09991)n2:0.66229)n1:0.431205,(cymbomonas_tetramitiformis_KAK3253288:0.00055,cymbomonas_tetramitiformis_KAK3261910:0.0947)n3:0.431205)n0;

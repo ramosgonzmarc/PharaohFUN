@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_6g32750:0.64521,schrenkiella_parvula_Scpar1g34580:1.03487)n1:0.000265,(arachis_hypogaea_arahy_W9E4H8:0.57021,(eucalyptus_grandis_Eucgr.J02713:0.14511,corymbia_citriodora_Cocit.D0272:0.2364)n3:0.15706)n2:0.000265)n0;

@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF40024:0.445535,(salvinia_cucullata_Sacu_s0034.g011185:0.39456,(cymbomonas_tetramitiformis_KAK3256670:0.52395,(chloropicon_primus_Chlpr_g5472:0.00054,chloropicon_primus_Chlpr_g5474:0.00142)n3:0.61363)n2:0.12958)n1:0.445535)n0;

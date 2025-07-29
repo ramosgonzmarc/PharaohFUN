@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c06892:0.08051,((physcomitrium_patens_Pp6c14_5270V6:0.07427,physcomitrium_patens_Pp6c23_5870V6:0.20261)n2:0.10654,(funaria_hygrometrica_Fuhyg.01804:0.00053,funaria_hygrometrica_Fuhyg.00262:0.00055)n3:0.10086)n1:0.08051)n0;

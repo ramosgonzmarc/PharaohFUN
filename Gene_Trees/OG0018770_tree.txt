@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.342359:0.46984,(selaginella_moellendorffii_Smoe_420626:1.30298,((selaginella_moellendorffii_Smoe_35644:0.00055,selaginella_moellendorffii_Smoe_445219:0.05725)n3:0.35732,(selaginella_moellendorffii_Smoe_12792:0.00606,selaginella_moellendorffii_Smoe_113943:0.10845)n4:0.32821)n2:0.50766)n1:0.46984)n0;

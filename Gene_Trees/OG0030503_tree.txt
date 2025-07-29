@@ -1,0 +1,1 @@
+((pleurozium_schreberi_Plsch.01454:0,pleurozium_schreberi_Plsch.01457:0)n1:0.479745,(alsophila_spinulosa_Aspi01Gene39977:0.16847,ginkgo_biloba_Gb_19096:0.82904)n2:0.479745)n0;

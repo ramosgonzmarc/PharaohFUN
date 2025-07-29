@@ -1,0 +1,1 @@
+(monoraphidium_minutum_Momin.505068:0.622635,((gonium_pectorale_Gopec.12653:0.37654,volvox_carteri_Vocar.0071s0013:0.31665)n2:0.18301,(chlamydomonas_reinhardtii_Cre15.g640750_4532:0.14776,chlamydomonas_incerta_Chincg14471:0.14127)n3:0.33248)n1:0.622635)n0;

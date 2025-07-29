@@ -1,0 +1,1 @@
+(diphasiastrum_complanatum_Dicom.Y266800:0.0568,(welwitschia_mirabilis_Wmi_21836:0.87605,((oryza_sativa_Os08g40555:0.86727,(sequoia_sempervirens_SESE_068329:0.11162,sequoiadendron_giganteum_SEGI_36254:0.20828)n4:0.51012)n3:0.32745,(salvinia_cucullata_Sacu_s0008.g004258:0.47172,salvinia_cucullata_Sacu_s0137.g022490:0.62661)n5:0.33178)n2:0.19215)n1:0.0568)n0;

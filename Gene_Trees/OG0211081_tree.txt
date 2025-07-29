@@ -1,0 +1,1 @@
+((phaseolus_acutifolius_Phacu.008G232500:0.04786,vigna_unguiculata_Vigun08g168150:0.85642)n1:0.255135,(trifolium_pratense_Trpra.26384:0.09294,(medicago_truncatula_Medtr3g005935:0.14762,medicago_truncatula_Medtr3g005930:0.044361)n3:0.004929)n2:0.12311)n0;

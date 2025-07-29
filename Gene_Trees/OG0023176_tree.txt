@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene28381:0.71261,adiantum_capillus_Adc24012:1.13047)n1:0.29986,(physcomitrium_patens_Pp6c2_10060V6:0.09146,physcomitrium_patens_Pp6c16_8280V6:0.16052)n2:0.29986)n0;

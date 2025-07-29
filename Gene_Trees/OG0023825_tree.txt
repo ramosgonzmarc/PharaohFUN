@@ -1,0 +1,1 @@
+((picocystis_sp_Picml_g1831:0.04436,(picocystis_sp_Picml_g4087:0,picocystis_sp_Picml_g4099:0)n2:0.00083)n1:0.514965,((ostreococcus_tauri_ostta10g02980:0.52721,ostreococcus_mediterraneus_Ostme12g00680:0.36694)n4:0.25402,(bathycoccus_prasinos_XM_007510089:1.05133,(micromonas_pusilla_Mpus_183637:0.32685,micromonas_commoda_Micom.059752:0.38151)n6:0.23442)n5:0.2041)n3:0.514965)n0;

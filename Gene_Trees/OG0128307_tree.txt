@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S1G700400:0.617545,(huperzia_asiatica_HaA15G0224:0.93424,(isoetes_sinensis_IsiChr22g4468:0.48419,((adiantum_capillus_Adc26627:0.57669,azolla_filiculoides_Azfi_s0001.g000857:0.74817)n4:0.10287,(adiantum_capillus_Adc28476:0.82073,azolla_filiculoides_Azfi_s0045.g029802:0.585297)n5:0.065033)n3:0.12696)n2:0.18425)n1:0.617545)n0;

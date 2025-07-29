@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B103385:0.0457,abies_alba_AALBA5B624059:0.01584)n1:0.42117,(gnetum_montanum_TnS000216829t07:0.60868,(welwitschia_mirabilis_Wmi_05422:0.03406,welwitschia_mirabilis_Wmi_05424:0.06513)n3:0.49895)n2:0.42117)n0;

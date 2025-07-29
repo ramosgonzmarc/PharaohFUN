@@ -1,0 +1,1 @@
+((corymbia_citriodora_Cocit.B0031:0.38205,((ginkgo_biloba_Gb_00797:0.20065,(asparagus_officinalis_AsparagusV1_02.8:0.2973,triticum_aestivum_TraesCS4A03G0909500:0.26547)n4:0.51061)n3:0.23362,(ginkgo_biloba_Gb_13229:0.28921,welwitschia_mirabilis_Wmi_15591:0.71226)n5:0.237834)n2:0.026426)n1:0.04799,arachis_hypogaea_arahy_2MH90D:0.4105)n0;

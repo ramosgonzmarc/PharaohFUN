@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS3B03G1026600:0.16634,(eleusine_coracana_Elcor.1BG0091450:0.20048,(panicum_hallii_Pahal.8G084800:0.43868,miscanthus_sinensis_Misin05G368600:0.34583)n2:0.07111)n1:0.16634)n0;

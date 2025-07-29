@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG032374:0.421095,(ceratopteris_richardii_Ceric.06G073500:0.52254,(alsophila_spinulosa_Aspi01Gene34199:0.01399,alsophila_spinulosa_Aspi01Gene61167:0.04809)n2:0.21169)n1:0.421095)n0;

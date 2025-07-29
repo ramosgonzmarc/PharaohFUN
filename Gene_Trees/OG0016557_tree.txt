@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.7AG0551940:0.41839,((oryza_sativa_Os02g06754:0.31482,oryza_sativa_Os02g06790:0.37509)n2:0.68801,((oryza_sativa_Os07g01900:0.2075,oryza_sativa_Os03g38680:0.1855)n4:0.41867,(oryza_sativa_Os07g02250:0.08955,oryza_sativa_Os07g01990:0.23209)n5:0.13968)n3:0.42621)n1:0.41839)n0;

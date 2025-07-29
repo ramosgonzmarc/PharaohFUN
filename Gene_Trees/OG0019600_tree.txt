@@ -1,0 +1,1 @@
+((anthoceros_fusiformis_Anfus.S3G064000:0.44988,anthoceros_fusiformis_Anfus.S4G133000:0.50713)n1:0.45417,(alsophila_spinulosa_Aspi01Gene59327:0.04374,(alsophila_spinulosa_Aspi01Gene28535:0.08076,(alsophila_spinulosa_Aspi01Gene58434:0.1113,alsophila_spinulosa_Aspi01Gene61969:0.0426)n4:0.00921)n3:0.05462)n2:0.45417)n0;

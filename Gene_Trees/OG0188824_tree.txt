@@ -1,0 +1,1 @@
+((marsilea_vestita_Mvestita_S16g11158:0.43757,sphagnum_fallax_Sphfalx04G018900:0.00055)n1:0.122295,(phymatoceros_phymatodes_Phphy.S2G246500:0.31219,(takakia_lepidozioides_Tle3c01272:0.00055,azolla_filiculoides_Azfi_s3922.g117336:1.08784)n3:0.17526)n2:0.122295)n0;

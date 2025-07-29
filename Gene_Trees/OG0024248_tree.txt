@@ -1,0 +1,1 @@
+((ostreobium_quekettii_CAD7696340:0.58053,((huperzia_asiatica_HaScaf5029:0.93907,huperzia_asiatica_HaScaf5517:0.89414)n3:0.22559,(chara_braunii_CBR_g77752:0.52256,huperzia_asiatica_HaScaf2219:0.29897)n4:0.070614)n2:0.007846)n1:0.05801,tetraselmis_striata_TSEL_014705:0.67307)n0;

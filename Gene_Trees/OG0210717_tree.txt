@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g31588:0.195545,(phaseolus_acutifolius_Phacu.010G003800:0.14328,(arachis_hypogaea_arahy_4RPY5C:0.47631,(arachis_hypogaea_arahy_NMP48C:0.5631,(arachis_hypogaea_arahy_TZ0SCR:0.30061,arachis_hypogaea_arahy_FAZF7P:0.03056)n4:0.18521)n3:0.03949)n2:0.11882)n1:0.195545)n0;

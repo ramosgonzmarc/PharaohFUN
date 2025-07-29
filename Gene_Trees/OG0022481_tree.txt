@@ -1,0 +1,1 @@
+((olea_europaea_Oeu061631:0.10506,arachis_hypogaea_arahy_CCA88B:0.97047)n1:0.351255,(abies_alba_AALBA5B1053076:0.02887,abies_alba_AALBA5B756109:0.00055)n2:0.351255)n0;

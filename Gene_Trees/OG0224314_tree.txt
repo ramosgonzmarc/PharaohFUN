@@ -1,0 +1,1 @@
+((taxus_chinensis_KI387_038366:0.32885,taxus_chinensis_KI387_024460:0.17308)n1:0.20069,(thuja_plicata_Thupl.29378258s0006:0.37955,thuja_plicata_Thupl.29382282s0005:0.51153)n2:0.20069)n0;

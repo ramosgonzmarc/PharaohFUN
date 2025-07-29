@@ -1,0 +1,1 @@
+(monoraphidium_minutum_Momin.427351:0.567365,(dunaliella_salina_Dusal.0098s00021:0.45655,(tetrabaena_socialis_Tesoc.PNH01361:0.08699,(chlamydomonas_reinhardtii_Cre12.g518645_4532:0.22317,gonium_pectorale_Gopec.04255:0.06235)n3:0.11327)n2:0.18536)n1:0.567365)n0;

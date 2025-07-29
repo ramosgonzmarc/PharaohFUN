@@ -1,0 +1,1 @@
+(((cucumis_sativus_Cucsa.c044710g01:0.13087,cucumis_sativus_Cucsa.c192970g01:0.00054)n2:0.32584,(medicago_truncatula_Medtr6g009455:0.12664,(medicago_truncatula_Medtr4g132795:0.10858,medicago_truncatula_Medtr4g133627:0.28169)n4:0.750645)n3:0.083405)n1:0.417005,(fragaria_vesca_FvH4_6g49561:0.61442,lens_culinaris_Lecul.2g056980:0.31822)n5:0.04781)n0;

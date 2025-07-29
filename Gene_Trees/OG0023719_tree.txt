@@ -1,0 +1,1 @@
+((citrus_sinensis_Cisin.039463:0.45746,quercus_rubra_Qurub.10G155000:0.88295)n1:0.318265,((manihot_esculenta_Manes.08G102611:0.98217,populus_trichocarpa_Potri.006G016001:0.48996)n3:0.41566,(arabidopsis_thaliana_AT2G35750:0.39332,(glycine_max_Glyma.01G085302:0.48252,glycine_max_Glyma.19G030000:0.38527)n5:0.20635)n4:0.05504)n2:0.318265)n0;

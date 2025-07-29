@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_27046A:0.12128,(setaria_italica_Seita.2G032400:0.04102,(miscanthus_sinensis_MisinT113300:0.07127,zea_mays_Zm00001d018801:0.05739)n2:0.17931)n1:0.12128)n0;

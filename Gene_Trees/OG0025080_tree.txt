@@ -1,0 +1,1 @@
+(((cymbomonas_tetramitiformis_KAK3244390:0.00054,cymbomonas_tetramitiformis_KAK3244391:0.00055)n2:0.90534,(micromonas_pusilla_Mpus_20949:0.11409,micromonas_commoda_Micom.055779:0.37181)n3:0.66409)n1:0.19777,(apatococcus_lobatus_Aplob.KAK9816152:0.42585,(myrmecia_bisecta_Mybis.KAK9817766:0.43295,scenedesmus_obliquus_Sobl_g18535:0.65485)n5:0.23868)n4:0.19777)n0;

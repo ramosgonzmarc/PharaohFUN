@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.14092:0.777075,((marchantia_polymorpha_Mp8g02850:0.00055,marchantia_paleacea_Mapa_012272:0.44707)n2:0.80775,(isoetes_sinensis_IsiChr6g3150:0.11684,isoetes_sinensis_IsiChr5g433:0.18209)n3:0.45734)n1:0.777075)n0;

@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_02460400:0.59731,cinnamomum_kanehirae_CKAN_02347900:0.78208)n1:0.156465,(aquilegia_coerulea_Aqcoe5G093200:0.71021,(corylus_avellana_Corav.g6460:0.3358,quercus_rubra_Qurub.12G130200:0.32823)n3:0.31311)n2:0.156465)n0;

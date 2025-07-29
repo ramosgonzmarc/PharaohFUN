@@ -1,0 +1,1 @@
+((sorghum_bicolor_Sobic.003G187600:0.19029,zea_mays_Zm00001d047281:0.136)n1:0.774015,(isoetes_sinensis_IsiChr10g2527:0.04304,(isoetes_sinensis_IsiChr9g2960:0.00055,isoetes_sinensis_IsiChr10g2528:0.07793)n3:0.20283)n2:0.774015)n0;

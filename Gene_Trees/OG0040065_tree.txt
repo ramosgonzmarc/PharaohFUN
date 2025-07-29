@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.7P13450_001:0.482395,((miscanthus_sinensis_Misin01G111000:0.13812,setaria_italica_Seita.9G122100:0.04887)n2:1.33774,(oryza_sativa_Os03g29584:0.1841,oryza_sativa_Os07g13830:0.188739)n3:0.020971)n1:0.16164)n0;

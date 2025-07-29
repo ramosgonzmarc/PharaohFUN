@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g22559:0.56222,((quercus_rubra_Qurub.09G217300:0.6105,trifolium_pratense_Trpra.04609:1.01185)n2:0.21761,(((quercus_rubra_Qurub.04G109600:0.6671,medicago_truncatula_Medtr2g031660:0.68705)n5:0.05884,arachis_hypogaea_arahy_WNP6XT:1.16658)n4:0.00038,trifolium_pratense_Trpra.09526:0.372519)n3:0.041391)n1:0.000342)n0;

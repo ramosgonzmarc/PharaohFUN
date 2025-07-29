@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10023147m:0.655295,(spirogloea_muscicola_SM000014S00407:0.04184,(spirogloea_muscicola_SM000249S08233:0.06754,spirogloea_muscicola_SM000097S24812:0.04637)n2:0.04328)n1:0.655295)n0;

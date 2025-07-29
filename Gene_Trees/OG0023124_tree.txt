@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA10G0776:0.10856,huperzia_asiatica_HaA32G0019:0.49787)n1:0.285975,(ceratopteris_richardii_Ceric.20G077100:0.8649,(sequoia_sempervirens_SESE_098807:0.29094,(alsophila_spinulosa_Aspi01Gene54665:0.21099,alsophila_spinulosa_Aspi01Gene14529:0.00055)n4:0.00905)n3:0.30047)n2:0.285975)n0;

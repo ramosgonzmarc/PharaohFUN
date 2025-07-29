@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp4S06267:0.323325,(apatococcus_lobatus_Aplob.KAK9840488:0.78197,(chloropicon_primus_Chlpr_g6783:0.53058,cymbomonas_tetramitiformis_KAK3244024:0.40876)n2:0.43303)n1:0.323325)n0;

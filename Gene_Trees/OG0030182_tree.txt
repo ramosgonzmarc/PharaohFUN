@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0116.g046343:1.09328,marsilea_vestita_Mvestita_C68g20098:0.8543)n1:0.336625,(alsophila_spinulosa_Aspi01Gene00025:0.19271,alsophila_spinulosa_Aspi01Gene18643:0.24609)n2:0.336625)n0;

@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.D02G019651:0.221455,((corylus_avellana_Corav.g7592:0.03391,corylus_avellana_Corav.g7683:0.10994)n2:0.56033,(glycine_max_Glyma.08G080800:0.61128,(carya_illinoinensis_Caril.09G076800:0.68137,salix_purpurea_Sapur.006G106000:0.48828)n4:0.03986)n3:0.16468)n1:0.221455)n0;

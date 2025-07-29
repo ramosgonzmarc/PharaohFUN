@@ -1,0 +1,1 @@
+(phaseolus_acutifolius_Phacu.010G019200:0.74494,(trifolium_pratense_Trpra.11368:0.40044,(trifolium_pratense_Trpra.05389:0.24996,trifolium_pratense_Trpra.26233:0.2592)n2:0.16636)n1:0.74494)n0;

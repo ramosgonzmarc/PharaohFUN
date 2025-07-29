@@ -1,0 +1,1 @@
+((miscanthus_sinensis_Misin05G121900:0.12526,setaria_italica_Seita.6G115400:0.0852)n1:0.058675,(setaria_italica_Seita.7G060300:0.0842,(panicum_hallii_Pahal.6G109000:0.57963,(miscanthus_sinensis_Misin03G286200:0.22305,(zea_mays_Zm00001d039622:0.01694,(zea_mays_Zm00001d004514:0.0079,zea_mays_Zm00001d027945:0.05046)n6:0.04297)n5:0.53779)n4:0.18174)n3:0.5725)n2:0.058675)n0;

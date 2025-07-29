@@ -1,0 +1,1 @@
+(panicum_hallii_Pahal.5G226000:0.104525,(lens_culinaris_Lecul.6g015740:0.20875,(arachis_hypogaea_arahy_GU4YG9:0.22382,(medicago_truncatula_Medtr0082s0080:0.02235,(vigna_unguiculata_Vigun06g007610:0.05178,(vigna_unguiculata_VigunL048540:0.00052,vigna_unguiculata_Vigun03g232450:0.0172)n5:0.00866)n4:0.0456)n3:0.15456)n2:0.00811)n1:0.104525)n0;

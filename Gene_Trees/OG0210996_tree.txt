@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_2g08331:0.4376,(salix_purpurea_Sapur.T003200:0.00055,(salix_purpurea_Sapur.T002700:0.00055,(salix_purpurea_Sapur.T002500:0.00061,salix_purpurea_Sapur.T141800:0.07362)n3:0.007)n2:0.01497)n1:0.4376)n0;

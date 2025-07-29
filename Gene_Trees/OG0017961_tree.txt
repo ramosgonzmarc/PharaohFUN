@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c03949:0.32471,((isoetes_sinensis_IsiChr12g1790:0.28921,isoetes_sinensis_IsiChr13g1913:0.08672)n2:0.51504,((poncirus_trifoliata_Ptrif.0008s2766:0.38911,quercus_rubra_Qurub.01G069100:0.16513)n4:0.27632,(cinnamomum_kanehirae_CKAN_02763700:0.32756,cinnamomum_kanehirae_CKAN_00465300:0.21465)n5:0.13036)n3:0.61434)n1:0.32471)n0;

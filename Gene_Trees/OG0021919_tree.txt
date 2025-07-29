@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_037750:1.02543,(zostera_marina_Zosma07g03080:0.43532,zostera_marina_Zosma07g02240:0.535581)n2:0.059509)n1:0.187125,(salvinia_cucullata_Sacu_s2951.g028506:0.1838,caulerpa_lentillifera_Caule_g8556:0.37435)n3:0.18692)n0;

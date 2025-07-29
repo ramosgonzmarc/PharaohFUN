@@ -1,0 +1,1 @@
+((chlorella_sorokiniana_Chlso_g4803:1.08612,apatococcus_lobatus_Aplob.KAK9836819:1.02078)n1:0.082595,(chromochloris_zofingiensis_Cz09g10040:1.23286,(raphidocelis_subcapitata_Rsub_05021:0.45363,(monoraphidium_minutum_Momin.475449:0.43083,monoraphidium_minutum_Momin.524542:0.40974)n4:0.08802)n3:0.24201)n2:0.082595)n0;

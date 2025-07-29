@@ -1,0 +1,1 @@
+((asterochloris_glomerata_Astgl_g24:0.81499,(gonium_pectorale_Gopec.09631:0.62777,scenedesmus_obliquus_Sobl_g00667:0.56472)n2:0.3915)n1:0.55797,(tetraselmis_striata_TSEL_043110:0.04233,tetraselmis_striata_TSEL_045078:0.01347)n3:0.55797)n0;

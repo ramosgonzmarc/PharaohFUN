@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0034.g025187:0.381505,(huperzia_asiatica_HaA35G0508:0.52969,(isoetes_sinensis_IsiChr18g2100:0.03186,(isoetes_sinensis_IsiChr17g2388:0.00191,isoetes_sinensis_IsiChr16g2974:0.00594)n3:0.00107)n2:0.3455)n1:0.381505)n0;

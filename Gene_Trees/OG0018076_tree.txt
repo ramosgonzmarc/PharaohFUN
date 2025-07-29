@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl01432_0010:0.736855,(cymbomonas_tetramitiformis_KAK3265273:0.00439,(cymbomonas_tetramitiformis_KAK3236251:0.01528,(cymbomonas_tetramitiformis_KAK3253442:0.00246,cymbomonas_tetramitiformis_KAK3278658:0.00055)n3:0.00053)n2:0.00056)n1:0.736855)n0;

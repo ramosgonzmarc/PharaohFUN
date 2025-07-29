@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c6_2430V6:0.00124,funaria_hygrometrica_Fuhyg.21490:0.33089)n1:0.2124,(physcomitrium_patens_Pp6c5_12660V6:0.20357,funaria_hygrometrica_Fuhyg.23416:0.27846)n2:0.2124)n0;

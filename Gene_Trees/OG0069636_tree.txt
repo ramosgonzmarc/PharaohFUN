@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL3G48330:0.08377,arabidopsis_thaliana_AT2G19893:0.14442)n1:0.02626,(thlaspi_arvense_TaMN106.4G309700:0.12182,(eutrema_salsugineum_Thhalv10000393m:0.21475,sisymbrium_irio_Siiris2286g00590:0.34423)n3:0.16373)n2:0.02626)n0;

@@ -1,0 +1,1 @@
+(lycopodium_clavatum_Lcl_0022581:0.24357,((thuja_plicata_Thupl.29380487s0007:0.47503,picea_abies_Pab_182897g0010:0.95678)n2:0.1866,(ginkgo_biloba_Gb_13997:0.60688,ginkgo_biloba_Gb_34999:0.339507)n3:0.037723)n1:0.31291)n0;

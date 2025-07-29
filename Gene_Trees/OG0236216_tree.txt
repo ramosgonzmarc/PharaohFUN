@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9821367:0.065835,(apatococcus_lobatus_Aplob.KAK9820809:0.32979,(apatococcus_lobatus_Aplob.KAK9816242:0.2838,(apatococcus_lobatus_Aplob.KAK9820775:0.0729,(apatococcus_lobatus_Aplob.KAK9820789:0.24653,apatococcus_lobatus_Aplob.KAK9820810:0.19596)n4:0.10721)n3:0.42594)n2:0.12211)n1:0.065835)n0;

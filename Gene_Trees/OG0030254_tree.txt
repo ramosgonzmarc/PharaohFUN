@@ -1,0 +1,1 @@
+(((picocystis_sp_Picml_g1923:0,picocystis_sp_Picml_g2118:0,picocystis_sp_Picml_g959:0,picocystis_sp_Picml_g1335:0)n2:0.03412,picocystis_sp_Picml_g2120:0.01237)n1:0.42168,(ginkgo_biloba_Gb_09769:0.49065,(alsophila_spinulosa_Aspi01Gene07876:0.0371,(adiantum_capillus_Adc27277:0.23739,adiantum_capillus_Adc25473:0.0941)n5:0.04425)n4:0.05035)n3:0.42168)n0;

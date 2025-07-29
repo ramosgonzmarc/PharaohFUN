@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_011324:0.32658,(dunaliella_salina_Dusal.0725s00002:0.82763,((haematococcus_lacustris_QJQ45_013856:0.03538,haematococcus_lacustris_QJQ45_023309:0.13424)n3:0.52551,(gonium_pectorale_Gopec.10505:0.45014,(chlamydomonas_reinhardtii_Cre11.g481093_4532:0.28724,chlamydomonas_incerta_Chincg02468:0.20171)n5:0.19942)n4:0.43839)n2:0.16392)n1:0.32658)n0;

@@ -1,0 +1,1 @@
+(glycine_max_Glyma.10G094351:0.23123,(cicer_arietinum_Ca_11213:0.22327,(lens_culinaris_Lecul.1g037750:0.21603,lens_culinaris_Lecul.6g029550:0.04868)n2:0.43775)n1:0.23123)n0;

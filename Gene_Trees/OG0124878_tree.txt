@@ -1,0 +1,1 @@
+((lotus_japonicus_Lj4g0016017:0.27233,(cicer_arietinum_Ca_03005:0.05175,(medicago_truncatula_Medtr4g121913:0.15028,trifolium_pratense_Trpra.17442:0.07799)n3:0.02643)n2:0.06945)n1:0.031985,(glycine_max_Glyma.07G241100:0.13239,vigna_unguiculata_Vigun03g415500:0.29114)n4:0.031985)n0;

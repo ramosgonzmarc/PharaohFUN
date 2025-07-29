@@ -1,0 +1,1 @@
+((beta_vulgaris_Bevul.8G175100:0.23977,chenopodium_quinoa_AUR62009755:0.38813)n1:0.74774,(arabidopsis_thaliana_AT4G12920:0.34605,((eutrema_salsugineum_Thhalv10025401m:0.0953,eutrema_salsugineum_Thhalv10027411m:0.14085)n4:0.11999,(thlaspi_arvense_TaMN106.7G102900:0.35234,thlaspi_arvense_TaMN106.7G102800:0.189531)n5:0.021059)n3:0.03675)n2:0.74774)n0;

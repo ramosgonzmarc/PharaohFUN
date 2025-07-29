@@ -1,0 +1,1 @@
+(ostreobium_quekettii_CAD7699600:0.580345,(caulerpa_lentillifera_Caule_g4287:0.76893,(caulerpa_lentillifera_Caule_g3139:0.65502,(caulerpa_lentillifera_Caule_g4253:0.23757,caulerpa_lentillifera_Caule_g4846:0.17225)n3:0.52071)n2:0.17213)n1:0.580345)n0;

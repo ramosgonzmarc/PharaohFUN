@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.C00837:0.336815,((vaccinium_darrowii_Vadar_g29741:0.02524,vaccinium_darrowii_Vadar_g10841:0.27609)n2:0.75099,(vaccinium_darrowii_Vadar_g30757:0.61398,(vaccinium_darrowii_Vadar_g5829:0.06295,vaccinium_darrowii_Vadar_g27919:0.09865)n4:0.8979)n3:0.30162)n1:0.336815)n0;

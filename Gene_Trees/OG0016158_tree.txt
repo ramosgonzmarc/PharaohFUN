@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9817097:0.37829,(cycas_panzhihuaensis_CYCAS_026983:1.47478,((klebsormidium_nitens_kfl00794_0090:0.17578,(klebsormidium_nitens_kfl00219_0130:0.07469,klebsormidium_nitens_kfl00935_0040:0.11816)n4:0.95007)n3:0.36214,(klebsormidium_nitens_kfl00794_0080:0.02261,klebsormidium_nitens_kfl01715_0010:0.02798)n5:0.53758)n2:0.24712)n1:0.37829)n0;

@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S4G409900:0.45975,(huperzia_asiatica_HaA26G0048:0.84579,(picea_abies_Pab_4731g0020:0.47251,(adiantum_capillus_Adc27162:1.04163,(adiantum_capillus_Adc21374:0.92667,alsophila_spinulosa_Aspi01Gene63875:0.44139)n4:0.125226)n3:0.013914)n2:0.17761)n1:0.22542)n0;

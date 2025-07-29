@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3254177:0.50346,((chloropicon_primus_Chlpr_g3202:1.02112,caulerpa_lentillifera_Caule_g909:0.83869)n2:0.1641,(ostreobium_quekettii_CAD7695452:0.67656,bryopsis_sp_Bsp_GMH33756:0.82334)n3:0.21969)n1:0.50346)n0;

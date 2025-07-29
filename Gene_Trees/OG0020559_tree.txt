@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_CmerSOOS_G2872:0.40981,(prasinoderma_coloniale_PRCOL_00000673:0.65163,((cymbomonas_tetramitiformis_KAK3258733:0.45024,mesostigma_viride1140_Mesvi4S06496:0.29609)n3:0.10306,(mesotaenium_kramstae_Mekra.2546180:0.22223,zygnema_circumcarinatum1559_ZcUTEX1559_05554:0.85051)n4:0.39947)n2:0.35392)n1:0.40981)n0;

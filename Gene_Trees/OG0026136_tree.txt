@@ -1,0 +1,1 @@
+((bryopsis_sp_Bsp_GMH39230:0.79273,trebouxia_sp_FRX49_03295:0.72561)n1:0.3187,(selaginella_moellendorffii_Smoe_117448:0.51562,(isoetes_sinensis_IsiChr11g1110:0.00639,isoetes_sinensis_IsiChr12g1049:0.00055)n3:0.61224)n2:0.3187)n0;

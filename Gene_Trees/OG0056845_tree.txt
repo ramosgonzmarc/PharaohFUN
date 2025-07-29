@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.03G188700:0.58089,(aegilops_tauschii_Atau_XP_040254311:0.29017,(triticum_aestivum_TraesCS2A03G0323500:0.51197,(triticum_aestivum_TraesCS5A03G0654900:0.46841,triticum_aestivum_TraesCS1B03G1100400:0.354339)n3:0.0354339)n2:0.0039371)n1:0.20959)n0;

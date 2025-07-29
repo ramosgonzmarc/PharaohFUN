@@ -1,0 +1,1 @@
+((thuja_plicata_Thupl.29380457s0006:0.32534,(ginkgo_biloba_Gb_22014:0.12297,ginkgo_biloba_Gb_39608:0.02381)n2:0.20178)n1:0.056615,(amborella_trichopoda_AmTr00057g32:0.62596,corylus_avellana_Corav.g21576:1.01328)n3:0.056615)n0;

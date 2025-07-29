@@ -1,0 +1,1 @@
+(schrenkiella_parvula_Scpar2g09780:0.026635,(eutrema_salsugineum_Thhalv10017397m:0.10773,(thlaspi_arvense_TaMN106.6G186300:0.95833,(thlaspi_arvense_TaMN106.2G234000:0.13688,thlaspi_arvense_TaMN106.4G072100:0.306531)n3:0.0306531)n2:0.0034059)n1:0.04469)n0;

@@ -1,0 +1,1 @@
+((myrmecia_bisecta_Mybis.KAK9816597:0.96233,chromochloris_zofingiensis_Cz06g10070:0.66356)n1:0.16235,(zygnema_circumcarinatum1559_ZcUTEX1559_14522:0.77386,(marsilea_vestita_Mvestita_S4g09113:0.36225,(salvinia_cucullata_Sacu_s0158.g023761:0.13903,salvinia_cucullata_Sacu_s0158.g023762:0.00055)n4:0.33501)n3:0.08794)n2:0.16235)n0;

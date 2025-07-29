@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S3G365200:0.96356,(notothylas_orbicularis_Noorb.S2G455100:0.60867,notothylas_orbicularis_Noorb.S4G069100:0.8228)n2:0.20811)n1:0.15808,(anthoceros_punctatus_Anpun.S3G360900:0.03241,(anthoceros_agrestis_AnagrOXF.S1G068300:0.14212,anthoceros_agrestis_AnagrOXF.S5G003700:0.028782)n4:0.003198)n3:0.26818)n0;

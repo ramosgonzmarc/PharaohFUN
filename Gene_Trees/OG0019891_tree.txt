@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0405s00008:0.296715,(apatococcus_lobatus_Aplob.KAK9828263:0.86281,(trebouxia_sp_FRX49_00081:0.77833,(coccomyxa_subellipsoidea_Cosub_55407:0.49817,(asterochloris_glomerata_Astgl_g2763:0.62562,chlorella_sorokiniana_Chlso_g8920:0.68111)n4:0.11231)n3:0.14826)n2:0.243)n1:0.296715)n0;

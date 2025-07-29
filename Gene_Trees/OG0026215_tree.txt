@@ -1,0 +1,1 @@
+((malus_domestica_MD15G1256900:0.28528,fragaria_vesca_FvH4_1g12840:0.60621)n1:0.577665,(isoetes_sinensis_IsiChr17g2047:0.00055,isoetes_sinensis_IsiChr16g1301:0.00631)n2:0.577665)n0;

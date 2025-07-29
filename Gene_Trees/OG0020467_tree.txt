@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum1084s0003:0.140715,(tetraselmis_striata_TSEL_017928:0.33032,(ulva_mutabilis_UM109_0045:0.32581,(chromochloris_zofingiensis_Cz03g10140:0.58683,bryopsis_sp_Bsp_GMH46126:0.76693)n3:0.29819)n2:0.17883)n1:0.140715)n0;

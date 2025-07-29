@@ -1,0 +1,1 @@
+(miscanthus_sinensis_Misin16G131300:0.053515,((hordeum_vulgare_Hvul_1HG0064140:0.42382,(triticum_aestivum_TraesCS1D03G0598400:0.03076,triticum_aestivum_TraesCS1D03G0598600:0.130293)n3:0.014477)n2:0.35351,(oryza_sativa_Os02g28210:1.34532,oryza_sativa_Os05g32770:0.00055)n4:0.3028)n1:0.053515)n0;

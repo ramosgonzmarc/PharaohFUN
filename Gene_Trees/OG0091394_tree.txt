@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_00153600:0.20328,ostreococcus_lucimarinus_Oluc_8483:0.51528)n1:0.16133,(volvox_carteri_Vocar.0064s0033:1.0341,(fragaria_vesca_FvH4_6g42250:0.33134,(fragaria_vesca_FvH4_7g21700:0.13891,fragaria_vesca_FvH4_7g21680:0.12766)n4:0.00321)n3:0.26709)n2:0.16133)n0;

@@ -1,0 +1,1 @@
+((amborella_trichopoda_AmTr00055g11:0.52506,olea_europaea_Oeu028703:1.02443)n1:0.18272,(picea_abies_Pab_16026g0010:0.14157,picea_abies_Pab_98143g0020:0.09158)n2:0.18272)n0;

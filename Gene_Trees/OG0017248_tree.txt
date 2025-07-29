@@ -1,0 +1,1 @@
+(brachypodium_distachyon_Bradi4g32315:0.55297,((aegilops_tauschii_Atau_XP_040246301:0.00055,aegilops_tauschii_Atau_XP_045084847:0.00055)n2:0.00053,(aegilops_tauschii_Atau_XP_040246300:0.05404,aegilops_tauschii_Atau_XP_045084848:0.00058)n3:0.07139)n1:0.55297)n0;

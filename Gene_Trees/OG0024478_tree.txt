@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF40110:0.457565,(chromochloris_zofingiensis_Cz07g25020:0.23948,(elliptochloris_bilobata_Elbil.KAK9834964:0.39855,(chlorella_sorokiniana_Chlso_g5835:0.31488,picochlorum_soloecismus_NSC_00229:0.45816)n3:0.12826)n2:0.08625)n1:0.457565)n0;

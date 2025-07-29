@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene17419:0.50297,medicago_truncatula_Medtr7g056567:0.79787)n1:0.22558,(cymbomonas_tetramitiformis_KAK3235576:0.34522,(cymbomonas_tetramitiformis_KAK3237955:0.32967,cymbomonas_tetramitiformis_KAK3264871:0.45401)n3:0.07462)n2:0.22558)n0;

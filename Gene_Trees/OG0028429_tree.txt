@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.8P16470_001:0.357995,(picea_abies_Pab_7999321g0010:0.00055,(welwitschia_mirabilis_Wmi_05426:0.0259,(welwitschia_mirabilis_Wmi_19104:0.04286,welwitschia_mirabilis_Wmi_19106:0.01469)n3:0.33838)n2:0.23265)n1:0.357995)n0;

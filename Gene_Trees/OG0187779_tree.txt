@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag11G053700:0.119935,((pleurozium_schreberi_Plsch.01038:0,pleurozium_schreberi_Plsch.01039:0)n2:0.08586,(ceratodon_purpureus_CepurR40.7G111000:0.9259,(ceratodon_purpureus_CepurR40.4G075100:0.42933,ceratodon_purpureus_CepurR40.1G090700:0.091557)n4:0.0091557)n3:0.0010173)n1:0.13697)n0;

@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp8g18260:0.36867,(riccia_fluitans_R1flu_007111:0.95015,(riccia_fluitans_R1flu_025895:1.24973,(riccia_fluitans_R1flu_024353:0.9155,(riccia_fluitans_R1flu_001828:0.68192,(riccia_fluitans_R1flu_007109:0.21711,riccia_fluitans_R1flu_007110:0.50148)n5:0.36219)n4:0.11999)n3:0.00074)n2:0.29009)n1:0.36867)n0;

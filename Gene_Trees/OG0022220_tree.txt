@@ -1,0 +1,1 @@
+((picea_abies_Pab_141020g0010:0.6995,(welwitschia_mirabilis_Wmi_04237:0.10925,gnetum_montanum_TnS013783244t01:0.56824)n2:0.34519)n1:0.08922,(sequoia_sempervirens_SESE_029833:0.15089,(thuja_plicata_Thupl.29381682s0002:0.55557,(thuja_plicata_Thupl.29382004s0006:0.08209,thuja_plicata_Thupl.29379665s0007:0.01296)n5:0.001296)n4:0.000144)n3:0.20426)n0;

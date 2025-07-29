@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0016.g006977:0.84604,((isoetes_sinensis_IsiChr22g78:0.00654,isoetes_sinensis_IsiScaffold3693g9:0.00189)n3:0.74447,isoetes_sinensis_IsiChr22g696:0.504216)n2:0.056024)n1:0.126745,(abies_alba_AALBA5B260183:0.33527,(abies_alba_AALBA5B362915:0.00897,(abies_alba_AALBA5B204905:0.02641,abies_alba_AALBA5B699711:0.03407)n6:0.01156)n5:0.56436)n4:0.31078)n0;

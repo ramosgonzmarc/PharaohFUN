@@ -1,0 +1,1 @@
+((beta_vulgaris_Bevul.2G007900:0.42632,((chenopodium_quinoa_AUR62032084:0.01525,chenopodium_quinoa_AUR62032085:0.50654)n3:0.60533,chenopodium_quinoa_AUR62041859:0.46901)n2:0.24541)n1:0.53457,(saponaria_officinalis_Sapof.11G181900:0.11467,(saponaria_officinalis_Sapof.11G182100:0.02962,saponaria_officinalis_Sapof.11G181800:0.00055)n5:0.14529)n4:0.53457)n0;

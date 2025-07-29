@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00002907:0.29185,(mesotaenium_kramstae_Mekra.2662919:1.09185,((micromonas_commoda_Micom.099712:0.62937,(micromonas_pusilla_Mpus_51928:0.62814,micromonas_pusilla_Mpus_54348:0.383661)n4:0.042629)n3:0.27416,(micromonas_pusilla_Mpus_68138:0.26523,micromonas_commoda_Micom.109635:0.238509)n5:0.026501)n2:0.20504)n1:0.29185)n0;

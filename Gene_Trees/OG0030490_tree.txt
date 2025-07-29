@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene38138:0.390075,(carica_papaya_Capac.c00022g028:0.64734,(malus_domestica_MD04G1021400:0.13641,medicago_truncatula_Medtr4g117110:0.62695)n2:0.09905)n1:0.390075)n0;

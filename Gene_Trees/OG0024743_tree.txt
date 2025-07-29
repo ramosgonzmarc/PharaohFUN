@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME1106341C05699:0.28304,(cinnamomum_kanehirae_CKAN_02669300:0.57539,((paraphymatoceros_pearsonii_Papea.S1G125600:0.18226,paraphymatoceros_pearsonii_Papea.S4G108000:0.38171)n3:0.95484,(sequoia_sempervirens_SESE_119409:0.47739,(taxus_chinensis_KI387_020700:0.17354,salix_purpurea_Sapur.007G061300:0.62642)n5:0.23005)n4:0.17186)n2:0.23634)n1:0.28304)n0;

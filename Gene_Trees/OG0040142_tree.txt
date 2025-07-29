@@ -1,0 +1,1 @@
+((triticum_aestivum_TraesCS1B03G0227600:0.57314,(oryza_sativa_Os01g44180:0.08512,oryza_sativa_Os09g01610:0.09948)n2:0.45447)n1:0.410775,(oropetium_thomaeum_Oropetium_20150105_09178A:0.22922,oropetium_thomaeum_Oropetium_20150105_09095A:0.38546)n3:0.410775)n0;

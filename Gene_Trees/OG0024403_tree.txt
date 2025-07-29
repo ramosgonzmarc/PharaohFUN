@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_027201:0.36772,(myrmecia_bisecta_Mybis.KAK9805162:0.29591,(dunaliella_salina_Dusal.0721s00003:0.45549,(volvox_carteri_Vocar.0024s0093:0.12232,(gonium_pectorale_Gopec.05166:0.17566,(chlamydomonas_reinhardtii_Cre17.g723900_4532:0.01313,chlamydomonas_incerta_Chincg03260:0.02454)n5:0.1555)n4:0.14548)n3:0.37356)n2:0.18877)n1:0.36772)n0;

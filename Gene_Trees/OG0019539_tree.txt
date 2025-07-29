@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c17_2170V6:0.337665,(chenopodium_quinoa_AUR62024016:0.67995,((taxus_chinensis_KI387_041169:0.06808,taxus_chinensis_KI387_038391:0.14223)n3:0.42419,(alsophila_spinulosa_Aspi01Gene08826:0.17368,(sequoia_sempervirens_SESE_039172:0.28333,sequoia_sempervirens_SESE_053971:0.42152)n5:0.44579)n4:0.19987)n2:0.10612)n1:0.337665)n0;

@@ -1,0 +1,1 @@
+((hordeum_vulgare_Hvul_2HG0164760:0.80291,(malus_domestica_MD11G1302300:0.1423,prunus_persica_Prupe.8G255800:0.04982)n2:0.58927)n1:0.19009,(amborella_trichopoda_AmTr00016g275:0.12431,(amborella_trichopoda_AmTr00016g276:0.06762,amborella_trichopoda_AmTr00016g274:0.1572)n4:0.015)n3:0.19009)n0;

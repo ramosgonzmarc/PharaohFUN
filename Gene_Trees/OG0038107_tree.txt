@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr21g1404:0.00055,huperzia_asiatica_HaB67G0249:0.51407)n1:0.08811,(vitis_vinifera_VIT_210s0003g01190:0.08799,(boechera_stricta_Bostr.20505s0083:0.09754,lupinus_albus_Lalb_Chr24g0400101:0.0595)n3:0.02158)n2:0.08811)n0;

@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_027724:0.03511,tetraselmis_striata_TSEL_030669:0.09312)n1:0.60049,(asterochloris_glomerata_Astgl_g4386:0.47317,apatococcus_lobatus_Aplob.KAK9837823:0.44014)n2:0.60049)n0;

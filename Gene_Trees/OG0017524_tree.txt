@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g44140:0.64385,(aquilegia_coerulea_Aqcoe1G325700:0.48667,((aquilegia_coerulea_Aqcoe1G295000:0.18989,aquilegia_coerulea_Aqcoe5G305500:0.07684)n3:0.25843,(aquilegia_coerulea_Aqcoe7G269400:0.01228,aquilegia_coerulea_Aqcoe1G452900:0.06147)n4:0.88285)n2:0.08576)n1:0.64385)n0;

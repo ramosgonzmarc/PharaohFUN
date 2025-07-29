@@ -1,0 +1,1 @@
+(ananas_comosus_Aco019161:0.191695,(solanum_tuberosum_Soltu.12G017600:0.06327,((solanum_lycopersicum_Solyc10g055350:0.394,solanum_lycopersicum_Solyc10g061880:0.19232)n3:0.40292,(solanum_lycopersicum_Solyc00g500342:0.00055,solanum_lycopersicum_Solyc08g036510:0.064809)n4:0.0064809)n2:0.0007201)n1:0.08295)n0;

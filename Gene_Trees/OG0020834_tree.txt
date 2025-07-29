@@ -1,0 +1,1 @@
+(((prunus_persica_Prupe.5G066700:0.24857,prunus_persica_Prupe.5G066900:0.01874)n2:0.31168,((malus_domestica_MD06G1056200:0.00901,malus_domestica_MD06G1056000:0.00055)n4:0.15197,mesostigma_viride296_Mevir.Mv09944:1.11796)n3:0.16753)n1:0.1617,(cymbomonas_tetramitiformis_KAK3259364:1.21365,micromonas_pusilla_Mpus_52194:0.7273)n5:0.1617)n0;

@@ -1,0 +1,1 @@
+(picea_abies_Pab_10426333g0010:0.261285,(coffea_arabica_Coara.034957:0.53258,(olea_europaea_Oeu055036:0.54951,olea_europaea_Oeu054027:0.091647)n2:0.010183)n1:0.24595)n0;

@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_020903:0.111945,(((cymbomonas_tetramitiformis_KAK3239612:0,cymbomonas_tetramitiformis_KAK3276450:0)n3:0.00055,(cymbomonas_tetramitiformis_KAK3239613:0,cymbomonas_tetramitiformis_KAK3276449:0)n4:0.00054)n2:0.9271,(micromonas_pusilla_Mpus_54045:0.32555,micromonas_commoda_Micom.058921:0.25229)n5:0.54927)n1:0.111945)n0;

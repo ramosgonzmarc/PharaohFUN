@@ -1,0 +1,1 @@
+((auxenochlorella_protothecoides_APUTEX2500004308:0.99162,(chlorella_sorokiniana_Chlso_g4797:0.42936,picochlorum_soloecismus_NSC_04323:1.07576)n2:0.20618)n1:0.046595,(myrmecia_bisecta_Mybis.KAK9806863:0.7065,trebouxia_sp_FRX49_02142:0.70382)n3:0.046595)n0;

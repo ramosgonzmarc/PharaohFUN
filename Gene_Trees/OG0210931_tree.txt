@@ -1,0 +1,1 @@
+(carya_illinoinensis_Caril.05G204800:0.290235,(medicago_truncatula_Medtr6g033435:0.21045,(trifolium_pratense_Trpra.37562:0.00054,(trifolium_pratense_Trpra.14746:0.04525,trifolium_pratense_Trpra.11337:0.13628)n3:0.17602)n2:0.86625)n1:0.290235)n0;

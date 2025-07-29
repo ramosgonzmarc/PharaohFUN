@@ -1,0 +1,1 @@
+((carya_illinoinensis_Caril.08G103200:0.38661,corylus_avellana_Corav.g6194:0.34897)n1:0.23207,(manihot_esculenta_Manes.05G072100:0.59985,salix_purpurea_Sapur.010G196000:0.41358)n2:0.23207)n0;

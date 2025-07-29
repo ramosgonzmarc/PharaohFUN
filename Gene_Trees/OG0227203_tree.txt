@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.14034:0,(pleurozium_schreberi_Plsch.14042:0,(pleurozium_schreberi_Plsch.14035:0,pleurozium_schreberi_Plsch.14043:0)n2:0.06318)n1:0)n0;

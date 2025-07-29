@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00273_0170:0.88027,klebsormidium_nitens_kfl00351_0040:0.56751)n1:0.40282,(bryopsis_sp_Bsp_GMH33037:0.47056,(bryopsis_sp_Bsp_GMH38636:0.2747,bryopsis_sp_Bsp_GMH38639:0.20535)n3:0.68189)n2:0.40282)n0;

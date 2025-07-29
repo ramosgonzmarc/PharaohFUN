@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA36G0044:0.32004,(thuja_plicata_Thupl.29377925s0001:0.22768,(sequoia_sempervirens_SESE_122399:0.17029,sequoia_sempervirens_SESE_104915:0.172665)n2:0.019185)n1:0.14865)n0;

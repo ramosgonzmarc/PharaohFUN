@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_5g34311:0.000275,(medicago_truncatula_Medtr1g079480:1.59632,(lupinus_albus_Lalb_Chr03g0024681:0.35966,(phaseolus_acutifolius_Phacu.009G146600:0.5629,vigna_unguiculata_Vigun11g197700:0.48544)n3:0.04731)n2:0.96069)n1:0.000275)n0;

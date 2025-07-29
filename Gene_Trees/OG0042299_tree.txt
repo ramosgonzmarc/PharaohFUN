@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0042.g012752:0.33685,salvinia_cucullata_Sacu_s0224.g026286:0.79077)n1:0.017835,(ananas_comosus_Aco022473:0.67503,(fragaria_vesca_FvH4_6g24151:0.68369,manihot_esculenta_Manes.09G060002:0.64713)n3:0.23608)n2:0.017835)n0;

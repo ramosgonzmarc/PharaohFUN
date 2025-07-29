@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum1559_ZcUTEX1559_16584:0.547515,(riccia_sorocarpa_Risor.KAL3685527:0.28814,((riccia_fluitans_R1flu_021749:0.56528,riccia_fluitans_R1flu_021753:0.00055)n3:0.02297,(riccia_fluitans_R1flu_021748:0.00054,riccia_fluitans_R1flu_021752:0.39092)n4:0.03765)n2:0.27833)n1:0.547515)n0;

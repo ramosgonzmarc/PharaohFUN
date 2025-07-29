@@ -1,0 +1,1 @@
+((mesotaenium_kramstae_Mekra.2745584:0.51139,(klebsormidium_nitens_kfl00218_0080:0.23217,klebsormidium_nitens_kfl00023_0340:0.22228)n2:0.59492)n1:0.50932,(coccomyxa_subellipsoidea_Cosub_40564:0.46619,(coccomyxa_subellipsoidea_Cosub_56653:0.50133,coccomyxa_subellipsoidea_Cosub_56652:0.2592)n4:0.26018)n3:0.50932)n0;

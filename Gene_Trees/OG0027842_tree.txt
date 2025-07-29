@@ -1,0 +1,1 @@
+((asparagus_officinalis_AsparagusV1_08.266:1.33995,(gnetum_montanum_TnS000141713t03:0.7935,(lens_culinaris_Lecul.7g026020:0.31299,lens_culinaris_Lecul.3g038470:0.1838)n3:1.06753)n2:0.04273)n1:0.244205,(spirogloea_muscicola_SM000008S22285:0.05583,(spirogloea_muscicola_SM000039S14451:0.0311,spirogloea_muscicola_SM000042S15323:0.03791)n5:0.00756)n4:0.244205)n0;

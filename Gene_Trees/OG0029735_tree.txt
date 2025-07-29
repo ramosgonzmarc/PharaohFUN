@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_3g40851:0.683065,((aegilops_tauschii_Atau_XP_020151156:0.02445,aegilops_tauschii_Atau_XP_045084117:0.00055)n2:0.00529,(triticum_aestivum_TraesCS5B03G0833500:0.11215,triticum_aestivum_TraesCS5D03G0758000:0.010512)n3:0.001168)n1:0.00784)n0;

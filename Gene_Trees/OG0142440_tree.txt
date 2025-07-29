@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.10771:0.47975,trebouxia_sp_FRX49_07874:0.35964)n1:0.50321,(mesostigma_viride1140_Mesvi710S07736:0.08448,mesostigma_viride296_Mevir.Mv21772:0.00497)n2:0.50321)n0;

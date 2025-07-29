@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C5G137500:0.80742,(marchantia_polymorpha_Mp8g12540:0.36021,(riccia_fluitans_R1flu_026252:0.16435,riccia_sorocarpa_Risor.KAL3675338:0.29401)n2:0.59514)n1:0.80742)n0;

@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000259729t02:0.633065,(physcomitrium_patens_Pp6c6_1220V6:0.04639,(physcomitrium_patens_Pp6c6_700V6:0.00055,physcomitrium_patens_Pp6c6_780V6:0.02216)n2:0.62663)n1:0.633065)n0;

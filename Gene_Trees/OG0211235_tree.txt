@@ -1,0 +1,1 @@
+((corylus_avellana_Corav.g3505:0.48786,cucumis_sativus_Cucsa.c363340g01:0.43552)n1:0.154095,(arachis_hypogaea_arahy_L9PS6V:0.35182,trifolium_pratense_Trpra.01545:0.41968)n2:0.154095)n0;

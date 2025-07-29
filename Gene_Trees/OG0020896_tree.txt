@@ -1,0 +1,1 @@
+(micromonas_pusilla_Mpus_129507:0.402625,(cymbomonas_tetramitiformis_KAK3279729:1.13561,(cymbomonas_tetramitiformis_KAK3288135:0.17195,cymbomonas_tetramitiformis_KAK3288468:0.62784)n2:0.18683)n1:0.402625)n0;

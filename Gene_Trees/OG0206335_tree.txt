@@ -1,0 +1,1 @@
+(arabidopsis_lyrata_Arlyr.AL594U10010:0.373565,(sisymbrium_irio_Siiris1507g00160:0.5384,(thlaspi_arvense_TaMN106.6G158000:0.20171,(carica_papaya_Capac.c00363g001:0.46547,carica_papaya_Capac.c00083g039:0.84699)n3:0.60411)n2:0.45768)n1:0.373565)n0;

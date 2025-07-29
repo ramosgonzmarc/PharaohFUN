@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene47478:0.16732,((cucumis_sativus_Cucsa.c166790g01:0.76619,nymphaea_colorata_Nycol.A00514:0.59922)n2:0.18493,(sequoia_sempervirens_SESE_035028:0.40991,sequoia_sempervirens_SESE_108394:0.348129)n3:0.038681)n1:0.08396)n0;

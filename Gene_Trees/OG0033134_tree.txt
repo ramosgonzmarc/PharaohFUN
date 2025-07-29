@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00262_0160:0.20885,(bryopsis_sp_Bsp_GMH42772:0.55131,(tetrabaena_socialis_Tesoc.PNH09923:0.32319,(gonium_pectorale_Gopec.01460:0.19275,((chlamydomonas_reinhardtii_Cre12.g503850_4532:0.10177,chlamydomonas_incerta_Chincg11971:0.09345)n5:0.34647,volvox_carteri_Vocar.0006s0187:0.27209)n4:0.03374)n3:0.09097)n2:0.3966)n1:0.20885)n0;

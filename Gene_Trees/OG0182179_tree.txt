@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL5G14480:0.57005,solanum_lycopersicum_Solyc12g077370:0.62537)n1:0.055095,(daucus_carota_DCAR_729409:0.25871,trifolium_pratense_Trpra.36249:0.47332)n2:0.055095)n0;

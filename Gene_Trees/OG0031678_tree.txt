@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol013360:0.56256,thlaspi_arvense_TaMN106.1G014500:0.32418)n1:0.266955,((arabidopsis_lyrata_Arlyr.AL1G62970:0.1229,(arabidopsis_thaliana_AT1G54230:0.39477,arabidopsis_thaliana_AT1G54240:0.135234)n4:0.015026)n3:0.13095,(boechera_stricta_Bostr.7128s0055:0.09365,capsella_grandiflora_Cagra.1262s0037:0.28956)n5:0.05693)n2:0.08894)n0;

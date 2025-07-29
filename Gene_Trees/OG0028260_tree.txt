@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA40G0589:0.573065,(thuja_plicata_Thupl.29348791s0001:0.03199,(thuja_plicata_Thupl.29382464s0014:0.09328,thuja_plicata_Thupl.29379688s0003:0.14568)n2:0.25432)n1:0.573065)n0;

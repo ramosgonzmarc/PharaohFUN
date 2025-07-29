@@ -1,0 +1,1 @@
+((riccia_sorocarpa_Risor.KAL3675270:0.63233,riccia_sorocarpa_Risor.KAL3686486:0.60126)n1:0.33844,((huperzia_asiatica_HaA08G0584:0.40758,(diphasiastrum_complanatum_Dicom.12G067300:0.6172,(diphasiastrum_complanatum_Dicom.09G035900:0.76328,diphasiastrum_complanatum_Dicom.04G003100:0.49144)n5:0.209313)n4:0.023257)n3:0.2064,lycopodium_clavatum_Lcl_0012000:0.62502)n2:0.14334)n0;

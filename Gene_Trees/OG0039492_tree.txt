@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_038081:0.1805,bryopsis_sp_Bsp_GMH39244:0.64184)n1:0.205745,(mesotaenium_endlicherianum_ME001874S02314:0.46022,anthoceros_fusiformis_Anfus.S5G006600:0.36823)n2:0.205745)n0;

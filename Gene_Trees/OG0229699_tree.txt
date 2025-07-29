@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S1G364300:0.379025,(notothylas_orbicularis_Noorb.S3G509100:0.58092,(phaeomegaceros_chiloensis_Phchi.S1G617000:0.17224,phymatoceros_phymatodes_Phphy.S1G555500:0.21544)n2:0.08238)n1:0.379025)n0;

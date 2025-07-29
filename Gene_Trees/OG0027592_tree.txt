@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.02390:0.43589,(solanum_lycopersicum_Solyc08g036533:0.00054,(solanum_lycopersicum_Solyc00g500339:0.08277,solanum_lycopersicum_Solyc08g036520:0.18523)n2:0.04915)n1:0.43589)n0;

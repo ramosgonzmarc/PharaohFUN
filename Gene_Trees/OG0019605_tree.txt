@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaB01G1356:0.24138,huperzia_asiatica_HaB56G0438:0.03355)n1:0.133755,((ceratopteris_richardii_Ceric.19G033300:0.60794,(alsophila_spinulosa_Aspi01Gene52552:0.0742,(alsophila_spinulosa_Aspi01Gene29844:0.03517,alsophila_spinulosa_Aspi01Gene29878:0.0941)n5:0.174087)n4:0.019343)n3:0.13298,azolla_filiculoides_Azfi_s0199.g057467:1.03926)n2:0.133755)n0;

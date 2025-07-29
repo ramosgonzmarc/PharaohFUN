@@ -1,0 +1,1 @@
+((olea_europaea_Oeu057347:0.34083,solanum_lycopersicum_Solyc00g014850:0.06786)n1:0.036535,(daucus_carota_DCAR_100255:0.06491,lactuca_sativa_Lsat_gn_4_145480:0.07609)n2:0.036535)n0;

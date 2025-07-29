@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNG99749:0.42439,(gonium_pectorale_Gopec.06947:0.47946,((gonium_pectorale_Gopec.04722:0.62875,gonium_pectorale_Gopec.06955:1.6466)n3:0.41911,(gonium_pectorale_Gopec.14305:0.02342,gonium_pectorale_Gopec.15297:0.00054)n4:0.19164)n2:0.1181)n1:0.42439)n0;

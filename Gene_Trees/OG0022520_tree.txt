@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B1110906:0.3766,taxus_chinensis_KI387_014748:0.41761)n1:0.1341,(anthoceros_agrestis_AnagrOXF.S3G205000:0.00847,anthoceros_punctatus_Anpun.S1G402700:0.14602)n2:0.1341)n0;

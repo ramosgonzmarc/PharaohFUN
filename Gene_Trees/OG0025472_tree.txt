@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_32061:0.14454,(isoetes_sinensis_IsiChr11g2016:0.56144,(diphasiastrum_complanatum_Dicom.20G024600:0.00055,lycopodium_clavatum_Lcl_0014773:0.34758)n2:0.80462)n1:0.14454)n0;

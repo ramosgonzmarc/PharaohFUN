@@ -1,0 +1,1 @@
+(oryza_sativa_Os01g20100:0.489535,((sorghum_bicolor_Sobic.003G145600:0.06192,miscanthus_sinensis_Misin05G139500:0.07781)n2:0.0209,(setaria_italica_Seita.5G024700:0.18571,((eleusine_coracana_Elcor.1BG0063100:0.27779,oropetium_thomaeum_Oropetium_20150105_22882A:0.12873)n5:0.65944,panicum_hallii_Pahal.5G394300:0.08897)n4:0.05614)n3:0.24282)n1:0.489535)n0;

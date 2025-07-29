@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_14014:0.367015,((paraphymatoceros_pearsonii_Papea.S2G317400:0.10144,notothylas_orbicularis_Noorb.S2G333500:0.05548)n2:0.00082,(phymatoceros_phymatodes_Phphy.S2G362200:0.03376,phymatoceros_phymatodes_Phphy.S1G529700:0.044253)n3:0.004917)n1:0.05671)n0;

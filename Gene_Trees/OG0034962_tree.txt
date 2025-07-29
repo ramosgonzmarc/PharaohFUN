@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3256796:0.625475,(mesotaenium_kramstae_Mekra.3066215:0.15515,(mesotaenium_endlicherianum_ME000100S10664:0.36838,zygnema_circumcarinatum1559_ZcUTEX1559_11389:0.30084)n2:0.12716)n1:0.625475)n0;

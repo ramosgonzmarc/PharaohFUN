@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9822891:0.44697,((picea_abies_Pab_4070048g0010:0.23686,picea_abies_Pab_8817153g0010:0.18479)n2:0.21031,(sequoia_sempervirens_SESE_149142:0.36574,(thuja_plicata_Thupl.28174598s0001:0.40378,thuja_plicata_Thupl.29380192s0006:0.339777)n4:0.037753)n3:0.3091)n1:0.44697)n0;

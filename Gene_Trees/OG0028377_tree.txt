@@ -1,0 +1,1 @@
+(zea_mays_Zm00001d000159:0.280835,(vitis_vinifera_VIT_217s0053g00180:0.00054,(vitis_vinifera_VIT_203s0017g00140:0.02611,vitis_vinifera_VIT_219s0014g02400:0.01262)n2:0.11078)n1:0.280835)n0;

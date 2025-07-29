@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g8538:0.75903,(tetraselmis_striata_TSEL_002151:0.89069,(tetraselmis_striata_TSEL_015843:0.91538,tetraselmis_striata_TSEL_037810:0.68185)n2:0.13931)n1:0.75903)n0;

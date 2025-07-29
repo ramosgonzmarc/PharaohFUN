@@ -1,0 +1,1 @@
+(prunus_persica_Prupe.4G048300:0.46327,(cucumis_sativus_Cucsa.c152840g01:0.61429,(carya_illinoinensis_Caril.14G105800:0.68651,(corylus_avellana_Corav.g27550:0.00055,corylus_avellana_Corav.g27549:0.013401)n3:0.001489)n2:0.05398)n1:0.46327)n0;

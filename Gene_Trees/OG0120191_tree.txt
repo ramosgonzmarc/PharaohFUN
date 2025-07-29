@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_30722:0.25769,(ginkgo_biloba_Gb_18419:0.04959,(picea_abies_Pab_10433974g0010:0.27099,sequoiadendron_giganteum_SEGI_33473:0.26755)n2:0.19754)n1:0.25769)n0;

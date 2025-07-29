@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_038123:0.227,(fragaria_vesca_FvH4_7g04560:0.2406,(solanum_lycopersicum_Solyc07g007410:0.18818,(solanum_lycopersicum_Solyc07g150132:0.22033,solanum_lycopersicum_Solyc09g015033:0.06599)n3:1.07)n2:0.20252)n1:0.227)n0;

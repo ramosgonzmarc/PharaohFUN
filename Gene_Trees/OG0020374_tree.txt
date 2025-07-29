@@ -1,0 +1,1 @@
+((auxenochlorella_protothecoides_APUTEX2500000793:0.43228,helicosporidium_sp_Helsp_g5320:0.3649)n1:0.148115,(chlorella_sorokiniana_Chlso_g1958:0.45492,(chlorella_sorokiniana_Chlso_g3249:0.85267,(chlorella_sorokiniana_Chlso_g3445:0.43513,chlorella_sorokiniana_Chlso_g9369:0.65766)n4:0.7751)n3:0.41649)n2:0.148115)n0;

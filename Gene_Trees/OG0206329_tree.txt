@@ -1,0 +1,1 @@
+(arabidopsis_lyrata_Arlyr.AL1G10980:0.0549,(eutrema_salsugineum_Thhalv10028895m:0.27253,((brassica_oleracea_Bol040694:0.00054,brassica_rapa_Brara.J00047:0.00715)n3:0.04649,sisymbrium_irio_Siiris2233g00440:0.0296)n2:0.03972)n1:0.0549)n0;

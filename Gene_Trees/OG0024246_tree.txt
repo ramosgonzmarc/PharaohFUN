@@ -1,0 +1,1 @@
+((chara_braunii_CBR_g29294:0.40122,chara_braunii_CBR_g66803:0.3111)n1:0.413965,(takakia_lepidozioides_Tle1c07839:0.35476,(funaria_hygrometrica_Fuhyg.17429:0.51765,pleurozium_schreberi_Plsch.08868:0.43718)n3:0.1249)n2:0.413965)n0;

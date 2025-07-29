@@ -1,0 +1,1 @@
+(amaranthus_hypochondriacus_AH004959:0.41457,((isoetes_sinensis_IsiChr13g2032:0.00595,isoetes_sinensis_IsiChr14g2038:0.00198)n2:0.01929,(isoetes_sinensis_IsiChr14g2029:0.01075,isoetes_sinensis_IsiChr13g2024:0.00938)n3:0.02843)n1:0.41457)n0;

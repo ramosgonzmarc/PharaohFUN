@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_22328:0.25837,(asparagus_officinalis_AsparagusV1_04.1701:0.55589,(ananas_comosus_Aco010821:0.15923,miscanthus_sinensis_Misin19G243200:0.47341)n2:0.09083)n1:0.25837)n0;

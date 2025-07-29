@@ -1,0 +1,1 @@
+((aegilops_tauschii_Atau_XP_040257926:0.00055,aegilops_tauschii_Atau_XP_045090149:0.00055)n1:0.19239,(hordeum_vulgare_Hvul_3HG0249570:0.00054,hordeum_vulgare_Hvul_3HG0249510:0.00836)n2:0.19239)n0;

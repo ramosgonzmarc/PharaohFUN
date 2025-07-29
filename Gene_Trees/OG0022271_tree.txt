@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.I0058:0.270735,(vitis_vinifera_VIT_200s0230g00060:0.40735,(vitis_vinifera_VIT_216s0115g00455:0.0329,(vitis_vinifera_VIT_215s0045g00240:0.00656,vitis_vinifera_VIT_200s0279g00050:0.00997)n3:0.20306)n2:0.71816)n1:0.270735)n0;

@@ -1,0 +1,1 @@
+(picocystis_sp_Picml_g2000:0.33032,((chloropicon_primus_Chlpr_g5473:0.00753,chloropicon_primus_Chlpr_g5475:0.00055)n2:0.71956,(tetraselmis_striata_TSEL_042436:0.51665,(tetraselmis_striata_TSEL_017725:0.32856,(tetraselmis_striata_TSEL_002372:0.01691,tetraselmis_striata_TSEL_002374:0.03945)n5:0.18577)n4:0.02961)n3:0.87863)n1:0.33032)n0;

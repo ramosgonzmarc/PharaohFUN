@@ -1,0 +1,1 @@
+(ananas_comosus_Aco020193:0.1317,(phaseolus_acutifolius_Phacu.L011810:0.57023,(olea_europaea_Oeu022574:0.26866,olea_europaea_Oeu030835:0.136719)n2:0.015191)n1:0.19376)n0;

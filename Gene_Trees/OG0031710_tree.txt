@@ -1,0 +1,1 @@
+((phaeoceros_sp_Phsp.C5G078700:0.54031,phaeomegaceros_chiloensis_Phchi.S1G141300:0.59897)n1:0.170005,(arabidopsis_thaliana_AT3G23145:0.26902,taxus_chinensis_KI387_014732:0.31992)n2:0.170005)n0;

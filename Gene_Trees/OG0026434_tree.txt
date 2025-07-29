@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.9P05070_001:0.32463,(arabidopsis_lyrata_Arlyr.AL419U10010:0.00054,(malus_domestica_MD11G1214900:0.17452,(malus_domestica_MD11G1217900:0.08825,malus_domestica_MD11G1218100:0.17497)n3:0.09028)n2:0.89082)n1:0.32463)n0;

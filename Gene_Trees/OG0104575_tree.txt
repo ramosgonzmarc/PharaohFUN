@@ -1,0 +1,1 @@
+((paraphymatoceros_pearsonii_Papea.S1G417400:0.955,phaeoceros_sp_Phsp.C2G012300:0.78826)n1:0.08645,(diphasiastrum_complanatum_Dicom.02G035700:0.09549,((huperzia_asiatica_HaA66G0011:0.85295,huperzia_asiatica_HaA12G0007:0.17434)n4:0.0019,lycopodium_clavatum_Lcl_0003100:0.08314)n3:0.00679)n2:0.08645)n0;

@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00699g002:0.2975,(((malus_domestica_MD15G1025800:0.08803,malus_domestica_MD08G1030600:0.20801)n3:0.15346,(fragaria_vesca_FvH4_2g39670:0.39103,(corylus_avellana_Corav.g21790:0.04914,corylus_avellana_Corav.g21791:0.08172)n5:0.76574)n4:0.13512)n2:0.21326,(salix_purpurea_Sapur.005G182100:0.53257,quercus_rubra_Qurub.05G164200:0.53864)n6:0.05846)n1:0.2975)n0;

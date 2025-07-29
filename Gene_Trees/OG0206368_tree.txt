@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.G0437:0.43122,(schrenkiella_parvula_Scpar2g12560:0.13503,((brassica_oleracea_Bol014856:0.32266,brassica_oleracea_Bol031444:0.68406)n3:0.33695,brassica_oleracea_Bol014860:0.094383)n2:0.010487)n1:0.12505)n0;

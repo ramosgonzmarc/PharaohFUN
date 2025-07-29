@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g8533:0.364445,((mesotaenium_kramstae_Mekra.2503767:0.34066,(zygnema_cylindricum_Zci1a_13355:0.01478,zygnema_cylindricum_Zci1a_24259:0.00546)n3:0.57237)n2:0.5578,(mesostigma_viride296_Mevir.Mv19438:0.6038,(chara_braunii_CBR_g25746:0.15821,(chara_braunii_CBR_g22923:0.1644,chara_braunii_CBR_g29278:0.17841)n6:0.3383)n5:0.45534)n4:0.22006)n1:0.364445)n0;

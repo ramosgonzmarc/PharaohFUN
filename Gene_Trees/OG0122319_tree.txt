@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_18046:0.376895,(oropetium_thomaeum_Oropetium_20150105_20868A:0.71837,(ananas_comosus_Aco012618:0.36064,(zea_mays_Zm00001d023285:0.00055,zea_mays_Zm00001d023288:0.00054)n3:0.15094)n2:0.27174)n1:0.376895)n0;

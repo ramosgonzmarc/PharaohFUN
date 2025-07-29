@@ -1,0 +1,1 @@
+(malus_domestica_MD04G1017200:0.15031,((abies_alba_AALBA5B653738:0.04829,abies_alba_AALBA5B858421:0.41221)n2:0.25818,(ginkgo_biloba_Gb_24938:0.19791,ginkgo_biloba_Gb_15367:0.518985)n3:0.057665)n1:0.13992)n0;

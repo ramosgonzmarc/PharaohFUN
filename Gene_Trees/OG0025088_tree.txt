@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3244830:0.0124,cymbomonas_tetramitiformis_KAK3257606:0.003)n1:0.49401,(ostreobium_quekettii_CAD7696709:0.59054,((bryopsis_sp_Bsp_GMH36789:0.46782,bryopsis_sp_Bsp_GMH36811:0.54847)n4:0.2432,bryopsis_sp_Bsp_GMH36500:0.569295)n3:0.063255)n2:0.16745)n0;

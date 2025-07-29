@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3697203:0.083485,((brassica_oleracea_Bol011138:0.59329,aegilops_tauschii_Atau_XP_020162652:0.02837)n2:0.04933,(lens_culinaris_Lecul.7g075030:0.0747,(solanum_tuberosum_Soltu.11G020520:0.40595,(lupinus_albus_Lalb_Chr02g0153021:0.10854,sisymbrium_irio_Siiris2336g00200:0.07119)n5:0.04762)n4:0.03831)n3:0.08129)n1:0.083485)n0;

@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3687654:0.644915,(selaginella_moellendorffii_Smoe_97139:0.83523,(isoetes_sinensis_IsiChr7g3565:0.00055,isoetes_sinensis_IsiChr8g3281:0.1458)n2:0.35138)n1:0.644915)n0;

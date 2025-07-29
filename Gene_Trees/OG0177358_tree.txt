@@ -1,0 +1,1 @@
+((corylus_avellana_Corav.g8726:0.74298,(salvinia_cucullata_Sacu_s0089.g018638:0.45467,(adiantum_capillus_Adc25652:0.1055,adiantum_capillus_Adc25655:0.08542)n3:0.43098)n2:0.08741)n1:0.08717,(marchantia_paleacea_Mapa_001704:0.80728,marchantia_paleacea_Mapa_012005:1.03946)n4:0.08717)n0;

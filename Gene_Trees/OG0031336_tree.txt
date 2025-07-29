@@ -1,0 +1,1 @@
+(((gossypium_hirsutum_Gohir.D07G126900:0,gossypium_raimondii_Gorai.001G137000:0)n2:0.45866,lactuca_sativa_Lsat_gn_6_26000:0.7381)n1:0.345125,(aquilegia_coerulea_Aqcoe2G026900:0.4644,aquilegia_coerulea_Aqcoe2G026600:0.26796)n3:0.345125)n0;

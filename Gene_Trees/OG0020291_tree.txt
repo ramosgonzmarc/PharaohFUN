@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_040347:0.54303,(raphidocelis_subcapitata_Rsub_07508:0.37723,(chromochloris_zofingiensis_Cz16g14180:0.49681,(volvox_carteri_Vocar.0009s0374:0.55378,(chlamydomonas_reinhardtii_Cre11.g467566_4532:0.17149,chlamydomonas_incerta_Chincg12617:0.01416)n4:0.31423)n3:0.88014)n2:0.24816)n1:0.54303)n0;

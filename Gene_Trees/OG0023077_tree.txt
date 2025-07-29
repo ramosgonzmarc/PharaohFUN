@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene07054:0.47138,alsophila_spinulosa_Aspi01Gene64979:0.49785)n1:0.178675,(ginkgo_biloba_Gb_19338:0.01781,(picea_abies_Pab_1051959g0010:0.00206,(picea_abies_Pab_150762g0010:0.06968,picea_abies_Pab_163839g0010:0.03348)n4:0.03304)n3:0.97567)n2:0.178675)n0;

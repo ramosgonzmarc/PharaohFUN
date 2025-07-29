@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s0036.g011719:0.322965,(alsophila_spinulosa_Aspi01Gene57218:0.3007,(ceratopteris_richardii_Ceric.13G069200:0.52475,(adiantum_capillus_Adc30866:1.11735,adiantum_capillus_Adc23994:0.414144)n3:0.046016)n2:0.45112)n1:0.13504)n0;

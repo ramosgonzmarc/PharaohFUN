@@ -1,0 +1,1 @@
+(((isoetes_sinensis_IsiChr1g4294:0.00054,isoetes_sinensis_IsiChr22g4362:0.01475)n2:0.41694,(huperzia_asiatica_HaA19G0101:0.01183,huperzia_asiatica_HaB03G0162:0.02393)n3:0.62322)n1:0.068445,(adiantum_capillus_Adc24666:0.52117,marsilea_vestita_Mvestita_C23g19697:0.73024)n4:0.068445)n0;

@@ -1,0 +1,1 @@
+(taxus_chinensis_KI387_037908:0.274235,(taxus_chinensis_KI387_019023:0.00055,(taxus_chinensis_KI387_033366:0.37972,taxus_chinensis_KI387_044411:0.03065)n2:0.73192)n1:0.274235)n0;

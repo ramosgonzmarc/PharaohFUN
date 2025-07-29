@@ -1,0 +1,1 @@
+((citrus_sinensis_Cisin.021329:0.01411,poncirus_trifoliata_Ptrif.0001s0513:0.00353)n1:0.41247,(brassica_oleracea_Bol026065:0.09584,(sisymbrium_irio_Siiris2159g02020:0.24603,sisymbrium_irio_Siiris1006g00060:0.093501)n3:0.010389)n2:0.11095)n0;

@@ -1,0 +1,1 @@
+((glycine_max_Glyma.02G018500:0.48656,(carya_illinoinensis_Caril.07G106700:0.25913,eutrema_salsugineum_Thhalv10029080m:0.24582)n2:0.16217)n1:0.071025,(ananas_comosus_Aco006342:0.27742,panicum_hallii_Pahal.3G311200:0.72528)n3:0.071025)n0;

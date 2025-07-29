@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_034801:0.271015,(pedinophyceae_sp_Pesp.9463253:0.63306,(pedinophyceae_sp_Pesp.9465880:0.89322,pedinophyceae_sp_Pesp.9464095:0.73766)n2:0.16065)n1:0.271015)n0;

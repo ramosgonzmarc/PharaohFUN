@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g4283:1.26158,tetrabaena_socialis_Tesoc.PNH06414:0.76627)n1:0.38899,(oryza_sativa_Os05g26980:0.1396,(oryza_sativa_Os07g04650:0.20461,oryza_sativa_Os04g45790:0.12974)n3:0.03087)n2:0.38899)n0;

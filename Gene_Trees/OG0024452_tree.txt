@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_03752:0.49897,(chromochloris_zofingiensis_Cz05g24040:0.61438,desmodesmus_armatus_Desar.503829:1.12228)n2:0.14088)n1:0.184605,(chlamydomonas_reinhardtii_Cre12.g801418_4532:0.40861,(tetrabaena_socialis_Tesoc.PNH04024:0.44885,volvox_carteri_Vocar.0037s0022:0.38871)n4:0.09263)n3:0.184605)n0;

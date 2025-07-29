@@ -1,0 +1,1 @@
+(salix_purpurea_Sapur.013G097900:0.09225,(oryza_sativa_Os03g28410:0.13213,(oropetium_thomaeum_Oropetium_20150105_19778A:0.096,(asparagus_officinalis_AsparagusV1_Unassigned.948:0.36386,asparagus_officinalis_AsparagusV1_01.650:0.00054)n3:0.90193)n2:0.12469)n1:0.09225)n0;

@@ -1,0 +1,1 @@
+(taxus_chinensis_KI387_027943:0.54443,((anthoceros_agrestis_AnagrOXF.S1G434800:0.01717,anthoceros_fusiformis_Anfus.S2G025300:0.0186)n2:0.33864,(ceratodon_purpureus_CepurR40.8G195400:0.07988,pleurozium_schreberi_Plsch.01193:0.08966)n3:0.38328)n1:0.54443)n0;

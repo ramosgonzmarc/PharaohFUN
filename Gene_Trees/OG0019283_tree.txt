@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B446530:0.45552,(ananas_comosus_Aco008250:0.29597,(((eucalyptus_grandis_Eucgr.H03233:0.60077,eucalyptus_grandis_Eucgr.G01364:0.27208)n4:0.3315,arabidopsis_thaliana_AT1G17744:0.57779)n3:0.11435,brassica_oleracea_Bol013641:0.49292)n2:0.15952)n1:0.45552)n0;

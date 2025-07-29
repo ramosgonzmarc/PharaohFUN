@@ -1,0 +1,1 @@
+(arabidopsis_lyrata_Arlyr.AL2G14250:0.315255,(taxus_chinensis_KI387_026075:0.25677,(gnetum_montanum_TnS000017187t02:0.56416,gnetum_montanum_TnS000638177t12:0.470862)n2:0.052318)n1:0.22669)n0;

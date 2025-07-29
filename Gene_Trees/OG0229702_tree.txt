@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S2G348600:0.27306,((paraphymatoceros_pearsonii_Papea.S1G438600:0,paraphymatoceros_pearsonii_Papea.S2G519000:0)n2:0.00055,paraphymatoceros_pearsonii_Papea.S3G239500:0.00361)n1:0.27306)n0;

@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_Sobl_g24380:0.220595,(dunaliella_salina_Dusal.0226s00014:0.66786,(dunaliella_salina_Dusal.0295s00006:0.30006,dunaliella_salina_Dusal.0631s00005:0.70567)n2:0.23333)n1:0.220595)n0;

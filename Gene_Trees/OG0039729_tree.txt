@@ -1,0 +1,1 @@
+((olea_europaea_Oeu053363:0.23742,olea_europaea_Oeu053362:0.42724)n1:0.4535,(lactuca_sativa_Lsat_gn_7_93760:0.01695,lactuca_sativa_Lsat_gn_7_93780:0.00055)n2:0.4535)n0;

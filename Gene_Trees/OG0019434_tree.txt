@@ -1,0 +1,1 @@
+((welwitschia_mirabilis_Wmi_05710:0.05342,welwitschia_mirabilis_Wmi_12839:0.32804)n1:0.566205,((aegilops_tauschii_Atau_XP_020189358:0.00055,aegilops_tauschii_Atau_XP_020189363:0.00055)n3:0.00367,(triticum_aestivum_TraesCS2A03G1192200:0.08213,triticum_aestivum_TraesCS2D03G1147900:0.011718)n4:0.001302)n2:0.04853)n0;

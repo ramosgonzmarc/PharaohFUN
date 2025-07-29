@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.38677:0.32065,(citrus_sinensis_Cisin.039640:0.46088,coffea_arabica_Coara.074710:0.43749)n2:0.14406)n1:0.228135,(huperzia_asiatica_HaB13G0353:1.15958,((selaginella_moellendorffii_Smoe_402416:0.04029,selaginella_moellendorffii_Smoe_408458:0.03665)n5:0.20714,selaginella_moellendorffii_Smoe_408479:0.302715)n4:0.033635)n3:0.11154)n0;

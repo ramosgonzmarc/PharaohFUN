@@ -1,0 +1,1 @@
+(((huperzia_asiatica_HaA09G0123:0.04682,huperzia_asiatica_HaB22G0362:0.12808)n2:0.72918,(isoetes_sinensis_IsiChr11g1792:0.00762,isoetes_sinensis_IsiChr8g2552:0.21075)n3:0.32104)n1:0.06615,(linum_usitatissimum_Lus10009637:0.89864,(cycas_panzhihuaensis_CYCAS_005421:0.55808,malus_domestica_MD13G1077600:0.98946)n5:0.20725)n4:0.06615)n0;

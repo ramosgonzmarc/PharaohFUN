@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_626296:0.47988,((marsilea_vestita_Mvestita_S10g02360:0.26355,(azolla_filiculoides_Azfi_s0400.g068213:0.06285,azolla_filiculoides_Azfi_s0400.g068216:0.24443)n3:0.11773)n2:0.18416,(ceratopteris_richardii_Ceric.07G012800:0.64179,ceratopteris_richardii_Ceric.25G030700:0.144819)n4:0.016091)n1:0.15182)n0;

@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_001311:0.50853,(chara_braunii_CBR_g49882:0.09715,(chara_braunii_CBR_g23554:0.0361,(chara_braunii_CBR_g40622:0.17502,(chara_braunii_CBR_g54049:0.04886,(chara_braunii_CBR_g30094:0.17491,chara_braunii_CBR_g6598:0.05849)n5:0.01355)n4:0.00629)n3:0.02584)n2:0.10915)n1:0.50853)n0;

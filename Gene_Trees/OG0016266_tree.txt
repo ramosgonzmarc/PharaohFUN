@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3252622:0.298015,(bryopsis_sp_Bsp_GMH43453:1.21204,(tetraselmis_striata_TSEL_041357:0.00055,(tetraselmis_striata_TSEL_005282:0.00965,(tetraselmis_striata_TSEL_035276:0.00192,(tetraselmis_striata_TSEL_033334:0.00137,tetraselmis_striata_TSEL_031203:0.01015)n5:0.00054)n4:0.00199)n3:0.00533)n2:0.37992)n1:0.298015)n0;

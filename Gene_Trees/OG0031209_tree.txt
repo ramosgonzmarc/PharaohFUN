@@ -1,0 +1,1 @@
+(leiosporoceros_dussii_Ledus.S4G129300:0.351245,((anthoceros_agrestis_AnagrOXF.S3G191900:0.03186,(anthoceros_fusiformis_Anfus.S4G133900:0.34024,anthoceros_fusiformis_Anfus.S3G151500:0.062928)n3:0.006992)n2:0.19669,(phymatoceros_phymatodes_Phphy.S4G209600:0.40878,notothylas_orbicularis_Noorb.S4G120400:0.6751)n4:0.25112)n1:0.351245)n0;

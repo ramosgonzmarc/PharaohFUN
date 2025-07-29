@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_05963:0.63899,((huperzia_asiatica_HaB32G0063:0.30192,(huperzia_asiatica_HaA42G0467:0.46488,huperzia_asiatica_HaB42G0436:0.0584)n4:0.13171)n3:0.38403,(huperzia_asiatica_HaA69G0147:0.29665,huperzia_asiatica_HaB07G0714:0.12663)n5:0.758259)n2:0.084251)n1:0.04007,picea_abies_Pab_208370g0010:0.72456)n0;

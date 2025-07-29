@@ -1,0 +1,1 @@
+((solanum_tuberosum_Soltu.01G012300:0.9148,(amaranthus_hypochondriacus_AH006053:0.27481,amaranthus_hypochondriacus_AH015493:0.031248)n2:0.003472)n1:0.08546,(lactuca_sativa_Lsat_gn_8_111720:0.00055,((lactuca_sativa_Lsat_gn_7_96640:0,lactuca_sativa_Lsat_gn_8_78121:0)n5:0.00055,lactuca_sativa_Lsat_gn_5_16661:0.04841)n4:0.02364)n3:0.80114)n0;

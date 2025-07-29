@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT3G27416:0.053085,(brassica_rapa_Brara.F03205:0.05371,(schrenkiella_parvula_Scpar2g16610:0.08665,thlaspi_arvense_TaMN106.2G152000:0.08665)n2:0.02683)n1:0.053085)n0;

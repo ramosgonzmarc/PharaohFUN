@@ -1,0 +1,1 @@
+(cinnamomum_kanehirae_CKAN_02054000:0.719365,(manihot_esculenta_Manes.10G114500:0.0062,(manihot_esculenta_Manes.10G113940:0.00627,manihot_esculenta_Manes.10G113754:0.00639)n2:0.04594)n1:0.719365)n0;

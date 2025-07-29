@@ -1,0 +1,1 @@
+((panicum_hallii_Pahal.3G078800:0.12266,setaria_italica_Seita.3G076400:0.1638)n1:0.239165,(panicum_hallii_Pahal.3G078500:0.08927,setaria_italica_Seita.3G076700:0.08717)n2:0.239165)n0;

@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr12g2365:0.269835,(solanum_lycopersicum_Solyc09g015730:0.68817,(taxus_chinensis_KI387_010811:0.11286,taxus_chinensis_KI387_020628:0.4078)n2:0.74173)n1:0.269835)n0;

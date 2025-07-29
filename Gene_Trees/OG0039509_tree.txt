@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM000171S03240:0.288665,(mesotaenium_endlicherianum_ME000618S08822:0.49654,(mesotaenium_kramstae_Mekra.2736817:0.35311,zygnema_cylindricum_Zci1a_07598:0.48496)n2:0.41451)n1:0.288665)n0;

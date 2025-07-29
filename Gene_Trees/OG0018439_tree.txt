@@ -1,0 +1,1 @@
+(brassica_oleracea_Bol041409:0.417715,((selaginella_moellendorffii_Smoe_111272:0.42494,(selaginella_moellendorffii_Smoe_112093:0,selaginella_moellendorffii_Smoe_111888:0)n3:0.53597)n2:0.51509,(isoetes_sinensis_IsiChr15g1784:0.04633,isoetes_sinensis_IsiChr10g1121:0.08418)n4:0.44319)n1:0.417715)n0;

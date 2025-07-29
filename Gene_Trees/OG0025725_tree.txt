@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.12G189400:0.22699,(ginkgo_biloba_Gb_26059:1.12708,(ginkgo_biloba_Gb_40640:0.42862,ginkgo_biloba_Gb_05548:0.00055)n2:0.42333)n1:0.22699)n0;

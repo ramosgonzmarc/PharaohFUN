@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g13955:0.25743,(amaranthus_hypochondriacus_AH014603:0.26118,(beta_vulgaris_Bevul.8G107700:0.09967,chenopodium_quinoa_AUR62034041:0.23066)n2:0.03341)n1:0.25743)n0;

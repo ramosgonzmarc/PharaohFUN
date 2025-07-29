@@ -1,0 +1,1 @@
+((thuja_plicata_Thupl.28381803s0001:0.5231,thuja_plicata_Thupl.5166795s0001:0.08401)n1:0.308975,(malus_domestica_MD14G1068700:1.26437,(aegilops_tauschii_Atau_XP_045087495:0.42187,triticum_aestivum_TraesCS7A03G1110600:0.29143)n3:0.07553)n2:0.308975)n0;

@@ -1,0 +1,1 @@
+(kalanchoe_fedtschenkoi_Kaladp0020s0200:0.445515,((mimulus_guttatus_Migut.D00326:0.31273,(mimulus_guttatus_Migut.D00324:0.04076,mimulus_guttatus_Migut.D00325:0.17207)n3:0.48086)n2:0.10693,(solanum_tuberosum_Soltu.07G017670:0.11179,(solanum_lycopersicum_Solyc07g150142:0.47957,solanum_lycopersicum_Solyc07g052260:0.13266)n5:0.01474)n4:0.20631)n1:0.445515)n0;

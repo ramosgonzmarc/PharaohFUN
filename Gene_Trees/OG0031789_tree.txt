@@ -1,0 +1,1 @@
+(ostreobium_quekettii_CAD7701975:0.652555,(myrmecia_bisecta_Mybis.KAK9816575:0.67315,(apatococcus_lobatus_Aplob.KAK9821383:1.08816,(asterochloris_glomerata_Astgl_g5644:0.43684,trebouxia_sp_FRX49_01161:0.55791)n3:0.28651)n2:0.07625)n1:0.652555)n0;

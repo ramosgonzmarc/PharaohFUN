@@ -1,0 +1,1 @@
+((anthoceros_punctatus_Anpun.S3G306200:0.42231,notothylas_orbicularis_Noorb.S3G394600:0.26961)n1:0.50071,(triticum_aestivum_TraesCS7A03G0244400:0.26353,(aegilops_tauschii_Atau_XP_040254718:0.63977,aegilops_tauschii_Atau_XP_040258855:0.338733)n3:0.037637)n2:0.16446)n0;

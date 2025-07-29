@@ -1,0 +1,1 @@
+((malus_domestica_MD12G1248200:0.33011,fragaria_vesca_FvH4_4g07951:0.8546)n1:0.26492,(vitis_vinifera_VIT_206s0004g07135:0.25677,(vitis_vinifera_VIT_210s0003g05725:0.03005,vitis_vinifera_VIT_204s0023g01095:0.11595)n3:0.00841)n2:0.26492)n0;

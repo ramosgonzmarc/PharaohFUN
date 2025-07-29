@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_005856:0.522625,(gnetum_montanum_TnS000526397t02:0.59265,(welwitschia_mirabilis_Wmi_17368:0.17271,(welwitschia_mirabilis_Wmi_10831:0.03932,(welwitschia_mirabilis_Wmi_19109:0.00611,welwitschia_mirabilis_Wmi_19110:0.00054)n4:0.01015)n3:0.25682)n2:0.4751)n1:0.522625)n0;

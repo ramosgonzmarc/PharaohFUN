@@ -1,0 +1,1 @@
+((glycine_max_Glyma.17G127050:0.39511,malus_domestica_MD17G1001000:0.32662)n1:0.22636,(gossypium_raimondii_Gorai.012G085800:0.00054,(gossypium_hirsutum_Gohir.A05G337466:0.04967,gossypium_hirsutum_Gohir.D04G076050:0.00316)n3:0.04381)n2:0.22636)n0;

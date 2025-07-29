@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10030682:0.302115,(vigna_unguiculata_Vigun02g200900:0.2058,(cucumis_sativus_Cucsa.c338910g01:0.80765,medicago_truncatula_Medtr7g010760:0.51351)n2:0.16318)n1:0.302115)n0;

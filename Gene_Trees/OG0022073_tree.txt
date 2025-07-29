@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S2G341800:0.83625,phaeoceros_sp_Phsp.C3G135100:0.50835)n1:0.557645,((takakia_lepidozioides_Tle2c03105:0.0851,takakia_lepidozioides_Tle4c04660:0.08153)n3:0.22005,(takakia_lepidozioides_Tle4c00890:0.59888,takakia_lepidozioides_Tle1c03696:1.2246)n4:0.0678)n2:0.557645)n0;

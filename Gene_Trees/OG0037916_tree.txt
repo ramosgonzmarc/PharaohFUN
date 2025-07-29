@@ -1,0 +1,1 @@
+((vaccinium_darrowii_Vadar_g34012:0.68422,(oropetium_thomaeum_Oropetium_20150105_03410A:0.18738,oropetium_thomaeum_Oropetium_20150105_18614A:0.21138)n2:0.36507)n1:0.25023,(isoetes_sinensis_IsiChr6g742:0.13034,isoetes_sinensis_IsiChr18g4058:0.24016)n3:0.25023)n0;

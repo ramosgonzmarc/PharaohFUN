@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c07170:0.33886,((sphagnum_magellanicum_Sphmag18G043900:0.01438,sphagnum_fallax_Sphfalx18G053700:0.01491)n2:0.21428,(sphagnum_magellanicum_Sphmag14G078900:0.02518,sphagnum_fallax_Sphfalx14G079300:0.01841)n3:0.24849)n1:0.33886)n0;

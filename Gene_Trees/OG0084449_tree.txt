@@ -1,0 +1,1 @@
+((chlamydomonas_incerta_Chincg07647:1.0463,(volvox_carteri_Vocar.0001s1620:0.48682,volvox_carteri_Vocar.0011s0039:0.55896)n2:0.23495)n1:0.036545,((chlamydomonas_reinhardtii_Cre02.g113450_4532:0.14272,chlamydomonas_incerta_Chincg07586:0.12472)n4:0.61309,(volvox_carteri_Vocar.0001s1594:0.8025,tetrabaena_socialis_Tesoc.PNH07627:0.67915)n5:0.10709)n3:0.036545)n0;

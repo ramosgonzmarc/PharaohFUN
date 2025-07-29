@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_13617:0.378355,(pleurozium_schreberi_Plsch.19502:0.93502,(spirogloea_muscicola_SM000107S14034:0.09573,(spirogloea_muscicola_SM000380S14649:0.00946,spirogloea_muscicola_SM000007S20759:0.00925)n3:0.00055)n2:0.757)n1:0.378355)n0;

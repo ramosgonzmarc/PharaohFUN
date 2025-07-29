@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0022.g015946:0.97657,(salvinia_cucullata_Sacu_s0205.g025710:0.59255,marsilea_vestita_Mvestita_S20g18736:0.56427)n2:0.32367)n1:0.05167,(adiantum_capillus_Adc12488:0.2398,(ceratopteris_richardii_Ceric.31G035900:0.36014,ceratopteris_richardii_Ceric.01G050300:0.28861)n4:0.11328)n3:0.05167)n0;

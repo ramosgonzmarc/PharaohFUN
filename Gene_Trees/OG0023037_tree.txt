@@ -1,0 +1,1 @@
+(lycopodium_clavatum_Lcl_0017848:0.59777,(chenopodium_quinoa_AUR62042007:1.36806,(ceratopteris_richardii_Ceric.23G025900:0.41798,(alsophila_spinulosa_Aspi01Gene00587:0.16349,alsophila_spinulosa_Aspi01Gene31549:0.18855)n3:0.02095)n2:0.14821)n1:0.59777)n0;

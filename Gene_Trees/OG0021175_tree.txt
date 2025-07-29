@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF49711:0.17199,gracilariopsis_chorda_PXF40677:0.26361)n1:0.667225,(tetraselmis_striata_TSEL_034858:0.02072,tetraselmis_striata_TSEL_010611:0.00053)n2:0.667225)n0;

@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Smoe_411189:0.04033,selaginella_moellendorffii_Smoe_411190:0.00054)n1:0.54352,((coccomyxa_subellipsoidea_Cosub_44528:0.4638,apatococcus_lobatus_Aplob.KAK9844498:0.45692)n3:0.37749,(chlorella_sorokiniana_Chlso_g3076:0.72345,trebouxia_sp_FRX49_09116:0.59483)n4:0.22846)n2:0.54352)n0;

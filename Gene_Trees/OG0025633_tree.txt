@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.M258300:0.51321,(porphyra_umbilicalis_Pum2841s0001:0.4561,(gracilariopsis_chorda_PXF44527:0.47351,galdieria_sulphuraria_GsulpAzora_G6021:1.00589)n2:0.04928)n1:0.51321)n0;

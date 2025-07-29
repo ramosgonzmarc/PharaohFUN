@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3233768:0.512925,((tetraselmis_striata_TSEL_023784:0.0073,tetraselmis_striata_TSEL_010221:0.00055)n2:0.83135,(bryopsis_sp_Bsp_GMH40890:1.26167,(tetrabaena_socialis_Tesoc.PNH09768:0.54254,(monoraphidium_minutum_Momin.494315:0.46364,scenedesmus_obliquus_Sobl_g21811:0.48337)n5:0.21407)n4:0.37837)n3:0.05639)n1:0.512925)n0;

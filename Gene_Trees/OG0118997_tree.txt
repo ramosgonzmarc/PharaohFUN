@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_1g20620:0.67766,(gnetum_montanum_TnS000162935t03:0.07064,gnetum_montanum_TnS000794351t12:0.38745)n2:0.44192)n1:0.01607,(ginkgo_biloba_Gb_31547:0.30575,miscanthus_sinensis_Misin02G453400:0.86338)n3:0.01607)n0;

@@ -1,0 +1,1 @@
+(solanum_tuberosum_Soltu.07G012460:0.215665,(eucalyptus_grandis_Eucgr.F02360:0.18962,((quercus_rubra_Qurub.04G259800:0.48446,(lotus_japonicus_Lj1g0025083:0.62925,vigna_unguiculata_Vigun08g051800:0.2051)n4:0.40419)n3:0.24259,(corymbia_citriodora_Cocit.L0658:0.32155,corymbia_citriodora_Cocit.L0653:0.4719)n5:0.27854)n2:2.07246)n1:0.215665)n0;

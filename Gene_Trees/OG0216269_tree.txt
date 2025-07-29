@@ -1,0 +1,1 @@
+((coffea_arabica_Coara.004912:0.69927,vaccinium_darrowii_Vadar_g26917:0.56053)n1:0.25688,(beta_vulgaris_Bevul.1G172000:0.19177,(chenopodium_quinoa_AUR62019127:0.00055,chenopodium_quinoa_AUR62014386:0.21222)n3:0.32557)n2:0.25688)n0;

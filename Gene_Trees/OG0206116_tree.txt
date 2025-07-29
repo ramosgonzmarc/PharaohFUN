@@ -1,0 +1,1 @@
+((citrus_sinensis_Cisin.031900:0.30261,(brassica_oleracea_Bol042174:0.28862,(gossypium_hirsutum_Gohir.A01G132200:0.05687,gossypium_raimondii_Gorai.002G142600:0.1558)n3:0.29457)n2:0.42497)n1:0.17334,(corymbia_citriodora_Cocit.L3974:0.36773,(corymbia_citriodora_Cocit.F1980:0.00053,corymbia_citriodora_Cocit.K0947:0.83007)n5:0.10737)n4:0.17334)n0;

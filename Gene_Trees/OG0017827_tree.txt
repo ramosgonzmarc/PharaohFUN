@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_011981:0.72819,(chlamydomonas_reinhardtii_Cre02.g095080_4532:0.03174,chlamydomonas_incerta_Chincg16889:0.04283)n2:0.42854)n1:0.19208,(cymbomonas_tetramitiformis_KAK3252469:0.11261,(cymbomonas_tetramitiformis_KAK3251642:0.00057,cymbomonas_tetramitiformis_KAK3251643:0.00591)n4:0.13099)n3:0.19208)n0;

@@ -1,0 +1,1 @@
+((gnetum_montanum_TnS000841989t01:0.00055,gnetum_montanum_TnS000489449t01:0.16765)n1:0.3378,(oryza_sativa_Os07g02080:0.49088,(eucalyptus_grandis_Eucgr.C00996:0.10384,corymbia_citriodora_Cocit.L2036:0.10051)n3:0.20287)n2:0.3378)n0;

@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0023s0077:0.31483,(micromonas_commoda_Micom.064327:0.72437,((cymbomonas_tetramitiformis_KAK3276110:0,cymbomonas_tetramitiformis_KAK3282019:0)n3:0.21645,(cymbomonas_tetramitiformis_KAK3240298:0.09217,cymbomonas_tetramitiformis_KAK3275125:0.03531)n4:0.61488)n2:0.87445)n1:0.31483)n0;

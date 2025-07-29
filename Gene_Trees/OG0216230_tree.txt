@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_206565:0.63922,lactuca_sativa_Lsat_gn_5_188641:0.49145)n1:0.36464,(saponaria_officinalis_Sapof.04G077700:0.24299,(amaranthus_hypochondriacus_AH022162:0.70877,beta_vulgaris_Bevul.7G084900:0.11594)n3:0.21942)n2:0.36464)n0;

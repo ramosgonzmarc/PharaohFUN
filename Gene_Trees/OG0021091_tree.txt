@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_00994:0.40189,(thuja_plicata_Thupl.29378465s0001:0.13999,(thuja_plicata_Thupl.29381388s0002:0.01543,thuja_plicata_Thupl.29378510s0015:0.10517)n2:0.11455)n1:0.40189)n0;

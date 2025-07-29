@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9818160:0.732365,((arachis_hypogaea_arahy_QZZ331:0.18734,arachis_hypogaea_arahy_02FBPF:0.06923)n2:0.13664,(malus_domestica_MD15G1066500:0.09602,(daucus_carota_DCAR_104904:0.26528,(mimulus_guttatus_Migut.G00906:0.04606,mimulus_guttatus_Migut.O00856:0.15074)n5:0.81871)n4:0.2183)n3:0.25113)n1:0.732365)n0;

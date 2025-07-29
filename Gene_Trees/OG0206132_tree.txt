@@ -1,0 +1,1 @@
+((thlaspi_arvense_TaMN106.2G293300:1.04655,(carica_papaya_Capac.c00038g092:0.13432,carica_papaya_Capac.c31069g001:0.21756)n2:0.0736)n1:0.379645,((gossypium_hirsutum_Gohir.D06G079450:0.00053,gossypium_raimondii_Gorai.010G092600:0.04259)n4:0.72818,(gossypium_raimondii_Gorai.010G138200:0.0153,gossypium_hirsutum_Gohir.D06G120166:0.02061)n5:0.00229)n3:0.379645)n0;

@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr0127s0030:0.765315,((azolla_filiculoides_Azfi_s0201.g057558:0.07601,azolla_filiculoides_Azfi_s0646.g080886:0.18132)n2:0.53061,(alsophila_spinulosa_Aspi01Gene38623:0.05851,alsophila_spinulosa_Aspi01Gene56939:0.07736)n3:0.2775)n1:0.765315)n0;

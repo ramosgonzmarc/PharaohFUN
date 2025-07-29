@@ -1,0 +1,1 @@
+(megaceros_flagellaris_Mefla.S1G025900:0.07075,(phaeoceros_sp_Phsp.C4G023000:0.18918,(phaeoceros_sp_Phsp.C11G062500:0.26997,(phaeoceros_sp_Phsp.C1G027000:0.34356,(phaeoceros_sp_Phsp.C24G000800:0,phaeoceros_sp_Phsp.C32G000400:0)n4:0.12182)n3:0.15783)n2:0.36423)n1:0.07075)n0;

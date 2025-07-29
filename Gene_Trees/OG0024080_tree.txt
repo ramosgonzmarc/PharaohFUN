@@ -1,0 +1,1 @@
+((triticum_aestivum_TraesCS2B03G0042700:0.40487,(brachypodium_distachyon_Bradi3g04106:0.10643,brachypodium_distachyon_Bradi3g04111:0.00055)n2:0.32755)n1:0.107415,((panicum_hallii_Pahal.2G385900:0.24046,zea_mays_Zm00001d021601:0.47653)n4:0.25462,(setaria_italica_Seita.8G146200:0.70107,setaria_italica_Seita.2G328300:0.487143)n5:0.054127)n3:0.13024)n0;

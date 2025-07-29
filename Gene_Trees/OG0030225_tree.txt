@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g27672:0.680355,(adiantum_capillus_Adc27554:1.32016,(alsophila_spinulosa_Aspi01Gene27596:0.00054,alsophila_spinulosa_Aspi01Gene04905:0.089442)n2:0.009938)n1:0.10428)n0;

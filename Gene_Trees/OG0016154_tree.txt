@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00020_0390:0.67462,((cycas_panzhihuaensis_CYCAS_022056:0.12712,lactuca_sativa_Lsat_gn_3_9041:0.94493)n2:0.34487,(isoetes_sinensis_IsiChr16g4206:0.3481,(isoetes_sinensis_IsiChr16g2204:0.04263,(isoetes_sinensis_IsiChr15g2984:0.00055,isoetes_sinensis_IsiChr15g2983:0.06722)n5:0.0324)n4:0.41346)n3:0.04594)n1:0.19956)n0;

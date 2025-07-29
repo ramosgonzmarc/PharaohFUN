@@ -1,0 +1,1 @@
+((sorghum_bicolor_Sobic.010G116100:0.24255,(miscanthus_sinensis_Misin19G107800:0.08201,setaria_italica_Seita.3G354000:0.04437)n2:0.04604)n1:0.09174,(oryza_sativa_Os07g12100:0.64651,(brachypodium_distachyon_Bradi2g00940:0.27276,triticum_aestivum_TraesCS2D03G0108700:0.61229)n4:0.0778)n3:0.09174)n0;

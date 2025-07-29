@@ -1,0 +1,1 @@
+(((aquilegia_coerulea_Aqcoe1G307100:0.60908,thuja_plicata_Thupl.29380870s0011:0.21001)n2:0.10782,((ananas_comosus_Aco018636:0.29608,ananas_comosus_Aco021165:0.460818)n4:0.051202,(ananas_comosus_Aco028870:0.00135,ananas_comosus_Aco007398:0.00449)n5:0.486486)n3:0.054054)n1:0.09747,(picea_abies_Pab_260288g0010:0.12311,picea_abies_Pab_9288269g0010:0.03149)n6:0.4261)n0;

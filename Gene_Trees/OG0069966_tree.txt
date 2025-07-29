@@ -1,0 +1,1 @@
+((thlaspi_arvense_TaMN106.7G039900:0.11837,((schrenkiella_parvula_Scpar7g33970:0.17569,sisymbrium_irio_Siiris1321g01190:0.06405)n3:0.18417,(brassica_oleracea_Bol029007:0.02492,brassica_rapa_Brara.A00209:0.05265)n4:0.09071)n2:0.04834)n1:0.04729,(arabidopsis_thaliana_AT4G36230:0.12766,boechera_stricta_Bostr.7867s1488:0.07185)n5:0.04729)n0;

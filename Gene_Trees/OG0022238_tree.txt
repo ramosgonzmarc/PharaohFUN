@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29381518s0015:0.088535,(thuja_plicata_Thupl.29381518s0013:0.09788,(thuja_plicata_Thupl.29381518s0011:0.03825,thuja_plicata_Thupl.29381518s0014:0.33199)n2:0.07137)n1:0.088535)n0;

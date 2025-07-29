@@ -1,0 +1,1 @@
+((chara_braunii_CBR_g49347:0.45611,ulva_mutabilis_UM005_0315:0.37077)n1:0.30725,(cymbomonas_tetramitiformis_KAK3278481:0.71498,(mesostigma_viride1140_Mesvi533S00701:0.05323,mesostigma_viride296_Mevir.Mv25925:0.00757)n3:0.85345)n2:0.30725)n0;

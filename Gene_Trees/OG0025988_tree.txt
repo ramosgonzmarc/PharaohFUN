@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S3G028300:0.48755,(eutrema_salsugineum_Thhalv10006485m:0.61225,(isoetes_sinensis_IsiChr8g348:0.00126,(isoetes_sinensis_IsiChr7g360:0.00922,isoetes_sinensis_IsiChr6g1231:0.03432)n3:0.00786)n2:0.78727)n1:0.48755)n0;

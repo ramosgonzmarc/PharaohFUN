@@ -1,0 +1,1 @@
+((brachypodium_distachyon_Bradi2g58340:0.17032,oryza_sativa_Os01g68290:0.26542)n1:0.068345,(oropetium_thomaeum_Oropetium_20150105_13157A:0.31084,(sorghum_bicolor_Sobic.003G397400:0.19079,(panicum_hallii_Pahal.5G048200:0.0543,setaria_italica_Seita.5G422900:0.0446)n4:0.02006)n3:0.07148)n2:0.068345)n0;

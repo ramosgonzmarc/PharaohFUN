@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_005002:0.51849,(ceratodon_purpureus_CepurR40.VG219500:0.47722,(sequoiadendron_giganteum_SEGI_00700:0.54556,(alsophila_spinulosa_Aspi01Gene02344:0.45659,chenopodium_quinoa_AUR62032601:0.67018)n3:0.11153)n2:0.1158)n1:0.51849)n0;

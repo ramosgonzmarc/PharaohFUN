@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz03g17040:0.26156,scenedesmus_obliquus_Sobl_g17391:0.33057)n1:0.51191,(tetrabaena_socialis_Tesoc.PNH07085:0.62758,((chlamydomonas_reinhardtii_Cre17.g696650_4532:0.0886,chlamydomonas_incerta_Chincg11506:0.23777)n4:0.31495,(gonium_pectorale_Gopec.11116:0.08217,volvox_carteri_Vocar.0005s0507:0.40158)n5:0.19447)n3:0.04663)n2:0.51191)n0;

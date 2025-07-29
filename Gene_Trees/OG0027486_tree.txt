@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Smoe_124537:0.52116,(daucus_carota_DCAR_207177:0.38764,(sorghum_bicolor_Sobic.009G172800:0.90047,((thuja_plicata_Thupl.29381422s0007:0.11936,sequoiadendron_giganteum_SEGI_24816:0.13849)n4:0.12852,picea_abies_Pab_10433687g0010:0.16727)n3:0.00504)n2:0.02122)n1:0.52116)n0;

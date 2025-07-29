@@ -1,0 +1,1 @@
+(dioscorea_alata_Dioal.05G043500:0.766325,(panicum_hallii_Pahal.3G060300:0.07847,(sorghum_bicolor_Sobic.008G077550:0.07484,(miscanthus_sinensis_Misin14G074300:0.09996,miscanthus_sinensis_Misin15G090300:0.0548)n3:0.04713)n2:0.15386)n1:0.766325)n0;

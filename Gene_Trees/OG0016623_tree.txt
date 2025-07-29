@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp6c24_4590V6:0.09293,((physcomitrium_patens_Pp6c24_4610V6:0,physcomitrium_patens_Pp6c24_4670V6:0,physcomitrium_patens_Pp6c24_4630V6:0,physcomitrium_patens_Pp6c24_4640V6:0)n2:0.00054,physcomitrium_patens_Pp6c19_8070V6:0.21978)n1:0.09293)n0;

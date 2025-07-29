@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.27247:0.746665,(taxus_chinensis_KI387_002906:0.20447,(thuja_plicata_Thupl.29377805s0005:0.06688,sequoiadendron_giganteum_SEGI_13880:0.06074)n2:0.10969)n1:0.746665)n0;

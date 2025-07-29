@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH019452:0.19412,amaranthus_hypochondriacus_AH006125:0.23168)n1:0.2494,(ceratodon_purpureus_CepurR40.6G072500:1.09451,(funaria_hygrometrica_Fuhyg.04174:0.22258,(physcomitrium_patens_Pp6c8_4060V6:0.19185,physcomitrium_patens_Pp6c2_3570V6:0.464301)n4:0.051589)n3:0.13513)n2:0.2494)n0;

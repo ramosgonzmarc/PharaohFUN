@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene02978:0,(alsophila_spinulosa_Aspi01Gene02979:0,alsophila_spinulosa_Aspi01Gene02980:0,alsophila_spinulosa_Aspi01Gene02981:0)n1:0)n0;

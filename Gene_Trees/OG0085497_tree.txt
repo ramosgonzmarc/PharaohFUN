@@ -1,0 +1,1 @@
+((desmodesmus_armatus_Desar.483801:0.25421,scenedesmus_obliquus_Sobl_g07915:0.54678)n1:0.08589,(volvox_carteri_Vocar.0001s0446:0.5971,(chlamydomonas_reinhardtii_Cre01.g054300_4532:0.17835,chlamydomonas_incerta_Chincg14831:0.16533)n3:0.34985)n2:0.08589)n0;

@@ -1,0 +1,1 @@
+((takakia_lepidozioides_Tle4c03794:0.10329,picea_abies_Pab_9295745g0010:0.57166)n1:0.080145,((lens_culinaris_Lecul.1g000720:0.71272,oropetium_thomaeum_Oropetium_20150105_01494A:0.826)n3:0.17296,(anthoceros_punctatus_Anpun.S1G186600:0.48859,phaeoceros_sp_Phsp.C17G023700:0.36813)n4:0.26766)n2:0.080145)n0;

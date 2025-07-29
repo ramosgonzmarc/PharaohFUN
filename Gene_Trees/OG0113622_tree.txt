@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.S4G287100:0.21709,(huperzia_asiatica_HaA21G0712:0.26986,(phaseolus_acutifolius_Phacu.011G019100:0.21442,(eucalyptus_grandis_Eucgr.B02181:0.18852,kalanchoe_fedtschenkoi_Kaladp0098s0139:0.67488)n3:0.06052)n2:0.18614)n1:0.21709)n0;

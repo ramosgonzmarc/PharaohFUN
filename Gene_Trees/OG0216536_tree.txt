@@ -1,0 +1,1 @@
+((saponaria_officinalis_Sapof.04G041900:0.05795,saponaria_officinalis_Sapof.01G146100:0.05228)n1:0.53353,(vaccinium_darrowii_Vadar_g24964:0.07128,vaccinium_darrowii_Vadar_g38180:0.10356)n2:0.53353)n0;

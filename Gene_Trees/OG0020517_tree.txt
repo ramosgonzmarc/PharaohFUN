@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_001627:0,tetraselmis_striata_TSEL_020067:0)n1:0.53947,((apatococcus_lobatus_Aplob.KAK9826927:0.67547,(coccomyxa_subellipsoidea_Cosub_46622:0.4017,myrmecia_bisecta_Mybis.KAK9820342:0.3807)n4:0.23105)n3:0.15357,(ostreobium_quekettii_CAD7695344:0.56931,bryopsis_sp_Bsp_GMH37144:0.50712)n5:0.12432)n2:0.53947)n0;

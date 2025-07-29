@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_028326:0.259805,(sisymbrium_irio_Siiric187539g00010:0.85655,(picea_abies_Pab_119089g0010:1.02442,(isoetes_sinensis_IsiChr3g2385:0.21622,(isoetes_sinensis_IsiChr4g2351:0.13034,isoetes_sinensis_IsiChr4g2348:0.024156)n4:0.0024156)n3:0.0002684)n2:0.00075)n1:0.259805)n0;

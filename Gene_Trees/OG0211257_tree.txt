@@ -1,0 +1,1 @@
+(carya_illinoinensis_Caril.01G125200:0.137585,(corylus_avellana_Corav.g3815:0.09714,(corylus_avellana_Corav.g3821:0.09539,corylus_avellana_Corav.g3817:0.1531)n2:0.2595)n1:0.137585)n0;

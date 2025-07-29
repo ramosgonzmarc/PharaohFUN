@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_039786:0.7353,tetraselmis_striata_TSEL_039803:0.57249)n1:0.4313,(welwitschia_mirabilis_Wmi_24761:0.87535,(isoetes_sinensis_IsiChr2g1316:1.61466,(isoetes_sinensis_IsiScaffold3602g32:0.82639,isoetes_sinensis_IsiChr6g3626:0.226746)n4:0.0226746)n3:0.0025194)n2:0.12072)n0;

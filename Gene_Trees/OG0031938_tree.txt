@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_XM_007512103:0.65625,(ostreococcus_mediterraneus_Ostme07g01260:0.4108,(ostreococcus_tauri_ostta12g01310:0.23477,ostreococcus_lucimarinus_Oluc_26787:0.20665)n2:0.19646)n1:0.65625)n0;

@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g6407:0,(chloropicon_primus_Chlpr_g6409:0,(((chloropicon_primus_Chlpr_g7018:0,chloropicon_primus_Chlpr_g7019:0)n4:0.02899,chloropicon_primus_Chlpr_g7020:0.00054)n3:0.28796,(chloropicon_primus_Chlpr_g131:0.60428,chloropicon_primus_Chlpr_g8042:0.98385)n5:0.25775)n2:0.28998)n1:0)n0;

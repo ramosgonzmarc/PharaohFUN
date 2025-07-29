@@ -1,0 +1,1 @@
+(taxus_chinensis_KI387_034748:0.375965,(alsophila_spinulosa_Aspi01Gene27397:0.01525,(alsophila_spinulosa_Aspi01Gene69945:0.08336,(alsophila_spinulosa_Aspi01Gene37522:0.0202,((alsophila_spinulosa_Aspi01Gene41715:0.13792,alsophila_spinulosa_Aspi01Gene45060:0.00938)n5:0.03028,alsophila_spinulosa_Aspi01Gene23636:0.07731)n4:0.01467)n3:0.00851)n2:0.00058)n1:0.375965)n0;

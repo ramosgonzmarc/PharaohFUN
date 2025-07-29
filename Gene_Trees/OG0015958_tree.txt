@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g1585:0.42668,(paraphymatoceros_pearsonii_Papea.S1G339800:0.74211,(chara_braunii_CBR_g51228:0.23943,(chara_braunii_CBR_g51230:0.04881,(chara_braunii_CBR_g51225:0.0454,(chara_braunii_CBR_g40012:0.05049,chara_braunii_CBR_g51227:0.02358)n5:0.01531)n4:0.02258)n3:0.11287)n2:0.35777)n1:0.42668)n0;

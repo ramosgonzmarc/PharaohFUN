@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM069_0055:0.28286,((ulva_mutabilis_UM069_0053:0.18202,ulva_mutabilis_UM069_0054:0.28713)n2:0.33143,(ulva_mutabilis_UM069_0056:0.25047,ulva_mutabilis_UM069_0057:0.8195)n3:0.17778)n1:0.28286)n0;

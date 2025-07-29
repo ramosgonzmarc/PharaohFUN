@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA21G0007:0.313345,((isoetes_sinensis_IsiChr20g900:0,isoetes_sinensis_IsiChr19g927:0)n2:0.59246,selaginella_moellendorffii_Smoe_439574:0.76241)n1:0.313345)n0;

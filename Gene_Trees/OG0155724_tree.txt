@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_001893:0.66893,(triticum_aestivum_TraesCS1B03G0592400:0.47808,(panicum_hallii_Pahal.5G469400:0.20899,setaria_italica_Seita.1G005600:0.21912)n2:0.35013)n1:0.66893)n0;

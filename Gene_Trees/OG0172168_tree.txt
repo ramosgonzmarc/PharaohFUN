@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_Rsub_02258:0.357405,(scenedesmus_obliquus_Sobl_g24573:0.88324,(scenedesmus_obliquus_Sobl_g19838:0.37121,scenedesmus_obliquus_Sobl_g24728:0.64585)n2:0.2165)n1:0.357405)n0;

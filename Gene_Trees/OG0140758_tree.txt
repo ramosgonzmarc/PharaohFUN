@@ -1,0 +1,1 @@
+(megaceros_flagellaris_Mefla.S2G350200:0.16165,(phaeomegaceros_chiloensis_Phchi.S1G020800:0.8883,(phaeomegaceros_chiloensis_Phchi.S1G023200:0.20116,phaeomegaceros_chiloensis_Phchi.S1G023400:0.09301)n2:0.14176)n1:0.16165)n0;

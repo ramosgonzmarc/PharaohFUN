@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.185923:0.418135,(dunaliella_salina_Dusal.0336s00003:0.9069,(gonium_pectorale_Gopec.14113:0.37645,volvox_carteri_Vocar.0008s0383:0.27941)n2:0.53879)n1:0.418135)n0;

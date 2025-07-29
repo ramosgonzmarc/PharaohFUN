@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00003220:0.70413,(cyanidioschyzon_merolae_CmerSOOS_G3109:0.50332,(cyanidioschyzon_merolae_CmerSOOS_G3110:0.23761,cyanidioschyzon_merolae_CmerSOOS_G3111:0.37878)n2:0.1961)n1:0.70413)n0;

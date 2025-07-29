@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S2G568700:0.325425,(theobroma_cacao_Thecc1EG034187:0.46897,(solanum_lycopersicum_Solyc03g112013:0.05775,solanum_tuberosum_Soltu.12G018390:0.33144)n2:0.2673)n1:0.325425)n0;

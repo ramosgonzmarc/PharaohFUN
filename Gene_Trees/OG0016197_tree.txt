@@ -1,0 +1,1 @@
+((prasinoderma_coloniale_PRCOL_00005900:0.49333,(prasinoderma_coloniale_PRCOL_00002392:0.13499,(prasinoderma_coloniale_PRCOL_00002393:0.12174,prasinoderma_coloniale_PRCOL_00002394:0.05285)n3:0.02788)n2:0.31626)n1:0.568115,(desmodesmus_armatus_Desar.471659:0.74065,(cymbomonas_tetramitiformis_KAK3283655:0.79079,cymbomonas_tetramitiformis_KAK3236667:0.51588)n5:0.05732)n4:0.38672)n0;

@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10024104:0.021195,(linum_usitatissimum_Lus10041616:0.06986,(linum_usitatissimum_Lus10002317:0.08198,((linum_usitatissimum_Lus10011218:0.85861,linum_usitatissimum_Lus10038938:0.50295)n4:0.74019,linum_usitatissimum_Lus10026102:0.00054)n3:0.07488)n2:0.5357)n1:0.021195)n0;

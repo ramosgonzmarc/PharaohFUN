@@ -1,0 +1,1 @@
+(carya_illinoinensis_Caril.11G191800:0.642715,((prunus_persica_Prupe.2G127100:0.35998,(fragaria_vesca_FvH4_2g17350:0.15695,fragaria_vesca_FvH4_5g15301:0.6261)n3:0.29112)n2:0.22754,(prunus_persica_Prupe.3G130800:0.4022,(fragaria_vesca_FvH4_2g20301:0.84396,fragaria_vesca_FvH4_2g20700:0.453609)n5:0.050401)n4:0.07816)n1:0.642715)n0;

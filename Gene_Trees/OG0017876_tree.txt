@@ -1,0 +1,1 @@
+(monoraphidium_minutum_Momin.496198:0.467495,(klebsormidium_nitens_kfl00619_0060:1.08351,(chlorokybus_atmophyticus_Chrsp12S00104:0.50225,(mesotaenium_endlicherianum_ME000101S10672:0.48348,(spirogloea_muscicola_SM000127S26616:0.01873,spirogloea_muscicola_SM000001S04742:0.02997)n4:0.48019)n3:0.15)n2:0.51453)n1:0.467495)n0;

@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub_65875:0.34698,((chromochloris_zofingiensis_Cz01g20020:0.41788,haematococcus_lacustris_QJQ45_025215:0.75967)n2:0.82799,(ostreobium_quekettii_CAD7700746:0.16292,bryopsis_sp_Bsp_GMH36369:0.70986)n3:0.19323)n1:0.34698)n0;

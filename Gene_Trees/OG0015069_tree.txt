@@ -1,0 +1,1 @@
+(musa_acuminata_Muacu.6P24570_001:0.40126,(olea_europaea_Oeu039182:0.5554,(olea_europaea_Oeu001150:0.38463,(olea_europaea_Oeu003846:0.99326,(olea_europaea_Oeu032273:0.19938,((olea_europaea_Oeu051017:0.06782,olea_europaea_Oeu037773:0.34685)n6:0.35397,olea_europaea_Oeu034932:0.34329)n5:0.0091)n4:0.22423)n3:0.39392)n2:0.44541)n1:0.40126)n0;

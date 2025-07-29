@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe1G145700:0.219895,(medicago_truncatula_Medtr7g101160:0.9971,(prunus_persica_Prupe.2G214700:0.66516,(carya_illinoinensis_Caril.01G271200:0.42594,(populus_trichocarpa_Potri.010G221301:0.19785,salix_purpurea_Sapur.008G030500:0.18516)n4:0.4347)n3:0.27047)n2:0.3251)n1:0.219895)n0;

@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g33225:0.493205,(brachypodium_distachyon_Bradi1g18822:0.16103,(ananas_comosus_Aco005395:1.3111,(oryza_sativa_Os11g30950:0.63747,(panicum_hallii_Pahal.7G191700:0.34235,(miscanthus_sinensis_Misin12G176400:0.32601,miscanthus_sinensis_Misin12G176100:0.221463)n5:0.024607)n4:0.09463)n3:0.08726)n2:0.2816)n1:0.493205)n0;

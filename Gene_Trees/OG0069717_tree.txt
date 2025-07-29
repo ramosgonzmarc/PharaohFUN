@@ -1,0 +1,1 @@
+((boechera_stricta_Bostr.5022s0056:0.02821,(arabidopsis_thaliana_AT2G21725:0.08119,arabidopsis_lyrata_Arlyr.AL4G10970:0.05265)n2:0.04149)n1:0.042625,(eutrema_salsugineum_Thhalv10000511m:0.09645,(brassica_rapa_Brara.D01283:0.06627,(sisymbrium_irio_Siiris2286g00750:0.65558,sisymbrium_irio_Siiris2286g00740:0.06075)n5:0.00675)n4:0.17766)n3:0.03929)n0;

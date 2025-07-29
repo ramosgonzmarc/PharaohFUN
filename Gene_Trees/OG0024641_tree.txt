@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000160829t03:0.383655,(chromochloris_zofingiensis_Cz12g13050:0.52978,(dunaliella_salina_Dusal.0826s00006:0.5747,ostreobium_quekettii_CAD7701411:0.62296)n2:0.19722)n1:0.383655)n0;

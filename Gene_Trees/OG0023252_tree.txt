@@ -1,0 +1,1 @@
+(vigna_unguiculata_Vigun02g057466:0.657655,(alsophila_spinulosa_Aspi01Gene63534:0.00054,(alsophila_spinulosa_Aspi01Gene50288:0.0849,alsophila_spinulosa_Aspi01Gene72296:0.05141)n2:0.10946)n1:0.657655)n0;

@@ -1,0 +1,1 @@
+(((welwitschia_mirabilis_Wmi_20384:0.02682,welwitschia_mirabilis_Wmi_20385:0.00054)n2:0.92645,((ginkgo_biloba_Gb_36424:0.32246,ginkgo_biloba_Gb_22267:0.44379)n4:0.08585,ginkgo_biloba_Gb_19165:0.345636)n3:0.038404)n1:0.105935,gnetum_montanum_TnS000183447t03:0.7436)n0;

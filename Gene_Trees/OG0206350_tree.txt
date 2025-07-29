@@ -1,0 +1,1 @@
+((boechera_stricta_Bostr.1774s0023:0.73464,(brassica_oleracea_Bol005616:0.00694,brassica_rapa_Brara.F03693:0.00783)n2:0.26658)n1:0.186985,(gossypium_hirsutum_Gohir.A12G200900:0.33774,theobroma_cacao_Thecc1EG016713:0.14854)n3:0.186985)n0;

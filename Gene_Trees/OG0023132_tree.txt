@@ -1,0 +1,1 @@
+(diphasiastrum_complanatum_Dicom.Y292500:0.521365,(sequoia_sempervirens_SESE_045271:0.8368,(alsophila_spinulosa_Aspi01Gene17450:0.06443,alsophila_spinulosa_Aspi01Gene43510:0.09244)n2:0.31987)n1:0.521365)n0;

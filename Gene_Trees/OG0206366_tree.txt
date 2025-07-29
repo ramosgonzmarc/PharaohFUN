@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol009292:0.02119,brassica_rapa_Brara.A03011:0.07688)n1:0.27388,(citrus_sinensis_Cisin.036332:0.02445,(poncirus_trifoliata_Ptrif.0009s2392:0.51902,poncirus_trifoliata_Ptrif.0004s0809:0.000486)n3:5.4e-05)n2:1.2605)n0;

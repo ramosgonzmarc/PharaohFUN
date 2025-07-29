@@ -1,0 +1,1 @@
+(asterochloris_glomerata_Astgl_g7348:0.36131,(asterochloris_glomerata_Astgl_g7350:0.13486,(asterochloris_glomerata_Astgl_g5453:0.25288,asterochloris_glomerata_Astgl_g7347:0.21748)n2:0.05776)n1:0.36131)n0;

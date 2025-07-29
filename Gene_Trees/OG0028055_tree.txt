@@ -1,0 +1,1 @@
+((sequoiadendron_giganteum_SEGI_31953:0.07411,(taxus_chinensis_KI387_007396:0.27641,taxus_chinensis_KI387_007395:0.244854)n2:0.027206)n1:0.0846,thuja_plicata_Thupl.29377745s0004:0.05302)n0;

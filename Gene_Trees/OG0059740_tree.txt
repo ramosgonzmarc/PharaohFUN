@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene54481:0.306825,(lens_culinaris_Lecul.3g007730:0.00054,((lens_culinaris_Lecul.4g019640:0,lens_culinaris_Lecul.1g013470:0)n3:0.00743,lens_culinaris_Lecul.6g015340:0.0074)n2:0.0074)n1:0.306825)n0;

@@ -1,0 +1,1 @@
+(arabidopsis_lyrata_Arlyr.AL2G21980:0.832315,((physcomitrium_patens_Pp6c12_6840V6:1.37473,(physcomitrium_patens_Pp6c21_2770V6:0.00054,physcomitrium_patens_Pp6c21_2780V6:0.00441)n3:0.19156)n2:0.18024,(funaria_hygrometrica_Fuhyg.12175:0.35958,funaria_hygrometrica_Fuhyg.12894:0.139581)n4:0.015509)n1:0.00073)n0;

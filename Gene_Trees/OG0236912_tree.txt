@@ -1,0 +1,1 @@
+(picochlorum_soloecismus_NSC_05842:0.000275,(picochlorum_soloecismus_NSC_04135:0.01141,((picochlorum_soloecismus_NSC_00132:0.00168,(picochlorum_soloecismus_NSC_04885:0.00055,picochlorum_soloecismus_NSC_00973:0.00673)n4:1.47422)n3:0.00732,(picochlorum_soloecismus_NSC_03701:0.00169,picochlorum_soloecismus_NSC_00919:0.09486)n5:0.0005)n2:0.01361)n1:0.000275)n0;

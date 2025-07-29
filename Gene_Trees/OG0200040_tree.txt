@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_214s0006g02462:0.24962,((corylus_avellana_Corav.g18640:0.00055,corylus_avellana_Corav.g19736:0.01544)n2:0.28759,(manihot_esculenta_Manes.02G071900:0.21204,(populus_trichocarpa_Potri.017G119700:0.02375,populus_trichocarpa_Potri.017G119750:0.01266)n4:0.27219)n3:0.24439)n1:0.24962)n0;

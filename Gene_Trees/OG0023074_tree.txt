@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.004G006350:0.56311,(alsophila_spinulosa_Aspi01Gene71435:0.00992,(alsophila_spinulosa_Aspi01Gene48296:0.18743,alsophila_spinulosa_Aspi01Gene06902:0.18476)n2:0.02502)n1:0.56311)n0;

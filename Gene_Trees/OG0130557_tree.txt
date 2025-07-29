@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr19g2304:0.516265,(lens_culinaris_Lecul.3g052410:0.09731,(lens_culinaris_Lecul.7g009980:0.04294,lens_culinaris_Lecul.4g021590:0.21389)n2:0.15172)n1:0.516265)n0;

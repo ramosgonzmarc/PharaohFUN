@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr2g4168:0.19917,(fragaria_vesca_FvH4_1g27361:1.36821,(malus_domestica_MD05G1303000:0.2618,(malus_domestica_MD05G1302700:0.13372,(malus_domestica_MD05G1303100:0.07412,((malus_domestica_MD05G1302900:0.06192,malus_domestica_MD16G1032100:0.03558)n6:0.00601,malus_domestica_MD16G1032500:0.11691)n5:0.07016)n4:0.0387)n3:0.10526)n2:0.5321)n1:0.19917)n0;

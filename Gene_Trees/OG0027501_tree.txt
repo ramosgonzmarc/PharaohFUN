@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc20086:0.90891,adiantum_capillus_Adc20841:1.23937)n1:0.30718,(selaginella_moellendorffii_Smoe_403679:0.1302,(selaginella_moellendorffii_Smoe_402783:0.29418,selaginella_moellendorffii_Smoe_406128:0.09294)n3:0.00096)n2:0.30718)n0;

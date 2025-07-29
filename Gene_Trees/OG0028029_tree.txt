@@ -1,0 +1,1 @@
+((taxus_chinensis_KI387_035324:0.05659,(taxus_chinensis_KI387_008320:0.26317,taxus_chinensis_KI387_007127:0.6268)n2:0.22933)n1:0.510445,(huperzia_asiatica_HaB34G0272:1.00667,(huperzia_asiatica_HaA20G0439:0.00055,(huperzia_asiatica_HaA52G0559:0.03018,huperzia_asiatica_HaB08G0067:0.0833)n5:0.04125)n4:1.06111)n3:0.510445)n0;

@@ -1,0 +1,1 @@
+(asparagus_officinalis_AsparagusV1_07.2996:0.332655,(vaccinium_darrowii_Vadar_g28765:0.45275,(eucalyptus_grandis_Eucgr.F00174:0.20744,corymbia_citriodora_Cocit.F0625:0.27331)n2:0.23932)n1:0.332655)n0;

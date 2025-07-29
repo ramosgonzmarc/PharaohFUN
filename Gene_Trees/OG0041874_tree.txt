@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.07098:0.468685,(desmodesmus_armatus_Desar.431307:0.84738,((raphidocelis_subcapitata_Rsub_04763:0.46639,monoraphidium_minutum_Momin.522953:0.31599)n3:0.16724,(monoraphidium_minutum_Momin.512321:0.3912,raphidocelis_subcapitata_Rsub_02017:0.394443)n4:0.043827)n2:0.12076)n1:0.468685)n0;

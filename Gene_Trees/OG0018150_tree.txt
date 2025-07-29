@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3251566:0.63156,(galdieria_sulphuraria_GsulpAzora_G4481:0.61914,(gracilariopsis_chorda_PXF45035:0.47336,(porphyra_umbilicalis_Pum0107s0026:0.44575,porphyra_umbilicalis_Pum0031s0135:0.29573)n3:0.41476)n2:0.58277)n1:0.63156)n0;

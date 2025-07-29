@@ -1,0 +1,1 @@
+((linum_usitatissimum_Lus10014857:0.74213,(cucumis_sativus_Cucsa.c103020g01:0.38401,lupinus_albus_Lalb_Chr09g0334051:0.5129)n2:0.58646)n1:0.538395,(quercus_rubra_Qurub.02G115100:0.72995,(salix_purpurea_Sapur.006G216600:0.11434,(populus_trichocarpa_Potri.018G020800:0.19303,populus_trichocarpa_Potri.006G262600:0.067959)n5:0.007551)n4:0.04203)n3:0.538395)n0;

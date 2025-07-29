@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz18g04100:0.08686,chromochloris_zofingiensis_Cz18g04060:0.26972)n1:0.444225,((elliptochloris_bilobata_Elbil.KAK9839789:0.7459,coccomyxa_subellipsoidea_Cosub_44361:0.52768)n3:0.09832,(coccomyxa_subellipsoidea_Cosub_58584:0.34882,elliptochloris_bilobata_Elbil.KAK9839831:0.406494)n4:0.045166)n2:0.444225)n0;

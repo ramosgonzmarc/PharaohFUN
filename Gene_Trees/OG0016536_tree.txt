@@ -1,0 +1,1 @@
+(olea_europaea_Oeu035212:0.379085,(vitis_vinifera_VIT_212s0057g01610:0.18643,(vitis_vinifera_VIT_209s0002g00460:0.00052,(vitis_vinifera_VIT_219s0135g00020:0.01952,(vitis_vinifera_VIT_213s0047g00400:0.00055,vitis_vinifera_VIT_209s0162g00048:0.00984)n4:0.00055)n3:0.00934)n2:1.21393)n1:0.379085)n0;

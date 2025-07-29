@@ -1,0 +1,1 @@
+((aegilops_tauschii_Atau_XP_020165938:0.08146,hordeum_vulgare_Hvul_4HG0402700:0.11549)n1:0.36246,((panicum_hallii_Pahal.9G593500:0.28072,sorghum_bicolor_Sobic.001G494150:0.56741)n3:0.21946,(eleusine_coracana_Elcor.3AG0234910:0.12655,oropetium_thomaeum_Oropetium_20150105_00176A:0.28912)n4:0.22973)n2:0.36246)n0;

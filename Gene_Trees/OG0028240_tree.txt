@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx13G050700:0.59221,(tetraselmis_striata_TSEL_010282:0.2868,(tetraselmis_striata_TSEL_038856:0.74571,tetraselmis_striata_TSEL_039949:0.49445)n2:0.30954)n1:0.59221)n0;

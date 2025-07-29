@@ -1,0 +1,1 @@
+(glycine_max_Glyma.14G119500:0.162915,(lotus_japonicus_LjContig00272g0020767:0.3272,(trifolium_pratense_Trpra.26324:0.29108,trifolium_pratense_Trpra.21356:0.15149)n2:0.21404)n1:0.162915)n0;

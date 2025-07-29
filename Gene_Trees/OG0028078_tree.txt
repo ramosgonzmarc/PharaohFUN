@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_Sobl_g18518:0.69762,((tetraselmis_striata_TSEL_041102:0.52296,tetraselmis_striata_TSEL_034624:0.540999)n3:0.060111,tetraselmis_striata_TSEL_014130:0.483327)n2:0.053703)n1:0.223595,myrmecia_bisecta_Mybis.KAK9806876:1.19113)n0;

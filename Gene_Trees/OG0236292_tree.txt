@@ -1,0 +1,1 @@
+(elliptochloris_bilobata_Elbil.KAK9841749:0.246185,(trebouxia_sp_FRX49_07592:0.30143,(apatococcus_lobatus_Aplob.KAK9841618:0.74228,myrmecia_bisecta_Mybis.KAK9807694:0.26876)n2:0.09705)n1:0.246185)n0;

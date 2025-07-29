@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub_52834:0.53165,((monoraphidium_minutum_Momin.430190:0.24906,desmodesmus_armatus_Desar.341259:0.52403)n2:0.23346,(dunaliella_salina_Dusal.0347s00007:0.55238,(chlamydomonas_reinhardtii_Cre06.g800602_4532:0.11276,gonium_pectorale_Gopec.11857:0.05924)n4:0.20708)n3:0.06807)n1:0.53165)n0;

@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S2G272100:0.048935,(phaeoceros_carolinianus_Phcar.S2G523200:0.21346,(notothylas_orbicularis_Noorb.S4G024300:0.47604,(notothylas_orbicularis_Noorb.S4G024000:0.03973,(notothylas_orbicularis_Noorb.S3G401100:0.00054,notothylas_orbicularis_Noorb.S3G401000:0.000495)n4:4.95e-05)n3:4.95e-06)n2:5.5e-07)n1:0.04374)n0;

@@ -1,0 +1,1 @@
+((phaeoceros_sp_Phsp.C2G023700:0.18427,phaeoceros_sp_Phsp.C2G039000:0.05722)n1:0.34337,(picea_abies_Pab_441512g0010:0.35566,(isoetes_sinensis_IsiChr7g2008:0.11332,(isoetes_sinensis_IsiChr20g533:0.00055,isoetes_sinensis_IsiChr19g529:0.00222)n4:0.12081)n3:0.43341)n2:0.34337)n0;

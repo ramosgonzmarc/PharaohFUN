@@ -1,0 +1,1 @@
+(thlaspi_arvense_TaMN106.6G032800:0.144805,(boechera_stricta_Bostr.26833s0327:0.07409,(arabidopsis_thaliana_AT5G59170:0.12866,arabidopsis_lyrata_Arlyr.AL48U10080:0.05304)n2:0.2141)n1:0.144805)n0;

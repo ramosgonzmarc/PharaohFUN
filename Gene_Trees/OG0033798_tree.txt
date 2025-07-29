@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.449576:0.440705,((picochlorum_soloecismus_NSC_06092:0.70129,picochlorum_soloecismus_NSC_06121:0.66794)n2:0.29643,(myrmecia_bisecta_Mybis.KAK9820627:0.48272,(elliptochloris_bilobata_Elbil.KAK9827659:0.42361,(coccomyxa_subellipsoidea_Cosub_42571:0.41741,coccomyxa_subellipsoidea_Cosub_45597:0.467037)n5:0.051893)n4:0.19586)n3:1.05062)n1:0.440705)n0;

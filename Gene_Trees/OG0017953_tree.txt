@@ -1,0 +1,1 @@
+((desmodesmus_armatus_Desar.372628:0.03476,desmodesmus_armatus_Desar.377131:0.01861)n1:0.65406,((chromochloris_zofingiensis_Cz08g20040:0.05841,chromochloris_zofingiensis_Cz08g31220:0.02368)n3:0.03206,((chromochloris_zofingiensis_Cz08g31200:0.10052,chromochloris_zofingiensis_UNPLg00715:0.00054)n5:0.06572,chromochloris_zofingiensis_Cz08g31210:0.06079)n4:0.01353)n2:0.65406)n0;

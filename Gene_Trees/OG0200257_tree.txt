@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_201s0010g00790:0.39774,(cucumis_sativus_Cucsa.c374360g01:0.91874,(fragaria_vesca_FvH4_4g28851:0.38658,theobroma_cacao_Thecc1EG011398:0.38507)n2:0.19005)n1:0.39774)n0;

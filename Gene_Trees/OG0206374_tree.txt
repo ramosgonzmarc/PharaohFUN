@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol028985:0.30576,brassica_rapa_Brara.A00496:0.57491)n1:0.19357,(thlaspi_arvense_TaMN106.7G050700:0.21036,(eutrema_salsugineum_Thhalv10022934m:0.00055,eutrema_salsugineum_Thhalv10022858m:0.00055)n3:0.93387)n2:0.19357)n0;

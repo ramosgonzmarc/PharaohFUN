@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF47465:0.25037,gracilariopsis_chorda_PXF47466:0.37582)n1:0.261375,(klebsormidium_nitens_kfl00307_0110:0.82635,(cymbomonas_tetramitiformis_KAK3270744:0.12473,(cymbomonas_tetramitiformis_KAK3279750:0.00055,cymbomonas_tetramitiformis_KAK3279751:0.00055)n4:0.20898)n3:1.0736)n2:0.261375)n0;

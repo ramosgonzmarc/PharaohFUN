@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10024736:0.486655,((vigna_unguiculata_Vigun04g090901:0.25839,phaseolus_acutifolius_Phacu.004G135500:0.36591)n2:0.12499,(trifolium_pratense_Trpra.04749:0.48765,(medicago_truncatula_Medtr6g038930:0.42546,medicago_truncatula_Medtr5g047340:0.318294)n4:0.035366)n3:0.26949)n1:0.486655)n0;

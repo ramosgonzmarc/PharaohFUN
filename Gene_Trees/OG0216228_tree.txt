@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.03G137700:0.416585,(amaranthus_hypochondriacus_AH019155:0.45482,(beta_vulgaris_Bevul.2G041500:0.26107,(chenopodium_quinoa_AUR62032641:0.06469,chenopodium_quinoa_AUR62026852:0.0446)n3:0.22971)n2:0.06162)n1:0.416585)n0;

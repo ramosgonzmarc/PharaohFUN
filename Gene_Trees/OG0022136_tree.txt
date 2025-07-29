@@ -1,0 +1,1 @@
+(phymatoceros_phymatodes_Phphy.S1G771000:0.290245,(apatococcus_lobatus_Aplob.KAK9820774:0.83952,(haematococcus_lacustris_QJQ45_008986:1.22198,((tetraselmis_striata_TSEL_015965:0.05745,tetraselmis_striata_TSEL_043320:0.89289)n4:0.14438,(tetraselmis_striata_TSEL_012938:0.02149,tetraselmis_striata_TSEL_019278:0.00055)n5:0.34077)n3:0.26702)n2:0.08917)n1:0.290245)n0;

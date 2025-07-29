@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00408_g10:0.54902,(klebsormidium_nitens_kfl00248_0100:0.32825,klebsormidium_nitens_kfl00003_0620:0.13012)n2:0.26852)n1:0.38699,(cymbomonas_tetramitiformis_KAK3248613:0.00055,cymbomonas_tetramitiformis_KAK3248614:0.00055)n3:0.38699)n0;

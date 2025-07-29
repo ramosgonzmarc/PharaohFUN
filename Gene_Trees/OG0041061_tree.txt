@@ -1,0 +1,1 @@
+(((physcomitrium_patens_Pp6c9_9810V6:0.15204,funaria_hygrometrica_Fuhyg.12254:0.21318)n2:0.35147,(physcomitrium_patens_Pp6c15_9800V6:0.08383,funaria_hygrometrica_Fuhyg.06354:0.1401)n3:0.12281)n1:0.072055,(pleurozium_schreberi_Plsch.04279:0.39655,(ceratodon_purpureus_CepurR40.7G122200:0.34738,ceratodon_purpureus_CepurR40.10G152200:0.1935)n5:0.0215)n4:0.30431)n0;

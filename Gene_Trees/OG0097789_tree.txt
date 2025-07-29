@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3243984:0.68701,(theobroma_cacao_Thecc1EG021387:0.20854,(cicer_arietinum_Ca_03023:0.12045,medicago_truncatula_Medtr4g122260:0.05712)n2:0.18793)n1:0.68701)n0;

@@ -1,0 +1,1 @@
+(poncirus_trifoliata_Ptrif.0003s1444:0.035895,(poncirus_trifoliata_Ptrif.0005s0253:0.0876,(poncirus_trifoliata_Ptrif.0007s2974:0.01448,(poncirus_trifoliata_Ptrif.0005s1131:0.02929,poncirus_trifoliata_Ptrif.0004s0706:0.04863)n3:0.00972)n2:0.06312)n1:0.035895)n0;

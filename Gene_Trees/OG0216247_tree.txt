@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH012803:0.3672,saponaria_officinalis_Sapof.01G152900:0.33448)n1:0.097235,(daucus_carota_DCAR_520316:0.4584,(mimulus_guttatus_Migut.L01648:0.47554,solanum_tuberosum_Soltu.09G006860:0.31833)n3:0.15438)n2:0.097235)n0;

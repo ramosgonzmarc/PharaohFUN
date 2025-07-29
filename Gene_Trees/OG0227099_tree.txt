@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx11G012300:0.495815,(pleurozium_schreberi_Plsch.05883:0.21654,((pleurozium_schreberi_Plsch.11454:0,pleurozium_schreberi_Plsch.11466:0)n3:0.00055,(pleurozium_schreberi_Plsch.11459:0,pleurozium_schreberi_Plsch.11471:0)n4:0.02114)n2:0.04557)n1:0.495815)n0;

@@ -1,0 +1,1 @@
+(corylus_avellana_Corav.g3795:0.000275,(corylus_avellana_Corav.g2328:0.00787,(corylus_avellana_Corav.g6679:0.18317,corylus_avellana_Corav.g4838:0.91294)n2:0.51999)n1:0.000275)n0;

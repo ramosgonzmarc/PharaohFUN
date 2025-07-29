@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_5_15661:0.040905,((lactuca_sativa_Lsat_gn_8_90480:1.18668,lactuca_sativa_Lsat_gn_2_2520:0.0967)n2:0.07495,(lactuca_sativa_Lsat_gn_3_123741:0.09661,(lactuca_sativa_Lsat_gn_3_129221:0.13794,lactuca_sativa_Lsat_gn_0_39240:0.06727)n4:0.51687)n3:0.0413)n1:0.040905)n0;

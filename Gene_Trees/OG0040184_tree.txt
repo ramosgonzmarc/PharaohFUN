@@ -1,0 +1,1 @@
+((oryza_sativa_Os03g19180:0.32322,panicum_hallii_Pahal.9G493700:0.19466)n1:0.228125,(ananas_comosus_Aco001800:0.26381,ananas_comosus_Aco002530:0.3059)n2:0.228125)n0;

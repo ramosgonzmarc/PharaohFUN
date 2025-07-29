@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_35TUCN:0.00054,lens_culinaris_Lecul.L014200:0.07012)n1:0.320385,(ginkgo_biloba_Gb_00927:0.20323,(cycas_panzhihuaensis_CYCAS_019156:0.00324,(cycas_panzhihuaensis_CYCAS_019185:0.10725,cycas_panzhihuaensis_CYCAS_019167:0.00167)n4:0.00052)n3:0.17564)n2:0.320385)n0;

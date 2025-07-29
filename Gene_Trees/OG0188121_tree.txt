@@ -1,0 +1,1 @@
+((populus_trichocarpa_Potri.001G062566:0.5189,takakia_lepidozioides_Tle1c01239:0.27579)n1:0.062115,(((adiantum_capillus_Adc02034:0.6849,azolla_filiculoides_Azfi_s0028.g024007:0.58695)n4:0.12219,triticum_aestivum_TraesCS2A03G1324600:1.17981)n3:0.08343,(anthoceros_punctatus_Anpun.S3G438400:0.41348,eutrema_salsugineum_Thhalv10010230m:0.73439)n5:0.04088)n2:0.062115)n0;

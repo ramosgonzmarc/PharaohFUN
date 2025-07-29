@@ -1,0 +1,1 @@
+(eutrema_salsugineum_Thhalv10013927m:0.63976,(ginkgo_biloba_Gb_17200:0.31927,(ginkgo_biloba_Gb_17201:0.06923,ginkgo_biloba_Gb_17203:0.05383)n2:0.19169)n1:0.63976)n0;

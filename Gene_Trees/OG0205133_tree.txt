@@ -1,0 +1,1 @@
+(caulerpa_lentillifera_Caule_g8550:0.1431,(zostera_marina_Zosma07g02950:0.54342,((huperzia_asiatica_HaScaf3146:0.09508,huperzia_asiatica_HaScaf3194:0.18118)n3:0.0816,huperzia_asiatica_HaScaf3397:0.214146)n2:0.023794)n1:0.14296)n0;

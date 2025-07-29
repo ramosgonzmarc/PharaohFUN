@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g5399:0.406595,((bathycoccus_prasinos_XM_007509282:0.40389,ostreococcus_mediterraneus_Ostme04g00930:0.66661)n2:0.17409,(micromonas_commoda_Micom.058492:1.31813,micromonas_commoda_Micom.107428:0.500436)n3:0.055604)n1:0.35158)n0;

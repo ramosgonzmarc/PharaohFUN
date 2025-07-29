@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62012629:0.666945,(corylus_avellana_Corav.g28363:0.41726,(malus_domestica_MD10G1313000:0.04855,malus_domestica_MD00G1103000:0.00055)n2:0.659)n1:0.666945)n0;

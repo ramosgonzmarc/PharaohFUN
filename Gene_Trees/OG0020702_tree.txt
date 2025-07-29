@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum2209s0001:0.281665,(myrmecia_bisecta_Mybis.KAK9816678:0.59519,(tetraselmis_striata_TSEL_009633:0.67522,(cymbomonas_tetramitiformis_KAK3240032:0.58437,cymbomonas_tetramitiformis_KAK3240862:0.708291)n3:0.078699)n2:0.69726)n1:0.281665)n0;

@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_02023200:0.86741,cinnamomum_kanehirae_CKAN_02023000:0.03435)n1:0.392045,((malus_domestica_MD01G1096900:0.60547,(carya_illinoinensis_Caril.Q016000:0.38071,corylus_avellana_Corav.g9005:0.5282)n4:0.05196)n3:0.0575,(quercus_rubra_Qurub.05G043400:0.28515,vitis_vinifera_VIT_200s0262g00020:0.41892)n5:0.16084)n2:0.392045)n0;

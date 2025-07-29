@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.11G040800:0.743,sphagnum_magellanicum_Sphmag07G027100:0.57788)n1:0.147145,(zostera_marina_Zosma05g10390:0.93503,(isoetes_sinensis_IsiChr2g3969:0.01223,paraphymatoceros_pearsonii_Papea.S2G082500:0.67455)n3:0.14354)n2:0.147145)n0;

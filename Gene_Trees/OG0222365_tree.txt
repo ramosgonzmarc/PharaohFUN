@@ -1,0 +1,1 @@
+(dioscorea_alata_Dioal.10G093700:0.045535,(dioscorea_alata_Dioal.10G093400:0.2289,(dioscorea_alata_Dioal.05G002900:0.48857,dioscorea_alata_Dioal.05G003400:0.45074)n2:0.08498)n1:0.045535)n0;

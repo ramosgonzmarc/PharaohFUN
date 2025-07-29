@@ -1,0 +1,1 @@
+(spirodela_polyrhiza_Spipo26G0028600:0.71556,(adiantum_capillus_Adc06375:1.1066,(alsophila_spinulosa_Aspi01Gene57117:0.06777,alsophila_spinulosa_Aspi01Gene57119:0.01525)n2:0.45631)n1:0.71556)n0;

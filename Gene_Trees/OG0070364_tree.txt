@@ -1,0 +1,1 @@
+((boechera_stricta_Bostr.5325s0007:0.08266,boechera_stricta_Bostr.5325s0013:0.01585)n1:0.03832,(arabidopsis_thaliana_AT1G02210:0.13321,arabidopsis_lyrata_Arlyr.AL1G11550:0.40847)n2:0.03832)n0;

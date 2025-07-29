@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene68350:0.9229,selaginella_moellendorffii_Smoe_111918:0.84488)n1:0.133365,(taxus_chinensis_KI387_007633:0.19693,(isoetes_sinensis_IsiChr9g1821:0.73229,picea_abies_Pab_72722g0010:0.39108)n3:0.13683)n2:0.133365)n0;

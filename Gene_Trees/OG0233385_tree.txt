@@ -1,0 +1,1 @@
+((tetrabaena_socialis_Tesoc.PNH12054:0.27937,volvox_carteri_Vocar.0012s0228:0.28673)n1:0.47022,(haematococcus_lacustris_QJQ45_009135:0.00054,haematococcus_lacustris_QJQ45_016764:0.02764)n2:0.47022)n0;

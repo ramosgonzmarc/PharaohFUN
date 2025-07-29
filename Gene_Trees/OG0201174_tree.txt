@@ -1,0 +1,1 @@
+((linum_usitatissimum_Lus10002266:0.37158,vitis_vinifera_VIT_212s0059g00440:0.69439)n1:0.05502,(solanum_tuberosum_Soltu.09G030330:0.37508,(mimulus_guttatus_Migut.G00656:0.0298,(mimulus_guttatus_Migut.G01102:0.00054,mimulus_guttatus_Migut.G01141:0.074)n4:0.04904)n3:0.50706)n2:0.05502)n0;

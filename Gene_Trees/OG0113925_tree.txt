@@ -1,0 +1,1 @@
+(ananas_comosus_Aco015129:0.33662,(eucalyptus_grandis_Eucgr.I01330:0.08827,(corylus_avellana_Corav.g1780:0.09902,corylus_avellana_Corav.g22863:0.11891)n2:0.20646)n1:0.33662)n0;

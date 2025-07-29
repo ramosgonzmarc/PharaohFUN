@@ -1,0 +1,1 @@
+((phaseolus_acutifolius_Phacu.002G223600:0.00054,vigna_unguiculata_Vigun03g145800:0.22224)n1:0.360785,(cicer_arietinum_Ca_05165:0.19197,(lens_culinaris_Lecul.4g062770:0.1281,lens_culinaris_Lecul.4g062740:0.15655)n3:0.11012)n2:0.360785)n0;

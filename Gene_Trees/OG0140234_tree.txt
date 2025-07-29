@@ -1,0 +1,1 @@
+((megaceros_flagellaris_Mefla.S1G471300:0.23611,(paraphymatoceros_pearsonii_Papea.S2G496700:0.35237,phaeoceros_sp_Phsp.C1G351800:0.08368)n2:0.37646)n1:0.409205,(anthoceros_fusiformis_Anfus.S1G537100:0.00054,anthoceros_punctatus_Anpun.S3G096000:0.11802)n3:0.409205)n0;

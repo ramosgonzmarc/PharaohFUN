@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.27234:0.005595,(trifolium_pratense_Trpra.10852:1.53071,(trifolium_pratense_Trpra.07109:0.32268,trifolium_pratense_Trpra.27241:0.04216)n2:0.66804)n1:0.005595)n0;

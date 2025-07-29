@@ -1,0 +1,1 @@
+(lycopodium_clavatum_Lcl_0005420:0.6715,(volvox_carteri_Vocar.0003s0437:0.34882,(gonium_pectorale_Gopec.10835:0.38802,(chlamydomonas_reinhardtii_Cre05.g233600_4532:0.18233,chlamydomonas_incerta_Chincg07075:0.09969)n3:0.34918)n2:0.21416)n1:0.6715)n0;

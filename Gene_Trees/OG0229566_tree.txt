@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S3G017600:0.90398,((phymatoceros_phymatodes_Phphy.S4G367100:0.07503,phymatoceros_phymatodes_Phphy.S2G316800:0.323451)n3:0.035939,phymatoceros_phymatodes_Phphy.S3G225700:0.021213)n2:0.002357)n1:0.07692,phaeoceros_carolinianus_Phcar.S2G510700:0.66783)n0;

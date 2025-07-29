@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g42674:0.617985,(fragaria_vesca_FvH4_6g03800:0.40551,(medicago_truncatula_Medtr8g016490:0.72982,(malus_domestica_MD02G1217400:0.14888,(malus_domestica_MD07G1101400:0.18811,arabidopsis_lyrata_Arlyr.AL144U10010:0.7551)n4:0.093546)n3:0.010394)n2:0.11445)n1:0.08529)n0;

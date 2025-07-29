@@ -1,0 +1,1 @@
+(ostreococcus_lucimarinus_Oluc_92477:0.43092,(chloropicon_primus_Chlpr_g2492:1.15189,(tetraselmis_striata_TSEL_023912:0.00972,tetraselmis_striata_TSEL_000355:0.00054)n2:0.69968)n1:0.43092)n0;

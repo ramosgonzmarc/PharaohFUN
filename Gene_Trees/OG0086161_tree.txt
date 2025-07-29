@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.544492:0.232465,(gonium_pectorale_Gopec.10432:0.1168,(volvox_carteri_Vocar.0001s1394:0.18052,((tetrabaena_socialis_Tesoc.PNH04405:0.04092,tetrabaena_socialis_Tesoc.PNH04407:0.00053)n4:0.20433,(chlamydomonas_reinhardtii_Cre06.g288150_4532:0.05934,chlamydomonas_incerta_Chincg00411:0.03063)n5:0.12335)n3:0.0285)n2:0.06187)n1:0.232465)n0;

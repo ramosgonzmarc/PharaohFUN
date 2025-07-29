@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.00034:0.26286,(daucus_carota_DCAR_933587:0.54194,(isoetes_sinensis_IsiChr2g4714:0.01699,isoetes_sinensis_IsiScaffold3445g6:0.00055)n2:0.40049)n1:0.26286)n0;

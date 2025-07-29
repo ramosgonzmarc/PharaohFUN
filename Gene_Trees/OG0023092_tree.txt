@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g5692:0.58563,(alsophila_spinulosa_Aspi01Gene09786:0.8844,(thuja_plicata_Thupl.29379261s0026:0.04392,(sequoia_sempervirens_SESE_032879:0.31369,(sequoia_sempervirens_SESE_147148:0.17392,sequoia_sempervirens_SESE_047350:0.21483)n4:0.14326)n3:0.16406)n2:0.38879)n1:0.58563)n0;

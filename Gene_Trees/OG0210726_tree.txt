@@ -1,0 +1,1 @@
+(populus_trichocarpa_Potri.007G062562:0.06985,((medicago_truncatula_Medtr2g010910:1.15716,phaseolus_acutifolius_Phacu.001G114400:0.43037)n2:0.43154,(arachis_hypogaea_arahy_5SJK9M:0.04006,(arachis_hypogaea_arahy_SBR48F:0.23607,arachis_hypogaea_arahy_14HIQT:0.00055)n4:0.386163)n3:0.042907)n1:0.01916)n0;

@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_088866:0.21054,(mimulus_guttatus_Migut.K00484:0.17524,(olea_europaea_Oeu007503:0.32506,(vaccinium_darrowii_Vadar_g25662:0.2476,(daucus_carota_DCAR_520462:0.45597,(carya_illinoinensis_Caril.03G228400:0.31737,corymbia_citriodora_Cocit.C0657:0.42011)n5:0.06611)n4:0.0309)n3:0.18985)n2:0.08518)n1:0.21054)n0;

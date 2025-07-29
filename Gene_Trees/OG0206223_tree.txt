@@ -1,0 +1,1 @@
+(capsella_grandiflora_Cagra.0897s0017:0.10788,(sisymbrium_irio_Siiris2411g00360:0.25818,(schrenkiella_parvula_Scpar6g04300:0.18407,(thlaspi_arvense_TaMN106.1G427600:0.26633,(brassica_rapa_Brara.H02015:0.52524,brassica_rapa_Brara.I05531:0.474075)n4:0.052675)n3:0.14775)n2:0.07728)n1:0.10788)n0;

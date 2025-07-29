@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10036129:0.1827,(fragaria_vesca_FvH4_4g25420:0.19593,(cucumis_sativus_Cucsa.c286630g01:0.31853,(corylus_avellana_Corav.g9493:0.06095,quercus_rubra_Qurub.03G183600:0.09535)n3:0.05216)n2:0.05456)n1:0.1827)n0;

@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_00920600:0.0893,malus_domestica_MD08G1068400:0.04557)n1:0.15051,(miscanthus_sinensis_Misin06G031100:0.00055,miscanthus_sinensis_MisinT355600:0.00752)n2:0.15051)n0;

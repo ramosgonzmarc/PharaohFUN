@@ -1,0 +1,1 @@
+(oryza_sativa_Os03g14850:0.428055,(zea_mays_Zm00001d019214:0.26775,(miscanthus_sinensis_MisinT311800:0.52432,(miscanthus_sinensis_MisinT372800:0.01768,miscanthus_sinensis_Misin03G064000:0.10391)n3:0.050481)n2:0.005609)n1:0.41084)n0;

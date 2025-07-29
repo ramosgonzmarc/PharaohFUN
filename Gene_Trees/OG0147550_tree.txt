@@ -1,0 +1,1 @@
+(oryza_sativa_Os08g41570:0.32868,(zea_mays_Zm00001d011227:0.76116,(setaria_italica_Seita.8G056900:0.70587,((miscanthus_sinensis_Misin04G044500:1.18896,setaria_italica_Seita.4G272700:1.04487)n4:0.09489,(miscanthus_sinensis_Misin19G277500:0.2273,setaria_italica_Seita.1G344000:0.32561)n5:0.115596)n3:0.0115596)n2:0.0012844)n1:0.42797)n0;

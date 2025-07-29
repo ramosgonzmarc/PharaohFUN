@@ -1,0 +1,1 @@
+(mimulus_guttatus_Migut.C00790:0.660435,(saponaria_officinalis_Sapof.06G058500:0.30603,(amaranthus_hypochondriacus_AH003808:0.49087,(chenopodium_quinoa_AUR62042220:0.02262,(chenopodium_quinoa_AUR62014429:0.05441,chenopodium_quinoa_AUR62034568:0.03592)n4:0.00735)n3:0.29912)n2:0.2582)n1:0.660435)n0;

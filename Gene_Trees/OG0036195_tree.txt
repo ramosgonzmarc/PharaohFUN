@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle3c02174:0.52717,(linum_usitatissimum_Lus10033641:0.68587,(eucalyptus_grandis_Eucgr.F01187:0.04108,corymbia_citriodora_Cocit.L1046:0.16023)n2:0.32317)n1:0.52717)n0;

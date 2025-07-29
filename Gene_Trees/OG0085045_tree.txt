@@ -1,0 +1,1 @@
+((tetrabaena_socialis_Tesoc.PNH04744:0.72485,volvox_carteri_Vocar.0057s0020:0.27493)n1:0.18176,(chlamydomonas_reinhardtii_Cre14.g614800_4532:0.10013,chlamydomonas_incerta_Chincg12824:0.08493)n2:0.18176)n0;

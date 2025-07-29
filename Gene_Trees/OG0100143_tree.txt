@@ -1,0 +1,1 @@
+((micromonas_commoda_Micom.060426:0.77788,(apatococcus_lobatus_Aplob.KAK9833646:0.88009,apatococcus_lobatus_Aplob.KAK9831166:0.438471)n2:0.048719)n1:0.104685,cymbomonas_tetramitiformis_KAK3260093:0.68251)n0;

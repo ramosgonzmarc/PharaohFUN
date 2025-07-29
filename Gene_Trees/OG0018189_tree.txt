@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3268302:0.271045,((oryza_sativa_Os08g40000:0.60668,oryza_sativa_Os04g46800:0.16375)n2:0.14552,(oryza_sativa_Os05g19680:0.50223,oryza_sativa_Os09g25080:0.3429)n3:0.10756)n1:0.271045)n0;

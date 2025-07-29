@@ -1,0 +1,1 @@
+(brassica_oleracea_Bol007634:0.598585,((tetraselmis_striata_TSEL_032397:1.55116,tetraselmis_striata_TSEL_034997:0.21964)n2:0.24693,(tetraselmis_striata_TSEL_014074:0.00744,tetraselmis_striata_TSEL_034994:0.00334)n3:0.25266)n1:0.598585)n0;

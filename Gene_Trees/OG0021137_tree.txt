@@ -1,0 +1,1 @@
+((glycine_max_Glyma.14G133800:0.64099,(isoetes_sinensis_IsiChr22g193:0.77814,isoetes_sinensis_IsiChr21g4068:0.000495)n2:5.5e-05)n1:0.122085,zostera_marina_Zosma04g04480:0.9881)n0;

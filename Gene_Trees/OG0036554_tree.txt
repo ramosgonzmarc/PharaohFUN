@@ -1,0 +1,1 @@
+((ginkgo_biloba_Gb_04757:0.14227,ginkgo_biloba_Gb_34680:0.52161)n1:0.206775,(picea_abies_Pab_3798g0010:0.27743,(sequoiadendron_giganteum_SEGI_19340:0.57684,(sequoia_sempervirens_SESE_033622:0.82924,(gnetum_montanum_TnS000822757t01:1.30235,gnetum_montanum_TnS000926237t04:0.574011)n5:0.063779)n4:0.24602)n3:0.24497)n2:0.206775)n0;

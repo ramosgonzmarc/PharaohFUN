@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr4g035695:0.00055,(vigna_unguiculata_Vigun05g156675:0.02725,(vigna_unguiculata_VigunL023550:0,vigna_unguiculata_VigunL048781:0)n3:0.000495)n2:5.5e-05)n1:0.000265,trifolium_pratense_Trpra.37511:0.7822)n0;

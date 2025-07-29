@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr6g071100:0.46796,medicago_truncatula_Medtr6g071110:0.04228)n1:0.526335,(thuja_plicata_Thupl.29380500s0001:0.23891,sequoia_sempervirens_SESE_019051:0.16335)n2:0.526335)n0;

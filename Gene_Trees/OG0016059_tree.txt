@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3264952:0.85253,(cymbomonas_tetramitiformis_KAK3251938:0.29912,cymbomonas_tetramitiformis_KAK3265373:0.57425)n2:0.13618)n1:0.37001,((mesostigma_viride1140_Mesvi229S09303:0.10222,mesostigma_viride296_Mevir.Mv17598:0.0569)n4:0.58,(chlorokybus_atmophyticus_Chrsp21S08799:0.51289,chlorokybus_atmophyticus_Chrsp35S05192:0.61054)n5:0.30834)n3:0.37001)n0;

@@ -1,0 +1,1 @@
+((megaceros_flagellaris_Mefla.S3G067400:0.24718,megaceros_flagellaris_Mefla.S3G298700:0.12619)n1:0.068215,(phaeoceros_sp_Phsp.C6G088800:0.275,phaeoceros_carolinianus_Phcar.S2G606200:0.21851)n2:0.068215)n0;

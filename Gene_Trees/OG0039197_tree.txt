@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv05477:0.289855,((riccia_fluitans_R1flu_027254:0.18747,(marchantia_polymorpha_Mp5g23390:0.02979,marchantia_paleacea_Mapa_002628:0.02617)n3:0.16223)n2:1.06937,(anthoceros_fusiformis_Anfus.C6G014200:0.49027,anthoceros_fusiformis_Anfus.C6G008000:0.821304)n4:0.091256)n1:0.30234)n0;

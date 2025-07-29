@@ -1,0 +1,1 @@
+((corymbia_citriodora_Cocit.L5421:0.0767,huperzia_asiatica_HaScaf1012:0.43842)n1:0.64603,(galdieria_sulphuraria_GsulpAzora_G3648:0.66764,(gracilariopsis_chorda_PXF46359:0.68662,(porphyra_umbilicalis_Pum0014s0063:0.50726,porphyra_umbilicalis_Pum0105s0036:0.34669)n4:0.07604)n3:0.42236)n2:0.64603)n0;

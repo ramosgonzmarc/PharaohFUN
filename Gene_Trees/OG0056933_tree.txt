@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_130592:0.655515,(setaria_italica_Seita.9G014700:0.64405,(hordeum_vulgare_Hvul_2HG0211390:0.08404,(aegilops_tauschii_Atau_XP_040257097:0.02593,(triticum_aestivum_TraesCS2B03G1451400:0.05043,triticum_aestivum_TraesCS2D03G1226400:0.002691)n4:0.000299)n3:0.01814)n2:0.23093)n1:0.655515)n0;

@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.VG073200:0.00054,ceratodon_purpureus_CepurR40.VG089100:0.05008)n1:0.557465,(klebsormidium_nitens_kfl00821_0050:1.30112,(klebsormidium_nitens_kfl00821_0060:0.55323,(klebsormidium_nitens_kfl01040_g2:0.1247,(klebsormidium_nitens_kfl00010_0410:0.22564,klebsormidium_nitens_kfl00156_0290:0.09821)n5:0.17148)n4:0.2196)n3:0.32416)n2:0.557465)n0;

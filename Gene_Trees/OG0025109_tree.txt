@@ -1,0 +1,1 @@
+((zostera_marina_Zosma07g00750:1.15195,mesostigma_viride296_Mevir.Mv07793:0.57467)n1:0.04093,(cymbomonas_tetramitiformis_KAK3246000:0.4347,cymbomonas_tetramitiformis_KAK3262873:0.30179)n2:0.04093)n0;

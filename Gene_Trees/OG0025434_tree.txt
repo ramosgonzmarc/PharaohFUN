@@ -1,0 +1,1 @@
+(sphagnum_fallax_Sphfalx11G065900:0.682205,(diphasiastrum_complanatum_Dicom.04G063100:0.07477,(diphasiastrum_complanatum_Dicom.01G012600:0.00227,diphasiastrum_complanatum_Dicom.Y175200:0.00054)n2:0.15139)n1:0.682205)n0;

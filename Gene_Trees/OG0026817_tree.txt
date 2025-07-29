@@ -1,0 +1,1 @@
+(brassica_oleracea_Bol020952:0.267455,(oryza_sativa_Os03g39040:0.45472,(oryza_sativa_Os01g01760:0.00055,oryza_sativa_Os12g39770:0.012)n2:0.19155)n1:0.267455)n0;

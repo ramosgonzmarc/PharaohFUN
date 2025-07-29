@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00130g67:0.205445,((ananas_comosus_Aco029722:0,ananas_comosus_Aco019163:0)n2:0.36399,gossypium_raimondii_Gorai.001G164800:0.34088)n1:0.205445)n0;

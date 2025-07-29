@@ -1,0 +1,1 @@
+((galdieria_sulphuraria_GsulpAzora_G690:0.59312,(porphyra_umbilicalis_Pum0093s0009:0.49277,tetraselmis_striata_TSEL_039285:0.9694)n2:0.26602)n1:0.112715,(prasinoderma_coloniale_PRCOL_00005195:0.38277,(gracilariopsis_chorda_PXF46272:0.77632,chloropicon_primus_Chlpr_g4100:0.55431)n4:0.17073)n3:0.112715)n0;

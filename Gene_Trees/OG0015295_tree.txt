@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_218s0152g00032:0,(vitis_vinifera_VIT_209s0002g06220:0,(vitis_vinifera_VIT_213s0106g00343:0.04832,((vitis_vinifera_VIT_218s0122g00030:0.157,vitis_vinifera_VIT_201s0011g00430:0.23992)n4:0.3431,(vitis_vinifera_VIT_202s0109g00180:0.00055,vitis_vinifera_VIT_219s0027g01145:0.62179)n5:0.20012)n3:0.22232)n2:0.09513)n1:0)n0;

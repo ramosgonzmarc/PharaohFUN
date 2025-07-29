@@ -1,0 +1,1 @@
+(glycine_max_Glyma.10G098800:0.37774,(quercus_rubra_Qurub.M019900:0,quercus_rubra_Qurub.M027600:0,quercus_rubra_Qurub.M171800:0)n1:0.37774)n0;

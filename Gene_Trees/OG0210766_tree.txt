@@ -1,0 +1,1 @@
+((populus_trichocarpa_Potri.001G323200:0.08408,salix_purpurea_Sapur.016G197900:0.0296)n1:0.15233,((cicer_arietinum_Ca_25217:0.22829,lupinus_albus_Lalb_Chr06g0173761:0.19601)n3:0.07789,(lotus_japonicus_Lj1g0012022:0.11376,phaseolus_acutifolius_Phacu.001G092300:0.20603)n4:0.10737)n2:0.15233)n0;

@@ -1,0 +1,1 @@
+(malus_domestica_MD15G1078400:0.15468,(malus_domestica_MD00G1117100:0.11608,(malus_domestica_MD03G1204400:0.08648,malus_domestica_MD00G1102500:0.02198)n2:0.36506)n1:0.15468)n0;

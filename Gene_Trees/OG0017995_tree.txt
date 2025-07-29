@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00121_0100:0.72056,(cyanidioschyzon_merolae_CmerSOOS_G3973:0.70401,(porphyra_umbilicalis_Pum0818s0005:0.61483,(galdieria_sulphuraria_GsulpAzora_G5846:0.5916,gracilariopsis_chorda_PXF49366:0.51656)n3:0.1342)n2:0.09466)n1:0.72056)n0;

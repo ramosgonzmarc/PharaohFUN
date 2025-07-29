@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3247411:0.459475,(tetraselmis_striata_TSEL_009786:0.31436,(ulva_mutabilis_UM014_0089:1.40892,(chlorella_sorokiniana_Chlso_g575:0.7172,myrmecia_bisecta_Mybis.KAK9819633:0.94645)n3:0.0973)n2:0.40694)n1:0.459475)n0;

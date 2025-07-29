@@ -1,0 +1,1 @@
+((apatococcus_lobatus_Aplob.KAK9833234:0.73451,apatococcus_lobatus_Aplob.KAK9818741:0.77753)n1:0.091685,(anthoceros_punctatus_Anpun.S2G105600:0.74013,(chlorokybus_atmophyticus_Chrsp76S00610:0.32733,(chlorokybus_atmophyticus_Chrsp10S08631:0.30964,chlorokybus_atmophyticus_Chrsp88S00670:0.43778)n4:0.69372)n3:0.55986)n2:0.091685)n0;

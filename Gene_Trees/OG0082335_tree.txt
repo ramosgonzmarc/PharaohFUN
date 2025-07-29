@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g23905:0.53278,(mesotaenium_kramstae_Mekra.3117521:0.61476,(zygnema_circumcarinatum_Zci_12945:0.33864,zygnema_cylindricum_Zci1a_18104:0.5432)n2:0.23455)n1:0.53278)n0;

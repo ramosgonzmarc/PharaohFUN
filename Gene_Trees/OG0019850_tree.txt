@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT2G12280:0.00055,arabidopsis_thaliana_AT2G12200:0.20689)n1:0.17007,(chloropicon_primus_Chlpr_g2290:0.28661,(cymbomonas_tetramitiformis_KAK3249229:0.11136,helicosporidium_sp_Helsp_g1801:0.38378)n3:0.01874)n2:0.17007)n0;

@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c00326:0.37372,(sequoia_sempervirens_SESE_147812:0.19922,(sequoiadendron_giganteum_SEGI_09859:0.10217,sequoiadendron_giganteum_SEGI_31645:0.01788)n2:0.4537)n1:0.37372)n0;

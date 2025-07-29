@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz04g34040:0.65307,(isoetes_sinensis_IsiChr15g4759:0.00054,(isoetes_sinensis_IsiChr16g4523:0.03152,isoetes_sinensis_IsiChr16g4525:0.03271)n2:0.0102)n1:0.65307)n0;

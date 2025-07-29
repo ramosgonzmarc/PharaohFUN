@@ -1,0 +1,1 @@
+(olea_europaea_Oeu022200:0.181275,((abies_alba_AALBA5B826534:0.32687,oropetium_thomaeum_Oropetium_20150105_22951A:0.37879)n2:0.18465,(ginkgo_biloba_Gb_02322:0.3021,solanum_tuberosum_Soltu.05G026440:1.15342)n3:0.08722)n1:0.181275)n0;

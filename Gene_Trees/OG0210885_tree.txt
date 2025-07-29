@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10036728:0.31939,(lupinus_albus_Lalb_Chr17g0340491:0.19479,(arachis_hypogaea_arahy_E3S8EN:0.49248,(arachis_hypogaea_arahy_9L8GEJ:0.04388,arachis_hypogaea_arahy_FBF79B:0.06041)n3:0.09711)n2:0.17579)n1:0.31939)n0;

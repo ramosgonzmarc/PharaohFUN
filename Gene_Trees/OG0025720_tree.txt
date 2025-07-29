@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_24839:0.37175,(lens_culinaris_Lecul.5g055680:1.47993,(mimulus_guttatus_Migut.F00718:0.63767,(glycine_max_Glyma.20G086800:0.26155,glycine_max_Glyma.02G252302:0.274806)n3:0.030534)n2:0.14065)n1:0.37175)n0;

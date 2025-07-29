@@ -1,0 +1,1 @@
+((kalanchoe_fedtschenkoi_Kaladp0029s0090:0.80326,(ananas_comosus_Aco009806:0.1928,asparagus_officinalis_AsparagusV1_03.1725:0.24862)n2:0.48971)n1:0.13679,(cycas_panzhihuaensis_CYCAS_016842:0.07786,(cycas_panzhihuaensis_CYCAS_016844:0.04489,(cycas_panzhihuaensis_CYCAS_016804:0.22889,cycas_panzhihuaensis_CYCAS_016808:0.00053)n5:0.16755)n4:0.01345)n3:0.13679)n0;

@@ -1,0 +1,1 @@
+(beta_vulgaris_Bevul.9G131700:0.426265,(phaeoceros_sp_Phsp.C5G269300:1.01268,(takakia_lepidozioides_Tle1c02557:0.22634,takakia_lepidozioides_Tle3c05236:0.19534)n2:0.18141)n1:0.426265)n0;

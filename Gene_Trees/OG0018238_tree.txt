@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle3c00064:0.150615,(salvinia_cucullata_Sacu_s0045.g013158:0.35469,(setaria_italica_Seita.9G429400:0.83873,(spirodela_polyrhiza_Spipo14G0053400:0.47775,(eucalyptus_grandis_Eucgr.E02447:0.13452,(eucalyptus_grandis_Eucgr.E02445:0.20301,eucalyptus_grandis_Eucgr.E02440:0.15665)n5:0.04969)n4:0.08713)n3:0.75183)n2:0.0854)n1:0.150615)n0;

@@ -1,0 +1,1 @@
+(amaranthus_hypochondriacus_AH008528:0.106935,(beta_vulgaris_Bevul.1G071500:0.00686,(beta_vulgaris_Bevul.1G071600:0.02003,beta_vulgaris_Bevul.1G071700:0.00055)n2:0.05012)n1:0.106935)n0;

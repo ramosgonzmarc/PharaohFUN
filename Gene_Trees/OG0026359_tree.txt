@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_000762:0.312425,(miscanthus_sinensis_Misin04G355900:0.76995,((malus_domestica_MD10G1122300:0.57041,salvinia_cucullata_Sacu_s0102.g019887:0.55869)n3:0.11727,(selaginella_moellendorffii_Smoe_432611:0.55794,huperzia_asiatica_HaA66G0068:0.35987)n4:0.13)n2:0.11973)n1:0.312425)n0;

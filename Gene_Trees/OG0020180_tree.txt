@@ -1,0 +1,1 @@
+(chara_braunii_CBR_g38271:0.530315,(spirogloea_muscicola_SM000166S02472:0.01181,(spirogloea_muscicola_SM000099S25216:0.02901,spirogloea_muscicola_SM000129S26153:0.02673)n2:0.02826)n1:0.530315)n0;

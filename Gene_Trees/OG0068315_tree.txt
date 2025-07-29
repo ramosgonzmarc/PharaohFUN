@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe1G053700:0.55421,(vaccinium_darrowii_Vadar_g4422:0.30179,(mimulus_guttatus_Migut.B01411:0.519,citrus_sinensis_Cisin.041304:0.69567)n2:0.08821)n1:0.55421)n0;

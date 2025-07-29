@@ -1,0 +1,1 @@
+(amaranthus_hypochondriacus_AH001877:0.744945,((takakia_lepidozioides_Tle4c00416:0.96713,takakia_lepidozioides_Tle1c07351:0.19118)n2:0.05395,(takakia_lepidozioides_Tle3c05732:0.02478,takakia_lepidozioides_Tle3c05760:0.1001)n3:0.41319)n1:0.744945)n0;

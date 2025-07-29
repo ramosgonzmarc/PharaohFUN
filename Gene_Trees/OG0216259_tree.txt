@@ -1,0 +1,1 @@
+(amaranthus_hypochondriacus_AH003305:0.43168,(solanum_tuberosum_Soltu.06G005020:0.48507,(daucus_carota_DCAR_415166:0.21512,(daucus_carota_DCAR_415168:0.3598,daucus_carota_DCAR_206777:0.610848)n3:0.0610848)n2:0.0067872)n1:0.35934)n0;

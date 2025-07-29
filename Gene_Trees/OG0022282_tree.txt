@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_PQY0NP:0.22494,(vitis_vinifera_VIT_216s0039g00440:0.01737,(vitis_vinifera_VIT_216s0039g00620:0.01552,(vitis_vinifera_VIT_200s0827g00050:0.04427,vitis_vinifera_VIT_216s0039g00980:0.01432)n3:0.04175)n2:0.00054)n1:0.22494)n0;

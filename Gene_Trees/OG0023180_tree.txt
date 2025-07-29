@@ -1,0 +1,1 @@
+((diphasiastrum_complanatum_Dicom.11G077800:0.83825,(huperzia_asiatica_HaB30G0496:0.13845,lycopodium_clavatum_Lcl_0007111:0.25014)n2:0.62072)n1:0.333295,(azolla_filiculoides_Azfi_s0074.g037345:0.46862,(alsophila_spinulosa_Aspi01Gene29520:0.1117,alsophila_spinulosa_Aspi01Gene66615:0.23671)n4:0.29525)n3:0.333295)n0;

@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.18473s0205:0.14224,((boechera_stricta_Bostr.7867s0955:0.05287,boechera_stricta_Bostr.26326s0164:0.02197)n2:0.68177,(boechera_stricta_Bostr.3359s0082:0.44673,boechera_stricta_Bostr.7867s1239:0.91552)n3:0.15848)n1:0.14224)n0;

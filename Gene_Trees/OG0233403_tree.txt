@@ -1,0 +1,1 @@
+(tetrabaena_socialis_Tesoc.PNH09645:0.22341,(volvox_carteri_Vocar.0031s0080:1.04086,(volvox_carteri_Vocar.0033s0125:0.02078,volvox_carteri_Vocar.0033s0127:0.10205)n2:0.61535)n1:0.22341)n0;

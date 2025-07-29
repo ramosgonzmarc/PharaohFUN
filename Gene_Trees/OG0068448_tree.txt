@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe1G178500:0.547265,(manihot_esculenta_Manes.09G011640:0.07826,(manihot_esculenta_Manes.09G011676:0.04353,manihot_esculenta_Manes.09G012000:0.03947)n2:0.04344)n1:0.547265)n0;

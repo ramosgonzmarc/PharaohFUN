@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_018365:0.0036,picea_abies_Pab_96453g0010:0.34266)n1:0.329455,(chenopodium_quinoa_AUR62032097:0.09811,chenopodium_quinoa_AUR62031701:0.03209)n2:0.329455)n0;

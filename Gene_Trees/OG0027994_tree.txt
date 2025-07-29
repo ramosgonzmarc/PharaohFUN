@@ -1,0 +1,1 @@
+(taxus_chinensis_KI387_042636:0.18161,((welwitschia_mirabilis_Wmi_04271:0.17499,welwitschia_mirabilis_Wmi_04272:0.03594)n2:0.83459,(picea_abies_Pab_10434881g0010:0.09531,(picea_abies_Pab_8946890g0010:0.04569,picea_abies_Pab_9378236g0010:0.08346)n4:0.01829)n3:0.2875)n1:0.18161)n0;

@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S1G605500:0.260625,(trifolium_pratense_Trpra.23132:0.98982,(alsophila_spinulosa_Aspi01Gene19192:0.31336,(lycopodium_clavatum_Lcl_0014736:0.45273,sisymbrium_irio_Siiric206543g00010:0.60815)n3:0.17888)n2:0.1449)n1:0.260625)n0;

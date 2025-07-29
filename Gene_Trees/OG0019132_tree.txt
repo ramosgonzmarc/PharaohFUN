@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaScaf0155:0.394015,(alsophila_spinulosa_Aspi01Gene36453:0.21924,(kalanchoe_fedtschenkoi_Kaladp1261s0001:0.92983,(abies_alba_AALBA5B1042328:0.31287,(cycas_panzhihuaensis_CYCAS_019127:0.03633,cycas_panzhihuaensis_CYCAS_013062:0.03541)n4:0.08101)n3:0.23341)n2:0.57063)n1:0.394015)n0;

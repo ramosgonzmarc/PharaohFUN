@@ -1,0 +1,1 @@
+((linum_usitatissimum_Lus10000324:0.20272,linum_usitatissimum_Lus10013331:0.36152)n1:0.46622,(populus_trichocarpa_Potri.009G019900:0.05382,(salix_purpurea_Sapur.016G116000:0.27057,salix_purpurea_Sapur.009G012900:0.113715)n3:0.012635)n2:0.04061)n0;

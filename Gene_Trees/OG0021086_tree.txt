@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp6c9_7010V6:0.45469,physcomitrium_patens_Pp6c15_7130V6:0.34344)n1:0.250375,(ginkgo_biloba_Gb_41071:1.01004,sorghum_bicolor_Sobic.009G137401:0.50711)n2:0.250375)n0;

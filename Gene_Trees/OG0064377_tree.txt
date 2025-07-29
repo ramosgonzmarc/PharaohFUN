@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AnagrOXF.S1G214300:0.0486,anthoceros_punctatus_Anpun.S2G395200:0.00055)n1:0.284745,(paraphymatoceros_pearsonii_Papea.S2G381100:0.21258,(phymatoceros_phymatodes_Phphy.S4G191000:0.26712,phymatoceros_phymatodes_Phphy.S2G305000:0.209151)n3:0.023239)n2:0.06551)n0;

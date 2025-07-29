@@ -1,0 +1,1 @@
+((adiantum_capillus_Adc24275:0.59564,(alsophila_spinulosa_Aspi01Gene16560:0.75736,(alsophila_spinulosa_Aspi01Gene37725:0.11534,alsophila_spinulosa_Aspi01Gene39484:0.07776)n3:0.53036)n2:0.17622)n1:0.371615,(riccia_sorocarpa_Risor.KAL3691692:0.70006,riccia_sorocarpa_Risor.KAL3694785:0.82801)n4:0.371615)n0;

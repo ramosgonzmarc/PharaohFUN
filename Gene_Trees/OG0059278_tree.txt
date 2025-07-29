@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_11686:0.53148,(azolla_filiculoides_Azfi_s0041.g026717:0.57593,(alsophila_spinulosa_Aspi01Gene43027:0.48682,marsilea_vestita_Mvestita_S9g05959:0.42173)n2:0.20586)n1:0.53148)n0;

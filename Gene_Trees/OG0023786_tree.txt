@@ -1,0 +1,1 @@
+((myrmecia_bisecta_Mybis.KAK9811284:1.06492,(asterochloris_glomerata_Astgl_g5428:0.99801,trebouxia_sp_FRX49_10972:0.57932)n2:0.23249)n1:0.122175,(elliptochloris_bilobata_Elbil.KAK9833268:0.40075,(coccomyxa_subellipsoidea_Cosub_41066:0.94183,coccomyxa_subellipsoidea_Cosub_63431:0.438147)n4:0.048683)n3:0.13982)n0;

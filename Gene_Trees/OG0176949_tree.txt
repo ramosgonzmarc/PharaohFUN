@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s0044.g013088:0.487625,(sequoia_sempervirens_SESE_109787:0.14301,(arachis_hypogaea_arahy_KBV6L0:0.19902,trifolium_pratense_Trpra.22679:0.15575)n2:0.0317)n1:0.487625)n0;

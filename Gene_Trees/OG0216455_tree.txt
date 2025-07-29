@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g39159:0.69791,(coffea_arabica_Coara.035906:0.00717,(coffea_arabica_Coara.038837:0.02986,coffea_arabica_Coara.035897:0.01945)n2:0.01719)n1:0.69791)n0;

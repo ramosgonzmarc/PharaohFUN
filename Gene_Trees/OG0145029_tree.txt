@@ -1,0 +1,1 @@
+(capsella_grandiflora_Cagra.2494s0012:0.157955,(amaranthus_hypochondriacus_AH020133:0.12191,(olea_europaea_Oeu023740:0.29022,(coffea_arabica_Coara.032125:0.14309,daucus_carota_DCAR_933545:0.28283)n3:0.12015)n2:0.49488)n1:0.157955)n0;

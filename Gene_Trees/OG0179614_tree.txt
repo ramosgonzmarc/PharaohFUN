@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g13548:0.22304,((solanum_lycopersicum_Solyc05g013640:0.15355,solanum_tuberosum_Soltu.05G009970:0.00765)n2:0.73679,(lactuca_sativa_Lsat_gn_8_153060:0.71108,(daucus_carota_DCAR_207962:0.03509,(daucus_carota_DCAR_936147:0.46241,daucus_carota_DCAR_207964:0.02462)n5:0.04074)n4:0.74294)n3:0.27778)n1:0.22304)n0;

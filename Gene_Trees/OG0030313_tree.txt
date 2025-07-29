@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaB12G0581:0.35123,huperzia_asiatica_HaB27G0520:0.78625)n1:0.534735,(marsilea_vestita_Mvestita_S3g04263:1.00747,(azolla_filiculoides_Azfi_s0043.g027109:0.52404,(alsophila_spinulosa_Aspi01Gene14431:0.15695,(ceratopteris_richardii_Ceric.23G028100:0.14046,adiantum_capillus_Adc20216:0.1776)n5:0.22629)n4:0.15376)n3:0.47032)n2:0.534735)n0;

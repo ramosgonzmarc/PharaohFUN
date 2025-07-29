@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.29740:0.59717,notothylas_orbicularis_Noorb.S1G552400:0.20103)n1:0.037815,(phymatoceros_phymatodes_Phphy.S3G515000:0.58333,(alsophila_spinulosa_Aspi01Gene32061:0.1503,eleusine_coracana_Elcor.9BG0710570:1.13016)n3:0.06544)n2:0.037815)n0;

@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_002849:0.71879,(sequoia_sempervirens_SESE_053087:1.04396,(alsophila_spinulosa_Aspi01Gene49610:0.19823,takakia_lepidozioides_Tle2c00927:0.5033)n2:0.32853)n1:0.71879)n0;

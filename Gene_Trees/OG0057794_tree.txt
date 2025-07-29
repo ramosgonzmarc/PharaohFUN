@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene09136:0.41718,adiantum_capillus_Adc05593:0.42622)n1:0.32086,(lycopodium_clavatum_Lcl_0024739:0.38544,(lycopodium_clavatum_Lcl_0012466:0.12856,lycopodium_clavatum_Lcl_0010077:0.42874)n3:0.18896)n2:0.32086)n0;

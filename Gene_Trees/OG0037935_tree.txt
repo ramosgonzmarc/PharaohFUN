@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr6g4294:0.00899,isoetes_sinensis_IsiChr5g4226:0.01762)n1:0.264635,(azolla_filiculoides_Azfi_s0410.g068507:0.61025,(adiantum_capillus_Adc26773:0.58529,adiantum_capillus_Adc07891:0.668232)n3:0.074248)n2:0.12137)n0;

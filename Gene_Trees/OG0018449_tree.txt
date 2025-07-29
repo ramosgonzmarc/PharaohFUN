@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00050_g18:0.324515,((riccia_fluitans_R1flu_003717:0.68652,(picea_abies_Pab_176776g0010:0,picea_abies_Pab_386868g0010:0)n3:0.60008)n2:0.39589,(spirogloea_muscicola_SM000206S06272:0.06131,(spirogloea_muscicola_SM002081S06294:0.11966,spirogloea_muscicola_SM000222S07003:0.05441)n5:0.05284)n4:0.48957)n1:0.324515)n0;

@@ -1,0 +1,1 @@
+(((miscanthus_sinensis_Misin05G177300:0.04467,miscanthus_sinensis_Misin06G174400:0.04834)n2:0.30481,((oryza_sativa_Os01g40020:0.27718,(oryza_sativa_Os01g40030:0.35764,oryza_sativa_Os01g40040:0.26459)n5:0.05181)n4:0.18108,oryza_sativa_Os01g39990:0.36486)n3:0.04054)n1:0.054475,(setaria_italica_Seita.5G057900:0.50833,setaria_italica_Seita.5G057500:0.5126)n6:0.16164)n0;

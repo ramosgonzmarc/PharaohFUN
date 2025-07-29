@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_s2007.g028232:0.08027,(ceratopteris_richardii_Ceric.30G039500:0.01272,(ceratopteris_richardii_Ceric.26G036000:0.06953,ceratopteris_richardii_Ceric.20G047300:0.03879)n2:0.00055)n1:0.08027)n0;

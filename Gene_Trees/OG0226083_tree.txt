@@ -1,0 +1,1 @@
+(huperzia_asiatica_HaA20G0306:0.000275,(huperzia_asiatica_HaB20G0530:0.07077,(huperzia_asiatica_HaB20G0528:1.37961,huperzia_asiatica_HaB20G0542:0.00055)n2:0.52057)n1:0.000275)n0;

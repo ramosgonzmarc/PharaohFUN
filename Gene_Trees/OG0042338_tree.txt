@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_038588:0.25295,caulerpa_lentillifera_Caule_g8369:0.38866)n1:0.04132,(salvinia_cucullata_Sacu_s3009.g028574:0.85959,(huperzia_asiatica_HaScaf2155:0.28887,huperzia_asiatica_HaScaf2025:0.217764)n3:0.024196)n2:0.08726)n0;

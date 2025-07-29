@@ -1,0 +1,1 @@
+((gonium_pectorale_Gopec.14153:0.18019,volvox_carteri_Vocar.0024s0236:0.11644)n1:0.3899,(haematococcus_lacustris_QJQ45_014395:0.13201,haematococcus_lacustris_QJQ45_022202:0.02588)n2:0.3899)n0;

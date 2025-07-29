@@ -1,0 +1,1 @@
+(malus_domestica_MD15G1086100:0.25987,(selaginella_moellendorffii_Smoe_124441:0.00055,(selaginella_moellendorffii_Smoe_19227:0.01458,(selaginella_moellendorffii_Smoe_19269:0.00054,selaginella_moellendorffii_Smoe_8432:0.00055)n3:0.00053)n2:0.02981)n1:0.25987)n0;

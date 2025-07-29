@@ -1,0 +1,1 @@
+(prasinoderma_coloniale_PRCOL_00004475:0.130045,((tetraselmis_striata_TSEL_043111:0,tetraselmis_striata_TSEL_045077:0)n2:0.38174,(bathycoccus_prasinos_XM_007511904:0.02644,(ostreococcus_tauri_ostta12g02020:0.16633,(micromonas_pusilla_Mpus_70671:0.12769,ostreococcus_mediterraneus_Ostme07g01900:0.03646)n5:0.0748)n4:0.07282)n3:0.14154)n1:0.130045)n0;

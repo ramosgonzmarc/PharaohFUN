@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.D04G116375:0.06073,gossypium_hirsutum_Gohir.D04G116325:0.19041)n1:0.29819,(carica_papaya_Capac.c01361g001:0.04446,(carica_papaya_Capac.c27586g001:0.06209,(carica_papaya_Capac.c00100g022:0.43091,(carica_papaya_Capac.c40485g001:0.21081,carica_papaya_Capac.c00022g066:0.48514)n5:0.00055)n4:0.00054)n3:0.0583)n2:0.29819)n0;

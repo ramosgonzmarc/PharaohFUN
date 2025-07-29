@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9835600:0.2724,(chromochloris_zofingiensis_UNPLg00435:1.26984,(chromochloris_zofingiensis_UNPLg00432:0.34368,(chromochloris_zofingiensis_UNPLg00430:0.22967,(chromochloris_zofingiensis_UNPLg00433:0.18354,chromochloris_zofingiensis_UNPLg00434:0.04699)n4:0.04882)n3:0.12817)n2:0.24608)n1:0.2724)n0;

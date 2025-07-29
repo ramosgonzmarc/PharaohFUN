@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_017744:0.03552,cycas_panzhihuaensis_CYCAS_014542:0.53982)n1:0.201655,(ginkgo_biloba_Gb_32717:0.08547,(ginkgo_biloba_Gb_10210:0.13848,ginkgo_biloba_Gb_15267:0.05263)n3:0.05634)n2:0.201655)n0;

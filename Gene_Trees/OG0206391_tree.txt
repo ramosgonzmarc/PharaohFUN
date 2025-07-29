@@ -1,0 +1,1 @@
+(corymbia_citriodora_Cocit.I1669:0.36756,(theobroma_cacao_Thecc1EG018747:0.9812,(poncirus_trifoliata_Ptrif.0006s1667:1.35069,(carica_papaya_Capac.c00017g138:0.2361,carica_papaya_Capac.c00442g003:0.02147)n3:0.88866)n2:0.33819)n1:0.36756)n0;

@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.14279:0.43262,(chlamydomonas_reinhardtii_Cre16.g688633_4532:0.5898,((chlamydomonas_incerta_Chincg14444:0.57922,(chlamydomonas_incerta_Chincg12835:0.11174,chlamydomonas_incerta_Chincg12837:0.05508)n4:0.12179)n3:0.24422,(chlamydomonas_incerta_Chincg07931:0,chlamydomonas_incerta_Chincg07934:0)n5:0.682443)n2:0.075827)n1:0.0688)n0;

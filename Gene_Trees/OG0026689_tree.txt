@@ -1,0 +1,1 @@
+((fragaria_vesca_FvH4_6g05521:0.73475,solanum_tuberosum_Soltu.05G020470:1.23414)n1:0.092245,(solanum_lycopersicum_Solyc10g008290:0.63414,(mimulus_guttatus_Migut.H01686:0.56705,(olea_europaea_Oeu047471:0.46008,vitis_vinifera_VIT_208s0007g08100:0.59056)n4:0.21295)n3:0.09544)n2:0.092245)n0;

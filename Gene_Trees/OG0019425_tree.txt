@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr1g052795:0.70525,trifolium_pratense_Trpra.24730:0.13949)n1:0.416235,(brachypodium_distachyon_Bradi4g29323:0.54238,(hordeum_vulgare_Hvul_7HG0748600:0.39393,(aegilops_tauschii_Atau_XP_020198195:0.21504,(aegilops_tauschii_Atau_XP_020183962:0.0009,aegilops_tauschii_Atau_XP_040245209:0.03253)n5:0.18547)n4:0.23801)n3:0.02321)n2:0.416235)n0;

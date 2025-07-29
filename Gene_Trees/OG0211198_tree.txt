@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.34398:0.25534,trifolium_pratense_Trpra.39717:1.14891)n1:0.334565,(arachis_hypogaea_arahy_T5VT52:0.03498,arachis_hypogaea_arahy_243YXU:0.00055)n2:0.334565)n0;

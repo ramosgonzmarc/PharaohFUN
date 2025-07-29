@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.2180369:0.3809,((cinnamomum_kanehirae_CKAN_02680200:0.38962,cinnamomum_kanehirae_CKAN_02552800:0.30767)n2:0.10334,(coffea_arabica_Coara.050342:0.81879,(vitis_vinifera_VIT_219s0135g00180:0.14755,marsilea_vestita_Mvestita_S5g10006:1.22385)n4:0.22512)n3:0.07918)n1:0.3809)n0;

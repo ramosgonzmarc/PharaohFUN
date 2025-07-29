@@ -1,0 +1,1 @@
+(phaeoceros_sp_Phsp.C8G110200:0.286925,(anthoceros_agrestis_AnagrOXF.S6G160900:0.13013,(anthoceros_agrestis_AnagrOXF.S2G578700:0.11367,anthoceros_agrestis_AnagrOXF.S6G125200:0.03142)n2:0.05577)n1:0.286925)n0;

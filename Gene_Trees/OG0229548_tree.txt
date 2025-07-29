@@ -1,0 +1,1 @@
+((notothylas_orbicularis_Noorb.S1G073900:0.03557,notothylas_orbicularis_Noorb.S2G067000:0.03181)n1:0.0229,(phaeoceros_carolinianus_Phcar.S1G689800:0.00053,(phaeoceros_sp_Phsp.C7G097300:1.0808,phaeoceros_sp_Phsp.C7G097400:0.021609)n3:0.002401)n2:0.02967)n0;

@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_25492:0.48595,(arachis_hypogaea_arahy_JCZ0SG:0.61074,(fragaria_vesca_FvH4_3g04710:0.44614,lactuca_sativa_Lsat_gn_4_151221:0.55769)n2:0.16693)n1:0.48595)n0;

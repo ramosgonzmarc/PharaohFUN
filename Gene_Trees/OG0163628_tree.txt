@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.5G189700:0.72085,ceratodon_purpureus_CepurR40.7G140100:0.52786)n1:0.189015,(physcomitrium_patens_Pp6c6_11940V6:0.1198,(funaria_hygrometrica_Fuhyg.13906:0,funaria_hygrometrica_Fuhyg.13907:0)n3:0.21141)n2:0.189015)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00008_0010:0.429965,(chromochloris_zofingiensis_Cz05g07130:0.53805,(cymbomonas_tetramitiformis_KAK3267591:0.90578,ostreobium_quekettii_CAD7694992:0.59011)n2:0.9644)n1:0.429965)n0;

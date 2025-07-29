@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.05G088000:0.74497,((chara_braunii_CBR_g37890:0.1191,chara_braunii_CBR_g3349:0.11148)n2:0.24821,(chara_braunii_CBR_g51267:0.28772,(chara_braunii_CBR_g33973:0.08392,chara_braunii_CBR_g37950:0.28953)n4:0.12861)n3:0.06887)n1:0.74497)n0;

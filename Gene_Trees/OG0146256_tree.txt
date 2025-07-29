@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.14791:0.032005,(olea_europaea_Oeu039669:0.56186,(chenopodium_quinoa_AUR62024698:0.00054,chenopodium_quinoa_AUR62011853:0.00055)n2:0.05053)n1:0.032005)n0;

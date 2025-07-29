@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0067.g016200:0.02951,salvinia_cucullata_Sacu_s0504.g027446:0.00054)n1:0.56611,(abies_alba_AALBA5B103682:0.00054,(sequoia_sempervirens_SESE_030890:0.14209,(picea_abies_Pab_17390g0010:0.10899,picea_abies_Pab_1733839g0010:0.378873)n4:0.042097)n3:0.20331)n2:0.56611)n0;

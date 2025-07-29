@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr11g2594:0.373815,(alsophila_spinulosa_Aspi01Gene07370:0.27571,(azolla_filiculoides_Azfi_s0004.g008624:1.07598,(welwitschia_mirabilis_Wmi_26231:0.39076,(abies_alba_AALBA5B847769:0.04386,picea_abies_Pab_10270171g0010:0.08619)n4:0.41286)n3:0.2691)n2:0.15312)n1:0.373815)n0;

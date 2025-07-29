@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S3G295500:0.630975,(isoetes_sinensis_IsiChr19g2494:0.00052,(isoetes_sinensis_IsiScaffold3712g4:0.00901,isoetes_sinensis_IsiChr20g2512:0.00054)n2:0.01159)n1:0.630975)n0;

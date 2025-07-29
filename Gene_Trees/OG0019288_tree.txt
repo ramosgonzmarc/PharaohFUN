@@ -1,0 +1,1 @@
+(manihot_esculenta_Manes.11G055401:0.278825,((abies_alba_AALBA5B484546:0.48383,abies_alba_AALBA5B631471:0.04973)n2:0.81515,(ginkgo_biloba_Gb_16813:0.54,ginkgo_biloba_Gb_39992:0.070407)n3:0.007823)n1:0.47658)n0;

@@ -1,0 +1,1 @@
+((lycopodium_clavatum_Lcl_0023845:0.01172,lycopodium_clavatum_Lcl_0020971:0.00055)n1:0.31757,(gnetum_montanum_TnS000402727t01:0.18057,((welwitschia_mirabilis_Wmi_25573:0,welwitschia_mirabilis_Wmi_25574:0)n4:0.4981,welwitschia_mirabilis_Wmi_06440:0.01995)n3:0.49299)n2:0.31757)n0;

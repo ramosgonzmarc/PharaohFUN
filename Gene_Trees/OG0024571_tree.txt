@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3271696:0.34067,bryopsis_sp_Bsp_GMH46136:1.31494)n1:0.082895,(chloropicon_primus_Chlpr_g8298:0.4141,(micromonas_pusilla_Mpus_60781:0.11788,micromonas_commoda_Micom.059315:0.22336)n3:0.4471)n2:0.082895)n0;

@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr7g006617:0.52485,oropetium_thomaeum_Oropetium_20150105_28369A:0.4187)n1:0.434965,(abies_alba_AALBA5B1055120:0.13813,abies_alba_AALBA5B298545:0.05282)n2:0.434965)n0;

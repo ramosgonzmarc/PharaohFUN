@@ -1,0 +1,1 @@
+((elliptochloris_bilobata_Elbil.KAK9838476:0.82189,(apatococcus_lobatus_Aplob.KAK9839151:0.64599,trebouxia_sp_FRX49_12637:0.6012)n2:0.2557)n1:0.120175,(chromochloris_zofingiensis_Cz04g24120:1.1671,(desmodesmus_armatus_Desar.380267:0.66893,(raphidocelis_subcapitata_Rsub_05886:0.42806,monoraphidium_minutum_Momin.509234:0.29605)n5:0.29339)n4:0.15096)n3:0.120175)n0;

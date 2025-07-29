@@ -1,0 +1,1 @@
+(aquilegia_coerulea_Aqcoe2G099300:0.31001,(manihot_esculenta_Manes.03G141801:0.17039,(brassica_rapa_Brara.B01302:0.99487,corymbia_citriodora_Cocit.D0824:0.34265)n2:0.3347)n1:0.31001)n0;

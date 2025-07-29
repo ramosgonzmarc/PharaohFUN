@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00084_0110:0.3829,klebsormidium_nitens_kfl00293_0090:0.35216)n1:0.17163,(ostreococcus_lucimarinus_Oluc_87238:1.05638,(caulerpa_lentillifera_Caule_g5180:1.3031,chlamydomonas_incerta_Chincg01399:0.80929)n3:0.14348)n2:0.17163)n0;

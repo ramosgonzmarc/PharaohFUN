@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3256893:0.297145,(scenedesmus_obliquus_Sobl_g02414:0.45161,(monoraphidium_minutum_Momin.426972:0.52306,trebouxia_sp_FRX49_01478:0.85587)n2:0.14676)n1:0.297145)n0;

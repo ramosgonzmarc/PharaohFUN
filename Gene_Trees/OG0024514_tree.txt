@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp33S05184:0.43518,((mesostigma_viride1140_Mesvi885S08565:0.01124,mesostigma_viride296_Mevir.Mv00020:0.00055)n2:0.43449,(mesostigma_viride1140_Mesvi1138S01859:0.00643,(mesostigma_viride296_Mevir.Mv08166:0.05846,mesostigma_viride296_Mevir.Mv15066:1.54577)n4:0.171752)n3:0.00232)n1:0.43518)n0;

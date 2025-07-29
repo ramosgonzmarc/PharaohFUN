@@ -1,0 +1,1 @@
+(phaeoceros_carolinianus_Phcar.S3G151400:0.460565,(adiantum_capillus_Adc28637:0.7823,(cycas_panzhihuaensis_CYCAS_006955:0.00055,(cycas_panzhihuaensis_CYCAS_006958:0.00055,(cycas_panzhihuaensis_CYCAS_006954:0.01675,cycas_panzhihuaensis_CYCAS_006957:0.00054)n4:0.0085)n3:0.01707)n2:0.96667)n1:0.460565)n0;

@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_34892:0.130385,((ananas_comosus_Aco009294:1.47363,schrenkiella_parvula_Scpar7g22293:1.12426)n2:0.75307,(solanum_lycopersicum_Solyc06g005450:0.25974,mimulus_guttatus_Migut.J00353:0.58672)n3:0.3519)n1:0.130385)n0;

@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc18811:0.600765,(selaginella_moellendorffii_Smoe_402048:0.68712,(selaginella_moellendorffii_Smoe_403756:0.9175,(selaginella_moellendorffii_Smoe_424082:0.73315,(selaginella_moellendorffii_Smoe_418891:0.46837,(selaginella_moellendorffii_Smoe_417146:0.19137,selaginella_moellendorffii_Smoe_406739:0.05509)n5:0.47671)n4:0.12414)n3:0.10781)n2:0.62921)n1:0.600765)n0;

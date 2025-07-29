@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpAzora_G6183:0.36842,(huperzia_asiatica_HaScaf0820:1.02407,(nymphaea_colorata_Nycol.O00950:0.5966,(mesostigma_viride296_Mevir.Mv16500:0.54946,(cymbomonas_tetramitiformis_KAK3240114:0.31015,tetraselmis_striata_TSEL_030543:0.43544)n4:0.1198)n3:0.19622)n2:0.13226)n1:0.36842)n0;

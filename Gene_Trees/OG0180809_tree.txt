@@ -1,0 +1,1 @@
+(((cicer_arietinum_Ca_17068:0.06055,cicer_arietinum_Ca_19983:0.0105)n2:0.34513,(ananas_comosus_Aco010701:0.36569,ananas_comosus_Aco013947:0.217917)n3:0.024213)n1:0.05138,solanum_lycopersicum_Solyc02g086980:0.29873)n0;

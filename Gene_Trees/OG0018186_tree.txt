@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.M231700:0.45082,(micromonas_pusilla_Mpus_51652:1.34038,((tetraselmis_striata_TSEL_016467:0.00833,tetraselmis_striata_TSEL_009468:0.01487)n3:0.54236,(cymbomonas_tetramitiformis_KAK3265812:0.84504,cymbomonas_tetramitiformis_KAK3283432:0.715059)n4:0.079451)n2:0.25589)n1:0.18684)n0;

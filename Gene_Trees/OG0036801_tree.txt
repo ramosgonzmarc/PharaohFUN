@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c07160:0.287885,(triticum_aestivum_TraesCS6B03G1044900:0.64691,(ginkgo_biloba_Gb_00138:0.25047,picea_abies_Pab_17490g0010:0.47446)n2:1.00055)n1:0.287885)n0;

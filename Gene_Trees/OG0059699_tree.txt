@@ -1,0 +1,1 @@
+((sequoia_sempervirens_SESE_064048:0.87652,((riccia_sorocarpa_Risor.KAL3699620:0.47166,(arachis_hypogaea_arahy_G45ASY:0.56138,lycopodium_clavatum_Lcl_0017121:0.22875)n4:0.31575)n3:0.08557,riccia_sorocarpa_Risor.KAL3683535:0.41751)n2:0.04639)n1:0.06435,alsophila_spinulosa_Aspi01Gene53274:0.27447)n0;

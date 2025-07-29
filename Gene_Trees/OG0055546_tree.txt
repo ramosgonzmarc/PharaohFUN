@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_34787:0.50124,(aegilops_tauschii_Atau_XP_020154056:0.00055,(triticum_aestivum_TraesCS2B03G0076900:0.09107,(triticum_aestivum_TraesCS2A03G0126800:0.22762,triticum_aestivum_TraesCS2D03G0121700:0.003978)n3:0.0003978)n2:4.42e-05)n1:0.03607)n0;

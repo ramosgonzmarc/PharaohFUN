@@ -1,0 +1,1 @@
+(isoetes_sinensis_IsiChr18g3285:0.548955,(cycas_panzhihuaensis_CYCAS_013626:0.00055,(oropetium_thomaeum_Oropetium_20150105_20048A:0.87984,sequoiadendron_giganteum_SEGI_32692:0.45693)n2:0.26835)n1:0.548955)n0;

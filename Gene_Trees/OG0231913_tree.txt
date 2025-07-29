@@ -1,0 +1,1 @@
+(zygnema_circumcarinatum_Zci_15642:0.415725,(zygnema_circumcarinatum1559_ZcUTEX1559_14461:0.06495,((zygnema_circumcarinatum1559_ZcUTEX1559_15970:0,zygnema_circumcarinatum1559_ZcUTEX1559_08691:0)n3:0.38982,zygnema_circumcarinatum1559_ZcUTEX1559_14466:0.32436)n2:0.17042)n1:0.415725)n0;

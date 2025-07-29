@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.375109:0.73293,((chlamydomonas_reinhardtii_Cre17.g746747_4532:0.07041,chlamydomonas_reinhardtii_Cre12.g485418_4532:0.07947)n2:0.40909,(chlamydomonas_incerta_Chincg03738:0.55727,(chlamydomonas_incerta_Chincg13232:0.09514,chlamydomonas_incerta_Chincg04826:0.14196)n4:0.718299)n3:0.079811)n1:0.01938)n0;

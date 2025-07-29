@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S10g02408:0.83935,((apatococcus_lobatus_Aplob.KAK9830650:1.16176,bryopsis_sp_Bsp_GMH41638:1.05574)n2:0.28546,((tetraselmis_striata_TSEL_022824:0.59853,tetraselmis_striata_TSEL_041806:0.52397)n4:0.14256,(tetraselmis_striata_TSEL_016044:0.60404,tetraselmis_striata_TSEL_028671:0.644)n5:0.248301)n3:0.027589)n1:0.12552)n0;

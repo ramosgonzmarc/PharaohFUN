@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_0A14NI:0.82609,(medicago_truncatula_Medtr3g034010:0.27091,medicago_truncatula_Medtr3g436140:0.39651)n2:0.30317)n1:0.113545,(arachis_hypogaea_arahy_2ACH3L:0.42364,medicago_truncatula_Medtr2g099130:0.66007)n3:0.113545)n0;

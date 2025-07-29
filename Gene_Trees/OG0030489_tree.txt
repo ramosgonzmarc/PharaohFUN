@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene38134:0.0772,alsophila_spinulosa_Aspi01Gene49034:0.01486)n1:0.26467,(anthoceros_fusiformis_Anfus.S5G177800:0.51244,(phymatoceros_phymatodes_Phphy.S3G226500:0.50695,(phymatoceros_phymatodes_Phphy.S2G393900:0.21225,phymatoceros_phymatodes_Phphy.S4G508100:0.12827)n4:0.40252)n3:0.19218)n2:0.26467)n0;

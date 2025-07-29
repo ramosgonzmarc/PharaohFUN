@@ -1,0 +1,1 @@
+(cicer_arietinum_Ca_08428:0.43106,(medicago_truncatula_Medtr5g013670:0.18894,(medicago_truncatula_Medtr2g082655:0.15154,medicago_truncatula_Medtr2g037415:0.14938)n2:0.21006)n1:0.43106)n0;

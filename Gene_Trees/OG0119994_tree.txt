@@ -1,0 +1,1 @@
+((ananas_comosus_Aco011150:0.31911,(ginkgo_biloba_Gb_40719:0.42957,dioscorea_alata_Dioal.04G083000:0.32369)n2:0.22297)n1:0.234925,(marchantia_paleacea_Mapa_012319:0.17266,marchantia_paleacea_Mapa_012320:0.35284)n3:0.234925)n0;

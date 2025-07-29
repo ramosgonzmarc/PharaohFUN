@@ -1,0 +1,1 @@
+(phaeomegaceros_chiloensis_Phchi.S6G083200:0.45512,(phaeoceros_carolinianus_Phcar.S3G238500:0.00055,(phaeoceros_carolinianus_Phcar.C175G001000:0.05618,((phaeoceros_carolinianus_Phcar.C174G000300:0,phaeoceros_carolinianus_Phcar.S2G366300:0)n4:0.00816,phaeoceros_carolinianus_Phcar.S3G321300:0.02554)n3:0.00054)n2:0.28674)n1:0.45512)n0;

@@ -1,0 +1,1 @@
+(citrus_sinensis_Cisin.043522:0.671315,(aquilegia_coerulea_Aqcoe2G214200:0.20683,(aquilegia_coerulea_Aqcoe5G099400:0.74772,(aquilegia_coerulea_Aqcoe2G317600:0.00439,aquilegia_coerulea_Aqcoe3G057900:0.01122)n3:0.57157)n2:0.26071)n1:0.671315)n0;

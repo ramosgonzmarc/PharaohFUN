@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.6G014800:0.57075,(riccia_fluitans_R1flu_010670:0.60817,(riccia_sorocarpa_Risor.KAL3690010:0.28406,riccia_sorocarpa_Risor.KAL3690018:0.06892)n2:0.42694)n1:0.57075)n0;

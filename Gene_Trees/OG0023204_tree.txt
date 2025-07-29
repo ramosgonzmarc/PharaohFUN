@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz14g12180:0.34025,coccomyxa_subellipsoidea_Cosub_60283:0.74623)n1:0.40284,(alsophila_spinulosa_Aspi01Gene33755:0.4683,fragaria_vesca_FvH4_1g15540:0.74418)n2:0.40284)n0;

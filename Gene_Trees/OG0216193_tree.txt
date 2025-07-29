@@ -1,0 +1,1 @@
+((mimulus_guttatus_Migut.F02103:0.53772,mimulus_guttatus_Migut.F02104:0.60164)n1:0.451555,(coffea_arabica_Coara.075379:0.00054,(coffea_arabica_Coara.073507:0.04881,(coffea_arabica_Coara.073506:0.00951,coffea_arabica_Coara.075378:0.02354)n4:0.38295)n3:0.01411)n2:0.451555)n0;

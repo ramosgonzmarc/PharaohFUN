@@ -1,0 +1,1 @@
+(sorghum_bicolor_Sobic.005G153200:0.2367,((panicum_hallii_Pahal.8G208600:0.07583,setaria_italica_Seita.8G151300:0.15489)n2:0.19411,(setaria_italica_Seita.8G151200:0.0469,(panicum_hallii_Pahal.8G208500:0.09299,panicum_hallii_Pahal.8G207600:0.05824)n4:0.13491)n3:0.79149)n1:0.2367)n0;

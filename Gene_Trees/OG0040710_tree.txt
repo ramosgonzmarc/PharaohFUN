@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS1D03G0949100:0.27716,(panicum_hallii_Pahal.8G226600:0.41223,(zea_mays_Zm00001d048896:0.27862,(sorghum_bicolor_Sobic.005G178200:0.1182,(miscanthus_sinensis_Misin10G162500:0.02635,miscanthus_sinensis_Misin02G295800:0.00055)n4:0.0211)n3:0.10255)n2:0.43466)n1:0.27716)n0;

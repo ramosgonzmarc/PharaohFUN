@@ -1,0 +1,1 @@
+(((arabidopsis_thaliana_AT5G01881:0.16859,arabidopsis_lyrata_Arlyr.AL6G10152:0.14579)n2:0.10129,(boechera_stricta_Bostr.6251s0157:0.12546,capsella_grandiflora_Cagra.0255s0016:0.20496)n3:0.06109)n1:0.12378,(schrenkiella_parvula_Scpar6g41110:0.34007,(brassica_rapa_Brara.J02919:0.31342,thlaspi_arvense_TaMN106.6G455900:0.25941)n5:0.06138)n4:0.12378)n0;

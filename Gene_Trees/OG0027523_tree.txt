@@ -1,0 +1,1 @@
+((trifolium_pratense_Trpra.37549:0.00054,trifolium_pratense_Trpra.38419:0.19885)n1:0.499165,(selaginella_moellendorffii_Smoe_97527:0.00747,(selaginella_moellendorffii_Smoe_96794:0.08584,selaginella_moellendorffii_Smoe_97435:0.02715)n3:0.00622)n2:0.499165)n0;

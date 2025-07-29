@@ -1,0 +1,1 @@
+((diphasiastrum_complanatum_Dicom.21G057800:0.00055,diphasiastrum_complanatum_Dicom.Y420100:0.00054)n1:0.264615,(huperzia_asiatica_HaB13G0126:0.01121,(huperzia_asiatica_HaB13G0113:0.03082,huperzia_asiatica_HaB13G0129:0.00055)n3:0.00067)n2:0.264615)n0;

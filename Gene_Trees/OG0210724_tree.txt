@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_JEQL3R:0.45433,arachis_hypogaea_arahy_04CCAU:1.08771)n1:0.4248,(vigna_unguiculata_VigunL008650:0.00051,(vigna_unguiculata_Vigun05g197050:0.03733,(vigna_unguiculata_Vigun10g036150:0,vigna_unguiculata_VigunL072950:0)n4:0.00295)n3:0.00074)n2:0.4248)n0;

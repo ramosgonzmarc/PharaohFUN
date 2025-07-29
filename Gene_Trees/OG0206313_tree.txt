@@ -1,0 +1,1 @@
+(arabidopsis_lyrata_Arlyr.AL4G21830:0.00027,(arabidopsis_lyrata_Arlyr.AL1G59370:0.01679,(arabidopsis_lyrata_Arlyr.AL4G30280:1.69193,(arabidopsis_lyrata_Arlyr.AL4G17100:0.00448,arabidopsis_lyrata_Arlyr.AL9U10460:0.00543)n3:0.09176)n2:0.10064)n1:0.00027)n0;

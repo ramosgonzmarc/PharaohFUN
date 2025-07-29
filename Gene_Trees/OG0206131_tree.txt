@@ -1,0 +1,1 @@
+((citrus_sinensis_Cisin.032802:0.01596,poncirus_trifoliata_Ptrif.0004s2105:0.00519)n1:0.368405,(carica_papaya_Capac.c00033g033:0.36613,(theobroma_cacao_Thecc1EG010553:0.10993,(gossypium_raimondii_Gorai.005G177500:0,(gossypium_hirsutum_Gohir.A03G134215:0.02023,gossypium_hirsutum_Gohir.D02G158325:0)n5:0)n4:0.00237)n3:0.37557)n2:0.368405)n0;

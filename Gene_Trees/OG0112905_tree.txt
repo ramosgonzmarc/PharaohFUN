@@ -1,0 +1,1 @@
+((salix_purpurea_Sapur.016G301200:0.75233,((eucalyptus_grandis_Eucgr.D00080:0.08864,corymbia_citriodora_Cocit.L2747:0.04026)n3:0.37827,corymbia_citriodora_Cocit.E0616:0.382491)n2:0.042499)n1:0.27443,prunus_persica_Prupe.4G097400:0.87995)n0;

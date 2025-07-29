@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_07323:0.0879,(amaranthus_hypochondriacus_AH002731:0.33386,(musa_acuminata_Muacu.3P18340_001:0.42767,musa_acuminata_Muacu.3P18330_001:0.145269)n2:0.016141)n1:0.22262)n0;

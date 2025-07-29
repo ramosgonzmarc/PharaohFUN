@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c03138g001:0.45742,(lotus_japonicus_Lj2g0024208:0.87007,(glycine_max_Glyma.08G304551:0.05562,glycine_max_Glyma.15G230000:0.02641)n2:0.53541)n1:0.45742)n0;

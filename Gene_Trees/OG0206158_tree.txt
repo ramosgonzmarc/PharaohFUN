@@ -1,0 +1,1 @@
+((theobroma_cacao_Thecc1EG005398:0.23056,(gossypium_hirsutum_Gohir.D11G090701:0.02432,gossypium_raimondii_Gorai.007G096700:0.00053)n2:0.70994)n1:0.582175,(schrenkiella_parvula_Scpar6g00580:0.29903,(thlaspi_arvense_TaMN106.2G303600:0.00715,(thlaspi_arvense_TaMN106.2G303400:0.00055,thlaspi_arvense_TaMN106.2G304400:0.00767)n5:0.00054)n4:0.39585)n3:0.582175)n0;

@@ -1,0 +1,1 @@
+(adiantum_capillus_Adc18976:0.322245,((solanum_lycopersicum_Solyc10g038100:0.07397,solanum_tuberosum_Soltu.10G008090:0.07653)n2:0.37015,(populus_trichocarpa_Potri.017G069350:0.51915,(vitis_vinifera_VIT_216s0013g01440:0.1045,(vitis_vinifera_VIT_210s0003g04295:0.0381,vitis_vinifera_VIT_214s0060g02500:0.000495)n5:4.95e-05)n4:5.5e-06)n3:0.02257)n1:0.322245)n0;

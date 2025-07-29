@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S3G435200:0.403175,(sequoia_sempervirens_SESE_069169:0.57091,(alsophila_spinulosa_Aspi01Gene03778:0.40173,(huperzia_asiatica_HaB39G0148:1.21272,(sisymbrium_irio_Siiris2304g00110:0.32722,sisymbrium_irio_Siiris880g00150:0.455436)n4:0.050604)n3:0.08613)n2:0.25723)n1:0.403175)n0;

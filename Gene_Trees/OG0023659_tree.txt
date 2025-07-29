@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA06G0612:0.03595,huperzia_asiatica_HaA13G0318:0.02002)n1:0.64596,(aquilegia_coerulea_Aqcoe4G169600:0.33968,(aquilegia_coerulea_Aqcoe4G062000:1.60423,aquilegia_coerulea_Aqcoe4G276100:0.6199)n3:0.07328)n2:0.64596)n0;

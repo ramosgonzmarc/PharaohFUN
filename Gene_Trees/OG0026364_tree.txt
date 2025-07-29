@@ -1,0 +1,1 @@
+(fragaria_vesca_FvH4_3g20962:0.256935,(malus_domestica_MD10G1006600:0.576,(malus_domestica_MD10G1034800:0.25462,malus_domestica_MD04G1054900:0.17177)n2:0.19107)n1:0.256935)n0;

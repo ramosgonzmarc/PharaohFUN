@@ -1,0 +1,1 @@
+((diphasiastrum_complanatum_Dicom.Y496500:0.00054,vitis_vinifera_VIT_203s0088g00820:0.93541)n1:0.173345,(selaginella_moellendorffii_Smoe_407253:0.57931,(abies_alba_AALBA5B331842:0.49267,oryza_sativa_Os07g37410:1.31053)n3:0.05796)n2:0.173345)n0;

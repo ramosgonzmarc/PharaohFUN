@@ -1,0 +1,1 @@
+(cinnamomum_kanehirae_CKAN_02036100:0.09033,(cinnamomum_kanehirae_CKAN_02035900:0.03965,(cinnamomum_kanehirae_CKAN_02035800:0.00055,cinnamomum_kanehirae_CKAN_02730900:0.2176)n2:0.03602)n1:0.09033)n0;

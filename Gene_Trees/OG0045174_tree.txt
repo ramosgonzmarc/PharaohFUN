@@ -1,0 +1,1 @@
+(nymphaea_colorata_Nycol.E00767:0.3414,((welwitschia_mirabilis_Wmi_07722:0.20666,welwitschia_mirabilis_Wmi_17693:0.63383)n2:0.48814,(sequoiadendron_giganteum_SEGI_24689:0.06402,(sequoia_sempervirens_SESE_069335:0.00636,sequoia_sempervirens_SESE_096772:0.01442)n4:0.04569)n3:0.34873)n1:0.3414)n0;

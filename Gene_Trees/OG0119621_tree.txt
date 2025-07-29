@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_21479:0.24755,(kalanchoe_fedtschenkoi_Kaladp0011s0824:0.98566,(medicago_truncatula_Medtr4g027020:0.33247,(asparagus_officinalis_AsparagusV1_Unassigned.146:0.00055,((asparagus_officinalis_AsparagusV1_04.3001:0,asparagus_officinalis_AsparagusV1_04.1277:0)n5:0.01849,asparagus_officinalis_AsparagusV1_04.2322:0.00865)n4:0.01849)n3:0.7062)n2:0.20281)n1:0.24755)n0;

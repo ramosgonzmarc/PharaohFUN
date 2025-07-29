@@ -1,0 +1,1 @@
+((huperzia_asiatica_HaA17G0409:0.02019,huperzia_asiatica_HaB17G0447:0.03294)n1:0.31847,(dioscorea_alata_Dioal.13G028200:1.39265,(picea_abies_Pab_90129g0010:1.13631,(abies_alba_AALBA5B974877:0.49106,(abies_alba_AALBA5B376981:0.03644,abies_alba_AALBA5B613095:0.04117)n5:0.44008)n4:0.61209)n3:0.19975)n2:0.31847)n0;

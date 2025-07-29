@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr19g1609:0.24837,(alsophila_spinulosa_Aspi01Gene54505:0.10569,alsophila_spinulosa_Aspi01Gene57832:0.11122)n2:0.61212)n1:0.339595,(notothylas_orbicularis_Noorb.S5G090100:0.62215,phymatoceros_phymatodes_Phphy.S3G154700:0.9999)n3:0.339595)n0;

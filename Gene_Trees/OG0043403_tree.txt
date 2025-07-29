@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S2g11612:0.533475,(notothylas_orbicularis_Noorb.S3G109400:0.46733,(takakia_lepidozioides_Tle2c02647:0.09565,takakia_lepidozioides_Tle3c02564:0.00054)n2:0.36491)n1:0.533475)n0;

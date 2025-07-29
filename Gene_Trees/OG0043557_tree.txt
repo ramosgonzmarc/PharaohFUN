@@ -1,0 +1,1 @@
+((picea_abies_Pab_11651g0010:0.12307,picea_abies_Pab_191838g0010:0.22075)n1:0.582005,(taxus_chinensis_KI387_011766:0.26662,taxus_chinensis_KI387_011774:0.17254)n2:0.582005)n0;

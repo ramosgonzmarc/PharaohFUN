@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S3G126200:0.20259,((ginkgo_biloba_Gb_02541:0.22487,(marsilea_vestita_Mvestita_S5g10397:0.0525,marsilea_vestita_Mvestita_S5g10400:0.17868)n3:0.37509)n2:0.30934,(lycopodium_clavatum_Lcl_0012067:0.0823,(huperzia_asiatica_HaA51G0278:0.01032,huperzia_asiatica_HaB51G0308:0.04176)n5:0.07985)n4:0.49581)n1:0.20259)n0;

@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_CmerSOOS_G3801:0.52611,((cymbomonas_tetramitiformis_KAK3248209:0,cymbomonas_tetramitiformis_KAK3248211:0)n2:0.59665,prasinoderma_coloniale_PRCOL_00001713:0.8533)n1:0.52611)n0;

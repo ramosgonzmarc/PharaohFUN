@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH006231:0.00055,amaranthus_hypochondriacus_AH006232:0.00054)n1:0.54454,(corymbia_citriodora_Cocit.I0085:0.0914,(eucalyptus_grandis_Eucgr.I00193:0.0622,(eucalyptus_grandis_Eucgr.I00192:0.01864,eucalyptus_grandis_Eucgr.I00191:0.01604)n4:0.042138)n3:0.004682)n2:0.0403)n0;

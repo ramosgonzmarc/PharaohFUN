@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.A12G184700:0.322855,((cicer_arietinum_Ca_13238:0.35203,lotus_japonicus_Lj4g0009196:0.34318)n2:0.06686,((glycine_max_Glyma.17G082800:0.05333,glycine_max_Glyma.05G017200:0.07003)n4:0.04906,(phaseolus_acutifolius_Phacu.003G209300:0.05674,vigna_unguiculata_Vigun03g344900:0.22656)n5:0.06205)n3:0.06917)n1:0.322855)n0;

@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM000213S06815:0.264675,(funaria_hygrometrica_Fuhyg.04070:0.39317,(sphagnum_magellanicum_Sphmag16G050100:0.50417,(anthoceros_agrestis_AnagrOXF.S1G260800:0.00055,anthoceros_punctatus_Anpun.S2G356700:0.05045)n3:0.2895)n2:0.28536)n1:0.264675)n0;

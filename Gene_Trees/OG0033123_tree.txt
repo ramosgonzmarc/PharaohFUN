@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9804768:0.25977,(scenedesmus_obliquus_Sobl_g28475:0.75938,(dunaliella_salina_Dusal.0066s00025:0.92507,((chlamydomonas_reinhardtii_Cre12.g532800_4532:0.08667,chlamydomonas_incerta_Chincg04684:0.10293)n4:0.38677,(gonium_pectorale_Gopec.05915:0.3463,volvox_carteri_Vocar.0017s0022:0.43822)n5:0.14071)n3:0.31996)n2:0.21028)n1:0.25977)n0;

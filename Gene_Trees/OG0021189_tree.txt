@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum0111s0066:1.33057,prasinoderma_coloniale_PRCOL_00001516:0.0846)n1:0.2934,(gracilariopsis_chorda_PXF44498:0.78556,(micromonas_commoda_Micom.057002:0.58891,(ostreococcus_mediterraneus_Ostme01g04310:0.4572,(ostreococcus_tauri_ostta01g02617:0.29313,ostreococcus_lucimarinus_Oluc_13740:0.20705)n5:0.13459)n4:0.27318)n3:0.25238)n2:0.2934)n0;

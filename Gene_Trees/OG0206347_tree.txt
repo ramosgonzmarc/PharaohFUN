@@ -1,0 +1,1 @@
+(boechera_stricta_Bostr.0568s0186:0.02819,(brassica_rapa_Brara.F02465:0.01393,(sisymbrium_irio_Siiris2157g00030:0.00054,(eutrema_salsugineum_Thhalv10010880m:0.2784,schrenkiella_parvula_Scpar5g14520:1.2006)n3:0.21061)n2:0.31545)n1:0.02819)n0;

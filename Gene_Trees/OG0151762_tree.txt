@@ -1,0 +1,1 @@
+(oryza_sativa_Os12g34102:0.171865,((hordeum_vulgare_Hvul_3HG0328600:0,hordeum_vulgare_Hvul_3HG0328500:0)n2:0.01429,((hordeum_vulgare_Hvul_1HG0039460:0.01446,hordeum_vulgare_Hvul_1HG0039560:0.05542)n4:0.00745,hordeum_vulgare_Hvul_3HG0223050:0.00055)n3:0.00053)n1:0.171865)n0;

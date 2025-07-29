@@ -1,0 +1,1 @@
+(ostreobium_quekettii_CAD7696707:0.448555,(spirogloea_muscicola_SM001650S02514:0.03859,(spirogloea_muscicola_SM002164S06581:0.0275,spirogloea_muscicola_SM000946S25039:0.01573)n2:0.01681)n1:0.448555)n0;

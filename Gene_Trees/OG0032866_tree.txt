@@ -1,0 +1,1 @@
+(bryopsis_sp_Bsp_GMH37180:0.55405,(dunaliella_salina_Dusal.0661s00005:0.93669,(volvox_carteri_Vocar.0023s0141:0.69112,((chlamydomonas_reinhardtii_Cre16.g669750_4532:0.09951,chlamydomonas_incerta_Chincg04056:0.0903)n4:0.22755,(gonium_pectorale_Gopec.02601:0.40336,tetrabaena_socialis_Tesoc.PNH00700:0.47549)n5:0.10002)n3:0.11189)n2:0.50123)n1:0.55405)n0;

@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3286364:0.397365,(desmodesmus_armatus_Desar.349327:0.68748,((volvox_carteri_Vocar.0022s0066:0.30596,(chlamydomonas_reinhardtii_Cre14.g632823_4532:0.23156,chlamydomonas_incerta_Chincg15206:0.04149)n4:0.21319)n3:0.13987,(tetrabaena_socialis_Tesoc.PNH02014:0.68129,tetrabaena_socialis_Tesoc.PNH03403:0.427986)n5:0.047554)n2:0.22901)n1:0.397365)n0;

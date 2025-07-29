@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_020074:0.38152,(isoetes_sinensis_IsiChr10g2137:0.00055,(isoetes_sinensis_IsiChr8g69:0.32313,(isoetes_sinensis_IsiChr5g1239:0.0066,isoetes_sinensis_IsiChr21g2403:0.00055)n3:0.34542)n2:0.53282)n1:0.38152)n0;

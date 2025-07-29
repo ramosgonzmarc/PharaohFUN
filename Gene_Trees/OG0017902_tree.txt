@@ -1,0 +1,1 @@
+((cymbomonas_tetramitiformis_KAK3249852:0.64924,(dunaliella_salina_Dusal.5465s00001:0.922,tetraselmis_striata_TSEL_011673:0.35958)n2:0.62036)n1:0.26911,(micromonas_commoda_Micom.060482:0.49162,(micromonas_pusilla_Mpus_183461:0.5006,(chloropicon_primus_Chlpr_g1973:0.42957,ostreococcus_mediterraneus_Ostme03g00020:0.52945)n5:0.09582)n4:0.18633)n3:0.26911)n0;

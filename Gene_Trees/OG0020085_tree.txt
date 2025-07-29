@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.19G032400:0,ceratopteris_richardii_Ceric.24G066400:0)n1:0.18485,(ginkgo_biloba_Gb_01311:0.2702,taxus_chinensis_KI387_044375:0.6039)n2:0.18485)n0;

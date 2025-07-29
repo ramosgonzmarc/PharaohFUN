@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_11925A:0.34919,(panicum_hallii_Pahal.7G011800:0.05566,(sorghum_bicolor_Sobic.006G006900:0.56772,setaria_italica_Seita.7G010300:0.11433)n2:0.1703)n1:0.34919)n0;

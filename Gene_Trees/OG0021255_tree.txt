@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3685929:0.621935,(isoetes_sinensis_IsiChr10g441:0.00055,(isoetes_sinensis_IsiChr9g1169:0.01065,(isoetes_sinensis_IsiScaffold3544g7:0.32389,isoetes_sinensis_IsiChr6g5243:0.23039)n3:0.43736)n2:0.07677)n1:0.621935)n0;

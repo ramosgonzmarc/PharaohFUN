@@ -1,0 +1,1 @@
+(pleurozium_schreberi_Plsch.06978:0.1277,(vigna_unguiculata_Vigun01g066150:0.56959,((picea_abies_Pab_9313030g0010:0.12665,picea_abies_Pab_10426422g0010:0.26633)n3:0.02456,(abies_alba_AALBA5B1158292:0.09381,abies_alba_AALBA5B947723:0.03079)n4:0.0526)n2:0.26758)n1:0.1277)n0;

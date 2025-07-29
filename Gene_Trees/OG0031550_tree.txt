@@ -1,0 +1,1 @@
+((carica_papaya_Capac.c00053g113:1.01543,solanum_tuberosum_Soltu.01G022870:0.90844)n1:0.160055,(aquilegia_coerulea_Aqcoe3G297400:0.48795,aquilegia_coerulea_Aqcoe3G297200:0.00054)n2:0.160055)n0;

@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_830406:0.455615,((desmodesmus_armatus_Desar.461636:0.53871,(coccomyxa_subellipsoidea_Cosub_40506:0.11226,coccomyxa_subellipsoidea_Cosub_61420:0.1831)n3:0.45057)n2:0.15431,(haematococcus_lacustris_QJQ45_002062:0.49393,(chlamydomonas_incerta_Chincg17659:0.22242,gonium_pectorale_Gopec.15065:0.19065)n5:0.44392)n4:0.22508)n1:0.455615)n0;

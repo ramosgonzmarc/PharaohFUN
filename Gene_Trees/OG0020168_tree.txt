@@ -1,0 +1,1 @@
+(sequoiadendron_giganteum_SEGI_12444:0.51469,(chara_braunii_CBR_g25957:0.46787,(chara_braunii_CBR_g40535:0.17478,(chara_braunii_CBR_g40521:0.08952,chara_braunii_CBR_g74647:0.10371)n3:0.13079)n2:0.01017)n1:0.51469)n0;

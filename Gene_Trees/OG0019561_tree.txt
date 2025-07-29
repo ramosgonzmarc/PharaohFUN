@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_030080:0.51753,((chara_braunii_CBR_g51525:0.41312,sequoia_sempervirens_SESE_045678:0.51242)n2:0.03973,(alsophila_spinulosa_Aspi01Gene57776:0.07359,(alsophila_spinulosa_Aspi01Gene15976:0.0954,alsophila_spinulosa_Aspi01Gene53266:0.12185)n4:0.01097)n3:0.1782)n1:0.51753)n0;

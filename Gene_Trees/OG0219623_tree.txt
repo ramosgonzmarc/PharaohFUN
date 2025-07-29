@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_06210A:0.033655,(oropetium_thomaeum_Oropetium_20150105_24706A:0.25486,(oropetium_thomaeum_Oropetium_20150105_03286A:1.08226,oropetium_thomaeum_Oropetium_20150105_25294A:0.21343)n2:0.24391)n1:0.033655)n0;

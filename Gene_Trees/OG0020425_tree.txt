@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g4922:0.439365,((tetraselmis_striata_TSEL_034860:0.00055,tetraselmis_striata_TSEL_009917:0.00496)n2:0.522,(chromochloris_zofingiensis_Cz03g08050:0.66553,scenedesmus_obliquus_Sobl_g00435:0.48168)n3:0.50813)n1:0.439365)n0;

@@ -1,0 +1,1 @@
+((tetrabaena_socialis_Tesoc.PNH00820:0.01334,tetrabaena_socialis_Tesoc.PNH01472:0.00765)n1:0.618255,(selaginella_moellendorffii_Smoe_425163:1.16708,(selaginella_moellendorffii_Smoe_25373:0.00055,(selaginella_moellendorffii_Smoe_129451:0.01072,selaginella_moellendorffii_Smoe_25372:0.00055)n4:0.00493)n3:0.30994)n2:0.618255)n0;

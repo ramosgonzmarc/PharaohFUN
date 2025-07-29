@@ -1,0 +1,1 @@
+(beta_vulgaris_Bevul.9G197600:0.220755,(lotus_japonicus_Lj3g0018344:0.17467,((lens_culinaris_Lecul.4g002890:0.00053,lens_culinaris_Lecul.4g002880:0.25779)n3:0.10715,(glycine_max_Glyma.15G010500:0.50899,glycine_max_Glyma.13G363300:0.12145)n4:0.10656)n2:0.11906)n1:0.220755)n0;

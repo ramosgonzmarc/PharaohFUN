@@ -1,0 +1,1 @@
+((myrmecia_bisecta_Mybis.KAK9804227:0.61177,(coccomyxa_subellipsoidea_Cosub_58457:0.50273,elliptochloris_bilobata_Elbil.KAK9822852:0.42607)n2:0.11998)n1:0.45171,(raphidocelis_subcapitata_Rsub_12093:0.33332,monoraphidium_minutum_Momin.502210:0.33296)n3:0.45171)n0;

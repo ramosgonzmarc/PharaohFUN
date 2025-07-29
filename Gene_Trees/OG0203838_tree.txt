@@ -1,0 +1,1 @@
+(welwitschia_mirabilis_Wmi_07826:0.185525,(((brassica_oleracea_Bol009273:0.38778,manihot_esculenta_Manes.04G128150:0.76142)n3:0.15047,(miscanthus_sinensis_Misin02G049600:0.4395,(dioscorea_alata_Dioal.05G122700:0.53373,miscanthus_sinensis_Misin16G091800:0.06649)n5:0.1224)n4:0.0136)n2:0.12871,mimulus_guttatus_Migut.L00281:0.15163)n1:0.11863)n0;

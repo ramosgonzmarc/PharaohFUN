@@ -1,0 +1,1 @@
+((zygnema_cylindricum_Zci1a_31100:0.76133,((coccomyxa_subellipsoidea_Cosub_56466:0.70474,gnetum_montanum_TnS000996777t07:0.85455)n3:0.10048,(coccomyxa_subellipsoidea_Cosub_60822:0.55415,elliptochloris_bilobata_Elbil.KAK9834333:0.53932)n4:0.797769)n2:0.088641)n1:0.10084,mesotaenium_kramstae_Mekra.2502175:0.61888)n0;

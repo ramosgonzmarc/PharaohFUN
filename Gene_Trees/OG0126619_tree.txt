@@ -1,0 +1,1 @@
+((glycine_max_Glyma.19G171000:1.13061,asparagus_officinalis_AsparagusV1_10.293:0.72591)n1:0.22815,(gnetum_montanum_TnS001004345t02:0.03808,gnetum_montanum_TnS000291455t02:0.00054)n2:0.22815)n0;

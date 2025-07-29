@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62006146:0.444285,((triticum_aestivum_TraesCS4A03G0402600:0.96542,(brachypodium_distachyon_Bradi4g14275:0.4951,brachypodium_distachyon_Bradi1g43926:0.17323)n3:0.24405)n2:0.42213,(triticum_aestivum_TraesCS6A03G0211500:0.87848,brachypodium_distachyon_Bradi2g57850:0.362799)n4:0.040311)n1:0.444285)n0;

@@ -1,0 +1,1 @@
+(carica_papaya_Capac.c00016g062:0.21298,(carica_papaya_Capac.c00087g002:0.65112,(carica_papaya_Capac.c39990g001:0.34155,(carica_papaya_Capac.c00108g044:0.40132,carica_papaya_Capac.c00014g116:0.47536)n3:0.42208)n2:0.21365)n1:0.21298)n0;

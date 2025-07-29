@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.5G194000:0.274095,(huperzia_asiatica_HaB14G0321:0.49522,(lycopodium_clavatum_Lcl_0015001:0.09509,(diphasiastrum_complanatum_Dicom.05G013400:0.00055,diphasiastrum_complanatum_Dicom.05G013600:0.00055)n3:0.19704)n2:0.20408)n1:0.274095)n0;

@@ -1,0 +1,1 @@
+((lactuca_sativa_Lsat_gn_2_24961:0.22984,sequoia_sempervirens_SESE_027297:0.12683)n1:0.045825,((trifolium_pratense_Trpra.37627:0.00055,trifolium_pratense_Trpra.36320:0.02706)n3:0.26712,(thuja_plicata_Thupl.29381853s0010:0.18894,sequoiadendron_giganteum_SEGI_25722:0.52455)n4:0.19472)n2:0.045825)n0;

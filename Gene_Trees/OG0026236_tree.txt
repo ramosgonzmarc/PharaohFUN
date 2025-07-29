@@ -1,0 +1,1 @@
+(gossypium_hirsutum_Gohir.A07G108740:0.452715,(isoetes_sinensis_IsiChr3g3064:0.14419,(isoetes_sinensis_IsiChr20g2245:0.00706,isoetes_sinensis_IsiChr13g3169:0.00055)n2:0.15384)n1:0.452715)n0;

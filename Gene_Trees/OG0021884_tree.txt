@@ -1,0 +1,1 @@
+(gonium_pectorale_Gopec.10297:0.74067,(riccia_fluitans_R1flu_023081:0.27475,(riccia_fluitans_R1flu_011195:0.03286,(riccia_fluitans_R1flu_011200:0.01957,riccia_fluitans_R1flu_011201:0.00395)n3:0.01585)n2:0.25877)n1:0.74067)n0;

@@ -1,0 +1,1 @@
+(arachis_hypogaea_arahy_0IJH8U:0.132485,((arabidopsis_thaliana_AT2G07787:0.00912,capsella_grandiflora_Cagra.5120s0001:0.00055)n2:0.00903,(boechera_stricta_Bostr.13553s0007:0.00055,(brassica_rapa_Brara.K00945:0.00055,eutrema_salsugineum_Thhalv10023153m:0.00055)n4:0.00053)n3:0.00053)n1:0.132485)n0;

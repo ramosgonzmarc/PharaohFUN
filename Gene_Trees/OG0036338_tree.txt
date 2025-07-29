@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_07813:0.35317,(olea_europaea_Oeu009124:0.16252,(ananas_comosus_Aco020767:0.19495,(amaranthus_hypochondriacus_AH011453:0.1544,amaranthus_hypochondriacus_AH000829:0.03753)n3:0.09119)n2:0.10819)n1:0.35317)n0;

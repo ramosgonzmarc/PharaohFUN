@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF45536:0.516345,(gonium_pectorale_Gopec.08458:0.44032,(cymbomonas_tetramitiformis_KAK3258869:0.00055,cymbomonas_tetramitiformis_KAK3258870:0.00055)n2:0.4075)n1:0.516345)n0;

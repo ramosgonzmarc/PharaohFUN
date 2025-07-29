@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_s0245.g026693:0.37658,salvinia_cucullata_Sacu_s0245.g026697:0.1008)n1:0.2471,(zea_mays_Zm00001d030465:0.54996,(taxus_chinensis_KI387_013642:0.00053,(ginkgo_biloba_Gb_16642:0.19408,eucalyptus_grandis_Eucgr.L00273:0.53247)n4:0.24077)n3:0.00054)n2:0.2471)n0;

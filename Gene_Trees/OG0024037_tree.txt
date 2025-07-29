@@ -1,0 +1,1 @@
+((oropetium_thomaeum_Oropetium_20150105_23528A:0.26464,oropetium_thomaeum_Oropetium_20150105_23529A:0.188)n1:0.34315,(brachypodium_distachyon_Bradi1g55488:0.05402,(brachypodium_distachyon_Bradi1g58746:0.14281,brachypodium_distachyon_Bradi1g58713:0.176)n3:0.32002)n2:0.34315)n0;

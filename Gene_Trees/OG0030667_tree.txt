@@ -1,0 +1,1 @@
+((takakia_lepidozioides_Tle3c00654:0.38267,(marchantia_paleacea_Mapa_017670:0.17273,riccia_sorocarpa_Risor.KAL3675071:0.19081)n2:0.33959)n1:0.152745,(marsilea_vestita_Mvestita_C21g20334:0.28883,(alsophila_spinulosa_Aspi01Gene67393:0.71553,adiantum_capillus_Adc00480:0.28068)n4:0.06477)n3:0.152745)n0;

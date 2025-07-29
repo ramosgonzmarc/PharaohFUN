@@ -1,0 +1,1 @@
+((boechera_stricta_Bostr.20903s0208:0.16165,boechera_stricta_Bostr.11793s0086:0.33167)n1:0.322865,(brassica_oleracea_Bol005462:1.26579,(brassica_rapa_Brara.H00370:0.57501,(thlaspi_arvense_TaMN106.6G448100:0.31231,(sisymbrium_irio_Siiric192251g00010:0.00055,sisymbrium_irio_Siiric195387g00010:0.01126)n5:0.53518)n4:0.20358)n3:0.24497)n2:0.322865)n0;

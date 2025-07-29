@@ -1,0 +1,1 @@
+((carica_papaya_Capac.c28668g001:0.46723,gossypium_raimondii_Gorai.002G045600:0.51536)n1:0.07463,(citrus_sinensis_Cisin.046251:0.21926,poncirus_trifoliata_Ptrif.0003s4601:0.55499)n2:0.07463)n0;

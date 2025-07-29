@@ -1,0 +1,1 @@
+((prunus_persica_Prupe.7G116200:0.88621,((quercus_rubra_Qurub.07G163300:0.04441,quercus_rubra_Qurub.07G163600:0.05162)n3:0.34694,(corylus_avellana_Corav.g31044:0.03575,corylus_avellana_Corav.g31040:0.0187)n4:0.17413)n2:0.11064)n1:0.13144,(olea_europaea_Oeu033824:0.70623,(daucus_carota_DCAR_625574:1.04693,lactuca_sativa_Lsat_gn_1_47621:1.01681)n6:0.17676)n5:0.13144)n0;

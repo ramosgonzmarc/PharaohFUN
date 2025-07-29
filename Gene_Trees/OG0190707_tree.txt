@@ -1,0 +1,1 @@
+((taxus_chinensis_KI387_027705:0.15173,sequoiadendron_giganteum_SEGI_26017:0.2359)n1:0.000265,(kalanchoe_fedtschenkoi_Kaladp0042s0001:0.27,(miscanthus_sinensis_Misin13G091100:0.04863,(zea_mays_Zm00001d020094:0.40598,zea_mays_Zm00001d000433:0.066483)n4:0.007387)n3:0.15459)n2:0.000265)n0;

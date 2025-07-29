@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00157g1:0.04812,(amborella_trichopoda_AmTr00157g5:0.10426,(amborella_trichopoda_AmTr00157g6:0.10637,amborella_trichopoda_AmTr00157g4:0.22038)n2:0.03321)n1:0.04812)n0;

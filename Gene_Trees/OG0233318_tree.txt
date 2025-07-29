@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_017956:0.55912,(chlamydomonas_incerta_Chincg03878:0.38148,(gonium_pectorale_Gopec.01272:0.23407,volvox_carteri_Vocar.0018s0138:0.23894)n2:0.10563)n1:0.55912)n0;

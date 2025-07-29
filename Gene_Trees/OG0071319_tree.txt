@@ -1,0 +1,1 @@
+((asterochloris_glomerata_Astgl_g5398:0.39671,trebouxia_sp_FRX49_01450:0.38222)n1:0.563345,(bryopsis_sp_Bsp_GMH44436:0.58527,(bryopsis_sp_Bsp_GMH43789:0.10904,(bryopsis_sp_Bsp_GMH39005:0.01492,bryopsis_sp_Bsp_GMH39018:0.05603)n4:0.07048)n3:0.30474)n2:0.563345)n0;

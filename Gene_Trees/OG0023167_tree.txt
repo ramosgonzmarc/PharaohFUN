@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.21967:0.55567,(cicer_arietinum_Ca_00999:1.0343,(alsophila_spinulosa_Aspi01Gene25762:0.06905,(ceratopteris_richardii_Ceric.16G009300:0.11105,ceratopteris_richardii_Ceric.16G009400:0.01423)n3:1.38957)n2:0.31168)n1:0.55567)n0;

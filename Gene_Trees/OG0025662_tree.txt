@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_016579:0.223995,((sorghum_bicolor_Sobic.005G131500:0.10376,triticum_aestivum_TraesCS2B03G0984100:0.20612)n2:0.29944,(kalanchoe_fedtschenkoi_Kaladp0037s0446:0.32496,(glycine_max_Glyma.20G082500:0.24102,ginkgo_biloba_Gb_26453:0.60141)n4:0.21006)n3:0.1702)n1:0.223995)n0;

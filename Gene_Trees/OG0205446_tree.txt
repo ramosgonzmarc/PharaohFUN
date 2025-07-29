@@ -1,0 +1,1 @@
+(zostera_marina_Zosma03g00990:0.396615,((miscanthus_sinensis_Misin03G138400:0.14856,triticum_aestivum_TraesCS5A03G0479200:0.33599)n2:0.46349,(ananas_comosus_Aco021229:0.7481,zea_mays_Zm00001d039989:0.71682)n3:0.25586)n1:0.396615)n0;

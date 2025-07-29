@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62041123:0.637845,(beta_vulgaris_Bevul.7G049500:0.61091,(beta_vulgaris_Bevul.6G125900:0.0631,(beta_vulgaris_Bevul.1G112900:0.04683,beta_vulgaris_Bevul.6G176600:0.01775)n3:0.06745)n2:0.33223)n1:0.637845)n0;

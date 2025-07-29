@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG010005:0.87572,(citrus_sinensis_Cisin.045850:0.24741,(citrus_sinensis_Cisin.034070:0.79677,citrus_sinensis_Cisin.038281:0.0906)n2:0.05623)n1:0.87572)n0;

@@ -1,0 +1,1 @@
+(saponaria_officinalis_Sapof.10G192700:0.843415,(lactuca_sativa_Lsat_gn_0_32321:0.02672,(lactuca_sativa_Lsat_gn_3_129360:0.6476,(lactuca_sativa_Lsat_gn_7_40980:0.06703,(lactuca_sativa_Lsat_gn_5_54921:0.05974,(lactuca_sativa_Lsat_gn_9_51181:0.0133,lactuca_sativa_Lsat_gn_2_68200:0.05598)n5:0.00418)n4:0.06402)n3:0.08223)n2:0.00494)n1:0.843415)n0;

@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3233800:0.281815,((micromonas_pusilla_Mpus_158157:0.15478,micromonas_commoda_Micom.063435:0.18726)n2:0.16978,(bathycoccus_prasinos_XM_007514727:0.30401,(ostreococcus_mediterraneus_Ostme06g02790:0.17771,(ostreococcus_tauri_ostta07g02650:0.17217,ostreococcus_lucimarinus_Oluc_32669:0.11885)n5:0.05827)n4:0.15606)n3:0.16598)n1:0.281815)n0;

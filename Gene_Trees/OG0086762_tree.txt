@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9463689:0.51886,((gonium_pectorale_Gopec.15804:0.32396,volvox_carteri_Vocar.0073s0011:0.53702)n2:0.10103,(tetrabaena_socialis_Tesoc.PNH08404:0.46615,(chlamydomonas_reinhardtii_Cre05.g241751_4532:0.2157,chlamydomonas_incerta_Chincg01348:0.1775)n4:0.40703)n3:0.18137)n1:0.51886)n0;

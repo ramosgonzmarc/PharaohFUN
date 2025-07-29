@@ -1,0 +1,1 @@
+(olea_europaea_Oeu054118:0.39788,((arachis_hypogaea_arahy_KWS21K:0,arachis_hypogaea_arahy_IE22H8:0)n2:0.00581,arachis_hypogaea_arahy_WM32N3:0.06427)n1:0.39788)n0;

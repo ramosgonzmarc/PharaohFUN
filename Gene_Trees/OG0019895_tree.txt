@@ -1,0 +1,1 @@
+((chloropicon_primus_Chlpr_g7398:1.37854,(myrmecia_bisecta_Mybis.KAK9804431:0.41235,(asterochloris_glomerata_Astgl_g3793:0.55769,trebouxia_sp_FRX49_12243:0.46656)n3:0.26195)n2:0.46343)n1:0.072875,(cymbomonas_tetramitiformis_KAK3275868:1.05906,(micromonas_pusilla_Mpus_54711:0.75486,micromonas_commoda_Micom.061518:0.50288)n5:0.48687)n4:0.072875)n0;

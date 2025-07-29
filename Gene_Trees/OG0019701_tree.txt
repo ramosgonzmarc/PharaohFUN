@@ -1,0 +1,1 @@
+((takakia_lepidozioides_Tle2c03661:0.34487,daucus_carota_DCAR_311618:1.26528)n1:0.370595,(amborella_trichopoda_AmTr00002g417:0.49298,(sphagnum_fallax_Sphfalx18G064300:0.05304,(sphagnum_magellanicum_Sphmag17G056800:0.10431,sphagnum_magellanicum_Sphmag02G172100:0.068931)n4:0.007659)n3:0.01994)n2:0.10022)n0;

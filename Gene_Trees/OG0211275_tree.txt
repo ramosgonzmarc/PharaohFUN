@@ -1,0 +1,1 @@
+(vigna_unguiculata_Vigun02g003650:0.579955,(medicago_truncatula_Medtr8g468940:0.13858,(cicer_arietinum_Ca_14282:0.35223,cicer_arietinum_Ca_24291:0.092718)n2:0.010302)n1:0.14666)n0;

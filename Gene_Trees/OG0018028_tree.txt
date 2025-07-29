@@ -1,0 +1,1 @@
+((isoetes_sinensis_IsiChr12g2051:1.03576,sequoia_sempervirens_SESE_092194:0.40979)n1:0.172045,(sequoia_sempervirens_SESE_048868:0.28693,(cycas_panzhihuaensis_CYCAS_030286:0.08849,(isoetes_sinensis_IsiChr11g2117:0.02793,(isoetes_sinensis_IsiChr22g3748:0.04478,isoetes_sinensis_IsiScaffold3544g59:0.0277)n5:0.2454)n4:0.53214)n3:0.33347)n2:0.172045)n0;

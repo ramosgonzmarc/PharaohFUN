@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub_63060:0.45428,(asterochloris_glomerata_Astgl_g3212:0.46871,(myrmecia_bisecta_Mybis.KAK9805597:0.7112,trebouxia_sp_FRX49_01409:0.40362)n2:0.08521)n1:0.45428)n0;

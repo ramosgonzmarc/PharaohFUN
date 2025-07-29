@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_934204:0.71737,(zea_mays_Zm00001d045328:0.24035,(sorghum_bicolor_Sobic.010G039600:0.08079,miscanthus_sinensis_Misin19G042700:0.03102)n2:0.13267)n1:0.71737)n0;

@@ -1,0 +1,1 @@
+(sequoia_sempervirens_SESE_037678:0.46552,((aquilegia_coerulea_Aqcoe2G133500:0.01323,aquilegia_coerulea_Aqcoe2G133300:0.00537)n2:0.35142,(trifolium_pratense_Trpra.31689:0.35738,(cicer_arietinum_Ca_27764:1.03419,cicer_arietinum_Ca_13607:0.28584)n4:0.03176)n3:0.23835)n1:0.46552)n0;

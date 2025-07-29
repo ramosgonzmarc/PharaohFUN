@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9816883:0.602855,(tetraselmis_striata_TSEL_016272:0.16574,(tetraselmis_striata_TSEL_018768:0.02955,tetraselmis_striata_TSEL_004849:0.00055)n2:0.03021)n1:0.602855)n0;

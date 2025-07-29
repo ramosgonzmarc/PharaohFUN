@@ -1,0 +1,1 @@
+((lens_culinaris_Lecul.4g003600:0.4835,lens_culinaris_Lecul.4g003590:0.03434)n1:0.28297,(lupinus_albus_Lalb_Chr25g0279751:0.33668,(lupinus_albus_Lalb_Chr25g0279761:0.35073,lupinus_albus_Lalb_Chr04g0262691:0.1523)n3:0.19417)n2:0.28297)n0;

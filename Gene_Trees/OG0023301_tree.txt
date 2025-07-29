@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene69345:0.064505,((amborella_trichopoda_AmTr03637g1:0,amborella_trichopoda_AmTr01596g1:0)n2:0.13622,picea_abies_Pab_10123530g0010:0.11747)n1:0.064505)n0;

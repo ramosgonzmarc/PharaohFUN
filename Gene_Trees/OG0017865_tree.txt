@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g2175:0.67672,(chromochloris_zofingiensis_Cz01g06210:0.86065,(chlorella_sorokiniana_Chlso_g6164:0.76496,(myrmecia_bisecta_Mybis.KAK9823619:0.8845,(tetraselmis_striata_TSEL_017524:0.01861,tetraselmis_striata_TSEL_032530:0.00914)n4:0.51069)n3:0.10212)n2:0.34825)n1:0.67672)n0;

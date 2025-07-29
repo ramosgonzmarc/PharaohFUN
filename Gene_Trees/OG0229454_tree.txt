@@ -1,0 +1,1 @@
+((phymatoceros_phymatodes_Phphy.S2G540300:0.19477,notothylas_orbicularis_Noorb.S2G412300:0.14834)n1:0.007185,((phaeomegaceros_chiloensis_Phchi.S6G076300:0.10841,(phaeoceros_carolinianus_Phcar.S3G178000:0.00055,phaeoceros_sp_Phsp.C2G205900:0.00957)n4:0.05128)n3:0.03144,paraphymatoceros_pearsonii_Papea.S2G150000:0.02503)n2:0.007185)n0;

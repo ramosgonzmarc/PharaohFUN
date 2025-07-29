@@ -1,0 +1,1 @@
+(vaccinium_darrowii_Vadar_g42012:0.27321,(vitis_vinifera_VIT_203s0097g00380:0.54464,(vitis_vinifera_VIT_203s0097g00340:0.1043,vitis_vinifera_VIT_203s0038g02730:0.14105)n2:0.09994)n1:0.27321)n0;

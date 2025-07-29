@@ -1,0 +1,1 @@
+(glycine_max_Glyma.05G216000:0.187045,(lotus_japonicus_Lj4g0005995:0.4435,(cicer_arietinum_Ca_05816:0.18103,(trifolium_pratense_Trpra.03526:0.12322,(lens_culinaris_Lecul.4g076970:0.01658,(lens_culinaris_Lecul.4g076980:0.03874,lens_culinaris_Lecul.4g076960:0.03355)n5:0.01345)n4:0.15125)n3:0.23866)n2:0.30111)n1:0.187045)n0;

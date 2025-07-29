@@ -1,0 +1,1 @@
+(zygnema_cylindricum_Zci1a_05162:0.26244,((tetraselmis_striata_TSEL_030448:0.00054,tetraselmis_striata_TSEL_035122:0.01295)n2:1.06209,(cymbomonas_tetramitiformis_KAK3249359:0.04876,(cymbomonas_tetramitiformis_KAK3249358:0.02387,(cymbomonas_tetramitiformis_KAK3253305:0.00055,cymbomonas_tetramitiformis_KAK3243914:0.00552)n5:0.04144)n4:0.08479)n3:0.66147)n1:0.26244)n0;

@@ -1,0 +1,1 @@
+((brassica_oleracea_Bol012340:0.26493,((marchantia_paleacea_Mapa_009317:0.28948,(riccia_fluitans_R1flu_007030:0.4087,(riccia_fluitans_R1flu_018191:0.15688,riccia_sorocarpa_Risor.KAL3701790:0.14497)n5:0.153486)n4:0.017054)n3:0.08777,riccia_fluitans_R1flu_019230:0.000495)n2:5.5e-05)n1:0.12842,(adiantum_capillus_Adc24981:1.01029,picea_abies_Pab_29426g0010:0.86016)n6:0.34195)n0;

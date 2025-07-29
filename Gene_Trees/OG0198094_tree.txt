@@ -1,0 +1,1 @@
+(zea_mays_Zm00001d007684:0.786565,(thuja_plicata_Thupl.29380492s0032:0.14394,(sequoia_sempervirens_SESE_066363:0.05046,sequoiadendron_giganteum_SEGI_23848:0.04696)n2:0.21482)n1:0.786565)n0;

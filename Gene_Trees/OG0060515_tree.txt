@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene72889:0.33016,sequoiadendron_giganteum_SEGI_34421:1.08336)n1:0.13844,(notothylas_orbicularis_Noorb.S2G277600:0.60206,notothylas_orbicularis_Noorb.S5G064800:0.34515)n2:0.13844)n0;

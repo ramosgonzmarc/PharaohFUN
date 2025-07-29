@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00321_0120:0.6539,(klebsormidium_nitens_kfl00642_0090:0.7367,klebsormidium_nitens_kfl00321_0110:0.24366)n2:0.31491)n1:0.338635,(bryopsis_sp_Bsp_GMH37818:0.75507,(caulerpa_lentillifera_Caule_g92:0.98907,(caulerpa_lentillifera_Caule_g7298:0.59071,caulerpa_lentillifera_Caule_g7302:0.42153)n5:0.09977)n4:0.25645)n3:0.338635)n0;

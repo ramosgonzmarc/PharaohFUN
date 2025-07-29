@@ -1,0 +1,1 @@
+((capsella_grandiflora_Cagra.0998s0019:0.22134,(eutrema_salsugineum_Thhalv10005284m:0.11389,thlaspi_arvense_TaMN106.2G098700:0.10227)n2:0.0899)n1:0.64952,(gossypium_raimondii_Gorai.004G286600:0.00966,(gossypium_hirsutum_Gohir.A08G247800:0.00662,gossypium_hirsutum_Gohir.D08G268900:0.000486)n4:5.4e-05)n3:0.04347)n0;

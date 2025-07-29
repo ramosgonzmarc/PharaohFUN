@@ -1,0 +1,1 @@
+(funaria_hygrometrica_Fuhyg.10215:1.5167,(cycas_panzhihuaensis_CYCAS_000337:0.7333,((cycas_panzhihuaensis_CYCAS_007720:0.7828,(cycas_panzhihuaensis_CYCAS_026667:0.84138,cycas_panzhihuaensis_CYCAS_008908:0.00055)n4:0.38873)n3:0.18894,(cycas_panzhihuaensis_CYCAS_012009:0.16027,cycas_panzhihuaensis_CYCAS_021818:0.17589)n5:0.09508)n2:0.00058)n1:1.5167)n0;

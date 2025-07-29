@@ -1,0 +1,1 @@
+(alsophila_spinulosa_Aspi01Gene17231:0.184485,(sequoiadendron_giganteum_SEGI_04936:0.96048,(sisymbrium_irio_Siiris295g00030:0.8404,trifolium_pratense_Trpra.10432:0.61651)n2:0.02478)n1:0.184485)n0;

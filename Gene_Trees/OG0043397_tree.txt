@@ -1,0 +1,1 @@
+((brassica_rapa_Brara.E02152:0.90675,(huperzia_asiatica_HaB37G0218:0.04883,(huperzia_asiatica_HaA05G0527:0.01517,huperzia_asiatica_HaA25G0251:0.04112)n3:0.01231)n2:0.44239)n1:0.13659,(takakia_lepidozioides_Tle2c01524:0.06839,takakia_lepidozioides_Tle2c03382:0.01951)n4:0.13659)n0;

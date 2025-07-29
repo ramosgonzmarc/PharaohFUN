@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S4G128800:0.303685,(sequoiadendron_giganteum_SEGI_07493:0.34592,(ginkgo_biloba_Gb_18840:0.1667,picea_abies_Pab_175700g0010:0.2577)n2:0.1313)n1:0.303685)n0;

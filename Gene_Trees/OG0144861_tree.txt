@@ -1,0 +1,1 @@
+((daucus_carota_DCAR_100211:0.08004,lactuca_sativa_Lsat_gn_5_185920:0.04307)n1:0.02868,(olea_europaea_Oeu008589:0.09715,solanum_tuberosum_Soltu.04G014850:0.54928)n2:0.02868)n0;

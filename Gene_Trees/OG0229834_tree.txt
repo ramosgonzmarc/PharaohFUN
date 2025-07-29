@@ -1,0 +1,1 @@
+((phaeomegaceros_chiloensis_Phchi.S1G463800:0.33402,phaeomegaceros_chiloensis_Phchi.S1G550700:0.99678)n1:0.339225,(phymatoceros_phymatodes_Phphy.S1G503700:0.53514,phymatoceros_phymatodes_Phphy.S4G382200:0.54202)n2:0.339225)n0;

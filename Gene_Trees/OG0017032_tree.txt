@@ -1,0 +1,1 @@
+(mesotaenium_kramstae_Mekra.2376541:0.40315,((ginkgo_biloba_Gb_41460:0.24756,((abies_alba_AALBA5B464129:0.04524,(abies_alba_AALBA5B441300:0.03454,abies_alba_AALBA5B909880:0.03638)n5:0.00858)n4:0.01001,abies_alba_AALBA5B891139:0.02407)n3:0.59698)n2:0.28974,(picea_abies_Pab_184308g0020:1.47463,picea_abies_Pab_10341791g0010:0.581175)n6:0.064575)n1:0.20963)n0;

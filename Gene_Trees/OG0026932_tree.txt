@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_006432:0.37901,(ulva_mutabilis_UM018_0090:0.77471,(ostreobium_quekettii_CAD7705131:0.63857,bryopsis_sp_Bsp_GMH45941:0.64586)n2:0.76016)n1:0.37901)n0;

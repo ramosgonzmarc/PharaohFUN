@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.G01110:0.26752,corymbia_citriodora_Cocit.G0402:0.30042)n1:0.05121,(brassica_rapa_Brara.G02137:0.80566,(poncirus_trifoliata_Ptrif.0009s2602:0.10607,(poncirus_trifoliata_Ptrif.0001s2927:0.00055,poncirus_trifoliata_Ptrif.0006s2565:0.01619)n4:0.89856)n3:0.57725)n2:0.05121)n0;

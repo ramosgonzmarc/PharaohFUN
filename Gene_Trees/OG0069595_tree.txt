@@ -1,0 +1,1 @@
+((arabidopsis_lyrata_Arlyr.AL3G44650:0.00055,(boechera_stricta_Bostr.20041s0003:0.00053,eutrema_salsugineum_Thhalv10002912m:0.37132)n2:0.0007)n1:0.000465,(brassica_rapa_Brara.K01522:0.00055,((capsella_grandiflora_Cagra.16378s0001:0.00643,arabidopsis_thaliana_AT2G07772:0.01335)n5:0.00192,sisymbrium_irio_Siiris2522g00010:0.48302)n4:0.00145)n3:0.000465)n0;

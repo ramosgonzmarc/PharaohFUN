@@ -1,0 +1,1 @@
+(vitis_vinifera_VIT_218s0041g00230:0.19792,(lupinus_albus_Lalb_Chr20g0110721:0.36815,(malus_domestica_MD02G1111900:0.42843,(medicago_truncatula_Medtr7g078650:0.57381,medicago_truncatula_Medtr8g016680:0.536832)n3:0.059648)n2:0.57661)n1:0.19792)n0;

@@ -1,0 +1,1 @@
+(abies_alba_AALBA5B130985:0.256125,(taxus_chinensis_KI387_007778:0.13901,(sequoia_sempervirens_SESE_061540:0.00055,(sequoia_sempervirens_SESE_116871:0.00053,(sequoia_sempervirens_SESE_090643:0.00357,sequoia_sempervirens_SESE_082134:0.00055)n4:0.01654)n3:0.004)n2:0.1213)n1:0.256125)n0;

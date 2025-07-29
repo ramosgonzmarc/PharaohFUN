@@ -1,0 +1,1 @@
+(hordeum_vulgare_Hvul_1HG0055240:0.022955,(triticum_aestivum_TraesCS1A03G0545400:0.30892,(triticum_aestivum_TraesCS1B03G0634800:0.01844,triticum_aestivum_TraesCS1D03G0525200:0.00055)n2:0.00055)n1:0.022955)n0;

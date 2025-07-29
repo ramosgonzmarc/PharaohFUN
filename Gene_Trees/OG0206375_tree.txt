@@ -1,0 +1,1 @@
+(brassica_rapa_Brara.E01729:0.015375,((brassica_rapa_Brara.A02491:0.02916,brassica_rapa_Brara.I03097:0.27952)n2:0.03521,(brassica_rapa_Brara.B02723:0.13675,brassica_rapa_Brara.E01811:0.49186)n3:0.00054)n1:0.015375)n0;

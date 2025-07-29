@@ -1,0 +1,1 @@
+((zea_mays_Zm00001d012413:0.23777,(carica_papaya_Capac.c00169g018:0.44301,spirodela_polyrhiza_Spipo0G0124900:0.39089)n2:0.4809)n1:0.180335,(alsophila_spinulosa_Aspi01Gene46209:0.79153,adiantum_capillus_Adc01614:0.42369)n3:0.180335)n0;

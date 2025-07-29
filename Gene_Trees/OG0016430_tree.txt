@@ -1,0 +1,1 @@
+(oropetium_thomaeum_Oropetium_20150105_25059A:0.59899,((isoetes_sinensis_IsiChr6g3785:0.03353,(isoetes_sinensis_IsiChr5g3708:0.00055,isoetes_sinensis_IsiChr6g3782:0.03763)n3:0.00055)n2:0.03765,(isoetes_sinensis_IsiChr6g3784:0.05723,(isoetes_sinensis_IsiChr18g1394:0.00341,isoetes_sinensis_IsiChr17g1687:0.00054)n5:0.00548)n4:0.20793)n1:0.59899)n0;

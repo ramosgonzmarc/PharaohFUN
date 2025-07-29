@@ -1,0 +1,1 @@
+((arachis_hypogaea_arahy_I3263J:0.70631,lens_culinaris_Lecul.5g071260:0.79812)n1:0.49866,(manihot_esculenta_Manes.06G160701:0.25857,manihot_esculenta_Manes.06G160333:0.56559)n2:0.49866)n0;

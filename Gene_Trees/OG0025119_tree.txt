@@ -1,0 +1,1 @@
+(gnetum_montanum_TnS000251501t02:0.487665,(cymbomonas_tetramitiformis_KAK3246372:0.55791,(cymbomonas_tetramitiformis_KAK3248244:0.00055,cymbomonas_tetramitiformis_KAK3280940:0.00055)n2:0.70626)n1:0.487665)n0;

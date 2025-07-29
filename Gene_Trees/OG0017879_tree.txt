@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000369S06431:0.371405,((chlorokybus_atmophyticus_Chrsp237S03623:0.72636,galdieria_sulphuraria_GsulpAzora_G530:0.48568)n2:0.17902,(gracilariopsis_chorda_PXF44928:1.09347,tetraselmis_striata_TSEL_006445:0.75514)n3:0.15533)n1:0.371405)n0;

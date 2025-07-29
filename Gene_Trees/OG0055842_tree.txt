@@ -1,0 +1,1 @@
+((aegilops_tauschii_Atau_XP_020170253:0.35312,triticum_aestivum_TraesCS7A03G0115600:0.55592)n1:0.01126,(oropetium_thomaeum_Oropetium_20150105_17348A:0.30788,(miscanthus_sinensis_Misin18G075600:0.31643,setaria_italica_Seita.4G054600:0.55957)n3:0.07122)n2:0.01126)n0;

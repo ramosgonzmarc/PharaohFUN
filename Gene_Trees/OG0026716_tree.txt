@@ -1,0 +1,1 @@
+(oryza_sativa_Os10g28009:0.407,(sorghum_bicolor_Sobic.001G248400:0.10893,((oropetium_thomaeum_Oropetium_20150105_20923A:0.84671,(panicum_hallii_Pahal.9G250900:0.1777,setaria_italica_Seita.9G262600:0.38613)n4:0.11726)n3:0.37713,miscanthus_sinensis_Misin02G219600:0.22167)n2:0.15695)n1:0.407)n0;

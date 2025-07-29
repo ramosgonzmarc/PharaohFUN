@@ -1,0 +1,1 @@
+(asparagus_officinalis_AsparagusV1_05.1513:0.035555,(asparagus_officinalis_AsparagusV1_01.2943:0.06663,(asparagus_officinalis_AsparagusV1_05.3186:0.03955,(asparagus_officinalis_AsparagusV1_09.95:0.80279,asparagus_officinalis_AsparagusV1_06.1279:0.68595)n3:0.15398)n2:0.10087)n1:0.035555)n0;

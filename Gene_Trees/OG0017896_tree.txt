@@ -1,0 +1,1 @@
+(chloropicon_primus_Chlpr_g386:0.704675,(chromochloris_zofingiensis_Cz14g23270:0.74307,((raphidocelis_subcapitata_Rsub_05103:0.72402,tetraselmis_striata_TSEL_041535:0.82615)n3:0.20452,(myrmecia_bisecta_Mybis.KAK9802939:0.53759,(coccomyxa_subellipsoidea_Cosub_58517:0.86192,elliptochloris_bilobata_Elbil.KAK9839319:0.5171)n5:0.11989)n4:0.32043)n2:0.18166)n1:0.704675)n0;

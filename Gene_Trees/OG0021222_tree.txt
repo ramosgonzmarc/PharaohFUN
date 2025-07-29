@@ -1,0 +1,1 @@
+((eutrema_salsugineum_Thhalv10019474m:0.16139,(arabidopsis_lyrata_Arlyr.AL2G40870:0.08483,boechera_stricta_Bostr.20129s0456:0.09639)n2:0.08256)n1:0.65556,(isoetes_sinensis_IsiChr2g1706:0.01621,(isoetes_sinensis_IsiChr1g1899:0.00294,(isoetes_sinensis_IsiChr1g1905:0.01215,isoetes_sinensis_IsiChr2g1707:0.00896)n5:0.24171)n4:0.02028)n3:0.65556)n0;

@@ -1,0 +1,1 @@
+(desmodesmus_armatus_Desar.388573:0.608835,(sisymbrium_irio_Siiris1396g00030:0.62743,((isoetes_sinensis_IsiChr1g2940:0.00524,isoetes_sinensis_IsiChr2g2654:0.00691)n3:0.45586,(selaginella_moellendorffii_Smoe_443154:0.5793,lens_culinaris_Lecul.4g007390:1.65455)n4:0.00057)n2:0.19137)n1:0.608835)n0;

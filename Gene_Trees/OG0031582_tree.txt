@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_012631:0.19116,(arabidopsis_thaliana_AT2G47885:0.43371,(olea_europaea_Oeu021627:0.45974,(ananas_comosus_Aco001908:0.2163,ananas_comosus_Aco020253:0.45816)n3:0.20446)n2:0.44614)n1:0.19116)n0;

@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub_48850:0.211455,(myrmecia_bisecta_Mybis.KAK9829510:0.5883,((trebouxia_sp_FRX49_03865:0,trebouxia_sp_FRX49_11015:0)n3:1.04377,((asterochloris_glomerata_Astgl_g3144:0.59606,trebouxia_sp_FRX49_07107:0.42413)n5:0.23262,(asterochloris_glomerata_Astgl_g9006:0.51857,trebouxia_sp_FRX49_00377:0.39299)n6:0.26238)n4:0.01106)n2:0.15353)n1:0.211455)n0;

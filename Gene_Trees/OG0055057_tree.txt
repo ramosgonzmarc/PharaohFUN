@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B958464:0.00701,asparagus_officinalis_AsparagusV1_04.919:0.62134)n1:0.04463,(arabidopsis_lyrata_Arlyr.AL3G48430:0.42171,picea_abies_Pab_8652836g0010:0.099)n2:0.04463)n0;

@@ -1,0 +1,1 @@
+((eleusine_coracana_Elcor.2BG0196280:0.14725,oropetium_thomaeum_Oropetium_20150105_21157A:0.24697)n1:0.12317,(setaria_italica_Seita.1G270000:0.12435,(miscanthus_sinensis_Misin08G237900:0.04217,zea_mays_Zm00001d051440:0.12024)n3:0.00055)n2:0.12317)n0;

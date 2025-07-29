@@ -1,0 +1,1 @@
+(daucus_carota_DCAR_312675:0.065325,(brassica_rapa_Brara.A03942:0.04894,((glycine_max_Glyma.13G169833:0,glycine_max_Glyma.19G010001:0)n3:0.03788,manihot_esculenta_Manes.17G122350:0.03761)n2:0.15567)n1:0.065325)n0;

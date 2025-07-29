@@ -1,0 +1,1 @@
+((haematococcus_lacustris_QJQ45_014871:0.02457,haematococcus_lacustris_QJQ45_028828:0.03511)n1:0.232445,(elliptochloris_bilobata_Elbil.KAK9845372:0.57209,(asterochloris_glomerata_Astgl_g7526:0.92563,trebouxia_sp_FRX49_05555:0.7911)n3:0.33801)n2:0.232445)n0;

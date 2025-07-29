@@ -1,0 +1,1 @@
+(marchantia_paleacea_Mapa_004329:0.58679,(ginkgo_biloba_Gb_41230:0.41108,(arachis_hypogaea_arahy_KC2LEV:0,arachis_hypogaea_arahy_26R701:0)n2:1.03886)n1:0.58679)n0;

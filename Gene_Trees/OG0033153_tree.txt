@@ -1,0 +1,1 @@
+(pedinophyceae_sp_Pesp.9462948:0.2814,((raphidocelis_subcapitata_Rsub_00686:0.29914,monoraphidium_minutum_Momin.524731:0.24839)n2:0.34269,((chlamydomonas_reinhardtii_Cre04.g232902_4532:0.03963,chlamydomonas_incerta_Chincg00295:0.05457)n4:0.18461,(gonium_pectorale_Gopec.09075:0.36149,volvox_carteri_Vocar.0001s1771:0.27267)n5:0.10465)n3:0.29518)n1:0.2814)n0;

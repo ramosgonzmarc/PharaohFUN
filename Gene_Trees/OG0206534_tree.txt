@@ -1,0 +1,1 @@
+((schrenkiella_parvula_Scpar3g15390:0.33387,thlaspi_arvense_TaMN106.3G225800:0.10092)n1:0.13553,(boechera_stricta_Bostr.19424s0945:0.1133,capsella_grandiflora_Cagra.4396s0024:0.15133)n2:0.13553)n0;

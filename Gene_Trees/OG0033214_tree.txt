@@ -1,0 +1,1 @@
+((chlorella_sorokiniana_Chlso_g6677:0.36334,chlorella_sorokiniana_Chlso_g7189:1.18259)n1:0.145835,(myrmecia_bisecta_Mybis.KAK9824194:0.7103,myrmecia_bisecta_Mybis.KAK9804767:0.6197)n2:0.145835)n0;

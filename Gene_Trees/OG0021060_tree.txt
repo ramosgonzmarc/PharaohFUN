@@ -1,0 +1,1 @@
+(theobroma_cacao_Thecc1EG029644:0.52068,(ginkgo_biloba_Gb_21003:0.03577,(ginkgo_biloba_Gb_15969:0.05034,(ginkgo_biloba_Gb_15962:0.00785,ginkgo_biloba_Gb_15970:0.00771)n3:0.02081)n2:0.08919)n1:0.52068)n0;

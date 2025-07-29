@@ -1,0 +1,1 @@
+((eucalyptus_grandis_Eucgr.E01526:0.81334,carya_illinoinensis_Caril.10G079400:0.49316)n1:0.08951,(salix_purpurea_Sapur.006G014500:0.5073,(corymbia_citriodora_Cocit.E2795:0.01188,corymbia_citriodora_Cocit.E2836:0.00054)n3:0.41684)n2:0.08951)n0;

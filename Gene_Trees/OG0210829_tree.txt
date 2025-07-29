@@ -1,0 +1,1 @@
+((lotus_japonicus_Lj3g0002397:0.00054,lotus_japonicus_LjContig00141g0009379:0.07136)n1:0.492685,(trifolium_pratense_Trpra.05808:0.58996,(trifolium_pratense_Trpra.05809:0.21687,(trifolium_pratense_Trpra.30443:0.04051,trifolium_pratense_Trpra.30442:0.14733)n4:0.33609)n3:0.26171)n2:0.492685)n0;

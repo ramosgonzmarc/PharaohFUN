@@ -1,0 +1,1 @@
+((mimulus_guttatus_Migut.B01259:0.10855,mimulus_guttatus_Migut.B01258:0.10342)n1:0.462025,(saponaria_officinalis_Sapof.10G113600:0.40185,(amaranthus_hypochondriacus_AH016624:0.2678,beta_vulgaris_Bevul.2G194200:0.17809)n3:0.11132)n2:0.462025)n0;

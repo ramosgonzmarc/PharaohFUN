@@ -1,0 +1,1 @@
+(lupinus_albus_Lalb_Chr01g0021711:0.182345,(arachis_hypogaea_arahy_RMC6EU:0.67805,(arachis_hypogaea_arahy_SS5FAH:0.04268,arachis_hypogaea_arahy_8WX7RX:0.03322)n2:0.28355)n1:0.182345)n0;

@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF46022:0.699885,((micromonas_pusilla_Mpus_39538:0.27037,micromonas_commoda_Micom.099016:0.27146)n2:0.39346,(ostreococcus_mediterraneus_Ostme06g00630:0.36884,(ostreococcus_tauri_ostta07g00690:0.21071,ostreococcus_lucimarinus_Oluc_87686:0.17531)n4:0.20725)n3:0.34563)n1:0.699885)n0;

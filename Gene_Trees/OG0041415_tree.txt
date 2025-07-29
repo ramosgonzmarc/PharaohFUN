@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9830428:0.673755,((physcomitrium_patens_Pp6c7_10810V6:0,physcomitrium_patens_Pp6c7_10820V6:0)n2:0.36798,ceratodon_purpureus_CepurR40.1G283100:0.26612)n1:0.673755)n0;

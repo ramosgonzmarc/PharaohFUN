@@ -1,0 +1,1 @@
+(takakia_lepidozioides_Tle1c00126:0.49081,(physcomitrium_patens_Pp6c21_6160V6:1.00843,(ceratodon_purpureus_CepurR40.8G059600:0,ceratodon_purpureus_CepurR40.N019800:0)n2:0.08606)n1:0.49081)n0;

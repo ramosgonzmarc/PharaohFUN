@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre09.g386759_4532:0.12118,chlamydomonas_incerta_Chincg14523:0.11839)n1:0.375095,(monoraphidium_minutum_Momin.083737:0.86643,(chromochloris_zofingiensis_Cz04g22180:0.24796,(desmodesmus_armatus_Desar.343902:0.23263,scenedesmus_obliquus_Sobl_g00907:0.37021)n4:0.25255)n3:0.1939)n2:0.375095)n0;

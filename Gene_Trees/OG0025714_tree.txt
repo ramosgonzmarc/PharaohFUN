@@ -1,0 +1,1 @@
+(lactuca_sativa_Lsat_gn_0_40400:0.31542,((ginkgo_biloba_Gb_13109:0,ginkgo_biloba_Gb_09430:0)n2:0.75565,ginkgo_biloba_Gb_17280:0.03385)n1:0.31542)n0;

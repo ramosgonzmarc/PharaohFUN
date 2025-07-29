@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.02G258200:0.617995,(manihot_esculenta_Manes.01G094950:0.45311,(populus_trichocarpa_Potri.017G095500:0.49955,(salix_purpurea_Sapur.017G079800:0.00055,salix_purpurea_Sapur.017G079600:0.06103)n3:0.07906)n2:0.42399)n1:0.617995)n0;

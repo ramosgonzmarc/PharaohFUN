@@ -1,0 +1,1 @@
+(medicago_truncatula_Medtr3g087960:0.357045,((corylus_avellana_Corav.g32692:0.01031,corylus_avellana_Corav.g2296:0.12449)n2:0.00054,(corylus_avellana_Corav.g10865:0.03278,corylus_avellana_Corav.g8005:0.11997)n3:0.01004)n1:0.357045)n0;

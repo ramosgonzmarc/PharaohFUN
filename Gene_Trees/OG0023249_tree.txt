@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Smoe_402927:0.561145,(adiantum_capillus_Adc26499:0.69437,((alsophila_spinulosa_Aspi01Gene65707:0.27945,adiantum_capillus_Adc25919:0.56989)n3:0.45263,(alsophila_spinulosa_Aspi01Gene49001:0.47989,(adiantum_capillus_Adc07942:0.57908,adiantum_capillus_Adc11418:0.241695)n5:0.026855)n4:0.14993)n2:0.06308)n1:0.561145)n0;

@@ -1,0 +1,1 @@
+(coffea_arabica_Coara.034227:0.000275,(coffea_arabica_Coara.037082:0.02938,((coffea_arabica_Coara.037076:0,coffea_arabica_Coara.037078:0)n3:0.38416,(coffea_arabica_Coara.037072:0.0462,coffea_arabica_Coara.037074:0.16772)n4:0.49186)n2:0.22814)n1:0.000275)n0;

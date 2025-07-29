@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00001g83:0.158795,((oropetium_thomaeum_Oropetium_20150105_02788A:0.84344,oropetium_thomaeum_Oropetium_20150105_26782A:0.91866)n2:0.24161,(linum_usitatissimum_Lus10026642:1.12233,((carica_papaya_Capac.c00026g276:1.23801,arachis_hypogaea_arahy_RWD4IB:0.49718)n5:0.27978,cinnamomum_kanehirae_CKAN_01746700:0.19614)n4:0.08041)n3:0.14266)n1:0.158795)n0;

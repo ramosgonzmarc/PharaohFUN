@@ -1,0 +1,1 @@
+(linum_usitatissimum_Lus10018606:0.439385,((corylus_avellana_Corav.g25133:0.62437,lens_culinaris_Lecul.2g017030:0.27282)n2:0.38143,(lupinus_albus_Lalb_Chr23g0267071:1.56079,(arachis_hypogaea_arahy_Z2PA2S:0.00055,arachis_hypogaea_arahy_796BHC:0.0322)n4:0.2475)n3:0.27989)n1:0.439385)n0;

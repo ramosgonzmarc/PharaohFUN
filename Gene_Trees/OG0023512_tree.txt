@@ -1,0 +1,1 @@
+(anthoceros_fusiformis_Anfus.S4G123300:0.02933,(anthoceros_punctatus_Anpun.S4G123900:0.02285,((anthoceros_agrestis_AnagrOXF.S3G339100:0.4126,anthoceros_agrestis_AnagrOXF.S3G339400:0.03835)n3:0.26904,anthoceros_agrestis_AnagrOXF.S2G285700:0.046323)n2:0.005147)n1:0.02199)n0;

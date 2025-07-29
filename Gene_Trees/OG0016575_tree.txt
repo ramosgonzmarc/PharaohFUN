@@ -1,0 +1,1 @@
+(ostreobium_quekettii_CAD7696666:0.478845,((ostreobium_quekettii_CAD7696664:1.16157,(ostreobium_quekettii_CAD7696822:0.30991,ostreobium_quekettii_CAD7696823:0.10306)n3:0.2607)n2:0.11704,(ostreobium_quekettii_CAD7695919:0.70194,ostreobium_quekettii_CAD7696820:0.45955)n4:0.3025)n1:0.478845)n0;

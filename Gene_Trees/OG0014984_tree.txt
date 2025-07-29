@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Smoe_132799:0.00458,selaginella_moellendorffii_Smoe_134000:0.00055)n1:0.27682,((isoetes_sinensis_IsiChr4g27:0,isoetes_sinensis_IsiChr3g59:0)n3:0.00884,(isoetes_sinensis_IsiChr22g3767:0.06365,(isoetes_sinensis_IsiChr17g186:0.00054,isoetes_sinensis_IsiChr15g73:0.01291)n5:0.00889)n4:0.01217)n2:0.27682)n0;

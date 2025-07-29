@@ -1,0 +1,1 @@
+(haematococcus_lacustris_QJQ45_003677:0.65543,((ulva_mutabilis_UM011_0067:0.33323,(ulva_mutabilis_UM082_0045:0.1587,ulva_mutabilis_UM082_0047:0.1442)n3:0.22777)n2:0.58304,((ulva_mutabilis_UM226_0003:0.3275,ulva_mutabilis_UM029_0066:0.25821)n5:0.08786,(ulva_mutabilis_UM067_0036:0.48891,ulva_mutabilis_UM004_0040:0.67064)n6:0.14837)n4:0.22672)n1:0.65543)n0;

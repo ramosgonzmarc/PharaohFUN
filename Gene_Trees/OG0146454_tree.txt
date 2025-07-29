@@ -1,0 +1,1 @@
+(olea_europaea_Oeu013256:0.344105,(phaseolus_acutifolius_Phacu.002G042400:0.28204,(arachis_hypogaea_arahy_HL1WF3:0.00055,arachis_hypogaea_arahy_CPTS0I:0.00397)n2:0.18603)n1:0.344105)n0;

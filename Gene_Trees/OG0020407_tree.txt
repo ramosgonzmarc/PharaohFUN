@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp57S06750:0.046215,(chlorokybus_atmophyticus_Chrsp57S00535:0.32923,(chlorokybus_atmophyticus_Chrsp57S06837:0.23675,chlorokybus_atmophyticus_Chrsp57S09128:0.0688)n2:0.02636)n1:0.046215)n0;

@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc06g009585:0.60298,(asparagus_officinalis_AsparagusV1_03.2092:0.11305,(asparagus_officinalis_AsparagusV1_Unassigned.115:0.34088,((asparagus_officinalis_AsparagusV1_04.2842:0,asparagus_officinalis_AsparagusV1_01.1101:0)n4:0.00053,asparagus_officinalis_AsparagusV1_01.3212:0.05478)n3:0.00053)n2:0.1487)n1:0.60298)n0;

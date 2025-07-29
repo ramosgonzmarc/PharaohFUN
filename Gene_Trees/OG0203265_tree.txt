@@ -1,0 +1,1 @@
+((welwitschia_mirabilis_Wmi_13520:0.25602,gnetum_montanum_TnS000343449t04:0.39495)n1:0.32171,(sequoia_sempervirens_SESE_032303:0.0318,sequoiadendron_giganteum_SEGI_31570:0.03313)n2:0.32171)n0;

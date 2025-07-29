@@ -1,0 +1,1 @@
+(marsilea_vestita_Mvestita_S8g04381:0.047645,((marsilea_vestita_Mvestita_S8g04379:0.05381,marsilea_vestita_Mvestita_S8g04380:0.02841)n2:0.05675,(marsilea_vestita_Mvestita_S17g16480:0.13002,(marsilea_vestita_Mvestita_S3g03184:0.00054,(marsilea_vestita_Mvestita_S3g03186:0.2369,marsilea_vestita_Mvestita_S3g03185:0.07415)n5:0.04497)n4:0.3207)n3:0.01633)n1:0.047645)n0;

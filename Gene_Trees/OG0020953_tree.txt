@@ -1,0 +1,1 @@
+(((diphasiastrum_complanatum_Dicom.Y378700:0,diphasiastrum_complanatum_Dicom.12G068000:0)n2:0.07618,lycopodium_clavatum_Lcl_0017418:0.04794)n1:0.279895,((sphagnum_magellanicum_Sphmag18G077700:0.0243,sphagnum_fallax_Sphfalx18G021000:0.00274)n4:0.25849,(sphagnum_magellanicum_Sphmag03G003800:0.012,sphagnum_fallax_Sphfalx03G005700:0.01985)n5:0.10416)n3:0.279895)n0;

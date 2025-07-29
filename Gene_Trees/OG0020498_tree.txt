@@ -1,0 +1,1 @@
+((cinnamomum_kanehirae_CKAN_02363700:0.2988,malus_domestica_MD07G1066700:0.20002)n1:0.026585,(taxus_chinensis_KI387_033916:0.00055,taxus_chinensis_KI387_025009:0.01437)n2:0.026585)n0;

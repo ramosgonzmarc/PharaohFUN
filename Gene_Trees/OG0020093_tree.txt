@@ -1,0 +1,1 @@
+(glycine_max_Glyma.15G236000:0.70114,((azolla_filiculoides_Azfi_s0038.g026358:0.40876,azolla_filiculoides_Azfi_s0010.g012298:0.65423)n2:0.15506,(adiantum_capillus_Adc26646:0.26732,(ceratopteris_richardii_Ceric.33G002700:0.07553,(ceratopteris_richardii_Ceric.39G036300:0.05687,ceratopteris_richardii_Ceric.14G075600:0.01113)n5:0.24096)n4:0.33647)n3:0.14288)n1:0.70114)n0;

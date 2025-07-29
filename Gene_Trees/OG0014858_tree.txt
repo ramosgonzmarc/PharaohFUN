@@ -1,0 +1,1 @@
+(tetraselmis_striata_TSEL_007484:0.425925,(cymbomonas_tetramitiformis_KAK3246828:0.36285,(cymbomonas_tetramitiformis_KAK3262026:0.73708,(cymbomonas_tetramitiformis_KAK3273583:0.79903,((cymbomonas_tetramitiformis_KAK3243851:0,cymbomonas_tetramitiformis_KAK3261532:0)n5:0.47476,cymbomonas_tetramitiformis_KAK3262691:0.39103)n4:0.28017)n3:0.06878)n2:0.17528)n1:0.425925)n0;

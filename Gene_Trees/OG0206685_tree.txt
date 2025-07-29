@@ -1,0 +1,1 @@
+((gossypium_hirsutum_Gohir.D08G115150:0.00054,gossypium_raimondii_Gorai.004G241200:0.55469)n1:0.016045,(gossypium_hirsutum_Gohir.D03G070100:0.05822,gossypium_raimondii_Gorai.007G123800:0.00053)n2:0.016045)n0;

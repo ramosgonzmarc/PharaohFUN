@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv01515:0.186795,(tetraselmis_striata_TSEL_029543:0.45852,(chloropicon_primus_Chlpr_g4620:0.77861,(cymbomonas_tetramitiformis_KAK3251001:0.35738,micromonas_pusilla_Mpus_185810:0.72652)n3:0.05734)n2:0.1205)n1:0.186795)n0;

@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0996s00003:0.5802,chromochloris_zofingiensis_Cz09g31070:0.55802)n1:0.095565,(asterochloris_glomerata_Astgl_g5387:0.76296,(chlorella_sorokiniana_Chlso_g9722:0.38582,auxenochlorella_protothecoides_APUTEX2500005076:0.58437)n3:0.18842)n2:0.095565)n0;

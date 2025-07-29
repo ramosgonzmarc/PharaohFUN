@@ -1,0 +1,1 @@
+(myrmecia_bisecta_Mybis.KAK9828812:0.6393,(cicer_arietinum_Ca_09892:0.7644,(cycas_panzhihuaensis_CYCAS_015475:0.10563,cycas_panzhihuaensis_CYCAS_015485:0.010233)n2:0.001137)n1:0.01711)n0;

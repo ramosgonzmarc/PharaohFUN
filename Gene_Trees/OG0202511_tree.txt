@@ -1,0 +1,1 @@
+(chenopodium_quinoa_AUR62024192:0.250965,(vitis_vinifera_VIT_213s0019g00770:0.73691,(salix_purpurea_Sapur.010G107300:0.69233,(phaseolus_acutifolius_Phacu.003G006900:0.2597,trifolium_pratense_Trpra.29303:0.26248)n3:0.18401)n2:0.47994)n1:0.250965)n0;

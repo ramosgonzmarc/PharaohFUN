@@ -1,0 +1,1 @@
+(((arachis_hypogaea_arahy_V0ZW9L:0.52068,trifolium_pratense_Trpra.07938:0.00059)n2:0.23,(populus_trichocarpa_Potri.005G244900:0.74878,salix_purpurea_Sapur.002G011800:0.89663)n3:0.24503)n1:0.399555,(linum_usitatissimum_Lus10040073:0.29387,(cicer_arietinum_Ca_21149:0.64961,phaseolus_acutifolius_Phacu.006G055000:0.57461)n5:0.34736)n4:0.399555)n0;

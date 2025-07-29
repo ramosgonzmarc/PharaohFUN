@@ -1,0 +1,1 @@
+(notothylas_orbicularis_Noorb.S1G475500:0.34093,(dioscorea_alata_Dioal.14G057900:1.22021,(eleusine_coracana_Elcor.3BG0276980:0.75252,(ceratopteris_richardii_Ceric.35G053600:0.00638,ceratopteris_richardii_Ceric.35G053700:0.00055)n3:0.50152)n2:0.10087)n1:0.34093)n0;

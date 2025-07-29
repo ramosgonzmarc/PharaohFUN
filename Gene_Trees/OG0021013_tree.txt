@@ -1,0 +1,1 @@
+((tetraselmis_striata_TSEL_002183:0.81886,tetraselmis_striata_TSEL_025875:1.19676)n1:0.34321,(galdieria_sulphuraria_GsulpAzora_G3845:0.31938,galdieria_sulphuraria_GsulpAzora_G4819:0.40538)n2:0.34321)n0;

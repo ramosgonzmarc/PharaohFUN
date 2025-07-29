@@ -1,0 +1,1 @@
+((panicum_hallii_Pahal.1G085700:0.3311,oropetium_thomaeum_Oropetium_20150105_18891A:0.62596)n1:0.20291,(panicum_hallii_Pahal.1G086000:0.34869,oropetium_thomaeum_Oropetium_20150105_18888A:0.71494)n2:0.20291)n0;

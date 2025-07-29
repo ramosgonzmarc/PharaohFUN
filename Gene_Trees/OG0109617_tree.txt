@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9831242:0.309845,(dunaliella_salina_Dusal.0267s00011:0.89999,(haematococcus_lacustris_QJQ45_016255:0.10908,haematococcus_lacustris_QJQ45_028441:0.23827)n2:0.45097)n1:0.309845)n0;

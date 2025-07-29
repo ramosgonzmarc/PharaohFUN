@@ -1,0 +1,1 @@
+(anthoceros_punctatus_Anpun.S1G431900:0.238705,(phymatoceros_phymatodes_Phphy.S1G591300:0.12885,(notothylas_orbicularis_Noorb.S4G141300:0.1952,(paraphymatoceros_pearsonii_Papea.S1G1027000:0.04215,(phaeoceros_carolinianus_Phcar.S1G197600:0.00055,phaeoceros_sp_Phsp.C11G082600:0.00358)n4:0.08178)n3:0.03891)n2:0.11397)n1:0.238705)n0;

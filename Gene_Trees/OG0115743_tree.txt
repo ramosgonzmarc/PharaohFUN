@@ -1,0 +1,1 @@
+(ginkgo_biloba_Gb_15422:0.19566,(linum_usitatissimum_Lus10022655:0.53296,(amaranthus_hypochondriacus_AH002857:0.55638,solanum_tuberosum_Soltu.01G029110:0.22814)n2:0.54384)n1:0.19566)n0;

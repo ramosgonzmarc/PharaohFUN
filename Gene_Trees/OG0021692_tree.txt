@@ -1,0 +1,1 @@
+(panicum_hallii_Pahal.7G341900:0.000275,(panicum_hallii_Pahal.2G322200:0.10679,(panicum_hallii_Pahal.9G615700:0.25954,panicum_hallii_Pahal.1G176600:0.2149)n2:0.74461)n1:0.000275)n0;

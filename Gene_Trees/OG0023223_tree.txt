@@ -1,0 +1,1 @@
+((quercus_rubra_Qurub.03G031300:0.45416,(sequoia_sempervirens_SESE_098790:0.03091,sequoiadendron_giganteum_SEGI_25648:0.01315)n2:0.61002)n1:0.380565,(alsophila_spinulosa_Aspi01Gene42365:0.01604,(alsophila_spinulosa_Aspi01Gene37775:0.1271,alsophila_spinulosa_Aspi01Gene45545:0.13324)n4:0.3591)n3:0.380565)n0;

@@ -1,0 +1,1 @@
+((mesotaenium_kramstae_Mekra.3083411:0.44054,(zygnema_circumcarinatum_Zci_11062:0.11675,zygnema_circumcarinatum1559_ZcUTEX1559_10984:0.12884)n2:0.16418)n1:0.527825,(raphidocelis_subcapitata_Rsub_06762:0.51085,(desmodesmus_armatus_Desar.389258:0.48283,myrmecia_bisecta_Mybis.KAK9811851:0.43295)n4:0.22809)n3:0.527825)n0;

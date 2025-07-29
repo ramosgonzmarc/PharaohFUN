@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp57S06839:0.24704,(cymbomonas_tetramitiformis_KAK3273315:0.99111,(tetraselmis_striata_TSEL_015602:0.00178,tetraselmis_striata_TSEL_025227:0.01555)n2:0.50728)n1:0.24704)n0;

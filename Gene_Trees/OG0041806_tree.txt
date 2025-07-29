@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_01433:0.5392,monoraphidium_minutum_Momin.420360:0.24724)n1:0.117215,(raphidocelis_subcapitata_Rsub_08679:0.30398,monoraphidium_minutum_Momin.396170:0.3448)n2:0.117215)n0;

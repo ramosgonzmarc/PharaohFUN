@@ -1,0 +1,1 @@
+(mesostigma_viride296_Mevir.Mv22848:0.580095,((bathycoccus_prasinos_XM_007507966:1.72318,pedinophyceae_sp_Pesp.9461558:0.6164)n2:0.13254,((tetraselmis_striata_TSEL_028369:0.00053,tetraselmis_striata_TSEL_042868:0.18881)n4:0.79215,(chlorella_sorokiniana_Chlso_g4248:0.49995,chloropicon_primus_Chlpr_g7609:0.63578)n5:0.0486)n3:0.11569)n1:0.580095)n0;

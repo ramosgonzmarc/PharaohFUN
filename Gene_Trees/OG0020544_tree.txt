@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_CmerSOOS_G1512:0.419975,(galdieria_sulphuraria_GsulpAzora_G438:0.90081,(galdieria_sulphuraria_GsulpAzora_G4680:1.3907,galdieria_sulphuraria_GsulpAzora_G6185:0.98269)n2:0.19086)n1:0.419975)n0;

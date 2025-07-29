@@ -1,0 +1,1 @@
+(riccia_sorocarpa_Risor.KAL3696380:0.680435,((isoetes_sinensis_IsiChr8g190:0.26986,isoetes_sinensis_IsiChr10g984:0.57018)n2:0.27552,(azolla_filiculoides_Azfi_s0089.g042548:0.40755,azolla_filiculoides_Azfi_s0835.g088587:0.08521)n3:0.57215)n1:0.680435)n0;

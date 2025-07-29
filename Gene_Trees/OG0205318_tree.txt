@@ -1,0 +1,1 @@
+((zostera_marina_Zosma05g14830:0.56351,oropetium_thomaeum_Oropetium_20150105_05072A:0.70221)n1:0.09825,(mimulus_guttatus_Migut.E01165:0.50391,carica_papaya_Capac.c00157g035:0.17013)n2:0.09825)n0;

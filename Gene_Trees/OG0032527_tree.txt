@@ -1,0 +1,1 @@
+(diphasiastrum_complanatum_Dicom.Y274100:0.5502,(sequoiadendron_giganteum_SEGI_35345:0.81509,(ceratopteris_richardii_Ceric.29G030800:0.17171,sequoia_sempervirens_SESE_094860:0.4026)n2:0.38961)n1:0.5502)n0;

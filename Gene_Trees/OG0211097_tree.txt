@@ -1,0 +1,1 @@
+((medicago_truncatula_Medtr2g041480:0.2617,salix_purpurea_Sapur.014G092900:0.37917)n1:0.18921,(medicago_truncatula_Medtr4g132310:0.46513,(salix_purpurea_Sapur.005G094200:0.51297,salix_purpurea_Sapur.013G003600:0.473535)n3:0.052615)n2:0.20507)n0;

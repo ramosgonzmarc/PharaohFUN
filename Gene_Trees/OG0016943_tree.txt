@@ -1,0 +1,1 @@
+((sphagnum_magellanicum_Sphmag13G006600:0.00864,sphagnum_fallax_Sphfalx01G007800:0.0869)n1:0.60494,(abies_alba_AALBA5B622096:0.01307,(abies_alba_AALBA5B178713:0.02524,(abies_alba_AALBA5B1071161:0.02434,abies_alba_AALBA5B112746:0.07784)n4:0.03142)n3:0.2677)n2:0.60494)n0;

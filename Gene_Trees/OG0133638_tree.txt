@@ -1,0 +1,1 @@
+(malus_domestica_MD14G1209300:0.558595,(fragaria_vesca_FvH4_3g14411:0.29757,(fragaria_vesca_FvH4_6g31891:0.28449,(fragaria_vesca_FvH4_4g02991:0.15323,fragaria_vesca_FvH4_1g23121:0.16812)n3:0.00055)n2:0.34591)n1:0.558595)n0;

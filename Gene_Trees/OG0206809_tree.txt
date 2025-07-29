@@ -1,0 +1,1 @@
+(schrenkiella_parvula_Scpar5g23310:0.1104,(schrenkiella_parvula_Scpar5g17750:0.39791,(schrenkiella_parvula_Scpar7g06870:0.22571,schrenkiella_parvula_Scpar5g17260:0.16894)n2:1.32103)n1:0.1104)n0;

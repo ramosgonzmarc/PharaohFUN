@@ -1,0 +1,1 @@
+((citrus_sinensis_Cisin.023867:0.00055,poncirus_trifoliata_Ptrif.0004s1759:0.01375)n1:0.139235,(fragaria_vesca_FvH4_4g28430:0.20989,(malus_domestica_MD13G1050000:0.11416,prunus_persica_Prupe.1G301700:0.08715)n3:0.02209)n2:0.139235)n0;

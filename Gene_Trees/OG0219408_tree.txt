@@ -1,0 +1,1 @@
+(eleusine_coracana_Elcor.2AG0145940:0.22849,(setaria_italica_Seita.1G322300:0.22626,((miscanthus_sinensis_MisinT527300:0.06395,miscanthus_sinensis_Misin07G477800:0.02928)n3:0.03986,(zea_mays_Zm00001d018073:0.4209,zea_mays_Zm00001d052238:0.137538)n4:0.015282)n2:0.06121)n1:0.22849)n0;

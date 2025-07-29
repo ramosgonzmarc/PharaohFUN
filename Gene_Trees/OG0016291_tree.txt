@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3288982:0.34194,(caulerpa_lentillifera_Caule_g8549:0.97918,(tetraselmis_striata_TSEL_039805:0.59918,((tetraselmis_striata_TSEL_012908:0.30103,tetraselmis_striata_TSEL_038607:0.28714)n4:0.52267,(tetraselmis_striata_TSEL_037608:0.59743,tetraselmis_striata_TSEL_038332:0.58557)n5:0.29493)n3:0.068913)n2:0.007657)n1:0.4753)n0;

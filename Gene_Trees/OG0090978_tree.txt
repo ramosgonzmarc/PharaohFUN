@@ -1,0 +1,1 @@
+(cinnamomum_kanehirae_CKAN_02246900:0.926465,((corylus_avellana_Corav.g13039:0.26118,(carya_illinoinensis_Caril.11G085400:0.10298,carya_illinoinensis_Caril.11G085500:0.06121)n3:0.21826)n2:0.0977,(quercus_rubra_Qurub.12G035600:0.06909,(quercus_rubra_Qurub.12G035700:0.02318,quercus_rubra_Qurub.12G036100:0.01776)n5:0.089595)n4:0.009955)n1:0.05992)n0;

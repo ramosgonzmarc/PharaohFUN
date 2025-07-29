@@ -1,0 +1,1 @@
+(apatococcus_lobatus_Aplob.KAK9834731:0.582195,(asterochloris_glomerata_Astgl_g5502:0.04771,(asterochloris_glomerata_Astgl_g1765:0.19476,(asterochloris_glomerata_Astgl_g1764:0.01462,asterochloris_glomerata_Astgl_g4970:0.53024)n3:0.47413)n2:0.06915)n1:0.582195)n0;

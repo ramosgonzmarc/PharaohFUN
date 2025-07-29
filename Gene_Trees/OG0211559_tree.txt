@@ -1,0 +1,1 @@
+(quercus_rubra_Qurub.04G095400:0.06696,(quercus_rubra_Qurub.04G095300:0.14765,(quercus_rubra_Qurub.04G095500:0.08473,quercus_rubra_Qurub.04G094800:1.08867)n2:0.21701)n1:0.06696)n0;

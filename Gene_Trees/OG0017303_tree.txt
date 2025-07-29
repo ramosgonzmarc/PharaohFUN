@@ -1,0 +1,1 @@
+(trifolium_pratense_Trpra.41288:0.773335,(alsophila_spinulosa_Aspi01Gene03165:0.14692,(alsophila_spinulosa_Aspi01Gene58614:0.11327,((alsophila_spinulosa_Aspi01Gene26672:0.11128,alsophila_spinulosa_Aspi01Gene08921:0.14575)n4:0.00055,alsophila_spinulosa_Aspi01Gene34524:0.06008)n3:0.01614)n2:0.03539)n1:0.773335)n0;

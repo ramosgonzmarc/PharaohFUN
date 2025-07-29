@@ -1,0 +1,1 @@
+((sequoia_sempervirens_SESE_043070:0.13683,(abies_alba_AALBA5B206833:0.03361,picea_abies_Pab_48428g0010:0.07335)n2:0.26764)n1:0.51285,((alsophila_spinulosa_Aspi01Gene38616:0.20916,alsophila_spinulosa_Aspi01Gene38637:0.00055)n4:0.24989,(alsophila_spinulosa_Aspi01Gene38615:0.07595,alsophila_spinulosa_Aspi01Gene38638:0.00721)n5:0.43338)n3:0.51285)n0;

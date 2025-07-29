@@ -1,0 +1,1 @@
+(trebouxia_sp_FRX49_02872:0.575125,((desmodesmus_armatus_Desar.182356:0.37756,scenedesmus_obliquus_Sobl_g02523:0.31334)n2:0.27928,(chromochloris_zofingiensis_Cz15g20130:0.59545,(raphidocelis_subcapitata_Rsub_08851:0.30837,monoraphidium_minutum_Momin.507009:0.33584)n4:0.42119)n3:0.04625)n1:0.575125)n0;

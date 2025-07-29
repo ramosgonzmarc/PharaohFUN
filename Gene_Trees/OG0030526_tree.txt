@@ -1,0 +1,1 @@
+((alsophila_spinulosa_Aspi01Gene45084:0.03582,alsophila_spinulosa_Aspi01Gene72132:0.0909)n1:0.20545,(cucumis_sativus_Cucsa.c017800g01:0.99461,trifolium_pratense_Trpra.15025:0.80714)n2:0.20545)n0;

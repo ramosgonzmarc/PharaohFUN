@@ -1,0 +1,1 @@
+(dioscorea_alata_Dioal.09G043200:0.246535,(arabidopsis_thaliana_AT5G18404:0.75838,(eutrema_salsugineum_Thhalv10015787m:0.08586,(boechera_stricta_Bostr.25993s0379:0.03482,boechera_stricta_Bostr.26527s0371:0.000495)n3:5.5e-05)n2:0.19631)n1:0.246535)n0;

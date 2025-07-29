@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chrsp360S00831:0.43413,((micromonas_pusilla_Mpus_203081:0.59986,micromonas_commoda_Micom.051692:0.77717)n2:0.6658,(bathycoccus_prasinos_XM_007515765:0.72391,(ostreococcus_tauri_ostta01g04780:0.35021,(ostreococcus_lucimarinus_Oluc_29104:0.38738,ostreococcus_mediterraneus_Ostme01g01910:0.30307)n5:0.15915)n4:0.26857)n3:0.26044)n1:0.43413)n0;

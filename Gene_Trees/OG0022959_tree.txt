@@ -1,0 +1,1 @@
+((sorghum_bicolor_Sobic.008G159000:0.37174,setaria_italica_Seita.3G380600:0.22169)n1:0.16597,(brachypodium_distachyon_Bradi4g02553:0.30818,((hordeum_vulgare_Hvul_5HG0433170:0.07735,(triticum_aestivum_TraesCS5D03G0166100:0.00055,triticum_aestivum_TraesCS5A03G0145800:0.013887)n5:0.001543)n4:0.02656,aegilops_tauschii_Atau_XP_040244293:0.00055)n3:0.10138)n2:0.16597)n0;

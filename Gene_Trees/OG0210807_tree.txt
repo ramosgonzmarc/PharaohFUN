@@ -1,0 +1,1 @@
+((vigna_unguiculata_VigunL014557:0.07907,vigna_unguiculata_Vigun01g127050:0.00298)n1:0.38763,(lens_culinaris_Lecul.1g031080:0.09066,(lens_culinaris_Lecul.3g015680:0.0256,(lens_culinaris_Lecul.4g004400:0.11215,lens_culinaris_Lecul.L019640:0.08128)n4:0.00055)n3:0.11009)n2:0.38763)n0;

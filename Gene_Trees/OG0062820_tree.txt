@@ -1,0 +1,1 @@
+(amborella_trichopoda_AmTr00003g281:0.399985,(phaseolus_acutifolius_Phacu.005G097100:0.42631,(carya_illinoinensis_Caril.11G168300:0.31067,lupinus_albus_Lalb_Chr19g0134311:0.52057)n2:0.14427)n1:0.399985)n0;

@@ -1,0 +1,1 @@
+((abies_alba_AALBA5B1157950:0.19116,(olea_europaea_Oeu039265:0.22045,lupinus_albus_Lalb_Chr14g0368671:0.33372)n2:0.42403)n1:0.055625,(amaranthus_hypochondriacus_AH001122:1.45374,gnetum_montanum_TnS013782714t01:0.80672)n3:0.055625)n0;

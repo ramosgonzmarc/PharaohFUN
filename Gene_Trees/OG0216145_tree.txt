@@ -1,0 +1,1 @@
+((amaranthus_hypochondriacus_AH018382:0.12758,beta_vulgaris_Bevul.5G088000:0.15399)n1:0.14046,(lactuca_sativa_Lsat_gn_6_78680:0.2048,(daucus_carota_DCAR_206326:0.26352,(coffea_arabica_Coara.067200:0.00054,coffea_arabica_Coara.070233:0.01649)n4:0.26125)n3:0.03178)n2:0.14046)n0;

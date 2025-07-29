@@ -1,0 +1,1 @@
+(triticum_aestivum_TraesCS1A03G0117200:0.379655,(oropetium_thomaeum_Oropetium_20150105_15404A:0.62829,(sorghum_bicolor_Sobic.009G021100:0.54138,setaria_italica_Seita.3G042800:0.56583)n2:0.11729)n1:0.379655)n0;

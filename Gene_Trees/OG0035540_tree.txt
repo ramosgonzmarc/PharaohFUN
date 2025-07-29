@@ -1,0 +1,1 @@
+(cymbomonas_tetramitiformis_KAK3283480:0.11339,(tetraselmis_striata_TSEL_019433:0.21684,((apatococcus_lobatus_Aplob.KAK9834491:0.77621,myrmecia_bisecta_Mybis.KAK9803181:0.57051)n3:0.41852,(haematococcus_lacustris_QJQ45_004394:0.34814,(haematococcus_lacustris_QJQ45_012772:0.00055,haematococcus_lacustris_QJQ45_013031:0.01455)n5:0.06648)n4:0.47194)n2:0.31861)n1:0.11339)n0;

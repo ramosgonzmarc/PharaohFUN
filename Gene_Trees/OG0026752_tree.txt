@@ -1,0 +1,1 @@
+((zea_mays_Zm00001d009730:0.2501,((oryza_sativa_Os08g16800:0.00053,oryza_sativa_Os02g12240:0.02185)n3:0.08401,oryza_sativa_Os02g19980:0.000495)n2:5.5e-05)n1:0.27559,setaria_italica_Seita.7G156500:0.63605)n0;

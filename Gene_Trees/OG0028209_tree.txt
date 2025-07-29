@@ -1,0 +1,1 @@
+((caulerpa_lentillifera_Caule_g9139:1.18213,helicosporidium_sp_Helsp_g787:1.4846)n1:0.009285,(tetraselmis_striata_TSEL_039445:0.46036,(tetraselmis_striata_TSEL_033930:0.07971,tetraselmis_striata_TSEL_037766:0.67015)n3:0.27616)n2:0.009285)n0;

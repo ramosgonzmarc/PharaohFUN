@@ -1,0 +1,1 @@
+((lotus_japonicus_Lj6g0026854:0.3964,(glycine_max_Glyma.01G032300:0.00613,glycine_max_Glyma.02G033100:0.064476)n2:0.007164)n1:0.00539,(trifolium_pratense_Trpra.28738:0.19528,(medicago_truncatula_Medtr7g112950:0.66903,medicago_truncatula_Medtr0043s0040:0.371439)n4:0.041271)n3:0.85772)n0;

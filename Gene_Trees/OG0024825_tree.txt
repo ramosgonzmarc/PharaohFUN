@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_010112:0.3104,(gnetum_montanum_TnS001031547t05:0.39881,(welwitschia_mirabilis_Wmi_10533:0.03393,welwitschia_mirabilis_Wmi_10534:0.00513)n2:0.39181)n1:0.3104)n0;
